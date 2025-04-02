@@ -722,6 +722,32 @@
                     }
                 ]
             }
+        },
+        "JS-Slash-Runner": {
+            "activate_setting": true,
+            "render": {
+                "auto_enable_character_regex": true,
+                "auto_disable_incompatible_options": true,
+                "tampermonkey_compatibility": false,
+                "process_depth": 0,
+                "rendering_optimize": false
+            },
+            "audio": {
+                "audio_setting": true,
+                "bgm_enabled": true,
+                "ambient_enabled": true,
+                "bgm_mode": "repeat",
+                "bgm_muted": false,
+                "bgm_volume": 50,
+                "bgm_selected": null,
+                "bgm_current_time": 0,
+                "ambient_mode": "stop",
+                "ambient_muted": false,
+                "ambient_volume": 50,
+                "ambient_selected": null,
+                "ambient_current_time": 0,
+                "audio_cooldown": 0
+            }
         }
     },
     "tags": [
