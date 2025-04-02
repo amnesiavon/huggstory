@@ -309,7 +309,7 @@
             "user-default.png": "汐颜",
             "1743610426923-.png": "安汐"
         },
-        "default_persona": "1743610426923-.png",
+        "default_persona": "user-default.png",
         "persona_descriptions": {
             "user-default.png": {
                 "description": "",
