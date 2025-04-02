@@ -306,7 +306,7 @@
         "personas": {
             "user-default.png": "汐颜"
         },
-        "default_persona": null,
+        "default_persona": "user-default.png",
         "persona_descriptions": {
             "user-default.png": {
                 "description": "",
