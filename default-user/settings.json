@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "汐颜",
-    "active_character": "修仙玄幻世界.png",
+    "active_character": "露出世界.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -511,7 +511,8 @@
         ],
         "character_allowed_regex": [
             "「系统Z-09」.png",
-            "顾云汐.png"
+            "顾云汐.png",
+            "露出世界.png"
         ],
         "tts": {
             "voiceMap": "",
