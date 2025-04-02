@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "汐颜",
-    "active_character": "「系统Z-09」.png",
+    "active_character": "岑芷.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -736,7 +736,8 @@
         "undefined": [],
         "test1.png": [],
         "test.png": [],
-        "「系统Z-09」.png": []
+        "「系统Z-09」.png": [],
+        "岑芷.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
