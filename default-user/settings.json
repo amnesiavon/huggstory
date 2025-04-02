@@ -486,6 +486,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "c3404b3f-5297-4bf9-9f0a-90a43f7ba345",
+                "scriptName": "[Kemini] 3",
+                "findRegex": "/<thinking>(?:(?!<thinking>)[\\s\\S])*<\\/thinking>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [],
@@ -711,7 +728,9 @@
         "default_Seraphina.png": [
             "1345561466591"
         ],
-        "undefined": []
+        "undefined": [],
+        "test1.png": [],
+        "test.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
