@@ -509,8 +509,7 @@
             }
         ],
         "character_allowed_regex": [
-            "「系统Z-09」.png",
-            "顾云汐.png"
+            "「系统Z-09」.png"
         ],
         "tts": {
             "voiceMap": "",
