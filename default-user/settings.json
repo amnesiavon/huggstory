@@ -1,7 +1,7 @@
 {
     "firstRun": false,
     "currentVersion": "1.12.11",
-    "username": "User",
+    "username": "汐颜",
     "active_character": "「系统Z-09」.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -304,7 +304,7 @@
             "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}."
         },
         "personas": {
-            "user-default.png": "User"
+            "user-default.png": "汐颜"
         },
         "default_persona": null,
         "persona_descriptions": {
