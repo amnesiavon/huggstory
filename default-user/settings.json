@@ -1,7 +1,7 @@
 {
     "firstRun": false,
     "currentVersion": "1.12.11",
-    "username": "汐颜",
+    "username": "安汐",
     "active_character": "test1.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -307,13 +307,21 @@
             "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}."
         },
         "personas": {
-            "user-default.png": "汐颜"
+            "user-default.png": "汐颜",
+            "1743610426923-.png": "安汐"
         },
-        "default_persona": "user-default.png",
+        "default_persona": "1743610426923-.png",
         "persona_descriptions": {
             "user-default.png": {
                 "description": "",
                 "position": 0
+            },
+            "1743610426923-.png": {
+                "description": "",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
             }
         },
         "persona_description": "",
