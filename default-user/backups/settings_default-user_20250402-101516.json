@@ -505,9 +505,7 @@
                 "maxDepth": null
             }
         ],
-        "character_allowed_regex": [
-            "「系统Z-09」.png"
-        ],
+        "character_allowed_regex": [],
         "tts": {
             "voiceMap": "",
             "ttsEnabled": false,
