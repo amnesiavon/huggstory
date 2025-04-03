@@ -753,7 +753,9 @@
                 "ambient_selected": null,
                 "ambient_current_time": 0,
                 "audio_cooldown": 0
-            }
+            },
+            "auto_enable_character_regex": true,
+            "auto_disable_incompatible_options": true
         }
     },
     "tags": [
