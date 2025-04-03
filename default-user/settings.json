@@ -363,7 +363,7 @@
         "show_swipe_num_all_messages": false,
         "auto_connect": true,
         "auto_load_chat": false,
-        "forbid_external_media": true,
+        "forbid_external_media": false,
         "external_media_allowed_overrides": [],
         "external_media_forbidden_overrides": [],
         "ui_mode": 1,
@@ -517,7 +517,8 @@
         "character_allowed_regex": [
             "「系统Z-09」.png",
             "顾云汐.png",
-            "露出世界.png"
+            "露出世界.png",
+            "Mori.png"
         ],
         "tts": {
             "voiceMap": "",
