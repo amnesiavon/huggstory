@@ -737,7 +737,7 @@
                 "auto_disable_incompatible_options": true,
                 "tampermonkey_compatibility": false,
                 "process_depth": 0,
-                "rendering_optimize": false
+                "rendering_optimize": true
             },
             "audio": {
                 "audio_setting": true,
