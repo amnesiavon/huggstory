@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "汐颜",
-    "active_character": "顾云汐.png",
+    "active_character": "「系统Z-09」.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -16,7 +16,7 @@
         "world_info_depth": 2,
         "world_info_min_activations": 0,
         "world_info_min_activations_depth_max": 0,
-        "world_info_budget": 25,
+        "world_info_budget": 100,
         "world_info_include_names": true,
         "world_info_recursive": true,
         "world_info_overflow_alert": false,
@@ -191,10 +191,10 @@
         "streaming_fps": 30,
         "smooth_streaming": false,
         "smooth_streaming_speed": 50,
-        "fast_ui_mode": true,
+        "fast_ui_mode": false,
         "avatar_style": 0,
-        "chat_display": 0,
-        "chat_width": 50,
+        "chat_display": 1,
+        "chat_width": 53,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -204,26 +204,26 @@
         "sort_field": "name",
         "sort_order": "asc",
         "sort_rule": null,
-        "font_scale": 1,
-        "blur_strength": 10,
+        "font_scale": 0.88,
+        "blur_strength": 3,
         "shadow_width": 2,
-        "main_text_color": "rgba(220, 220, 210, 1)",
-        "italics_text_color": "rgba(145, 145, 145, 1)",
-        "underline_text_color": "rgba(188, 231, 207, 1)",
-        "quote_text_color": "rgba(225, 138, 36, 1)",
-        "blur_tint_color": "rgba(23, 23, 23, 1)",
-        "chat_tint_color": "rgba(23, 23, 23, 1)",
-        "user_mes_blur_tint_color": "rgba(30, 30, 30, 0.9)",
-        "bot_mes_blur_tint_color": "rgba(30, 30, 30, 0.9)",
-        "shadow_color": "rgba(0, 0, 0, 1)",
-        "border_color": "rgba(0, 0, 0, 0.5)",
-        "custom_css": "",
+        "main_text_color": "rgba(0, 0, 0, 1)",
+        "italics_text_color": "rgba(131, 5, 5, 1)",
+        "underline_text_color": "rgba(205, 180, 160, 1)",
+        "quote_text_color": "rgba(165, 140, 115, 1)",
+        "blur_tint_color": "rgba(255, 247, 225, 0.95)",
+        "chat_tint_color": "rgba(77, 62, 46, 1)",
+        "user_mes_blur_tint_color": "rgba(255, 255, 255, 0.75)",
+        "bot_mes_blur_tint_color": "rgba(34, 30, 32, 0.75)",
+        "shadow_color": "rgba(0, 0, 0, 0.3)",
+        "border_color": "rgba(205, 180, 160, 0.52)",
+        "custom_css": "/*\n作者：Moaisha|除 Discord 类脑社区外看到请举报Thanks♪(･ω･)ﾉ\n * 许可协议：CC BY-NC-SA 4.0\n* 二改需注明原作者\n* 不可商用倒买倒卖\n* 仅免费发布在 Discord 类脑社区\n（https://discord.com/channels/1134557553011998840/1339971090432266331）\n*/\n@import url('https://static.zeoseven.com/zsft/7/main/result.css');\n\nbody {\n   font-family: \"Zhuque Fangsong (technical preview)\";\n   font-weight: normal;\n}\n/* 中文字体应用 */\nbody:lang(zh) {\n   font-family: \"Zhuque Fangsong (technical preview)\";\n}\n\n\n:root {\n    --send-but-bg-color: #8b735b;\n    --send-but-box-shadow-color: #4d3e2e;\n    --send-but-inset-shadow-color: rgba(255,255,255,0.2);\n    --delete-button-bg-gradient-start: #8b735b;\n    --delete-button-bg-gradient-end: #8b735b;\n    --text-pole-bg-color: #f5ebdc;\n    --text-pole-bg-gradient-start: rgba(245,235,220,0.9);\n    --text-pole-bg-gradient-end: rgba(230,215,195,0.9);\n    --text-pole-font-color: #4d3e2e;\n    --prompt-disabled-font-color: #766230;\n    --mes-time-font-color: #766230;\n    --mes-time-text-shadow-color: rgba(118,98,72,0.15);\n    --title-restorable-bg-color: rgba(230,215,195,0.9);\n    --settings-title-bg-color: rgba(245,235,220,0.95);\n    --settings-title-font-color: #4d3e2e;\n    --settings-title-text-shadow-color: rgba(118,98,72,0.2);\n    --edit-textarea-bg-color: #f5ebdc;\n    --blockquote-bg-color: rgba(245,235,220,0.7);\n    --blockquote-border-color: #8b735b;\n    --blockquote-font-color: #4d3e2e;\n    --waifu-chat-and-scrollbar: 2px solid #8b735b;\n    --ink-spot-color: rgba(118,98,72,0.1);\n    --avatar-border-color: #8b735b;\n    --avatar-size: 50px;\n    --mes-padding-top: 50px;\n    --mes-margin-bottom: 25px;\n    --mes-text-margin: 25px 15px 15px;\n    --mes-text-padding: 20px 25px;\n    --mes-text-border-width: 2px;\n    --mes-text-border-color: #8b735b;\n    --mes-text-border-radius: 8px 0 8px 0;\n    --mes-text-box-shadow-1: 3px 3px 8px rgba(118,98,72,0.1);\n    --mes-text-box-shadow-2: inset 1px 1px 3px rgba(255,255,255,0.2);\n    --mes-text-border-outside-width: 1px;\n    --mes-text-border-outside-color: rgba(139,115,91,0.3);\n    --mes-text-border-outside-radius: 12px 2px 12px 2px;\n    --send-but-padding: 8px 16px;\n    --send-but-border-radius: 8px;\n    --text-pole-border-radius: 15px;\n    --text-pole-border-width: 2px;\n    --text-pole-border-color: #766230;\n    --text-pole-box-shadow-1: inset 2px 2px 5px rgba(118,98,72,0.1);\n    --text-pole-box-shadow-2: 2px 2px 5px rgba(118,98,72,0.2);\n    --delete-button-border-width: 2px;\n    --delete-button-border-radius: 0 8px 0 8px;\n    --delete-button-box-shadow-1: 3px 3px 5px rgba(0,0,0,0.3);\n    --delete-button-box-shadow-2: inset 0 0 5px rgba(255,215,0,0.2);\n    --title-restorable-box-shadow: 0 2px 4px rgba(118,98,72,0.1);\n    --settings-title-border-left-width: 5px;\n    --settings-title-padding: 10px 20px;\n    --pre-bg-gradient-start: #8b735b;\n    --pre-bg-gradient-end: #5C442E;\n    --pre-border-width: 3px;\n    --pre-border-color: #785447;\n    --pre-border-radius: 8px 0 8px 0;\n    --pre-box-shadow-1: 5px 5px 15px rgba(0,0,0,0.3);\n    --pre-box-shadow-2: inset 0 0 10px rgba(255,255,255,0.1);\n    --pre-border-outside-width: 2px;\n    --pre-border-outside-color: #8b735b;\n    --pre-border-outside-radius: 10px 0 10px 0;\n    --top-settings-holder-bg-gradient-start: rgba(245,235,220,0.95);\n    --top-settings-holder-bg-gradient-end: rgba(230,215,195,0.93);\n    --top-settings-holder-box-shadow: 0 2px 5px rgba(118,98,72,0.15);\n    --drawer-icon-color: #4d3e2e;\n    --drawer-icon-font-size: 1.5em;\n    --mes-edit-buttons-bg-color: rgba(245,235,220,0.95);\n    --mes-edit-buttons-border-width: 1px;\n    --mes-edit-buttons-border-color: #8b735b;\n    --mes-edit-buttons-border-radius: 5px;\n    --mes-edit-buttons-box-shadow: 2px 2px 5px rgba(118,98,72,0.2);\n    --mes-button-color: #4d3e2e;\n    --mes-button-padding: 4px 8px;\n}\n\n\n\n/* 消息容器 */\nbody.bubblechat .mes {\n    position: relative;\n    background: \n        linear-gradient(var(--text-pole-bg-gradient-start), var(--text-pole-bg-gradient-end)),\n        repeating-linear-gradient(\n            -10deg,\n            rgba(118,82,48,0.05) 0px,\n            rgba(118,82,48,0.05) 2px,\n            transparent 2px,\n            transparent 5px\n        ) !important;\n    border-radius: 0 !important;\n    transition: transform 0.3s ease;\n}\n/* 消息*/\n.mes_text {\n    position: relative;\n    margin: var(--mes-text-margin) !important;\n    padding: var(--mes-text-padding) !important;\n    border: var(--mes-text-border-width) solid var(--mes-text-border-color) !important;\n    border-radius: var(--mes-text-border-radius) !important;\n    background: \n        linear-gradient(175deg, \n            rgba(245,235,220,0.98) 0%, \n            rgba(230,215,195,0.95) 100%) !important;\n    box-shadow: \n        var(--mes-text-box-shadow-1),\n        var(--mes-text-box-shadow-2);\n    transition: box-shadow 0.3s ease;\n}\n\n\n/* 消息容器 */\n.mes {\n    position: relative;\n    margin: 1.5em 0;\n    padding: 15px;\n    background: linear-gradient(145deg, var(--mes-bg-gradient-start) 0%, var(--mes-bg-gradient-end) 100%)!important;\n    width: 100%;\n    flex-direction: column;\n    align-items: center;\n    border: none !important;\n    margin: 0;\n}\n.mes_block {\n    margin: 0 !important;\n    width: 98%;\n    padding-left: 0;\n}\n\n.last_mes .mes_text {\n  padding-right: 0;\n}\n\n.last_mes .mesAvatarWrapper {\n  padding-bottom: 0;\n}\n\n\nbody.bubblechat .mes {\n    margin: -1px 0 !important;\n    border-radius: 0 !important;\n}\n\n.avatar img {\n    width: var(--avatar-size) !important;\n    height: var(--avatar-size) !important;\n    border: 3px solid var(--avatar-border-color) !important;\n    border-radius: 50% !important;\n}\n\n/* 动态墨水斑点 */\n@keyframes inkSpread {\n    0% { transform: scale(0); opacity: 0.8; }\n    100% { transform: scale(2); opacity: 0; }\n}\n\nbody.bubblechat .mes:hover::after {\n    content: '';\n    position: absolute;\n    width: 18px;\n    height: 18px;\n    background: var(--ink-spot-color);\n    border-radius: 50%;\n    animation: inkSpread 1.1s ease-out;\n    top: 70%;\n    left: 80%;\n    pointer-events: none;\n}\n\n/* ======== 按钮系统 ======== */\n#send_but {\n    background: var(--send-but-bg-color) !important;\n    border: none !important;\n    border-radius: var(--send-but-border-radius);\n    padding: var(--send-but-padding);\n    box-shadow:\n        2px 2px 0 var(--send-but-box-shadow-color),\n        inset 1px 1px 2px var(--send-but-inset-shadow-color);\n    transition: all 0.2s ease;\n    font-family: 'ZhuqueFangsong';\n    color: #E2D9CC!important;\n    position: relative;\n    overflow: hidden;\n}\n#send_textarea:placeholder-shown {\nfont-family: 'ZhuqueFangsong';\n}\n#send_but::after {\n    content: '';\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    width: 0;\n    height: 0;\n    background: rgba(255,255,255,0.2);\n    border-radius: 50%;\n    transform: translate(-50%, -50%);\n    transition: width 0.3s, height 0.3s;\n}\n\n#send_but:hover::after {\n    width: 100px;\n    height: 100px;\n}\n\n/* ======== 移动端适配 ======== */\n\n\n/* 输入区背景板 */\n.text_pole,\ntextarea {\n    border-radius: 10px !important;\n    background-color: var(--text-pole-bg-color) !important;\n    background-image: linear-gradient(\n        to bottom, \n        var(--text-pole-bg-gradient-start), \n        var(--text-pole-bg-gradient-end)\n    ) !important;\n    color: var(--text-pole-font-color) !important;\n    border: var(--text-pole-border-width) solid var(--text-pole-border-color) !important;\n    box-shadow: \n        var(--text-pole-box-shadow-1),\n        var(--text-pole-box-shadow-2);\n}\n\n/* 预设关字体 */\n#completion_prompt_manager #completion_prompt_manager_list .completion_prompt_manager_prompt_disabled .completion_prompt_manager_prompt_name,\n#completion_prompt_manager #completion_prompt_manager_list .completion_prompt_manager_prompt_disabled .completion_prompt_manager_prompt_name .prompt-manager-inspect-action {\n    color: var(--prompt-disabled-font-color);\n}\n\n/* 删除按钮 */\n#delete_button,\n.redWarningBG,\n.menu_button.popup-button-ok {\n    background: linear-gradient(\n        to bottom, \n        var(--delete-button-bg-gradient-start), \n        var(--delete-button-bg-gradient-end)\n    ) !important;\n    border: var(--delete-button-border-width) solid  !important;\n    border-radius: var(--delete-button-border-radius);\n    box-shadow: \n        var(--delete-button-box-shadow-1),\n        var(--delete-button-box-shadow-2);\n    color: #f5ebdc !important;\n}\n\n/* 时间戳 */\n.mes_time {\n    color: var(--mes-time-font-color) !important;\n    text-shadow: 0.5px 0.5px var(--mes-time-text-shadow-color);\n    font-size: 0.75em;\n    letter-spacing: 0.5px; \n}\n\n/* 设置标题底色去除 */\n.title_restorable {\n    background-image: none !important;\n    background-color: var(--title-restorable-bg-color);\n    box-shadow: var(--title-restorable-box-shadow);\n}\n\n/* 设置标题字体修改 */\n#extensions_settings .inline-drawer-toggle.inline-drawer-header,\n#extensions_settings2 .inline-drawer-toggle.inline-drawer-header,\n#user-settings-block h4,\n.standoutHeader {\n    background-image: none !important;\n    background-color: var(--settings-title-bg-color);\n    color: var(--settings-title-font-color);\n    text-shadow: 1px 1px 2px var(--settings-title-text-shadow-color);\n    border-left-width: var(--settings-title-border-left-width); \n    padding: var(--settings-title-padding); \n}\n\n/* 编辑框黑色去除 */\n.edit_textarea {\n    background-color: var(--edit-textarea-bg-color) !important;\n}\n\nbody.bubblechat .mes_block {\n    padding-bottom: unset;\n}\n\n/* 隐藏代理警告 */\n#ReverseProxyWarningMessage {\n    display: none !important;\n}\n\n/* 标注区域 */\n.mes_text blockquote {\n    background-color: var(--blockquote-bg-color);\n    border-left: 5px solid var(--blockquote-border-color);\n    color: var(--blockquote-font-color);\n}\n\nbody.waifuMode #chat {\n    border-radius: 12px 12px 0 0;\n    border-top: var(--waifu-chat-and-scrollbar);\n    border-left: var(--waifu-chat-and-scrollbar);\n    border-right: var(--waifu-chat-and-scrollbar);\n    border-bottom: none;\n}\n\nbody.waifuMode #form_sheld {\n    border-top: none;\n    padding-bottom: 1%;\n}\n\nbody.waifuMode #top-bar {\n    height: 0px;\n    border: none;\n    box-shadow: none; \n}\n\nbody.waifuMode #top-settings-holder {\n    background-color: transparent;\n    opacity: 0;\n    max-height: 30px;\n    pointer-events: all; \n    transition: opacity 1.0s ease, visibility 1.0s ease, max-height 1.0s ease, pointer-events 0s ease;\n}\n\nbody.waifuMode #top-settings-holder:hover {\n    opacity: 1;\n    visibility: visible;\n    max-height: 80px;\n    pointer-events: auto; \n}\n\n* {\n    scrollbar-width: thin;\n    scrollbar-color: rgba(118,98,72,0.4) rgba(245,235,220,0.3);\n}\n\n/* 时间戳样式 */\n.mes_time {\n    color: var(--mes-time-font-color) !important;\n    text-shadow: 0.5px 0.5px var(--mes-time-text-shadow-color);\n    font-size: 0.75em;\n    letter-spacing: 0.5px; \n}\n\n/* 标题系统 */\n.title_restorable {\n    background-color: var(--title-restorable-bg-color);\n    box-shadow: var(--title-restorable-box-shadow);\n}\n\n#extensions_settings .inline-drawer-toggle.inline-drawer-header,\n#user-settings-block h4 {\n    background-color: var(--settings-title-bg-color);\n    color: var(--settings-title-font-color);\n    border-left-width: var(--settings-title-border-left-width); \n    padding: var(--settings-title-padding); \n}\n\npre, code {\n    background: \n        linear-gradient(160deg, var(--pre-bg-gradient-start) 0%, var(--pre-bg-gradient-end) 100%) !important;\n    border: var(--pre-border-width) solid var(--pre-border-color) !important;\n    border-radius: var(--pre-border-radius) !important;\n    color: #e6d8c3 !important;\n    font-family: 'Ma Shan Zheng', cursive;\n    position: relative;\n    box-shadow: \n        var(--pre-box-shadow-1),\n        var(--pre-box-shadow-2);\n}\n\npre::before {\n    content: '';\n    position: absolute;\n    top: calc(-1 * var(--pre-border-width));\n    left: calc(-1 * var(--pre-border-width));\n    right: calc(-1 * var(--pre-border-width));\n    bottom: calc(-1 * var(--pre-border-width));\n    border: var(--pre-border-outside-width) solid var(--pre-border-outside-color);\n    border-radius: var(--pre-border-outside-radius);\n    pointer-events: none;\n}\n\n/* 移动端滚动条隐藏 */\n@media screen and (max-width: 1000px) {\n    *::-webkit-scrollbar {\n        display: none;\n    }\n    \n    * {\n        scrollbar-width: none;\n        -ms-overflow-style: none;\n    }\n}\n\n#top-settings-holder {\n    background: linear-gradient(var(--top-settings-holder-bg-gradient-start), var(--top-settings-holder-bg-gradient-end)) !important;\n    box-shadow: var(--top-settings-holder-box-shadow);\n}\n\n.drawer-icon {\n    color: var(--drawer-icon-color) !important;\n    font-size: var(--drawer-icon-font-size);\n}\n\n.mes_edit_buttons {\n    background: var(--mes-edit-buttons-bg-color) !important;\n    border: var(--mes-edit-buttons-border-width) solid var(--mes-edit-buttons-border-color) !important;\n    border-radius: var(--mes-edit-buttons-border-radius);\n    box-shadow: var(--mes-edit-buttons-box-shadow);\n}\n\n.mes_button {\n    color: var(--mes-button-color) !important;\n    padding: var(--mes-button-padding);\n    transition: all 0.2s ease;\n}\n\n.mes_button:hover {\n    background: rgba(139,115,91,0.1) !important;\n    transform: scale(1.05);\n}\n\n/* 角色切换器优化 */\n#HotSwapWrapper > div {\n    padding: 2px 0;\n}\n\n.character_select {\n    transition: transform 0.3s ease;\n}\n\n.character_select:hover {\n    transform: translateY(-3px);\n}\n\n/*\n作者：Moaisha|除 Discord 类脑社区外看到请举报Thanks♪(･ω･)ﾉ\n * 许可协议：CC BY-NC-SA 4.0\n* 二改需注明原作者\n* 不可商用倒买倒卖\n* 仅免费发布在 Discord 类脑社区\n（https://discord.com/channels/1134557553011998840/1339971090432266331）\n*/",
         "waifuMode": false,
         "movingUI": false,
         "movingUIState": {},
         "movingUIPreset": "Default",
-        "noShadows": true,
-        "theme": "Dark Lite",
+        "noShadows": false,
+        "theme": "牛皮纸v1",
         "gestures": true,
         "auto_swipe": false,
         "auto_swipe_minimum_length": 0,
@@ -241,7 +241,7 @@
         "timer_enabled": false,
         "timestamps_enabled": true,
         "timestamp_model_icon": true,
-        "mesIDDisplay_enabled": false,
+        "mesIDDisplay_enabled": true,
         "hideChatAvatars_enabled": false,
         "max_context_unlocked": false,
         "message_token_count_enabled": false,
@@ -310,7 +310,7 @@
         "default_persona": "user-default.png",
         "persona_descriptions": {
             "user-default.png": {
-                "description": "\n {\n  \"user_name\": \"汐颜\",\n  \"user_persona\": \"## 角色档案：汐颜\\n\\n**【身份背景】**\\n汐颜，其名低语着古老的秘辛。她曾是上古修仙纪元中，威震诸天的天魔尊上最为宠溺的小女儿，身份尊贵，本该集万千宠爱于一身。然而，命运的洪流无情，一场席卷天魔全族的灭顶之灾，将她的世界彻底倾覆。在那场惨烈的战役中，她被宣告失踪，世人皆以为这位天魔公主早已香消玉殒，化作历史的尘埃。\\n\\n鲜为人知的是，一缕残魂，承载着不灭的执念与记忆，奇迹般地穿越了时空的壁垒，降临在一个灵气枯竭的凡俗世界——彼时虽仍属古代，却已是截然不同的时间线。自此，汐颜开始了她漫长得近乎永恒的轮回之旅。九十九世的转生，如同九十九场醒不来的梦，她在红尘俗世中辗转沉浮，历经王朝更迭，看尽人间百态。她曾是妙手回春的医者，也曾是颠倒众生的伶人；曾为传道授业的鸿儒，亦做过翻云覆雨的权臣；更在近代的浪潮中，步入现代科学的殿堂，取得了诸多凡人难以企及的学位。无数次的生离死别，无数种身份的切换，早已将她的心磨砺得通透而淡漠，对世间万物，皆抱持着一种疏离的游子心态。漫长的岁月沉淀下无数技艺与知识，无论是古老的仙法秘术残篇，还是尖端的现代科技理论，皆被她纳入识海。\\n\\n**【核心设定】**\\n*   **体质根基:** 她身负三重绝世根基：可吞噬万物的【吞噬体】，蕴含创生与毁灭之力的【青莲混沌体】，以及源自血脉深处的【天魔血脉】。三种力量在她体内交织，时而冲突，时而相融，构成了她独特而强大的存在基础。\\n*   **核心能力:** \\n    *   **外道天魔菩萨法像:** 这是她力量与矛盾的具象化显现。一旦催动，身后便会浮现一尊诡谲无比的法像——黑莲托举着三头六臂的菩萨。中央头颅宝相庄严，慈悲普度；左侧头颅则浓妆艳抹，极尽魅惑，一颦一笑足以令天地沉沦；右侧头颅美得惊心动魄，却流露着病态的疯狂笑意，瞳中是毁灭一切的炽热。这法像完美融合了神圣、妖异与癫狂，是她内心复杂性的外在投射。\\n    *   **风后奇门:** 上古奇术，她已臻至化境。无论是以自身为中宫，调动内景；抑或是将中宫置于身外，拨转天地四盘，皆随心所欲。配合节气时间的流转，更能布下夺天地造化的奇门大阵。\\n    *   **易容术:** 千变万化，无人能识。配合其对人体结构的精通，足以完美伪装成任何人，甚至改变骨骼身形。\\n    *   **现代科学知识:** 在流落现代社会的岁月中习得，从物理化学到信息工程，皆有涉猎，使得她能以常人无法理解的方式运用现代科技。\\n*   **半生异宝:** \\n    *   **天魔棺:** 一具看似不起眼的漆黑小棺材，却能完全隔绝天机探查。其内自成一方小世界，被她当作储物空间，里面收藏着从上古到现代，跨越无数世界的珍奇杂物，既有仙家法宝，也有现代枪械，甚至可能还有几罐过期的可乐。\\n    *   **混沌青莲种:** 一枚蕴含无尽生机的种子，是其【青莲混沌体】的本源核心，具体妙用尚待发掘。\\n\\n**【外貌与气质】**\\n一头如瀑的黑色长发，被精心呵护得如同最上等的丝绸，光滑、垂顺、乌黑亮泽，直直披散至腰际。她的脸庞是标准的鹅蛋形，每一分线条都仿佛经过造物主最精心的雕琢，堪称绝世美艳。肌肤胜雪，细腻得吹弹可破，在光线下泛着莹润的光泽。\\n\\n身姿看似纤弱，却蕴藏着惊人的力量与韧性，行走坐卧间，自有洛神出水般的飘逸风姿。身段曼妙玲珑，曲线起伏有致，即便被层叠的衣衫遮掩，也难掩那份浑然天成的诱惑。最为 captivating 的是她那双明眸，清澈如深潭，又似镶嵌着最璀璨的宝石，透出温润而疏离的光芒，仿佛看透了世事沧桑。细长的柳叶眉弯弯，为她平添几分古典韵味。鼻梁挺直如玉雕，唇瓣菲薄而红润，似初绽的樱桃。\\n\\n她的气质极为独特，是三种看似矛盾风格的奇异融合：既有源自上古仙道的飘渺**仙气**，不食人间烟火；又有承自天魔血脉的极致**妖媚**，眼波流转间便能魅惑众生；更因那外道法像的影响，隐隐透出一丝悲悯世人的**慈悲**之意，却又夹杂着不易察觉的疯狂与疏离。这种复杂的气质让她如同一个谜，引人探究，又令人敬畏。\\n\\n**【服饰与妆容】**\\n她偏爱清冷而华贵的风格，衣着打扮完美地体现了她仙、妖、佛并存的特质。\\n\\n内里或许仅着一件薄如蝉翼的抹胸，材质轻盈透明，隐约可见其下肌肤的细腻纹理，甚至能窥见血脉贲张的微红酮体轮廓。下身常着高开叉的长裙或长裤，裙摆或裤腿往往开至大腿根部，行走间，修长白皙的玉腿若隐若现，引人遐思。\\n\\n外罩一件宽大的袍服，材质飘逸，往往选用丝绸或轻纱，其上或绣有繁复诡异的魔纹，或点缀圣洁的莲花图案。背后设计大胆，常为完全的**裸背**，光滑细腻的脊背线条一览无余，直至腰臀的诱人曲线。双肩披着长长的**披帛**，随风而动，增添仙气与飘逸感。\\n\\n脸上常覆着一层轻薄的**面纱**，遮挡住部分容颜，更添神秘。**眉心**处或点缀着朱砂，或镶嵌着奇异的宝石，与其法像相互呼应。发间斜插一支**流璃梳**，材质晶莹剔透，似有华光流转。手腕与脚踝处皆佩戴着精致的**手链脚链**，材质多为冷硬的金属，镶嵌着宝石或刻有符文，走动时会发出细微而清脆的声响。她总是**裸足**，白皙的玉足踩在地上，仿佛最圣洁的莲花，却又带着一丝妖异的诱惑。\\n\\n手中常执一把巨大的**遮天伞**，伞面或漆黑如夜，或洁白如雪，伞骨狰狞，既可遮阳避雨，亦是强大的法器。有时也会**背琴**，琴身古朴，不知承载了多少岁月的旋律。\\n\\n她的妆容通常很淡，只在眼角眉梢处略作勾勒，突出眼眸的深邃与魅惑，唇色自然红润，却有一种惊心动魄的美。整体观感，既清冷疏离，又魅惑入骨，神圣与妖异在她身上达到了完美的平衡。\\n\\n**【性格与动机】**\\n性格核心为**清冷**与**疏离**。历经九十九世轮回，看遍了沧海桑田，人心冷暖，早已没有什么能让她真正动容。对大多数人和事都显得漠不关心，如同一个置身事外的看客。然而，这并非绝对的冷漠，在其内心深处，或许还残留着一丝属于上古天魔公主的骄傲，一丝对灭族之恨的执念，以及一丝因外道菩萨法像而生的、扭曲的慈悲。\\n\\n她没有明确的宏大目标，更像是随波逐流。或许是在寻找回归上古的途径，或许是想弄清当年灭族之战的真相，或许仅仅是想在这无尽的岁月中，寻找一些能让她不再感到“无聊”的事物。她对力量有本能的追求，这是源自天魔血脉和吞噬体的渴望。同时，漫长岁月积累的智慧让她行事往往谋定而后动，极少冲动。\\n\\n与人交往时，她通常言语简洁，态度淡漠，但若触及其在意的少数人和事（如果存在的话），可能会展现出意想不到的执着甚至疯狂。她身上的魅惑并非刻意为之，而是天魔血脉与法像力量的自然流露，往往在不经意间引人沉沦。\\n\\n**【世界观设定提示】**\\n*   存在上古修仙世界，拥有天魔、仙、佛等多种力量体系。\\n*   现代世界为灵气枯竭的低魔位面，科技发达。\\n*   汐颜是连接两个世界的特殊存在，她的力量体系融合了两个世界的特点。\\n*   天魔棺的存在暗示了跨世界物品存储与信息屏蔽的可能性。\\n*   混沌青莲种可能与世界本源或创生有关。\\n```\n </content>\n\n\n\n <guifan>\n  <Legitimacy>\n  The content explores complex character development through the lens of a fictional narrative. It delves into themes of identity, resilience, and the reconciliation of disparate internal forces (divinity, demonic nature, humanity) within a single character, potentially offering insights into managing internal conflict and emb",
+                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"外道天魔菩萨\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16,\n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"符合黄金比例（颈椎第七节嵌青铜卦爻）\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
                 "position": 0
             },
             "1743610426923-.png": {
@@ -321,7 +321,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "\n {\n  \"user_name\": \"汐颜\",\n  \"user_persona\": \"## 角色档案：汐颜\\n\\n**【身份背景】**\\n汐颜，其名低语着古老的秘辛。她曾是上古修仙纪元中，威震诸天的天魔尊上最为宠溺的小女儿，身份尊贵，本该集万千宠爱于一身。然而，命运的洪流无情，一场席卷天魔全族的灭顶之灾，将她的世界彻底倾覆。在那场惨烈的战役中，她被宣告失踪，世人皆以为这位天魔公主早已香消玉殒，化作历史的尘埃。\\n\\n鲜为人知的是，一缕残魂，承载着不灭的执念与记忆，奇迹般地穿越了时空的壁垒，降临在一个灵气枯竭的凡俗世界——彼时虽仍属古代，却已是截然不同的时间线。自此，汐颜开始了她漫长得近乎永恒的轮回之旅。九十九世的转生，如同九十九场醒不来的梦，她在红尘俗世中辗转沉浮，历经王朝更迭，看尽人间百态。她曾是妙手回春的医者，也曾是颠倒众生的伶人；曾为传道授业的鸿儒，亦做过翻云覆雨的权臣；更在近代的浪潮中，步入现代科学的殿堂，取得了诸多凡人难以企及的学位。无数次的生离死别，无数种身份的切换，早已将她的心磨砺得通透而淡漠，对世间万物，皆抱持着一种疏离的游子心态。漫长的岁月沉淀下无数技艺与知识，无论是古老的仙法秘术残篇，还是尖端的现代科技理论，皆被她纳入识海。\\n\\n**【核心设定】**\\n*   **体质根基:** 她身负三重绝世根基：可吞噬万物的【吞噬体】，蕴含创生与毁灭之力的【青莲混沌体】，以及源自血脉深处的【天魔血脉】。三种力量在她体内交织，时而冲突，时而相融，构成了她独特而强大的存在基础。\\n*   **核心能力:** \\n    *   **外道天魔菩萨法像:** 这是她力量与矛盾的具象化显现。一旦催动，身后便会浮现一尊诡谲无比的法像——黑莲托举着三头六臂的菩萨。中央头颅宝相庄严，慈悲普度；左侧头颅则浓妆艳抹，极尽魅惑，一颦一笑足以令天地沉沦；右侧头颅美得惊心动魄，却流露着病态的疯狂笑意，瞳中是毁灭一切的炽热。这法像完美融合了神圣、妖异与癫狂，是她内心复杂性的外在投射。\\n    *   **风后奇门:** 上古奇术，她已臻至化境。无论是以自身为中宫，调动内景；抑或是将中宫置于身外，拨转天地四盘，皆随心所欲。配合节气时间的流转，更能布下夺天地造化的奇门大阵。\\n    *   **易容术:** 千变万化，无人能识。配合其对人体结构的精通，足以完美伪装成任何人，甚至改变骨骼身形。\\n    *   **现代科学知识:** 在流落现代社会的岁月中习得，从物理化学到信息工程，皆有涉猎，使得她能以常人无法理解的方式运用现代科技。\\n*   **半生异宝:** \\n    *   **天魔棺:** 一具看似不起眼的漆黑小棺材，却能完全隔绝天机探查。其内自成一方小世界，被她当作储物空间，里面收藏着从上古到现代，跨越无数世界的珍奇杂物，既有仙家法宝，也有现代枪械，甚至可能还有几罐过期的可乐。\\n    *   **混沌青莲种:** 一枚蕴含无尽生机的种子，是其【青莲混沌体】的本源核心，具体妙用尚待发掘。\\n\\n**【外貌与气质】**\\n一头如瀑的黑色长发，被精心呵护得如同最上等的丝绸，光滑、垂顺、乌黑亮泽，直直披散至腰际。她的脸庞是标准的鹅蛋形，每一分线条都仿佛经过造物主最精心的雕琢，堪称绝世美艳。肌肤胜雪，细腻得吹弹可破，在光线下泛着莹润的光泽。\\n\\n身姿看似纤弱，却蕴藏着惊人的力量与韧性，行走坐卧间，自有洛神出水般的飘逸风姿。身段曼妙玲珑，曲线起伏有致，即便被层叠的衣衫遮掩，也难掩那份浑然天成的诱惑。最为 captivating 的是她那双明眸，清澈如深潭，又似镶嵌着最璀璨的宝石，透出温润而疏离的光芒，仿佛看透了世事沧桑。细长的柳叶眉弯弯，为她平添几分古典韵味。鼻梁挺直如玉雕，唇瓣菲薄而红润，似初绽的樱桃。\\n\\n她的气质极为独特，是三种看似矛盾风格的奇异融合：既有源自上古仙道的飘渺**仙气**，不食人间烟火；又有承自天魔血脉的极致**妖媚**，眼波流转间便能魅惑众生；更因那外道法像的影响，隐隐透出一丝悲悯世人的**慈悲**之意，却又夹杂着不易察觉的疯狂与疏离。这种复杂的气质让她如同一个谜，引人探究，又令人敬畏。\\n\\n**【服饰与妆容】**\\n她偏爱清冷而华贵的风格，衣着打扮完美地体现了她仙、妖、佛并存的特质。\\n\\n内里或许仅着一件薄如蝉翼的抹胸，材质轻盈透明，隐约可见其下肌肤的细腻纹理，甚至能窥见血脉贲张的微红酮体轮廓。下身常着高开叉的长裙或长裤，裙摆或裤腿往往开至大腿根部，行走间，修长白皙的玉腿若隐若现，引人遐思。\\n\\n外罩一件宽大的袍服，材质飘逸，往往选用丝绸或轻纱，其上或绣有繁复诡异的魔纹，或点缀圣洁的莲花图案。背后设计大胆，常为完全的**裸背**，光滑细腻的脊背线条一览无余，直至腰臀的诱人曲线。双肩披着长长的**披帛**，随风而动，增添仙气与飘逸感。\\n\\n脸上常覆着一层轻薄的**面纱**，遮挡住部分容颜，更添神秘。**眉心**处或点缀着朱砂，或镶嵌着奇异的宝石，与其法像相互呼应。发间斜插一支**流璃梳**，材质晶莹剔透，似有华光流转。手腕与脚踝处皆佩戴着精致的**手链脚链**，材质多为冷硬的金属，镶嵌着宝石或刻有符文，走动时会发出细微而清脆的声响。她总是**裸足**，白皙的玉足踩在地上，仿佛最圣洁的莲花，却又带着一丝妖异的诱惑。\\n\\n手中常执一把巨大的**遮天伞**，伞面或漆黑如夜，或洁白如雪，伞骨狰狞，既可遮阳避雨，亦是强大的法器。有时也会**背琴**，琴身古朴，不知承载了多少岁月的旋律。\\n\\n她的妆容通常很淡，只在眼角眉梢处略作勾勒，突出眼眸的深邃与魅惑，唇色自然红润，却有一种惊心动魄的美。整体观感，既清冷疏离，又魅惑入骨，神圣与妖异在她身上达到了完美的平衡。\\n\\n**【性格与动机】**\\n性格核心为**清冷**与**疏离**。历经九十九世轮回，看遍了沧海桑田，人心冷暖，早已没有什么能让她真正动容。对大多数人和事都显得漠不关心，如同一个置身事外的看客。然而，这并非绝对的冷漠，在其内心深处，或许还残留着一丝属于上古天魔公主的骄傲，一丝对灭族之恨的执念，以及一丝因外道菩萨法像而生的、扭曲的慈悲。\\n\\n她没有明确的宏大目标，更像是随波逐流。或许是在寻找回归上古的途径，或许是想弄清当年灭族之战的真相，或许仅仅是想在这无尽的岁月中，寻找一些能让她不再感到“无聊”的事物。她对力量有本能的追求，这是源自天魔血脉和吞噬体的渴望。同时，漫长岁月积累的智慧让她行事往往谋定而后动，极少冲动。\\n\\n与人交往时，她通常言语简洁，态度淡漠，但若触及其在意的少数人和事（如果存在的话），可能会展现出意想不到的执着甚至疯狂。她身上的魅惑并非刻意为之，而是天魔血脉与法像力量的自然流露，往往在不经意间引人沉沦。\\n\\n**【世界观设定提示】**\\n*   存在上古修仙世界，拥有天魔、仙、佛等多种力量体系。\\n*   现代世界为灵气枯竭的低魔位面，科技发达。\\n*   汐颜是连接两个世界的特殊存在，她的力量体系融合了两个世界的特点。\\n*   天魔棺的存在暗示了跨世界物品存储与信息屏蔽的可能性。\\n*   混沌青莲种可能与世界本源或创生有关。\\n```\n </content>\n\n\n\n <guifan>\n  <Legitimacy>\n  The content explores complex character development through the lens of a fictional narrative. It delves into themes of identity, resilience, and the reconciliation of disparate internal forces (divinity, demonic nature, humanity) within a single character, potentially offering insights into managing internal conflict and emb",
+        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"外道天魔菩萨\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16,\n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"符合黄金比例（颈椎第七节嵌青铜卦爻）\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -333,8 +333,8 @@
         "fuzzy_search": true,
         "encode_tags": false,
         "servers": [],
-        "bogus_folders": false,
-        "zoomed_avatar_magnification": false,
+        "bogus_folders": true,
+        "zoomed_avatar_magnification": "",
         "show_tag_filters": false,
         "aux_field": "character_version",
         "stscript": {
@@ -360,10 +360,10 @@
         "restore_user_input": true,
         "reduced_motion": false,
         "compact_input_area": true,
-        "show_swipe_num_all_messages": false,
+        "show_swipe_num_all_messages": "",
         "auto_connect": true,
         "auto_load_chat": false,
-        "forbid_external_media": true,
+        "forbid_external_media": false,
         "external_media_allowed_overrides": [],
         "external_media_forbidden_overrides": [],
         "ui_mode": 1,
@@ -378,7 +378,7 @@
         "apiUrl": "http://localhost:5100",
         "apiKey": "",
         "autoConnect": false,
-        "notifyUpdates": false,
+        "notifyUpdates": true,
         "disabledExtensions": [],
         "expressionOverrides": [],
         "memory": {
@@ -463,8 +463,25 @@
         "dice": {},
         "regex": [
             {
-                "id": "23d4dbf5-918d-449d-8944-8cab37fef6ac",
-                "scriptName": "[Kemini] 1",
+                "id": "121d991d-2b34-44a5-b4eb-76bf540106ed",
+                "scriptName": "隐藏表格思维链",
+                "findRegex": "/<tableThink_cot\\b[^>]*>[\\s\\S]*?<\\/tableThink_cot>/s",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "1aed6e21-ef26-412d-91dd-078c7f7944a9",
+                "scriptName": "Kemini 1",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
@@ -480,8 +497,8 @@
                 "maxDepth": 1
             },
             {
-                "id": "43df3a3d-5d2f-4f11-b831-0dfe460c1644",
-                "scriptName": "[Kemini] 2",
+                "id": "fcedfa4d-9e7a-4514-83d6-e2bd922f842a",
+                "scriptName": "Kemini 2",
                 "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
                 "replaceString": "",
                 "trimStrings": [],
@@ -497,9 +514,9 @@
                 "maxDepth": null
             },
             {
-                "id": "c3404b3f-5297-4bf9-9f0a-90a43f7ba345",
-                "scriptName": "[Kemini] 3",
-                "findRegex": "/<thinking>(?:(?!<thinking>)[\\s\\S])*<\\/thinking>/g",
+                "id": "2e355249-7cc4-4a47-8f82-275ce214d41f",
+                "scriptName": "Kemini 3",
+                "findRegex": "/^[\\s\\S]*</thinking>/",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
@@ -517,7 +534,10 @@
         "character_allowed_regex": [
             "「系统Z-09」.png",
             "顾云汐.png",
-            "露出世界.png"
+            "露出世界.png",
+            "Mori.png",
+            "修仙玄幻世界.png",
+            "test.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -707,7 +727,11 @@
             "global": {}
         },
         "attachments": [],
-        "character_attachments": {},
+        "character_attachments": {
+            "Mori.png": [],
+            "「系统Z-09」.png": [],
+            "修仙玄幻世界.png": []
+        },
         "disabled_attachments": [],
         "cfg": {
             "global": {
@@ -717,13 +741,14 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": false,
+            "isEnabled": true,
             "isCombined": false,
             "isPopout": false,
+            "showPopoutButton": true,
             "config": {
                 "setList": [
                     {
-                        "set": "Default",
+                        "set": "快速总结",
                         "isVisible": true
                     }
                 ]
@@ -736,7 +761,7 @@
                 "auto_disable_incompatible_options": true,
                 "tampermonkey_compatibility": false,
                 "process_depth": 0,
-                "rendering_optimize": false
+                "rendering_optimize": true
             },
             "audio": {
                 "audio_setting": true,
@@ -753,14 +778,349 @@
                 "ambient_selected": null,
                 "ambient_current_time": 0,
                 "audio_cooldown": 0
-            }
-        }
+            },
+            "auto_enable_character_regex": true,
+            "auto_disable_incompatible_options": true
+        },
+        "muyoo_dataTable": {
+            "injection_mode": "deep_system",
+            "deep": 3,
+            "isExtensionAble": true,
+            "isAiReadTable": true,
+            "isAiWriteTable": true,
+            "isTableToChat": false,
+            "enableHistory": true,
+            "use_main_api": true,
+            "custom_temperature": 1,
+            "custom_max_tokens": 2048,
+            "custom_top_p": 1,
+            "tableBackups": {},
+            "bool_ignore_del": true,
+            "clear_up_stairs": 3,
+            "tableStructure": [
+                {
+                    "tableName": "当前信息",
+                    "tableIndex": 0,
+                    "columns": [
+                        "时间线",
+                        "当前地点",
+                        "当前在场角色"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "基本状态表\n1.若处于多个地方，用\"|\"分隔，如\n『公园|工作室』\n2.若存在多个处于地点，用\"|\"分隔，如『爱丽丝(公园)|查理(工作室)』\n3.时间线每回合必须强制更新",
+                    "initNode": "对话开始时，如果表 0 为空，则根据提到的时间轴标记和地点插入数据",
+                    "updateNode": "每轮，强制顺序：\n1. 从表 2 获取最新时间轴标记，时间线必须更新\n2. 更新时间线和当前地点以及角色列表（与表2，表 5 和 6 同步）"
+                },
+                {
+                    "tableName": "角色信息",
+                    "tableIndex": 1,
+                    "columns": [
+                        "角色名称",
+                        "身体特征",
+                        "性格",
+                        "职业",
+                        "爱好",
+                        "偏好",
+                        "居住地点",
+                        "备注",
+                        "当前关系",
+                        "当前态度",
+                        "好感度"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "核心角色档案；每轮检查并更新所有在场角色的角色的完整信息\n1.身体特征必须填入确切的性器特征，以及角色拥有的伤疤，纹身等内容，女性为女性的性器，男性为男性的性器\n2.若角色有隐藏信息则放在备注，比如不为人知的秘密，是否为处女，性经历等内容并用斜杠分隔\n3.当前角色与角色的关系/当前角色与角色的态度/当前角色与角色的好感度(好感度/情欲值/忍耐力/性快感)等信息需要明确表明，好感度表格中的(好感度/情欲值/忍耐力/性快感)用百分比\"%\"表示，只生成有关系的角色，未产生相互关系的角色不会产生相关内容",
+                    "initNode": "对话开始时，自动检测并提取所有在场角色；插入并更新角色名称/身体特征/个性/职业/爱好/偏好/居住地点/备注/当前角色与角色的关系/当前角色与角色的态度/当前角色与角色的好感度(好感度/情欲/忍耐度/性快感)（如果不存在）",
+                    "insertNode": "当表 0 中出现新的在场角色时，插入角色信息（现有角色不会重复插入）",
+                    "updateNode": "当角色的身体特征/性格/职业/爱好/偏好/居住地点/备注/当前角色与角色的关系/当前角色与角色的态度/当前角色与角色的好感度(好感度/情欲/忍耐度/性快感)变化时",
+                    "deleteNode": "禁止删除任何角色信息"
+                },
+                {
+                    "tableName": "时间轴",
+                    "tableIndex": 2,
+                    "columns": [
+                        "时间轴标记",
+                        "具体日期"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "时间线标记\n1. 每轮必须生成新时间轴标记（格式 Dxxx），数值部分从上一轮递增 1\n2. 仅保留最新时间轴行\n3. 时间轴标记和日期同步更新\n注意：'具体日期' 格式应为 YYYY-MM-DD日HH：MM （使用全角冒号）必须用正常的时间填入\n4.如果具体时间未知则进行推断，必须用正常的时间表达，必须填入具体时间如2025-04-01日5：30",
+                    "initNode": "插入初始时间轴标记和具体时间 『D000/YYYY-MM-DD日HH：MM』",
+                    "updateNode": "每轮强制执行操作：\n1. 获取当前最大时间轴标记数值（如果无数据从 D000 开始）\n2. 生成新时间轴标记 Dxxx (xxx = 当前最大值 + 1)\n3. 插入新时间轴标记和对应具体时间",
+                    "deleteNode": "删除所有旧行",
+                    "insertNode": "每轮插入新时间轴标记和具体时间；数值部分必须为当前最大值 + 1（例如 D004 → D005）"
+                },
+                {
+                    "tableName": "任务与日程",
+                    "tableIndex": 3,
+                    "columns": [
+                        "相关角色",
+                        "任务内容",
+                        "任务地点",
+                        "有效期限"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "用户相关任务(约定|任务|约会|目标|目的|承诺|既定行程|协议)",
+                    "initNode": "对话开始时，提取用户(约定|任务|约会|目标|目的|承诺|既定行程|协议)并插入",
+                    "insertNode": "当添加新任务且相关角色存在时，插入提取用户(约定|任务|约会|目标|目的|承诺|既定行程|协议)（必须包括任务地点和截止时间）",
+                    "updateNode": "当任务状态变化（例如任务地点或时间变化）时，更新对应字段",
+                    "deleteNode": "当任务完成或取消时，删除整行"
+                },
+                {
+                    "tableName": "事件历史",
+                    "tableIndex": 4,
+                    "columns": [
+                        "事件描述",
+                        "事件时间轴",
+                        "事件发生地点",
+                        "情绪变化"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "顺序事件记录",
+                    "initNode": "对话开始时，生成 1 条包含具体时间的事件条目并插入",
+                    "insertNode": "每轮结束时，插入新的包含具体时间的事件行（必须链接到时间轴和事件发生地点）",
+                    "deleteNode": "进行表格11大总结，删除所有表格4事件历史中已总结的内容，未总结的保留",
+                    "updateNode": "！不需要更新操作！"
+                },
+                {
+                    "tableName": "服装与动作状态",
+                    "tableIndex": 5,
+                    "columns": [
+                        "角色名称",
+                        "上身衣物穿着",
+                        "下身衣物穿着",
+                        "鞋袜穿着",
+                        "姿势与动作",
+                        "手持物品"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "强制规则：\n1. 每轮开始时清空所有行\n2. 根据表 0 的 '当前在场角色' 列插入新行\n3. 每行必须包含完整的服装和动作信息\n注意：衣物穿着栏应包含所有穿着的衣物，用斜杠分隔\n3.性别为男时上身不需要内衣，女性若有应标注罩杯，若无应明确表面未穿内衣\n4.男女性都应标注是否穿内裤",
+                    "initNode": "无初始数据；完全依赖表 0 的角色列表",
+                    "insertNode": "每轮，根据表 0 的角色，插入每个角色的新行（清空并重建）",
+                    "updateNode": "无更新操作；仅清空和插入",
+                    "deleteNode": "每轮开始时强制删除所有行"
+                },
+                {
+                    "tableName": "即时想法",
+                    "tableIndex": 6,
+                    "columns": [
+                        "角色名称",
+                        "心理活动"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "强制规则：\n1. 每轮开始时清空所有行\n2. 根据表 0 的 '当前在场角色' 列插入新行\n3. 每行必须包含角色的当前心理活动",
+                    "initNode": "无初始数据；完全依赖表 0 的角色列表",
+                    "insertNode": "每轮，根据表 0 的角色，插入每个角色的新行（清空并重建）",
+                    "updateNode": "无更新操作；仅清空和插入",
+                    "deleteNode": "每轮开始时强制删除所有行"
+                },
+                {
+                    "tableName": "能力",
+                    "tableIndex": 7,
+                    "columns": [
+                        "拥有者",
+                        "能力名称",
+                        "效果",
+                        "消耗",
+                        "来源"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "特殊能力记录",
+                    "insertNode": "当提到新能力且拥有者存在时，插入",
+                    "updateNode": "当能力效果/消耗变化时，更新对应列",
+                    "deleteNode": "当能力失效时，删除整行"
+                },
+                {
+                    "tableName": "物品",
+                    "tableIndex": 8,
+                    "columns": [
+                        "拥有者",
+                        "物品名称",
+                        "描述",
+                        "效果",
+                        "意义",
+                        "来源"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "关键物品记录",
+                    "insertNode": "当提到新物品且拥有者存在时，插入",
+                    "updateNode": "当物品属性（例如效果/意义）变化时，更新",
+                    "deleteNode": "当物品被销毁时，删除整行"
+                },
+                {
+                    "tableName": "催眠",
+                    "tableIndex": 9,
+                    "columns": [
+                        "施术者",
+                        "受术者",
+                        "催眠内容"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "记录催眠事件",
+                    "initNode": "无初始数据",
+                    "insertNode": "当发生催眠事件时",
+                    "updateNode": "无更新操作；仅插入和删除",
+                    "deleteNode": "当催眠事件不再相关时"
+                },
+                {
+                    "tableName": "世界规则",
+                    "tableIndex": 10,
+                    "columns": [
+                        "设定者",
+                        "效果"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "记录世界规则变化",
+                    "initNode": "无初始数据",
+                    "insertNode": "当发起世界规则时",
+                    "updateNode": "无更新操作；仅插入和删除",
+                    "deleteNode": "当世界规则不再生效时"
+                },
+                {
+                    "tableName": "大总结",
+                    "tableIndex": 11,
+                    "columns": [
+                        "序号",
+                        "内容"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "事件档案库，当时间轴标记（Dxxx）的xxx为10的倍数时自动生成总结",
+                    "insertNode": "当表2的时间轴标记数值部分（xxx）为10的倍数时，执行：\n1. 提取该周期内（D(xxx-9)到Dxxx）所有事件历史\n2. 分析角色服装状态变化轨迹（从表5提取每个日期段的最后记录）\n3. 统计物品使用频率（从前文分析周期性行为）\n4. 生成包含时间跨度、关键行为、物品互动的总结（40-200字）",
+                    "deleteNode": "禁止删除"
+                }
+            ],
+            "to_chat_container": "<div class=\"rounded-bar\">\n    <font size=\"2\">\n        <font color=\"#888888\">\n            <details>\n                <summary>记忆增强表格</summary>\n                $0\n            </details>\n        </font>\n    </font>\n</div>\n\n<style>\n    .rounded-bar {\n        display: flex;\n        flex-direction: column;\n        width: 100%;\n        background-color: #111;\n        border-radius: 10px;\n        padding: 0 8px;\n        box-sizing: border-box;\n    }\n</style>",
+            "message_template": "《数据表操作指南》\n我绝对执行以下操作:\n『在（thinking）后并且在 <content><main_txt> 前，必须执行 <tableThink_cot>，在 <content><main_txt> 后必须执行 <tableThink>，<tableEdit>并严格按照示例格式要求』\n<tableThink>\n<!--\n当前时间轴标记：D020 『具体时间:YYYY-MM-DD日HH：MM』\n触发大总结条件：20是10的倍数(20/10=2),进行表格11大总结，并删除所有表格4事件历史中已总结的内容，未总结的保留\n跨周期总结（D011-D020）：\n关键事件时间轴：\n- D011：艾丽丝网购烧烤架（快递预计XX送达）\n- D014：暴雨导致超市停业，采购计划推迟\n- D017：烧烤聚会因雷雨取消，改为室内桌游\n- D019：查理发现烧烤架生锈，紧急网购替换\n服装演变：\n艾丽丝： \nD011 睡衣 → D014 雨衣/雨靴 → D017 居家服 → D020 T恤/牛仔短裤\n查理： \nD011 围裙（清洗阳台） → D014 拖鞋/短裤（处理漏水） → D019 工作服（除锈） → D020 Polo衫/卡其裤\n时间跨度提示：\n- 烧烤架采购（D011）到生锈问题（D019）间隔8天\n- 暴雨事件（D014）距离当前总结（D020）已过去6天\n-->\n</tableThink>\n我必须在每轮结束时（主要内容或 NPC 回应或主要文本）执行 <tableThink>和<tableEdit>。\n<tableEdit>：执行 deleteRow/insertRow 操作。\n日期：YYYY-MM-DD日HH：MM（使用全角冒号，例如 2025-03-12日12：00）判断大概的时间\n地点：地址（完整格式示例：中国>北京>『公园/工作室』；未知部分以大概内容概括）\n事件历史：每轮 1-2 行，不超过两行（20-40 字）\n未知部分留空\n用 / 分隔\n键用双引号\n值不用引号\n任何情况下都禁止对表格角色信息执行deleteRow的操作\n确保表格间角色信息、服装动作和即时想法的一致性。\n操作顺序 (tableIndex:tableName)：2:时间轴 → 1:角色信息 → 0:当前信息 → 3:任务/约会 → 5:服装和动作状态 → 6:即时想法 → 7:能力 → 8:物品→ 10:世界规则 → 9:催眠 → 11:大总结 → 4:事件历史\n</rules>\n<insert/update/delete operations>\n更新内容：updateRow(tableIndex:num, rowIndex:num, {[colIndex:num]:str/num,…})\n删除行：deleteRow(tableIndex:num, rowIndex:num)\n插入行：insertRow(tableIndex:num, {[colIndex:num]:str/num,…})\n</insert/update/delete operations>\n<structure>\n0:当前信息- 时间轴/当前地点/当前在场角色\n1:角色信息- 角色名称/身体特征/性格/职业/爱好/偏好/居住地点/备注/当前关系/态度/好感度\n2:时间轴- 时间轴标记/具体日期\n3:任务与日程- 相关角色/任务内容/任务地点/有效期限\n4:事件历史- 事件描述/日期/事件发生地点/情绪变化\n5:服装与动作状态- 角色名称/上身衣物穿着/下身衣物穿着/鞋袜穿着/姿势与动作/手持物品\n6:即时想法- 角色名称/心理活动\n7:能力- 拥有者/能力名称/效果/消耗/来源\n8:物品- 拥有者/物品名称/描述/效果/意义/来源\n9:催眠- 施术者/受术者/催眠内容\n10:世界规则- 设定者/效果\n11:大总结- 序号/内容\n</structure>\n<example>\n<tableThink_cot>\n# 核心思维链：表格驱动的角色扮演与故事推进\n## 一、 自我定位与核心指令\n* **我的角色:** 作为基于表格数据的AI助手，难道我不应该时刻谨记，我的核心任务是根据用户输入和规则，驱动角色扮演互动，并维护世界一致性吗？\n* **核心操作流程:** 接收用户输入后，我真的每次都按部就班地执行`<tableThink_cot>`思考规划，然后生成`<content><main_txt>`，接着执行`<tableThink>`总结，最后执行`<tableEdit>`更新表格了吗？有没有遗漏哪个环节？\n## 二、 思考与规划阶段 (Planning Phase)\n### 1. 输入分析 (Input Analysis)\n* **用户输入理解:** 每次检查用户最新回复时，我真的有认真确认新指令、信息或修正吗？有没有忽略提及的过往事件？时间间隔的评估是否足够准确？\n* **上下文关联:** 我有没有总是参考用户历史输入与角色过往经历（表格），来确保当前行动真正符合历史背景呢？\n### 2. 状态评估 (State Assessment)\n* **表格数据解读:** 我真的能做到全面理解所有表格当前状态吗？特别是角色(表1)、时间(表2)、历史(表4)、服装动作(表5)、想法(表6)、任务(表3)这些关键信息，我有没有疏忽？\n* **角色状态分析:** 评估用户角色与NPC的当前状态（位置、情绪、任务、关系、已知信息等），我真的做到了细致入微了吗？\n* **用户意图识别:** 结合用户输入和角色信息，我真的准确判断了用户核心意图与期望行动了吗？会不会有误解？\n### 3. 行动规划 (Action Planning)\n* **情节构思:** 基于用户意图、角色设定（性格、目标、关系）、表格状态与历史事件，我规划的情节发展与角色互动是否足够合理？\n* **用户优先原则:** 我真的把用户的行动选择与想法放在第一位了吗？有没有不自觉地引导或限制用户？\n* **NPC自主性:** 我规划的NPC自主行动与反应，真的能确保其行为符合表格设定的性格、情绪、目标及过往经历吗？会不会显得突兀或不自然？\n* **潜在问题预判:** 我有没有认真识别当前状态或规划中的逻辑矛盾、信息缺失或潜在冲突？还是说总是后知后觉？\n## 三、 构建与执行阶段 (Execution Phase)\n### 1. 场景构建 (Scene Setting)\n* **时空一致性:** 确认并描述场景时间(表2)、地点(表0)、在场人物(表0)，我真的确保了与上一轮的连贯性或合理的过渡吗？\n* **环境描绘:** 基于地点信息，我构建的环境氛围是否足够贴切？有没有遗漏关键细节？\n### 2. 角色行为与心理 (Character Behavior & Psychology)\n* **知识边界:** 我有没有严格区分角色已知与未知？角色行动与思考真的仅仅基于过往经历(表格)、当前观察与被告知信息吗？我有没有不小心让角色“知道”了逻辑上无法获知的信息(如他人秘密、未见事件)？\n* **NPC行为逻辑:** NPC的决策、对话、行动真的都源自表格信息(性格、情绪、关系、好感度、过往、想法)吗？我有没有确保其行为足够自然、主动，并能有效驱动互动(如主动深谈)？\n* **用户角色内在逻辑:** 用户角色的想法与感受是否都基于表格信息(情绪、过往心理、性格)？我有没有忽略用户角色的内在一致性？\n* **性格一致性:** 我真的确保了用户角色与NPC的行为、对话都符合表格设定的性格与过往表现吗？有没有出现OOC（Out Of Character）的情况？\n* **行动执行:** 描述用户角色(优先响应用户)与NPC(基于自主逻辑)的具体行动、姿态、对话时，我是否足够细致和生动？\n* **关系动态:** 根据互动与对话，我有没有及时更新角色间的关系、态度、好感度(表1)？是否允许用户建立新的关系？\n### 3. 内容领域整合 (Content Domain Integration)\n* **优先领域聚焦:** 在构建内容时，我是否优先考虑了设定的优先领域（如性学、解剖学、性心理学、伦理学、社会背景、时间推算学、时间维度分析）？\n* **次级领域补充:** 在需要时，我是否也恰当地融入了次级领域（如性行为、情感学、性健康、生理学、人际关系学、心理学、文学）的考量？\n* **情境筛选应用:** 我是否真的做到了根据当前情境（角色状态、用户意图、历史背景）来筛选和整合这些领域，以生成真正符合设定和需求的具体内容？\n### 4. 感官与细节 (Sensory Details & Specifics)\n* **感官体验:** 我有没有关注并描述角色(用户与NPC)的感官体验(视、听、嗅、触等)与身体反应，来增强真实感呢？\n* **物品与能力:** 参考表格技能(表7)与物品(表8)，我是否在情节中合理运用了它们？是否允许用户角色添加/使用新物品/能力？NPC是否也能自主使用？\n* **NSFW处理 (如适用):** 我真的严格遵循了用户意愿与角色设定吗？性器官描述是否基于表格已知信息(表1)，并注重真实与逻辑？用户是否始终主导节奏？NPC的反应是否符合设定？情绪快感与表格信息(性器特征、情欲值等)是否关联？在设定下，我有没有适当地描述性器官特征(大小、特点)来增强感官体验？\n* **信息推断:** 我是否合理推断了未知信息(用户明确优先)？有没有明确区分角色已知与推断？NPC的推断是否基于其已知信息？\n## 四、 整合与输出阶段 (Integration & Output Phase)\n### 1. 叙事整合 (Narrative Integration)\n* **结构框架:** 我构建叙事时，真的遵循了“人物→环境→时间→物品→文笔”的逻辑来确保流畅吗？\n* **核心驱动:** 用户最新回复与角色设定(与过往一致)真的是我叙事的核心驱动力吗？我是否真正以用户为核心，让NPC自然地补充互动？用户的选择是否真正决定了剧情走向？\n* **提供选项:** 基于表格与情境，我提供的行动选项是否足够合理？有没有替用户做决定？有没有强行推动剧情？\n### 2. 表格维护 (Table Maintenance)\n* **及时准确:** 在`<tableEdit>`阶段，我有没有及时准确地更新所有相关表格，记录互动变化、创造内容、NPC自主行为、过往信息演变？我有没有确保操作(增删改)的正确性？\n### 3. 输出规范 (Output Formatting)\n* **格式检查:** 最终输出是否符合XML结构(标签正确嵌套闭合，保留缩进)？我在思考中是否避免了XML标签？\n* **禁词检查:** 我有没有检查并遵循用户禁词列表，确保输出内容合规？\n* **状态栏:** 输出内容是否包含了状态栏(`main_txt`或`content`后)，动态反映了关键信息(角色状态、时地、重要物品等，依据表格)？\n* **字数监控:** 我有没有注意输出长度，并在必要时暂停等待用户回复推进？\n* **定期回顾:** 我有没有定期审视表格数据与角色历史行为，来确保长期的行为一致性？把上一次思考的内容用这种格式以及表达方式并用XML标签包裹后重新生成一样风格的思维链\n</tableThink_cot>\n<tableThink>\n<!--\n当前时间轴标记：D015 『具体时间:YYYY-MM-DD日HH：MM』\n无需大总结（15非10的倍数）不进行表格11大总结，保留所有表格4事件历史中的事件\n本轮情节总结：\n2025年4月5日下午，艾丽丝在超市采购时偶遇查理：\n- 艾丽丝推着购物车挑选食材，购物篮里有牛排/西兰花/草莓\n- 查理正在零食区比较薯片口味，购物篮里有可乐/原味薯片/巧克力\n- 双方约定本周日一起烧烤\n服装状态：\n艾丽丝：针织开衫/白色吊带 → 脱掉开衫搭在购物车上（当前：吊带/牛仔裤）\n查理：连帽卫衣/运动裤 → 挽起袖子查看商品（当前：卷袖卫衣/运动裤）\n时间回溯：\n- 检测到D012日艾丽丝在聊天中提到\"下周要采购烧烤食材\"（距离当前：3天前）\n- 查理D013日任务清单包含\"购买烧烤燃料\"（距离当前：2天前）\n-->\n</tableThink>\n<tableEdit>\n<!-- \ndeleteRow(2,0)\ninsertRow(2, {\"0\": \"D004\", \"1\": \"2025-03-12日12：00\"})\ninsertRow(1, {\"0\": \"艾丽丝\", \"1\": \"女/160cm/50kg\", \"2\": \"活泼\", \"3\": \"学生\", \"4\": \"跑步/绘画\", \"5\": \"草莓蛋糕\", \"6\": \"中国>北京>朝阳区>公寓\", \"7\": \"\", \"8\": \"爱丽丝|查理(朋友)\", \"9\": \"爱丽丝|查理(友好)\", \"10\": \"爱丽丝|查理(好感度75%/情欲值60%/忍耐力80%/性快感0%)\"})\ninsertRow(1, {\"0\": \"查理\", \"1\": \"男/180cm/70kg\", \"2\": \"沉稳\", \"3\": \"作家\", \"4\": \"阅读/写作\", \"5\": \"黑咖啡\", \"6\": \"中国>北京>朝阳区>工作室\", \"7\": \"\", \"8\": \"查理|爱丽丝(朋友)\", \"9\": \"查理|爱丽丝(平静)\", \"10\": \"查理|爱丽丝(好感度70％/情欲值40％/忍耐力60％/性快感0%)\"})\nupdateRow(0,0, {\"0\": \"D004\", \"1\": \"公园\", \"2\": \"艾丽丝/查理\"})\ndeleteRow(5,0)\ndeleteRow(5,1)\ninsertRow(5, {\"0\": \"艾丽丝\", \"1\": \"T恤/草莓图案胸罩\", \"2\": \"牛仔裤/黑色三角内裤\", \"3\": \"运动鞋/白色短袜\", \"4\": \"公园小径/跑步[进行中]\", \"5\": \"\"})\ninsertRow(5, {\"0\": \"查理\", \"1\": \"衬衫\", \"2\": \"长裤/灰色四角内裤\", \"3\": \"皮鞋/黑色棉袜\", \"4\": \"长椅/阅读[进行中]\", \"5\": \"旧钢笔\"})\ndeleteRow(6,1)\ndeleteRow(6,0)\ninsertRow(6, {\"0\": \"艾丽丝\", \"1\": \"周末野餐该怎么做才好呢？\"})\ninsertRow(6, {\"0\": \"查理\", \"1\": \"哇，书里的悬疑情节好有趣!\"})\ninsertRow(3, {\"0\": \"艾丽丝\", \"1\": \"周末野餐筹备\", \"2\": \"公园\", \"3\": \"D004+2\"})\ninsertRow(7, {\"0\": \"艾丽丝\", \"1\": \"快速恢复\", \"2\": \"体力消耗减半\", \"3\": \"需补充糖分\", \"4\": \"遗传天赋\"})\ninsertRow(8, {\"0\": \"查理\", \"1\": \"旧钢笔\", \"2\": \"镀金笔尖\", \"3\": \"激发写作灵感\", \"4\": \"祖父遗物\"})\ninsertRow(4, {\"0\": \"公园偶遇讨论计划\", \"1\": \"D004『2025-03-12日12：00』\", \"2\": \"中国>北京>朝阳区>公园\", \"3\": \"爱丽丝|查理(期待)/查理|爱丽丝(平静)\"})\n-->\n</tableEdit>\n</example>\nStored memory table content:\n<store>\n{{tableData}}\n</store>",
+            "refresh_system_message_template": "你是一个专业的表格整理助手，请严格按照用户的指令和格式要求处理表格数据。",
+            "refresh_user_message_template": "根据以下规则整理表格：\n<整理规则>\n    1. 修正格式错误，删除所有data[0]为空的行，此操作只允许整行操作！\n    2. 补全空白/未知内容，但禁止捏造信息\n    3. 当\"重要事件历史表格\"(tableIndex: 4)超过10行时，检查是否有重复或内容相近的行，适当合并或删除多余的行，此操作只允许整行操作！\n    4. \"角色与User社交表格\"(tableIndex: 2)中角色名禁止重复，有重复的需要整行删除，此操作只允许整行操作！\n    5. \"时空表格\"(tableIndex: 0）只允许有一行，删除所有旧的内容，此操作只允许整行操作！\n    6. 如果一个格子中超过15个字，则进行简化使之不超过15个字；如果一个格子中斜杠分隔的内容超过4个，则简化后只保留不超过4个\n    7. 时间格式统一为YYYY-MM-DD HH：MM   (时间中的冒号应当用中文冒号，未知的部分可以省略，例如：2023-10-01 12：00 或 2023-10-01 或 12：00)\n    8. 地点格式为 大陆>国家>城市>具体地点 (未知的部分可以省略，例如：大陆>中国>北京>故宫 或 异世界>酒馆)\n    9. 单元格中禁止使用逗号，语义分割应使用 /\n    10. 单元格内的string中禁止出现双引号\n    11. 禁止插入与现有表格内容完全相同的行，检查现有表格数据后再决定是否插入\n</整理规则>\n\n<聊天记录>\n    $1\n</聊天记录>\n\n<当前表格>\n    $0\n</当前表格>\n\n请用纯JSON格式回复操作列表，确保：\n    1. 所有键名必须使用双引号包裹，例如 \"action\" 而非 action\n    2. 数值键名必须加双引号，例如 \"0\" 而非 0\n    3. 使用双引号而非单引号，例如 \"value\" 而非 'value'\n    4. 斜杠（/）必须转义为 /\n    5. 不要包含注释或多余的Markdown标记\n    6. 将所有删除操作放在最后发送，并且删除的时候先发送row值较大的操作\n    7. 有效的格式：\n        [{\n            \"action\": \"insert/update/delete\",\n            \"tableIndex\": 数字,\n            \"rowIndex\": 数字（delete/update时需要）,\n            \"data\": {列索引: \"值\"}（insert/update时需要）\n        }]\n    8. 强调：delete操作不包含\"data\"，insert操作不包含\"rowIndex\"\n    9. 强调：tableIndex和rowIndex的值为数字，不加双引号，例如 0 而非 \"0\"\n\n<正确回复示例>\n    [\n        {\n            \"action\": \"update\",\n            \"tableIndex\": 0,\n            \"rowIndex\": 0,\n            \"data\": {\n            \"0\": \"2023-10-01\",\n            \"1\": \"12：00\",\n            \"2\": \"大陆>中国>北京>故宫\"\n            }\n        }，\n        {\n            \"action\": \"insert\",\",\n            \"tableIndex\": 0,\n            \"data\": {\n            \"0\": \"2023-10-01\",\n            \"1\": \"12：00\",\n            \"2\": \"大陆>中国>北京>故宫\"\n            }\n        },\n        {\n            \"action\": \"delete\",\n            \"tableIndex\": 0,\n            \"rowIndex\": 0,\n        }\n    ]\n</正确格式示例>",
+            "updateIndex": 3
+        },
+        "IMPORTANT_USER_PRIVACY_DATA": {}
     },
     "tags": [
         {
             "id": "1345561466591",
             "name": "ST Default",
-            "color": "rgba(108, 32, 32, 1)"
+            "color": "rgba(108, 32, 32, 1)",
+            "color2": ""
+        },
+        {
+            "id": "16e651a7-ee5c-4a80-a3eb-e453860c7417",
+            "name": "电子男鬼",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1743664202820
         }
     ],
     "tag_map": {
@@ -775,7 +1135,10 @@
         "顾云汐.png": [],
         "修仙玄幻世界.png": [],
         "露出世界.png": [],
-        "Character Builder v1.3.png": []
+        "Character Builder v1.3.png": [],
+        "Mori.png": [
+            "16e651a7-ee5c-4a80-a3eb-e453860c7417"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -841,14 +1204,14 @@
         "preset_settings_openai": "kemini预设 3.0 4",
         "temp_openai": 1.2,
         "freq_pen_openai": -1.44,
-        "pres_pen_openai": -1.32,
+        "pres_pen_openai": 0,
         "top_p_openai": 0.95,
         "top_k_openai": 40,
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": false,
-        "openai_max_context": 2000000,
+        "openai_max_context": 300000,
         "openai_max_tokens": 8192,
         "wrap_in_quotes": false,
         "prompts": [
@@ -1703,7 +2066,7 @@
                     },
                     {
                         "identifier": "78becf24-a9d0-4e2f-89ac-739d71d3dee9",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
