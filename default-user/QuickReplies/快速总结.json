@@ -1,0 +1,46 @@
+{
+    "version": 2,
+    "name": "快速总结",
+    "disableSend": false,
+    "placeBeforeInput": false,
+    "injectInput": false,
+    "color": "rgba(0, 0, 0, 0)",
+    "onlyBorderColor": true,
+    "qrList": [
+        {
+            "id": 8,
+            "showLabel": false,
+            "label": "总结回复",
+            "title": "",
+            "message": "/preset keminiSummary |\n/wait 2000 |\n{:/send \"总结全文\":}\n/flushvar option ||\n/trigger||",
+            "contextList": [],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "executeOnNewChat": false,
+            "automationId": ""
+        },
+        {
+            "id": 10,
+            "showLabel": false,
+            "label": "切换",
+            "title": "",
+            "message": "/preset 夏瑾V2.4 |\n/wait 2000 |",
+            "contextList": [],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "executeOnNewChat": false,
+            "automationId": ""
+        }
+    ],
+    "idIndex": 10
+}
