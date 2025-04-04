@@ -27,7 +27,7 @@
         {
             "id": 10,
             "showLabel": false,
-            "label": "切换",
+            "label": "切换谷歌",
             "title": "",
             "message": "/preset 夏瑾V2.4 |\n/wait 2000 |",
             "contextList": [],
