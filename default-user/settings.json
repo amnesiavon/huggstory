@@ -463,6 +463,23 @@
         "dice": {},
         "regex": [
             {
+                "id": "121d991d-2b34-44a5-b4eb-76bf540106ed",
+                "scriptName": "隐藏表格思维链",
+                "findRegex": "/<tableThink_cot\\b[^>]*>[\\s\\S]*?<\\/tableThink_cot>/s",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "1aed6e21-ef26-412d-91dd-078c7f7944a9",
                 "scriptName": "Kemini 1",
                 "findRegex": "^([\\s\\S]*)$",
