@@ -859,7 +859,7 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini预设 3.0 4",
+        "preset_settings_openai": "kemini预设辅助版大总结表格预设",
         "temp_openai": 1.2,
         "freq_pen_openai": -1.44,
         "pres_pen_openai": 0,
