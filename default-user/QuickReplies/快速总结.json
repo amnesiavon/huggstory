@@ -46,7 +46,7 @@
             "showLabel": false,
             "label": "隐藏楼层10",
             "title": "",
-            "message": "/hide xx-xx",
+            "message": "/hide 1-10",
             "contextList": [],
             "preventAutoExecute": true,
             "isHidden": false,
