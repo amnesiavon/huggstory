@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "汐颜",
-    "active_character": "「系统Z-09」.png",
+    "active_character": "修仙玄幻世界.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -1075,7 +1075,8 @@
                     "Required": true,
                     "note": "事件档案库，当时间轴标记（Dxxx）的xxx为10的倍数时自动生成总结",
                     "insertNode": "当表2的时间轴标记数值部分（xxx）为10的倍数时，执行：\n1. 提取该周期内（D(xxx-9)到Dxxx）所有事件历史\n2. 分析角色服装状态变化轨迹（从表5提取每个日期段的最后记录）\n3. 统计物品使用频率（从前文分析周期性行为）\n4. 生成包含时间跨度、关键行为、物品互动的总结（40-200字）",
-                    "deleteNode": "禁止删除"
+                    "deleteNode": "禁止删除",
+                    "tableRender": ""
                 }
             ],
             "to_chat_container": "<div class=\"rounded-bar\">\n    <font size=\"2\">\n        <font color=\"#888888\">\n            <details>\n                <summary>记忆增强表格</summary>\n                $0\n            </details>\n        </font>\n    </font>\n</div>\n\n<style>\n    .rounded-bar {\n        display: flex;\n        flex-direction: column;\n        width: 100%;\n        background-color: #111;\n        border-radius: 10px;\n        padding: 0 8px;\n        box-sizing: border-box;\n    }\n</style>",
