@@ -63,7 +63,7 @@
             "showLabel": false,
             "label": "切换按钮",
             "title": "",
-            "message": "/preset 夏瑾V2.4 |\n/wait 2000 |\n",
+            "message": "/preset kemini预设 3.0 4 |\n/wait 2000 |\n",
             "contextList": [],
             "preventAutoExecute": true,
             "isHidden": false,
