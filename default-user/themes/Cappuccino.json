@@ -19,7 +19,7 @@
     "chat_display": 1,
     "noShadows": false,
     "chat_width": 100,
-    "timer_enabled": false,
+    "timer_enabled": true,
     "timestamps_enabled": true,
     "timestamp_model_icon": true,
     "mesIDDisplay_enabled": true,
