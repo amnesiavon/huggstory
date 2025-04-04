@@ -252,7 +252,7 @@
         "prefer_character_jailbreak": true,
         "quick_continue": false,
         "quick_impersonate": false,
-        "continue_on_send": false,
+        "continue_on_send": true,
         "trim_spaces": true,
         "relaxed_api_urls": false,
         "world_import_dialog": true,
