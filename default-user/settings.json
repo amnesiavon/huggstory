@@ -414,7 +414,7 @@
             "promptMaxInterval": 100,
             "promptIntervalStep": 1,
             "template": "[Summary: {{summary}}]",
-            "position": 0,
+            "position": "0",
             "depth": 2,
             "promptForceWords": 0,
             "promptForceWordsStep": 100,
