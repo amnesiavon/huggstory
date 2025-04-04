@@ -461,59 +461,7 @@
             "profiles": []
         },
         "dice": {},
-        "regex": [
-            {
-                "id": "23d4dbf5-918d-449d-8944-8cab37fef6ac",
-                "scriptName": "[Kemini] 1",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "43df3a3d-5d2f-4f11-b831-0dfe460c1644",
-                "scriptName": "[Kemini] 2",
-                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "c3404b3f-5297-4bf9-9f0a-90a43f7ba345",
-                "scriptName": "[Kemini] 3",
-                "findRegex": "/<thinking>(?:(?!<thinking>)[\\s\\S])*<\\/thinking>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            }
-        ],
+        "regex": [],
         "character_allowed_regex": [
             "「系统Z-09」.png",
             "顾云汐.png",
