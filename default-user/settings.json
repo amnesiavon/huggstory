@@ -1952,8 +1952,8 @@
         "n": 1
     },
     "background": {
-        "name": "__transparent.png",
-        "url": "url(\"backgrounds/__transparent.png\")",
+        "name": "japan university.jpg",
+        "url": "url(\"backgrounds/japan university.jpg\")",
         "fitting": "classic"
     },
     "proxies": [
