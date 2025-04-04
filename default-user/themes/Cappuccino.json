@@ -15,10 +15,10 @@
     "font_scale": 1,
     "fast_ui_mode": false,
     "waifuMode": false,
-    "avatar_style": 0,
+    "avatar_style": 2,
     "chat_display": 1,
     "noShadows": false,
-    "chat_width": 50,
+    "chat_width": 100,
     "timer_enabled": false,
     "timestamps_enabled": true,
     "timestamp_model_icon": true,
@@ -31,6 +31,8 @@
     "hotswap_enabled": true,
     "custom_css": "",
     "bogus_folders": true,
+    "zoomed_avatar_magnification": false,
     "reduced_motion": false,
-    "compact_input_area": true
+    "compact_input_area": true,
+    "show_swipe_num_all_messages": false
 }
