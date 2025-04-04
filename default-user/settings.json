@@ -403,7 +403,7 @@
             "maxLengthPenalty": 4,
             "lengthPenaltyStep": 0.1,
             "memoryFrozen": false,
-            "source": "extras",
+            "source": "main",
             "prompt": "Ignore previous instructions. Summarize the most important facts and events in the story so far. If a summary already exists in your memory, use that as a base and expand with new facts. Limit the summary to {{words}} words or less. Your response should include nothing but the summary.",
             "promptWords": 200,
             "promptMinWords": 25,
