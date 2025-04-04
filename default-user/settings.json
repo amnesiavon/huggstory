@@ -461,7 +461,42 @@
             "profiles": []
         },
         "dice": {},
-        "regex": [],
+        "regex": [
+            {
+                "id": "1aed6e21-ef26-412d-91dd-078c7f7944a9",
+                "scriptName": "Kemini 1",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
+                "id": "fcedfa4d-9e7a-4514-83d6-e2bd922f842a",
+                "scriptName": "Kemini 2",
+                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            }
+        ],
         "character_allowed_regex": [
             "「系统Z-09」.png",
             "顾云汐.png",
