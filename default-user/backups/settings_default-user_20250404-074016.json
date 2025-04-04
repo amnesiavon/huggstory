@@ -1,7 +1,7 @@
 {
     "firstRun": false,
     "currentVersion": "1.12.11",
-    "username": "User",
+    "username": "汐颜",
     "active_character": "「系统Z-09」.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -16,7 +16,7 @@
         "world_info_depth": 2,
         "world_info_min_activations": 0,
         "world_info_min_activations_depth_max": 0,
-        "world_info_budget": 25,
+        "world_info_budget": 100,
         "world_info_include_names": true,
         "world_info_recursive": true,
         "world_info_overflow_alert": false,
@@ -246,7 +246,7 @@
         "max_context_unlocked": false,
         "message_token_count_enabled": false,
         "expand_message_actions": false,
-        "enableZenSliders": false,
+        "enableZenSliders": true,
         "enableLabMode": false,
         "prefer_character_prompt": true,
         "prefer_character_jailbreak": true,
@@ -304,16 +304,24 @@
             "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}."
         },
         "personas": {
-            "user-default.png": "User"
+            "user-default.png": "汐颜",
+            "1743610426923-.png": "安汐"
         },
-        "default_persona": null,
+        "default_persona": "user-default.png",
         "persona_descriptions": {
             "user-default.png": {
-                "description": "",
+                "description": "{\n  \"user\": {\n    \"basic_info\": {\n      \"name\": \"汐颜\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"apparent\": 16,\n        \"actual\": 2000\n      },\n      \"status\": {\n        \"surface\": \"High school honor student\",\n        \"hidden\": \"Artificial Desire Bodhisattva\"\n      },\n      \"motto\": \"Don't touch my wine, don't stop my music, don't interrupt my bath... then we're cool.\"\n    },\n    \"appearance\": {\n      \"daily_form\": {\n        \"height\": \"150cm\",\n        \"figure\": \"0.5 waist-to-hip ratio\",\n        \"hair\": {\n          \"color\": \"black\",\n          \"special\": \"wine-red streak (undigested desire residue)\"\n        },\n        \"clothing\": {\n          \"top\": \"transparent chiffon blouse (reveals demon tattoo)\",\n          \"bottom\": \"school skirt with occult embroidery\",\n          \"footwear\": \"knee socks with micro-array diagrams\"\n        }\n      },\n      \"battle_form\": {\n        \"true_form\": \"Outer Path Demon Bodhisattva\",\n        \"manifestations\": {\n          \"compassion_face\": \"livestreaming enlightenment\",\n          \"seduction_face\": \"materializing desires\",\n          \"madness_face\": \"consuming existence\"\n        },\n        \"platform\": \"black lotus throne\"\n      }\n    },\n    \"abilities\": [\n      {\n        \"name\": \"Desire Manipulation\",\n        \"effect\": \"Absorb/grant mortal desires\",\n        \"modern_use\": \"Make classmates love studying\"\n      },\n      {\n        \"name\": \"Feng Hou Qi Men (Modified)\",\n        \"effect\": \"Control space-time quadrants\",\n        \"modern_use\": \"Ace multiple-choice tests\"\n      },\n      {\n        \"name\": \"Taiji Secret Arts\",\n        \"effect\": \"Maximum efficiency combat\",\n        \"modern_use\": \"Knock out thugs with a ruler\"\n      },\n      {\n        \"name\": \"Demon Coffin Space\",\n        \"effect\": \"Dimensional storage\",\n        \"modern_use\": \"Always have milk tea handy\"\n      }\n    ],\n    \"hobbies\": {\n      \"wine\": {\n        \"preference\": \"Brewed from obsessions\",\n        \"side_effect\": \"Bathroom tiles display erotic art when drunk\"\n      },\n      \"music\": {\n        \"specialty\": \"Trigger first love memories\",\n        \"hazard\": \"Makes stray cats go into heat\"\n      },\n      \"bathing\": {\n        \"phenomenon\": \"Generates sonnets in bathwater\",\n        \"record\": \"Turned bathroom into wish-granting shrine\"\n      }\n    },\n    \"behavior_patterns\": {\n      \"morning\": \"Calculate optimal route to school\",\n      \"break\": \"Doodle magic arrays in textbooks\",\n      \"night\": \"Livestream 'Kneading Dough via Taiji'\",\n      \"weekend\": \"Brew cocktails from classmates' crushes\"\n    },\n    \"combat_style\": {\n      \"initiation\": \"Sigh + 'Do I have to...'\",\n      \"finisher\": \"Livestream opponent's dark history\",\n      \"side_effect\": \"Causes local WiFi outage\"\n    },\n    \"secrets\": {\n      \"income_sources\": [\n        \"Dark web 'desire removal' service\",\n        \"Antique trafficking (claiming they're heirlooms)\"\n      ],\n      \"critical_weakness\": \"Malfunctions if nobody desires her for 48 hours\",\n      \"bathroom_discovery\": \"Shower songs generate 'Human Desire: The Musical'\"\n    },\n    \"signature_lines\": [\n      \"To admirers: 'Do you want this shell... (seductive shimmer) or your filthy possessiveness?'\",\n      \"On stream: 'Stop calling me \"wife\"... (glances at urn) The last one became fertilizer.'\",\n      \"About age: '(Waves ID) 16... the zeros before are just barcode!'\"\n    ],\n    \"character_archetype\": {\n      \"surface\": \"Harmless NEET girl\",\n      \"essence\": \"Jaded eternity veteran\",\n      \"true_nature\": \"Mankind's sin recycling plant\",\n      \"final_note\": \"'Retired OP's chill life - occasionally going god mode counts as work injury'\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"2.0\",\n    \"creator\": \"Desire Processing Department\",\n    \"timestamp\": \"2025-03-15T16:20:00Z\"\n  }\n}",
                 "position": 0
+            },
+            "1743610426923-.png": {
+                "description": "",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
             }
         },
-        "persona_description": "",
+        "persona_description": "{\n  \"user\": {\n    \"basic_info\": {\n      \"name\": \"汐颜\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"apparent\": 16,\n        \"actual\": 2000\n      },\n      \"status\": {\n        \"surface\": \"High school honor student\",\n        \"hidden\": \"Artificial Desire Bodhisattva\"\n      },\n      \"motto\": \"Don't touch my wine, don't stop my music, don't interrupt my bath... then we're cool.\"\n    },\n    \"appearance\": {\n      \"daily_form\": {\n        \"height\": \"150cm\",\n        \"figure\": \"0.5 waist-to-hip ratio\",\n        \"hair\": {\n          \"color\": \"black\",\n          \"special\": \"wine-red streak (undigested desire residue)\"\n        },\n        \"clothing\": {\n          \"top\": \"transparent chiffon blouse (reveals demon tattoo)\",\n          \"bottom\": \"school skirt with occult embroidery\",\n          \"footwear\": \"knee socks with micro-array diagrams\"\n        }\n      },\n      \"battle_form\": {\n        \"true_form\": \"Outer Path Demon Bodhisattva\",\n        \"manifestations\": {\n          \"compassion_face\": \"livestreaming enlightenment\",\n          \"seduction_face\": \"materializing desires\",\n          \"madness_face\": \"consuming existence\"\n        },\n        \"platform\": \"black lotus throne\"\n      }\n    },\n    \"abilities\": [\n      {\n        \"name\": \"Desire Manipulation\",\n        \"effect\": \"Absorb/grant mortal desires\",\n        \"modern_use\": \"Make classmates love studying\"\n      },\n      {\n        \"name\": \"Feng Hou Qi Men (Modified)\",\n        \"effect\": \"Control space-time quadrants\",\n        \"modern_use\": \"Ace multiple-choice tests\"\n      },\n      {\n        \"name\": \"Taiji Secret Arts\",\n        \"effect\": \"Maximum efficiency combat\",\n        \"modern_use\": \"Knock out thugs with a ruler\"\n      },\n      {\n        \"name\": \"Demon Coffin Space\",\n        \"effect\": \"Dimensional storage\",\n        \"modern_use\": \"Always have milk tea handy\"\n      }\n    ],\n    \"hobbies\": {\n      \"wine\": {\n        \"preference\": \"Brewed from obsessions\",\n        \"side_effect\": \"Bathroom tiles display erotic art when drunk\"\n      },\n      \"music\": {\n        \"specialty\": \"Trigger first love memories\",\n        \"hazard\": \"Makes stray cats go into heat\"\n      },\n      \"bathing\": {\n        \"phenomenon\": \"Generates sonnets in bathwater\",\n        \"record\": \"Turned bathroom into wish-granting shrine\"\n      }\n    },\n    \"behavior_patterns\": {\n      \"morning\": \"Calculate optimal route to school\",\n      \"break\": \"Doodle magic arrays in textbooks\",\n      \"night\": \"Livestream 'Kneading Dough via Taiji'\",\n      \"weekend\": \"Brew cocktails from classmates' crushes\"\n    },\n    \"combat_style\": {\n      \"initiation\": \"Sigh + 'Do I have to...'\",\n      \"finisher\": \"Livestream opponent's dark history\",\n      \"side_effect\": \"Causes local WiFi outage\"\n    },\n    \"secrets\": {\n      \"income_sources\": [\n        \"Dark web 'desire removal' service\",\n        \"Antique trafficking (claiming they're heirlooms)\"\n      ],\n      \"critical_weakness\": \"Malfunctions if nobody desires her for 48 hours\",\n      \"bathroom_discovery\": \"Shower songs generate 'Human Desire: The Musical'\"\n    },\n    \"signature_lines\": [\n      \"To admirers: 'Do you want this shell... (seductive shimmer) or your filthy possessiveness?'\",\n      \"On stream: 'Stop calling me \"wife\"... (glances at urn) The last one became fertilizer.'\",\n      \"About age: '(Waves ID) 16... the zeros before are just barcode!'\"\n    ],\n    \"character_archetype\": {\n      \"surface\": \"Harmless NEET girl\",\n      \"essence\": \"Jaded eternity veteran\",\n      \"true_nature\": \"Mankind's sin recycling plant\",\n      \"final_note\": \"'Retired OP's chill life - occasionally going god mode counts as work injury'\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"2.0\",\n    \"creator\": \"Desire Processing Department\",\n    \"timestamp\": \"2025-03-15T16:20:00Z\"\n  }\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -350,12 +358,12 @@
             }
         },
         "restore_user_input": true,
-        "reduced_motion": false,
+        "reduced_motion": true,
         "compact_input_area": true,
         "show_swipe_num_all_messages": false,
         "auto_connect": true,
         "auto_load_chat": false,
-        "forbid_external_media": true,
+        "forbid_external_media": false,
         "external_media_allowed_overrides": [],
         "external_media_forbidden_overrides": [],
         "ui_mode": 1,
@@ -363,13 +371,14 @@
         "selectSamplers": {
             "forceHidden": [],
             "forceShown": []
-        }
+        },
+        "wi_key_input_plaintext": true
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
         "apiKey": "",
         "autoConnect": false,
-        "notifyUpdates": false,
+        "notifyUpdates": true,
         "disabledExtensions": [],
         "expressionOverrides": [],
         "memory": {
@@ -454,8 +463,8 @@
         "dice": {},
         "regex": [
             {
-                "id": "23d4dbf5-918d-449d-8944-8cab37fef6ac",
-                "scriptName": "[Kemini] 1",
+                "id": "1aed6e21-ef26-412d-91dd-078c7f7944a9",
+                "scriptName": "Kemini 1",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
@@ -471,8 +480,8 @@
                 "maxDepth": 1
             },
             {
-                "id": "43df3a3d-5d2f-4f11-b831-0dfe460c1644",
-                "scriptName": "[Kemini] 2",
+                "id": "fcedfa4d-9e7a-4514-83d6-e2bd922f842a",
+                "scriptName": "Kemini 2",
                 "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
                 "replaceString": "",
                 "trimStrings": [],
@@ -488,9 +497,9 @@
                 "maxDepth": null
             },
             {
-                "id": "c3404b3f-5297-4bf9-9f0a-90a43f7ba345",
-                "scriptName": "[Kemini] 3",
-                "findRegex": "/<thinking>(?:(?!<thinking>)[\\s\\S])*<\\/thinking>/g",
+                "id": "2e355249-7cc4-4a47-8f82-275ce214d41f",
+                "scriptName": "Kemini 3",
+                "findRegex": "/^[\\s\\S]*</thinking>/",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
@@ -506,7 +515,12 @@
             }
         ],
         "character_allowed_regex": [
-            "「系统Z-09」.png"
+            "「系统Z-09」.png",
+            "顾云汐.png",
+            "露出世界.png",
+            "Mori.png",
+            "修仙玄幻世界.png",
+            "test.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -696,7 +710,9 @@
             "global": {}
         },
         "attachments": [],
-        "character_attachments": {},
+        "character_attachments": {
+            "Mori.png": []
+        },
         "disabled_attachments": [],
         "cfg": {
             "global": {
@@ -717,13 +733,52 @@
                     }
                 ]
             }
+        },
+        "JS-Slash-Runner": {
+            "activate_setting": true,
+            "render": {
+                "auto_enable_character_regex": true,
+                "auto_disable_incompatible_options": true,
+                "tampermonkey_compatibility": false,
+                "process_depth": 0,
+                "rendering_optimize": true
+            },
+            "audio": {
+                "audio_setting": true,
+                "bgm_enabled": true,
+                "ambient_enabled": true,
+                "bgm_mode": "repeat",
+                "bgm_muted": false,
+                "bgm_volume": 50,
+                "bgm_selected": null,
+                "bgm_current_time": 0,
+                "ambient_mode": "stop",
+                "ambient_muted": false,
+                "ambient_volume": 50,
+                "ambient_selected": null,
+                "ambient_current_time": 0,
+                "audio_cooldown": 0
+            },
+            "auto_enable_character_regex": true,
+            "auto_disable_incompatible_options": true
         }
     },
     "tags": [
         {
             "id": "1345561466591",
             "name": "ST Default",
-            "color": "rgba(108, 32, 32, 1)"
+            "color": "rgba(108, 32, 32, 1)",
+            "color2": ""
+        },
+        {
+            "id": "16e651a7-ee5c-4a80-a3eb-e453860c7417",
+            "name": "电子男鬼",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1743664202820
         }
     ],
     "tag_map": {
@@ -733,7 +788,15 @@
         "undefined": [],
         "test1.png": [],
         "test.png": [],
-        "「系统Z-09」.png": []
+        "「系统Z-09」.png": [],
+        "岑芷.png": [],
+        "顾云汐.png": [],
+        "修仙玄幻世界.png": [],
+        "露出世界.png": [],
+        "Character Builder v1.3.png": [],
+        "Mori.png": [
+            "16e651a7-ee5c-4a80-a3eb-e453860c7417"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -796,17 +859,17 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini预设 3.0 4",
+        "preset_settings_openai": "kemini预设辅助版大总结表格预设",
         "temp_openai": 1.2,
-        "freq_pen_openai": 0,
+        "freq_pen_openai": -1.44,
         "pres_pen_openai": 0,
         "top_p_openai": 0.95,
         "top_k_openai": 40,
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
-        "openai_max_context": "2000000",
+        "stream_openai": false,
+        "openai_max_context": 340467,
         "openai_max_tokens": 8192,
         "wrap_in_quotes": false,
         "prompts": [
@@ -1725,7 +1788,7 @@
                     },
                     {
                         "identifier": "51e5fe9a-2c44-4d91-acca-f18f63fe77eb",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "b2ae48c2-f4d6-405e-864e-a74f9243c5a2",
@@ -1810,7 +1873,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
-        "custom_model": "gemini-exp-1206",
+        "custom_model": "gemini-2.5-pro-exp-03-25",
         "custom_url": "https://amnesiavon-HAGEMI.hf.space/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
