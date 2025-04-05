@@ -2314,8 +2314,8 @@
         "n": 1
     },
     "background": {
-        "name": "_black.jpg",
-        "url": "url(\"backgrounds/_black.jpg\")",
+        "name": "cityscape medieval night.jpg",
+        "url": "url(\"backgrounds/cityscape medieval night.jpg\")",
         "fitting": "classic"
     },
     "proxies": [
