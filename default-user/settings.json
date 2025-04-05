@@ -529,6 +529,25 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
+                "scriptName": "上下文视觉屏蔽[20]",
+                "findRegex": "/[\\s\\S]*/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 20,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
