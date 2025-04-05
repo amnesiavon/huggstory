@@ -2314,8 +2314,8 @@
         "n": 1
     },
     "background": {
-        "name": "__transparent.png",
-        "url": "url(\"backgrounds/__transparent.png\")",
+        "name": "_black.jpg",
+        "url": "url(\"backgrounds/_black.jpg\")",
         "fitting": "classic"
     },
     "proxies": [
