@@ -257,7 +257,7 @@
         "relaxed_api_urls": false,
         "world_import_dialog": true,
         "enable_auto_select_input": false,
-        "enable_md_hotkeys": true,
+        "enable_md_hotkeys": false,
         "tag_import_setting": 1,
         "disable_group_trimming": false,
         "single_line": false,
