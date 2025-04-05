@@ -480,6 +480,25 @@
                 "maxDepth": null
             },
             {
+                "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
+                "scriptName": "上下文视觉屏蔽[20]",
+                "findRegex": "/[\\s\\S]*/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 20,
+                "maxDepth": null
+            },
+            {
                 "id": "1aed6e21-ef26-412d-91dd-078c7f7944a9",
                 "scriptName": "Kemini 1",
                 "findRegex": "^([\\s\\S]*)$",
@@ -531,25 +550,6 @@
                 "maxDepth": null
             },
             {
-                "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
-                "scriptName": "上下文视觉屏蔽[20]",
-                "findRegex": "/[\\s\\S]*/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2,
-                    6
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 20,
-                "maxDepth": null
-            },
-            {
                 "id": "05d96b39-8542-4fe6-979e-5c3a596ea98f",
                 "scriptName": "上下文限制[5]",
                 "findRegex": "/[\\s\\S]*/gm",
@@ -566,6 +566,25 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 5,
+                "maxDepth": null
+            },
+            {
+                "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
+                "scriptName": "上下文限制[10]",
+                "findRegex": "/[\\s\\S]*/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": true,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 10,
                 "maxDepth": null
             }
         ],
