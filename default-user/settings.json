@@ -1161,7 +1161,10 @@
             "updateIndex": 3,
             "advanced_settings": false
         },
-        "IMPORTANT_USER_PRIVACY_DATA": {}
+        "IMPORTANT_USER_PRIVACY_DATA": {},
+        "hide-helper": {
+            "enabled": true
+        }
     },
     "tags": [
         {
