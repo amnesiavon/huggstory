@@ -246,7 +246,7 @@
         "max_context_unlocked": false,
         "message_token_count_enabled": false,
         "expand_message_actions": false,
-        "enableZenSliders": false,
+        "enableZenSliders": true,
         "enableLabMode": false,
         "prefer_character_prompt": true,
         "prefer_character_jailbreak": true,
