@@ -499,6 +499,25 @@
                 "maxDepth": null
             },
             {
+                "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
+                "scriptName": "上下文限制[10]",
+                "findRegex": "/[\\s\\S]*/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": true,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 10,
+                "maxDepth": null
+            },
+            {
                 "id": "1aed6e21-ef26-412d-91dd-078c7f7944a9",
                 "scriptName": "Kemini 1",
                 "findRegex": "^([\\s\\S]*)$",
@@ -560,31 +579,12 @@
                     2,
                     6
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 5,
-                "maxDepth": null
-            },
-            {
-                "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
-                "scriptName": "上下文限制[10]",
-                "findRegex": "/[\\s\\S]*/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2,
-                    6
-                ],
                 "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
-                "minDepth": 10,
+                "minDepth": 5,
                 "maxDepth": null
             }
         ],
