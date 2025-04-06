@@ -799,7 +799,7 @@
         },
         "quickReplyV2": {
             "isEnabled": true,
-            "isCombined": false,
+            "isCombined": true,
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
