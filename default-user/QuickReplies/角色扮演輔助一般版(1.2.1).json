@@ -4,7 +4,7 @@
     "disableSend": false,
     "placeBeforeInput": false,
     "injectInput": true,
-    "color": "transparent",
+    "color": "rgba(0, 0, 0, 0)",
     "onlyBorderColor": false,
     "qrList": [
         {
