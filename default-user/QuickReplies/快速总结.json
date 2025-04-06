@@ -3,7 +3,7 @@
     "name": "快速总结",
     "disableSend": false,
     "placeBeforeInput": false,
-    "injectInput": false,
+    "injectInput": true,
     "color": "rgba(0, 0, 0, 0)",
     "onlyBorderColor": true,
     "qrList": [
