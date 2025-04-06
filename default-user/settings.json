@@ -1168,6 +1168,9 @@
         "IMPORTANT_USER_PRIVACY_DATA": {},
         "hide-helper": {
             "enabled": true
+        },
+        "quick-reply-menu": {
+            "enabled": true
         }
     },
     "tags": [
