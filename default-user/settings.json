@@ -1275,7 +1275,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "kemini预设 3.055",
-        "temp_openai": 0.87,
+        "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
         "top_p_openai": 0.95,
@@ -2287,7 +2287,7 @@
                     },
                     {
                         "identifier": "0d16acb2-27d7-4de2-9aca-37ccc5f7667f",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "6d8586b1-b560-4da1-ac06-d30074a44ba3",
