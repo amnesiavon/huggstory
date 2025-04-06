@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "汐颜",
-    "active_character": "「系统Z-09」.png",
+    "active_character": "「系统Z-09」_1.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -597,7 +597,8 @@
             "Mori.png",
             "修仙玄幻世界.png",
             "test.png",
-            "岑芷.png"
+            "岑芷.png",
+            "「系统Z-09」_1.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1210,6 +1211,9 @@
         "露出世界.png": [],
         "Character Builder v1.3.png": [],
         "Mori.png": [
+            "16e651a7-ee5c-4a80-a3eb-e453860c7417"
+        ],
+        "「系统Z-09」_1.png": [
             "16e651a7-ee5c-4a80-a3eb-e453860c7417"
         ]
     },
