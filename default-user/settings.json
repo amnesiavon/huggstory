@@ -473,7 +473,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1280,7 +1280,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "kemini预设 3.055修复 4",
-        "temp_openai": 1.54,
+        "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
         "top_p_openai": 0.95,
