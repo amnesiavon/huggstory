@@ -1280,7 +1280,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "kemini预设 3.055修复 4",
-        "temp_openai": 1.2,
+        "temp_openai": 1.54,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
         "top_p_openai": 0.95,
@@ -1288,7 +1288,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 1000000,
         "openai_max_tokens": 32648,
         "wrap_in_quotes": false,
