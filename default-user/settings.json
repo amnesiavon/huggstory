@@ -554,6 +554,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 1
+            },
+            {
+                "id": "ad54b638-e070-4e49-bc6c-89ee196cd8e6",
+                "scriptName": "Kemini 2",
+                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
