@@ -537,6 +537,23 @@
                 "substituteRegex": 0,
                 "minDepth": 5,
                 "maxDepth": null
+            },
+            {
+                "id": "6b49f1ac-2a71-4ff6-ac52-1eb7092d26eb",
+                "scriptName": "Kemini 1",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
             }
         ],
         "character_allowed_regex": [
