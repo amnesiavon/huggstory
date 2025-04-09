@@ -1176,6 +1176,10 @@
         },
         "quick-reply-menu": {
             "enabled": true
+        },
+        "variable_viewer": {
+            "isShown": true,
+            "fontSize": 1
         }
     },
     "tags": [
