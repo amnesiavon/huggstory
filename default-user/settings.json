@@ -341,10 +341,10 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<think>\n",
-            "suffix": "\n</think>",
+            "prefix": "<thinking>\n",
+            "suffix": "\n</thinking>",
             "separator": "\n\n",
-            "max_additions": 0
+            "max_additions": 1
         },
         "personas": {
             "user-default.png": "汐颜",
