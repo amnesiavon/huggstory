@@ -1,6 +1,34 @@
 {
     "firstRun": false,
-    "currentVersion": "1.12.11",
+    "accountStorage": {
+        "mediaWarningShown:Mori.png": "true",
+        "AlertWI_WorldofHorror.png": "true",
+        "Proxy_SkipConfirm_1689603996807551": "true",
+        "AlertWI_修仙玄幻世界.png": "true",
+        "NavOpened": "true",
+        "AlertRegex_白化蓝染的日记本.png": "true",
+        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
+        "AlertRegex_Mori.png": "true",
+        "LNavOpened": "true",
+        "AlertWI_顾云汐.png": "true",
+        "WINavOpened": "true",
+        "AlertRegex_「系统Z-09」.png": "true",
+        "AlertWI_Mori.png": "true",
+        "AlertRegex_万界聊天群“真语阁”.png": "true",
+        "SelectedNavTab": "rm_button_characters",
+        "AlertRegex_顾云汐.png": "true",
+        "AlertWI_白化蓝染的日记本.png": "true",
+        "AlertWI_「系统Z-09」.png": "true",
+        "Assets_SkipConfirm_2502775700152061": "false",
+        "AlertWI_露出世界.png": "true",
+        "AlertRegex_WorldofHorror.png": "true",
+        "WI_PerPage": "10",
+        "extension_update_nag": "Wed Apr 09 2025",
+        "AlertWI_万界聊天群“真语阁”.png": "true",
+        "AlertRegex_露出世界.png": "true",
+        "__migrated": "1"
+    },
+    "currentVersion": "1.12.13",
     "username": "汐颜",
     "active_character": "万界聊天群“真语阁”.png",
     "api_server": "http://127.0.0.1:5000/api",
@@ -71,6 +99,7 @@
         "stopping_strings": [],
         "ban_eos_token": false,
         "skip_special_tokens": true,
+        "include_reasoning": true,
         "streaming": false,
         "mirostat_mode": 0,
         "mirostat_tau": 5,
@@ -80,6 +109,8 @@
         "grammar_string": "",
         "json_schema": {},
         "banned_tokens": "",
+        "global_banned_tokens": "",
+        "send_banned_tokens": true,
         "sampler_priority": [
             "repetition_penalty",
             "presence_penalty",
@@ -303,6 +334,16 @@
             "name": "Neutral - Chat",
             "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}."
         },
+        "reasoning": {
+            "auto_parse": false,
+            "add_to_prompts": false,
+            "auto_expand": false,
+            "show_hidden": false,
+            "prefix": "<think>\n",
+            "suffix": "\n</think>",
+            "separator": "\n\n",
+            "max_additions": 1
+        },
         "personas": {
             "user-default.png": "汐颜",
             "1743610426923-.png": "安汐"
@@ -454,7 +495,8 @@
             "showDefault": false,
             "api": 1,
             "llmPrompt": "Ignore previous instructions. Classify the emotion of the last message. Output just one word, e.g. \"joy\" or \"anger\". Choose only one of the following labels: {{labels}}",
-            "custom": []
+            "custom": [],
+            "allowMultiple": true
         },
         "connectionManager": {
             "selectedProfile": "",
@@ -800,6 +842,10 @@
             "修仙玄幻世界.png": []
         },
         "disabled_attachments": [],
+        "gallery": {
+            "folders": {},
+            "sort": "dateAsc"
+        },
         "cfg": {
             "global": {
                 "guidance_scale": 1,
@@ -1286,7 +1332,8 @@
             "3d34ba91-c78c-43c0-838b-3ab9ac5c3678"
         ],
         "白化蓝染的日记本.png": [],
-        "万界聊天群“真语阁”.png": []
+        "万界聊天群“真语阁”.png": [],
+        "null": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2516,7 +2563,6 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
-        "jailbreak_system": false,
         "reverse_proxy": "",
         "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
@@ -2538,6 +2584,9 @@
         "continue_postfix": " ",
         "custom_prompt_post_processing": "strict",
         "show_thoughts": false,
+        "reasoning_effort": "medium",
+        "enable_web_search": false,
+        "request_images": false,
         "seed": -1,
         "n": 1
     },
