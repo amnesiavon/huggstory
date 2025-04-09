@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "汐颜",
-    "active_character": "「系统Z-09」_1.png",
+    "active_character": "WorldofHorror.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -600,7 +600,8 @@
             "岑芷.png",
             "「系统Z-09」_1.png",
             "霜影剑歌行.png",
-            "test1.png"
+            "test1.png",
+            "WorldofHorror.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -837,7 +838,7 @@
                 "bgm_mode": "repeat",
                 "bgm_muted": false,
                 "bgm_volume": 50,
-                "bgm_selected": null,
+                "bgm_selected": "https://image.kakaa.win/stimage/WOF/assets/bgm/Town_Default.mp3",
                 "bgm_current_time": 0,
                 "ambient_mode": "stop",
                 "ambient_muted": false,
@@ -1195,6 +1196,16 @@
             "color": "",
             "color2": "",
             "create_date": 1743664202820
+        },
+        {
+            "id": "3d34ba91-c78c-43c0-838b-3ab9ac5c3678",
+            "name": "TRPG",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1744176017365
         }
     ],
     "tag_map": {
@@ -1218,7 +1229,10 @@
         "「系统Z-09」_1.png": [
             "16e651a7-ee5c-4a80-a3eb-e453860c7417"
         ],
-        "霜影剑歌行.png": []
+        "霜影剑歌行.png": [],
+        "WorldofHorror.png": [
+            "3d34ba91-c78c-43c0-838b-3ab9ac5c3678"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
