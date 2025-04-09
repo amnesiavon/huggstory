@@ -978,8 +978,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 29058,
-                "LAST_SEND_CHARS": 66461
+                "LAST_SEND_TOKENS": 35748,
+                "LAST_SEND_CHARS": 74174
             }
         },
         "attachments": [],
@@ -1025,7 +1025,7 @@
                 "auto_disable_incompatible_options": true,
                 "tampermonkey_compatibility": false,
                 "process_depth": 3,
-                "rendering_optimize": false
+                "rendering_optimize": true
             },
             "audio": {
                 "audio_setting": true,
