@@ -30,7 +30,8 @@
         "extensions_sortByName": "true",
         "AlertWI_异世界冒险模拟器.png": "true",
         "AlertWI_异世界冒险模拟器1.png": "true",
-        "AlertRegex_异世界冒险模拟器1.png": "true"
+        "AlertRegex_异世界冒险模拟器1.png": "true",
+        "AlertRegex_异世界冒险模拟器.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
@@ -663,7 +664,8 @@
             "WorldofHorror.png",
             "白化蓝染的日记本.png",
             "万界聊天群“真语阁”.png",
-            "异世界冒险模拟器1.png"
+            "异世界冒险模拟器1.png",
+            "异世界冒险模拟器.png"
         ],
         "tts": {
             "voiceMap": "",
