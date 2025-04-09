@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "汐颜",
-    "active_character": "test1.png",
+    "active_character": "万界聊天群“真语阁”.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -600,7 +600,8 @@
             "霜影剑歌行.png",
             "test1.png",
             "WorldofHorror.png",
-            "白化蓝染的日记本.png"
+            "白化蓝染的日记本.png",
+            "万界聊天群“真语阁”.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1254,7 +1255,8 @@
         "WorldofHorror.png": [
             "3d34ba91-c78c-43c0-838b-3ab9ac5c3678"
         ],
-        "白化蓝染的日记本.png": []
+        "白化蓝染的日记本.png": [],
+        "万界聊天群“真语阁”.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
