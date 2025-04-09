@@ -18,7 +18,7 @@
     "avatar_style": 2,
     "chat_display": 1,
     "noShadows": false,
-    "chat_width": 60,
+    "chat_width": 87,
     "timer_enabled": true,
     "timestamps_enabled": true,
     "timestamp_model_icon": true,
@@ -34,5 +34,5 @@
     "zoomed_avatar_magnification": "",
     "reduced_motion": true,
     "compact_input_area": true,
-    "show_swipe_num_all_messages": false
+    "show_swipe_num_all_messages": true
 }
