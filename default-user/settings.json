@@ -828,7 +828,7 @@
                 "auto_enable_character_regex": true,
                 "auto_disable_incompatible_options": true,
                 "tampermonkey_compatibility": false,
-                "process_depth": 0,
+                "process_depth": 3,
                 "rendering_optimize": false
             },
             "audio": {
