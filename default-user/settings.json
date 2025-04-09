@@ -27,11 +27,12 @@
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
-        "extensions_sortByName": "true"
+        "extensions_sortByName": "true",
+        "AlertWI_异世界冒险模拟器.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "白化蓝染的日记本.png",
+    "active_character": "异世界冒险模拟器.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1349,7 +1350,9 @@
         ],
         "白化蓝染的日记本.png": [],
         "万界聊天群“真语阁”.png": [],
-        "null": []
+        "null": [],
+        "异世界冒险模拟器.png": [],
+        "异世界冒险模拟器1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
