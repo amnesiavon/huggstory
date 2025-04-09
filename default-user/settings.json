@@ -7,7 +7,7 @@
         "AlertWI_修仙玄幻世界.png": "true",
         "NavOpened": "true",
         "AlertRegex_白化蓝染的日记本.png": "true",
-        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
+        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
         "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
@@ -1025,7 +1025,7 @@
                 "auto_disable_incompatible_options": true,
                 "tampermonkey_compatibility": false,
                 "process_depth": 3,
-                "rendering_optimize": true
+                "rendering_optimize": false
             },
             "audio": {
                 "audio_setting": true,
