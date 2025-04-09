@@ -978,8 +978,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 38222,
-                "LAST_SEND_CHARS": 81460
+                "LAST_SEND_TOKENS": 38234,
+                "LAST_SEND_CHARS": 81470
             }
         },
         "attachments": [],
