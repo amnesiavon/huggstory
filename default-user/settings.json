@@ -831,8 +831,8 @@
             },
             "audio": {
                 "audio_setting": true,
-                "bgm_enabled": true,
-                "ambient_enabled": true,
+                "bgm_enabled": false,
+                "ambient_enabled": false,
                 "bgm_mode": "repeat",
                 "bgm_muted": false,
                 "bgm_volume": 50,
