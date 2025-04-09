@@ -333,8 +333,8 @@
         "context_size_derived": false,
         "sysprompt": {
             "enabled": true,
-            "name": "Neutral - Chat",
-            "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}."
+            "name": "Roleplay - Detailed",
+            "content": "Develop the plot slowly, always stay in character. Describe all actions in full, elaborate, explicit, graphic, and vivid detail. Mention all relevant sensory perceptions. Keep the story immersive and engaging."
         },
         "reasoning": {
             "auto_parse": true,
