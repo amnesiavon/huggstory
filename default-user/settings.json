@@ -836,7 +836,7 @@
                 "bgm_mode": "repeat",
                 "bgm_muted": false,
                 "bgm_volume": 50,
-                "bgm_selected": "https://image.kakaa.win/stimage/WOF/assets/bgm/Town_Explore.mp3",
+                "bgm_selected": "https://image.kakaa.win/stimage/WOF/assets/bgm/Town_Default.mp3",
                 "bgm_current_time": 0,
                 "ambient_mode": "stop",
                 "ambient_muted": false,
