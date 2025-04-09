@@ -31,11 +31,12 @@
         "AlertWI_异世界冒险模拟器.png": "true",
         "AlertWI_异世界冒险模拟器1.png": "true",
         "AlertRegex_异世界冒险模拟器1.png": "true",
-        "AlertRegex_异世界冒险模拟器.png": "true"
+        "AlertRegex_异世界冒险模拟器.png": "true",
+        "AlertRegex_正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "异世界冒险模拟器1.png",
+    "active_character": "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -667,7 +668,8 @@
             "白化蓝染的日记本.png",
             "万界聊天群“真语阁”.png",
             "异世界冒险模拟器1.png",
-            "异世界冒险模拟器.png"
+            "异世界冒险模拟器.png",
+            "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1359,7 +1361,8 @@
         "万界聊天群“真语阁”.png": [],
         "null": [],
         "异世界冒险模拟器.png": [],
-        "异世界冒险模拟器1.png": []
+        "异世界冒险模拟器1.png": [],
+        "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
