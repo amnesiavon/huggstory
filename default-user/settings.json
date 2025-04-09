@@ -403,7 +403,7 @@
         "restore_user_input": true,
         "reduced_motion": true,
         "compact_input_area": true,
-        "show_swipe_num_all_messages": false,
+        "show_swipe_num_all_messages": true,
         "auto_connect": true,
         "auto_load_chat": false,
         "forbid_external_media": false,
@@ -847,8 +847,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 2,
-                "LAST_SEND_CHARS": 2
+                "LAST_SEND_TOKENS": 29862,
+                "LAST_SEND_CHARS": 53699
             }
         },
         "attachments": [],
