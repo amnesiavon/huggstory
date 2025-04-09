@@ -36,7 +36,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "WorldofHorror.png",
+    "active_character": "Character Builder v1.3.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -790,7 +790,8 @@
             "万界聊天群“真语阁”.png",
             "异世界冒险模拟器1.png",
             "异世界冒险模拟器.png",
-            "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png"
+            "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png",
+            "Character Builder v1.3.png"
         ],
         "tts": {
             "voiceMap": "",
