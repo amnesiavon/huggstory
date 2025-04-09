@@ -321,10 +321,10 @@
             "names_force_groups": true
         },
         "context": {
-            "preset": "Libra-32B",
-            "story_string": "### Instruction:\n{{#if system}}{{system}}\n\n{{/if}}### Character Sheet:\n{{#if wiBefore}}{{wiBefore}}\n{{/if}}{{#if description}}{{description}}\n{{/if}}{{#if personality}}{{char}}'s personality: {{personality}}\n{{/if}}{{#if scenario}}Scenario: {{scenario}}\n{{/if}}{{#if wiAfter}}{{wiAfter}}\n{{/if}}{{#if persona}}{{persona}}\n{{/if}}",
-            "chat_start": "### START ROLEPLAY:",
-            "example_separator": "### Example:",
+            "preset": "Default",
+            "story_string": "{{#if system}}{{system}}\n{{/if}}{{#if wiBefore}}{{wiBefore}}\n{{/if}}{{#if description}}{{description}}\n{{/if}}{{#if personality}}{{char}}'s personality: {{personality}}\n{{/if}}{{#if scenario}}Scenario: {{scenario}}\n{{/if}}{{#if wiAfter}}{{wiAfter}}\n{{/if}}{{#if persona}}{{persona}}\n{{/if}}",
+            "chat_start": "***",
+            "example_separator": "***",
             "use_stop_strings": false,
             "allow_jailbreak": false,
             "names_as_stop_strings": true
