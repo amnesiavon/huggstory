@@ -32,11 +32,13 @@
         "AlertWI_异世界冒险模拟器1.png": "true",
         "AlertRegex_异世界冒险模拟器1.png": "true",
         "AlertRegex_异世界冒险模拟器.png": "true",
-        "AlertRegex_正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": "true"
+        "AlertRegex_正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": "true",
+        "AlertWI_fuhufox的亚种圣杯战争.png": "true",
+        "AlertRegex_fuhufox的亚种圣杯战争.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "安汐",
-    "active_character": "卜卜.png",
+    "active_character": "fuhufox的亚种圣杯战争.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
