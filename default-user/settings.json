@@ -36,7 +36,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "安汐",
-    "active_character": "Character Builder v1.3.png",
+    "active_character": "卜卜.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -790,7 +790,8 @@
             "异世界冒险模拟器1.png",
             "异世界冒险模拟器.png",
             "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png",
-            "Character Builder v1.3.png"
+            "Character Builder v1.3.png",
+            "卜卜.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -978,8 +979,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 15899,
-                "LAST_SEND_CHARS": 29879
+                "LAST_SEND_TOKENS": 13085,
+                "LAST_SEND_CHARS": 25137
             }
         },
         "attachments": [],
@@ -1483,7 +1484,8 @@
         "null": [],
         "异世界冒险模拟器.png": [],
         "异世界冒险模拟器1.png": [],
-        "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": []
+        "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": [],
+        "卜卜.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
