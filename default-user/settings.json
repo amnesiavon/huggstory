@@ -1000,8 +1000,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 30945,
-                "LAST_SEND_CHARS": 65780
+                "LAST_SEND_TOKENS": 31370,
+                "LAST_SEND_CHARS": 67939
             }
         },
         "attachments": [],
@@ -1056,7 +1056,7 @@
                 "bgm_mode": "repeat",
                 "bgm_muted": false,
                 "bgm_volume": 50,
-                "bgm_selected": "https://image.kakaa.win/stimage/WOF/assets/bgm/Forest.mp3",
+                "bgm_selected": "https://image.kakaa.win/stimage/WOF/assets/bgm/Forest_Tension.mp3",
                 "bgm_current_time": 0,
                 "ambient_mode": "stop",
                 "ambient_muted": false,
