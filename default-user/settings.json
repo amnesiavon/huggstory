@@ -1000,8 +1000,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 19231,
-                "LAST_SEND_CHARS": 46542
+                "LAST_SEND_TOKENS": 13218,
+                "LAST_SEND_CHARS": 24502
             }
         },
         "attachments": [],
@@ -1579,7 +1579,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 1000000,
         "openai_max_tokens": 32648,
         "wrap_in_quotes": false,
