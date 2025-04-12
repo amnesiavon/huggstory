@@ -1000,8 +1000,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 43983,
-                "LAST_SEND_CHARS": 73245
+                "LAST_SEND_TOKENS": 17965,
+                "LAST_SEND_CHARS": 43677
             }
         },
         "attachments": [],
@@ -1056,7 +1056,7 @@
                 "bgm_mode": "repeat",
                 "bgm_muted": false,
                 "bgm_volume": 50,
-                "bgm_selected": "https://image.kakaa.win/stimage/WOF/assets/bgm/Town_Default.mp3",
+                "bgm_selected": "https://image.kakaa.win/stimage/WOF/assets/bgm/Town_Explore.mp3",
                 "bgm_current_time": 0,
                 "ambient_mode": "stop",
                 "ambient_muted": false,
