@@ -604,57 +604,6 @@
                 "maxDepth": null
             },
             {
-                "id": "6b49f1ac-2a71-4ff6-ac52-1eb7092d26eb",
-                "scriptName": "Kemini 1",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "ad54b638-e070-4e49-bc6c-89ee196cd8e6",
-                "scriptName": "Kemini 2",
-                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "5aeeab27-e20c-44b5-9c99-9adf7a71ad16",
-                "scriptName": "Kemini 3",
-                "findRegex": "/^[\\s\\S]*</thinking>/",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "0001876a-0304-4c56-a14a-e981372cac2a",
                 "scriptName": "user消息",
                 "findRegex": "/\\[我方消息\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
