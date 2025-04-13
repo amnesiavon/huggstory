@@ -350,8 +350,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<thinking>\n",
-            "suffix": "\n</thinking>",
+            "prefix": "<tableThink_cot>\n",
+            "suffix": "\n</<tableThink_cot>",
             "separator": "\n\n",
             "max_additions": 1
         },
