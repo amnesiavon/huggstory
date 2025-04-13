@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -34,11 +34,12 @@
         "AlertRegex_异世界冒险模拟器.png": "true",
         "AlertRegex_正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": "true",
         "AlertWI_fuhufox的亚种圣杯战争.png": "true",
-        "AlertRegex_fuhufox的亚种圣杯战争.png": "true"
+        "AlertRegex_fuhufox的亚种圣杯战争.png": "true",
+        "AlertRegex_fuhufox的亚种圣杯战争_1.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "fuhufox的亚种圣杯战争.png",
+    "active_character": "fuhufox的亚种圣杯战争_1.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -812,7 +813,8 @@
             "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png",
             "Character Builder v1.3.png",
             "卜卜.png",
-            "fuhufox的亚种圣杯战争.png"
+            "fuhufox的亚种圣杯战争.png",
+            "fuhufox的亚种圣杯战争_1.png"
         ],
         "tts": {
             "voiceMap": "",
