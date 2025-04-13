@@ -596,7 +596,7 @@
                     2,
                     6
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1002,8 +1002,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 7817,
-                "LAST_SEND_CHARS": 12375
+                "LAST_SEND_TOKENS": 14270,
+                "LAST_SEND_CHARS": 22807
             }
         },
         "attachments": [],
