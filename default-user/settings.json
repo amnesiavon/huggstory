@@ -351,7 +351,7 @@
             "auto_expand": false,
             "show_hidden": true,
             "prefix": "<tableThink_cot>\n",
-            "suffix": "\n</<tableThink_cot>",
+            "suffix": "\n</tableThink_cot>",
             "separator": "\n\n",
             "max_additions": 1
         },
