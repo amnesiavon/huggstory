@@ -583,6 +583,40 @@
                 "maxDepth": 1
             },
             {
+                "id": "31d541db-0225-4bcc-958b-2820fcfdbcf8",
+                "scriptName": "Kemini 2",
+                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "f34d966d-be8f-4ba8-910d-30dfcee28fed",
+                "scriptName": "Kemini 3",
+                "findRegex": "/^[\\s\\S]*</thinking>/",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
                 "scriptName": "上下文限制[10]",
                 "findRegex": "/[\\s\\S]*/gm",
@@ -639,23 +673,6 @@
                 "maxDepth": null
             },
             {
-                "id": "31d541db-0225-4bcc-958b-2820fcfdbcf8",
-                "scriptName": "Kemini 2",
-                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "ec014833-960b-4d09-b35e-d1e70426116d",
                 "scriptName": "对方消息",
                 "findRegex": "/\\[对方消息\\|(.*?)\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
@@ -685,23 +702,6 @@
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": false,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "f34d966d-be8f-4ba8-910d-30dfcee28fed",
-                "scriptName": "Kemini 3",
-                "findRegex": "/^[\\s\\S]*</thinking>/",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
