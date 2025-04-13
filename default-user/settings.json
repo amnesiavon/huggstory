@@ -558,7 +558,7 @@
                     2,
                     6
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -577,7 +577,7 @@
                     2,
                     6
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -596,7 +596,7 @@
                     2,
                     6
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
