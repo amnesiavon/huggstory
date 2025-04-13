@@ -29,7 +29,7 @@
             "showLabel": false,
             "label": "切换谷歌",
             "title": "",
-            "message": "/preset kemini预设 3.06-3 |\n/wait 2000 |",
+            "message": "/preset kemini预设 3.11 |\n/wait 2000 |",
             "contextList": [],
             "preventAutoExecute": true,
             "isHidden": false,
