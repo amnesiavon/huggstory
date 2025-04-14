@@ -352,8 +352,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<thinking>\n",
-            "suffix": "\n</thinking>",
+            "prefix": "<thinking>",
+            "suffix": "</thinking>",
             "separator": "\n\n",
             "max_additions": 1
         },
