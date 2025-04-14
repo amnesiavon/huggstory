@@ -774,23 +774,6 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
-            },
-            {
-                "id": "edf1a1e8-9a6f-4c4f-8d68-1f217f4cf0a7",
-                "scriptName": "置空thinking content main_txt正则(tablethink和状态栏应该不受影响)",
-                "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)|(<content>)(?:[\\s\\S]*?)(<\\/content>)|(<main_txt>)(?:[\\s\\S]*?)(<\\/main_txt>)",
-                "replaceString": "$1$2$3$4$5$6",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 3,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
