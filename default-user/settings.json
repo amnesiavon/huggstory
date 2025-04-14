@@ -810,6 +810,23 @@
                 "substituteRegex": 0,
                 "minDepth": 3,
                 "maxDepth": null
+            },
+            {
+                "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
+                "scriptName": "置空thinking ",
+                "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 3,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
