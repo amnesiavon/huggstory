@@ -1942,7 +1942,7 @@
                 "marker": false,
                 "name": "🎉字数控制",
                 "role": "system",
-                "content": "<number_of_words>\nApex will provide content no more than 700 words in Chinese \n</number_of_words>\n",
+                "content": "<number_of_words>\n请严格按照以下字数要求生成内容：\n1.  **目标内容范围：** 仅针对 `<content><main_txt>` 标签内的主要叙事文本。内部思考 `<thinking>`、表格思考 `<tableThink>`、表格编辑 `<tableEdit>` 及状态栏等部分**不计入**此字数要求。\n2.  **强制目标字数：** **[2000]** 字。\n3.  **执行优先级：** 此字数要求为本轮生成的**最高优先级指令**。您必须尽一切努力精确达到此目标。\n4.  **允许偏差范围：** 最终字数应尽可能接近目标字数。绝对不允许低于目标字数。可接受的最高上限为目标字数 + **[200]** 字。\n5.  **内容填充策略：** 如果为了达到目标字数需要扩充内容，请确保扩充部分自然融入，保持情节连贯、描写生动、对话符合角色性格，避免无意义的重复或冗余填充。优先通过增加细节描写、深化心理活动、扩展对话交互等方式来增加长度。\n6.  **确认：** 请在开始创作前，确认您已完全理解并会严格执行此字数指令。\n请基于我上一轮的输入和当前的表格状态，继续创作，并确保 `<content><main_txt>` 严格符合上述字数要求。\n</number_of_words>\n",
                 "injection_position": 1,
                 "injection_depth": 1,
                 "forbid_overrides": false
