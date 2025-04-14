@@ -774,6 +774,24 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "3222e6f2-8d5a-495c-b9ba-5446dc6c76ac",
+                "scriptName": "置空content main_txt 1",
+                "findRegex": "<content><main_txt>[\\s\\S]*?<\\/content><\\/main_txt>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 3,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
