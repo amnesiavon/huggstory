@@ -24,7 +24,7 @@
     "custom_include_headers": "",
     "custom_prompt_post_processing": "strict",
     "google_model": "",
-    "temperature": 1.2,
+    "temperature": 1.54,
     "frequency_penalty": 0,
     "presence_penalty": 0,
     "top_p": 0.95,
@@ -45,12 +45,12 @@
     "bias_preset_selected": "Default (none)",
     "reverse_proxy": "",
     "proxy_password": "",
-    "max_context_unlocked": false,
+    "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
     "personality_format": "{{personality}}",
     "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
-    "stream_openai": true,
+    "stream_openai": false,
     "prompts": [
         {
             "name": "Main Prompt",
