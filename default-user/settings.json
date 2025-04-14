@@ -34,7 +34,9 @@
         "AlertRegex_异世界冒险模拟器.png": "true",
         "AlertRegex_正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": "true",
         "AlertWI_fuhufox的亚种圣杯战争.png": "true",
-        "AlertRegex_fuhufox的亚种圣杯战争.png": "true"
+        "AlertRegex_fuhufox的亚种圣杯战争.png": "true",
+        "DataBank_sortField": "created",
+        "DataBank_sortOrder": "asc"
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
@@ -1044,7 +1046,8 @@
         "character_attachments": {
             "Mori.png": [],
             "「系统Z-09」.png": [],
-            "修仙玄幻世界.png": []
+            "修仙玄幻世界.png": [],
+            "fuhufox的亚种圣杯战争.png": []
         },
         "disabled_attachments": [],
         "gallery": {
