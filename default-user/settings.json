@@ -37,11 +37,13 @@
         "AlertRegex_fuhufox的亚种圣杯战争.png": "true",
         "DataBank_sortField": "created",
         "DataBank_sortOrder": "asc",
-        "LNavLockOn": "true"
+        "LNavLockOn": "true",
+        "AlertWI_地图导航模块.png": "true",
+        "AlertRegex_地图导航模块.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "fuhufox的亚种圣杯战争.png",
+    "active_character": "地图导航模块.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -888,7 +890,8 @@
             "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png",
             "Character Builder v1.3.png",
             "卜卜.png",
-            "fuhufox的亚种圣杯战争.png"
+            "fuhufox的亚种圣杯战争.png",
+            "地图导航模块.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1578,7 +1581,8 @@
         "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": [],
         "卜卜.png": [],
         "fuhufox的亚种圣杯战争.png": [],
-        "fuhufox的亚种圣杯战争_1.png": []
+        "fuhufox的亚种圣杯战争_1.png": [],
+        "地图导航模块.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
