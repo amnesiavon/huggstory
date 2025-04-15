@@ -1146,7 +1146,8 @@
                     "initNode": "请初始化表格0：记录当前累计时间（“距离开始已经过去了0分钟”）、明确场景地点、列出所有在场角色。",
                     "insertNode": "*   **IF** 故事首次启动 **THEN** 执行 `insertRow` 初始化表格，记录初始地点和角色，并将'累计时间'设为\"距离开始已经过去了0分钟\"。",
                     "updateNode": "*   **IF** 交互导致累计时间、当前地点或在场角色发生变化 **THEN** **必须** 执行 `updateRow` 更新对应 `rowIndex` (通常是0) 的相应列。",
-                    "deleteNode": "*   此表格通常**不执行** `deleteRow` 操作。"
+                    "deleteNode": "*   此表格通常**不执行** `deleteRow` 操作。",
+                    "tableRender": ""
                 },
                 {
                     "tableName": "服装与动作状态",
