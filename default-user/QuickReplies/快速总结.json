@@ -63,7 +63,7 @@
             "showLabel": false,
             "label": "MAX",
             "title": "",
-            "message": "续写MAX",
+            "message": "续写MAX::5",
             "contextList": [],
             "preventAutoExecute": true,
             "isHidden": false,
