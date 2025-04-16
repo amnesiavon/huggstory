@@ -43,7 +43,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "fuhufox的亚种圣杯战争.png",
+    "active_character": "地图+论坛.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1616,7 +1616,8 @@
         "卜卜.png": [],
         "fuhufox的亚种圣杯战争.png": [],
         "fuhufox的亚种圣杯战争_1.png": [],
-        "地图导航模块.png": []
+        "地图导航模块.png": [],
+        "地图+论坛.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
