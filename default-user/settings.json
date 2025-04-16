@@ -363,7 +363,7 @@
         "reasoning": {
             "auto_parse": true,
             "add_to_prompts": false,
-            "auto_expand": true,
+            "auto_expand": false,
             "show_hidden": true,
             "prefix": "<thinking>",
             "suffix": "</thinking>",
