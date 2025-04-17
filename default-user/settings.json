@@ -589,6 +589,23 @@
                 "maxDepth": null
             },
             {
+                "id": "c1f3ce1f-59a2-4059-ac1b-548af1e611da",
+                "scriptName": "Kemini 1",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
                 "id": "ae21f6aa-400a-4d4b-b5e5-1ebc0dcbdc05",
                 "scriptName": "UI融合·论坛风格",
                 "findRegex": "/<wz>\\s*<bt>([\\s\\S]*?)<\\/bt>\\s*<zj>([\\s\\S]*?)<\\/zj>\\s*<pl>([\\s\\S]*?)<\\/pl>\\s*<\\/wz>/",
@@ -654,6 +671,23 @@
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "53049c05-8760-46d8-b8b9-4f265f756605",
+                "scriptName": "Kemini 2",
+                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
@@ -846,40 +880,6 @@
                     2
                 ],
                 "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "c1f3ce1f-59a2-4059-ac1b-548af1e611da",
-                "scriptName": "Kemini 1",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "53049c05-8760-46d8-b8b9-4f265f756605",
-                "scriptName": "Kemini 2",
-                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
