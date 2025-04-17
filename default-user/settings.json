@@ -2796,10 +2796,6 @@
                         "enabled": true
                     },
                     {
-                        "identifier": "5166f28c-db7b-43b8-9b5e-d0d2a4aded3e",
-                        "enabled": false
-                    },
-                    {
                         "identifier": "a74a562e-5866-4424-8614-846e244cfcde",
                         "enabled": true
                     },
@@ -2870,6 +2866,10 @@
                     {
                         "identifier": "432fb58f-ab2b-4fa8-988c-c8bdd31a1cfc",
                         "enabled": true
+                    },
+                    {
+                        "identifier": "5166f28c-db7b-43b8-9b5e-d0d2a4aded3e",
+                        "enabled": false
                     },
                     {
                         "identifier": "79d18f0a-1bd8-409a-b926-81b305b542b3",
