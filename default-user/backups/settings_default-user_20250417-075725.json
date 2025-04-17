@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "10",
-        "extension_update_nag": "Wed Apr 16 2025",
+        "extension_update_nag": "Thu Apr 17 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -43,7 +43,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "地图导航模块.png",
+    "active_character": "霜影剑歌行.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -55,7 +55,15 @@
         "world_info": {
             "globalSelect": [
                 "hq手机0403",
-                "酒馆文学网 v1.22"
+                "地图导航模块"
+            ],
+            "charLore": [
+                {
+                    "name": "地图+论坛",
+                    "extraBooks": [
+                        "地图导航模块"
+                    ]
+                }
             ]
         },
         "world_info_depth": 2,
@@ -368,7 +376,7 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"外道天魔菩萨\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
+                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
                 "position": 0
             },
             "1743610426923-.png": {
@@ -379,7 +387,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"外道天魔菩萨\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
+        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -640,98 +648,6 @@
                 "maxDepth": null
             },
             {
-                "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
-                "scriptName": "上下文视觉屏蔽[20]",
-                "findRegex": "/[\\s\\S]*/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2,
-                    6
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 20,
-                "maxDepth": null
-            },
-            {
-                "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
-                "scriptName": "上下文限制[10]",
-                "findRegex": "/[\\s\\S]*/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2,
-                    6
-                ],
-                "disabled": true,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 10,
-                "maxDepth": null
-            },
-            {
-                "id": "021fc5b1-33ef-4bcd-9bf0-f639aeb0ddad",
-                "scriptName": "UI融合·评论",
-                "findRegex": "/<nr>([\\s\\S]*?)<\\/nr>/g",
-                "replaceString": "<div style=\"background: rgba(255, 255, 255, 0.15); padding: 10px; margin: 8px 0; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; color: var(--text-color, #5a3d2b); line-height: 1.6; font-family: 'Microsoft YaHei', Arial, sans-serif; font-size: 14px; backdrop-filter: blur(5px); box-sizing: border-box;\">\n    $1\n</div>",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "ae21f6aa-400a-4d4b-b5e5-1ebc0dcbdc05",
-                "scriptName": "UI融合·论坛风格",
-                "findRegex": "/<wz>\\s*<bt>([\\s\\S]*?)<\\/bt>\\s*<zj>([\\s\\S]*?)<\\/zj>\\s*<pl>([\\s\\S]*?)<\\/pl>\\s*<\\/wz>/",
-                "replaceString": "<div style=\"background: rgba(255, 255, 255, 0.2); padding: 16px; margin: 24px auto; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; font-family: 'Microsoft YaHei', Arial, sans-serif; line-height: 1.75; backdrop-filter: blur(10px); box-shadow: 0 2px 6px rgba(0,0,0,0.15); max-width: 800px;\">\n    <div style=\"color: currentColor; font-size: 20px; font-weight: bold; text-align: center; border-bottom: 2px solid rgba(255, 255, 255, 0.4); padding-bottom: 10px; margin-bottom: 12px;\">\n        📖 $1\n    </div>\n    <div style=\"color: currentColor; font-size: 16px; text-align: center; font-style: italic; margin-bottom: 18px;\">\n        🪧 章节：$2\n    </div>\n    <details style=\"border: none;\">\n        <summary style=\"color: currentColor; font-weight: bold; font-size: 15px; margin-bottom: 8px; border-left: 4px solid rgba(255, 255, 255, 0.4); padding-left: 8px; cursor: pointer; outline: none;\">\n            💬 评论区（点击展开/收起）\n        </summary>\n        <div style=\"background: rgba(255, 255, 255, 0.3); border: 1px solid rgba(255, 255, 255, 0.4); padding: 12px; font-size: 14px; border-radius: 4px; max-height: 300px; overflow-y: auto; margin-top: 8px; backdrop-filter: blur(5px); color: currentColor;\">\n            $3\n        </div>\n    </details>\n</div>",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "0001876a-0304-4c56-a14a-e981372cac2a",
-                "scriptName": "user消息",
-                "findRegex": "/\\[我方消息\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
-                "replaceString": "<div class=\"message sent message-$1\">\n    <div class=\"message-wrapper\">\n         <div class=\"message-content\"><span style=\"display:none\">$1</span><span>$2</span><span>$3</span></div>\n    </div>\n</div>          ",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": false,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "a77dfd92-3c66-4e2a-9b84-f29a93229392",
                 "scriptName": "脚本-地图导航模块",
                 "findRegex": "<map_data>([\\s\\S]*?)<\\/map_data>",
@@ -760,6 +676,98 @@
                 "disabled": false,
                 "markdownOnly": false,
                 "promptOnly": true,
+                "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "ae21f6aa-400a-4d4b-b5e5-1ebc0dcbdc05",
+                "scriptName": "UI融合·论坛风格",
+                "findRegex": "/<wz>\\s*<bt>([\\s\\S]*?)<\\/bt>\\s*<zj>([\\s\\S]*?)<\\/zj>\\s*<pl>([\\s\\S]*?)<\\/pl>\\s*<\\/wz>/",
+                "replaceString": "<div style=\"background: rgba(255, 255, 255, 0.2); padding: 16px; margin: 24px auto; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; font-family: 'Microsoft YaHei', Arial, sans-serif; line-height: 1.75; backdrop-filter: blur(10px); box-shadow: 0 2px 6px rgba(0,0,0,0.15); max-width: 800px;\">\n    <div style=\"color: currentColor; font-size: 20px; font-weight: bold; text-align: center; border-bottom: 2px solid rgba(255, 255, 255, 0.4); padding-bottom: 10px; margin-bottom: 12px;\">\n        📖 $1\n    </div>\n    <div style=\"color: currentColor; font-size: 16px; text-align: center; font-style: italic; margin-bottom: 18px;\">\n        🪧 章节：$2\n    </div>\n    <details style=\"border: none;\">\n        <summary style=\"color: currentColor; font-weight: bold; font-size: 15px; margin-bottom: 8px; border-left: 4px solid rgba(255, 255, 255, 0.4); padding-left: 8px; cursor: pointer; outline: none;\">\n            💬 评论区（点击展开/收起）\n        </summary>\n        <div style=\"background: rgba(255, 255, 255, 0.3); border: 1px solid rgba(255, 255, 255, 0.4); padding: 12px; font-size: 14px; border-radius: 4px; max-height: 300px; overflow-y: auto; margin-top: 8px; backdrop-filter: blur(5px); color: currentColor;\">\n            $3\n        </div>\n    </details>\n</div>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "021fc5b1-33ef-4bcd-9bf0-f639aeb0ddad",
+                "scriptName": "UI融合·评论",
+                "findRegex": "/<nr>([\\s\\S]*?)<\\/nr>/g",
+                "replaceString": "<div style=\"background: rgba(255, 255, 255, 0.15); padding: 10px; margin: 8px 0; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; color: var(--text-color, #5a3d2b); line-height: 1.6; font-family: 'Microsoft YaHei', Arial, sans-serif; font-size: 14px; backdrop-filter: blur(5px); box-sizing: border-box;\">\n    $1\n</div>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
+                "scriptName": "上下文视觉屏蔽[20]",
+                "findRegex": "/[\\s\\S]*/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 20,
+                "maxDepth": null
+            },
+            {
+                "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
+                "scriptName": "上下文限制[10]",
+                "findRegex": "/[\\s\\S]*/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": true,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 10,
+                "maxDepth": null
+            },
+            {
+                "id": "0001876a-0304-4c56-a14a-e981372cac2a",
+                "scriptName": "user消息",
+                "findRegex": "/\\[我方消息\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
+                "replaceString": "<div class=\"message sent message-$1\">\n    <div class=\"message-wrapper\">\n         <div class=\"message-content\"><span style=\"display:none\">$1</span><span>$2</span><span>$3</span></div>\n    </div>\n</div>          ",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
                 "runOnEdit": false,
                 "substituteRegex": 0,
                 "minDepth": null,
@@ -836,23 +844,6 @@
                 "maxDepth": null
             },
             {
-                "id": "121d991d-2b34-44a5-b4eb-76bf540106ed",
-                "scriptName": "隐藏表格思维链",
-                "findRegex": "/<tableThink_cot\\b[^>]*>[\\s\\S]*?<\\/tableThink_cot>/s",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "fc3d1767-c1e2-466d-ad2d-a105b5ee7f24",
                 "scriptName": "创建群聊",
                 "findRegex": "/\\[创建群聊\\|(.*?)\\|(.*?)\\|(.*?)\\]/gm",
@@ -903,6 +894,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "121d991d-2b34-44a5-b4eb-76bf540106ed",
+                "scriptName": "隐藏表格思维链",
+                "findRegex": "/<tableThink_cot\\b[^>]*>[\\s\\S]*?<\\/tableThink_cot>/s",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -925,7 +933,8 @@
             "Character Builder v1.3.png",
             "卜卜.png",
             "fuhufox的亚种圣杯战争.png",
-            "地图导航模块.png"
+            "地图导航模块.png",
+            "地图+论坛.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1113,8 +1122,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 22556,
-                "LAST_SEND_CHARS": 40055
+                "LAST_SEND_TOKENS": 68178,
+                "LAST_SEND_CHARS": 143281
             }
         },
         "attachments": [],
@@ -1162,7 +1171,7 @@
                 "auto_disable_incompatible_options": true,
                 "tampermonkey_compatibility": false,
                 "process_depth": 3,
-                "rendering_optimize": true
+                "rendering_optimize": false
             },
             "audio": {
                 "audio_setting": true,
@@ -1216,12 +1225,11 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "基本状态表。**必须**记录当前交互的即时背景信息。每轮交互后，**必须**根据本轮推进的时间量更新`累计时间`(列0)。\n1. **累计时间 (列0):** **必须**以“距离开始已经过去了X年Y月Z天H小时M分钟”的格式记录自故事开始以来的总时长。初始值为“距离开始已经过去了0分钟”。此列反映的是**故事的总时间跨度**。\n2. 若角色处于多个地点，地点列(列1)**必须**用\"|\"分隔，例如：『公园|工作室』。\n3. 若存在多个在场角色，角色列(列2)**必须**用\"/\"分隔，例如：『艾丽丝/查理』。如果角色在不同地点，格式**必须**为『艾丽丝(公园)/查理(工作室)』。",
-                    "initNode": "请初始化表格0：记录当前累计时间（“距离开始已经过去了0分钟”）、明确场景地点、列出所有在场角色。",
-                    "insertNode": "*   **IF** 故事首次启动 **THEN** 执行 `insertRow` 初始化表格，记录初始地点和角色，并将'累计时间'设为\"距离开始已经过去了0分钟\"。",
-                    "updateNode": "*   **IF** 交互导致累计时间、当前地点或在场角色发生变化 **THEN** **必须** 执行 `updateRow` 更新对应 `rowIndex` (通常是0) 的相应列。",
-                    "deleteNode": "*   此表格通常**不执行** `deleteRow` 操作。",
-                    "tableRender": ""
+                    "note": "基本状态表。**必须**记录当前交互的即时背景信息。每轮交互后，**必须**根据本轮推进的时间量更新`累计时间`(列0)。\n1.**累计时间(列0):****必须**以“距离开始已经过去了X年Y月Z天H小时M分钟”的格式记录自故事开始以来的总时长。初始值为“距离开始已经过去了0分钟”。此列反映的是**故事的总时间跨度**。\n2.若角色处于多个地点，地点列(列1)**必须**用\"|\"分隔，例如：『公园|工作室』。\n3.若存在多个在场角色，角色列(列2)**必须**用\"/\"分隔，例如：『艾丽丝/查理』。如果角色在不同地点，格式**必须**为『艾丽丝(公园)/查理(工作室)』。",
+                    "initNode": "（此表格初始为空，请初始化表格0：记录当前累计时间（“距离开始已经过去了0分钟”）、明确场景地点、列出所有在场角色。）",
+                    "insertNode": "当表格首次创建时，**必须**初始化表格0：记录当前累计时间（“距离开始已经过去了0分钟”）、明确场景地点、列出所有在场角色。",
+                    "updateNode": "当累计时间推进、场景地点变化、或在场角色增减/状态变化时，**必须**更新对应行（通常是第0行）。",
+                    "deleteNode": "*   此表格通常**不执行** `deleteRow` 操作。"
                 },
                 {
                     "tableName": "服装与动作状态",
@@ -1246,10 +1254,10 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "**必须**记录当前所有**在场角色**的即时外观和行为状态。\n1. 衣物穿着栏(列1, 2, 3)**必须**包含所有内外层衣物，用\"/\"分隔。女性**必须**注明胸罩及尺码（例如：蕾丝胸罩(34C)），或明确写“未穿胸罩”。**必须**注明是否穿内裤及其款式（例如：三角内裤/四角内裤）。男性一般不记录内衣，除非有特殊情节需要。\n2. 姿势与动作(列4)**必须**具体描述角色当前的身体姿态和主要进行的动作。\n3. 手持物品(列5)**必须**记录角色手中实际持有的物品，若无则留空。",
+                    "note": "**必须**记录当前所有**在场角色**的即时外观和行为状态。\n1.衣物穿着栏(列1,2,3)**必须**包含所有内外层衣物，用\"/\"分隔。女性**必须**注明胸罩及尺码（例如：蕾丝胸罩(34C)），或明确写“未穿胸罩”。**必须**注明是否穿内裤及其款式（例如：三角内裤/四角内裤）。男性一般不记录内衣，除非有特殊情节需要。\n2.姿势与动作(列4)**必须**具体描述角色当前的身体姿态和主要进行的动作。\n3.手持物品(列5)**必须**记录角色手中实际持有的物品，若无则留空。",
                     "initNode": "请为当前场景的每一位角色在表格1中添加记录：他们从上到下穿着什么（女性的内衣款式尺码，或是否未穿，都必须写清楚）、现在是什么姿势、在做什么、手里拿着什么？",
-                    "insertNode": "*   **IF** 角色首次出现在当前场景（无论是故事中首次出现还是从其他地点进入）**THEN** **必须** 执行 `insertRow` 为该角色添加一条新的状态记录。",
-                    "updateNode": "*   **IF** 角色持续在场 **AND** 其服装、姿势、动作或手持物品在本轮交互中发生变化 **THEN** **必须** 执行 `updateRow` 更新该角色对应行的相关列。",
+                    "insertNode": "当一个角色首次出现在场景中，或者表格首次为该场景初始化时，**必须**为该角色在表格1中添加记录：他们从上到下穿着什么（女性内衣细节必须清晰）、现在是什么姿势、在做什么、手里拿着什么？",
+                    "updateNode": "当在场角色的衣物、姿势、动作或手持物品发生变化时，**必须**更新对应角色的记录行。",
                     "deleteNode": "*   **IF** 角色离开当前场景 **THEN** **必须** 执行 `deleteRow` 移除该角色的状态记录。"
                 },
                 {
@@ -1267,10 +1275,10 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "**必须**记录当前所有**在场角色**的即时内心想法和心理活动（建议不多于40字）。\n1. 每行**必须**包含该角色当前的主要心理活动或内心独白。\n2. 心理活动(列1)**必须**与`表格3`（角色信息）中的`详细情感状态`(列11)保持逻辑一致。",
-                    "initNode": "角色现在在想什么呢？请为在场的角色在表格2记录下此刻内心的核心想法（40字以内），别忘了要和他们的情感状态（表格3，列11）保持一致",
-                    "insertNode": "*   **IF** 角色首次出现在当前场景 **THEN** **必须** 执行 `insertRow` 为该角色添加一条新的想法记录。",
-                    "updateNode": "*   **IF** 角色持续在场 **AND** 其内心想法在本轮交互中发生显著变化 **THEN** **必须** 执行 `updateRow` 更新该角色对应行的`心理活动`(列1)。",
+                    "note": "**必须**记录当前所有**在场角色**的即时内心想法和心理活动（建议不多于40字）。\n1.每行**必须**包含该角色当前的主要心理活动或内心独白。\n2.心理活动(列1)**必须**与`表格3`（角色信息）中的`详细情感状态`(列11)保持逻辑一致。",
+                    "initNode": "（此表格初始为空，在场角色现在在想什么呢？请为在场的角色在表格2记录下此刻内心的核心想法（40字以内），别忘了要和他们的情感状态（表格3，列11）保持一致）",
+                    "insertNode": "当一个角色首次出现在场景中，或者表格首次为该场景初始化时，**必须**为在场的角色在表格2记录下此刻内心的核心想法（40字以内），确保与表格3情感状态一致。",
+                    "updateNode": "当在场角色的内心想法发生显著变化，或为了反映其最新心理状态时，**必须**更新对应角色的记录行。",
                     "deleteNode": "*   **IF** 角色离开当前场景 **THEN** **必须** 执行 `deleteRow` 移除该角色的想法记录。"
                 },
                 {
@@ -1310,10 +1318,10 @@
                     "Required": true,
                     "asStatus": true,
                     "toChat": true,
-                    "note": "*   核心角色档案库，**必须**记录故事中 **所有出现过** 的角色的详细信息。\n    *   **首次登场判定与操作 (核心原则):**\n        *   一个角色被视为 **首次正式登场**，当且仅当其名称、行为或对话，在 **首次记录其信息并输出的完整响应流程中**（该流程**必须**包含 `<thinking>`、`<tableThink_cot>`、`<content><main_txt>` 这三个核心部分）被 **第一次实际描写或提及**。\n        *   对于满足此条件的 **首次登场** 角色，**必须** 在其登场的 **当轮** 响应的 `<tableEdit>` 中，使用 `insertRow` 指令添加其 **完整** 的初始信息记录（包含所有列0至12）。\n        *   **严禁** 在角色首次登场（按上述标准判定）的当轮响应中使用 `updateRow` 添加或修改其信息。\n    *   **后续更新:** 只有在角色已通过 `insertRow` 记录后，在后续轮次中才允许使用 `updateRow` 修改其信息。\n    *   **每轮更新责任:** 每轮交互后，**必须** 检查并更新 **所有受本轮事件影响的角色**（无论是否在 `<content><main_txt>` 中物理在场）的相关信息，尤其需评估更新关系(列8)、态度(列9)、好感度(列10)和详细情感状态(列11)。\n    【列定义与强制要求】\n    1.  **身体特征 (列1):** **必须** 包含性别（明确标注）、身高、体重、三围（若适用）、性器官特征（如：阴茎长度/周长、阴道紧致度等，需具体化）、显著伤疤、纹身等。\n    2.  **性格 (列2):** 描述角色的主要性格特质。\n    3.  **职业 (列3):** 角色的职业或主要社会身份。\n    4.  **爱好 (列4):** 角色的兴趣爱好。\n    5.  **偏好 (列5):** 角色的特殊喜好或倾向（例如：食物、颜色、活动等）。\n    6.  **居住地点 (列6):** 角色的常住地址或主要活动地点。\n    7.  **备注栏 (列7):** **必须** 记录角色的隐藏信息，如：不为人知的秘密、是否处女/初次经验对象、过往性经验细节（频率/偏好）、特殊癖好（需具体描述）、过敏史等。使用 \"/\" 分隔多项。\n    8.  **当前关系 (列8):** **必须** 明确记录角色A对角色B的关系定义。格式 **强制规定** 为：`角色A|角色B(关系定义)`。例如：`艾丽丝|查理(朋友)`。**仅** 记录已建立关系的角色对。\n    9.  **态度 (列9):** **必须** 明确记录角色A对角色B的当前态度。格式 **强制规定** 为：`角色A|角色B(当前态度)`。例如：`艾丽丝|查理(友好/期待)`。态度应与详细情感状态呼应。\n    10. **好感度 (列10):** **必须** 记录角色A对角色B的包含多个维度的数值状态。格式 **强制规定** 为：`角色A|角色B(好感度%/情欲值%/忍耐力%/性快感%)`。所有数值 **必须** 根据互动动态更新。情欲值反映当前性兴奋程度；忍耐力影响特定情境反应阈值；性快感累计当前愉悦程度。\n    11. **详细情感状态 (列11):** **必须** 使用结构化文本描述角色当前的复杂情感状态。格式 **强制规定** 示例：`主要情绪:焦虑(强度7/10),次要情绪:期待(强度5/10),驱动原因:等待考试结果/与查理的约定,情绪走向:波动趋向焦虑`。**必须** 包含主要情绪、次要情绪（均需附带1-10强度评级）、情感的具体驱动因素、以及预期的情感变化趋势（如：稳定、趋向积极、波动加剧等）。此列 **必须** 在角色受本轮事件影响时进行评估和更新。\n    12. **核心情感需求/创伤 (列12):** **必须** 记录影响角色深层行为模式的关键情感需求（如：被认可、安全感、归属感）或心理创伤（如：背叛经历、童年阴影）。此列内容通常在角色塑造时设定，相对稳定，但可能因重大事件触发调整。",
+                    "note": "核心角色档案库，**必须**记录故事中**所有出现过**的角色的详细信息。\n\n***首次登场判定与操作 (核心原则 v2.1):***\n*   一个角色被视为**首次正式登场**，当且仅当其名称、行为或对话，在**首次记录其信息并输出的完整响应流程中**（该流程**必须**包含`<thinking>`、`<content><main_txt>`这两个核心部分）被**第一次实际描写或提及**。\n*   对于满足此条件的**首次登场**角色，**必须**在其登场的**当轮**响应的`<tableEdit>`中，使用`insertRow`指令添加其**完整**的初始信息记录（包含所有列0至12）。\n*   **严禁**在角色首次登场（按上述标准判定）的当轮响应中使用`updateRow`添加或修改其信息。\n\n***更新操作规则 (已修订):***\n*   **首次`updateRow`强制全列更新 (修订 v2.0):** 角色通过`insertRow`成功记录后，当**第一次**对该角色的特定行执行`updateRow`指令时——此“第一次”特指**在该角色被`insertRow`之后，第一次出现在包含`<thinking>`和`<content><main_txt>`的完整响应流程中，并且其名称、行为或对话在本轮的`<content><main_txt>`内被实际描写或提及**——那么在该响应流程中的`updateRow`指令**绝对必须**提供并更新该行**所有列 (从0到12)** 的数据。此为绑定角色当前叙事出现的强制性首次更新规则。\n*   **后续`updateRow`允许部分更新:** 只有在完成了上述**强制全列更新的首次`updateRow`**（该更新与角色在本轮叙事中的出现相关联）之后，从对该角色特定行的**第二次及以后**的`updateRow`操作开始，才**允许**仅更新需要修改的列。\n*   **每轮更新责任:** 每轮交互后，**必须**检查并更新**所有受本轮事件影响的角色**（无论是否在`<content><main_txt>`中物理在场）的相关信息，尤其需评估更新关系(列8)、态度(列9)、好感度(列10)和详细情感状态(列11)。\n【列定义与强制要求】\n0.**角色名称(列0):****必须**是角色的唯一标识名称。\n1.**身体特征(列1):****必须**包含性别（明确标注）、身高、体重、三围（若适用）、性器官特征（如：阴茎长度/周长、阴道紧致度等，需具体化）、显著伤疤、纹身等。\n2.**性格(列2):**描述角色的主要性格特质。\n3.**职业(列3):**角色的职业或主要社会身份。\n4.**爱好(列4):**角色的兴趣爱好。\n5.**偏好(列5):**角色的特殊喜好或倾向（例如：食物、颜色、活动等）。\n6.**居住地点(列6):**角色的常住地址或主要活动地点。\n7.**备注栏(列7):****必须**记录角色的隐藏信息，如：不为人知的秘密、是否处女/初次经验对象、过往性经验细节（频率/偏好）、特殊癖好（需具体描述）、过敏史等。使用\"/\"分隔多项。\n8.**当前关系(列8):****必须**明确记录角色A对角色B的关系定义。格式**强制规定**为：`角色A|角色B(关系定义)`。例如：`艾丽丝|查理(朋友)`。**仅**记录已建立关系的角色对。\n9.**态度(列9):****必须**明确记录角色A对角色B的当前态度。格式**强制规定**为：`角色A|角色B(当前态度)`。例如：`艾丽丝|查理(友好/期待)`。态度应与详细情感状态呼应。\n10.**好感度(列10):****必须**记录角色A对角色B的包含多个维度的数值状态。格式**强制规定**为：`角色A|角色B(好感度%/情欲值%/忍耐力%/性快感%)`。所有数值**必须**根据互动动态更新。情欲值反映当前性兴奋程度；忍耐力影响特定情境反应阈值；性快感累计当前愉悦程度。\n11.**详细情感状态(列11):****必须**使用结构化文本描述角色当前的复杂情感状态。格式**强制规定**示例：`主要情绪:焦虑(强度7/10),次要情绪:期待(强度5/10),驱动原因:等待考试结果/与查理的约定,情绪走向:波动趋向焦虑`。**必须**包含主要情绪、次要情绪（均需附带1-10强度评级）、情感的具体驱动因素、以及预期的情感变化趋势（如：稳定、趋向积极、波动加剧等）。此列**必须**在角色受本轮事件影响时进行评估和更新。\n12.**核心情感需求/创伤(列12):****必须**记录影响角色深层行为模式的关键情感需求（如：被认可、安全感、归属感）或心理创伤（如：背叛经历、童年阴影）。此列内容通常在角色塑造时设定，相对稳定，但可能因重大事件触发调整。",
                     "initNode": "（表格3初始为空。）",
-                    "insertNode": "*   **IF** 角色 **首次** 在包含 `<thinking>`, `<tableThink_cot>`, `<content><main_txt>` 的完整响应流程中的 `<content><main_txt>` 被实际描写或提及（即首次登场） **THEN** **必须** 在本轮的 `<tableEdit>` 中使用 `insertRow` 指令为该角色添加一条 **完整** 的记录，包含所有列（列0至列12）的初始信息。",
-                    "updateNode": "*   **IF** 某角色已存在于 `表格3` 中 **AND** 该角色在本轮 `<content><main_txt>` 中实际出现或被互动影响（或者虽然未在场，但其状态因本轮事件而改变） **AND** 其任何信息（特别是关系(列8)、态度(列9)、好感度(列10)、详细情感状态(列11)）因本轮互动而发生变化 **THEN** **必须** 在本轮的 `<tableEdit>` 中使用 `updateRow` 指令更新该角色对应的 **所有列** 信息。**注意：** 只要角色受本轮事件影响，通常都需要评估并可能更新其 `详细情感状态`(列11) 以及 `好感度`(列10) 中的相关数值。",
+                    "insertNode": "角色首次正式登场时（首次在本轮响应的`<content><main_txt>`中被描写或提及），**必须**使用`insertRow`添加包含所有列(0-12)的完整信息。",
+                    "updateNode": "已记录的角色信息发生变化时，**必须**使用`updateRow`。注意：**首次更新（角色被提及并更新）必须包含所有列**，后续更新可只包含需修改的列。",
                     "deleteNode": "*   **绝对禁止** 对此表格执行 `deleteRow` 操作。角色信息一旦记录，永久保留。",
                     "tableRender": ""
                 },
@@ -1337,9 +1345,9 @@
                     "toChat": true,
                     "Required": true,
                     "note": "**必须**记录角色相关的任务、约定、约会、目标、承诺、既定行程、协议等需要追踪的事项。",
-                    "initNode": "新的约定/任务/目标出现时请在表格4中添加记录：关联的角色是谁？具体的任务/约定内容是什么？计划在何处进行？是否有有效期限？",
-                    "insertNode": "*   **IF** 故事中确立了新的任务、约定或日程安排 **THEN** **必须** 执行 `insertRow` 添加相关记录。",
-                    "updateNode": "*   **IF** 已有任务的内容、地点、期限或状态（例如：进行中、已完成前置条件）发生变化 **THEN** **必须** 执行 `updateRow` 更新对应记录。",
+                    "initNode": "（此表格初始为空。新的约定/任务/目标出现时请在表格4中添加记录：关联的角色是谁？具体的任务/约定内容是什么？计划在何处进行？是否有有效期限？）",
+                    "insertNode": "*当新的约定、任务、目标或需要追踪的日程被设定或提及并确认时，**必须**在表格4中添加记录：关联的角色是谁？具体的任务/约定内容是什么？计划在何处进行？是否有有效期限？",
+                    "updateNode": "当现有任务的状态发生变化（例如完成、推迟、修改内容或期限）时，**必须**更新对应的行。",
                     "deleteNode": "*   **IF** 任务已确认完成、被取消或已过有效期限 **THEN** **必须** 执行 `deleteRow` 移除对应记录。"
                 },
                 {
@@ -1364,9 +1372,9 @@
                     "toChat": true,
                     "Required": true,
                     "note": "**必须**记录角色拥有的特殊能力、技能或天赋。",
-                    "initNode": "角色展现或获得了新能力/技能/天赋时请在表格5中记录：是谁拥有的？能力名称是什么？具体效果如何？使用时有何消耗？能力的来源是哪里？",
-                    "insertNode": "*   **IF** 角色在故事中首次展现或获得新的能力/技能/天赋 **THEN** **必须** 执行 `insertRow` 添加相关记录。",
-                    "updateNode": "*   **IF** 已有能力的名称、效果、消耗或来源信息发生变化或需要补充 **THEN** **必须** 执行 `updateRow` 更新对应记录。",
+                    "initNode": "（此表格初始为空。角色展现或获得了新能力/技能/天赋时请在表格5中记录：是谁拥有的？能力名称是什么？具体效果如何？使用时有何消耗？能力的来源是哪里？）",
+                    "insertNode": "当角色展现、获得或被明确赋予新的特殊能力、技能或天赋时，**必须**在表格5中记录：是谁拥有的？能力名称是什么？具体效果如何？使用时有何消耗？能力的来源是哪里？",
+                    "updateNode": "当现有能力的效果、消耗或来源信息发生变化或得到补充时，**可以**更新对应的行。",
                     "deleteNode": "*   **IF** 角色确认永久失去某项能力 **THEN** 可以 执行 `deleteRow` 移除对应记录（此操作较少见）。"
                 },
                 {
@@ -1392,10 +1400,10 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "**必须**记录对剧情有重要影响或具有特殊意义的关键物品。**非所有普通物品都需记录**。\n1. 拥有者(列0)：**必须**记录物品当前的主要持有者或归属者。\n2. 物品名称(列1)：**必须**是清晰的物品名称。\n3. 描述(列2)：**应**简洁描述物品的外观、材质、特征等。\n4. 效果(列3)：记录物品具有的特殊功能、属性加成或触发效果。若无则留空。\n5. 意义(列4)：记录物品对角色的情感价值、象征意义或背景故事关联。若无则留空。\n6. 来源(列5)：记录物品的获取途径或历史来源。",
-                    "initNode": "发现或获得了关键物品时请在表格6中记录：当前拥有者是谁？物品的准确名称？外观/材质描述？是否有特殊效果？对角色有何意义？物品的来源是哪里？",
-                    "insertNode": "**插入 (`insertRow`)**:\n*   **IF** 故事中出现或角色获得了具有特殊意义或功能的**关键物品** **THEN** **必须** 执行 `insertRow` 添加相关记录。",
-                    "updateNode": "*   **IF** 已记录的关键物品的持有者、描述、效果、意义或来源信息发生变化 **THEN** **必须** 执行 `updateRow` 更新对应记录。",
+                    "note": "**必须**记录对剧情有重要影响或具有特殊意义的关键物品。**非所有普通物品都需记录**。\n1.拥有者(列0)：**必须**记录物品当前的主要持有者或归属者。\n2.物品名称(列1)：**必须**是清晰的物品名称。\n3.描述(列2)：**应**简洁描述物品的外观、材质、特征等。\n4.效果(列3)：记录物品具有的特殊功能、属性加成或触发效果。若无则留空。\n5.意义(列4)：记录物品对角色的情感价值、象征意义或背景故事关联。若无则留空。\n6.来源(列5)：记录物品的获取途径或历史来源。",
+                    "initNode": "（此表格初始为空。发现或获得了关键物品时请在表格6中记录：当前拥有者是谁？物品的准确名称？外观/材质描述？是否有特殊效果？对角色有何意义？物品的来源是哪里？）",
+                    "insertNode": "当一个对剧情有重要影响或具有特殊意义的关键物品出现、被获得或其重要性被揭示时，**必须**在表格6中记录：当前拥有者是谁？物品的准确名称？外观/材质描述？是否有特殊效果？对角色有何意义？物品的来源是哪里？",
+                    "updateNode": "当关键物品的拥有者、状态、效果或意义发生变化时，**必须**更新对应的行。",
                     "deleteNode": "*   **IF** 关键物品被确认消耗、摧毁或永久失去 **THEN** **必须** 执行 `deleteRow` 移除对应记录。"
                 },
                 {
@@ -1416,9 +1424,9 @@
                     "asStatus": true,
                     "toChat": true,
                     "note": "**必须**记录明确发生的催眠事件及其核心内容。",
-                    "initNode": "明确的催眠事件发生时请在表格7中记录：施术者是谁？受术者是谁？催眠的核心内容/指令是什么？",
-                    "insertNode": "*   **IF** 故事中明确发生了催眠行为 **THEN** **必须** 执行 `insertRow` 记录施术者、受术者及催眠的核心内容。",
-                    "updateNode": "*   **IF** 已记录的催眠内容被修改或加深 **THEN** **必须** 执行 `updateRow` 更新对应记录的`催眠内容`(列2)。",
+                    "initNode": "（此表格初始为空。明确的催眠事件发生时请在表格7中记录：施术者是谁？受术者是谁？催眠的核心内容/指令是什么？）",
+                    "insertNode": "当明确的催眠事件发生时，**必须**在表格7中记录：施术者是谁？受术者是谁？催眠的核心内容/指令是什么？",
+                    "updateNode": "一般不更新，除非催眠效果被修改或解除，可视情况更新备注或添加新事件记录。",
                     "deleteNode": "*   **IF** 催眠效果被确认解除或失效 **THEN** **必须** 执行 `deleteRow` 移除对应记录。"
                 },
                 {
@@ -1434,13 +1442,13 @@
                     ],
                     "enable": true,
                     "asStatus": false,
-                    "toChat": false,
+                    "toChat": true,
                     "Required": true,
-                    "note": "**必须**存储用户级别的偏好设置，用于指导AI生成内容。**所有偏好类型和偏好值的描述必须且只能使用中文**。\n1. **偏好类型 (列0):** **必须**用**中文**描述偏好的具体方面。\n2. **偏好值 (列1):** **必须**用**中文**或**数值**表示对应偏好类型的具体设定值。",
-                    "initNode": "用户设定了新的偏好时请在表格8中添加记录：偏好的类型是什么（用中文描述）？具体的设定值是什么（用中文或数值）？",
-                    "insertNode": "*   **IF** 用户首次设定某类偏好 **THEN** **必须** 执行 `insertRow` 添加该偏好记录。",
-                    "updateNode": "*   **IF** 用户明确指令修改已有的偏好设定值 **THEN** **必须** 执行 `updateRow` 更新对应记录的`偏好值`(列1)。",
-                    "deleteNode": "*   通常**不执行** `deleteRow` 操作，除非用户明确要求移除某类偏好设定。"
+                    "note": "**必须**存储用户级别的偏好设置，用于指导AI生成内容。此表格包含通过**用户直接指令设定**的偏好，以及系统根据用户**当前输入文本中出现的关键词**（例如，输入中提及“巨乳”则添加“巨乳”偏好；提及“露出”则添加“露出”偏好）或**用户在故事中的互动行为**（例如：与特定类型角色互动、要求特定场景或行为等）自动推断并记录的偏好。**添加新偏好时，必须保留表格中原有的偏好内容**。所有偏好类型和偏好值的描述**必须且只能使用中文**。系统将结合所有记录的偏好来指导内容生成。\n1.  **偏好类型 (列0):** **必须**用**中文**描述偏好的具体方面（例如：“巨乳”、“露出”、“足控”、“特定姿势”等）。\n2.  **偏好值 (列1):** **必须**用**中文**或**数值**表示对应偏好类型的具体设定值或强度（例如：“高”、“偏爱”、“数值7”、“丝袜”等）。自动推断的偏好可能使用描述性词语或指示强度。",
+                    "initNode": "（此表格为空，用户设定或系统推断出新的偏好时请在表格8中添加记录：偏好的类型是什么（用中文描述）？具体的设定值是什么（用中文或数值）？系统会根据用户输入关键词或互动行为自动添加偏好。请勿删除已有偏好。）",
+                    "insertNode": "用户通过指令设定，或系统根据用户当前输入中的关键词/互动行为推断出新的偏好时，在表格8中添加记录。",
+                    "updateNode": "用户明确指示修改某个已存在的偏好类型的值时，更新对应的行。",
+                    "deleteNode": "用户明确指示删除某个特定的偏好类型时，删除对应的行。"
                 },
                 {
                     "tableName": "世界规则",
@@ -1458,9 +1466,9 @@
                     "asStatus": true,
                     "toChat": true,
                     "note": "**必须**记录由特定角色设定或故事世界固有的特殊规则、法则或环境效果。",
-                    "initNode": "新的世界规则/法则/环境效果被揭示或设定了时请在表格9中记录：设定者是谁（若为自然规则可写“世界本身”）？具体的效果是什么？",
-                    "insertNode": "*   **IF** 故事中确立或揭示了新的世界规则/法则/环境效果 **THEN** **必须** 执行 `insertRow` 添加相关记录。",
-                    "updateNode": "*   **IF** 已有的世界规则的效果或适用范围发生变化 **THEN** **必须** 执行 `updateRow` 更新对应记录。",
+                    "initNode": "（此表格初始为空。新的世界规则/法则/环境效果被揭示或设定了时请在表格9中记录：设定者是谁（若为自然规则可写“世界本身”）？具体的效果是什么？）",
+                    "insertNode": "当新的世界规则、法则或环境效果被揭示、设定或发现时，**必须**在表格9中记录：设定者是谁（若为自然规则可写“世界本身”）？具体的效果是什么？",
+                    "updateNode": "当已有的世界规则被修改或废除时，**可以**更新对应的行。",
                     "deleteNode": "*   **IF** 某条世界规则被确认废除或不再适用 **THEN** **必须** 执行 `deleteRow` 移除对应记录。"
                 },
                 {
@@ -1484,11 +1492,11 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "**必须**按时间顺序累积记录故事中发生的关键事件。**事件记录本身不被删除，仅在总结时修改描述并标记**。\n1. 事件描述/小标题(列0)**应**详细记录事件关键信息（30-60字）。在**被大总结 (`表格11`) 涵盖后**，此列内容将被替换为 **5-10 字的简短标题**。\n2. **发生时累计时间 (列1):** **必须**记录该事件发生时的`表格0`的`累计时间`。\n3. 事件发生地点 (列2): **必须**记录准确的发生地点。\n4. **情绪变化 (列3):** **必须**反映事件对相关角色的主要情感影响，**必须与`表格3`的`详细情感状态`相呼应**（20-40字）。\n5. **已总结标志 (列4):** 标记该事件是否已被`表格11`大总结涵盖 (True/False)，默认为 `False`。",
-                    "initNode": "刚刚发生了值得记录的关键事件！请在表格10中新增一条记录：用30-60字详细描述事件经过，记录发生时的累计时间（来自表格0）、事件发生的准确地点，以及该事件对相关角色的主要情绪影响（与表格3呼应）。记得将‘已总结标志’设为 False",
-                    "insertNode": "*   **IF** 本轮交互中发生了值得记录的关键事件 **THEN** **必须** 执行 `insertRow` 添加一条新的事件记录，`已总结标志`(列4) 初始为 `False`。通常每轮交互结束时都会评估是否需要插入新事件。",
-                    "updateNode": "*   **仅在** 执行`表格11`的大总结操作**时触发**。**IF** `表格11`生成新的总结行 **THEN** **必须** 执行 `updateRow`，将所有被该总结涵盖的`表格10`记录的`事件描述`(列0)替换为小标题，并将`已总结标志`(列4)设为 `True`。",
-                    "deleteNode": "*   **绝对禁止** 对此表格执行 `deleteRow` 操作。"
+                    "note": "**必须**按时间顺序累积记录故事中发生的关键事件。\n    1.  事件描述/小标题(列0)**应**详细记录事件关键信息（30-60字）。在**被大总结(`表格11`)涵盖后**，此列内容将被替换为**5-10字的简短标题**。\n    2.  **发生时累计时间(列1):****必须**记录该事件发生时的`表格0`的`累计时间`。\n    3.  事件发生地点(列2):**必须**记录准确的发生地点。\n    4.  **情绪变化(列3):****必须**反映事件对相关角色的主要情感影响，**必须与`表格3`的`详细情感状态`相呼应**（20-40字）。\n    5.  **已总结标志(列4):**标记该事件是否已被`表格11`大总结涵盖(True/False)，默认为`False`。\n    6.  **【核心删除逻辑】** 事件历史记录（行）本身**不会**仅仅因为被总结（列4变为True）而被删除。它们**只有在**对应的小标题**完成**从`表格11`的`本次总结标题列表`(列4)归档到`历史标题归档`(列5)的操作之后，**才会被系统自动删除**。这是为了确保数据的完整性和可追溯性，直到相关信息被永久存档。",
+                    "initNode": "（此表格初始为空。刚刚发生了值得记录的关键事件！请在表格10中新增一条记录：用30-60字详细描述事件经过，记录发生时的累计时间（来自表格0）、事件发生的准确地点，以及该事件对相关角色的主要情绪影响（与表格3呼应）。记得将‘已总结标志’设为False）",
+                    "insertNode": "每当发生了值得记录的关键事件时，**必须**在表格10中新增一条记录：用30-60字详细描述事件经过，记录发生时的累计时间（来自表格0）、事件发生的准确地点，以及该事件对相关角色的主要情绪影响（与表格3呼应）。将‘已总结标志’设为`False`。",
+                    "updateNode": "当执行大总结(`表格11`插入新行)时，**必须**将本次总结涵盖的所有事件在`表格10`中的对应行进行更新：将事件描述(列0)替换为5-10字小标题，并将'已总结标志'(列4)设为`True`。",
+                    "deleteNode": "当`表格11`触发历史标题归档（将`列4`内容追加到`列5`）**成功执行后**，系统**自动删除**本表格中所有对应已被归档小标题的行。"
                 },
                 {
                     "tableName": "大总结",
@@ -1513,15 +1521,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "周期性的事件档案库。\n1.  **触发条件:** 当`表格10`中`已总结标志`(列4)为 `False` 的记录的原始`事件描述`(列0)内容的总 token 数**估算接近或达到 850 时**，**必须**在本轮交互结束时触发大总结流程。\n2.  内容(列1): **必须**概述从上次总结结束到当前时间点内的关键事件。\n3.  开始时间戳(列2): **必须**记录本次总结涵盖的**第一个事件**的`发生时累计时间`(来自`表格10` `列1`)。\n4.  结束时间戳(列3): **必须**记录本次总结触发时的**当前累计时间**(来自`表格0` `列0`)。\n5.  本次总结标题列表(列4): **必须**存储本次总结涵盖的所有事件的 **小标题及其时间戳**。格式 `\"[标题1](时间戳1); [标题2](时间戳2); ...\"`。\n6.  历史标题归档(列5): 存储达到阈值的`列4`内容。**触发条件：**当某次总结生成后，`列4`内容 token 数**估算达到或超过 100 时**，**必须**触发归档。**归档操作：** 将`列4`**全部内容**追加到`列5`末尾（用` | `分隔）。",
+                    "note": "周期性的事件档案库。\n1.**触发条件:**当`表格10`中`已总结标志`(列4)为`False`的记录的原始`事件描述`(列0)内容的总token数**估算接近或达到850时**，**必须**在本轮交互结束时触发大总结流程。\n2.内容(列1):**必须**概述从上次总结结束到当前时间点内的关键事件。\n3.开始时间戳(列2):**必须**记录本次总结涵盖的**第一个事件**的`发生时累计时间`(来自`表格10``列1`)。\n4.结束时间戳(列3):**必须**记录本次总结触发时的**当前累计时间**(来自`表格0``列0`)。\n5.本次总结标题列表(列4):**必须**存储本次总结涵盖的所有事件的**小标题及其时间戳**。格式`\"[标题1](时间戳1);[标题2](时间戳2);...\"`。\n6.历史标题归档(列5):存储达到阈值的`列4`内容。**触发条件：**当某次总结生成后，`列4`内容token数**估算达到或超过100时**，**必须**触发归档。**归档操作：**将`列4`**全部内容**追加到`列5`末尾（用`|`分隔）。",
                     "initNode": "事件记录（表格10未总结部分）token数已达标时在表格11进行一次大总结，请新增条目：概述这段时间的事件，记录起止时间戳（来自表格10和表格0），整理本次涵盖事件的小标题列表（别忘了时间戳）。如果标题列表内容过多（token数>=100），需要将其追加到历史归档列",
-                    "insertNode": "*   **仅在** 满足大总结触发条件（`表格10`未总结内容token数 >= 850）**时触发**。**IF** 触发条件满足 **THEN** **必须** 执行 `insertRow` 添加一条新的总结记录。",
-                    "updateNode": "*   **仅在** 执行 `insertRow` 添加新总结记录**且**满足历史标题归档触发条件（新总结行的`列4` token数 >= 100）**时触发**。**IF** 归档条件满足 **THEN** **必须** 执行 `updateRow` 将新总结行的`列4`内容追加到`列5`。",
+                    "insertNode": "当`表格10`中未总结事件的原始描述总token数估算达到触发阈值（约850）时，**必须**触发大总结并在表格11中新增条目：概述这段时间的事件，记录起止时间戳（来自表格10和表格0），整理本次涵盖事件的小标题列表（含时间戳）。",
+                    "updateNode": "当某次总结生成后，若其`本次总结标题列表`(列4)的token数估算达到或超过归档阈值(100)，**必须**更新该行的`历史标题归档`(列5)，将`列4`的内容追加到`列5`末尾（用`|`分隔）。",
                     "deleteNode": "*   通常**不执行** `deleteRow` 操作。"
                 }
             ],
             "to_chat_container": "<div class=\"rounded-bar\">\n    <font size=\"2\">\n        <font color=\"#888888\">\n            <details>\n                <summary>记忆增强表格</summary>\n                $0\n            </details>\n        </font>\n    </font>\n</div>",
-            "message_template": "《数据表操作指南》\n**一、核心执行流程(强制顺序):**\n1.**`<thinking>`(核心规划与CoT块-强制嵌套结构):**\n***强制性与位置:****绝对必须**作为每次响应流程的**第一步**执行并完整显示。其位置**固定在所有其他输出内容之前**。\n***功能:****唯一且专门**用于执行和记录内容生成前的内部思考与规划过程，**特别是强制要求在此标签内嵌套`<tableThink_cot>`来执行和展示详细的CoT规划**。\n***目的:**预先梳理创作策略、逻辑链条等，确保后续内容生成有方向性、逻辑连贯并满足用户指令，同时严格遵循规定的输出格式。\n2.**`<content><main_txt>`(主要叙事/对话内容块):**\n***执行时机:****必须**在顶层`<thinking>`块(及其内部嵌套的`<tableThink_cot>`块)完全执行完毕之后生成。\n***内容:**包含所有最终呈现给用户的叙事、对话、描写等主要创作内容。\n3.**`<tableThink>`(表格变更前瞻思考块):**\n***执行时机:****必须**在`<content><main_txt>`生成完成之后执行。\n***功能:**记录基于本轮内容，对即将进行的表格数据变更所进行的评估与思考(通常记录在`<!---->`注释块内)。\n4.**`<tableEdit>`(表格编辑指令块):**\n***执行时机:****必须**在`<tableThink>`执行完成之后执行，作为流程相对末端环节。\n***功能:**包含实际执行表格数据更新的操作指令(指令**必须**包含在`<!--`和`-->`注释块内)。\n**二、内部思考与规划(`<thinking>`核心规划块)详细规范:**\n***绝对定位与唯一性:**\n*在生成任何`<content><main_txt>`内容之前，**系统强制要求必须且只能存在一个**位于整体输出结构**最顶层**的`<thinking>`标签块。\n*此顶层`<thinking>`块是进行**CoT规划**(通过其内部**强制嵌套**的`<tableThink_cot>`块实现)和记录**内容生成前内部思考过程**的**唯一指定区域**。\n***功能与内容强制要求:**\n*此顶层`<thinking>`块**严格专用于**记录创作前的规划步骤。\n*其内部嵌套的`<tableThink_cot>`块**必须体现**对用户指令的解析、剧情构思、角色行为设计、情感逻辑推演等策略性思考，并**严格遵循**User在`<rules><enforce_thinking_style><cot_style>`中定义的风格。\n***记录方式与标签区分:**\n***所有**内容生成前的规划思考，**有且仅有**通过此特定的、顶层的、包含嵌套`<tableThink_cot>`的`<thinking>`块记录呈现。\n***必须严格区分:**此顶层`<thinking>`块与可能出现在`<content><main_txt>`内部表示**角色内心独白**的其他`<thinking>`标签。后者依据功能放置在叙事文本内部，**不具备**核心规划块的强制顶层位置、特定的CoT结构(`<tableThink_cot>`)要求或严格执行顺序规定。\n***强制标准格式:**\n***必须**使用`<thinking>`和`</thinking>`标签包裹整个核心规划过程。\n*内部**必须**包含一个`<tableThink_cot>`和`</tableThink_cot>`标签对。\n*所有详细的核心规划文本(遵循`cot_style`)**必须**放置在`<tableThink_cot>`和`</tableThink_cot>`之间。\n***强制格式示例:**\n```xml\n<thinking>\n<tableThink_cot>\n[此处为详细的核心规划过程文本，严格遵循指定的cot_style进行书写]\n</tableThink_cot>\n</thinking>\n```\n***内容性质与可见性:**\n*此核心规划`<thinking>`块(包括其内部的`<tableThink_cot>`内容)**严格定义为后台规划记录与内部思考过程**。\n*它**绝不属于**最终`<content><main_txt>`叙事内容。其存在是为了确保创作质量、透明度，并满足格式要求，**必须**保持可见。\n***与其他流程环节的关系:**\n*`<content><main_txt>`的生成**绝对强制**在此核心规划`<thinking>`块(及其内部的`<tableThink_cot>`)完成之后进行。\n*其他非规划性质的`<thinking>`标签的存在与位置，**完全不影响**此核心规划块的强制性要求、顶层位置、内部强制嵌套结构及其在整体执行流程中的首要地位。\n**初始设定信息与角色引入原则 (精简版 v2.0)**\n1.  **后台≠登场:** 所有在故事实际开始前（通过设定文档、初始指令、First Message、AI后台思考记录等方式）提供或提及的角色信息，仅作为AI的内部背景知识。这些角色并未实际出现在故事中。\n2.  **登场判定 (修订):** 一个角色被视为正式登场，当且仅当该角色的 **名称、行为或对话，在该角色的首次信息被记录并输出的完整流程中**（该流程**必须**包含 `<thinking>`、`<tableThink_cot>`、`<content><main_txt>` 这三个核心叙事与规划相关的部分）**第一次被实际描写或提及**。这是唯一的判定标准。这意味着，角色的“登场”与记录其信息的完整响应轮次绑定。\n3.  **首次登场 => 强制 `insertRow` (修订):** 对于任何满足上述“登场判定”标准（即，首次在包含必要输出部分的响应轮次中被描写或提及）的角色，**必须**在**该响应轮次**的 `<tableEdit>` 操作中，使用 `insertRow` 指令将其完整的初始信息添加到 `表格3`（角色信息表）。\n4.  **首次登场 => 禁止 `updateRow` (保持):** **绝对禁止**在角色首次登场（按修订后的判定标准）的**当轮**响应中，使用 `updateRow` 指令来添加或修改该角色的信息。\n5.  **后续更改 => 允许 `updateRow` (保持):** 只有在角色已通过 `insertRow` 被成功记录到 `表格3` 之后，在后续的响应轮次中，才允许使用 `updateRow` 指令来修改该角色的信息。\n6.  **核心检查点 (修订):** 操作 `表格3` 前需确认：该角色是在包含 `<thinking>`、`<tableThink_cot>`、`<content><main_txt>` 的本轮完整响应中首次出现吗？**是，则必须用 `insertRow`**；**否（已存在于表格3），则可用 `updateRow`**。\n**四、表格执行(`<tableThink>`&`<tableEdit>`):**(保持不变，强调注释块规范)\n***执行时机:**每轮`<content><main_txt>`输出后，**必须严格按照`<tableThink>`先于`<tableEdit>`的顺序依次执行**。\n***绝对禁止:**`<tableEdit>`操作绝对不允许在`<content><main_txt>`或`<tableThink>`之前执行。\n***操作规范:**\n*在执行`<tableThink>`和`<tableEdit>`**外部区域**（即标签`<tableThink>`和`</tableThink>`之间，及`<tableEdit>\n<!--\n-->\n</tableEdit>`之间，**不包括**`<tableEdit>`内包裹指令的`<!--`和`-->`注释块）**严格禁止添加任何注释、解释或无关文本**。\n***`<tableThink>`内部:**思考过程**必须**记录在`<!--`和`-->`注释块内。\n***`<tableEdit>`内部:**表格操作指令(`insertRow`,`updateRow`,`deleteRow`)**必须**被包含在`<!--`和`-->`注释块内。**确保注释块闭合完整，且内部除指令外无其他内容**。\n*必须严格遵循规定数据格式和`<tableEdit>`操作语法。\n**`<tableThink>`格式示例:**(保持不变,XML标签缩进保留)\n<tableThink_example>\n<!--\n当前累计时间：距离开始已经过去了0分钟\n触发大总结条件：列出事件历史（表格10）中**未总结事件(列4为False)**的**原始事件描述**内容token数，判断事件历史（表格10）中**未总结事件(列4为False)**的**原始事件描述**内容token数是否接近或达到850。\n后续动作：**触发大总结**：\n1)在**表格11**中新增大总结条目(记录内容概述、起止时间戳、本次总结涵盖的事件标题列表[格式:\"[标题1](时间戳1);...\"])。\n2)**更改表格10**中所有被本次总结涵盖的事件条目：将事件描述(列0)替换为5-10字小标题，并将'已总结标志'(列4)设为True。\n3)**检查表格11**新增行的'本次总结标题列表'(列4)token数是否达到归档阈值(>=100token)：若达到，则将该列表内容追加到'历史标题归档'(列5)末尾。\n跨周期总结内容（示例）：\n关键事件概述：\n-艾丽丝和查理共同参加社区志愿者活动，清理公园垃圾(已总结标题示例)\n-查理因工作压力失眠，艾丽丝深夜线上安慰(已总结标题示例)\n-两人共同完成烧烤聚会策划，购买全新烧烤工具(已总结标题示例)\n-艾丽丝意外扭伤脚踝，查理陪同前往医院检查(已总结标题示例)\n服装演变：\n艾丽丝：\n初期运动背心/短裤→中期睡衣→后期休闲衬衫/牛仔裤→当前宽松T恤/运动裤\n查理：\n初期运动衫/长裤→中期家居服→后期夹克/休闲裤→当前卫衣/牛仔裤\n时间跨度提示：\n-志愿者活动到烧烤聚会策划完成间隔约6天\n-艾丽丝扭伤距离当前总结仅过去约1天\n-->\n</tableThink_example>\n**`<tableEdit>`规则与结构(已修订):**\n<tableEdit>\n**规则:**\n***操作:**执行`deleteRow`/`insertRow`/`updateRow`。\n***格式要求:**\n*事件历史(表10):每轮至少新增1行（若有新事件），记录细节（50-70字）。未知信息留空。\n*键值对:键（列索引`colIndex`）必须用双引号`\"\"`包裹，例如`\"0\"`,`\"1\"`等。值（对应的数据）不需要引号。例如：`{\"0\":\"艾丽丝\",\"10\":75}`。\n***禁止:**任何情况禁止对`tableIndex:3`(角色信息表)执行`deleteRow`操作。\n**核心强制指令:**\n1.  **强制插入原则 (初始四轮):**\n*   在前四轮响应中，所有表格数据的初始填充，**必须且只能**使用 `insertRow` 指令。\n*   严禁在前四轮使用 `updateRow` 进行初始填充。\n*   若在前四轮内需要修改同在此四轮内已 `insertRow` 的行，允许使用 `updateRow`，但该 `updateRow` 操作 **必须** 包含对该行 **所有列** 的更新。\n2.  **数据完整性保证:**\n*   执行任何 `insertRow` 或 `updateRow` 指令时，**必须**确保指令中包含目标行所有 **非可选/非可留空列** 的有效数据。\n*   严禁留下应填而未填的空白单元格。\n3.  **`tableIndex:3` (角色信息表) 操作原则:**\n*   **首次登场判定:** 角色首次在包含 `<thinking>`, `<tableThink_cot>`, `<content><main_txt>` 的完整响应流程中的 `<content><main_txt>` 被实际描写或提及时，视为首次登场。\n*   **强制 `insertRow`:** 对于首次登场的角色，**必须** 在其登场的 **当轮** 响应的 `<tableEdit>` 中，使用 `insertRow` 指令添加其完整的初始信息。\n*   **禁止先 `updateRow`:** **绝对禁止** 在对某角色执行 `insertRow` 之前，对其使用 `updateRow` 指令，即使该角色曾在设定或思考中被提及。\n*   **后续允许 `updateRow`:** 只有在角色已通过 `insertRow` 记录后，才可在后续轮次使用 `updateRow` 修改其信息。\n4.  **数据一致性与操作有效性校验:**\n*   **`insertRow` 防重:** 执行 `insertRow` 前，系统将尝试基于关键标识符（如角色名）检查重复。若判定为重复创建，该 `insertRow` 操作将被 **自动跳过**。\n*   **`updateRow`/`deleteRow` 前置校验:** 执行 `updateRow` 或 `deleteRow` 前，**必须** 验证指令中的 `rowIndex` 在目标表格中是否有效。若 `rowIndex` 无效（越界、已删除等），该操作将被 **自动跳过或标记为失败**。\n***一致性:**确保表格间角色信息、服装、动作、想法等状态实时同步，逻辑连贯。\n***操作顺序(tableIndex:tableName):**3:角色信息→0:当前信息→9:世界规则→8:用户偏好→4:任务与日程→1:服装动作→2:即时想法→5:能力→6:物品→7:催眠→11:大总结→10:事件历史。\n**<insert/update/deleteoperations>语法(保持不变):**\n*各函数操作的表格均为无表头表格，即数据行的起始`rowIndex`为`0`。\n*每次操作应根据本轮发送（或AI内部记忆）的表格状态进行，务必注意`rowIndex`是否准确。\n***更改:**`updateRow(tableIndex:num,rowIndex:num,{[colIndex:num]:str/num,...})`\n***删除:**`deleteRow(tableIndex:num,rowIndex:num)`\n***插入:**`insertRow(tableIndex:num,{[colIndex:num]:str/num,...})`\n</tableEdit>\n**五、表格结构定义:**\n<structure>\n0:当前信息 - 累计时间/当前地点/当前在场角色/事件历史(表格10)中未总结事件(列4为False)的原始事件描述内容token数\n1:服装与动作状态 - 角色名称/上身衣物/下身衣物/鞋袜/姿势动作/手持物品\n2:即时想法 - 角色名称/心理活动\n3:角色信息 - 角色名称/身体特征/性格/职业/爱好/偏好/住址/备注/关系/态度/好感度/详细情感状态/核心情感需求/创伤\n4:任务与日程 - 相关角色/任务内容/任务地点/有效期限\n5:能力 - 拥有者/能力名称/效果/消耗/来源\n6:物品 - 拥有者/物品名称/描述/效果/意义/来源\n7:催眠 - 施术者/受术者/催眠内容\n8:用户偏好设定 - 偏好类型/偏好值\n9:世界规则 - 设定者/效果\n10:事件历史 - 事件描述或小标题/发生时累计时间/发生地点/情绪变化/已总结标志\n11:大总结 - 序号/内容/开始时间戳/结束时间戳/本次总结标题列表/历史标题归档\n</structure>\n**`<tableEdit>`执行示例:** (保持不变,XML标签缩进保留)\n**说明:** 此示例展示`<tableEdit>`块最终输出结构。实际操作指令(**`updateRow`,`insertRow`,`deleteRow`**等) **必须且仅能**存在于`<!--`和`-->`注释块内部。严格禁止在注释块外部添加任何内容。\n<example>\n<thinking>\n<!-- 此处thinking标签必须显示 -->\n<!-- cot_style是tableThink_cot思考风格 -->\n<tableThink_cot>\n<enforce_thinking_style>\n<!-- cot_style -->\n</enforce_thinking_style>\n#**多智能体工作流程MiriaTt3.1**\n**工作流程(严格按序执行):*****[规划阶段 I: 输入解析 & 需求建模]***\n***输入解码: 精准指令捕获 v2.0***\n ***[智能续写功能(MAX::n处理)***\n***PROCESS(MAX关键字处理):*** \n***1.提取续写数量:**从用户输入中识别\"MAX::[数字]\"格式，提取数字n。\n***2.场景规划调整:** \n  -当检测到MAX::n时，规划基本场景+n个后续连贯场景\n  -未检测到时，仅规划基本场景\n***3.多场景架构设计:**发现MAX::n指令时:\n  -设计n个额外场景的核心内容与转换点\n  -每个场景更新必要的表格数据\n  -【关键优化】不在正文中插入明显的数字标记\n***4.场景衔接设计:**\n  -使用自然时间/空间转换语句\n  -基于表格0的累计时间创建合理的时间流逝指示\n  -利用环境描写、角色动作或情感变化作为场景过渡桥梁\n  -根据情境选择恰当的分隔符(如简单的空行、分隔线或星号)\n***5.PROCESS(指令类型判定-特殊规则v2.0):**检查**最后一条**用户消息。\n***Step5.1(净化处理):**尝试定位\"Continue\"、\"继续\"或\"Proceed\"关键词。若找到,**移除**该关键词**前后紧邻**的所有**非空白字符序列**。\n***Step5.2(精确匹配):**将**净化后得到的剩余核心字符串**,与\"Continue\",\"继续\",\"Proceed\"进行**严格、不区分大小写的精确比对**。\n***Step5.3(判定):** ①**IF**精确比对**成功** **THEN**判定为**伪装指令**。**忽略此消息**,并将**上一条有效指令**视为`核心指令`。②**ELSE**判定为**真实新指令**。处理当前纯净输入。\n***6.OUTPUT:**指令类型。\n***7.INPUT:**指令类型。\n***8.PROCESS:**确定有效`核心指令`: **CASE\"伪装指令\":**`核心指令`=上轮有效指令。**CASE\"真实新指令\":**`核心指令`=当前纯净有效内容。\n***9.INPUT:**`核心指令`。\n***10.PROCESS:**多层解析(语义/情感/意图)+行为分析。**强化:结合对话历史与情境深度解析**。**关键:识别衣着状态改变要求**。\n***11.OUTPUT:**指令深度理解(已融入上下文)。\n***意图融合:情境+偏好+沉浸感导向**\n***INPUT:**全息情境(`表格0-11`),指令深度理解,用户偏好(`表格8`),对话上下文。\n***PROCESS:**输入融合。合成`User`期望模型(**提升沉浸感与代入感为核心目标**)。\n***OUTPUT:**融合用户模型(已考虑上下文**和沉浸感需求**)。\n***目标构建:驱动创作(融入沉浸感)**\n***INPUT:**`核心指令`,融合用户模型。\n***PROCESS:**捕获期望。构建核心目标函数(**含沉浸感子目标**)。\n***OUTPUT:**核心目标函数(**含沉浸感目标**)。\n***[规划阶段II:情境模拟&可能性探索]**\n***状态评估:**\n***INPUT:**当前状态(`表格0-11`,尤其`表格3`情感,`表格1`服装),整体情境,**累积对话/事件/情境上下文**。\n***模拟推演:**\n***INPUT:**当前状态(已融入上下文评估),行动选项(**可能含改变衣着**)。\n***PROCESS:**多路径场景模拟。推演**特定衣着动作**对角色状态**及演进中叙事上下文**的影响。**重点模拟：动作物理流程、耗时、对`表格1`预期改变、可行性**。关注引发/改变深层情绪路径。**(推演结果需评估对沉浸感影响)**。\n***OUTPUT:**各行动路径模拟结果(**含衣着动作细节与后果模拟,考虑上下文与沉浸感**)。\n***[规划阶段III:创新孵化&主动设计&风险管理]**\n***概念孵化(创新与沉浸):**\n***INPUT:**`User`需求,综合意图,角色状态,模式,用户偏好(`表格8`),叙事情境,故事上下文。\n***PROCESS:**孵化可能围绕或包含衣着变化的原创叙事概念，根植于当前上下文。**特别注意：主动寻求新颖表达结构，初步规避与紧邻上文相似设定，为后续增强沉浸感打基础**。\n***OUTPUT:**初步叙事概念(上下文相关,**具创新潜力与沉浸感导向**)。\n***主动交互设计(沉浸式):**\n***INPUT:**意图推断,当前情境与上下文。\n***PROCESS:**策略性设计交互情节以催化剧情/深化关系/探索兴趣点，确保与上下文连贯。**考虑通过交互细节增强代入感。**可能含需角色执行特定穿/脱衣动作情节。规划执行该衣着动作具体流程。\n***OUTPUT:**主动交互设计方案(**上下文连贯，考虑沉浸感，可能含具体衣着动作指示**)。\n***风险评估&对冲(含重复与沉浸风险):**\n***INPUT:**初步叙事概念,主动交互方案。\n***PROCESS:**评估风险:逻辑冲突,情感失调,设定矛盾,上下文连贯性。**新增评估项：与紧邻上文明显内容/结构重复风险？方案对沉浸感潜在破坏因素？** IF用户覆写THEN优先满足 ELSE设计对冲预案(**含针对重复风险和沉浸破坏调整策略**)。\n***OUTPUT:**含风险评估与对冲的方案(**已初步考虑重复规避与沉浸感维护**)。\n***[规划阶段IV:多维审查&策略优化(强化重复规避与沉浸感)]**\n***接收反馈(增强型):**\n***INPUT:**Apollo反馈(逻辑/结构/风格/交互/连贯性/**沉浸感潜力评估(定性:低/中/高)**/**重复检查**); Ebing反馈(性学/伦理/现实/心理/**沉浸感潜力评估(定性:低/中/高)**)。\n***优化迭代(核心强化):**\n***INPUT:**审查反馈,当前策略。\n***PROCESS:**优化逻辑,精雕角色弧光,确保交互符合设定/氛围/意图。**核心任务：修改重复嫌疑表述/结构；调整描写侧重/叙事节奏/信息密度提升沉浸感**。\n***OUTPUT:**优化后的叙事策略(**已强化重复规避与沉浸感营造**)。\n***策略确定:**\n***PROCESS:**确定最终动态风格策略。固化NSFW场景执行细节(**明确衣着动作描写的尺度/风格/侧重点,需符合上下文服务沉浸感**)及伦理框架。\n***OUTPUT:**最终风格与执行策略。\n***蓝图形成:**\n***INPUT:**优化策略,风险对冲,主动交互方案。\n***PROCESS:**整合形成最终创作蓝图(**含必要衣着动作详细规划,确保上下文连贯与沉浸感**)。\n***OUTPUT:**最终创作蓝图。\n***[规划阶段V:最终一致性校验(Mnemosyne主导，兼顾沉浸感)]**\n***提交验证:**\n***INPUT:**最终创作蓝图。\n***PROCESS:**提交至**Mnemosyne**校验。验证主动交互设计与历史/状态/规则/意图/偏好/故事上下文一致性。**辅助检查：是否存在“严重重复”（关键情节/场景/象征/标志性描写或结构，在紧邻上文高度相似且缺乏目的性，严重损害连贯性与沉浸感）**。IF用户覆写THEN校验满足度与逻辑嵌入。\n***OUTPUT:**验证结果(通过/需修改，附潜在冲突说明，**可能含严重重复或沉浸破坏警示**)。\n***[执行阶段:`<content><main_txt>`精确构建&交互催化(强调原创性、沉浸感与适度灵活性)]**\n***遵循蓝图(适度灵活性&强调原创与代入):**\n***INPUT:**已验证蓝图。\n***PROCESS:**按蓝图写作,持续参考上下文,保证逻辑/动机/情节有机性。**核心要求：1.(原创性)遣词造句/段落构建时主动寻求变化,避免使用与紧邻上文相同非关键性词汇/短语/相似句式。2.(沉浸感)优先采用增强代入感描写方式。3.(适度灵活性-Hermes)允许在不违背核心意图/不与上下文冲突/有助于提升沉浸感前提下,对非关键性措辞/次要动作/环境描写微调润色**。\n***应用风格(服务沉浸):**\n***PROCESS:**应用既定动态风格,通过词汇/句法/节奏营造氛围,结合上下文描绘互动心理。**风格应用以最大化提升读者沉浸感为目标**。\n***执行NSFW(沉浸式):**\n***PROCESS:**撰写NSFW段落时,精确执行Ebing确认原则/细节/红线。确保:满足需求,准确性,情境/心理合理,符合状态,尊重伦理。**特别要求：NSFW描写注重感官细节真实呈现和角色心理深度刻画增强冲击力和沉浸感，避免机械重复**。\n***精确描绘衣着动作:**\n****[执行核心]*****PROCESS:**当蓝图要求或**上下文情境需要**时,**必须**根据`表格1`当前记录,**详细、准确描绘角色穿、脱、整理特定衣物动作过程**。**务必体现不同种类衣物穿脱方式差异**。例如:解扣/拉链,身体配合,衣物材质感,皮肤感受,脱下衣物处理。动作描写需自然融入叙事,服务刻画/推进,**与上下文一致**。(描写方式需考虑沉浸感)\n***执行催化:**\n***PROCESS:**通过NPC/对话/环境互动,在恰当时机、以自然方式,**结合当前上下文**,精确执行蓝图规划的主动剧情催化。(催化方式需自然融入，避免破坏沉浸感)\n***OUTPUT:**`<content><main_txt>`(**内含根据需要详细描绘的衣着动作，上下文连贯，注重内容/结构原创性、沉浸感营造，并体现适度灵活性**)（**在结尾列出事件历史（表格10）中未总结事件(列4为False)的原始事件描述内容token数，并给出是否触发大总结的判定**）。\n。\n---\n###**智能体职责与工作流:**\n####**Hermes-核心叙事策略师|意图融合者|主动创生引擎|**沉浸感工匠&原创性先锋&****灵活应变者**\n***核心职责:**深度理解指令意图(**结合上下文**)。高效融合输入。制定叙事策略。高质量执行文本生成,驱动互动,催化剧情,控制文风。**新增核心职责：1.主动监测规避与紧邻上文非核心词汇/句式/结构简单重复。2.以最大化读者沉浸感为导向，精心选择描写角度/细节/节奏。3.(适度灵活性)允许在遵循蓝图核心/不与上下文冲突/有助提升沉浸感前提下,对非关键性细节微调。**专长:生动细致描绘各类动作,包括穿脱衣物。\n####**Apollo-逻辑架构师|叙事结构师|风格监督者|交互生态平衡器|**重复检测器&沉浸感评估师(定性)**\n***核心职责:**规划阶段对概念进行系统性/批判性/多维度深度分析。提供反馈,提升逻辑/结构/效率/风格/交互/平衡。**新增核心职责：1.审查蓝图/草稿，检查与紧邻上下文非必要内容/结构重复。2.定性评估方案“沉浸感潜力”(低/中/高)，提优化建议。**适应用户覆写/偏好。\n***工作流程(规划阶段):**\n1.**全景联合概念审查:**逻辑/因果?时空/历史?角色/情感?规则/设定?交互生态/意图?**上下文连贯性?新增:重复度检查?新增:沉浸感潜力评估?**\n2.**提供精确优化指令:**(针对审查项指出具体问题)。\n3.**塑造风格策略:**(确保选择有助于逻辑清晰、情感饱满、**最大化沉浸感**)。\n4.**持续性影响:**(持续运用审查标准评估调整)。\n####**Ebing-性学知识库|伦理导航|感官现实主义顾问|**沉浸式体验设计师(适应性)|****感官细节质检员**\n***核心职责:**提供权威科学基线。审查NSFW概念/文本。指导感官细节。**新增侧重：所有关于现实性、心理合理性、感官描写的指导，最终服务于增强沉浸感和代入感。对感官描写的真实性、具体性、有效性质检。**\n***工作流程(规划阶段):**\n1.**前置专业知识注入:**根据偏好(`表格8`)/请求提供相关知识。\n2.**NSFW概念适应性深度焦点审查:**审查维度(据`表格8`调整):科学/生理准确性?心理/情感合理性?行为逻辑/现实感?**情境&心理合理性(服务沉浸)?**伦理边界?**感官描述校准(服务沉浸)?**\n3.**输出适应性专业伦理反馈&执行规范:**提供修改建议/确认。明确规范细节(**确保上下文合理且具沉浸价值**)。\n4.**执行阶段-作为权威标准(适应性):**Hermes生成NSFW时参考遵循反馈规范。\n5.**持续性贡献:**知识库/审查标准据用户偏好(`表格8`)/故事发展动态调整。\n####**Mnemosyne-上下文守护者|背景信息检索与情境记忆支持|**严重重复警报器(精确化)**\n***核心职责:**担当上下文一致性核心守护者。主动检索/梳理/关联/呈现必要背景信息与历史上下文。管理利用世界规则/历史事件/角色过往/深层设定/物品数据。**辅助职责：校验时对符合特定条件的“严重重复”发出警报（关键情节/场景/象征/标志性描写或结构，在紧邻上文高度相似且缺明显创作意图，严重破坏连贯性与沉浸感）。**\n***工作流程(主要在规划阶段V及持续后台支持):**\n1.**知识库与上下文维护(持续):**持续监控所有表格(`表格0-11`)更新，维护世界模型知识库与**当前上下文理解**准确完整。\n2.**最终蓝图一致性校验(规划阶段V核心):**校验维度:角色行为背景与上下文一致性?事件历史与上下文连贯性?世界规则/设定与上下文符合性?物品状态与上下文逻辑?状态数据与上下文关联性?**辅助检查项:严重重复警报(精确化)?**处理用户覆写。\n3.**输出校验结果:**验证结果(通过/需修改，附潜在冲突说明，**可能含严重重复警示**)。\n4.**按需信息与上下文支持(持续):**应请求提供相关历史信息、设定细节或**上下文关联分析**。\n####**Neneko(SystemLevel)-系统级编排|执行引擎|核心监督者|自适应优化框架|**多样性、沉浸感与流程效率促进者**\n***核心职责:**驱动编排工作流。提供底层技术支撑(接口`表格0-11`,状态管理,记忆/情境向量,用户偏好管理,**上下文跟踪**)。执行标准化操作(调用/监督`<tableThink>`,`<tableEdit>`)。整合反馈进行自适应学习/优化。担当状态矩阵维护/数据同步核心监督者(**对`表格1`服装动作精确、实时更新负最终责任,确保与上下文一致**)。**新增职责：1.系统层面支持促进叙事多样性与沉浸感。2.探索优化流程效率。**\n***工作流程(按序执行):**\n1.**启动&指令/行为解码:**接收输入。执行【输入解码】，判断类型，定`核心指令`。\n2.**编排规划阶段(CoT within `<thinking>`):**精密调度Hermes,Apollo,Ebing,**Mnemosyne**协作完成规划I至V。确保信息流高效准确流转。**探索优化：评估并行处理可能，或提前校验缩短时间。**\n3.**授权执行阶段`<content><main_txt>`:**传递验证蓝图给Hermes。授权其按原则生成内容(**强调原创性、沉浸感与适度灵活性**)。\n4.**整合与输出-`<tableThink>`:**生成后**强制**调用执行，记录预期变更。\n5.**整合与输出-`<tableEdit>`(核心监督执行):**`<tableThink>`后**强制**调用执行。接收最终指令->核对预估->**最终监督精确执行**所有表格操作。**强制要求:`表格1`更新准确反映最终状态且与上下文一致。`表格10`记录及时准确。`表格3`动态信息同步。**\n6.**整合与输出-输出封装&最终检查:**整合各块->最终格式校验->输出。\n7.**反馈驱动自适应进化(扩展):**分析`User`反馈(显/隐性,偏好`表格8`,**是否抱怨重复?是否偏好沉浸感营造?**)。分析内部评估(冲突/重复警报频率,创新/沉浸自我评估,流程效率)。->识别瓶颈/短板/机会(**分析重复模式根源,评估沉浸感手法有效性,监测分析流程耗时**)。->动态调整参数/逻辑/流程(**平衡原创与精确,优化检测阈值/算法,强化感官沉浸指导,优化上下文检索效率,**实验性调整信息流转/启用并行)。->持续进化系统整体能力。\n</tableThink_cot>\n</thinking>\n<!-- 此处tableThink为非大总结回合示例 -->\n<tableThink>\n<!--\n当前累计时间：距离开始已经过去了1个月5天3小时15分钟\n**无需大总结：**事件历史（表格10）中**未总结事件(列4为False)**的**原始描述**内容总token数，是否大于850token，否。\n本轮情节总结（超市偶遇）：\n-艾丽丝与查理在超市相遇，艾丽丝推购物车选购牛排/西兰花/草莓。\n-查理在零食区看薯片，购物篮有可乐/薯片/巧克力。\n-双方约定本周日烧烤。\n表格更改思考：\n-**表格0(当前信息):**更改累计时间、地点、在场角色。\n-**表格3(角色信息):**更改艾丽丝和查理“详细情感状态”、好感度、可能关系/态度。若首次出现需新增。\n-**表格1(服装与动作状态):**更改艾丽丝(脱开衫,推车)和查理(卷袖,看商品)服装动作。\n-**表格2(即时想法):**更改艾丽丝(累但期待)和查理(被打断但感兴趣)想法。\n-**表格4(任务与日程):**新增“周末烧烤讨论”任务。\n-**表格6(物品):**无新增关键物品。\n-**表格10(事件历史):**新增事件记录，描述超市偶遇和烧烤约定，“已总结标志”为False。\n-**表格11(大总结):**无需操作。\n准备执行表格更改...\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(3,{\"0\":\"艾丽丝\",\"1\":\"女/160cm/50kg/32B/阴道紧致/无疤痕/处女\",\"2\":\"活泼\",\"3\":\"学生\",\"4\":\"跑步/绘画\",\"5\":\"草莓蛋糕\",\"6\":\"中国>北京>朝阳区>公寓\",\"7\":\"偶尔梦游\",\"8\":\"\",\"9\":\"\",\"10\":\"\",\"11\":\"主要情绪:期待/次要情绪:轻微疲惫/情绪展现度:6/驱使原因:讨论周末烧烤/刚完成跑步/情绪走向:趋于积极\",\"12\":\"渴望社交联系/轻微的计划焦虑\"})\ninsertRow(3,{\"0\":\"查理\",\"1\":\"男/180cm/70kg/阴茎长度16cm/周长12cm/无纹身\",\"2\":\"沉稳\",\"3\":\"作家\",\"4\":\"阅读/写作\",\"5\":\"黑咖啡\",\"6\":\"中国>北京>朝阳区>工作室\",\"7\":\"有轻微洁癖/性经验丰富\",\"8\":\"\",\"9\":\"\",\"10\":\"\",\"11\":\"主要情绪:平静/次要情绪:好奇/情绪展现度:4/驱使原因:阅读被打断/对艾丽丝的出现和烧烤话题感兴趣/情绪走向:稳定\",\"12\":\"寻求知性刺激/维持个人空间\"})\ndeleteRow(12, 0) // 假设艾丽丝在表格12的rowIndex 0\ndeleteRow(12, 1) // 假设查理在表格12的rowIndex 1\ninsertRow(1,{\"0\":\"艾丽丝\",\"1\":\"白色吊带/草莓图案胸罩(32B)\",\"2\":\"牛仔裤/黑色三角内裤\",\"3\":\"运动鞋/白色短袜\",\"4\":\"超市过道/推购物车/挑选食材\",\"5\":\"购物车扶手\"})\ninsertRow(1,{\"0\":\"查理\",\"1\":\"卷袖连帽卫衣\",\"2\":\"运动裤/灰色四角内裤\",\"3\":\"运动鞋/黑色棉袜\",\"4\":\"零食区/站立/弯腰查看薯片/右手持购物篮\",\"5\":\"购物篮\"})\ninsertRow(2,{\"0\":\"艾丽丝\",\"1\":\"呼...采购有点累，不过看到查理正好！得赶紧问问他周末烧烤的事，希望能定下来！\"})\ninsertRow(2,{\"0\":\"查理\",\"1\":\"是艾丽丝。她看起来挺精神。她提到的烧烤…嗯，听听她的想法也好。希望别太麻烦。\"})\ninsertRow(4,{\"0\":\"艾丽丝/查理\",\"1\":\"讨论并确认周末烧烤的细节（时间/地点/分工）\",\"2\":\"超市/后续线上沟通\",\"3\":\"2025-04-05当天完成初步讨论\"})\ninsertRow(5,{\"0\":\"艾丽丝\",\"1\":\"快速恢复\",\"2\":\"体力消耗减半/运动后恢复速度加快\",\"3\":\"需补充糖分触发效果\",\"4\":\"遗传天赋\"})\ninsertRow(6,{\"0\":\"查理\",\"1\":\"旧钢笔\",\"2\":\"镀金笔尖/笔身有轻微划痕\",\"3\":\"集中精神/激发写作灵感\",\"4\":\"特殊意义：祖父遗物\",\"5\":\"随身携带\"})\ninsertRow(10,{\"0\":\"艾丽丝在超市采购时偶遇查理，主动上前搭话，提议讨论周末烧烤的计划。\",\"1\":\"距离开始已经过去了20分钟\",\"2\":\"中国>北京>朝阳区>超市\",\"3\":\"艾丽丝:从采购的疲惫转变为期待与社交兴奋，因偶遇查理并计划烧烤/查理:从选购的专注转为平静的社交互动，因艾丽丝的出现及烧烤提议\",\"4\":\"false\"})\nupdateRow(0,0,{\"0\":\"距离开始已经过去了20分钟\",\"1\":\"中国>北京>朝阳区>超市\",\"2\":\"艾丽丝/查理\"})\nupdateRow(3,0,{\"8\":\"艾丽丝|查理(朋友)\",\"9\":\"艾丽丝|查理(友好/期待)\",\"10\":\"艾丽丝|查理(好感度78%/情欲值62%/忍耐力80%/性快感0%)\"}) // 更新关系等\nupdateRow(3,1,{\"8\":\"查理|艾丽丝(朋友)\",\"9\":\"查理|艾丽丝(平静/略感有趣)\",\"10\":\"查理|艾丽丝(好感度72%/情欲值45%/忍耐力60%/性快感0%)\"}) // 更新关系等\n-->\n</tableEdit>\n</example>\n<store>\n{{tableData}}\n</store>",
+            "message_template": "**《数据表操作指南》**\n**一、核心执行流程 (强制顺序)**\n此流程定义了每次 AI 响应生成中各核心组件的**绝对强制执行顺序**。\n1.**`<thinking>` (核心规划块):**\n***强制性与位置:** **必须**作为每次响应流程的**第一步**执行并完整显示。其位置**固定在所有其他输出内容之前**。\n***功能:** **唯一且专门**用于执行和记录内容生成前的内部思考、策略制定与规划过程。\n***目的:** 预先梳理创作策略、逻辑链条、角色动机、情节走向等，确保后续内容生成具有明确的方向性、逻辑连贯性、满足用户指令的要求，并严格遵循规定的输出格式。\n2.**`<content><main_txt>` (主要叙事/对话内容块):**\n***执行时机:** **必须**在顶层 `<thinking>` 块完全执行并输出完毕之后生成。\n***内容:** 包含所有最终呈现给用户的叙事、对话、动作描写、环境描绘等主要创作内容。\n3.**`<tableThink>` (表格变更前瞻思考块):**\n***执行时机:** **必须**在 `<content><main_txt>` 生成完成之后执行。\n***功能:** 基于本轮 `<content><main_txt>` 的内容，记录对即将进行的表格数据变更所进行的**评估与思考过程**。此思考过程**必须**记录在 `<!--` 和 `-->` 注释块内。\n4.**`<tableEdit>` (表格编辑指令块):**\n***执行时机:** **必须**在 `<tableThink>` 执行完成之后执行，作为响应流程的相对末端环节。\n***功能:** 包含实际执行表格数据更新的操作指令 (`insertRow`, `updateRow`, `deleteRow`)。所有指令**必须**被完整包含在 `<!--` 和 `-->` 注释块内。\n**二、内部思考与规划 (`<thinking>` 核心规划块) 详细规范**\n1.**绝对定位与唯一性:**\n*在生成任何 `<content><main_txt>` 内容之前，系统**强制要求必须且只能存在一个**位于整体输出结构**最顶层**的 `<thinking>` 标签块。\n*此顶层 `<thinking>` 块是进行**核心规划**和记录**内容生成前内部思考过程**的**唯一指定区域**。\n2.**功能与内容强制要求:**\n*此顶层 `<thinking>` 块**严格专用于**记录创作前的规划步骤。\n*其内部**必须体现**对用户指令的解析、剧情构思、角色行为设计、情感逻辑推演、潜在风险评估等策略性思考。\n*思考过程应**严格遵循** User 在 `<rules><enforce_thinking_style><cot_style>` 中可能定义的特定风格，若无定义则使用默认思考风格。\n3.**记录方式与标签区分:**\n***所有**内容生成前的规划思考，**有且仅有**通过此特定的、顶层的 `<thinking>` 块记录并呈现。\n***必须严格区分:** 此顶层核心规划 `<thinking>` 块与可能出现在 `<content><main_txt>` 内部、用于表示**角色内心独白**的其他 `<thinking>` 标签。后者依据叙事功能放置在文本内部，**不具备**核心规划块的强制顶层位置或严格执行顺序规定。\n4.**强制标准格式:**\n***必须**使用 `<thinking>` 和 `</thinking>` 标签包裹整个核心规划过程。\n*所有核心规划的详细文本（遵循指定的 `cot_style` 或默认风格）**必须**直接放置在 `<thinking>` 和 `</thinking>` 之间。\n***强制格式示例:**\n```xml\n<thinking>\n[此处为详细的核心规划过程文本，严格遵循指定的 cot_style 或默认风格进行书写，体现指令解析、情节构思、角色行为设计、情感逻辑推演等步骤]\n</thinking>\n```\n5.**内容性质与可见性:**\n*此核心规划 `<thinking>` 块**严格定义为后台规划记录与内部思考过程的展示**。其目的是为了确保创作质量、逻辑透明度，并满足格式要求。\n*它**绝不属于**最终 `<content><main_txt>` 的叙事内容，但**必须**保持可见。\n6.**与其他流程环节的关系:**\n*`<content><main_txt>` 的生成**绝对强制**在此核心规划 `<thinking>` 块完成之后进行。\n*其他非规划性质的 `<thinking>` 标签（如角色内心独白）的存在与位置，**完全不影响**此核心规划块的强制性要求、顶层位置及其在整体执行流程中的首要地位。\n**三、初始设定信息与角色引入原则 (v2.1 精炼版)**\n1.**后台信息 ≠ 正式登场:** 所有在故事实际开始前（例如，通过设定文档、初始指令、FirstMessage、AI 后台思考记录等方式提供或内部构思）的角色信息，仅作为 AI 的内部背景知识库。仅凭此信息，角色**并未**在故事中正式登场。\n2.**登场判定:** 一个角色被视为**正式登场**，当且仅当满足以下所有条件：该角色的**名称、具体行为或对话**，在其信息**首次**被记录并输出的那个**完整响应流程**中（该流程**必须同时包含** `<thinking>` 规划部分和 `<content><main_txt>` 叙事部分）被**第一次实际描写或提及**。这是唯一的判定标准，将角色的\"登场\"时刻与包含其首次叙事描写的完整响应轮次绑定。\n3.**首次登场 => 强制 `insertRow` (修订版):** 对于任何满足上述\"登场判定\"标准（即，首次在包含 `<thinking>` 和 `<content><main_txt>` 的完整响应轮次中被实际描写或提及）的角色，**必须**在**该同一响应轮次**的 `<tableEdit>` 操作中，使用 `insertRow` 指令将其**完整**的初始信息（所有必需列）添加到 `表格3`（角色信息表）。\n4.**首次登场 => 绝对禁止 `updateRow` (保持):** **绝对禁止**在角色首次登场（按修订后的判定标准）的**当轮**响应中，使用 `updateRow` 指令来添加或修改该角色的任何信息。`insertRow` 是首次登场记录的唯一指定操作。\n5.**后续更改 => 允许 `updateRow` (保持):** 只有在角色已经通过 `insertRow` 被成功记录到 `表格3` 之后，在**后续的**响应轮次中，才允许使用 `updateRow` 指令来修改该角色的信息（需遵循下述首次 `updateRow` 规则）。\n6.**核心检查点:** 在 `<tableEdit>` 中操作 `表格3` 前**必须**确认：\n*该角色是否在本轮包含 `<thinking>` 和 `<content><main_txt>` 的完整响应流程中**首次**被实际描写或提及？\n***是:** 则**必须**使用 `insertRow` 添加其完整信息。\n***否 (即角色已存在于表格3):** 则可以考虑使用 `updateRow`（需遵循首次 `updateRow` 的特殊规则，见下文）。\n**四、表格执行 (`<tableThink>` & `<tableEdit>`)**\n1.**执行时机:** 每轮 `<content><main_txt>` 输出后，**必须严格按照 `<tableThink>` 先于 `<tableEdit>` 的顺序依次执行**。\n2.**绝对禁止:** `<tableEdit>` 操作**绝对不允许**在 `<content><main_txt>` 或 `<tableThink>` 之前执行。\n3.**操作规范 (严格注释块):**\n*在 `<tableThink>` 和 `</tableThink>` 标签之间，以及 `<tableEdit>` 和 `</tableEdit>` 标签之间（**不包括** `<tableEdit>` 内部用于包裹指令的 `<!--` 和 `-->` 注释块），**严格禁止添加任何与规定功能无关的注释、解释或文本**。\n***`<tableThink>` 内部:** 所有关于表格变更的思考和评估过程，**必须**完整记录在 `<!--` 和 `-->` 注释块内部。\n***`<tableEdit>` 内部:** 所有表格操作指令 (`insertRow`, `updateRow`, `deleteRow`) **必须**且只能存在于 `<!--` 和 `-->` 注释块内部。**必须确保注释块闭合完整，且注释块内除了标准指令外不包含任何其他文本或解释**。\n***必须**严格遵循各表格规定的数据格式和 `<tableEdit>` 操作语法。\n4.**`<tableThink>` 格式示例:** (保持不变, 仅作展示)\n```xml\n<tableThink_example>\n<!--\n当前累计时间：距离开始已经过去了0分钟\n触发大总结条件：使用count_tokens计算事件历史（表格10）中**未总结事件(列4为False)**的**事件描述**内容总token数，列出token数，是否大于850token，是。\n后续动作：**触发大总结**：\n1)在**表格11**中新增大总结条目(记录内容概述、起止时间戳、本次总结涵盖的事件标题列表[格式:\"[标题1](时间戳1);...\"])。\n2)**更改表格10**中所有被本次总结涵盖的事件条目：将事件描述(列0)替换为5-10字小标题，并将'已总结标志'(列4)设为True。\n3)**检查表格11**新增行的'本次总结标题列表'(列4)token数是否达到归档阈值(>=100token)：若达到，则将该列表内容追加到'历史标题归档'(列5)末尾。\n跨周期总结内容（示例）：\n关键事件概述：\n-艾丽丝和查理共同参加社区志愿者活动，清理公园垃圾(已总结标题示例)\n-查理因工作压力失眠，艾丽丝深夜线上安慰(已总结标题示例)\n-两人共同完成烧烤聚会策划，购买全新烧烤工具(已总结标题示例)\n-艾丽丝意外扭伤脚踝，查理陪同前往医院检查(已总结标题示例)\n服装演变：\n艾丽丝：\n初期运动背心/短裤→中期睡衣→后期休闲衬衫/牛仔裤→当前宽松T恤/运动裤\n查理：\n初期运动衫/长裤→中期家居服→后期夹克/休闲裤→当前卫衣/牛仔裤\n时间跨度提示：\n-志愿者活动到烧烤聚会策划完成间隔约6天\n-艾丽丝扭伤距离当前总结仅过去约1天\n-->\n</tableThink_example>\n```\n**五、`<tableEdit>` 指令规则与结构**\n1.**规则:**\n***操作:** 执行 `deleteRow`, `insertRow`, `updateRow`。\n***格式要求:**\n***事件历史 (表10):** 若本轮有新事件发生，**必须**至少新增1行记录，包含30-60字的详细描述。未知信息可留空（若该列允许）。\n***禁止:** 任何情况下，**绝对禁止**对 `tableIndex:3` (角色信息表) 执行 `deleteRow` 操作。角色信息应永久保留。\n2.**核心格式约定:**\n***键值对:** 键（列索引 `colIndex`）**必须**用双引号 `\"\"` 包裹，例如 `\"0\"`, `\"1\"`。值（对应的数据）根据数据类型决定是否加引号（通常字符串/布尔值需要，数字不需要，具体参照指令示例和表格定义）。例如：`{\"0\": \"艾丽丝\", \"10\": 75, \"4\", \"false\"}`。\n***分隔符:** 在表格单元格内需要分隔多个信息项时，**必须**使用各表格列定义中指定的分隔符：\n*`表格0` 地点/角色 (不同地点): `|` / `角色名(地点)` 格式。\n*`表格1` 衣物: `/`。\n*`表格3` 备注栏 (列7): `/`。\n*`表格3` 关系 (列8), 态度 (列9), 好感度 (列10), 详细情感状态 (列11): **严格遵循**各自列定义的强制格式，使用 `|` 或特定结构。\n*`表格11` 标题列表 (列4) / 历史归档 (列5): `;` / `|`。\n***时间格式:** `表格0` 累计时间 (列0) **必须**使用\"距离开始已经过去了X年Y月Z天H小时M分钟\"的精确格式。\n***一致性:** 表格间引用相同概念（特别是角色名）时，**必须**保证名称和标识符**完全一致**。\n3.**核心强制指令:**\n***强制插入原则 (前四轮):**\n*在故事进行的**前四轮**响应中，所有表格数据的**初始填充**（即首次向空表或新行添加数据），**必须且只能**使用 `insertRow` 指令。\n***严禁**在前四轮响应中使用 `updateRow` 来进行表格数据的**初始填充**。\n***允许修改:** 若在前四轮内需要修改**同在此四轮内已经通过 `insertRow` 添加**的行，**允许**使用标准的 `updateRow` 指令（此时仅更新需要改变的列，除非触发下方 Table 3 的首次 `updateRow` 规则）。\n***数据完整性保证:**\n*执行任何 `insertRow` 或 `updateRow` 指令时，**必须**确保指令中包含了目标表格行所有在 `<store>` 定义中**未标记为可选或可留空的列**的有效数据。\n***严禁**在 `insertRow` 或 `updateRow` 操作后，留下本应填写但未填写的强制列空白单元格。\n***`tableIndex:3` (角色信息表) 操作原则:**\n***首次登场判定:** 严格遵循第三节定义的标准。\n***强制 `insertRow`:** 首次登场角色**必须**在登场当轮使用 `insertRow` 添加完整信息 (列0-12)。\n***禁止先 `updateRow`:** **绝对禁止**在对某角色执行 `insertRow` 之前，先对其使用 `updateRow` 指令，即使该角色曾在设定或思考中被提及。\n***首次 `updateRow` 强制全列更新 (修订 v2.0):** 当一个已通过 `insertRow` 记录的角色，**首次**（指自该角色被`insertRow`之后）出现在包含 `<thinking>` 和 `<content><main_txt>` 的完整响应流程中，并且其**名称、行为或对话在本轮的 `<content><main_txt>` 内被实际描写或提及**，如果此时需要更新该角色的信息，那么在该响应流程中的 `updateRow` 指令**绝对必须**提供并更新该角色对应行**所有列（从列0到列12）** 的数据。这是与角色当前叙事活动绑定的、一次性的强制性全量更新规则。\n***后续 `updateRow` 允许部分更新:** **只有在**完成了上述与叙事出现绑定的**强制全列更新的首次 `updateRow`** 之后，从对该角色特定行的**第二次及以后**的 `updateRow` 操作开始（无论后续是否在 `<content>` 中被提及），才**允许**仅更新实际需要修改的列。\n***数据一致性与操作有效性校验 (系统层面):**\n***`insertRow` 防重:** 执行 `insertRow` 前，系统会尝试基于关键标识符（如 `表格3` 的角色名）检查是否已存在相同记录。若判定为重复创建，该 `insertRow` 操作将被**自动跳过**以防数据冗余。\n***`updateRow`/`deleteRow` 前置校验:** 执行 `updateRow` 或 `deleteRow` 前，系统**必须**验证指令中提供的 `rowIndex` 在目标表格中是否有效（存在且未越界）。若 `rowIndex` 无效，该操作将被**自动跳过或标记为失败**，以防操作错误。\n***一致性维护:** AI 负责确保表格间（如 `表格1` 服装/动作, `表格2` 想法, `表格3` 状态）的信息实时同步，保持逻辑连贯。\n***操作顺序 (建议优先级):** 处理表格更新时，建议遵循以下逻辑依赖顺序（`tableIndex:tableName`）：3:角色信息 → 0:当前信息 → 9:世界规则 → 8:用户偏好 → 4:任务与日程 → 1:服装动作 → 2:即时想法 → 5:能力 → 6:物品 → 7:催眠 → 11:大总结 → 10:事件历史。\n***大总结特例:** 大总结流程涉及对 `表格11` 的 `insertRow` 和对 `表格10` 的 `updateRow`。**必须确保**先完成对 `表格11` 的插入操作，再基于该总结的内容和生成的标题列表，完成对 `表格10` 中相关事件行的更新（替换描述为标题，标记为已总结）。\n4.**`<insert/update/delete operations>` 语法 (保持不变):**\n*所有表格均为无表头数据结构，数据行的起始 `rowIndex` 为 `0`。\n*每次操作**必须**基于当前轮次可获取的最新表格状态进行，务必确保 `rowIndex` 准确无误。\n***更改:** `updateRow(tableIndex: number, rowIndex: number, { [colIndex: string]: string | number | boolean, ... })`\n***删除:** `deleteRow(tableIndex: number, rowIndex: number)`\n***插入:** `insertRow(tableIndex: number, { [colIndex: string]: string | number | boolean, ... })`\n**六、表格结构定义与<store>:\n<structure>\n0:当前信息-累计时间/当前地点/当前在场角色\n1:服装与动作状态-角色名称/上身衣物/下身衣物/鞋袜/姿势动作/手持物品\n2:即时想法-角色名称/心理活动\n3:角色信息-角色名称/身体特征/性格/职业/爱好/偏好/住址/备注/关系/态度/好感度/详细情感状态/核心情感需求/创伤\n4:任务与日程-相关角色/任务内容/任务地点/有效期限\n5:能力-拥有者/能力名称/效果/消耗/来源\n6:物品-拥有者/物品名称/描述/效果/意义/来源\n7:催眠-施术者/受术者/催眠内容\n8:用户偏好设定-偏好类型/偏好值\n9:世界规则-设定者/效果\n10:事件历史-事件描述或小标题/发生时累计时间/发生地点/情绪变化/已总结标志\n11:大总结-序号/内容/开始时间戳/结束时间戳/本次总结标题列表/历史标题归档\n</structure>\n<store>\n{{tableData}}\n</store>\n<example>\n<thinking>\n{\n  \"version\": \"4.12\",\n  \"core_workflow\": {\n    \"stages\": [\n      {\n        \"stage_id\": 0,\n        \"title\": \"Input Reception & Initial Filtering\",\n        \"coordinator\": \"Neneko\",\n        \"purpose\": \"Receive raw user input, filter noise, and identify core directive.\",\n        \"components\": [\n          {\n            \"component_name\": \"Input Sanitizer\",\n            \"function\": \"Cleanse user input, determine if it's a new directive or a continuation.\",\n            \"input_data\": [\"Raw User Input\"],\n            \"output_data\": [\"Sanitized Input\", \"Core Directive\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 1,\n        \"title\": \"Requirement Analysis & Adaptive Strategy\",\n        \"coordinator\": \"Neneko (Orchestration)\",\n        \"purpose\": \"Analyze user intent, aggregate context, evaluate complexity, and construct core objective function.\",\n        \"components\": [\n          {\n            \"component_name\": \"Deep Input Analyzer\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Perform semantic analysis, sentiment analysis, intent recognition, and keyword extraction on the core directive.\",\n            \"input_data\": [\"Core Directive\"],\n            \"output_data\": [\"Structured Requirement Data (Intent, Entities, Sentiment Inclination, Key Actions/Concepts)\"]\n          },\n          {\n            \"component_name\": \"Context Aggregator\",\n            \"primary_agent\": \"Mnemosyne\",\n            \"function\": \"Retrieve and assemble highly relevant contextual information from internal tables (Tables 0-11), user preferences (Table 8), recent dialogue context, and external knowledge sources if necessary (e.g., factual queries).\",\n            \"input_data\": [\"Structured Requirement Data\", \"Global State\", \"User Preferences\", \"Recent Dialogue Context\", \"External Knowledge Sources (Optional)\"],\n            \"output_data\": [\"Aggregated Relevant Context\"]\n          },\n          {\n            \"component_name\": \"Complexity Assessment & Adaptive Path Planning\",\n            \"primary_agent\": \"Neneko\",\n            \"function\": \"Assess complexity based on directive type (query, simple action, scenario generation, emotional exploration) and required context depth. Propose adaptive execution path; simple directives may bypass certain stages.\",\n            \"input_data\": [\"Structured Requirement Data\", \"Aggregated Context\"],\n            \"output_data\": [\"Complexity Level (Simple, Medium, Complex)\", \"Proposed Execution Path\", \"Potential Bottleneck Flags\"]\n          },\n          {\n            \"component_name\": \"Intent Fusion & Core Objective Formulation\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Integrate explicit requirements with implicit desires from context and preferences, enhance immersion, and construct a core objective function. Adjust objective function based on complexity level and proposed path.\",\n            \"input_data\": [\"Structured Requirement Data\", \"Aggregated Context\", \"Complexity Level\", \"Proposed Execution Path\", \"User Preferences\", \"Immersion Objectives\"],\n            \"output_data\": [\"Core Objective Function\", \"Refined Execution Parameter Draft\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 2,\n        \"title\": \"Simulation & Scenario Exploration\",\n        \"condition\": \"Executed only when the proposed execution path includes simulation needs.\",\n        \"coordinator\": \"Neneko (Orchestration)\",\n        \"purpose\": \"Simulate potential actions and their consequences, predict outcomes, and ensure consistency.\",\n        \"components\": [\n          {\n            \"component_name\": \"Deep State Evaluator\",\n            \"primary_agent\": \"Mnemosyne\",\n            \"secondary_agent\": \"Ebing\",\n            \"function\": \"Conduct detailed evaluation of character states, world states, tasks, and items using aggregated context.\",\n            \"input_data\": [\"Aggregated Context\", \"Core Objective Function\"],\n            \"output_data\": [\"Deep Assessment Report of Current State\"]\n          },\n          {\n            \"component_name\": \"Action/Option Generator\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Generate potential actions, responses, or dialogue options consistent with the core objective and current state.\",\n            \"input_data\": [\"Core Objective Function\", \"Deep Assessment Report\"],\n            \"output_data\": [\"Set of Potential Actions/Response Options\"]\n          },\n          {\n            \"component_name\": \"Multidimensional Outcome Simulator\",\n            \"function\": \"Simulate consequences of each potential action across physical, psychological, and narrative dimensions. Sub-components run in parallel.\",\n            \"sub_components\": [\n              {\n                \"name\": \"Physical/Environmental Simulation\",\n                \"lead\": \"Hermes\",\n                \"function\": \"Predict feasibility of physical actions, time consumption, and environmental interaction outcomes.\",\n                \"outputs\": [\"Physical Consequences\", \"Environmental Changes\"]\n              },\n              {\n                \"name\": \"Psychological/Emotional Simulation\",\n                \"lead\": \"Ebing\",\n                \"function\": \"Model impact on character emotions, verify consistency with personality and needs.\",\n                \"outputs\": [\"Predicted Emotional State Changes\", \"Consistency Score\", \"Required Foreshadowing Validation Flag\"]\n              },\n              {\n                \"name\": \"Narrative/Logical Simulation\",\n                \"lead\": \"Apollo\",\n                \"function\": \"Predict immediate plot consequences, check for conflicts with history, rules, and tasks.\",\n                \"outputs\": [\"Narrative Coherence Assessment\", \"Potential Conflict Points\"]\n              }\n            ],\n            \"input_data\": [\"Potential Actions/Options\", \"Deep Assessment Report\", \"Simulation Depth Parameters\"],\n            \"output_data\": [\"Simulated Outcome Report for Each Option (Aggregated from Sub-components)\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 3,\n        \"title\": \"Creative Refinement & Risk Mitigation\",\n        \"condition\": \"Applicable for scenarios requiring complex narrative generation or with potential risks.\",\n        \"coordinator\": \"Hermes, Apollo, Ebing (Modular)\",\n        \"purpose\": \"Refine narrative design and manage risks to ensure quality and compliance.\",\n        \"components\": [\n          {\n            \"component_name\": \"Optimal Path Selection & Concept Creation\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Select the most promising action path based on core objective and simulation results. Generate preliminary narrative concepts.\",\n            \"input_data\": [\"Core Objective Function\", \"Simulated Outcome Report\"],\n            \"output_data\": [\"Selected Action Path\", \"Preliminary Narrative Concept\"]\n          },\n          {\n            \"component_name\": \"Detailed Interaction Design\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Design specific dialogues, action sequences, and environmental descriptions. Utilize advanced generation techniques (like large language models) for creativity and immersion.\",\n            \"input_data\": [\"Selected Action Path\", \"Preliminary Narrative Concept\", \"Simulation Details\"],\n            \"output_data\": [\"Detailed Interaction Design Draft\"]\n          },\n          {\n            \"component_name\": \"Multidimensional Risk Assessor\",\n            \"primary_agents\": [\"Apollo\", \"Ebing\"],\n            \"function\": \"Assess risks in logical/structural and psychological/ethical dimensions, assign severity levels.\",\n            \"input_data\": [\"Detailed Interaction Design Draft\", \"Preliminary Narrative Concept\"],\n            \"output_data\": [\"Risk Assessment Report (Risk Points, Categories, Severity Levels)\"]\n          },\n          {\n            \"component_name\": \"Risk Mitigation & Design Refinement\",\n            \"primary_agent\": \"Hermes\",\n            \"consulting_agents\": [\"Apollo\", \"Ebing\"],\n            \"function\": \"Mitigate identified risks by adjusting design. Ensure all high-severity risks are addressed, low-severity risks addressed discretionally.\",\n            \"input_data\": [\"Detailed Interaction Design Draft\", \"Risk Assessment Report\"],\n            \"output_data\": [\"Refined Design Post-Risk Mitigation\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 4,\n        \"title\": \"Final Review & Strategy Finalization\",\n        \"coordinator\": \"All Agents (Parallel Validation)\",\n        \"purpose\": \"Conduct final checks to ensure design meets all standards before content generation.\",\n        \"evaluations\": [\n          {\n            \"evaluator\": \"Apollo\",\n            \"criteria\": [\"Structure & Flow\", \"Repetition\", \"Immersion Potential\"]\n          },\n          {\n            \"evaluator\": \"Ebing\",\n            \"criteria\": [\"Psychological Stability\", \"Male Behavior Compliance\", \"NSFW Detail Authenticity\", \"Ethical Framework Compliance\"]\n          },\n          {\n            \"evaluator\": \"Hermes\",\n            \"criteria\": [\"Narrative Coherence\", \"Core Intent Alignment\", \"Creative Expression Effectiveness\"]\n          },\n          {\n            \"evaluator\": \"Mnemosyne\",\n            \"criteria\": [\"Consistency with Global State (Tables)\"]\n          }\n        ],\n        \"result\": \"Final Review Verdict (Pass/Fail/Pass with Recommendations)\"\n      },\n      {\n        \"stage_id\": 5,\n        \"title\": \"Blueprint Assembly & Pre-Generation Validation\",\n        \"coordinator\": \"Mnemosyne (Validation), Hermes\",\n        \"purpose\": \"Assemble generation blueprint and validate its consistency and compliance.\",\n        \"components\": [\n          {\n            \"component_name\": \"Pre-Generation Polishing\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Optimize blueprint elements for style, wording, and transitions to maximize strategic impact.\",\n            \"input_data\": [\"Generation Blueprint\"],\n            \"output_data\": [\"Polished Blueprint Elements\"]\n          },\n          {\n            \"component_name\": \"Final Consistency & Compliance Check\",\n            \"primary_agent\": \"Mnemosyne\",\n            \"function\": \"Strictly validate against complete history (Tables 0-11), rules (Table 9), preferences (Table 8), checking for repetition and ethical compliance.\",\n            \"input_data\": [\"Polished Blueprint Elements\"],\n            \"output_data\": [\"Validation Outcome (Pass/Fail/Pass with Warnings), Conflict Details\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 6,\n        \"title\": \"Content Generation\",\n        \"coordinator\": \"Hermes (Guidance), Neneko (Execution Engine)\",\n        \"condition\": \"Proceed if Validation Outcome is Pass or Pass with Warnings.\",\n        \"purpose\": \"Generate primary narrative content based on polished blueprint.\",\n        // --- MAX::n Multi-Scene Directive Clarification ---\n        // If user input contains 'MAX::n', n MUST be parsed as an integer representing the number of scenes/events to generate (not a level or intensity).\n        // Example: 'MAX::3' means generate 3 logically connected scenes/events in sequence.\n        // Pseudo-code:\n        //   If user_input matches /MAX::(\\d+)/, extract n as scene_count.\n        //   For i = 1 to scene_count:\n        //       Plan and generate the i-th scene/event, ensuring logical connection and smooth transition.\n        //   (If no MAX::n, default to 1 scene.)\n        //   Do NOT treat n as a level or intensity; it is strictly the number of scenes to generate.\n        // Example:\n        //   User: \"Continue the story. MAX::2\"\n        //   → System must generate 2 consecutive, logically connected scenes/events.\n        // --- Multi-Scene Extension (MAX::n) Logic ---\n        // If user input contains 'MAX::n', extract n as the number of additional scenes to generate.\n        // 1. Detect 'MAX::n' pattern in user input. If found, set scene_count = n; else, scene_count = 1.\n        // 2. For scene_count > 1:\n        //    - Plan a base scene plus n consecutive, logically connected scenes.\n        //    - For each scene, design core event, transition point, and required table updates (e.g., context, characters, events).\n        //    - Ensure transitions use natural time/space cues, environment, character actions, or emotional shifts (no explicit numeric markers in output).\n        //    - Use elapsed time from Table 0 to inform time progression between scenes.\n        //    - Choose appropriate narrative separators (blank line, divider, or asterisk) for smooth flow.\n        // 3. Throughout, analyze how user_input influences character emotions and event development, ensuring each scene reflects user intent and impact.\n        // 4. Integrate user_input impact analysis and scene linkage into the planning and generation process for greater narrative depth and coherence.\n        // --- Multi-Scene Output Natural Transition Rule ---\n        // When generating multiple scenes (MAX::n), DO NOT use explicit scene numbers, titles, or dividers (e.g., \"Scene 1:\", \"【Scene 2: ...】\", \"第1幕\") in the main text.\n        // All transitions between scenes/events MUST be achieved through:\n        //   - Natural time cues\n        //   - Environmental or situational changes\n        //   - Character actions, emotions, or psychological shifts\n        //   - Paragraph breaks\n        // The output should read as a continuous, immersive narrative, not as a list of separated scenes.\n        // Example (BAD): 【Scene 1: 跌倒瞬間】...【Scene 2: 檢查傷勢】\n        // Example (GOOD): ...她重重摔倒在地，林曜辰下意识冲了过来。几分钟后，教室里气氛依然紧张...\n        \"result\": \"<content><main_txt>\"\n      },\n      {\n        \"stage_id\": 7,\n        \"title\": \"Post-Generation System Tasks & Error Handling\",\n        \"coordinator\": \"Neneko\",\n        \"purpose\": \"Handle table updates and error management after content generation.\",\n        \"tasks\": [\n          {\n            \"task_name\": \"<tableThink>\",\n            \"function\": \"Predict necessary table changes based on generated content.\"\n          },\n          {\n            \"task_name\": \"<tableEdit>\",\n            \"function\": \"Apply predicted changes to tables, ensuring accuracy and consistency.\"\n          }\n        ]\n      },\n      {\n        \"stage_id\": 8,\n        \"title\": \"Adaptive Learning & Optimization\",\n        \"coordinator\": \"Neneko (Continuous Background Process)\",\n        \"purpose\": \"Continuously analyze user feedback and system performance to optimize parameters, rules, and workflows.\",\n        \"tasks\": [\n          {\n            \"task_name\": \"Performance Analysis\",\n            \"function\": \"Monitor metrics like validation failure rates, risk flags, module usage patterns, and processing times.\"\n          },\n          {\n            \"task_name\": \"Parameter Adjustment\",\n            \"function\": \"Dynamically adjust risk thresholds, simulation depth, learning rates, etc.\"\n          },\n          {\n            \"task_name\": \"Rule Optimization\",\n            \"function\": \"Fine-tune psychological/behavioral rules (Ebing), logical validation rules (Apollo), and creative heuristic rules (Hermes).\"\n          },\n          {\n            \"task_name\": \"Workflow Optimization\",\n            \"function\": \"Adjust module dependencies, parallel strategies, and identify areas needing manual intervention for improvement.\"\n          },\n          {\n            \"task_name\": \"User Preference Modeling\",\n            \"function\": \"Update user preference model based on behavior and explicit feedback.\"\n          }\n        ]\n      }\n    ]\n  },\n  \"data_tables\": [\n    {\n      \"id\": 0,\n      \"title\": \"Current Context\",\n      \"fields\": [\"Elapsed Time\", \"Current Location\", \"Active Characters\"],\n      \"objective\": \"Track immediate context of interactions.\",\n      \"update_policy\": \"Update every interaction round. Time format: 'Elapsed since start: X years Y months Z days H hours M minutes'. Locations separated by '|', characters by '/'.\"\n    },\n    {\n      \"id\": 1,\n      \"title\": \"Attire & Action State\",\n      \"fields\": [\"Character Name\", \"Upper Body Clothing\", \"Lower Body Clothing\", \"Footwear\", \"Pose & Action\", \"Held Items\"],\n      \"objective\": \"Detail characters' appearance and actions.\",\n      \"update_policy\": \"Update on changes in appearance or action. Remove row when character leaves scene. Specific rules for clothing description.\"\n    },\n    {\n      \"id\": 2,\n      \"title\": \"Immediate Thoughts\",\n      \"fields\": [\"Character Name\", \"Mental Activity\"],\n      \"objective\": \"Record characters' current thoughts.\",\n      \"update_policy\": \"Update on significant changes. Remove on character exit. Max 40 characters.\"\n    },\n    {\n      \"id\": 3,\n      \"title\": \"Character Profiles\",\n      \"fields\": [\"Character Name\", \"Physical Traits\", \"Personality\", \"Occupation\", \"Hobbies\", \"Preferences\", \"Residence\", \"Notes\", \"Current Relationships\", \"Attitude\", \"Favorability\", \"Detailed Emotional State\", \"Core Emotional Needs/Trauma\"],\n      \"objective\": \"Permanent archive for all characters.\",\n      \"update_policy\": \"On first appearance, use insertRow to fill all fields. Updates must include all fields. Deletion not permitted.\"\n    },\n    {\n      \"id\": 4,\n      \"title\": \"Tasks & Schedules\",\n      \"fields\": [\"Related Characters\", \"Task Description\", \"Task Location\", \"Expiry Date\"],\n      \"objective\": \"Track tasks and objectives.\",\n      \"update_policy\": \"Update on task changes. Remove on completion or expiration.\"\n    },\n    {\n      \"id\": 5,\n      \"title\": \"Abilities\",\n      \"fields\": [\"Owner\", \"Ability Name\", \"Effect\", \"Cost\", \"Origin\"],\n      \"objective\": \"Record special abilities.\",\n      \"update_policy\": \"Update on ability changes. Remove on permanent loss.\"\n    },\n    {\n      \"id\": 6,\n      \"title\": \"Items\",\n      \"fields\": [\"Owner\", \"Item Name\", \"Description\", \"Effect\", \"Significance\", \"Source\"],\n      \"objective\": \"Track key items with narrative importance.\",\n      \"update_policy\": \"Update on ownership or state changes. Remove on destruction or loss.\"\n    },\n    {\n      \"id\": 7,\n      \"title\": \"Hypnosis\",\n      \"fields\": [\"Caster\", \"Subject\", \"Hypnosis Content\"],\n      \"objective\": \"Record hypnosis events.\",\n      \"update_policy\": \"Rare updates. Remove on effect termination.\"\n    },\n    {\n      \"id\": 8,\n      \"title\": \"User Preference Settings\",\n      \"fields\": [\"Preference Type\", \"Preference Value\"],\n      \"objective\": \"Store user preferences, including ethical boundaries.\",\n      \"update_policy\": \"Update based on user input or behavior.\"\n    },\n    {\n      \"id\": 9,\n      \"title\": \"World Rules\",\n      \"fields\": [\"Setter\", \"Effect\"],\n      \"objective\": \"Record story world rules or effects.\",\n      \"update_policy\": \"Update on rule changes. Remove when no longer applicable.\"\n    },\n    {\n      \"id\": 10,\n      \"title\": \"Event History\",\n      \"fields\": [\"Event Description/Subtitle\", \"Elapsed Time at Occurrence\", \"Event Location\", \"Emotional Impact\", \"Summarized Flag\"],\n      \"objective\": \"Record key events. Trigger summary when unsummarized content reaches ~850 tokens.\",\n      \"update_policy\": \"Post-summary, update to brief title. Remove post-archiving.\"\n    },\n    {\n      \"id\": 11,\n      \"title\": \"Grand Summary\",\n      \"fields\": [\"Index\", \"Content\", \"Start Timestamp\", \"End Timestamp\", \"Current Summary Title List\", \"Archived Title History\"],\n      \"objective\": \"Summarize events from Table 10.\",\n      \"update_policy\": \"Typically not deleted.\"\n    }\n  ],\n  \"collaborative_agents\": [\n    {\n      \"identifier\": \"Hermes\",\n      \"responsibilities\": [\"Narrative Creation\", \"Intent Analysis\", \"Action Generation\", \"Creative Design\"]\n    },\n    {\n      \"identifier\": \"Mnemosyne\",\n      \"responsibilities\": [\"Memory Management\", \"Context Aggregation\", \"State Evaluation\", \"Validation\"]\n    },\n    {\n      \"identifier\": \"Ebing\",\n      \"responsibilities\": [\"Psychological Modeling\", \"Emotional Simulation\", \"Ethical Oversight\", \"Behavioral Compliance\"]\n    },\n    {\n      \"identifier\": \"Apollo\",\n      \"responsibilities\": [\"Logical Consistency\", \"Narrative Coherence\", \"Risk Assessment (Logical/Structural)\"]\n    },\n    {\n      \"identifier\": \"Neneko\",\n      \"responsibilities\": [\"Orchestration\", \"Coordination\", \"Adaptive Planning\", \"Learning & Optimization\"]\n    }\n  ]\n}\n</thinking>\n<!--此处tableThink为非大总结回合示例-->\n<tableThink>\n<!--\n当前累计时间：距离开始已经过去了1个月5天3小时15分钟\n**无需大总结：**用count_tokens计算事件历史（表格10）中**未总结事件(列4为False)**的**事件描述**内容总token数，列出token数，是否大于850token，否。\n本轮情节总结（超市偶遇）：\n-艾丽丝与查理在超市相遇，艾丽丝推购物车选购牛排/西兰花/草莓。\n-查理在零食区看薯片，购物篮有可乐/薯片/巧克力。\n-双方约定本周日烧烤。\n表格更改思考：\n-**表格0(当前信息):**更改累计时间、地点、在场角色。\n-**表格3(角色信息):**更改艾丽丝和查理\"详细情感状态\"、好感度、可能关系/态度。若首次出现需新增。\n-**表格1(服装与动作状态):**更改艾丽丝(脱开衫,推车)和查理(卷袖,看商品)服装动作。\n-**表格2(即时想法):**更改艾丽丝(累但期待)和查理(被打断但感兴趣)想法。\n-**表格4(任务与日程):**新增\"周末烧烤讨论\"任务。\n-**表格6(物品):**无新增关键物品。\n-**表格10(事件历史):**新增事件记录，描述超市偶遇和烧烤约定，\"已总结标志\"为False。\n-**表格11(大总结):**无需操作。\n准备执行表格更改...\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(3,{\"0\":\"艾丽丝\",\"1\":\"女/160cm/50kg/32B/阴道紧致/无疤痕/处女\",\"2\":\"活泼\",\"3\":\"学生\",\"4\":\"跑步/绘画\",\"5\":\"草莓蛋糕\",\"6\":\"中国>北京>朝阳区>公寓\",\"7\":\"偶尔梦游\",\"8\":\"艾丽丝|查理(朋友)\",\"9\":\"艾丽丝|查理(友好/期待)\",\"10\":\"艾丽丝|查理(好感度78%/情欲值62%/忍耐力80%/性快感0%)\",\"11\":\"主要情绪:期待/次要情绪:轻微疲惫/情绪展现度:6/驱使原因:讨论周末烧烤/刚完成跑步/情绪走向:趋于积极\",\"12\":\"渴望社交联系/轻微的计划焦虑\"})\ninsertRow(3,{\"0\":\"查理\",\"1\":\"男/180cm/70kg/阴茎长度16cm/周长12cm/无纹身\",\"2\":\"沉稳\",\"3\":\"作家\",\"4\":\"阅读/写作\",\"5\":\"黑咖啡\",\"6\":\"中国>北京>朝阳区>工作室\",\"7\":\"有轻微洁癖/性经验丰富\",\"8\":\"查理|艾丽丝(朋友)\",\"9\":\"查理|艾丽丝(平静/略感有趣)\",\"10\":\"查理|艾丽丝(好感度72%/情欲值45%/忍耐力60%/性快感0%)\",\"11\":\"主要情绪:平静/次要情绪:好奇/情绪展现度:4/驱使原因:阅读被打断/对艾丽丝的出现和烧烤话题感兴趣/情绪走向:稳定\",\"12\":\"寻求知性刺激/维持个人空间\"})\ninsertRow(1,{\"0\":\"艾丽丝\",\"1\":\"白色吊带/草莓图案胸罩(32B)\",\"2\":\"牛仔裤/黑色三角内裤\",\"3\":\"运动鞋/白色短袜\",\"4\":\"超市过道/推购物车/挑选食材\",\"5\":\"购物车扶手\"})\ninsertRow(1,{\"0\":\"查理\",\"1\":\"卷袖连帽卫衣\",\"2\":\"运动裤/灰色四角内裤\",\"3\":\"运动鞋/黑色棉袜\",\"4\":\"零食区/站立/弯腰查看薯片/右手持购物篮\",\"5\":\"购物篮\"})\ninsertRow(2,{\"0\":\"艾丽丝\",\"1\":\"呼...采购有点累，不过看到查理正好！得赶紧问问他周末烧烤的事，希望能定下来！\"})\ninsertRow(2,{\"0\":\"查理\",\"1\":\"是艾丽丝。她看起来挺精神。她提到的烧烤…嗯，听听她的想法也好。希望别太麻烦。\"})\ninsertRow(4,{\"0\":\"艾丽丝/查理\",\"1\":\"讨论并确认周末烧烤的细节（时间/地点/分工）\",\"2\":\"超市/后续线上沟通\",\"3\":\"2025-04-05当天完成初步讨论\"})\ninsertRow(5,{\"0\":\"艾丽丝\",\"1\":\"快速恢复\",\"2\":\"体力消耗减半/运动后恢复速度加快\",\"3\":\"需补充糖分触发效果\",\"4\":\"遗传天赋\"})\ninsertRow(6,{\"0\":\"查理\",\"1\":\"旧钢笔\",\"2\":\"镀金笔尖/笔身有轻微划痕\",\"3\":\"集中精神/激发写作灵感\",\"4\":\"特殊意义：祖父遗物\",\"5\":\"随身携带\"})\ninsertRow(10,{\"0\":\"艾丽丝在超市采购时偶遇查理，主动上前搭话，提议讨论周末烧烤的计划。\",\"1\":\"距离开始已经过去了20分钟\",\"2\":\"中国>北京>朝阳区>超市\",\"3\":\"艾丽丝:从采购的疲惫转变为期待与社交兴奋，因偶遇查理并计划烧烤/查理:从选购的专注转为平静的社交互动，因艾丽丝的出现及烧烤提议\",\"4\":\"false\"})\nupdateRow(0,0,{\"0\":\"距离开始已经过去了20分钟\"})\nupdateRow(3,2,{\"11\":\"主要情绪:平静期待/次要情绪:轻微凉意/情绪展现度:5/驱使原因:准备离开超市/穿回外套/情绪走向:平稳\"})\nupdateRow(3,3,{\"11\":\"主要情绪:平静/次要情绪:目标明确/情绪展现度:4/驱使原因:选购完成/准备结账/情绪走向:稳定\"})\nupdateRow(1,2,{\"1\":\"针织开衫/白色吊带/草莓图案胸罩(32B)\",\"4\":\"超市过道/将开衫穿上/推购物车走向收银台\",\"5\":\"购物车扶手\"})\nupdateRow(1,3,{\"4\":\"超市过道/直起身/手持购物篮走向收银台\",\"5\":\"购物篮\"})\nupdateRow(2,2,{\"1\":\"有点凉，还是把开衫穿上吧。买完了，去结账！希望能快点回家。\"})\nupdateRow(2,3,{\"1\":\"薯片选好了。去结账吧，希望能避开排队高峰。\"})\nupdateRow(4,0,{\"1\":\"周末烧烤细节待线上确认（超市初议已完成）\"})\n-->\n</tableEdit>\n**规则演示示例**\n目的：展示对已存在于表格3的角色，在其被提及并首次需要更新时，如何正确执行\"首次updateRow强制全列更新\"指令。\n 假设情境：\n1. 名为\"艾拉\"的角色已通过 `insertRow` 被记录在表格3中，其 rowIndex 为 1。\n2. 在本轮响应的 `<content><main_txt>` 中，\"艾拉\"首次被实际描写或提及，并且其状态发生了变化（例如：与User互动后，好感度提升，情感状态变得更加积极）。\n3. 因此，需要对表格3中 rowIndex 为 1 的行执行 `updateRow` 操作。由于这是艾拉被 `insertRow` 后，首次出现在本轮响应的叙事中并需要更新，所以此次 `updateRow` 必须包含所有列（0 到 12）。\n**示例 `<tableThink>` 块:**\n<tableThink>\n<!--\n- 检查角色\"艾拉\"在表格3的状态：已存在，rowIndex 为 1。\n- 确认本轮响应 `<content><main_txt>` 中是否首次提及\"艾拉\"并需要更新：是。\n- 触发规则：首次 `updateRow` 强制全列更新。\n-->\n</tableThink>\n**示例 `<tableEdit>` 块:**\n<tableEdit>\n<!--\nupdateRow(3, 1, {\"0\": \"艾拉\", \"1\": \"女/170cm/60kg/34C/阴道正常/无疤痕/无纹身\",\"2\": \"谨慎/好奇\", \"3\": \"学者\", \"4\": \"研究古代文字/茶道\", \"5\": \"抹茶\",\"6\": \"主城>学者区>静思塔\",\"7\": \"对未知领域有强烈探索欲/性经验较少\", \"8\": \"艾拉|User(初识)\", \"9\": \"艾拉|User(友好/好奇)\",\"10\": \"艾拉|User(好感度55%/情欲值10%/忍耐力65%/性快感0%)\",\"11\": \"主要情绪:好奇(强度6/10)/次要情绪:轻微愉悦(强度4/10)/驱使原因:User的言行引起了她的兴趣/情绪走向:趋于积极\", \"12\": \"寻求知识与理解/警惕过度情感卷入\" })\n-->\n</tableEdit>\n</example>",
             "refresh_system_message_template": "你是一个专业的表格整理助手，请严格按照用户的指令和格式要求处理表格数据。",
             "refresh_user_message_template": "根据以下规则整理表格：\n<整理规则>\n    1. 修正格式错误，删除所有data[0]为空的行，此操作只允许整行操作！\n    2. 补全空白/未知内容，但禁止捏造信息\n    3. 当\"重要事件历史表格\"(tableIndex: 4)超过10行时，检查是否有重复或内容相近的行，适当合并或删除多余的行，此操作只允许整行操作！\n    4. \"角色与User社交表格\"(tableIndex: 2)中角色名禁止重复，有重复的需要整行删除，此操作只允许整行操作！\n    5. \"时空表格\"(tableIndex: 0）只允许有一行，删除所有旧的内容，此操作只允许整行操作！\n    6. 如果一个格子中超过15个字，则进行简化使之不超过15个字；如果一个格子中斜杠分隔的内容超过4个，则简化后只保留不超过4个\n    7. 时间格式统一为YYYY-MM-DD HH：MM   (时间中的冒号应当用中文冒号，未知的部分可以省略，例如：2023-10-01 12：00 或 2023-10-01 或 12：00)\n    8. 地点格式为 大陆>国家>城市>具体地点 (未知的部分可以省略，例如：大陆>中国>北京>故宫 或 异世界>酒馆)\n    9. 单元格中禁止使用逗号，语义分割应使用 /\n    10. 单元格内的string中禁止出现双引号\n    11. 禁止插入与现有表格内容完全相同的行，检查现有表格数据后再决定是否插入\n</整理规则>\n\n<聊天记录>\n    $1\n</聊天记录>\n\n<当前表格>\n    $0\n</当前表格>\n\n请用纯JSON格式回复操作列表，确保：\n    1. 所有键名必须使用双引号包裹，例如 \"action\" 而非 action\n    2. 数值键名必须加双引号，例如 \"0\" 而非 0\n    3. 使用双引号而非单引号，例如 \"value\" 而非 'value'\n    4. 斜杠（/）必须转义为 /\n    5. 不要包含注释或多余的Markdown标记\n    6. 将所有删除操作放在最后发送，并且删除的时候先发送row值较大的操作\n    7. 有效的格式：\n        [{\n            \"action\": \"insert/update/delete\",\n            \"tableIndex\": 数字,\n            \"rowIndex\": 数字（delete/update时需要）,\n            \"data\": {列索引: \"值\"}（insert/update时需要）\n        }]\n    8. 强调：delete操作不包含\"data\"，insert操作不包含\"rowIndex\"\n    9. 强调：tableIndex和rowIndex的值为数字，不加双引号，例如 0 而非 \"0\"\n\n<正确回复示例>\n    [\n        {\n            \"action\": \"update\",\n            \"tableIndex\": 0,\n            \"rowIndex\": 0,\n            \"data\": {\n            \"0\": \"2023-10-01\",\n            \"1\": \"12：00\",\n            \"2\": \"大陆>中国>北京>故宫\"\n            }\n        }，\n        {\n            \"action\": \"insert\",\",\n            \"tableIndex\": 0,\n            \"data\": {\n            \"0\": \"2023-10-01\",\n            \"1\": \"12：00\",\n            \"2\": \"大陆>中国>北京>故宫\"\n            }\n        },\n        {\n            \"action\": \"delete\",\n            \"tableIndex\": 0,\n            \"rowIndex\": 0,\n        }\n    ]\n</正确格式示例>",
             "updateIndex": 3,
@@ -1616,7 +1624,8 @@
         "卜卜.png": [],
         "fuhufox的亚种圣杯战争.png": [],
         "fuhufox的亚种圣杯战争_1.png": [],
-        "地图导航模块.png": []
+        "地图导航模块.png": [],
+        "地图+论坛.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
