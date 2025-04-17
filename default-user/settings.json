@@ -2704,10 +2704,6 @@
                 "character_id": 100001,
                 "order": [
                     {
-                        "identifier": "bd80d309-6603-4b1c-8988-20f39c9915ad",
-                        "enabled": false
-                    },
-                    {
                         "identifier": "7c3cce07-7de0-4712-9570-f5982aeb64a6",
                         "enabled": false
                     },
@@ -2798,6 +2794,10 @@
                     {
                         "identifier": "817ec237-92c2-44c4-a20c-219eaf944e31",
                         "enabled": true
+                    },
+                    {
+                        "identifier": "bd80d309-6603-4b1c-8988-20f39c9915ad",
+                        "enabled": false
                     },
                     {
                         "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
