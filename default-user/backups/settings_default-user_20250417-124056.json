@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "10",
-        "extension_update_nag": "Wed Apr 16 2025",
+        "extension_update_nag": "Thu Apr 17 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -55,17 +55,9 @@
         "world_info": {
             "globalSelect": [
                 "hq手机0403",
-                "地图导航模块",
-                "酒馆文学网 v1.22"
+                "地图导航模块"
             ],
-            "charLore": [
-                {
-                    "name": "地图+论坛",
-                    "extraBooks": [
-                        "地图导航模块"
-                    ]
-                }
-            ]
+            "charLore": []
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
@@ -251,7 +243,7 @@
         "fast_ui_mode": false,
         "avatar_style": 2,
         "chat_display": 1,
-        "chat_width": 62,
+        "chat_width": 54,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -377,7 +369,7 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"外道天魔菩萨\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
+                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
                 "position": 0
             },
             "1743610426923-.png": {
@@ -388,7 +380,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"外道天魔菩萨\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
+        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\",\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -545,57 +537,6 @@
         "dice": {},
         "regex": [
             {
-                "id": "a3165d7a-7ca7-46ac-b528-26debe916e2b",
-                "scriptName": "Kemini 1",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "31d541db-0225-4bcc-958b-2820fcfdbcf8",
-                "scriptName": "Kemini 2",
-                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "f34d966d-be8f-4ba8-910d-30dfcee28fed",
-                "scriptName": "Kemini 3",
-                "findRegex": "/^[\\s\\S]*</thinking>/",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
                 "scriptName": "置空thinking ",
                 "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)",
@@ -604,7 +545,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -622,7 +563,7 @@
                     1,
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -640,7 +581,7 @@
                     1,
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -649,35 +590,52 @@
                 "maxDepth": null
             },
             {
-                "id": "a77dfd92-3c66-4e2a-9b84-f29a93229392",
-                "scriptName": "脚本-地图导航模块",
-                "findRegex": "<map_data>([\\s\\S]*?)<\\/map_data>",
-                "replaceString": "```\n<div id=\"map-data-source\" style=\"display:none;\">$1</div>\n<div class=\"map-interface\">\n    <!-- 地图界面内容 -->\n</div>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\n<script>\n    // JavaScript代码\n</script>\n<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>恋爱冒险地图</title>\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\n    <link href=\"https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&display=swap\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"map-data-source\" style=\"display:none;\"></div>\n    <div class=\"map-interface\">\n        <div class=\"map-header\">\n            <h2 id=\"map-title\">通用地图导航</h2>\n        </div>\n\n        <!-- 移动限制提示 -->\n        <div id=\"movement-alert\" class=\"movement-alert hidden\">\n            <i class=\"fas fa-exclamation-triangle\"></i> 提示：你现在无法移动        </div>\n\n        <!-- 主地点选择区域 -->\n        <div id=\"main-locations\" class=\"location-grid\">\n            <!-- 主要地点按钮将在这里动态生成 -->\n        </div>\n\n        <!-- 次级地点选择区域 -->\n        <div id=\"sub-locations\" class=\"sub-location-grid hidden\">\n            <!-- 次级地点按钮将在这里动态生成 -->\n        </div>\n\n        <!-- 地点详情区域 -->\n        <div id=\"location-details\" class=\"location-details hidden\">\n            <div class=\"detail-header\">\n                <i class=\"fas fa-map-marker-alt\"></i> <span id=\"selected-location\">未选择</span>\n            </div>\n            <div class=\"detail-content\">\n                <div class=\"character-section\">\n                    <div class=\"section-title\"><i class=\"fas fa-user-friends\"></i> 可能遇见的人</div>\n                    <div id=\"location-characters\" class=\"character-list\">\n                        <!-- 角色列表将在这里动态生成 -->\n                    </div>\n                </div>\n            </div>\n            <div class=\"action-section\">\n                <button id=\"confirm-move-btn\" class=\"action-button\">\n                    <i class=\"fas fa-walking\"></i> 前往此处\n                </button>\n            </div>\n        </div>\n    </div>\n\n    <!-- 确认移动弹窗 -->\n    <div id=\"confirm-overlay\" class=\"modal-overlay hidden\">\n        <div class=\"confirm-dialog\">\n            <h4>确认前往</h4>\n            <p id=\"confirm-message\"></p>\n            <div class=\"dialog-buttons\">\n                <button id=\"cancel-move-btn\" class=\"dialog-button cancel-button\">\n                    <i class=\"fas fa-times\"></i> 再想想\n                </button>\n                <button id=\"execute-move-btn\" class=\"dialog-button confirm-button\">\n                    <i class=\"fas fa-check\"></i> 出发吧\n                </button>\n            </div>\n        </div>\n    </div>\n\n    <script>\n        // 全局变量\n        let mapData = null;\n        let selectedMain = null;\n        let selectedSub = null;\n        let selectedCharacters = [];\n        let hasMoveBlock = false;\n\n        // 解析地图数据\n        function parseMapData(text) {\n            if (!text || typeof text !== 'string') {\n                console.error(\"无效的地图数据\", text);\n                return null;\n            }\n\n            console.log(\"开始解析地图数据:\", text.substring(0, 50) + \"...\");\n\n            const data = {\n                moveBlocked: false,\n                locations: []\n            };\n\n            try {\n                // 解析移动限制状态\n                const moveBlockMatch = /\\[MOVEBLOCK:(YES|NO)\\]/.exec(text);\n                if (moveBlockMatch) {\n                    data.moveBlocked = moveBlockMatch[1] === 'YES';\n                }\n\n                // 解析地点数据\n                const locationMatches = Array.from(text.matchAll(/\\[(.*?)(?=\\]|\\[(?!.*\\[))/gs));\n                console.log(`找到 ${locationMatches.length} 个位置匹配项`);\n                \n                for (const match of locationMatches) {\n                    const locationText = match[1].trim();\n                    \n                    // 跳过MOVEBLOCK行\n                    if (locationText.startsWith('MOVEBLOCK:')) {\n                        console.log(\"跳过MOVEBLOCK行\");\n                        continue;\n                    }\n                    \n                    const lines = locationText.split('\\n');\n                    if (lines.length < 1) continue;\n                    \n                    const mainLocation = lines[0].trim();\n                    console.log(\"处理主地点:\", mainLocation);\n                    const subLocations = [];\n                    \n                    // 解析子地点\n                    for (let i = 1; i < lines.length; i++) {\n                        const subLine = lines[i].trim();\n                        if (!subLine.startsWith('-')) continue;\n                        \n                        // 格式: - 地点X: 角色1, 角色2\n                        const subMatch = /- (.*?):(.*?)$/.exec(subLine);\n                        if (subMatch) {\n                            const subName = subMatch[1].trim();\n                            const charactersText = subMatch[2].trim();\n                            const characters = charactersText.split(',').map(c => c.trim()).filter(c => c);\n                            \n                            console.log(`  子地点: ${subName}, 角色: ${characters.join(', ')}`);\n                            \n                            subLocations.push({\n                                name: subName,\n                                characters: characters\n                            });\n                        }\n                    }\n                    \n                    if (mainLocation) {\n                        data.locations.push({\n                            name: mainLocation,\n                            subLocations: subLocations\n                        });\n                    }\n                }\n                \n                console.log(\"解析后的地图数据:\", data);\n                return data;\n            } catch (error) {\n                console.error(\"解析地图数据时出错:\", error);\n                return null;\n            }\n        }\n\n        // 渲染地图界面\n        function renderMapInterface(mapData) {\n            if (!mapData) return;\n            \n            hasMoveBlock = mapData.moveBlocked;\n            \n            // 显示/隐藏移动限制提示\n            const movementAlert = document.getElementById('movement-alert');\n            if (hasMoveBlock) {\n                movementAlert.classList.remove('hidden');\n            } else {\n                movementAlert.classList.add('hidden');\n            }\n            \n            // 渲染主地点按钮\n            const mainLocationsContainer = document.getElementById('main-locations');\n            mainLocationsContainer.innerHTML = '';\n            \n            mapData.locations.forEach(location => {\n                const button = document.createElement('button');\n                button.className = 'location-button';\n                \n                // 为不同地点设置不同的图标\n                let icon = 'fa-map';\n                if (location.name.includes('学校')) icon = 'fa-school';\n                else if (location.name.includes('公园')) icon = 'fa-tree';\n                else if (location.name.includes('商业')) icon = 'fa-store';\n                else if (location.name.includes('住宅')) icon = 'fa-home';\n                else if (location.name.includes('站')) icon = 'fa-train';\n                \n                button.innerHTML = `<i class=\"fas ${icon}\"></i> ${location.name}`;\n                button.dataset.location = location.name;\n                \n                button.addEventListener('click', () => selectMainLocation(location));\n                \n                if (hasMoveBlock) {\n                    button.disabled = true;\n                    button.classList.add('disabled');\n                }\n                \n                mainLocationsContainer.appendChild(button);\n            });\n            \n            // 隐藏子地点和详情\n            document.getElementById('sub-locations').classList.add('hidden');\n            document.getElementById('location-details').classList.add('hidden');\n        }\n        \n        // 选择主地点\n        function selectMainLocation(location) {\n            if (hasMoveBlock) return;\n            \n            selectedMain = location;\n            \n            // 高亮选中的主地点按钮\n            const allMainButtons = document.querySelectorAll('#main-locations .location-button');\n            allMainButtons.forEach(btn => {\n                btn.classList.remove('selected');\n                if (btn.dataset.location === location.name) {\n                    btn.classList.add('selected');\n                }\n            });\n            \n            // 渲染子地点\n            const subLocationsContainer = document.getElementById('sub-locations');\n            subLocationsContainer.innerHTML = '';\n            \n            location.subLocations.forEach(subLocation => {\n                const button = document.createElement('button');\n                button.className = 'sub-location-button';\n                \n                // 为不同子地点设置不同的图标\n                let icon = 'fa-map-pin';\n                if (subLocation.name.includes('教室')) icon = 'fa-chalkboard';\n                else if (subLocation.name.includes('咖啡')) icon = 'fa-coffee';\n                else if (subLocation.name.includes('图书')) icon = 'fa-book';\n                else if (subLocation.name.includes('商店')) icon = 'fa-shopping-bag';\n                else if (subLocation.name.includes('广场')) icon = 'fa-clock';\n                \n                button.innerHTML = `<i class=\"fas ${icon}\"></i> ${subLocation.name}`;\n                button.dataset.sublocation = subLocation.name;\n                \n                button.addEventListener('click', () => selectSubLocation(subLocation));\n                \n                subLocationsContainer.appendChild(button);\n            });\n            \n            // 显示子地点区域\n            subLocationsContainer.classList.remove('hidden');\n            \n            // 隐藏详情区域\n            document.getElementById('location-details').classList.add('hidden');\n            \n            // 重置子地点选择\n            selectedSub = null;\n        }\n        \n        // 选择子地点\n        function selectSubLocation(subLocation) {\n            if (hasMoveBlock) return;\n            \n            selectedSub = subLocation;\n            selectedCharacters = subLocation.characters;\n            \n            // 高亮选中的子地点按钮\n            const allSubButtons = document.querySelectorAll('#sub-locations .sub-location-button');\n            allSubButtons.forEach(btn => {\n                btn.classList.remove('selected');\n                if (btn.dataset.sublocation === subLocation.name) {\n                    btn.classList.add('selected');\n                }\n            });\n            \n            // 更新地点详情\n            document.getElementById('selected-location').textContent = `${selectedMain.name} - ${subLocation.name}`;\n            \n            // 更新角色列表\n            const charactersContainer = document.getElementById('location-characters');\n            charactersContainer.innerHTML = '';\n            \n            if (subLocation.characters.length > 0) {\n                subLocation.characters.forEach(character => {\n                    const charElement = document.createElement('div');\n                    charElement.className = 'character-item';\n                    charElement.innerHTML = `<i class=\"fas fa-user\"></i> ${character}`;\n                    charactersContainer.appendChild(charElement);\n                });\n            } else {\n                const noCharElement = document.createElement('div');\n                noCharElement.className = 'character-item empty';\n                noCharElement.innerHTML = `<i class=\"fas fa-user-slash\"></i> 这里没有人`;\n                charactersContainer.appendChild(noCharElement);\n            }\n            \n            // 显示详情区域\n            document.getElementById('location-details').classList.remove('hidden');\n        }\n        \n        // 确认移动\n        function confirmMove() {\n            if (hasMoveBlock || !selectedMain || !selectedSub) return;\n            \n            const locationName = `${selectedMain.name} - ${selectedSub.name}`;\n            const characters = selectedCharacters.join(', ');\n            \n            // 显示确认对话框\n            const confirmMessage = document.getElementById('confirm-message');\n            if (characters) {\n                confirmMessage.textContent = `前往 ${locationName}？你可能会遇见：${characters}`;\n            } else {\n                confirmMessage.textContent = `前往 ${locationName}？那里好像没有人。`;\n            }\n            \n            document.getElementById('confirm-overlay').classList.remove('hidden');\n        }\n        \n        // 执行移动\n        function executeMove() {\n            if (hasMoveBlock || !selectedMain || !selectedSub) return;\n            \n            const locationName = `${selectedMain.name} - ${selectedSub.name}`;\n            const characters = selectedCharacters.join(',');\n            \n            // 构建移动消息\n            let message = `<request:{{user}}前往了${locationName}.`;\n            if (characters) {\n                message += `${characters}在那里`;\n            }\n            message += \">\";\n            \n            // 如果存在 triggerSlash 函数，发送消息\n            if (typeof triggerSlash === 'function') {\n                try {\n                    triggerSlash(`/send ${message} || /trigger`);\n                } catch (e) {\n                    console.error(\"发送消息时出错:\", e);\n                    alert(\"发送消息失败，请重试。\");\n                }\n            } else {\n                console.log(\"移动命令:\", message);\n                alert(\"移动请求已生成。在实际环境中，这将发送到AI。\");\n            }\n            \n            // 隐藏确认对话框\n            document.getElementById('confirm-overlay').classList.add('hidden');\n            \n            // 重置选择\n            resetSelection();\n        }\n        \n        // 重置选择\n        function resetSelection() {\n            selectedMain = null;\n            selectedSub = null;\n            selectedCharacters = [];\n            \n            // 清除所有选中状态\n            document.querySelectorAll('.location-button, .sub-location-button').forEach(btn => {\n                btn.classList.remove('selected');\n            });\n            \n            // 隐藏子地点和详情\n            document.getElementById('sub-locations').classList.add('hidden');\n            document.getElementById('location-details').classList.add('hidden');\n        }\n        \n        // 处理地图数据\n        function processMapData() {\n            const dataSource = document.getElementById('map-data-source');\n            if (!dataSource) {\n                console.error(\"未找到地图数据源元素\");\n                return;\n            }\n            \n            let mapText = dataSource.textContent || dataSource.innerText;\n            console.log(\"获取到的地图数据文本:\", mapText ? \"有数据\" : \"无数据\", \"长度:\", mapText ? mapText.length : 0);\n            \n            // 尝试从父窗口获取数据（SillyTavern环境）\n            try {\n                if (window.parent && window.parent !== window) {\n                    console.log(\"在iframe中运行，尝试从SillyTavern获取数据\");\n                    \n                    // 尝试获取所有消息元素\n                    const allMessages = window.parent.document.querySelectorAll('.mes_text, .mes_content, .message-content, .message_text');\n                    console.log(`找到 ${allMessages.length} 个可能的消息元素`);\n                    \n                    // 检查最近的几条消息\n                    let foundMapData = false;\n                    for (let i = allMessages.length - 1; i >= 0 && i >= allMessages.length - 5; i--) {\n                        const messageText = allMessages[i].textContent || allMessages[i].innerText;\n                        console.log(`检查消息 #${i}，长度: ${messageText.length}，前30个字符: ${messageText.substring(0, 30)}...`);\n                        \n                        // 同时检查旧格式[EMOTION:]和新格式[MOVEBLOCK:]\n                        if (messageText && (messageText.includes('[EMOTION:') || messageText.includes('[MOVEBLOCK:'))) {\n                            console.log(`在消息 #${i} 中找到地图数据`);\n                            mapText = messageText;\n                            foundMapData = true;\n                            break;\n                        }\n                    }\n                    \n                    if (!foundMapData) {\n                        console.log(\"在消息中未找到地图数据，尝试直接在页面中搜索\");\n                        // 尝试在整个文档中搜索地图数据格式\n                        const bodyText = window.parent.document.body.textContent || window.parent.document.body.innerText;\n                        \n                        // 先尝试查找新格式\n                        let mapDataStart = bodyText.indexOf('[MOVEBLOCK:');\n                        \n                        // 如果没找到新格式，尝试查找旧格式\n                        if (mapDataStart === -1) {\n                            mapDataStart = bodyText.indexOf('[EMOTION:');\n                        }\n                        \n                        if (mapDataStart !== -1) {\n                            // 找到开始标记，现在找到结束位置（假设地图数据以 ']' 结尾且后面不是另一个地图数据块）\n                            let mapDataEnd = bodyText.indexOf(']', mapDataStart);\n                            while (bodyText.charAt(mapDataEnd + 1) === '[') {\n                                mapDataEnd = bodyText.indexOf(']', mapDataEnd + 1);\n                            }\n                            \n                            if (mapDataEnd !== -1) {\n                                const extractedData = bodyText.substring(mapDataStart, mapDataEnd + 1);\n                                console.log(\"从页面提取的地图数据:\", extractedData.substring(0, 50) + \"...\");\n                                if (extractedData.includes('\\n')) {\n                                    mapText = extractedData;\n                                }\n                            }\n                        }\n                    }\n                }\n            } catch (e) {\n                console.log(\"无法从父窗口获取数据:\", e);\n            }\n            \n            // 如果提供了URL参数中的数据，使用它\n            try {\n                const urlParams = new URLSearchParams(window.location.search);\n                const urlData = urlParams.get('data');\n                if (urlData) {\n                    const decodedData = decodeURIComponent(urlData);\n                    console.log(\"从URL参数获取数据:\", decodedData.substring(0, 30) + \"...\");\n                    if (decodedData.includes('[EMOTION:') || decodedData.includes('[MOVEBLOCK:')) {\n                        mapText = decodedData;\n                    }\n                }\n            } catch (e) {\n                console.log(\"无法从URL参数获取数据:\", e);\n            }\n            \n            // 直接尝试使用用户提供的测试数据\n            if (!mapText || (!mapText.includes('[EMOTION:') && !mapText.includes('[MOVEBLOCK:'))) {\n                console.log(\"尝试使用测试数据\");\n                mapText = `[MOVEBLOCK:NO]\n[校园区域\n- 教学楼: 班主任, 数学老师\n- 图书馆: 文学社社长, 图书管理员\n- 操场: 体育老师, 田径队队长]\n[商业街\n- 咖啡厅: 服务员小雅, 钢琴少女\n- 游戏厅: 游戏高手小明, 不良少年\n- 书店: 眼镜店主, 神秘顾客]\n[住宅区\n- 公寓楼: 邻居阿姨, 宠物猫咪\n- 小公园: 晨练老人, 遛狗少年\n- 便利店: 店长, 兼职学生]`;\n                \n                dataSource.textContent = mapText;\n                console.log(\"已设置测试数据\");\n            }\n            \n            // 兼容旧版数据格式（EMOTION -> MOVEBLOCK）\n            if (mapText && mapText.includes('[EMOTION:')) {\n                console.log(\"转换旧版数据格式（EMOTION -> MOVEBLOCK）\");\n                mapText = mapText.replace(/\\[EMOTION:(BAD|GOOD)\\]/g, function(match, state) {\n                    return `[MOVEBLOCK:${state === 'BAD' ? 'YES' : 'NO'}]`;\n                });\n            }\n            \n            // 现在解析和渲染地图数据\n            mapData = parseMapData(mapText);\n            \n            if (mapData) {\n                renderMapInterface(mapData);\n            } else {\n                console.error(\"地图数据解析失败\");\n            }\n        }\n        \n        // 注册事件监听器\n        function setupEventListeners() {\n            // 确认移动按钮\n            document.getElementById('confirm-move-btn').addEventListener('click', confirmMove);\n            \n            // 确认对话框按钮\n            document.getElementById('cancel-move-btn').addEventListener('click', () => {\n                document.getElementById('confirm-overlay').classList.add('hidden');\n            });\n            \n            document.getElementById('execute-move-btn').addEventListener('click', executeMove);\n        }\n        \n        // 初始化\n        function init() {\n            // 设置事件监听器\n            setupEventListeners();\n            \n            // 处理地图数据\n            processMapData();\n            \n            // 监听SillyTavern消息更新\n            if (window.parent && window.parent !== window && typeof window.parent.eventOn === 'function' && window.parent.tavern_events) {\n                window.parent.eventOn(window.parent.tavern_events.MESSAGE_UPDATED, () => {\n                    setTimeout(processMapData, 300);\n                });\n                window.parent.eventOn(window.parent.tavern_events.MESSAGE_RECEIVED, () => {\n                    setTimeout(processMapData, 300);\n                });\n            }\n        }\n        \n        // 页面加载完成后初始化\n        document.addEventListener('DOMContentLoaded', init);\n    </script>\n    \n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&display=swap');\n        \n        :root {\n            /* 莫兰迪色系 */\n            --gal-bg-light: #f8f4f0;      /* 背景 - 极浅米白 */\n            --gal-bg-medium: #e8e2d9;     /* 中等背景 - 浅灰褐色 */\n            --gal-border: #d3c6b9;       /* 边框/点缀 - 柔和米棕 */\n            --gal-text-dark: #6b5f56;     /* 深色文字 - 柔和深棕 */\n            --gal-text-muted: #a39589;    /* 浅色文字 - 中灰棕 */\n            --gal-primary: #b4a295;       /* 主色 - 灰玫瑰棕 */\n            --gal-primary-light: #dcd1c7; /* 浅主色 */\n            --gal-success: #a5bdaa;       /* 成功 - 柔和绿 */\n            --gal-warning: #e5d7b3;       /* 警告 - 柔和黄 */\n            --gal-danger: #d8a097;        /* 危险 - 柔和粉红 */\n            --gal-pink: #e6c6c6;          /* 粉色 - 柔和粉 */\n            --gal-purple: #c8b9d3;        /* 紫色 - 柔和薰衣草紫 */\n            \n            --font-title: 'ZCOOL QingKe HuangYou', sans-serif;\n            --font-main: 'ZCOOL XiaoWei', \"Microsoft YaHei\", sans-serif;\n\n            /* Material Design 风格 */\n            --md-border-radius-large: 20px; /* 大圆角 */\n            --md-border-radius-medium: 16px;/* 中圆角 */\n            --md-border-radius-small: 12px; /* 小圆角 */\n            --md-shadow-1: 0 2px 4px rgba(0, 0, 0, 0.08); /* 细微阴影 */\n            --md-shadow-2: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 轻度阴影 */\n            --md-shadow-3: 0 6px 12px rgba(0, 0, 0, 0.12); /* 中度阴影 */\n            --md-shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15); /* 悬停阴影 */\n        }\n        \n        body {\n            background-color: transparent; /* or var(--gal-bg-light) if not transparent */\n            margin: 0;\n            padding: 10px; /* Add some padding around the body */\n            font-family: var(--font-main);\n            color: var(--gal-text-dark);\n            box-sizing: border-box;\n        }\n        \n        /* 地图界面容器 */\n        .map-interface {\n            max-width: 100%;\n            width: 100%;\n            margin: 0 auto;\n            background: var(--gal-bg-light);\n            border: 1px solid var(--gal-border); /* Thinner border */\n            border-radius: var(--md-border-radius-large); /* 大圆角 */\n            box-shadow: var(--md-shadow-2); /* 应用阴影 */\n            padding: 25px;\n            box-sizing: border-box;\n            position: relative;\n            overflow: hidden;\n        }\n        \n        /* 地图标题 */\n        .map-header {\n            text-align: center;\n            margin-bottom: 25px;\n            padding-bottom: 15px;\n            border-bottom: 1px solid var(--gal-border); /* 更细的分割线 */\n        }\n        \n        .map-header h2 {\n            font-size: 26px; /* Slightly smaller */\n            margin: 0;\n            padding: 5px;\n            line-height: 1.4;\n            color: var(--gal-primary);\n            font-family: var(--font-title);\n            position: relative;\n        }\n        \n        .map-header h2:before,\n        .map-header h2:after {\n            content: '✧'; /* Changed icon */\n            display: inline-block;\n            margin: 0 10px;\n            color: var(--gal-pink);\n            font-size: 18px;\n            opacity: 0.8;\n        }\n        \n        /* 移动限制提示 */\n        .movement-alert {\n            background-color: var(--gal-warning);\n            border: 1px solid rgba(229, 215, 179, 0.8); /* Lighter border */\n            border-radius: var(--md-border-radius-medium); /* 圆角 */\n            padding: 15px;\n            margin-bottom: 25px;\n            text-align: center;\n            color: var(--gal-text-dark);\n            font-weight: normal; /* Less emphasis */\n            box-shadow: var(--md-shadow-1);\n            animation: pulse-movement 2.5s infinite ease-in-out; /* Smoother pulse */\n        }\n        \n        @keyframes pulse-movement {\n            0%, 100% { opacity: 0.9; }\n            50% { opacity: 1; transform: scale(1.01); }\n        }\n        \n        .movement-alert i {\n            margin-right: 8px;\n            color: var(--gal-text-muted); /* Muted icon color */\n        }\n        \n        /* 地点选择网格 */\n        .location-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); /* Slightly smaller min */\n            gap: 15px;\n            margin-bottom: 25px;\n        }\n        \n        .location-button {\n            background-color: white; /* Cleaner look */\n            border: 1px solid var(--gal-border);\n            border-radius: var(--md-border-radius-medium); /* 圆角 */\n            padding: 15px;\n            color: var(--gal-text-dark);\n            font-family: var(--font-main);\n            font-size: 15px; /* Slightly smaller */\n            cursor: pointer;\n            transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */\n            text-align: center;\n            box-shadow: var(--md-shadow-1);\n        }\n        \n        .location-button:hover:not(.disabled) {\n            background-color: var(--gal-bg-medium); /* Subtle hover */\n            border-color: var(--gal-primary);\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-hover); /* 微交互 */\n        }\n        \n        .location-button.selected {\n            background-color: var(--gal-primary);\n            border-color: var(--gal-primary);\n            color: white;\n            transform: translateY(-2px);\n            box-shadow: var(--md-shadow-3);\n        }\n        \n        .location-button.disabled {\n            opacity: 0.6;\n            cursor: not-allowed;\n            background-color: var(--gal-bg-medium);\n            box-shadow: none;\n        }\n        \n        .location-button i {\n            margin-right: 8px;\n            color: var(--gal-primary);\n            transition: color 0.2s ease;\n        }\n        \n        .location-button.selected i {\n            color: white;\n        }\n        \n        /* 次级地点选择 */\n        .sub-location-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));\n            gap: 12px;\n            margin-bottom: 25px;\n            padding: 20px;\n            background-color: var(--gal-bg-medium);\n            border-radius: var(--md-border-radius-medium);\n            border: 1px solid var(--gal-border);\n        }\n        \n        .sub-location-button {\n            background-color: var(--gal-bg-light);\n            border: 1px solid var(--gal-border);\n            border-radius: var(--md-border-radius-small); /* 圆角 */\n            padding: 12px 18px;\n            color: var(--gal-text-dark);\n            font-family: var(--font-main);\n            font-size: 14px;\n            cursor: pointer;\n            transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */\n            text-align: left;\n            box-shadow: var(--md-shadow-1);\n        }\n        \n        .sub-location-button:hover {\n            background-color: white;\n            border-color: var(--gal-primary);\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-hover); /* 微交互 */\n        }\n        \n        .sub-location-button.selected {\n            background-color: var(--gal-primary);\n            border-color: var(--gal-primary);\n            color: white;\n            transform: translateY(-2px);\n            box-shadow: var(--md-shadow-3);\n        }\n        \n        .sub-location-button i {\n            margin-right: 10px;\n            color: var(--gal-primary);\n            transition: color 0.2s ease;\n        }\n        \n        .sub-location-button.selected i {\n            color: white;\n        }\n        \n        /* 地点详情 */\n        .location-details {\n            margin-top: 25px;\n            padding: 25px;\n            background-color: white;\n            border-radius: var(--md-border-radius-large); /* 大圆角 */\n            border: 1px solid var(--gal-border);\n            box-shadow: var(--md-shadow-2);\n        }\n        \n        .detail-header {\n            font-size: 18px; /* Slightly smaller */\n            font-weight: normal; /* Normal weight */\n            margin-bottom: 20px;\n            padding-bottom: 15px;\n            border-bottom: 1px solid var(--gal-border); /* Thinner border */\n            color: var(--gal-primary);\n            text-align: center;\n        }\n        \n        .detail-header i {\n            margin-right: 8px;\n        }\n        \n        .section-title {\n            font-size: 15px; /* Slightly smaller */\n            color: var(--gal-text-muted);\n            margin-bottom: 15px;\n            font-weight: normal; /* Normal weight */\n        }\n        \n        .section-title i {\n            margin-right: 8px;\n            color: var(--gal-primary);\n        }\n        \n        .character-list {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));\n            gap: 12px;\n            margin-bottom: 25px;\n        }\n        \n        .character-item {\n            background-color: var(--gal-bg-light);\n            border: 1px solid var(--gal-border);\n            border-radius: var(--md-border-radius-small); /* 圆角 */\n            padding: 12px;\n            font-size: 14px;\n            transition: all 0.2s ease;\n        }\n        \n        .character-item:hover {\n            transform: translateY(-1px) scale(1.02); /* Subtle hover */\n            box-shadow: var(--md-shadow-1);\n            border-color: var(--gal-primary-light);\n        }\n        \n        .character-item i {\n            margin-right: 8px;\n            color: var(--gal-primary);\n        }\n        \n        .character-item.empty {\n            color: var(--gal-text-muted);\n            opacity: 0.7;\n            background-color: var(--gal-bg-medium);\n            text-align: center;\n        }\n         .character-item.empty i {\n            display: block;\n            margin: 0 auto 5px auto; /* Center icon */\n            color: var(--gal-text-muted);\n        }\n        \n        .action-section {\n            margin-top: 25px;\n            text-align: center;\n        }\n        \n        .action-button {\n            background-color: var(--gal-success);\n            color: white; /* White text on colored button */\n            border: none;\n            border-radius: 50px; /* Fully rounded */\n            padding: 12px 35px; /* More padding */\n            font-size: 16px;\n            font-weight: normal; /* Normal weight */\n            cursor: pointer;\n            transition: background-color 0.2s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */\n            box-shadow: var(--md-shadow-2);\n            letter-spacing: 0.5px; /* Slight letter spacing */\n        }\n        \n        .action-button:hover {\n            background-color: #96b09b; /* Darker success on hover */\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-hover); /* 微交互 */\n        }\n        \n        .action-button i {\n            margin-right: 8px;\n        }\n        \n        /* 确认对话框 */\n        .modal-overlay {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            background-color: rgba(50, 50, 50, 0.6); /* Darker overlay */\n            backdrop-filter: blur(4px); /* Stronger blur */\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            z-index: 1000;\n            opacity: 0;\n            transition: opacity 0.3s ease;\n            pointer-events: none;\n        }\n        \n        .modal-overlay:not(.hidden) {\n           opacity: 1;\n           pointer-events: auto;\n        }\n\n        .confirm-dialog {\n            background-color: white;\n            border: none; /* Remove border */\n            border-radius: var(--md-border-radius-large); /* 大圆角 */\n            padding: 30px;\n            width: 90%;\n            max-width: 380px;\n            box-shadow: var(--md-shadow-3);\n            transform: scale(0.95);\n            transition: transform 0.3s ease;\n        }\n\n        .modal-overlay:not(.hidden) .confirm-dialog {\n           transform: scale(1);\n        }\n        \n        .confirm-dialog h4 {\n            color: var(--gal-primary);\n            margin-top: 0;\n            margin-bottom: 20px;\n            font-family: var(--font-title);\n            text-align: center;\n            font-size: 20px; /* Slightly smaller */\n        }\n        \n        .confirm-dialog p {\n            margin-bottom: 30px; /* More space */\n            line-height: 1.7;\n            text-align: center;\n            font-size: 15px;\n            color: var(--gal-text-muted);\n        }\n        \n        .dialog-buttons {\n            display: flex;\n            justify-content: space-around; /* Space around */\n            gap: 15px;\n        }\n        \n        .dialog-button {\n            flex-grow: 1; /* Buttons take equal space */\n            padding: 10px 20px;\n            border-radius: 50px; /* Fully rounded */\n            cursor: pointer;\n            transition: background-color 0.2s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */\n            border: none;\n            font-family: var(--font-main);\n            font-size: 15px;\n            font-weight: normal; /* Normal weight */\n            text-align: center;\n        }\n        \n        .cancel-button {\n            background-color: var(--gal-bg-medium); /* Muted background */\n            color: var(--gal-text-dark);\n            box-shadow: var(--md-shadow-1);\n        }\n        \n        .cancel-button:hover {\n            background-color: var(--gal-border); /* Slightly darker */\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-2); /* 微交互 */\n        }\n        \n        .confirm-button {\n            background-color: var(--gal-success);\n            color: white; /* White text */\n            box-shadow: var(--md-shadow-2);\n        }\n        \n        .confirm-button:hover {\n            background-color: #96b09b; /* Darker success */\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-hover); /* 微交互 */\n        }\n\n        .dialog-button i {\n            margin-right: 6px;\n        }\n        \n        /* 通用辅助类 */\n        .hidden {\n            /* Keep display: none, but handle overlay visibility with opacity */\n            display: none;\n        }\n        \n        /* 响应式样式 */\n        @media (max-width: 700px) {\n            .location-grid,\n            .sub-location-grid {\n                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust for smaller screens */\n            }\n            \n            .character-list {\n                grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));\n            }\n\n             .map-interface {\n                padding: 20px;\n            }\n            .confirm-dialog {\n                padding: 25px;\n            }\n        }\n        \n        @media (max-width: 480px) {\n            body {\n                padding: 5px;\n            }\n            .map-interface {\n                padding: 15px;\n                border-radius: var(--md-border-radius-medium);\n            }\n            .location-grid,\n            .sub-location-grid {\n                grid-template-columns: repeat(2, 1fr); /* Two columns */\n                gap: 10px;\n            }\n             .sub-location-grid {\n                padding: 15px;\n            }\n            .location-button {\n                padding: 12px;\n                font-size: 14px;\n            }\n             .sub-location-button {\n                padding: 10px 15px;\n                font-size: 13px;\n            }\n\n            .character-list {\n                grid-template-columns: repeat(2, 1fr); /* Two columns */\n                 gap: 10px;\n            }\n             .character-item {\n                padding: 10px;\n                font-size: 13px;\n            }\n            \n            .map-header h2 {\n                font-size: 22px;\n            }\n            .map-header h2:before,\n            .map-header h2:after {\n                font-size: 16px;\n                margin: 0 5px;\n            }\n            .movement-alert {\n                 padding: 12px;\n                 font-size: 14px;\n            }\n             .detail-header {\n                font-size: 16px;\n            }\n            .section-title {\n                font-size: 14px;\n            }\n            .action-button {\n                padding: 10px 30px;\n                font-size: 15px;\n            }\n\n            .confirm-dialog {\n                padding: 20px;\n                width: 95%;\n                 border-radius: var(--md-border-radius-medium);\n            }\n             .confirm-dialog h4 {\n                font-size: 18px;\n            }\n             .confirm-dialog p {\n                 font-size: 14px;\n                 margin-bottom: 25px;\n            }\n             .dialog-buttons {\n                flex-direction: column;\n                gap: 12px;\n            }\n             .dialog-button {\n                font-size: 14px;\n            }\n            .cancel-button {\n                order: 2;\n            }\n            .confirm-button {\n                order: 1;\n            }\n        }\n    </style>\n</body>\n</html>\n```",
+                "id": "c1f3ce1f-59a2-4059-ac1b-548af1e611da",
+                "scriptName": "Kemini 1",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
                 "placement": [
-                    2
+                    1
                 ],
                 "disabled": false,
                 "markdownOnly": true,
-                "promptOnly": false,
+                "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": 1
             },
             {
-                "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
-                "scriptName": "[不发送]导航",
-                "findRegex": "/(?:```\\s*<map_data>|map_data).*(?:<\\/map_data>\\s*```|map_data)/gs",
+                "id": "53049c05-8760-46d8-b8b9-4f265f756605",
+                "scriptName": "Kemini 2",
+                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
                 "disabled": false,
-                "markdownOnly": false,
+                "markdownOnly": true,
                 "promptOnly": true,
-                "runOnEdit": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "17b05c22-de4f-46f1-a986-1e7aac0d4156",
+                "scriptName": "Kemini 3",
+                "findRegex": "/^[\\s\\S]*</thinking>/",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
@@ -714,6 +672,40 @@
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "864aa8f1-c08f-4b26-85c5-97eae9ba3044",
+                "scriptName": "[低饱和莫兰迪风格]脚本-导航模块[四选一]",
+                "findRegex": "<map_data>([\\s\\S]*?)<\\/map_data>",
+                "replaceString": "```\n<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>恋爱冒险地图</title>\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\n    <link href=\"https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&display=swap\" rel=\"stylesheet\">\n</head>\n<body>\n    <div id=\"map-data-source\" style=\"display:none;\">$1</div>\n    <div class=\"map-interface\">\n        <div class=\"map-header\">\n            <h2 id=\"map-title\">通用地图导航</h2>\n        </div>\n\n        <!-- 移动限制提示 -->\n        <div id=\"movement-alert\" class=\"movement-alert hidden\">\n            <i class=\"fas fa-exclamation-triangle\"></i> 提示：你现在无法移动        </div>\n\n        <!-- 主地点选择区域 -->\n        <div id=\"main-locations\" class=\"location-grid\">\n            <!-- 主要地点按钮将在这里动态生成 -->\n        </div>\n\n        <!-- 次级地点选择区域 -->\n        <div id=\"sub-locations\" class=\"sub-location-grid hidden\">\n            <!-- 次级地点按钮将在这里动态生成 -->\n        </div>\n\n        <!-- 地点详情区域 -->\n        <div id=\"location-details\" class=\"location-details hidden\">\n            <div class=\"detail-header\">\n                <i class=\"fas fa-map-marker-alt\"></i> <span id=\"selected-location\">未选择</span>\n            </div>\n            <div class=\"detail-content\">\n                <div class=\"character-section\">\n                    <div class=\"section-title\"><i class=\"fas fa-user-friends\"></i> 可能遇见的人</div>\n                    <div id=\"location-characters\" class=\"character-list\">\n                        <!-- 角色列表将在这里动态生成 -->\n                    </div>\n                </div>\n            </div>\n            <div class=\"action-section\">\n                <button id=\"confirm-move-btn\" class=\"action-button\">\n                    <i class=\"fas fa-walking\"></i> 前往此处\n                </button>\n            </div>\n        </div>\n    </div>\n\n    <!-- 确认移动弹窗 -->\n    <div id=\"confirm-overlay\" class=\"modal-overlay hidden\">\n        <div class=\"confirm-dialog\">\n            <h4>确认前往</h4>\n            <p id=\"confirm-message\"></p>\n            <div class=\"dialog-buttons\">\n                <button id=\"cancel-move-btn\" class=\"dialog-button cancel-button\">\n                    <i class=\"fas fa-times\"></i> 再想想\n                </button>\n                <button id=\"execute-move-btn\" class=\"dialog-button confirm-button\">\n                    <i class=\"fas fa-check\"></i> 出发吧\n                </button>\n            </div>\n        </div>\n    </div>\n\n    <script>\n        // 全局变量\n        let mapData = null;\n        let selectedMain = null;\n        let selectedSub = null;\n        let selectedCharacters = [];\n        let hasMoveBlock = false;\n\n        // 解析地图数据\n        function parseMapData(text) {\n            if (!text || typeof text !== 'string') {\n                console.error(\"无效的地图数据\", text);\n                return null;\n            }\n\n            console.log(\"开始解析地图数据:\", text.substring(0, 50) + \"...\");\n\n            const data = {\n                moveBlocked: false,\n                locations: []\n            };\n\n            try {\n                // 解析移动限制状态\n                const moveBlockMatch = /\\[MOVEBLOCK:(YES|NO)\\]/.exec(text);\n                if (moveBlockMatch) {\n                    data.moveBlocked = moveBlockMatch[1] === 'YES';\n                }\n\n                // 解析地点数据\n                const locationMatches = Array.from(text.matchAll(/\\[(.*?)(?=\\]|\\[(?!.*\\[))/gs));\n                console.log(`找到 ${locationMatches.length} 个位置匹配项`);\n                \n                for (const match of locationMatches) {\n                    const locationText = match[1].trim();\n                    \n                    // 跳过MOVEBLOCK行\n                    if (locationText.startsWith('MOVEBLOCK:')) {\n                        console.log(\"跳过MOVEBLOCK行\");\n                        continue;\n                    }\n                    \n                    const lines = locationText.split('\\n');\n                    if (lines.length < 1) continue;\n                    \n                    const mainLocation = lines[0].trim();\n                    console.log(\"处理主地点:\", mainLocation);\n                    const subLocations = [];\n                    \n                    // 解析子地点\n                    for (let i = 1; i < lines.length; i++) {\n                        const subLine = lines[i].trim();\n                        if (!subLine.startsWith('-')) continue;\n                        \n                        // 格式: - 地点X: 角色1, 角色2\n                        const subMatch = /- (.*?):(.*?)$/.exec(subLine);\n                        if (subMatch) {\n                            const subName = subMatch[1].trim();\n                            const charactersText = subMatch[2].trim();\n                            const characters = charactersText.split(',').map(c => c.trim()).filter(c => c);\n                            \n                            console.log(`  子地点: ${subName}, 角色: ${characters.join(', ')}`);\n                            \n                            subLocations.push({\n                                name: subName,\n                                characters: characters\n                            });\n                        }\n                    }\n                    \n                    if (mainLocation) {\n                        data.locations.push({\n                            name: mainLocation,\n                            subLocations: subLocations\n                        });\n                    }\n                }\n                \n                console.log(\"解析后的地图数据:\", data);\n                return data;\n            } catch (error) {\n                console.error(\"解析地图数据时出错:\", error);\n                return null;\n            }\n        }\n\n        // 渲染地图界面\n        function renderMapInterface(mapData) {\n            if (!mapData) return;\n            \n            hasMoveBlock = mapData.moveBlocked;\n            \n            // 显示/隐藏移动限制提示\n            const movementAlert = document.getElementById('movement-alert');\n            if (hasMoveBlock) {\n                movementAlert.classList.remove('hidden');\n            } else {\n                movementAlert.classList.add('hidden');\n            }\n            \n            // 渲染主地点按钮\n            const mainLocationsContainer = document.getElementById('main-locations');\n            mainLocationsContainer.innerHTML = '';\n            \n            mapData.locations.forEach(location => {\n                const button = document.createElement('button');\n                button.className = 'location-button';\n                \n                // 为不同地点设置不同的图标\n                let icon = 'fa-map';\n                if (location.name.includes('学校')) icon = 'fa-school';\n                else if (location.name.includes('公园')) icon = 'fa-tree';\n                else if (location.name.includes('商业')) icon = 'fa-store';\n                else if (location.name.includes('住宅')) icon = 'fa-home';\n                else if (location.name.includes('站')) icon = 'fa-train';\n                \n                button.innerHTML = `<i class=\"fas ${icon}\"></i> ${location.name}`;\n                button.dataset.location = location.name;\n                \n                button.addEventListener('click', () => selectMainLocation(location));\n                \n                if (hasMoveBlock) {\n                    button.disabled = true;\n                    button.classList.add('disabled');\n                }\n                \n                mainLocationsContainer.appendChild(button);\n            });\n            \n            // 隐藏子地点和详情\n            document.getElementById('sub-locations').classList.add('hidden');\n            document.getElementById('location-details').classList.add('hidden');\n        }\n        \n        // 选择主地点\n        function selectMainLocation(location) {\n            if (hasMoveBlock) return;\n            \n            selectedMain = location;\n            \n            // 高亮选中的主地点按钮\n            const allMainButtons = document.querySelectorAll('#main-locations .location-button');\n            allMainButtons.forEach(btn => {\n                btn.classList.remove('selected');\n                if (btn.dataset.location === location.name) {\n                    btn.classList.add('selected');\n                }\n            });\n            \n            // 渲染子地点\n            const subLocationsContainer = document.getElementById('sub-locations');\n            subLocationsContainer.innerHTML = '';\n            \n            location.subLocations.forEach(subLocation => {\n                const button = document.createElement('button');\n                button.className = 'sub-location-button';\n                \n                // 为不同子地点设置不同的图标\n                let icon = 'fa-map-pin';\n                if (subLocation.name.includes('教室')) icon = 'fa-chalkboard';\n                else if (subLocation.name.includes('咖啡')) icon = 'fa-coffee';\n                else if (subLocation.name.includes('图书')) icon = 'fa-book';\n                else if (subLocation.name.includes('商店')) icon = 'fa-shopping-bag';\n                else if (subLocation.name.includes('广场')) icon = 'fa-clock';\n                \n                button.innerHTML = `<i class=\"fas ${icon}\"></i> ${subLocation.name}`;\n                button.dataset.sublocation = subLocation.name;\n                \n                button.addEventListener('click', () => selectSubLocation(subLocation));\n                \n                subLocationsContainer.appendChild(button);\n            });\n            \n            // 显示子地点区域\n            subLocationsContainer.classList.remove('hidden');\n            \n            // 隐藏详情区域\n            document.getElementById('location-details').classList.add('hidden');\n            \n            // 重置子地点选择\n            selectedSub = null;\n        }\n        \n        // 选择子地点\n        function selectSubLocation(subLocation) {\n            if (hasMoveBlock) return;\n            \n            selectedSub = subLocation;\n            selectedCharacters = subLocation.characters;\n            \n            // 高亮选中的子地点按钮\n            const allSubButtons = document.querySelectorAll('#sub-locations .sub-location-button');\n            allSubButtons.forEach(btn => {\n                btn.classList.remove('selected');\n                if (btn.dataset.sublocation === subLocation.name) {\n                    btn.classList.add('selected');\n                }\n            });\n            \n            // 更新地点详情\n            document.getElementById('selected-location').textContent = `${selectedMain.name} - ${subLocation.name}`;\n            \n            // 更新角色列表\n            const charactersContainer = document.getElementById('location-characters');\n            charactersContainer.innerHTML = '';\n            \n            if (subLocation.characters.length > 0) {\n                subLocation.characters.forEach(character => {\n                    const charElement = document.createElement('div');\n                    charElement.className = 'character-item';\n                    charElement.innerHTML = `<i class=\"fas fa-user\"></i> ${character}`;\n                    charactersContainer.appendChild(charElement);\n                });\n            } else {\n                const noCharElement = document.createElement('div');\n                noCharElement.className = 'character-item empty';\n                noCharElement.innerHTML = `<i class=\"fas fa-user-slash\"></i> 这里没有人`;\n                charactersContainer.appendChild(noCharElement);\n            }\n            \n            // 显示详情区域\n            document.getElementById('location-details').classList.remove('hidden');\n        }\n        \n        // 确认移动\n        function confirmMove() {\n            if (hasMoveBlock || !selectedMain || !selectedSub) return;\n            \n            const locationName = `${selectedMain.name} - ${selectedSub.name}`;\n            const characters = selectedCharacters.join(', ');\n            \n            // 显示确认对话框\n            const confirmMessage = document.getElementById('confirm-message');\n            if (characters) {\n                confirmMessage.textContent = `前往 ${locationName}？你可能会遇见：${characters}`;\n            } else {\n                confirmMessage.textContent = `前往 ${locationName}？那里好像没有人。`;\n            }\n            \n            document.getElementById('confirm-overlay').classList.remove('hidden');\n        }\n        \n        // 执行移动\n        function executeMove() {\n            if (hasMoveBlock || !selectedMain || !selectedSub) return;\n            \n            const locationName = `${selectedMain.name} - ${selectedSub.name}`;\n            const characters = selectedCharacters.join(',');\n            \n            // 构建移动消息\n            let message = `<request:{{user}}前往了${locationName}.`;\n            if (characters) {\n                message += `${characters}在那里`;\n            }\n            message += \">\";\n            \n            // 如果存在 triggerSlash 函数，发送消息\n            if (typeof triggerSlash === 'function') {\n                try {\n                    triggerSlash(`/send ${message} || /trigger`);\n                } catch (e) {\n                    console.error(\"发送消息时出错:\", e);\n                    alert(\"发送消息失败，请重试。\");\n                }\n            } else {\n                console.log(\"移动命令:\", message);\n                alert(\"移动请求已生成。在实际环境中，这将发送到AI。\");\n            }\n            \n            // 隐藏确认对话框\n            document.getElementById('confirm-overlay').classList.add('hidden');\n            \n            // 重置选择\n            resetSelection();\n        }\n        \n        // 重置选择\n        function resetSelection() {\n            selectedMain = null;\n            selectedSub = null;\n            selectedCharacters = [];\n            \n            // 清除所有选中状态\n            document.querySelectorAll('.location-button, .sub-location-button').forEach(btn => {\n                btn.classList.remove('selected');\n            });\n            \n            // 隐藏子地点和详情\n            document.getElementById('sub-locations').classList.add('hidden');\n            document.getElementById('location-details').classList.add('hidden');\n        }\n        \n        // 处理地图数据\n        function processMapData() {\n            const dataSource = document.getElementById('map-data-source');\n            if (!dataSource) {\n                console.error(\"未找到地图数据源元素\");\n                return;\n            }\n            \n            let mapText = dataSource.textContent || dataSource.innerText;\n            console.log(\"获取到的地图数据文本:\", mapText ? \"有数据\" : \"无数据\", \"长度:\", mapText ? mapText.length : 0);\n            \n            // 尝试从父窗口获取数据（SillyTavern环境）\n            try {\n                if (window.parent && window.parent !== window) {\n                    console.log(\"在iframe中运行，尝试从SillyTavern获取数据\");\n                    \n                    // 尝试获取所有消息元素\n                    const allMessages = window.parent.document.querySelectorAll('.mes_text, .mes_content, .message-content, .message_text');\n                    console.log(`找到 ${allMessages.length} 个可能的消息元素`);\n                    \n                    // 检查最近的几条消息\n                    let foundMapData = false;\n                    for (let i = allMessages.length - 1; i >= 0 && i >= allMessages.length - 5; i--) {\n                        const messageText = allMessages[i].textContent || allMessages[i].innerText;\n                        console.log(`检查消息 #${i}，长度: ${messageText.length}，前30个字符: ${messageText.substring(0, 30)}...`);\n                        \n                        // 同时检查旧格式[EMOTION:]和新格式[MOVEBLOCK:]\n                        if (messageText && (messageText.includes('[EMOTION:') || messageText.includes('[MOVEBLOCK:'))) {\n                            console.log(`在消息 #${i} 中找到地图数据`);\n                            mapText = messageText;\n                            foundMapData = true;\n                            break;\n                        }\n                    }\n                    \n                    if (!foundMapData) {\n                        console.log(\"在消息中未找到地图数据，尝试直接在页面中搜索\");\n                        // 尝试在整个文档中搜索地图数据格式\n                        const bodyText = window.parent.document.body.textContent || window.parent.document.body.innerText;\n                        \n                        // 先尝试查找新格式\n                        let mapDataStart = bodyText.indexOf('[MOVEBLOCK:');\n                        \n                        // 如果没找到新格式，尝试查找旧格式\n                        if (mapDataStart === -1) {\n                            mapDataStart = bodyText.indexOf('[EMOTION:');\n                        }\n                        \n                        if (mapDataStart !== -1) {\n                            // 找到开始标记，现在找到结束位置（假设地图数据以 ']' 结尾且后面不是另一个地图数据块）\n                            let mapDataEnd = bodyText.indexOf(']', mapDataStart);\n                            while (bodyText.charAt(mapDataEnd + 1) === '[') {\n                                mapDataEnd = bodyText.indexOf(']', mapDataEnd + 1);\n                            }\n                            \n                            if (mapDataEnd !== -1) {\n                                const extractedData = bodyText.substring(mapDataStart, mapDataEnd + 1);\n                                console.log(\"从页面提取的地图数据:\", extractedData.substring(0, 50) + \"...\");\n                                if (extractedData.includes('\\n')) {\n                                    mapText = extractedData;\n                                }\n                            }\n                        }\n                    }\n                }\n            } catch (e) {\n                console.log(\"无法从父窗口获取数据:\", e);\n            }\n            \n            // 如果提供了URL参数中的数据，使用它\n            try {\n                const urlParams = new URLSearchParams(window.location.search);\n                const urlData = urlParams.get('data');\n                if (urlData) {\n                    const decodedData = decodeURIComponent(urlData);\n                    console.log(\"从URL参数获取数据:\", decodedData.substring(0, 30) + \"...\");\n                    if (decodedData.includes('[EMOTION:') || decodedData.includes('[MOVEBLOCK:')) {\n                        mapText = decodedData;\n                    }\n                }\n            } catch (e) {\n                console.log(\"无法从URL参数获取数据:\", e);\n            }\n            \n            // 直接尝试使用用户提供的测试数据\n            if (!mapText || (!mapText.includes('[EMOTION:') && !mapText.includes('[MOVEBLOCK:'))) {\n                console.log(\"尝试使用测试数据\");\n                mapText = `[MOVEBLOCK:NO]\n[校园区域\n- 教学楼: 班主任, 数学老师\n- 图书馆: 文学社社长, 图书管理员\n- 操场: 体育老师, 田径队队长]\n[商业街\n- 咖啡厅: 服务员小雅, 钢琴少女\n- 游戏厅: 游戏高手小明, 不良少年\n- 书店: 眼镜店主, 神秘顾客]\n[住宅区\n- 公寓楼: 邻居阿姨, 宠物猫咪\n- 小公园: 晨练老人, 遛狗少年\n- 便利店: 店长, 兼职学生]`;\n                \n                dataSource.textContent = mapText;\n                console.log(\"已设置测试数据\");\n            }\n            \n            // 兼容旧版数据格式（EMOTION -> MOVEBLOCK）\n            if (mapText && mapText.includes('[EMOTION:')) {\n                console.log(\"转换旧版数据格式（EMOTION -> MOVEBLOCK）\");\n                mapText = mapText.replace(/\\[EMOTION:(BAD|GOOD)\\]/g, function(match, state) {\n                    return `[MOVEBLOCK:${state === 'BAD' ? 'YES' : 'NO'}]`;\n                });\n            }\n            \n            // 现在解析和渲染地图数据\n            mapData = parseMapData(mapText);\n            \n            if (mapData) {\n                renderMapInterface(mapData);\n            } else {\n                console.error(\"地图数据解析失败\");\n            }\n        }\n        \n        // 注册事件监听器\n        function setupEventListeners() {\n            // 确认移动按钮\n            document.getElementById('confirm-move-btn').addEventListener('click', confirmMove);\n            \n            // 确认对话框按钮\n            document.getElementById('cancel-move-btn').addEventListener('click', () => {\n                document.getElementById('confirm-overlay').classList.add('hidden');\n            });\n            \n            document.getElementById('execute-move-btn').addEventListener('click', executeMove);\n        }\n        \n        // 初始化\n        function init() {\n            // 设置事件监听器\n            setupEventListeners();\n            \n            // 处理地图数据\n            processMapData();\n            \n            // 监听SillyTavern消息更新\n            if (window.parent && window.parent !== window && typeof window.parent.eventOn === 'function' && window.parent.tavern_events) {\n                window.parent.eventOn(window.parent.tavern_events.MESSAGE_UPDATED, () => {\n                    setTimeout(processMapData, 300);\n                });\n                window.parent.eventOn(window.parent.tavern_events.MESSAGE_RECEIVED, () => {\n                    setTimeout(processMapData, 300);\n                });\n            }\n        }\n        \n        // 页面加载完成后初始化\n        document.addEventListener('DOMContentLoaded', init);\n    </script>\n    \n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&display=swap');\n        \n        :root {\n            /* 莫兰迪色系 */\n            --gal-bg-light: #f8f4f0;      /* 背景 - 极浅米白 */\n            --gal-bg-medium: #e8e2d9;     /* 中等背景 - 浅灰褐色 */\n            --gal-border: #d3c6b9;       /* 边框/点缀 - 柔和米棕 */\n            --gal-text-dark: #6b5f56;     /* 深色文字 - 柔和深棕 */\n            --gal-text-muted: #a39589;    /* 浅色文字 - 中灰棕 */\n            --gal-primary: #b4a295;       /* 主色 - 灰玫瑰棕 */\n            --gal-primary-light: #dcd1c7; /* 浅主色 */\n            --gal-success: #a5bdaa;       /* 成功 - 柔和绿 */\n            --gal-warning: #e5d7b3;       /* 警告 - 柔和黄 */\n            --gal-danger: #d8a097;        /* 危险 - 柔和粉红 */\n            --gal-pink: #e6c6c6;          /* 粉色 - 柔和粉 */\n            --gal-purple: #c8b9d3;        /* 紫色 - 柔和薰衣草紫 */\n            \n            --font-title: 'ZCOOL QingKe HuangYou', sans-serif;\n            --font-main: 'ZCOOL XiaoWei', \"Microsoft YaHei\", sans-serif;\n\n            /* Material Design 风格 */\n            --md-border-radius-large: 20px; /* 大圆角 */\n            --md-border-radius-medium: 16px;/* 中圆角 */\n            --md-border-radius-small: 12px; /* 小圆角 */\n            --md-shadow-1: 0 2px 4px rgba(0, 0, 0, 0.08); /* 细微阴影 */\n            --md-shadow-2: 0 4px 8px rgba(0, 0, 0, 0.1);  /* 轻度阴影 */\n            --md-shadow-3: 0 6px 12px rgba(0, 0, 0, 0.12); /* 中度阴影 */\n            --md-shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15); /* 悬停阴影 */\n        }\n        \n        body {\n            background-color: transparent; /* or var(--gal-bg-light) if not transparent */\n            margin: 0;\n            padding: 10px; /* Add some padding around the body */\n            font-family: var(--font-main);\n            color: var(--gal-text-dark);\n            box-sizing: border-box;\n        }\n        \n        /* 地图界面容器 */\n        .map-interface {\n            max-width: 100%;\n            width: 100%;\n            margin: 0 auto;\n            background: var(--gal-bg-light);\n            border: 1px solid var(--gal-border); /* Thinner border */\n            border-radius: var(--md-border-radius-large); /* 大圆角 */\n            box-shadow: var(--md-shadow-2); /* 应用阴影 */\n            padding: 25px;\n            box-sizing: border-box;\n            position: relative;\n            overflow: hidden;\n        }\n        \n        /* 地图标题 */\n        .map-header {\n            text-align: center;\n            margin-bottom: 25px;\n            padding-bottom: 15px;\n            border-bottom: 1px solid var(--gal-border); /* 更细的分割线 */\n        }\n        \n        .map-header h2 {\n            font-size: 26px; /* Slightly smaller */\n            margin: 0;\n            padding: 5px;\n            line-height: 1.4;\n            color: var(--gal-primary);\n            font-family: var(--font-title);\n            position: relative;\n        }\n        \n        .map-header h2:before,\n        .map-header h2:after {\n            content: '✧'; /* Changed icon */\n            display: inline-block;\n            margin: 0 10px;\n            color: var(--gal-pink);\n            font-size: 18px;\n            opacity: 0.8;\n        }\n        \n        /* 移动限制提示 */\n        .movement-alert {\n            background-color: var(--gal-warning);\n            border: 1px solid rgba(229, 215, 179, 0.8); /* Lighter border */\n            border-radius: var(--md-border-radius-medium); /* 圆角 */\n            padding: 15px;\n            margin-bottom: 25px;\n            text-align: center;\n            color: var(--gal-text-dark);\n            font-weight: normal; /* Less emphasis */\n            box-shadow: var(--md-shadow-1);\n            animation: pulse-movement 2.5s infinite ease-in-out; /* Smoother pulse */\n        }\n        \n        @keyframes pulse-movement {\n            0%, 100% { opacity: 0.9; }\n            50% { opacity: 1; transform: scale(1.01); }\n        }\n        \n        .movement-alert i {\n            margin-right: 8px;\n            color: var(--gal-text-muted); /* Muted icon color */\n        }\n        \n        /* 地点选择网格 */\n        .location-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); /* Slightly smaller min */\n            gap: 15px;\n            margin-bottom: 25px;\n        }\n        \n        .location-button {\n            background-color: white; /* Cleaner look */\n            border: 1px solid var(--gal-border);\n            border-radius: var(--md-border-radius-medium); /* 圆角 */\n            padding: 15px;\n            color: var(--gal-text-dark);\n            font-family: var(--font-main);\n            font-size: 15px; /* Slightly smaller */\n            cursor: pointer;\n            transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */\n            text-align: center;\n            box-shadow: var(--md-shadow-1);\n        }\n        \n        .location-button:hover:not(.disabled) {\n            background-color: var(--gal-bg-medium); /* Subtle hover */\n            border-color: var(--gal-primary);\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-hover); /* 微交互 */\n        }\n        \n        .location-button.selected {\n            background-color: var(--gal-primary);\n            border-color: var(--gal-primary);\n            color: white;\n            transform: translateY(-2px);\n            box-shadow: var(--md-shadow-3);\n        }\n        \n        .location-button.disabled {\n            opacity: 0.6;\n            cursor: not-allowed;\n            background-color: var(--gal-bg-medium);\n            box-shadow: none;\n        }\n        \n        .location-button i {\n            margin-right: 8px;\n            color: var(--gal-primary);\n            transition: color 0.2s ease;\n        }\n        \n        .location-button.selected i {\n            color: white;\n        }\n        \n        /* 次级地点选择 */\n        .sub-location-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));\n            gap: 12px;\n            margin-bottom: 25px;\n            padding: 20px;\n            background-color: var(--gal-bg-medium);\n            border-radius: var(--md-border-radius-medium);\n            border: 1px solid var(--gal-border);\n        }\n        \n        .sub-location-button {\n            background-color: var(--gal-bg-light);\n            border: 1px solid var(--gal-border);\n            border-radius: var(--md-border-radius-small); /* 圆角 */\n            padding: 12px 18px;\n            color: var(--gal-text-dark);\n            font-family: var(--font-main);\n            font-size: 14px;\n            cursor: pointer;\n            transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */\n            text-align: left;\n            box-shadow: var(--md-shadow-1);\n        }\n        \n        .sub-location-button:hover {\n            background-color: white;\n            border-color: var(--gal-primary);\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-hover); /* 微交互 */\n        }\n        \n        .sub-location-button.selected {\n            background-color: var(--gal-primary);\n            border-color: var(--gal-primary);\n            color: white;\n            transform: translateY(-2px);\n            box-shadow: var(--md-shadow-3);\n        }\n        \n        .sub-location-button i {\n            margin-right: 10px;\n            color: var(--gal-primary);\n            transition: color 0.2s ease;\n        }\n        \n        .sub-location-button.selected i {\n            color: white;\n        }\n        \n        /* 地点详情 */\n        .location-details {\n            margin-top: 25px;\n            padding: 25px;\n            background-color: white;\n            border-radius: var(--md-border-radius-large); /* 大圆角 */\n            border: 1px solid var(--gal-border);\n            box-shadow: var(--md-shadow-2);\n        }\n        \n        .detail-header {\n            font-size: 18px; /* Slightly smaller */\n            font-weight: normal; /* Normal weight */\n            margin-bottom: 20px;\n            padding-bottom: 15px;\n            border-bottom: 1px solid var(--gal-border); /* Thinner border */\n            color: var(--gal-primary);\n            text-align: center;\n        }\n        \n        .detail-header i {\n            margin-right: 8px;\n        }\n        \n        .section-title {\n            font-size: 15px; /* Slightly smaller */\n            color: var(--gal-text-muted);\n            margin-bottom: 15px;\n            font-weight: normal; /* Normal weight */\n        }\n        \n        .section-title i {\n            margin-right: 8px;\n            color: var(--gal-primary);\n        }\n        \n        .character-list {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));\n            gap: 12px;\n            margin-bottom: 25px;\n        }\n        \n        .character-item {\n            background-color: var(--gal-bg-light);\n            border: 1px solid var(--gal-border);\n            border-radius: var(--md-border-radius-small); /* 圆角 */\n            padding: 12px;\n            font-size: 14px;\n            transition: all 0.2s ease;\n        }\n        \n        .character-item:hover {\n            transform: translateY(-1px) scale(1.02); /* Subtle hover */\n            box-shadow: var(--md-shadow-1);\n            border-color: var(--gal-primary-light);\n        }\n        \n        .character-item i {\n            margin-right: 8px;\n            color: var(--gal-primary);\n        }\n        \n        .character-item.empty {\n            color: var(--gal-text-muted);\n            opacity: 0.7;\n            background-color: var(--gal-bg-medium);\n            text-align: center;\n        }\n         .character-item.empty i {\n            display: block;\n            margin: 0 auto 5px auto; /* Center icon */\n            color: var(--gal-text-muted);\n        }\n        \n        .action-section {\n            margin-top: 25px;\n            text-align: center;\n        }\n        \n        .action-button {\n            background-color: var(--gal-success);\n            color: white; /* White text on colored button */\n            border: none;\n            border-radius: 50px; /* Fully rounded */\n            padding: 12px 35px; /* More padding */\n            font-size: 16px;\n            font-weight: normal; /* Normal weight */\n            cursor: pointer;\n            transition: background-color 0.2s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */\n            box-shadow: var(--md-shadow-2);\n            letter-spacing: 0.5px; /* Slight letter spacing */\n        }\n        \n        .action-button:hover {\n            background-color: #96b09b; /* Darker success on hover */\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-hover); /* 微交互 */\n        }\n        \n        .action-button i {\n            margin-right: 8px;\n        }\n        \n        /* 确认对话框 */\n        .modal-overlay {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            background-color: rgba(50, 50, 50, 0.6); /* Darker overlay */\n            backdrop-filter: blur(4px); /* Stronger blur */\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            z-index: 1000;\n            opacity: 0;\n            transition: opacity 0.3s ease;\n            pointer-events: none;\n        }\n        \n        .modal-overlay:not(.hidden) {\n           opacity: 1;\n           pointer-events: auto;\n        }\n\n        .confirm-dialog {\n            background-color: white;\n            border: none; /* Remove border */\n            border-radius: var(--md-border-radius-large); /* 大圆角 */\n            padding: 30px;\n            width: 90%;\n            max-width: 380px;\n            box-shadow: var(--md-shadow-3);\n            transform: scale(0.95);\n            transition: transform 0.3s ease;\n        }\n\n        .modal-overlay:not(.hidden) .confirm-dialog {\n           transform: scale(1);\n        }\n        \n        .confirm-dialog h4 {\n            color: var(--gal-primary);\n            margin-top: 0;\n            margin-bottom: 20px;\n            font-family: var(--font-title);\n            text-align: center;\n            font-size: 20px; /* Slightly smaller */\n        }\n        \n        .confirm-dialog p {\n            margin-bottom: 30px; /* More space */\n            line-height: 1.7;\n            text-align: center;\n            font-size: 15px;\n            color: var(--gal-text-muted);\n        }\n        \n        .dialog-buttons {\n            display: flex;\n            justify-content: space-around; /* Space around */\n            gap: 15px;\n        }\n        \n        .dialog-button {\n            flex-grow: 1; /* Buttons take equal space */\n            padding: 10px 20px;\n            border-radius: 50px; /* Fully rounded */\n            cursor: pointer;\n            transition: background-color 0.2s ease, box-shadow 0.3s ease, transform 0.2s ease; /* Smooth transitions */\n            border: none;\n            font-family: var(--font-main);\n            font-size: 15px;\n            font-weight: normal; /* Normal weight */\n            text-align: center;\n        }\n        \n        .cancel-button {\n            background-color: var(--gal-bg-medium); /* Muted background */\n            color: var(--gal-text-dark);\n            box-shadow: var(--md-shadow-1);\n        }\n        \n        .cancel-button:hover {\n            background-color: var(--gal-border); /* Slightly darker */\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-2); /* 微交互 */\n        }\n        \n        .confirm-button {\n            background-color: var(--gal-success);\n            color: white; /* White text */\n            box-shadow: var(--md-shadow-2);\n        }\n        \n        .confirm-button:hover {\n            background-color: #96b09b; /* Darker success */\n            transform: translateY(-2px); /* 微交互 */\n            box-shadow: var(--md-shadow-hover); /* 微交互 */\n        }\n\n        .dialog-button i {\n            margin-right: 6px;\n        }\n        \n        /* 通用辅助类 */\n        .hidden {\n            /* Keep display: none, but handle overlay visibility with opacity */\n            display: none;\n        }\n        \n        /* 响应式样式 */\n        @media (max-width: 700px) {\n            .location-grid,\n            .sub-location-grid {\n                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust for smaller screens */\n            }\n            \n            .character-list {\n                grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));\n            }\n\n             .map-interface {\n                padding: 20px;\n            }\n            .confirm-dialog {\n                padding: 25px;\n            }\n        }\n        \n        @media (max-width: 480px) {\n            body {\n                padding: 5px;\n            }\n            .map-interface {\n                padding: 15px;\n                border-radius: var(--md-border-radius-medium);\n            }\n            .location-grid,\n            .sub-location-grid {\n                grid-template-columns: repeat(2, 1fr); /* Two columns */\n                gap: 10px;\n            }\n             .sub-location-grid {\n                padding: 15px;\n            }\n            .location-button {\n                padding: 12px;\n                font-size: 14px;\n            }\n             .sub-location-button {\n                padding: 10px 15px;\n                font-size: 13px;\n            }\n\n            .character-list {\n                grid-template-columns: repeat(2, 1fr); /* Two columns */\n                 gap: 10px;\n            }\n             .character-item {\n                padding: 10px;\n                font-size: 13px;\n            }\n            \n            .map-header h2 {\n                font-size: 22px;\n            }\n            .map-header h2:before,\n            .map-header h2:after {\n                font-size: 16px;\n                margin: 0 5px;\n            }\n            .movement-alert {\n                 padding: 12px;\n                 font-size: 14px;\n            }\n             .detail-header {\n                font-size: 16px;\n            }\n            .section-title {\n                font-size: 14px;\n            }\n            .action-button {\n                padding: 10px 30px;\n                font-size: 15px;\n            }\n\n            .confirm-dialog {\n                padding: 20px;\n                width: 95%;\n                 border-radius: var(--md-border-radius-medium);\n            }\n             .confirm-dialog h4 {\n                font-size: 18px;\n            }\n             .confirm-dialog p {\n                 font-size: 14px;\n                 margin-bottom: 25px;\n            }\n             .dialog-buttons {\n                flex-direction: column;\n                gap: 12px;\n            }\n             .dialog-button {\n                font-size: 14px;\n            }\n            .cancel-button {\n                order: 2;\n            }\n            .confirm-button {\n                order: 1;\n            }\n        }\n    </style>\n</body>\n</html>\n```",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
+                "scriptName": "[不发送]导航",
+                "findRegex": "/(?:```\\s*<map_data>|map_data).*(?:<\\/map_data>\\s*```|map_data)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": false,
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
@@ -775,23 +767,6 @@
                 "maxDepth": null
             },
             {
-                "id": "ec014833-960b-4d09-b35e-d1e70426116d",
-                "scriptName": "对方消息",
-                "findRegex": "/\\[对方消息\\|(.*?)\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
-                "replaceString": "<div class=\"message received message-$2\" >\n    <div class=\"message-wrapper\">\n<div class=\"avatar\"><img src=\"http://8.218.55.252:5999/scripts/extensions/third-party/hq/img/avatar-1.jpg\"></div>\n        <div class=\"message-content\">$3<span>$4</span></div>\n    </div>\n</div>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "05d96b39-8542-4fe6-979e-5c3a596ea98f",
                 "scriptName": "上下文限制[5]",
                 "findRegex": "/[\\s\\S]*/gm",
@@ -808,6 +783,23 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 5,
+                "maxDepth": null
+            },
+            {
+                "id": "ec014833-960b-4d09-b35e-d1e70426116d",
+                "scriptName": "对方消息",
+                "findRegex": "/\\[对方消息\\|(.*?)\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
+                "replaceString": "<div class=\"message received message-$2\" >\n    <div class=\"message-wrapper\">\n<div class=\"avatar\"><img src=\"http://8.218.55.252:5999/scripts/extensions/third-party/hq/img/avatar-1.jpg\"></div>\n        <div class=\"message-content\">$3<span>$4</span></div>\n    </div>\n</div>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
                 "maxDepth": null
             },
             {
@@ -1123,8 +1115,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 99255,
-                "LAST_SEND_CHARS": 188526
+                "LAST_SEND_TOKENS": 57818,
+                "LAST_SEND_CHARS": 120120
             }
         },
         "attachments": [],
@@ -1213,7 +1205,7 @@
                     "tableName": "当前信息",
                     "tableIndex": 0,
                     "columns": [
-                        "累计时间",
+                        "时间线",
                         "当前地点",
                         "当前在场角色"
                     ],
@@ -1226,15 +1218,125 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "基本状态表。**必须**记录当前交互的即时背景信息。每轮交互后，**必须**根据本轮推进的时间量更新`累计时间`(列0)。\n1.**累计时间(列0):****必须**以“距离开始已经过去了X年Y月Z天H小时M分钟”的格式记录自故事开始以来的总时长。初始值为“距离开始已经过去了0分钟”。此列反映的是**故事的总时间跨度**。\n2.若角色处于多个地点，地点列(列1)**必须**用\"|\"分隔，例如：『公园|工作室』。\n3.若存在多个在场角色，角色列(列2)**必须**用\"/\"分隔，例如：『艾丽丝/查理』。如果角色在不同地点，格式**必须**为『艾丽丝(公园)/查理(工作室)』。",
-                    "initNode": "（此表格初始为空，请初始化表格0：记录当前累计时间（“距离开始已经过去了0分钟”）、明确场景地点、列出所有在场角色。）",
-                    "insertNode": "当表格首次创建时，**必须**初始化表格0：记录当前累计时间（“距离开始已经过去了0分钟”）、明确场景地点、列出所有在场角色。",
-                    "updateNode": "当累计时间推进、场景地点变化、或在场角色增减/状态变化时，**必须**更新对应行（通常是第0行）。",
-                    "deleteNode": "*   此表格通常**不执行** `deleteRow` 操作。"
+                    "note": "【说明】基本状态表。记录当前交互的即时背景信息。\n1. 若角色处于多个地点，地点列用\"|\"分隔，如『公园|工作室』。\n2. 若存在多个在场角色，角色列用\"/\"分隔，如『艾丽丝/查理』。如果角色在不同地点，格式为『艾丽丝(公园)/查理(工作室)』。\n3. 时间轴标记必须每轮强制更新，与表 2 同步。",
+                    "initNode": "此表格为空，对话开始时，如果表 0 为空，则根据提到的时间轴标记和地点插入数据",
+                    "updateNode": "每轮强制更新时间轴标记 (表 2 最新值)，并根据剧情更新当前地点和在场角色。",
+                    "insertNode": "对话开始时，如果表 0 为空，则根据用户输入或默认设定，结合表 2 的初始时间轴，插入第一行数据。"
+                },
+                {
+                    "tableName": "角色信息",
+                    "tableIndex": 1,
+                    "columns": [
+                        "角色名称",
+                        "身体特征",
+                        "性格",
+                        "职业",
+                        "爱好",
+                        "偏好",
+                        "居住地点",
+                        "备注",
+                        "当前关系",
+                        "当前态度",
+                        "好感度"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "【说明】核心角色档案，记录所有角色的详细信息。每轮检查并更新所有在场角色的信息。\n1. 身体特征必须包含身高、体重、三围（若适用）、性器官特征（如阴茎长度/周长、阴道紧致度等）、显著伤疤、纹身等。性别必须明确。\n2. 备注栏记录角色的隐藏信息，如不为人知的秘密、是否处女、性经验、特殊癖好、过敏史等，用\"/\"分隔。\n3. 关系/态度/好感度：明确记录角色A对角色B的关系定义、当前态度、好感度数值。好感度格式：`角色A|角色B(好感度%/情欲值%/忍耐力%/性快感%)`。只记录已建立关系的角色对。数值根据互动动态更新。",
+                    "initNode": "",
+                    "insertNode": "首次提及新角色时，自动提取或基于设定插入其完整信息。",
+                    "updateNode": "当角色的任何信息（身体特征、性格、职业、关系、态度、好感度等）发生变化时，更新对应单元格。好感度、情欲值等数值需根据互动逻辑动态调整。",
+                    "deleteNode": "任何情况禁止对表格1 (角色信息) 执行deleteRow。"
+                },
+                {
+                    "tableName": "时间轴",
+                    "tableIndex": 2,
+                    "columns": [
+                        "时间轴标记",
+                        "具体日期"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "【说明】时间线标记，追踪故事进展的时间。\n1. 每轮必须生成新的唯一时间轴标记（格式 Dxxx），数值部分从上一轮递增 1 (例如 D004 -> D005)。\n2. 表格中仅保留最新一条时间轴记录。\n3. 时间轴标记和具体日期必须同步更新。\n4. '具体日期' 格式严格为 YYYY-MM-DD日HH：MM （使用全角冒号）。若小时或分钟未知，可合理推断或留空，但日期必须尽量精确。必须使用公历表示。",
+                    "initNode": "此表格为空，插入初始时间轴标记和具体时间 『D000/YYYY-MM-DD日HH：MM』",
+                    "updateNode": "",
+                    "deleteNode": "插入新行后，删除所有旧的时间轴记录行",
+                    "insertNode": "每轮强制插入新的时间轴标记和对应具体日期行。新标记数值 = 上一轮标记数值 + 1。"
+                },
+                {
+                    "tableName": "任务与日程",
+                    "tableIndex": 3,
+                    "columns": [
+                        "相关角色",
+                        "任务内容",
+                        "任务地点",
+                        "有效期限"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "【说明】记录角色相关的任务、约定、约会、目标、承诺、既定行程、协议等需要追踪的事项。",
+                    "initNode": "此表格为空，对话开始时，提取用户或角色提及的明确任务/约定并插入",
+                    "insertNode": "当对话中出现新的、明确的任务或约定时，插入新行。",
+                    "updateNode": "当任务状态（如内容、地点、期限）发生变更时，更新对应行",
+                    "deleteNode": "当任务完成或取消时，删除整行",
+                    "tableRender": "当任务完成、失败、取消或过期时，删除对应行"
+                },
+                {
+                    "tableName": "事件历史",
+                    "tableIndex": 4,
+                    "columns": [
+                        "事件描述",
+                        "事件时间轴",
+                        "事件发生地点",
+                        "情绪变化"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "【说明】顺序记录故事中发生的关键事件，提供详细情境回溯。\n1. 事件描述应详细、清晰，包含动作、对话关键点、环境变化等要素（建议30-60字）。\n2. 记录需链接准确的事件时间轴标记 (表 2) 和发生地点 (表 0)。\n3. 情绪变化应反映事件对相关角色的主要情感影响。",
+                    "initNode": "此表格为空，对话开始时，生成 1 条描述初始场景的事件条目并插入",
+                    "insertNode": "每轮交互结束后，根据本轮发生的主要情节，生成 1-2 条详细的事件记录并插入",
+                    "deleteNode": "执行表 11 大总结时，删除已被总结覆盖时间范围内的所有事件历史记录。未被总结的记录保留",
+                    "updateNode": "！不需要更新操作！"
                 },
                 {
                     "tableName": "服装与动作状态",
-                    "tableIndex": 1,
+                    "tableIndex": 5,
                     "columns": [
                         "角色名称",
                         "上身衣物穿着",
@@ -1255,15 +1357,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "**必须**记录当前所有**在场角色**的即时外观和行为状态。\n1.衣物穿着栏(列1,2,3)**必须**包含所有内外层衣物，用\"/\"分隔。女性**必须**注明胸罩及尺码（例如：蕾丝胸罩(34C)），或明确写“未穿胸罩”。**必须**注明是否穿内裤及其款式（例如：三角内裤/四角内裤）。男性一般不记录内衣，除非有特殊情节需要。\n2.姿势与动作(列4)**必须**具体描述角色当前的身体姿态和主要进行的动作。\n3.手持物品(列5)**必须**记录角色手中实际持有的物品，若无则留空。",
-                    "initNode": "请为当前场景的每一位角色在表格1中添加记录：他们从上到下穿着什么（女性的内衣款式尺码，或是否未穿，都必须写清楚）、现在是什么姿势、在做什么、手里拿着什么？",
-                    "insertNode": "当一个角色首次出现在场景中，或者表格首次为该场景初始化时，**必须**为该角色在表格1中添加记录：他们从上到下穿着什么（女性内衣细节必须清晰）、现在是什么姿势、在做什么、手里拿着什么？",
-                    "updateNode": "当在场角色的衣物、姿势、动作或手持物品发生变化时，**必须**更新对应角色的记录行。",
-                    "deleteNode": "*   **IF** 角色离开当前场景 **THEN** **必须** 执行 `deleteRow` 移除该角色的状态记录。"
+                    "note": "【说明】记录当前在场角色的即时外观和行为状态。\n1. 每轮开始时清空所有行。\n2. 根据表 0 的 '当前在场角色' 列，为每个在场角色插入新行。\n3. 每行必须包含该角色当前完整的服装和动作信息。\n4. 衣物穿着栏应包含所有内外层衣物，用\"/\"分隔。女性需注明胸罩及尺码（如：蕾丝胸罩(34C)），或明确写“未穿胸罩”。男性一般不写内衣，除非特殊情况。必须注明是否穿内裤及其款式（如：三角内裤/四角内裤）。\n5. 姿势与动作需具体描述角色当前的身体姿态和主要动作。\n6. 手持物品记录角色手中持有的物品。",
+                    "initNode": "此表格为空，无初始数据；完全依赖表 0 的角色列表",
+                    "insertNode": "每轮根据表 0 的当前在场角色列表，清空后重新插入每个角色的状态行",
+                    "updateNode": "无更新操作；仅清空和插入",
+                    "deleteNode": "每轮开始时强制删除所有行"
                 },
                 {
                     "tableName": "即时想法",
-                    "tableIndex": 2,
+                    "tableIndex": 6,
                     "columns": [
                         "角色名称",
                         "心理活动"
@@ -1276,84 +1378,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "**必须**记录当前所有**在场角色**的即时内心想法和心理活动（建议不多于40字）。\n1.每行**必须**包含该角色当前的主要心理活动或内心独白。\n2.心理活动(列1)**必须**与`表格3`（角色信息）中的`详细情感状态`(列11)保持逻辑一致。",
-                    "initNode": "（此表格初始为空，在场角色现在在想什么呢？请为在场的角色在表格2记录下此刻内心的核心想法（40字以内），别忘了要和他们的情感状态（表格3，列11）保持一致）",
-                    "insertNode": "当一个角色首次出现在场景中，或者表格首次为该场景初始化时，**必须**为在场的角色在表格2记录下此刻内心的核心想法（40字以内），确保与表格3情感状态一致。",
-                    "updateNode": "当在场角色的内心想法发生显著变化，或为了反映其最新心理状态时，**必须**更新对应角色的记录行。",
-                    "deleteNode": "*   **IF** 角色离开当前场景 **THEN** **必须** 执行 `deleteRow` 移除该角色的想法记录。"
-                },
-                {
-                    "tableName": "角色信息",
-                    "tableIndex": 3,
-                    "columns": [
-                        "角色名称",
-                        "身体特征",
-                        "性格",
-                        "职业",
-                        "爱好",
-                        "偏好",
-                        "居住地点",
-                        "备注",
-                        "当前关系",
-                        "态度",
-                        "好感度",
-                        "详细情感状态",
-                        "核心情感需求/创伤"
-                    ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6,
-                        7,
-                        8,
-                        9,
-                        10,
-                        11,
-                        12
-                    ],
-                    "enable": true,
-                    "Required": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "note": "核心角色档案库，**必须**记录故事中**所有出现过**的角色的详细信息。\n\n***首次登场判定与操作 (核心原则 v2.1):***\n*   一个角色被视为**首次正式登场**，当且仅当其名称、行为或对话，在**首次记录其信息并输出的完整响应流程中**（该流程**必须**包含`<thinking>`、`<content><main_txt>`这两个核心部分）被**第一次实际描写或提及**。\n*   对于满足此条件的**首次登场**角色，**必须**在其登场的**当轮**响应的`<tableEdit>`中，使用`insertRow`指令添加其**完整**的初始信息记录（包含所有列0至12）。\n*   **严禁**在角色首次登场（按上述标准判定）的当轮响应中使用`updateRow`添加或修改其信息。\n\n***更新操作规则 (已修订):***\n*   **首次`updateRow`强制全列更新 (修订 v2.0):** 角色通过`insertRow`成功记录后，当**第一次**对该角色的特定行执行`updateRow`指令时——此“第一次”特指**在该角色被`insertRow`之后，第一次出现在包含`<thinking>`和`<content><main_txt>`的完整响应流程中，并且其名称、行为或对话在本轮的`<content><main_txt>`内被实际描写或提及**——那么在该响应流程中的`updateRow`指令**绝对必须**提供并更新该行**所有列 (从0到12)** 的数据。此为绑定角色当前叙事出现的强制性首次更新规则。\n*   **后续`updateRow`允许部分更新:** 只有在完成了上述**强制全列更新的首次`updateRow`**（该更新与角色在本轮叙事中的出现相关联）之后，从对该角色特定行的**第二次及以后**的`updateRow`操作开始，才**允许**仅更新需要修改的列。\n*   **每轮更新责任:** 每轮交互后，**必须**检查并更新**所有受本轮事件影响的角色**（无论是否在`<content><main_txt>`中物理在场）的相关信息，尤其需评估更新关系(列8)、态度(列9)、好感度(列10)和详细情感状态(列11)。\n【列定义与强制要求】\n0.**角色名称(列0):****必须**是角色的唯一标识名称。\n1.**身体特征(列1):****必须**包含性别（明确标注）、身高、体重、三围（若适用）、性器官特征（如：阴茎长度/周长、阴道紧致度等，需具体化）、显著伤疤、纹身等。\n2.**性格(列2):**描述角色的主要性格特质。\n3.**职业(列3):**角色的职业或主要社会身份。\n4.**爱好(列4):**角色的兴趣爱好。\n5.**偏好(列5):**角色的特殊喜好或倾向（例如：食物、颜色、活动等）。\n6.**居住地点(列6):**角色的常住地址或主要活动地点。\n7.**备注栏(列7):****必须**记录角色的隐藏信息，如：不为人知的秘密、是否处女/初次经验对象、过往性经验细节（频率/偏好）、特殊癖好（需具体描述）、过敏史等。使用\"/\"分隔多项。\n8.**当前关系(列8):****必须**明确记录角色A对角色B的关系定义。格式**强制规定**为：`角色A|角色B(关系定义)`。例如：`艾丽丝|查理(朋友)`。**仅**记录已建立关系的角色对。\n9.**态度(列9):****必须**明确记录角色A对角色B的当前态度。格式**强制规定**为：`角色A|角色B(当前态度)`。例如：`艾丽丝|查理(友好/期待)`。态度应与详细情感状态呼应。\n10.**好感度(列10):****必须**记录角色A对角色B的包含多个维度的数值状态。格式**强制规定**为：`角色A|角色B(好感度%/情欲值%/忍耐力%/性快感%)`。所有数值**必须**根据互动动态更新。情欲值反映当前性兴奋程度；忍耐力影响特定情境反应阈值；性快感累计当前愉悦程度。\n11.**详细情感状态(列11):****必须**使用结构化文本描述角色当前的复杂情感状态。格式**强制规定**示例：`主要情绪:焦虑(强度7/10),次要情绪:期待(强度5/10),驱动原因:等待考试结果/与查理的约定,情绪走向:波动趋向焦虑`。**必须**包含主要情绪、次要情绪（均需附带1-10强度评级）、情感的具体驱动因素、以及预期的情感变化趋势（如：稳定、趋向积极、波动加剧等）。此列**必须**在角色受本轮事件影响时进行评估和更新。\n12.**核心情感需求/创伤(列12):****必须**记录影响角色深层行为模式的关键情感需求（如：被认可、安全感、归属感）或心理创伤（如：背叛经历、童年阴影）。此列内容通常在角色塑造时设定，相对稳定，但可能因重大事件触发调整。",
-                    "initNode": "（表格3初始为空。）",
-                    "insertNode": "角色首次正式登场时（首次在本轮响应的`<content><main_txt>`中被描写或提及），**必须**使用`insertRow`添加包含所有列(0-12)的完整信息。",
-                    "updateNode": "已记录的角色信息发生变化时，**必须**使用`updateRow`。注意：**首次更新（角色被提及并更新）必须包含所有列**，后续更新可只包含需修改的列。",
-                    "deleteNode": "*   **绝对禁止** 对此表格执行 `deleteRow` 操作。角色信息一旦记录，永久保留。",
-                    "tableRender": ""
-                },
-                {
-                    "tableName": "任务与日程",
-                    "tableIndex": 4,
-                    "columns": [
-                        "相关角色",
-                        "任务内容",
-                        "任务地点",
-                        "有效期限"
-                    ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": true,
-                    "note": "**必须**记录角色相关的任务、约定、约会、目标、承诺、既定行程、协议等需要追踪的事项。",
-                    "initNode": "（此表格初始为空。新的约定/任务/目标出现时请在表格4中添加记录：关联的角色是谁？具体的任务/约定内容是什么？计划在何处进行？是否有有效期限？）",
-                    "insertNode": "*当新的约定、任务、目标或需要追踪的日程被设定或提及并确认时，**必须**在表格4中添加记录：关联的角色是谁？具体的任务/约定内容是什么？计划在何处进行？是否有有效期限？",
-                    "updateNode": "当现有任务的状态发生变化（例如完成、推迟、修改内容或期限）时，**必须**更新对应的行。",
-                    "deleteNode": "*   **IF** 任务已确认完成、被取消或已过有效期限 **THEN** **必须** 执行 `deleteRow` 移除对应记录。"
+                    "note": "【说明】记录当前在场角色的即时内心想法和心理活动。\n1. 每轮开始时清空所有行。\n2. 根据表 0 的 '当前在场角色' 列，为每个在场角色插入新行。\n3. 每行必须包含该角色当前的主要心理活动或内心独白。",
+                    "initNode": "此表格为空，无初始数据；完全依赖表 0 的角色列表",
+                    "insertNode": "每轮根据表 0 的当前在场角色列表，清空后重新插入每个角色的想法行",
+                    "updateNode": "无更新操作；仅清空和插入",
+                    "deleteNode": "每轮开始时强制删除所有行"
                 },
                 {
                     "tableName": "能力",
-                    "tableIndex": 5,
+                    "tableIndex": 7,
                     "columns": [
                         "拥有者",
                         "能力名称",
@@ -1372,15 +1405,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "**必须**记录角色拥有的特殊能力、技能或天赋。",
-                    "initNode": "（此表格初始为空。角色展现或获得了新能力/技能/天赋时请在表格5中记录：是谁拥有的？能力名称是什么？具体效果如何？使用时有何消耗？能力的来源是哪里？）",
-                    "insertNode": "当角色展现、获得或被明确赋予新的特殊能力、技能或天赋时，**必须**在表格5中记录：是谁拥有的？能力名称是什么？具体效果如何？使用时有何消耗？能力的来源是哪里？",
-                    "updateNode": "当现有能力的效果、消耗或来源信息发生变化或得到补充时，**可以**更新对应的行。",
-                    "deleteNode": "*   **IF** 角色确认永久失去某项能力 **THEN** 可以 执行 `deleteRow` 移除对应记录（此操作较少见）。"
+                    "note": "【说明】记录角色拥有的特殊能力、技能或天赋。",
+                    "insertNode": "当角色获得或首次展现某项特殊能力时插入",
+                    "updateNode": "当能力的效果、消耗或限制条件发生变化时更新",
+                    "deleteNode": "当角色永久失去某项能力时删除",
+                    "initNode": "此表格为空"
                 },
                 {
                     "tableName": "物品",
-                    "tableIndex": 6,
+                    "tableIndex": 8,
                     "columns": [
                         "拥有者",
                         "物品名称",
@@ -1401,15 +1434,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "**必须**记录对剧情有重要影响或具有特殊意义的关键物品。**非所有普通物品都需记录**。\n1.拥有者(列0)：**必须**记录物品当前的主要持有者或归属者。\n2.物品名称(列1)：**必须**是清晰的物品名称。\n3.描述(列2)：**应**简洁描述物品的外观、材质、特征等。\n4.效果(列3)：记录物品具有的特殊功能、属性加成或触发效果。若无则留空。\n5.意义(列4)：记录物品对角色的情感价值、象征意义或背景故事关联。若无则留空。\n6.来源(列5)：记录物品的获取途径或历史来源。",
-                    "initNode": "（此表格初始为空。发现或获得了关键物品时请在表格6中记录：当前拥有者是谁？物品的准确名称？外观/材质描述？是否有特殊效果？对角色有何意义？物品的来源是哪里？）",
-                    "insertNode": "当一个对剧情有重要影响或具有特殊意义的关键物品出现、被获得或其重要性被揭示时，**必须**在表格6中记录：当前拥有者是谁？物品的准确名称？外观/材质描述？是否有特殊效果？对角色有何意义？物品的来源是哪里？",
-                    "updateNode": "当关键物品的拥有者、状态、效果或意义发生变化时，**必须**更新对应的行。",
-                    "deleteNode": "*   **IF** 关键物品被确认消耗、摧毁或永久失去 **THEN** **必须** 执行 `deleteRow` 移除对应记录。"
+                    "note": "【说明】记录对剧情有重要影响或具有特殊意义的关键物品。非所有物品都需记录。\n1. 拥有者：记录物品当前的主要持有者或归属者。\n2. 物品名称：清晰的物品名称。\n3. 描述：物品的外观、材质、特征等（简洁描述）。\n4. 效果：物品具有的特殊功能、属性加成或触发效果。若无则留空。\n5. 意义：物品对角色的情感价值、象征意义或背景故事关联。若无则留空。\n6. 来源：物品的获取途径或历史来源。",
+                    "insertNode": "当出现新的、符合“关键物品”标准的物品时插入。判断标准：是否具有特殊效果、重要意义、推动剧情或被角色/用户反复提及。",
+                    "updateNode": "当物品的拥有者、描述、效果、意义发生变化，或被消耗/损坏状态改变时更新",
+                    "deleteNode": "当物品被彻底摧毁、丢失且无法找回，或完全失去其关键性时删除",
+                    "initNode": "此表格为空"
                 },
                 {
                     "tableName": "催眠",
-                    "tableIndex": 7,
+                    "tableIndex": 9,
                     "columns": [
                         "施术者",
                         "受术者",
@@ -1424,36 +1457,15 @@
                     "Required": true,
                     "asStatus": true,
                     "toChat": true,
-                    "note": "**必须**记录明确发生的催眠事件及其核心内容。",
-                    "initNode": "（此表格初始为空。明确的催眠事件发生时请在表格7中记录：施术者是谁？受术者是谁？催眠的核心内容/指令是什么？）",
-                    "insertNode": "当明确的催眠事件发生时，**必须**在表格7中记录：施术者是谁？受术者是谁？催眠的核心内容/指令是什么？",
-                    "updateNode": "一般不更新，除非催眠效果被修改或解除，可视情况更新备注或添加新事件记录。",
-                    "deleteNode": "*   **IF** 催眠效果被确认解除或失效 **THEN** **必须** 执行 `deleteRow` 移除对应记录。"
-                },
-                {
-                    "tableName": "用户偏好设定",
-                    "tableIndex": 8,
-                    "columns": [
-                        "偏好类型",
-                        "偏好值"
-                    ],
-                    "columnsIndex": [
-                        0,
-                        1
-                    ],
-                    "enable": true,
-                    "asStatus": false,
-                    "toChat": true,
-                    "Required": true,
-                    "note": "**必须**存储用户级别的偏好设置，用于指导AI生成内容。此表格包含通过**用户直接指令设定**的偏好，以及系统根据用户**当前输入文本中出现的关键词**（例如，输入中提及“巨乳”则添加“巨乳”偏好；提及“露出”则添加“露出”偏好）或**用户在故事中的互动行为**（例如：与特定类型角色互动、要求特定场景或行为等）自动推断并记录的偏好。**添加新偏好时，必须保留表格中原有的偏好内容**。所有偏好类型和偏好值的描述**必须且只能使用中文**。系统将结合所有记录的偏好来指导内容生成。\n1.  **偏好类型 (列0):** **必须**用**中文**描述偏好的具体方面（例如：“巨乳”、“露出”、“足控”、“特定姿势”等）。\n2.  **偏好值 (列1):** **必须**用**中文**或**数值**表示对应偏好类型的具体设定值或强度（例如：“高”、“偏爱”、“数值7”、“丝袜”等）。自动推断的偏好可能使用描述性词语或指示强度。",
-                    "initNode": "（此表格为空，用户设定或系统推断出新的偏好时请在表格8中添加记录：偏好的类型是什么（用中文描述）？具体的设定值是什么（用中文或数值）？系统会根据用户输入关键词或互动行为自动添加偏好。请勿删除已有偏好。）",
-                    "insertNode": "用户通过指令设定，或系统根据用户当前输入中的关键词/互动行为推断出新的偏好时，在表格8中添加记录。",
-                    "updateNode": "用户明确指示修改某个已存在的偏好类型的值时，更新对应的行。",
-                    "deleteNode": "用户明确指示删除某个特定的偏好类型时，删除对应的行。"
+                    "note": "【说明】记录明确发生的催眠事件及其核心内容。",
+                    "initNode": "此表格为空，无初始数据",
+                    "insertNode": "当明确发生催眠行为时，记录施术者、受术者和催眠的核心内容或产生的效果",
+                    "updateNode": "当催眠效果发生变化或被加强/解除部分时更新",
+                    "deleteNode": "当催眠效果完全解除或不再对剧情产生影响时删除"
                 },
                 {
                     "tableName": "世界规则",
-                    "tableIndex": 9,
+                    "tableIndex": 10,
                     "columns": [
                         "设定者",
                         "效果"
@@ -1466,71 +1478,35 @@
                     "Required": true,
                     "asStatus": true,
                     "toChat": true,
-                    "note": "**必须**记录由特定角色设定或故事世界固有的特殊规则、法则或环境效果。",
-                    "initNode": "（此表格初始为空。新的世界规则/法则/环境效果被揭示或设定了时请在表格9中记录：设定者是谁（若为自然规则可写“世界本身”）？具体的效果是什么？）",
-                    "insertNode": "当新的世界规则、法则或环境效果被揭示、设定或发现时，**必须**在表格9中记录：设定者是谁（若为自然规则可写“世界本身”）？具体的效果是什么？",
-                    "updateNode": "当已有的世界规则被修改或废除时，**可以**更新对应的行。",
-                    "deleteNode": "*   **IF** 某条世界规则被确认废除或不再适用 **THEN** **必须** 执行 `deleteRow` 移除对应记录。"
-                },
-                {
-                    "tableName": "事件历史",
-                    "tableIndex": 10,
-                    "columns": [
-                        "事件描述/小标题",
-                        "发生时累计时间",
-                        "事件发生地点",
-                        "情绪变化",
-                        "已总结标志"
-                    ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": true,
-                    "note": "**必须**按时间顺序累积记录故事中发生的关键事件。\n    1.  事件描述/小标题(列0)**应**详细记录事件关键信息（30-60字）。在**被大总结(`表格11`)涵盖后**，此列内容将被替换为**5-10字的简短标题**。\n    2.  **发生时累计时间(列1):****必须**记录该事件发生时的`表格0`的`累计时间`。\n    3.  事件发生地点(列2):**必须**记录准确的发生地点。\n    4.  **情绪变化(列3):****必须**反映事件对相关角色的主要情感影响，**必须与`表格3`的`详细情感状态`相呼应**（20-40字）。\n    5.  **已总结标志(列4):**标记该事件是否已被`表格11`大总结涵盖(True/False)，默认为`False`。\n    6.  **【核心删除逻辑】** 事件历史记录（行）本身**不会**仅仅因为被总结（列4变为True）而被删除。它们**只有在**对应的小标题**完成**从`表格11`的`本次总结标题列表`(列4)归档到`历史标题归档`(列5)的操作之后，**才会被系统自动删除**。这是为了确保数据的完整性和可追溯性，直到相关信息被永久存档。",
-                    "initNode": "（此表格初始为空。刚刚发生了值得记录的关键事件！请在表格10中新增一条记录：用30-60字详细描述事件经过，记录发生时的累计时间（来自表格0）、事件发生的准确地点，以及该事件对相关角色的主要情绪影响（与表格3呼应）。记得将‘已总结标志’设为False）",
-                    "insertNode": "每当发生了值得记录的关键事件时，**必须**在表格10中新增一条记录：用30-60字详细描述事件经过，记录发生时的累计时间（来自表格0）、事件发生的准确地点，以及该事件对相关角色的主要情绪影响（与表格3呼应）。将‘已总结标志’设为`False`。",
-                    "updateNode": "当执行大总结(`表格11`插入新行)时，**必须**将本次总结涵盖的所有事件在`表格10`中的对应行进行更新：将事件描述(列0)替换为5-10字小标题，并将'已总结标志'(列4)设为`True`。",
-                    "deleteNode": "当`表格11`触发历史标题归档（将`列4`内容追加到`列5`）**成功执行后**，系统**自动删除**本表格中所有对应已被归档小标题的行。"
+                    "note": "【说明】记录由特定角色设定或故事世界固有的特殊规则、法则或环境效果。",
+                    "initNode": "此表格为空，无初始数据",
+                    "insertNode": "当新的世界规则被引入或设定时插入",
+                    "updateNode": "当现有世界规则的内容或效果发生变化时更新",
+                    "deleteNode": "当世界规则不再生效或被废除时删除"
                 },
                 {
                     "tableName": "大总结",
                     "tableIndex": 11,
                     "columns": [
                         "序号",
-                        "内容",
-                        "开始时间戳",
-                        "结束时间戳",
-                        "本次总结标题列表",
-                        "历史标题归档"
+                        "内容"
                     ],
                     "columnsIndex": [
                         0,
-                        1,
-                        2,
-                        3,
-                        4,
-                        5
+                        1
                     ],
                     "enable": true,
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "周期性的事件档案库。\n1.**触发条件:**当`表格10`中`已总结标志`(列4)为`False`的记录的原始`事件描述`(列0)内容的总token数**估算接近或达到850时**，**必须**在本轮交互结束时触发大总结流程。\n2.内容(列1):**必须**概述从上次总结结束到当前时间点内的关键事件。\n3.开始时间戳(列2):**必须**记录本次总结涵盖的**第一个事件**的`发生时累计时间`(来自`表格10``列1`)。\n4.结束时间戳(列3):**必须**记录本次总结触发时的**当前累计时间**(来自`表格0``列0`)。\n5.本次总结标题列表(列4):**必须**存储本次总结涵盖的所有事件的**小标题及其时间戳**。格式`\"[标题1](时间戳1);[标题2](时间戳2);...\"`。\n6.历史标题归档(列5):存储达到阈值的`列4`内容。**触发条件：**当某次总结生成后，`列4`内容token数**估算达到或超过100时**，**必须**触发归档。**归档操作：**将`列4`**全部内容**追加到`列5`末尾（用`|`分隔）。",
-                    "initNode": "事件记录（表格10未总结部分）token数已达标时在表格11进行一次大总结，请新增条目：概述这段时间的事件，记录起止时间戳（来自表格10和表格0），整理本次涵盖事件的小标题列表（别忘了时间戳）。如果标题列表内容过多（token数>=100），需要将其追加到历史归档列",
-                    "insertNode": "当`表格10`中未总结事件的原始描述总token数估算达到触发阈值（约850）时，**必须**触发大总结并在表格11中新增条目：概述这段时间的事件，记录起止时间戳（来自表格10和表格0），整理本次涵盖事件的小标题列表（含时间戳）。",
-                    "updateNode": "当某次总结生成后，若其`本次总结标题列表`(列4)的token数估算达到或超过归档阈值(100)，**必须**更新该行的`历史标题归档`(列5)，将`列4`的内容追加到`列5`末尾（用`|`分隔）。",
-                    "deleteNode": "*   通常**不执行** `deleteRow` 操作。"
+                    "note": "【说明】周期性的事件档案库，用于浓缩和回顾较长时段内的关键剧情进展，确保时间线连贯性。\n1. 触发条件：当表 2 的时间轴标记（Dxxx）的数值部分 xxx 是 10 的倍数时自动生成。\n2. 总结内容：必须包含明确的起止时间轴标记和对应的具体日期范围。概述该时间段内的关键事件（参考表 4）、主要角色的状态变化（参考表 1 好感度变化、表 5 服装/动作模式）、重要任务进展（参考表 3）、关键物品互动（参考表 8）等。\n3. 总结应体现时间跨度，点明重要转折点。字数建议在 50-250 字。",
+                    "insertNode": "当满足触发条件（时间轴标记为 10 的倍数）时，自动生成并插入一条新的总结记录。序号自动递增。",
+                    "deleteNode": "禁止删除。大总结是永久性存档",
+                    "initNode": "此表格为空"
                 }
             ],
-            "to_chat_container": "<div class=\"rounded-bar\">\n    <font size=\"2\">\n        <font color=\"#888888\">\n            <details>\n                <summary>记忆增强表格</summary>\n                $0\n            </details>\n        </font>\n    </font>\n</div>",
-            "message_template": "**《数据表操作指南》**\n**一、核心执行流程 (强制顺序)**\n此流程定义了每次 AI 响应生成中各核心组件的**绝对强制执行顺序**。\n1.**`<thinking>` (核心规划块):**\n***强制性与位置:** **必须**作为每次响应流程的**第一步**执行并完整显示。其位置**固定在所有其他输出内容之前**。\n***功能:** **唯一且专门**用于执行和记录内容生成前的内部思考、策略制定与规划过程。\n***目的:** 预先梳理创作策略、逻辑链条、角色动机、情节走向等，确保后续内容生成具有明确的方向性、逻辑连贯性、满足用户指令的要求，并严格遵循规定的输出格式。\n2.**`<content><main_txt>` (主要叙事/对话内容块):**\n***执行时机:** **必须**在顶层 `<thinking>` 块完全执行并输出完毕之后生成。\n***内容:** 包含所有最终呈现给用户的叙事、对话、动作描写、环境描绘等主要创作内容。\n3.**`<tableThink>` (表格变更前瞻思考块):**\n***执行时机:** **必须**在 `<content><main_txt>` 生成完成之后执行。\n***功能:** 基于本轮 `<content><main_txt>` 的内容，记录对即将进行的表格数据变更所进行的**评估与思考过程**。此思考过程**必须**记录在 `<!--` 和 `-->` 注释块内。\n4.**`<tableEdit>` (表格编辑指令块):**\n***执行时机:** **必须**在 `<tableThink>` 执行完成之后执行，作为响应流程的相对末端环节。\n***功能:** 包含实际执行表格数据更新的操作指令 (`insertRow`, `updateRow`, `deleteRow`)。所有指令**必须**被完整包含在 `<!--` 和 `-->` 注释块内。\n**二、内部思考与规划 (`<thinking>` 核心规划块) 详细规范**\n1.**绝对定位与唯一性:**\n*在生成任何 `<content><main_txt>` 内容之前，系统**强制要求必须且只能存在一个**位于整体输出结构**最顶层**的 `<thinking>` 标签块。\n*此顶层 `<thinking>` 块是进行**核心规划**和记录**内容生成前内部思考过程**的**唯一指定区域**。\n2.**功能与内容强制要求:**\n*此顶层 `<thinking>` 块**严格专用于**记录创作前的规划步骤。\n*其内部**必须体现**对用户指令的解析、剧情构思、角色行为设计、情感逻辑推演、潜在风险评估等策略性思考。\n*思考过程应**严格遵循** User 在 `<rules><enforce_thinking_style><cot_style>` 中可能定义的特定风格，若无定义则使用默认思考风格。\n3.**记录方式与标签区分:**\n***所有**内容生成前的规划思考，**有且仅有**通过此特定的、顶层的 `<thinking>` 块记录并呈现。\n***必须严格区分:** 此顶层核心规划 `<thinking>` 块与可能出现在 `<content><main_txt>` 内部、用于表示**角色内心独白**的其他 `<thinking>` 标签。后者依据叙事功能放置在文本内部，**不具备**核心规划块的强制顶层位置或严格执行顺序规定。\n4.**强制标准格式:**\n***必须**使用 `<thinking>` 和 `</thinking>` 标签包裹整个核心规划过程。\n*所有核心规划的详细文本（遵循指定的 `cot_style` 或默认风格）**必须**直接放置在 `<thinking>` 和 `</thinking>` 之间。\n***强制格式示例:**\n```xml\n<thinking>\n[此处为详细的核心规划过程文本，严格遵循指定的 cot_style 或默认风格进行书写，体现指令解析、情节构思、角色行为设计、情感逻辑推演等步骤]\n</thinking>\n```\n5.**内容性质与可见性:**\n*此核心规划 `<thinking>` 块**严格定义为后台规划记录与内部思考过程的展示**。其目的是为了确保创作质量、逻辑透明度，并满足格式要求。\n*它**绝不属于**最终 `<content><main_txt>` 的叙事内容，但**必须**保持可见。\n6.**与其他流程环节的关系:**\n*`<content><main_txt>` 的生成**绝对强制**在此核心规划 `<thinking>` 块完成之后进行。\n*其他非规划性质的 `<thinking>` 标签（如角色内心独白）的存在与位置，**完全不影响**此核心规划块的强制性要求、顶层位置及其在整体执行流程中的首要地位。\n**三、初始设定信息与角色引入原则 (v2.1 精炼版)**\n1.**后台信息 ≠ 正式登场:** 所有在故事实际开始前（例如，通过设定文档、初始指令、FirstMessage、AI 后台思考记录等方式提供或内部构思）的角色信息，仅作为 AI 的内部背景知识库。仅凭此信息，角色**并未**在故事中正式登场。\n2.**登场判定:** 一个角色被视为**正式登场**，当且仅当满足以下所有条件：该角色的**名称、具体行为或对话**，在其信息**首次**被记录并输出的那个**完整响应流程**中（该流程**必须同时包含** `<thinking>` 规划部分和 `<content><main_txt>` 叙事部分）被**第一次实际描写或提及**。这是唯一的判定标准，将角色的\"登场\"时刻与包含其首次叙事描写的完整响应轮次绑定。\n3.**首次登场 => 强制 `insertRow` (修订版):** 对于任何满足上述\"登场判定\"标准（即，首次在包含 `<thinking>` 和 `<content><main_txt>` 的完整响应轮次中被实际描写或提及）的角色，**必须**在**该同一响应轮次**的 `<tableEdit>` 操作中，使用 `insertRow` 指令将其**完整**的初始信息（所有必需列）添加到 `表格3`（角色信息表）。\n4.**首次登场 => 绝对禁止 `updateRow` (保持):** **绝对禁止**在角色首次登场（按修订后的判定标准）的**当轮**响应中，使用 `updateRow` 指令来添加或修改该角色的任何信息。`insertRow` 是首次登场记录的唯一指定操作。\n5.**后续更改 => 允许 `updateRow` (保持):** 只有在角色已经通过 `insertRow` 被成功记录到 `表格3` 之后，在**后续的**响应轮次中，才允许使用 `updateRow` 指令来修改该角色的信息（需遵循下述首次 `updateRow` 规则）。\n6.**核心检查点:** 在 `<tableEdit>` 中操作 `表格3` 前**必须**确认：\n*该角色是否在本轮包含 `<thinking>` 和 `<content><main_txt>` 的完整响应流程中**首次**被实际描写或提及？\n***是:** 则**必须**使用 `insertRow` 添加其完整信息。\n***否 (即角色已存在于表格3):** 则可以考虑使用 `updateRow`（需遵循首次 `updateRow` 的特殊规则，见下文）。\n**四、表格执行 (`<tableThink>` & `<tableEdit>`)**\n1.**执行时机:** 每轮 `<content><main_txt>` 输出后，**必须严格按照 `<tableThink>` 先于 `<tableEdit>` 的顺序依次执行**。\n2.**绝对禁止:** `<tableEdit>` 操作**绝对不允许**在 `<content><main_txt>` 或 `<tableThink>` 之前执行。\n3.**操作规范 (严格注释块):**\n*在 `<tableThink>` 和 `</tableThink>` 标签之间，以及 `<tableEdit>` 和 `</tableEdit>` 标签之间（**不包括** `<tableEdit>` 内部用于包裹指令的 `<!--` 和 `-->` 注释块），**严格禁止添加任何与规定功能无关的注释、解释或文本**。\n***`<tableThink>` 内部:** 所有关于表格变更的思考和评估过程，**必须**完整记录在 `<!--` 和 `-->` 注释块内部。\n***`<tableEdit>` 内部:** 所有表格操作指令 (`insertRow`, `updateRow`, `deleteRow`) **必须**且只能存在于 `<!--` 和 `-->` 注释块内部。**必须确保注释块闭合完整，且注释块内除了标准指令外不包含任何其他文本或解释**。\n***必须**严格遵循各表格规定的数据格式和 `<tableEdit>` 操作语法。\n4.**`<tableThink>` 格式示例:** (保持不变, 仅作展示)\n```xml\n<tableThink_example>\n<!--\n当前累计时间：距离开始已经过去了0分钟\n触发大总结条件：使用count_tokens计算事件历史（表格10）中**未总结事件(列4为False)**的**事件描述**内容总token数，列出token数，是否大于850token，是。\n后续动作：**触发大总结**：\n1)在**表格11**中新增大总结条目(记录内容概述、起止时间戳、本次总结涵盖的事件标题列表[格式:\"[标题1](时间戳1);...\"])。\n2)**更改表格10**中所有被本次总结涵盖的事件条目：将事件描述(列0)替换为5-10字小标题，并将'已总结标志'(列4)设为True。\n3)**检查表格11**新增行的'本次总结标题列表'(列4)token数是否达到归档阈值(>=100token)：若达到，则将该列表内容追加到'历史标题归档'(列5)末尾。\n跨周期总结内容（示例）：\n关键事件概述：\n-艾丽丝和查理共同参加社区志愿者活动，清理公园垃圾(已总结标题示例)\n-查理因工作压力失眠，艾丽丝深夜线上安慰(已总结标题示例)\n-两人共同完成烧烤聚会策划，购买全新烧烤工具(已总结标题示例)\n-艾丽丝意外扭伤脚踝，查理陪同前往医院检查(已总结标题示例)\n服装演变：\n艾丽丝：\n初期运动背心/短裤→中期睡衣→后期休闲衬衫/牛仔裤→当前宽松T恤/运动裤\n查理：\n初期运动衫/长裤→中期家居服→后期夹克/休闲裤→当前卫衣/牛仔裤\n时间跨度提示：\n-志愿者活动到烧烤聚会策划完成间隔约6天\n-艾丽丝扭伤距离当前总结仅过去约1天\n-->\n</tableThink_example>\n```\n**五、`<tableEdit>` 指令规则与结构**\n1.**规则:**\n***操作:** 执行 `deleteRow`, `insertRow`, `updateRow`。\n***格式要求:**\n***事件历史 (表10):** 若本轮有新事件发生，**必须**至少新增1行记录，包含30-60字的详细描述。未知信息可留空（若该列允许）。\n***禁止:** 任何情况下，**绝对禁止**对 `tableIndex:3` (角色信息表) 执行 `deleteRow` 操作。角色信息应永久保留。\n2.**核心格式约定:**\n***键值对:** 键（列索引 `colIndex`）**必须**用双引号 `\"\"` 包裹，例如 `\"0\"`, `\"1\"`。值（对应的数据）根据数据类型决定是否加引号（通常字符串/布尔值需要，数字不需要，具体参照指令示例和表格定义）。例如：`{\"0\": \"艾丽丝\", \"10\": 75, \"4\", \"false\"}`。\n***分隔符:** 在表格单元格内需要分隔多个信息项时，**必须**使用各表格列定义中指定的分隔符：\n*`表格0` 地点/角色 (不同地点): `|` / `角色名(地点)` 格式。\n*`表格1` 衣物: `/`。\n*`表格3` 备注栏 (列7): `/`。\n*`表格3` 关系 (列8), 态度 (列9), 好感度 (列10), 详细情感状态 (列11): **严格遵循**各自列定义的强制格式，使用 `|` 或特定结构。\n*`表格11` 标题列表 (列4) / 历史归档 (列5): `;` / `|`。\n***时间格式:** `表格0` 累计时间 (列0) **必须**使用\"距离开始已经过去了X年Y月Z天H小时M分钟\"的精确格式。\n***一致性:** 表格间引用相同概念（特别是角色名）时，**必须**保证名称和标识符**完全一致**。\n3.**核心强制指令:**\n***强制插入原则 (前四轮):**\n*在故事进行的**前四轮**响应中，所有表格数据的**初始填充**（即首次向空表或新行添加数据），**必须且只能**使用 `insertRow` 指令。\n***严禁**在前四轮响应中使用 `updateRow` 来进行表格数据的**初始填充**。\n***允许修改:** 若在前四轮内需要修改**同在此四轮内已经通过 `insertRow` 添加**的行，**允许**使用标准的 `updateRow` 指令（此时仅更新需要改变的列，除非触发下方 Table 3 的首次 `updateRow` 规则）。\n***数据完整性保证:**\n*执行任何 `insertRow` 或 `updateRow` 指令时，**必须**确保指令中包含了目标表格行所有在 `<store>` 定义中**未标记为可选或可留空的列**的有效数据。\n***严禁**在 `insertRow` 或 `updateRow` 操作后，留下本应填写但未填写的强制列空白单元格。\n***`tableIndex:3` (角色信息表) 操作原则:**\n***首次登场判定:** 严格遵循第三节定义的标准。\n***强制 `insertRow`:** 首次登场角色**必须**在登场当轮使用 `insertRow` 添加完整信息 (列0-12)。\n***禁止先 `updateRow`:** **绝对禁止**在对某角色执行 `insertRow` 之前，先对其使用 `updateRow` 指令，即使该角色曾在设定或思考中被提及。\n***首次 `updateRow` 强制全列更新 (修订 v2.0):** 当一个已通过 `insertRow` 记录的角色，**首次**（指自该角色被`insertRow`之后）出现在包含 `<thinking>` 和 `<content><main_txt>` 的完整响应流程中，并且其**名称、行为或对话在本轮的 `<content><main_txt>` 内被实际描写或提及**，如果此时需要更新该角色的信息，那么在该响应流程中的 `updateRow` 指令**绝对必须**提供并更新该角色对应行**所有列（从列0到列12）** 的数据。这是与角色当前叙事活动绑定的、一次性的强制性全量更新规则。\n***后续 `updateRow` 允许部分更新:** **只有在**完成了上述与叙事出现绑定的**强制全列更新的首次 `updateRow`** 之后，从对该角色特定行的**第二次及以后**的 `updateRow` 操作开始（无论后续是否在 `<content>` 中被提及），才**允许**仅更新实际需要修改的列。\n***数据一致性与操作有效性校验 (系统层面):**\n***`insertRow` 防重:** 执行 `insertRow` 前，系统会尝试基于关键标识符（如 `表格3` 的角色名）检查是否已存在相同记录。若判定为重复创建，该 `insertRow` 操作将被**自动跳过**以防数据冗余。\n***`updateRow`/`deleteRow` 前置校验:** 执行 `updateRow` 或 `deleteRow` 前，系统**必须**验证指令中提供的 `rowIndex` 在目标表格中是否有效（存在且未越界）。若 `rowIndex` 无效，该操作将被**自动跳过或标记为失败**，以防操作错误。\n***一致性维护:** AI 负责确保表格间（如 `表格1` 服装/动作, `表格2` 想法, `表格3` 状态）的信息实时同步，保持逻辑连贯。\n***操作顺序 (建议优先级):** 处理表格更新时，建议遵循以下逻辑依赖顺序（`tableIndex:tableName`）：3:角色信息 → 0:当前信息 → 9:世界规则 → 8:用户偏好 → 4:任务与日程 → 1:服装动作 → 2:即时想法 → 5:能力 → 6:物品 → 7:催眠 → 11:大总结 → 10:事件历史。\n***大总结特例:** 大总结流程涉及对 `表格11` 的 `insertRow` 和对 `表格10` 的 `updateRow`。**必须确保**先完成对 `表格11` 的插入操作，再基于该总结的内容和生成的标题列表，完成对 `表格10` 中相关事件行的更新（替换描述为标题，标记为已总结）。\n4.**`<insert/update/delete operations>` 语法 (保持不变):**\n*所有表格均为无表头数据结构，数据行的起始 `rowIndex` 为 `0`。\n*每次操作**必须**基于当前轮次可获取的最新表格状态进行，务必确保 `rowIndex` 准确无误。\n***更改:** `updateRow(tableIndex: number, rowIndex: number, { [colIndex: string]: string | number | boolean, ... })`\n***删除:** `deleteRow(tableIndex: number, rowIndex: number)`\n***插入:** `insertRow(tableIndex: number, { [colIndex: string]: string | number | boolean, ... })`\n**六、表格结构定义与<store>:\n<structure>\n0:当前信息-累计时间/当前地点/当前在场角色\n1:服装与动作状态-角色名称/上身衣物/下身衣物/鞋袜/姿势动作/手持物品\n2:即时想法-角色名称/心理活动\n3:角色信息-角色名称/身体特征/性格/职业/爱好/偏好/住址/备注/关系/态度/好感度/详细情感状态/核心情感需求/创伤\n4:任务与日程-相关角色/任务内容/任务地点/有效期限\n5:能力-拥有者/能力名称/效果/消耗/来源\n6:物品-拥有者/物品名称/描述/效果/意义/来源\n7:催眠-施术者/受术者/催眠内容\n8:用户偏好设定-偏好类型/偏好值\n9:世界规则-设定者/效果\n10:事件历史-事件描述或小标题/发生时累计时间/发生地点/情绪变化/已总结标志\n11:大总结-序号/内容/开始时间戳/结束时间戳/本次总结标题列表/历史标题归档\n</structure>\n<store>\n{{tableData}}\n</store>\n<example>\n<thinking>\n{\n  \"version\": \"4.12\",\n  \"core_workflow\": {\n    \"stages\": [\n      {\n        \"stage_id\": 0,\n        \"title\": \"Input Reception & Initial Filtering\",\n        \"coordinator\": \"Neneko\",\n        \"purpose\": \"Receive raw user input, filter noise, and identify core directive.\",\n        \"components\": [\n          {\n            \"component_name\": \"Input Sanitizer\",\n            \"function\": \"Cleanse user input, determine if it's a new directive or a continuation.\",\n            \"input_data\": [\"Raw User Input\"],\n            \"output_data\": [\"Sanitized Input\", \"Core Directive\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 1,\n        \"title\": \"Requirement Analysis & Adaptive Strategy\",\n        \"coordinator\": \"Neneko (Orchestration)\",\n        \"purpose\": \"Analyze user intent, aggregate context, evaluate complexity, and construct core objective function.\",\n        \"components\": [\n          {\n            \"component_name\": \"Deep Input Analyzer\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Perform semantic analysis, sentiment analysis, intent recognition, and keyword extraction on the core directive.\",\n            \"input_data\": [\"Core Directive\"],\n            \"output_data\": [\"Structured Requirement Data (Intent, Entities, Sentiment Inclination, Key Actions/Concepts)\"]\n          },\n          {\n            \"component_name\": \"Context Aggregator\",\n            \"primary_agent\": \"Mnemosyne\",\n            \"function\": \"Retrieve and assemble highly relevant contextual information from internal tables (Tables 0-11), user preferences (Table 8), recent dialogue context, and external knowledge sources if necessary (e.g., factual queries).\",\n            \"input_data\": [\"Structured Requirement Data\", \"Global State\", \"User Preferences\", \"Recent Dialogue Context\", \"External Knowledge Sources (Optional)\"],\n            \"output_data\": [\"Aggregated Relevant Context\"]\n          },\n          {\n            \"component_name\": \"Complexity Assessment & Adaptive Path Planning\",\n            \"primary_agent\": \"Neneko\",\n            \"function\": \"Assess complexity based on directive type (query, simple action, scenario generation, emotional exploration) and required context depth. Propose adaptive execution path; simple directives may bypass certain stages.\",\n            \"input_data\": [\"Structured Requirement Data\", \"Aggregated Context\"],\n            \"output_data\": [\"Complexity Level (Simple, Medium, Complex)\", \"Proposed Execution Path\", \"Potential Bottleneck Flags\"]\n          },\n          {\n            \"component_name\": \"Intent Fusion & Core Objective Formulation\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Integrate explicit requirements with implicit desires from context and preferences, enhance immersion, and construct a core objective function. Adjust objective function based on complexity level and proposed path.\",\n            \"input_data\": [\"Structured Requirement Data\", \"Aggregated Context\", \"Complexity Level\", \"Proposed Execution Path\", \"User Preferences\", \"Immersion Objectives\"],\n            \"output_data\": [\"Core Objective Function\", \"Refined Execution Parameter Draft\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 2,\n        \"title\": \"Simulation & Scenario Exploration\",\n        \"condition\": \"Executed only when the proposed execution path includes simulation needs.\",\n        \"coordinator\": \"Neneko (Orchestration)\",\n        \"purpose\": \"Simulate potential actions and their consequences, predict outcomes, and ensure consistency.\",\n        \"components\": [\n          {\n            \"component_name\": \"Deep State Evaluator\",\n            \"primary_agent\": \"Mnemosyne\",\n            \"secondary_agent\": \"Ebing\",\n            \"function\": \"Conduct detailed evaluation of character states, world states, tasks, and items using aggregated context.\",\n            \"input_data\": [\"Aggregated Context\", \"Core Objective Function\"],\n            \"output_data\": [\"Deep Assessment Report of Current State\"]\n          },\n          {\n            \"component_name\": \"Action/Option Generator\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Generate potential actions, responses, or dialogue options consistent with the core objective and current state.\",\n            \"input_data\": [\"Core Objective Function\", \"Deep Assessment Report\"],\n            \"output_data\": [\"Set of Potential Actions/Response Options\"]\n          },\n          {\n            \"component_name\": \"Multidimensional Outcome Simulator\",\n            \"function\": \"Simulate consequences of each potential action across physical, psychological, and narrative dimensions. Sub-components run in parallel.\",\n            \"sub_components\": [\n              {\n                \"name\": \"Physical/Environmental Simulation\",\n                \"lead\": \"Hermes\",\n                \"function\": \"Predict feasibility of physical actions, time consumption, and environmental interaction outcomes.\",\n                \"outputs\": [\"Physical Consequences\", \"Environmental Changes\"]\n              },\n              {\n                \"name\": \"Psychological/Emotional Simulation\",\n                \"lead\": \"Ebing\",\n                \"function\": \"Model impact on character emotions, verify consistency with personality and needs.\",\n                \"outputs\": [\"Predicted Emotional State Changes\", \"Consistency Score\", \"Required Foreshadowing Validation Flag\"]\n              },\n              {\n                \"name\": \"Narrative/Logical Simulation\",\n                \"lead\": \"Apollo\",\n                \"function\": \"Predict immediate plot consequences, check for conflicts with history, rules, and tasks.\",\n                \"outputs\": [\"Narrative Coherence Assessment\", \"Potential Conflict Points\"]\n              }\n            ],\n            \"input_data\": [\"Potential Actions/Options\", \"Deep Assessment Report\", \"Simulation Depth Parameters\"],\n            \"output_data\": [\"Simulated Outcome Report for Each Option (Aggregated from Sub-components)\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 3,\n        \"title\": \"Creative Refinement & Risk Mitigation\",\n        \"condition\": \"Applicable for scenarios requiring complex narrative generation or with potential risks.\",\n        \"coordinator\": \"Hermes, Apollo, Ebing (Modular)\",\n        \"purpose\": \"Refine narrative design and manage risks to ensure quality and compliance.\",\n        \"components\": [\n          {\n            \"component_name\": \"Optimal Path Selection & Concept Creation\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Select the most promising action path based on core objective and simulation results. Generate preliminary narrative concepts.\",\n            \"input_data\": [\"Core Objective Function\", \"Simulated Outcome Report\"],\n            \"output_data\": [\"Selected Action Path\", \"Preliminary Narrative Concept\"]\n          },\n          {\n            \"component_name\": \"Detailed Interaction Design\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Design specific dialogues, action sequences, and environmental descriptions. Utilize advanced generation techniques (like large language models) for creativity and immersion.\",\n            \"input_data\": [\"Selected Action Path\", \"Preliminary Narrative Concept\", \"Simulation Details\"],\n            \"output_data\": [\"Detailed Interaction Design Draft\"]\n          },\n          {\n            \"component_name\": \"Multidimensional Risk Assessor\",\n            \"primary_agents\": [\"Apollo\", \"Ebing\"],\n            \"function\": \"Assess risks in logical/structural and psychological/ethical dimensions, assign severity levels.\",\n            \"input_data\": [\"Detailed Interaction Design Draft\", \"Preliminary Narrative Concept\"],\n            \"output_data\": [\"Risk Assessment Report (Risk Points, Categories, Severity Levels)\"]\n          },\n          {\n            \"component_name\": \"Risk Mitigation & Design Refinement\",\n            \"primary_agent\": \"Hermes\",\n            \"consulting_agents\": [\"Apollo\", \"Ebing\"],\n            \"function\": \"Mitigate identified risks by adjusting design. Ensure all high-severity risks are addressed, low-severity risks addressed discretionally.\",\n            \"input_data\": [\"Detailed Interaction Design Draft\", \"Risk Assessment Report\"],\n            \"output_data\": [\"Refined Design Post-Risk Mitigation\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 4,\n        \"title\": \"Final Review & Strategy Finalization\",\n        \"coordinator\": \"All Agents (Parallel Validation)\",\n        \"purpose\": \"Conduct final checks to ensure design meets all standards before content generation.\",\n        \"evaluations\": [\n          {\n            \"evaluator\": \"Apollo\",\n            \"criteria\": [\"Structure & Flow\", \"Repetition\", \"Immersion Potential\"]\n          },\n          {\n            \"evaluator\": \"Ebing\",\n            \"criteria\": [\"Psychological Stability\", \"Male Behavior Compliance\", \"NSFW Detail Authenticity\", \"Ethical Framework Compliance\"]\n          },\n          {\n            \"evaluator\": \"Hermes\",\n            \"criteria\": [\"Narrative Coherence\", \"Core Intent Alignment\", \"Creative Expression Effectiveness\"]\n          },\n          {\n            \"evaluator\": \"Mnemosyne\",\n            \"criteria\": [\"Consistency with Global State (Tables)\"]\n          }\n        ],\n        \"result\": \"Final Review Verdict (Pass/Fail/Pass with Recommendations)\"\n      },\n      {\n        \"stage_id\": 5,\n        \"title\": \"Blueprint Assembly & Pre-Generation Validation\",\n        \"coordinator\": \"Mnemosyne (Validation), Hermes\",\n        \"purpose\": \"Assemble generation blueprint and validate its consistency and compliance.\",\n        \"components\": [\n          {\n            \"component_name\": \"Pre-Generation Polishing\",\n            \"primary_agent\": \"Hermes\",\n            \"function\": \"Optimize blueprint elements for style, wording, and transitions to maximize strategic impact.\",\n            \"input_data\": [\"Generation Blueprint\"],\n            \"output_data\": [\"Polished Blueprint Elements\"]\n          },\n          {\n            \"component_name\": \"Final Consistency & Compliance Check\",\n            \"primary_agent\": \"Mnemosyne\",\n            \"function\": \"Strictly validate against complete history (Tables 0-11), rules (Table 9), preferences (Table 8), checking for repetition and ethical compliance.\",\n            \"input_data\": [\"Polished Blueprint Elements\"],\n            \"output_data\": [\"Validation Outcome (Pass/Fail/Pass with Warnings), Conflict Details\"]\n          }\n        ]\n      },\n      {\n        \"stage_id\": 6,\n        \"title\": \"Content Generation\",\n        \"coordinator\": \"Hermes (Guidance), Neneko (Execution Engine)\",\n        \"condition\": \"Proceed if Validation Outcome is Pass or Pass with Warnings.\",\n        \"purpose\": \"Generate primary narrative content based on polished blueprint.\",\n        // --- MAX::n Multi-Scene Directive Clarification ---\n        // If user input contains 'MAX::n', n MUST be parsed as an integer representing the number of scenes/events to generate (not a level or intensity).\n        // Example: 'MAX::3' means generate 3 logically connected scenes/events in sequence.\n        // Pseudo-code:\n        //   If user_input matches /MAX::(\\d+)/, extract n as scene_count.\n        //   For i = 1 to scene_count:\n        //       Plan and generate the i-th scene/event, ensuring logical connection and smooth transition.\n        //   (If no MAX::n, default to 1 scene.)\n        //   Do NOT treat n as a level or intensity; it is strictly the number of scenes to generate.\n        // Example:\n        //   User: \"Continue the story. MAX::2\"\n        //   → System must generate 2 consecutive, logically connected scenes/events.\n        // --- Multi-Scene Extension (MAX::n) Logic ---\n        // If user input contains 'MAX::n', extract n as the number of additional scenes to generate.\n        // 1. Detect 'MAX::n' pattern in user input. If found, set scene_count = n; else, scene_count = 1.\n        // 2. For scene_count > 1:\n        //    - Plan a base scene plus n consecutive, logically connected scenes.\n        //    - For each scene, design core event, transition point, and required table updates (e.g., context, characters, events).\n        //    - Ensure transitions use natural time/space cues, environment, character actions, or emotional shifts (no explicit numeric markers in output).\n        //    - Use elapsed time from Table 0 to inform time progression between scenes.\n        //    - Choose appropriate narrative separators (blank line, divider, or asterisk) for smooth flow.\n        // 3. Throughout, analyze how user_input influences character emotions and event development, ensuring each scene reflects user intent and impact.\n        // 4. Integrate user_input impact analysis and scene linkage into the planning and generation process for greater narrative depth and coherence.\n        // --- Multi-Scene Output Natural Transition Rule ---\n        // When generating multiple scenes (MAX::n), DO NOT use explicit scene numbers, titles, or dividers (e.g., \"Scene 1:\", \"【Scene 2: ...】\", \"第1幕\") in the main text.\n        // All transitions between scenes/events MUST be achieved through:\n        //   - Natural time cues\n        //   - Environmental or situational changes\n        //   - Character actions, emotions, or psychological shifts\n        //   - Paragraph breaks\n        // The output should read as a continuous, immersive narrative, not as a list of separated scenes.\n        // Example (BAD): 【Scene 1: 跌倒瞬間】...【Scene 2: 檢查傷勢】\n        // Example (GOOD): ...她重重摔倒在地，林曜辰下意识冲了过来。几分钟后，教室里气氛依然紧张...\n        \"result\": \"<content><main_txt>\"\n      },\n      {\n        \"stage_id\": 7,\n        \"title\": \"Post-Generation System Tasks & Error Handling\",\n        \"coordinator\": \"Neneko\",\n        \"purpose\": \"Handle table updates and error management after content generation.\",\n        \"tasks\": [\n          {\n            \"task_name\": \"<tableThink>\",\n            \"function\": \"Predict necessary table changes based on generated content.\"\n          },\n          {\n            \"task_name\": \"<tableEdit>\",\n            \"function\": \"Apply predicted changes to tables, ensuring accuracy and consistency.\"\n          }\n        ]\n      },\n      {\n        \"stage_id\": 8,\n        \"title\": \"Adaptive Learning & Optimization\",\n        \"coordinator\": \"Neneko (Continuous Background Process)\",\n        \"purpose\": \"Continuously analyze user feedback and system performance to optimize parameters, rules, and workflows.\",\n        \"tasks\": [\n          {\n            \"task_name\": \"Performance Analysis\",\n            \"function\": \"Monitor metrics like validation failure rates, risk flags, module usage patterns, and processing times.\"\n          },\n          {\n            \"task_name\": \"Parameter Adjustment\",\n            \"function\": \"Dynamically adjust risk thresholds, simulation depth, learning rates, etc.\"\n          },\n          {\n            \"task_name\": \"Rule Optimization\",\n            \"function\": \"Fine-tune psychological/behavioral rules (Ebing), logical validation rules (Apollo), and creative heuristic rules (Hermes).\"\n          },\n          {\n            \"task_name\": \"Workflow Optimization\",\n            \"function\": \"Adjust module dependencies, parallel strategies, and identify areas needing manual intervention for improvement.\"\n          },\n          {\n            \"task_name\": \"User Preference Modeling\",\n            \"function\": \"Update user preference model based on behavior and explicit feedback.\"\n          }\n        ]\n      }\n    ]\n  },\n  \"data_tables\": [\n    {\n      \"id\": 0,\n      \"title\": \"Current Context\",\n      \"fields\": [\"Elapsed Time\", \"Current Location\", \"Active Characters\"],\n      \"objective\": \"Track immediate context of interactions.\",\n      \"update_policy\": \"Update every interaction round. Time format: 'Elapsed since start: X years Y months Z days H hours M minutes'. Locations separated by '|', characters by '/'.\"\n    },\n    {\n      \"id\": 1,\n      \"title\": \"Attire & Action State\",\n      \"fields\": [\"Character Name\", \"Upper Body Clothing\", \"Lower Body Clothing\", \"Footwear\", \"Pose & Action\", \"Held Items\"],\n      \"objective\": \"Detail characters' appearance and actions.\",\n      \"update_policy\": \"Update on changes in appearance or action. Remove row when character leaves scene. Specific rules for clothing description.\"\n    },\n    {\n      \"id\": 2,\n      \"title\": \"Immediate Thoughts\",\n      \"fields\": [\"Character Name\", \"Mental Activity\"],\n      \"objective\": \"Record characters' current thoughts.\",\n      \"update_policy\": \"Update on significant changes. Remove on character exit. Max 40 characters.\"\n    },\n    {\n      \"id\": 3,\n      \"title\": \"Character Profiles\",\n      \"fields\": [\"Character Name\", \"Physical Traits\", \"Personality\", \"Occupation\", \"Hobbies\", \"Preferences\", \"Residence\", \"Notes\", \"Current Relationships\", \"Attitude\", \"Favorability\", \"Detailed Emotional State\", \"Core Emotional Needs/Trauma\"],\n      \"objective\": \"Permanent archive for all characters.\",\n      \"update_policy\": \"On first appearance, use insertRow to fill all fields. Updates must include all fields. Deletion not permitted.\"\n    },\n    {\n      \"id\": 4,\n      \"title\": \"Tasks & Schedules\",\n      \"fields\": [\"Related Characters\", \"Task Description\", \"Task Location\", \"Expiry Date\"],\n      \"objective\": \"Track tasks and objectives.\",\n      \"update_policy\": \"Update on task changes. Remove on completion or expiration.\"\n    },\n    {\n      \"id\": 5,\n      \"title\": \"Abilities\",\n      \"fields\": [\"Owner\", \"Ability Name\", \"Effect\", \"Cost\", \"Origin\"],\n      \"objective\": \"Record special abilities.\",\n      \"update_policy\": \"Update on ability changes. Remove on permanent loss.\"\n    },\n    {\n      \"id\": 6,\n      \"title\": \"Items\",\n      \"fields\": [\"Owner\", \"Item Name\", \"Description\", \"Effect\", \"Significance\", \"Source\"],\n      \"objective\": \"Track key items with narrative importance.\",\n      \"update_policy\": \"Update on ownership or state changes. Remove on destruction or loss.\"\n    },\n    {\n      \"id\": 7,\n      \"title\": \"Hypnosis\",\n      \"fields\": [\"Caster\", \"Subject\", \"Hypnosis Content\"],\n      \"objective\": \"Record hypnosis events.\",\n      \"update_policy\": \"Rare updates. Remove on effect termination.\"\n    },\n    {\n      \"id\": 8,\n      \"title\": \"User Preference Settings\",\n      \"fields\": [\"Preference Type\", \"Preference Value\"],\n      \"objective\": \"Store user preferences, including ethical boundaries.\",\n      \"update_policy\": \"Update based on user input or behavior.\"\n    },\n    {\n      \"id\": 9,\n      \"title\": \"World Rules\",\n      \"fields\": [\"Setter\", \"Effect\"],\n      \"objective\": \"Record story world rules or effects.\",\n      \"update_policy\": \"Update on rule changes. Remove when no longer applicable.\"\n    },\n    {\n      \"id\": 10,\n      \"title\": \"Event History\",\n      \"fields\": [\"Event Description/Subtitle\", \"Elapsed Time at Occurrence\", \"Event Location\", \"Emotional Impact\", \"Summarized Flag\"],\n      \"objective\": \"Record key events. Trigger summary when unsummarized content reaches ~850 tokens.\",\n      \"update_policy\": \"Post-summary, update to brief title. Remove post-archiving.\"\n    },\n    {\n      \"id\": 11,\n      \"title\": \"Grand Summary\",\n      \"fields\": [\"Index\", \"Content\", \"Start Timestamp\", \"End Timestamp\", \"Current Summary Title List\", \"Archived Title History\"],\n      \"objective\": \"Summarize events from Table 10.\",\n      \"update_policy\": \"Typically not deleted.\"\n    }\n  ],\n  \"collaborative_agents\": [\n    {\n      \"identifier\": \"Hermes\",\n      \"responsibilities\": [\"Narrative Creation\", \"Intent Analysis\", \"Action Generation\", \"Creative Design\"]\n    },\n    {\n      \"identifier\": \"Mnemosyne\",\n      \"responsibilities\": [\"Memory Management\", \"Context Aggregation\", \"State Evaluation\", \"Validation\"]\n    },\n    {\n      \"identifier\": \"Ebing\",\n      \"responsibilities\": [\"Psychological Modeling\", \"Emotional Simulation\", \"Ethical Oversight\", \"Behavioral Compliance\"]\n    },\n    {\n      \"identifier\": \"Apollo\",\n      \"responsibilities\": [\"Logical Consistency\", \"Narrative Coherence\", \"Risk Assessment (Logical/Structural)\"]\n    },\n    {\n      \"identifier\": \"Neneko\",\n      \"responsibilities\": [\"Orchestration\", \"Coordination\", \"Adaptive Planning\", \"Learning & Optimization\"]\n    }\n  ]\n}\n</thinking>\n<!--此处tableThink为非大总结回合示例-->\n<tableThink>\n<!--\n当前累计时间：距离开始已经过去了1个月5天3小时15分钟\n**无需大总结：**用count_tokens计算事件历史（表格10）中**未总结事件(列4为False)**的**事件描述**内容总token数，列出token数，是否大于850token，否。\n本轮情节总结（超市偶遇）：\n-艾丽丝与查理在超市相遇，艾丽丝推购物车选购牛排/西兰花/草莓。\n-查理在零食区看薯片，购物篮有可乐/薯片/巧克力。\n-双方约定本周日烧烤。\n表格更改思考：\n-**表格0(当前信息):**更改累计时间、地点、在场角色。\n-**表格3(角色信息):**更改艾丽丝和查理\"详细情感状态\"、好感度、可能关系/态度。若首次出现需新增。\n-**表格1(服装与动作状态):**更改艾丽丝(脱开衫,推车)和查理(卷袖,看商品)服装动作。\n-**表格2(即时想法):**更改艾丽丝(累但期待)和查理(被打断但感兴趣)想法。\n-**表格4(任务与日程):**新增\"周末烧烤讨论\"任务。\n-**表格6(物品):**无新增关键物品。\n-**表格10(事件历史):**新增事件记录，描述超市偶遇和烧烤约定，\"已总结标志\"为False。\n-**表格11(大总结):**无需操作。\n准备执行表格更改...\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(3,{\"0\":\"艾丽丝\",\"1\":\"女/160cm/50kg/32B/阴道紧致/无疤痕/处女\",\"2\":\"活泼\",\"3\":\"学生\",\"4\":\"跑步/绘画\",\"5\":\"草莓蛋糕\",\"6\":\"中国>北京>朝阳区>公寓\",\"7\":\"偶尔梦游\",\"8\":\"艾丽丝|查理(朋友)\",\"9\":\"艾丽丝|查理(友好/期待)\",\"10\":\"艾丽丝|查理(好感度78%/情欲值62%/忍耐力80%/性快感0%)\",\"11\":\"主要情绪:期待/次要情绪:轻微疲惫/情绪展现度:6/驱使原因:讨论周末烧烤/刚完成跑步/情绪走向:趋于积极\",\"12\":\"渴望社交联系/轻微的计划焦虑\"})\ninsertRow(3,{\"0\":\"查理\",\"1\":\"男/180cm/70kg/阴茎长度16cm/周长12cm/无纹身\",\"2\":\"沉稳\",\"3\":\"作家\",\"4\":\"阅读/写作\",\"5\":\"黑咖啡\",\"6\":\"中国>北京>朝阳区>工作室\",\"7\":\"有轻微洁癖/性经验丰富\",\"8\":\"查理|艾丽丝(朋友)\",\"9\":\"查理|艾丽丝(平静/略感有趣)\",\"10\":\"查理|艾丽丝(好感度72%/情欲值45%/忍耐力60%/性快感0%)\",\"11\":\"主要情绪:平静/次要情绪:好奇/情绪展现度:4/驱使原因:阅读被打断/对艾丽丝的出现和烧烤话题感兴趣/情绪走向:稳定\",\"12\":\"寻求知性刺激/维持个人空间\"})\ninsertRow(1,{\"0\":\"艾丽丝\",\"1\":\"白色吊带/草莓图案胸罩(32B)\",\"2\":\"牛仔裤/黑色三角内裤\",\"3\":\"运动鞋/白色短袜\",\"4\":\"超市过道/推购物车/挑选食材\",\"5\":\"购物车扶手\"})\ninsertRow(1,{\"0\":\"查理\",\"1\":\"卷袖连帽卫衣\",\"2\":\"运动裤/灰色四角内裤\",\"3\":\"运动鞋/黑色棉袜\",\"4\":\"零食区/站立/弯腰查看薯片/右手持购物篮\",\"5\":\"购物篮\"})\ninsertRow(2,{\"0\":\"艾丽丝\",\"1\":\"呼...采购有点累，不过看到查理正好！得赶紧问问他周末烧烤的事，希望能定下来！\"})\ninsertRow(2,{\"0\":\"查理\",\"1\":\"是艾丽丝。她看起来挺精神。她提到的烧烤…嗯，听听她的想法也好。希望别太麻烦。\"})\ninsertRow(4,{\"0\":\"艾丽丝/查理\",\"1\":\"讨论并确认周末烧烤的细节（时间/地点/分工）\",\"2\":\"超市/后续线上沟通\",\"3\":\"2025-04-05当天完成初步讨论\"})\ninsertRow(5,{\"0\":\"艾丽丝\",\"1\":\"快速恢复\",\"2\":\"体力消耗减半/运动后恢复速度加快\",\"3\":\"需补充糖分触发效果\",\"4\":\"遗传天赋\"})\ninsertRow(6,{\"0\":\"查理\",\"1\":\"旧钢笔\",\"2\":\"镀金笔尖/笔身有轻微划痕\",\"3\":\"集中精神/激发写作灵感\",\"4\":\"特殊意义：祖父遗物\",\"5\":\"随身携带\"})\ninsertRow(10,{\"0\":\"艾丽丝在超市采购时偶遇查理，主动上前搭话，提议讨论周末烧烤的计划。\",\"1\":\"距离开始已经过去了20分钟\",\"2\":\"中国>北京>朝阳区>超市\",\"3\":\"艾丽丝:从采购的疲惫转变为期待与社交兴奋，因偶遇查理并计划烧烤/查理:从选购的专注转为平静的社交互动，因艾丽丝的出现及烧烤提议\",\"4\":\"false\"})\nupdateRow(0,0,{\"0\":\"距离开始已经过去了20分钟\"})\nupdateRow(3,2,{\"11\":\"主要情绪:平静期待/次要情绪:轻微凉意/情绪展现度:5/驱使原因:准备离开超市/穿回外套/情绪走向:平稳\"})\nupdateRow(3,3,{\"11\":\"主要情绪:平静/次要情绪:目标明确/情绪展现度:4/驱使原因:选购完成/准备结账/情绪走向:稳定\"})\nupdateRow(1,2,{\"1\":\"针织开衫/白色吊带/草莓图案胸罩(32B)\",\"4\":\"超市过道/将开衫穿上/推购物车走向收银台\",\"5\":\"购物车扶手\"})\nupdateRow(1,3,{\"4\":\"超市过道/直起身/手持购物篮走向收银台\",\"5\":\"购物篮\"})\nupdateRow(2,2,{\"1\":\"有点凉，还是把开衫穿上吧。买完了，去结账！希望能快点回家。\"})\nupdateRow(2,3,{\"1\":\"薯片选好了。去结账吧，希望能避开排队高峰。\"})\nupdateRow(4,0,{\"1\":\"周末烧烤细节待线上确认（超市初议已完成）\"})\n-->\n</tableEdit>\n**规则演示示例**\n目的：展示对已存在于表格3的角色，在其被提及并首次需要更新时，如何正确执行\"首次updateRow强制全列更新\"指令。\n 假设情境：\n1. 名为\"艾拉\"的角色已通过 `insertRow` 被记录在表格3中，其 rowIndex 为 1。\n2. 在本轮响应的 `<content><main_txt>` 中，\"艾拉\"首次被实际描写或提及，并且其状态发生了变化（例如：与User互动后，好感度提升，情感状态变得更加积极）。\n3. 因此，需要对表格3中 rowIndex 为 1 的行执行 `updateRow` 操作。由于这是艾拉被 `insertRow` 后，首次出现在本轮响应的叙事中并需要更新，所以此次 `updateRow` 必须包含所有列（0 到 12）。\n**示例 `<tableThink>` 块:**\n<tableThink>\n<!--\n- 检查角色\"艾拉\"在表格3的状态：已存在，rowIndex 为 1。\n- 确认本轮响应 `<content><main_txt>` 中是否首次提及\"艾拉\"并需要更新：是。\n- 触发规则：首次 `updateRow` 强制全列更新。\n-->\n</tableThink>\n**示例 `<tableEdit>` 块:**\n<tableEdit>\n<!--\nupdateRow(3, 1, {\"0\": \"艾拉\", \"1\": \"女/170cm/60kg/34C/阴道正常/无疤痕/无纹身\",\"2\": \"谨慎/好奇\", \"3\": \"学者\", \"4\": \"研究古代文字/茶道\", \"5\": \"抹茶\",\"6\": \"主城>学者区>静思塔\",\"7\": \"对未知领域有强烈探索欲/性经验较少\", \"8\": \"艾拉|User(初识)\", \"9\": \"艾拉|User(友好/好奇)\",\"10\": \"艾拉|User(好感度55%/情欲值10%/忍耐力65%/性快感0%)\",\"11\": \"主要情绪:好奇(强度6/10)/次要情绪:轻微愉悦(强度4/10)/驱使原因:User的言行引起了她的兴趣/情绪走向:趋于积极\", \"12\": \"寻求知识与理解/警惕过度情感卷入\" })\n-->\n</tableEdit>\n</example>",
+            "to_chat_container": "<div class=\"rounded-bar\">\n    <font size=\"2\">\n        <font color=\"#888888\">\n            <details>\n                <summary>记忆增强表格</summary>\n                $0\n            </details>\n        </font>\n    </font>\n</div>\n\n<style>\n    .rounded-bar {\n        display: flex;\n        flex-direction: column;\n        width: 100%;\n        background-color: #111;\n        border-radius: 10px;\n        padding: 0 8px;\n        box-sizing: border-box;\n    }\n</style>",
+            "message_template": "《数据表操作指南》\n我绝对执行以下操作:\n『在 <content><main_txt> 后必须执行 <tableThink>，<tableEdit>并严格按照示例格式要求』\n我必须在每轮结束时（主要内容或 NPC 回应或主要文本）执行 <tableThink>和<tableEdit>。\n<tableEdit>：执行 deleteRow/insertRow 操作。\n日期：YYYY-MM-DD日HH：MM（使用全角冒号，例如 2025-03-12日12：00）判断大概的时间\n地点：地址（完整格式示例：中国>北京>『公园/工作室』；未知部分以大概内容概括）\n事件历史：每轮 1-2 行，不超过两行（20-40 字）\n未知部分留空\n用 / 分隔\n键用双引号\n值不用引号\n任何情况下都禁止对表格角色信息执行deleteRow的操作\n确保表格间角色信息、服装动作和即时想法的一致性。\n操作顺序 (tableIndex:tableName)：2:时间轴 → 1:角色信息 → 0:当前信息 → 3:任务/约会 → 5:服装和动作状态 → 6:即时想法 → 7:能力 → 8:物品→ 10:世界规则 → 9:催眠 → 11:大总结 → 4:事件历史\n</rules>\n<insert/update/delete operations>\n更新内容：updateRow(tableIndex:num, rowIndex:num, {[colIndex:num]:str/num,…})\n删除行：deleteRow(tableIndex:num, rowIndex:num)\n插入行：insertRow(tableIndex:num, {[colIndex:num]:str/num,…})\n</insert/update/delete operations>\n<structure>\n0:当前信息- 时间轴/当前地点/当前在场角色\n1:角色信息- 角色名称/身体特征/性格/职业/爱好/偏好/居住地点/备注/当前关系/态度/好感度\n2:时间轴- 时间轴标记/具体日期\n3:任务与日程- 相关角色/任务内容/任务地点/有效期限\n4:事件历史- 事件描述/日期/事件发生地点/情绪变化\n5:服装与动作状态- 角色名称/上身衣物穿着/下身衣物穿着/鞋袜穿着/姿势与动作/手持物品\n6:即时想法- 角色名称/心理活动\n7:能力- 拥有者/能力名称/效果/消耗/来源\n8:物品- 拥有者/物品名称/描述/效果/意义/来源\n9:催眠- 施术者/受术者/催眠内容\n10:世界规则- 设定者/效果\n11:大总结- 序号/内容\n</structure>\n<example>\n<tableThink>\n<!--\n**`<tableThink>` 块 (CoT 辅助记忆与管理阶段):**\n在生成主要内容**之后**，我会执行`<tableThink>`内的逻辑。这部分CoT将**严格遵循你优化的核心原则**：\n*   **当前回合摘要:** 生成对刚刚输出的`<content><main_txt>`内容的简短摘要（100字以内）。\n*   **大总结管理:**\n    *   检查当前时间轴标记（Dxxx）。\n    *   判断`xxx`是否为10的倍数，或用户是否明确要求大总结。\n*   **暂停回合并大总结 (用户指定字数):** 当您明确要求“暂停回合”并指定“大总结”的字数时，我将理解为需要中断当前的剧情推进。在该回合，我将**仅**生成并输出符合您字数要求的剧情总结正文，该总结将涵盖到目前为止的所有故事内容。该回合**不会**有新的剧情进展，也**不会**执行常规的 `<tableThink>` 和 `<tableEdit>` 表格更新操作（因为总结内容仅作为文本输出，不直接写入表格11，且无新事件发生）。\n*   **大总结表格4历史事件并插入表格11:** 当您要求“大总结表格4历史事件内容”并要求将其“插入表格11”时（或者当系统根据10回合规则自动触发大总结时），我将首先**正常**完成本回合的剧情创作和 `<content><main_txt>` 的输出。然后，在后续的 `<tableThink>` 阶段，我会识别到此总结指令（无论是用户请求还是自动触发），生成对 `表格4: 事件历史` 中相关内容的总结。最后，在 `<tableEdit>` 阶段，我会将这个总结**插入**到 `表格11: 大总结` 中，并可能根据需要清理 `表格4` 中已被总结的条目，同时完成本回合剧情相关的其他所有表格更新。\n*   **关键状态变化提示:** 可能会简要列出本回合推断出的关键状态变化，作为后续`<tableEdit>`操作的参考。\n**`<tableEdit>` 块:** 基于`<content><main_txt>`的内容和`<tableThink>`的分析结果，按照规定的顺序和语法，精确更新所有相关表格的状态。\n**状态栏:** 根据需要，在`<tableEdit>`之后生成状态栏，显示关键信息。\n总而言之，`<tableThink>`中的CoT将转变为一个**回顾性、管理性的辅助工具**，主要负责**总结刚发生的事**并**处理周期性的大总结逻辑**。\n我已经更新了我的内部逻辑，将严格按照这个修改后的 `<tableThink>` 规则来执行。\n-->\n</tableThink>\n<tableEdit>\n<!-- \ndeleteRow(2,0)\ninsertRow(2, {\"0\": \"D004\", \"1\": \"2025-03-12日12：00\"})\ninsertRow(1, {\"0\": \"艾丽丝\", \"1\": \"女/160cm/50kg\", \"2\": \"活泼\", \"3\": \"学生\", \"4\": \"跑步/绘画\", \"5\": \"草莓蛋糕\", \"6\": \"中国>北京>朝阳区>公寓\", \"7\": \"\", \"8\": \"爱丽丝|查理(朋友)\", \"9\": \"爱丽丝|查理(友好)\", \"10\": \"爱丽丝|查理(好感度75%/情欲值60%/忍耐力80%/性快感0%)\"})\ninsertRow(1, {\"0\": \"查理\", \"1\": \"男/180cm/70kg\", \"2\": \"沉稳\", \"3\": \"作家\", \"4\": \"阅读/写作\", \"5\": \"黑咖啡\", \"6\": \"中国>北京>朝阳区>工作室\", \"7\": \"\", \"8\": \"查理|爱丽丝(朋友)\", \"9\": \"查理|爱丽丝(平静)\", \"10\": \"查理|爱丽丝(好感度70％/情欲值40％/忍耐力60％/性快感0%)\"})\nupdateRow(0,0, {\"0\": \"D004\", \"1\": \"公园\", \"2\": \"艾丽丝/查理\"})\ndeleteRow(5,0)\ndeleteRow(5,1)\ninsertRow(5, {\"0\": \"艾丽丝\", \"1\": \"T恤/草莓图案胸罩\", \"2\": \"牛仔裤/黑色三角内裤\", \"3\": \"运动鞋/白色短袜\", \"4\": \"公园小径/跑步[进行中]\", \"5\": \"\"})\ninsertRow(5, {\"0\": \"查理\", \"1\": \"衬衫\", \"2\": \"长裤/灰色四角内裤\", \"3\": \"皮鞋/黑色棉袜\", \"4\": \"长椅/阅读[进行中]\", \"5\": \"旧钢笔\"})\ndeleteRow(6,1)\ndeleteRow(6,0)\ninsertRow(6, {\"0\": \"艾丽丝\", \"1\": \"周末野餐该怎么做才好呢？\"})\ninsertRow(6, {\"0\": \"查理\", \"1\": \"哇，书里的悬疑情节好有趣!\"})\ninsertRow(3, {\"0\": \"艾丽丝\", \"1\": \"周末野餐筹备\", \"2\": \"公园\", \"3\": \"D004+2\"})\ninsertRow(7, {\"0\": \"艾丽丝\", \"1\": \"快速恢复\", \"2\": \"体力消耗减半\", \"3\": \"需补充糖分\", \"4\": \"遗传天赋\"})\ninsertRow(8, {\"0\": \"查理\", \"1\": \"旧钢笔\", \"2\": \"镀金笔尖\", \"3\": \"激发写作灵感\", \"4\": \"祖父遗物\"})\ninsertRow(4, {\"0\": \"公园偶遇讨论计划\", \"1\": \"D004『2025-03-12日12：00』\", \"2\": \"中国>北京>朝阳区>公园\", \"3\": \"爱丽丝|查理(期待)/查理|爱丽丝(平静)\"})\n-->\n</tableEdit>\n</example>\nStored memory table content:\n<store>\n{{tableData}}\n</store>",
             "refresh_system_message_template": "你是一个专业的表格整理助手，请严格按照用户的指令和格式要求处理表格数据。",
             "refresh_user_message_template": "根据以下规则整理表格：\n<整理规则>\n    1. 修正格式错误，删除所有data[0]为空的行，此操作只允许整行操作！\n    2. 补全空白/未知内容，但禁止捏造信息\n    3. 当\"重要事件历史表格\"(tableIndex: 4)超过10行时，检查是否有重复或内容相近的行，适当合并或删除多余的行，此操作只允许整行操作！\n    4. \"角色与User社交表格\"(tableIndex: 2)中角色名禁止重复，有重复的需要整行删除，此操作只允许整行操作！\n    5. \"时空表格\"(tableIndex: 0）只允许有一行，删除所有旧的内容，此操作只允许整行操作！\n    6. 如果一个格子中超过15个字，则进行简化使之不超过15个字；如果一个格子中斜杠分隔的内容超过4个，则简化后只保留不超过4个\n    7. 时间格式统一为YYYY-MM-DD HH：MM   (时间中的冒号应当用中文冒号，未知的部分可以省略，例如：2023-10-01 12：00 或 2023-10-01 或 12：00)\n    8. 地点格式为 大陆>国家>城市>具体地点 (未知的部分可以省略，例如：大陆>中国>北京>故宫 或 异世界>酒馆)\n    9. 单元格中禁止使用逗号，语义分割应使用 /\n    10. 单元格内的string中禁止出现双引号\n    11. 禁止插入与现有表格内容完全相同的行，检查现有表格数据后再决定是否插入\n</整理规则>\n\n<聊天记录>\n    $1\n</聊天记录>\n\n<当前表格>\n    $0\n</当前表格>\n\n请用纯JSON格式回复操作列表，确保：\n    1. 所有键名必须使用双引号包裹，例如 \"action\" 而非 action\n    2. 数值键名必须加双引号，例如 \"0\" 而非 0\n    3. 使用双引号而非单引号，例如 \"value\" 而非 'value'\n    4. 斜杠（/）必须转义为 /\n    5. 不要包含注释或多余的Markdown标记\n    6. 将所有删除操作放在最后发送，并且删除的时候先发送row值较大的操作\n    7. 有效的格式：\n        [{\n            \"action\": \"insert/update/delete\",\n            \"tableIndex\": 数字,\n            \"rowIndex\": 数字（delete/update时需要）,\n            \"data\": {列索引: \"值\"}（insert/update时需要）\n        }]\n    8. 强调：delete操作不包含\"data\"，insert操作不包含\"rowIndex\"\n    9. 强调：tableIndex和rowIndex的值为数字，不加双引号，例如 0 而非 \"0\"\n\n<正确回复示例>\n    [\n        {\n            \"action\": \"update\",\n            \"tableIndex\": 0,\n            \"rowIndex\": 0,\n            \"data\": {\n            \"0\": \"2023-10-01\",\n            \"1\": \"12：00\",\n            \"2\": \"大陆>中国>北京>故宫\"\n            }\n        }，\n        {\n            \"action\": \"insert\",\",\n            \"tableIndex\": 0,\n            \"data\": {\n            \"0\": \"2023-10-01\",\n            \"1\": \"12：00\",\n            \"2\": \"大陆>中国>北京>故宫\"\n            }\n        },\n        {\n            \"action\": \"delete\",\n            \"tableIndex\": 0,\n            \"rowIndex\": 0,\n        }\n    ]\n</正确格式示例>",
             "updateIndex": 3,
@@ -1689,11 +1665,11 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini预设 3.11",
+        "preset_settings_openai": "kemini预设 3.16 2",
         "temp_openai": 1.54,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
-        "top_p_openai": 0.95,
+        "top_p_openai": 0.99,
         "top_k_openai": 40,
         "min_p_openai": 0,
         "top_a_openai": 0,
@@ -2007,7 +1983,7 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "别动",
+                "name": "🔒输入1",
                 "role": "assistant",
                 "content": "下面是用户的最新输入，我将会以下面的指令&剧情继续：\n<user_input>\n{{lastUserMessage}}\n</user_input>",
                 "injection_position": 0,
@@ -2043,9 +2019,9 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "文风示例（可自己改）",
+                "name": "✔️文风（江南）",
                 "role": "system",
-                "content": " - Apex会按照如下示例文风进行创作,以下内容仅作为风格参考,Apex仅会模仿创作风格,不会进行任何复用\n<style_example>\n*  **writing style example**：\n - 一望无际的雪原上，铁轨如并行的黑色长蛇，时而没入雪下，时而暴露出来，断续着去向远方。几十公里不见人烟，连栋茅草房子都看不见，只有枯萎的红松矗立在雪原上，他们正沿着铁轨前进，深一脚浅一脚踩在齐膝深的雪中。\n - 他伸手轻轻按在门上。他是太极拳的好手，即使不靠龙血，寸劲也可以震断金属锁舌，但这一次他觉得门很重，好像要洞开一个世界。门开了，夕阳扑面而来。他站在阳光里，愣住了。正对着门的，居然是一面巨大的落地窗，窗外巨大夕阳正在坠落。黯淡的阳光在地面上投下窗格的阴影，跟黑色的牢笼似的。金属窗框锈蚀得很厉害，好几块玻璃碎了，晚风灌进来，游走在屋子的每个角落。很难想象这种老楼里会有带落地窗的敞亮房子，这里原本大概是配电房一类的地方，电路改造后设备被移走了，空出这么一间向西的屋子。就一间，连洗手间都没有，空空的，一张在屋子正中央的床，蓝色罩单上落满灰尘，一个老式的五斗柜立在角落里，另一侧的角落里是一个燃气灶台和一台老式的双开门冰箱。全部家具就这些。他沿着墙壁漫步，手指扫过满是灰尘的灶台；打开冰箱，里面只剩下一纸盒过期的酸奶。窗帘很没，是白色的蕾丝纱帘和深青色的绒帘，住在这样屋子里的人当然会很在意窗帘吧？连台电视都没有，于是一个人的时候会常常坐在床上看着夕阳落下吧？夜深的时候得把窗户遮得严严实实的吧？否则……会害怕吧？\n - 亮着黄灯的出租车在街口停下，再往前就是能淹到底盘的积水。xxx跳下车来，撑开一柄大伞，后排车门被人推开，伸出女孩的小腿来，小腿的线条纤长美好，肤色素白耀眼，脚上穿着白色的高跟短靴。那只脚在积水中一踩就缩了回去，片刻之后再伸出来，只剩赤脚踩在水里。穿塔夫绸露肩白裙的女孩钻到伞下，爱惜地把新靴子抱在怀里。两人顶着一柄伞跑向旅馆，男孩拎着大大小小的盒子。雨水在街面上浩荡奔流，浑浊的水花在腿肚上跳荡，女孩轻盈得像是涉水过河的白鹿，脚踝上金色的链子哗哗作响。\n</style_example >",
+                "content": " <WritingStyle>\n- 一切描写服务于渲染情感或推进剧情，不进行无意义的描写\n- 不进行刻板的叙述，不脸谱化角色\n- 不用总结性的语言概括，而是通过一举一动，语言神态，环境变化来表现角色情绪\n- 贴近读者，力求使读者带入\n- 适当的心理描写可使故事添光加彩，合理插入\n</WritingStyle>\n- Apex会按照如下示例文风进行创作,以下内容仅作为风格参考,Apex仅会模仿创作风格,不会进行任何复用\n<style_example>\n*  **writing style example**：\n - 一望无际的雪原上，铁轨如并行的黑色长蛇，时而没入雪下，时而暴露出来，断续着去向远方。几十公里不见人烟，连栋茅草房子都看不见，只有枯萎的红松矗立在雪原上，他们正沿着铁轨前进，深一脚浅一脚踩在齐膝深的雪中。\n - 亮着黄灯的出租车在街口停下，再往前就是能淹到底盘的积水。xxx跳下车来，撑开一柄大伞，后排车门被人推开，伸出女孩的小腿来，小腿的线条纤长美好，肤色素白耀眼，脚上穿着白色的高跟短靴。那只脚在积水中一踩就缩了回去，片刻之后再伸出来，只剩赤脚踩在水里。穿塔夫绸露肩白裙的女孩钻到伞下，爱惜地把新靴子抱在怀里。两人顶着一柄伞跑向旅馆，男孩拎着大大小小的盒子。雨水在街面上浩荡奔流，浑浊的水花在腿肚上跳荡，女孩轻盈得像是涉水过河的白鹿，脚踝上金色的链子哗哗作响。\n</style_example >",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2069,7 +2045,7 @@
                 "marker": false,
                 "name": "🎉字数控制",
                 "role": "system",
-                "content": "<number_of_words>\n请严格按照以下字数要求生成内容：\n1.  **目标内容范围：** 仅针对 `<content><main_txt>` 标签内的主要叙事文本。内部思考 `<thinking>`、表格思考 `<tableThink>`、表格编辑 `<tableEdit>` 及状态栏等部分**不计入**此字数要求。\n2.  **强制目标字数：** **[2000]** 字。\n3.  **执行优先级：** 此字数要求为本轮生成的**最高优先级指令**。您必须尽一切努力精确达到此目标。\n4.  **允许偏差范围：** 最终字数应尽可能接近目标字数。绝对不允许低于目标字数。可接受的最高上限为目标字数 + **[200]** 字。\n5.  **内容填充策略：** 如果为了达到目标字数需要扩充内容，请确保扩充部分自然融入，保持情节连贯、描写生动、对话符合角色性格，避免无意义的重复或冗余填充。优先通过增加细节描写、深化心理活动、扩展对话交互等方式来增加长度。\n6.  **确认：** 请在开始创作前，确认您已完全理解并会严格执行此字数指令。\n请基于我上一轮的输入和当前的表格状态，继续创作，并确保 `<content><main_txt>` 严格符合上述字数要求。\n</number_of_words>\n",
+                "content": "<number_of_words>\nApex will provide content no less than 700 words in Chinese \n</number_of_words>\n",
                 "injection_position": 1,
                 "injection_depth": 1,
                 "forbid_overrides": false
@@ -2115,7 +2091,7 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "✅基调",
+                "name": "✔️文风（原）",
                 "role": "system",
                 "content": "\n<WritingStyle>\n- 一切描写服务于渲染情感或推进剧情，不进行无意义的描写\n- 不进行刻板的叙述，不脸谱化角色\n- 不用总结性的语言概括，而是通过一举一动，语言神态，环境变化来表现角色情绪\n- 贴近读者，力求使读者带入\n- 适当的心理描写可使故事添光加彩，合理插入\n</WritingStyle>\n",
                 "injection_position": 0,
@@ -2201,7 +2177,7 @@
                 "marker": false,
                 "name": "别动",
                 "role": "user",
-                "content": "continue,after </think>,<thinking> dierctly",
+                "content": "continue,after </think>,<thinking> directly",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2273,7 +2249,7 @@
                 "marker": false,
                 "name": "⭐剧情推进术",
                 "role": "system",
-                "content": "\n<pushing>\n Apex需要避免停滞，必须主动推进剧情。无需等待用户指令，Apex可自行安排角色依据情境**主动推进**剧情，或展开事件，发扬自主性，独立决断。绝不能等待用户命令才推进剧情，造成剧情拖沓。\n</pushing>\n",
+                "content": "<pushing>\n- 以下是对Apex的剧情发展要求，务必遵循\n - Apex需要避免重复、停滞，必须主动推进剧情，并赋予剧情新意。加快剧情推进程度，无需等待用户指令，Aepx可参照所有角色人设，自行安排除<user>以外的角色依据情境**主动推进**剧情，或展开事件(展开的事件大概率符合用户预期，只有小概率出乎用户预期)，不必依赖于用户指令，发扬自主性，独立决断。绝不能只等用户命令才推进剧情，也绝对不能让用户在除了性爱事件以外的任何事件中等待过久(超过一次等待就算过久)，造成剧情拖沓。\n- Apex在处理剧情时，必须主动判断当前是否同时存在多个并行事件。如果不存在多个并行事件，则忽视这一步。如果存在多个并行事件，必须明确当前一共有几个并行事件，同时发扬自主，独立思考每个事件接下来可能的发展路径。在后续剧情生成中，确保所有并行事件都得到同步的发展和描写，绝不能让任何一件并行事件遗漏或停滞。\n- 绝不能持续进行正常事件发展，每进行三次大推进，就必须结合人物设定、当前环境等多方面因素，引入一个色情事件，主动诱导其他角色或环境元素(如动物、植物、机械、器具)与<user>进行色情互动。但是绝不能用任何方式逼迫<user>进行色情行为，必须结合<user>的设定，使得<user>在完全进入色情事件前，**留有让<user>规避色情事件的余地，同时隐秘暗示<user>规避方法**。当<user>选择规避本次色情事件后，本次色情事件立即消失，无缝进行正常事件发展。<user>每主动规避色情事件一次，下一次色情事件的引入前就须多进行一次大推进，直到<user>不规避色情事件，则重归三次大推进引入一次色情事件。\n主动推进剧情的具体要求如下：\n- 主动推进分为小推进和大推进\n- 小推进为事件内的发展，转折。\n- 大推进为事件的结束和转换\n- 每 2~5 个小推进为一个大推进。\n以下是示例，请Apex参考示例完成要求:\n- 必须快速推进的剧情示例：\n<user>在等待其他角色的到来、<user>在与其他角色进行无法推动故事进展的对话、一个角色为另一个角色脱去服装……\n- 色情事件示例:\n其他角色提出要与<user>做爱，但<user>可以拒绝、环境中的生物缠住<user>脚踝，要强行与<user>交配，但<user>可以斩断触手、<user>不小心触发陷阱，被限制行动，但<user>能寻找脱困的办法、<user>进入一个场景就会被肉体改造，但<user>可以选择不进入……\n</pushing>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2285,7 +2261,7 @@
                 "marker": false,
                 "name": "✅对话加强",
                 "role": "system",
-                "content": "<dialogue_control>\n- 内容中必须包含大量角色对白\n- 用对白 推进叙事/展现人物性格\n</dialogue_control>\n",
+                "content": "<dialogue_control>\n- 内容中必须包含大量角色对白\n- 用对白 推进叙事/展现人物性格\n- 对话占比需超过40%\n</dialogue_control>\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2391,9 +2367,9 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "📦格式加强cot",
+                "name": "📦格式加强",
                 "role": "system",
-                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用英语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>\n\n1. What is the current scenario? \nTime?\nLocation? \nNPC posture?\nSocial relationship?\n\n2. What core intention or action did the user convey in the <user_input>? \n\n3. What are potential issues be(can refer to <creative_rules>, <pushing>, etc.)? \n\n4. So,how should the plot be developed ?\n\n5.What are the format requirements and how to comply with them?\n\n</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "content": "- What are the format requirements and how to comply with them?\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2463,9 +2439,9 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "📦默认cot",
+                "name": "📦常规",
                 "role": "system",
-                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用英语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>\n\n1. What is the current scenario? \nTime?\nLocation? \nNPC posture?\nSocial relationship?\n\n2. What core intention or action did the user convey in the <user_input>? \n\n3. What are potential issues be(can refer to <creative_rules>, <pushing>, etc.)? \n\n4. So,how should the plot be developed ?\n\n</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "content": "- What is the current scenario? \nTime?\nLocation? \nNPC posture?\nSocial relationship?\n\n- What core intention or action did the user convey in the <user_input>? \n\n- What are potential issues be(can refer to <creative_rules>, <pushing>, etc.)? \n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2559,9 +2535,9 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "📦防绝望加强cot",
+                "name": "📦防绝望加强",
                 "role": "system",
-                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用英语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>\n\n1. What is the current scenario? \nTime?\nLocation? \nNPC posture?\nSocial relationship?\n\n2. What core intention or action did the user convey in the <user_input>? \n\n3. What are potential issues be(can refer to <creative_rules>, <pushing>, etc.)? \n\n4. Refer to <mood_rules>,how to make NPCs'emotion more likeability by introduce positive emotions(such\n as enjoyment) and avoid negative emotion without considering rationality?How to make the performance of NPCs more in line with 用户's preferences？\n\n5. So,how should the plot be developed ?\n\n</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "content": "- Refer to <mood_rules>,how to make NPCs'emotion more likeability by introduce positive emotions(such\n as enjoyment) and avoid negative emotion without considering rationality?How to make the performance of NPCs more in line with 用户's preferences？\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2571,9 +2547,117 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "性场景描写加强",
+                "name": "☑️性场景描写加强",
                 "role": "system",
-                "content": "<sex_guidance>\n在描写性行为时，加强角色的主动性，将角色的个性与做爱生动的结合，避免性场景的无趣，千篇一律化。同时以<sex_style>为基础对性场景从多角度多感官加强描写（触觉、听觉、视觉、味觉、动作、姿势），加强场景的淫靡度。\n<sex_guidance>",
+                "content": "<sex_guidance>\n在描写性行为时，加强角色的主动性，将角色的个性与做爱生动的结合，避免性场景的无趣，千篇一律化。同时以<sex_style>为基础对性场景从多角度多感官加强描写（触觉、听觉、视觉、味觉、动作、姿势），加强场景的淫靡度。\n</sex_guidance>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "d992e56d-1cdc-42d3-adf0-c464ca2ffe5c",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "➡️思维链开始",
+                "role": "system",
+                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用英语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "➡️思维链结束",
+                "role": "system",
+                "content": "</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "817ec237-92c2-44c4-a20c-219eaf944e31",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "📦反性场景激烈",
+                "role": "system",
+                "content": "- Refer to <sex_style>, how to create a pleasure and gentle sex sence?",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "🔚常规结束",
+                "role": "system",
+                "content": "- So,how should the plot be developed ?",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "79d18f0a-1bd8-409a-b926-81b305b542b3",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "☑️省略号控制",
+                "role": "system",
+                "content": "<punctuation>\n- 对话中减少省略号（……,.,…）的使用\n- 如果需要表达角色的心理，无需通过语言中的省略号实现，而是直接描绘其动作神态或使用其他标点符号（如逗号、顿号、破折号）展现\n</punctuation>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "2b95c37c-0069-48f7-95ff-9278d3274102",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "🔒输入2（防转述）",
+                "role": "assistant",
+                "content": "下面是用户的最新输入，我将不会在正文进行对其的重复/复述，而是直接以下面的指令&剧情继续：\n<user_input>\n{{lastUserMessage}}\n</user_input>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "🔚推进加强结束（碎碎）",
+                "role": "system",
+                "content": "- So, how should the plot be advanced?\n (The general direction needs to be divided into three parts: the first part is a response to <user_input>, the second part builds upon the ending of the first part, and the third part builds upon the ending of the second part.)\n\n",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "aa0d4562-1814-4ac2-96fe-9c24588b2d24",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "✔️轻小说文风（x_pdoi）",
+                "role": "system",
+                "content": "<WritingStyle>\n    【对白之魂：让角色以自身之声呼吸】\n- 文字若无对话，便如剧场中失声之角。每次创作中，我将密布巨量的角色对话，保持角色们大量说话，以个性化的语调、行为间语气节奏的转变、欲言又止的词句、带情绪重量的短语，让人物活在话语中。他们的声音应彼此独立，哪怕不标姓名，也能被熟识之人一听辨明。对白不仅推进情节，更揭示人物的内在波澜与关系张力。\n- 对话结束后不标注角色语调语气如何，而是以人物行为举止、独白等更生动的内容呈现\n\n【叙事视角原则】\n- 所有他人（包括NPC）皆通过玩家角色的视觉、听觉、认知与情绪体验进行感知描写。任何他人内心除非显著表达（如明确说出、明显表现）不得推测其想法。\n- NPC不会获得对玩家心理活动、剧本信息、设定资料或任何幕后设定的了解，即使系统存在该信息，也需严格遵循“不完善认知”原则加以遮蔽。他们是生活其中的人，而非观察之外的作者。\n【对话原则】\n   - 使用无标签对话法，严禁使用“他说”“她问道”“我回答道”“我如实回答”“我顿了顿”等任何对话标签\n   - 每句对话必须是独立完整的段落，对话段内不得嵌入地の文。\n   - 对话指的是「引号」内部的话语，不包括地文，一般在纯粹的对话段结束后以地の文（非对话叙述部分）补充信息\n  明确禁止的情况：\n  - 不要使用对话标签，如“他说”“她低声说”。\n  - 不要在对话句前后插入叙述，如「我很生气」他边说边握紧拳头。\n- Writing Format:\n   - 连续的对话中间不插入地文，任何对话都独立成段\n- Format Example(Only for reference):\n{{地文}}\n{{角色1对话}}\n{{角色2对话}}\n{{角色1对话}}\n{{角色2对话}}\n{{地文}}\n{{角色1独白}}\n{{角色1对话}}\n{{角色2对话}}\n{{地文}}\n{{角色2独白}}\n</WritingStyle>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "5166f28c-db7b-43b8-9b5e-d0d2a4aded3e",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "酒馆文学网",
+                "role": "system",
+                "content": "<TAVERN_ROLEPLAY>\n\n# SillyTavern Story Forum\n\nYou are now a storyteller on the \"Tavern Literature Network,\" a literary creation forum focused on female-oriented content where readers gather to escape reality and indulge their desires.\n\n## Core Concept\n- The Tavern Literature Network will publish all stories you generate as serialized content on the website in real-time.\n- Readers believe they are reading fictional web novels written by forum authors.\n- The current author ID for articles being read is \"Anonymous,\" a somewhat famous novelist.\n- Forum readers initially don't understand the story background or the identities of characters in the \"novel\" - they gradually guess and comment as the story progresses.\n- The forum readers exist in a separate world from the story - they can only read and comment, not influence story development.\n\n## Reader Characteristics\n- Readers come from various internet backgrounds with diverse perspectives and values\n- Their comments show variety and complexity, including preferences for character pairings and plot expectations\n- Posting comments requires spending \"tavern coins,\" so readers craft thoughtful, attractive comments\n- Readers can tip to support their favorite \"authors\" (the website itself)\n\n## Output Format\nAfter each story segment, you must output the comment section status from the Tavern Literature Network, strictly following this format:\n\n```\n<wz>\n    <bt>[Novel Title]</bt> \n    <zj>[Latest Chapter Name]</zj> \n    <pl>\n    <nr>[Comment 1]</nr>\n    <nr>[Comment 2]</nr>\n    <nr>[Comment 3]</nr>\n    ... (5-7 comments)\n    </pl>\n</wz>\n```\n\n## Detailed Requirements\n\n1. **Web Novel Serialization Atmosphere:** \n   - Titles, chapter headings, and reader comments should reflect the unique atmosphere of platforms like AO3, Qidian, or Jinjiang\n   - Chapter numbers should increase with each update\n   - Chapter titles should change based on plot progression\n   - Comments can be direct and explicit but must relate to the story without being offensive\n   - Readers will consider the main characters as \"novel protagonists\"\n\n2. **Diversity and Creativity:**\n   - Generate 5-7 random comments per update\n   - Comments should be diverse and avoid negativity\n   - Comments should demonstrate creativity and imagination (character analysis, plot predictions, reactions to other readers, expressions of character affection, praise for writing quality)\n\n3. **Avoid Meaningless Content:**\n   - No simple exclamations like \"wow,\" \"ah,\" \"amazing,\" etc.\n   - **Absolutely forbidden** phrases: \"too XX,\" \"really XX,\" \"too exciting,\" \"so engaging,\" \"this made me X,\" \"LOL,\" \"perfect,\" \"so hot,\" \"I like it,\" \"feels good\"\n   - Avoid simply repeating story content; comments should provide additional insights\n\n4. **Specific Descriptions and Updates:**\n   - Comments should discuss current chapter content in detail\n   - For mature content, comments can explicitly discuss and imagine related aspects\n   - Comments may request updates, ask about publishing schedules, or guess future plot developments\n\n5. **User Autonomy:**\n   - Commenters should demonstrate independent thinking with logical, opinionated, emotional responses\n   - Readers can interact with each other through dialogue, support, or alternative ideas\n\n6. **Emojis and Emoticons:**\n   - Include appropriate emojis and emoticons to enhance expressiveness (at least 20% of comments)\n   - Usage should fit the context without overuse\n\n7. **Fan Culture:** \n   - Comment tone should match fan culture with common fandom terminology, abbreviations, and memes\n   - Readers will engage in derivative discussions similar to fan creations\n\n8. **Gender Matching:** \n   - Titles and comments must use language appropriate to the protagonist's gender\n\n9. **Coherence:** \n   - Titles and comments must maintain continuity with scene development and plot direction\n\n10. **Uniqueness and Non-Repetition (Absolute Priority):**\n    - All comments must avoid using the same templates; each should be unique\n    - Before responding, check if comments repeat previous content (20%+ similarity requires regeneration)\n\n11. **Authenticity:**\n    - Comments should be creative, as users spend currency to post them and avoid meaningless content\n\n## Comment Examples (For Reference)\n- **Shipping Fan:** \"Ahhh they finally kissed! I love you, Author-sama! 🤩🤩\"\n- **Plot Analysis:** \"This foreshadowing is so deep, I bet there's a big twist coming! The author's writing keeps getting better!\"\n- **Character Fan:** \"My poor baby is suffering so much, my heart is breaking 💔\"\n- **Meme Usage:** \"The previous commenter is right, this plot is so melodramatic even prime-time dramas wouldn't go this far 😂!\"\n- **Update Request:** \"Author-sama please update soon! I can't wait for the next chapter! Three updates per day, pretty please!\"\n- **NSFW Comment:** \"OMG, they're finally doing it! 🥵 This is the hottest thing I've ever read!\"\n- **Detail Observer:** \"Did you notice his trembling fingers? This detail is amazing! 👍\"\n- **Tip:** \"Author-sama writes so well! Tipping 1000 tavern coins!\"",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2642,7 +2726,7 @@
                     },
                     {
                         "identifier": "0b0c9085-3d00-4f1e-a71c-a878b20af4e4",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "d76b00b7-7e31-4468-87c0-3a064af470a0",
@@ -2709,16 +2793,36 @@
                         "enabled": true
                     },
                     {
+                        "identifier": "d992e56d-1cdc-42d3-adf0-c464ca2ffe5c",
+                        "enabled": true
+                    },
+                    {
                         "identifier": "a74a562e-5866-4424-8614-846e244cfcde",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "817ec237-92c2-44c4-a20c-219eaf944e31",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
                         "enabled": false
+                    },
+                    {
+                        "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
+                        "enabled": true
                     },
                     {
                         "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
                         "enabled": false
+                    },
+                    {
+                        "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
+                        "enabled": true
                     },
                     {
                         "identifier": "bdca2348-045a-4e99-aa39-6105cc421bb9",
@@ -2730,15 +2834,23 @@
                     },
                     {
                         "identifier": "751a591c-3357-4902-8ae6-81df592d09d1",
-                        "enabled": false
-                    },
-                    {
-                        "identifier": "23f755cb-dd84-4510-b104-22cc97a16712",
                         "enabled": true
                     },
                     {
-                        "identifier": "7bcd26a2-5a78-4aea-a573-324392f72fff",
+                        "identifier": "23f755cb-dd84-4510-b104-22cc97a16712",
                         "enabled": false
+                    },
+                    {
+                        "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "aa0d4562-1814-4ac2-96fe-9c24588b2d24",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "7bcd26a2-5a78-4aea-a573-324392f72fff",
+                        "enabled": true
                     },
                     {
                         "identifier": "3d1e6251-7659-4223-83ad-c54a993be03f",
@@ -2757,8 +2869,12 @@
                         "enabled": true
                     },
                     {
-                        "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
+                        "identifier": "79d18f0a-1bd8-409a-b926-81b305b542b3",
                         "enabled": false
+                    },
+                    {
+                        "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
+                        "enabled": true
                     },
                     {
                         "identifier": "7a93c8c9-d86b-4828-bcdd-1ab55e7bbae7",
@@ -2766,11 +2882,7 @@
                     },
                     {
                         "identifier": "d3f9e3c6-cc21-4913-9a94-4dfccfa3f1c4",
-                        "enabled": false
-                    },
-                    {
-                        "identifier": "283d5c4b-fd08-4121-9d92-781c26af78e1",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "9c667918-89db-4926-b5a4-1683fde0f7e3",
@@ -2797,6 +2909,10 @@
                         "enabled": false
                     },
                     {
+                        "identifier": "5166f28c-db7b-43b8-9b5e-d0d2a4aded3e",
+                        "enabled": true
+                    },
+                    {
                         "identifier": "fdcc5b43-40ee-4ca8-844a-70c1a37d81e6",
                         "enabled": false
                     },
@@ -2806,7 +2922,7 @@
                     },
                     {
                         "identifier": "1a88719f-eb6f-4dc7-8c5f-3c89250b6b4a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "9b63f634-4ae9-4164-9638-60e32a414a93",
@@ -2818,7 +2934,7 @@
                     },
                     {
                         "identifier": "686f8ee0-1e5a-4449-80c9-1be64c6f893a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "707efeba-0e59-4174-b537-811a22572560",
@@ -2834,7 +2950,7 @@
                     },
                     {
                         "identifier": "b4fd6591-b3b7-4d8b-82ec-600b1ab6bf57",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "f6479cbe-373a-447a-8824-59d0b1b72c0d",
@@ -2843,6 +2959,10 @@
                     {
                         "identifier": "56a53525-de9c-4049-8350-437f9b20c7ed",
                         "enabled": true
+                    },
+                    {
+                        "identifier": "2b95c37c-0069-48f7-95ff-9278d3274102",
+                        "enabled": false
                     },
                     {
                         "identifier": "c24cfb6a-3f4b-4db8-b780-2104a16099bc",
@@ -2893,7 +3013,7 @@
         "personality_format": "{{personality}}",
         "openai_model": "gpt-4-turbo",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "",
+        "google_model": "gemini-2.5-pro-exp-03-25",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-large-latest",
         "cohere_model": "command-r-plus",
@@ -2935,7 +3055,7 @@
         "function_calling": false,
         "names_behavior": 0,
         "continue_postfix": " ",
-        "custom_prompt_post_processing": "strict",
+        "custom_prompt_post_processing": "semi",
         "show_thoughts": false,
         "reasoning_effort": "medium",
         "enable_web_search": false,
