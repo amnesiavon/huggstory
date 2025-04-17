@@ -1667,7 +1667,7 @@
         "preset_settings_openai": "kemini预设 3.15 (1)",
         "temp_openai": 1.54,
         "freq_pen_openai": 0,
-        "pres_pen_openai": -0.05,
+        "pres_pen_openai": 0.34,
         "top_p_openai": 0.99,
         "top_k_openai": 40,
         "min_p_openai": 0,
