@@ -54,7 +54,8 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "hq手机0403"
+                "hq手机0403",
+                "地图导航模块"
             ],
             "charLore": []
         },
