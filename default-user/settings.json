@@ -251,7 +251,7 @@
         "fast_ui_mode": false,
         "avatar_style": 2,
         "chat_display": 1,
-        "chat_width": 62,
+        "chat_width": 54,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -2786,11 +2786,11 @@
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "817ec237-92c2-44c4-a20c-219eaf944e31",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
