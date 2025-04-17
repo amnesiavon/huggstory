@@ -642,23 +642,6 @@
                 "maxDepth": null
             },
             {
-                "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
-                "scriptName": "[不发送]导航",
-                "findRegex": "/(?:```\\s*<map_data>|map_data).*(?:<\\/map_data>\\s*```|map_data)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": false,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "ae21f6aa-400a-4d4b-b5e5-1ebc0dcbdc05",
                 "scriptName": "UI融合·论坛风格",
                 "findRegex": "/<wz>\\s*<bt>([\\s\\S]*?)<\\/bt>\\s*<zj>([\\s\\S]*?)<\\/zj>\\s*<pl>([\\s\\S]*?)<\\/pl>\\s*<\\/wz>/",
