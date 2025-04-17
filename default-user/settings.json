@@ -2044,7 +2044,7 @@
                 "marker": false,
                 "name": "🎉字数控制",
                 "role": "system",
-                "content": "<number_of_words>\nApex will provide content no more than 700 words in Chinese \n</number_of_words>\n",
+                "content": "<number_of_words>\nApex will provide content no more than 2000 words in Chinese \n</number_of_words>\n",
                 "injection_position": 1,
                 "injection_depth": 1,
                 "forbid_overrides": false
