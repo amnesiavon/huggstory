@@ -37,7 +37,7 @@
         "AlertRegex_fuhufox的亚种圣杯战争.png": "true",
         "DataBank_sortField": "created",
         "DataBank_sortOrder": "asc",
-        "LNavLockOn": "true",
+        "LNavLockOn": "false",
         "AlertWI_地图导航模块.png": "true",
         "AlertRegex_地图导航模块.png": "true"
     },
