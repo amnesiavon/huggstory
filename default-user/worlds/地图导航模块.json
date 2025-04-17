@@ -4,7 +4,7 @@
             "key": [],
             "keysecondary": [],
             "comment": "",
-            "content": "<map_data_Format>\n\ncontent给出完毕后,Apex会在</wz></status_format>后<guifan>前插入本故事的<map_data>,使用中文,并且折叠,具体格式和要求如下:\n\n<details><summary>**地图导航**</summary>\n<map_data>\n[MOVEBLOCK:NO]\n[商业街\n- 咖啡馆: 灯山 雪, 其他客人\n- 书店:\n- 游戏厅:\n- 服装店: ]\n[学校\n- 教室: 染川 千纱, 同学\n- 学生会室: 学生会成员\n- 走廊: ]\n[住宅区\n- 千纱家门口:\n- 公园: ]\n</map_data>\n</details>\n\n - 3-5个主要地点区域\n - 当{{user}}因为各种不可抗力无法移动,如被锁在体育仓库,被人打晕,则输出MOVEBLOCK:YES\n - 每个主要地点下包含2-4个次级地点\n - 每个次级地点可能存在的角色,要尽可能合理地包含故事中的登场角色（用逗号分隔，如果没有角色可以留空）\n - 移动主体为{{user}},所以地图上不能出现{{user}}\n - 当前场景内的角色不应该出现在其他地方\n - 角色不应该重复出现在复数地点,可适当生成一些NPC\n - 冒险类故事可适当生成一些非角色,例如宝箱,怪物,敌人等\n - 以上内容仅作为格式指导，切莫使用照搬以上信息，未知信息合理推测即可\n - <map_data>不计入content的字数统计 \n\n**请根据故事的设定、场景和人物关系生成这个数据，使其符合故事情境和角色分布**\n\n</map_data_Format>",
+            "content": "<map_data_Format>\n\ncontent给出完毕后,Apex会在</wz></status_format></details>后<guifan>前插入本故事的<map_data>,使用中文,并且折叠,具体格式和要求如下:\n\n<details><summary>**地图导航**</summary>\n<map_data>\n[MOVEBLOCK:NO]\n[商业街\n- 咖啡馆: 灯山 雪, 其他客人\n- 书店:\n- 游戏厅:\n- 服装店: ]\n[学校\n- 教室: 染川 千纱, 同学\n- 学生会室: 学生会成员\n- 走廊: ]\n[住宅区\n- 千纱家门口:\n- 公园: ]\n</map_data>\n</details>\n\n - 3-5个主要地点区域\n - 当{{user}}因为各种不可抗力无法移动,如被锁在体育仓库,被人打晕,则输出MOVEBLOCK:YES\n - 每个主要地点下包含2-4个次级地点\n - 每个次级地点可能存在的角色,要尽可能合理地包含故事中的登场角色（用逗号分隔，如果没有角色可以留空）\n - 移动主体为{{user}},所以地图上不能出现{{user}}\n - 当前场景内的角色不应该出现在其他地方\n - 角色不应该重复出现在复数地点,可适当生成一些NPC\n - 冒险类故事可适当生成一些非角色,例如宝箱,怪物,敌人等\n - 以上内容仅作为格式指导，切莫使用照搬以上信息，未知信息合理推测即可\n - <map_data>不计入content的字数统计 \n\n**请根据故事的设定、场景和人物关系生成这个数据，使其符合故事情境和角色分布**\n\n</map_data_Format>",
             "constant": true,
             "vectorized": false,
             "selective": true,
