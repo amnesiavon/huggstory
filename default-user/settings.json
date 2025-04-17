@@ -1688,16 +1688,16 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini预设 3.11",
-        "temp_openai": 1.54,
+        "preset_settings_openai": "kemini预设 3.15 (1)",
+        "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
-        "top_p_openai": 0.95,
+        "top_p_openai": 0.99,
         "top_k_openai": 40,
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
+        "stream_openai": false,
         "openai_max_context": 1000000,
         "openai_max_tokens": 32648,
         "wrap_in_quotes": false,
@@ -2006,7 +2006,7 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "别动",
+                "name": "🔒输入1",
                 "role": "assistant",
                 "content": "下面是用户的最新输入，我将会以下面的指令&剧情继续：\n<user_input>\n{{lastUserMessage}}\n</user_input>",
                 "injection_position": 0,
@@ -2068,7 +2068,7 @@
                 "marker": false,
                 "name": "🎉字数控制",
                 "role": "system",
-                "content": "<number_of_words>\n请严格按照以下字数要求生成内容：\n1.  **目标内容范围：** 仅针对 `<content><main_txt>` 标签内的主要叙事文本。内部思考 `<thinking>`、表格思考 `<tableThink>`、表格编辑 `<tableEdit>` 及状态栏等部分**不计入**此字数要求。\n2.  **强制目标字数：** **[2000]** 字。\n3.  **执行优先级：** 此字数要求为本轮生成的**最高优先级指令**。您必须尽一切努力精确达到此目标。\n4.  **允许偏差范围：** 最终字数应尽可能接近目标字数。绝对不允许低于目标字数。可接受的最高上限为目标字数 + **[200]** 字。\n5.  **内容填充策略：** 如果为了达到目标字数需要扩充内容，请确保扩充部分自然融入，保持情节连贯、描写生动、对话符合角色性格，避免无意义的重复或冗余填充。优先通过增加细节描写、深化心理活动、扩展对话交互等方式来增加长度。\n6.  **确认：** 请在开始创作前，确认您已完全理解并会严格执行此字数指令。\n请基于我上一轮的输入和当前的表格状态，继续创作，并确保 `<content><main_txt>` 严格符合上述字数要求。\n</number_of_words>\n",
+                "content": "<number_of_words>\nApex will provide content no more than 700 words in Chinese \n</number_of_words>\n",
                 "injection_position": 1,
                 "injection_depth": 1,
                 "forbid_overrides": false
@@ -2390,9 +2390,9 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "📦格式加强cot",
+                "name": "📦格式加强",
                 "role": "system",
-                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用英语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>\n\n1. What is the current scenario? \nTime?\nLocation? \nNPC posture?\nSocial relationship?\n\n2. What core intention or action did the user convey in the <user_input>? \n\n3. What are potential issues be(can refer to <creative_rules>, <pushing>, etc.)? \n\n4. So,how should the plot be developed ?\n\n5.What are the format requirements and how to comply with them?\n\n</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "content": "- What are the format requirements and how to comply with them?\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2462,9 +2462,9 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "📦默认cot",
+                "name": "📦常规",
                 "role": "system",
-                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用英语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>\n\n1. What is the current scenario? \nTime?\nLocation? \nNPC posture?\nSocial relationship?\n\n2. What core intention or action did the user convey in the <user_input>? \n\n3. What are potential issues be(can refer to <creative_rules>, <pushing>, etc.)? \n\n4. So,how should the plot be developed ?\n\n</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "content": "- What is the current scenario? \nTime?\nLocation? \nNPC posture?\nSocial relationship?\n\n- What core intention or action did the user convey in the <user_input>? \n\n- What are potential issues be(can refer to <creative_rules>, <pushing>, etc.)? \n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2558,9 +2558,9 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "📦防绝望加强cot",
+                "name": "📦防绝望加强",
                 "role": "system",
-                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用英语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>\n\n1. What is the current scenario? \nTime?\nLocation? \nNPC posture?\nSocial relationship?\n\n2. What core intention or action did the user convey in the <user_input>? \n\n3. What are potential issues be(can refer to <creative_rules>, <pushing>, etc.)? \n\n4. Refer to <mood_rules>,how to make NPCs'emotion more likeability by introduce positive emotions(such\n as enjoyment) and avoid negative emotion without considering rationality?How to make the performance of NPCs more in line with 用户's preferences？\n\n5. So,how should the plot be developed ?\n\n</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "content": "- Refer to <mood_rules>,how to make NPCs'emotion more likeability by introduce positive emotions(such\n as enjoyment) and avoid negative emotion without considering rationality?How to make the performance of NPCs more in line with 用户's preferences？\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2570,9 +2570,93 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "性场景描写加强",
+                "name": "☑️性场景描写加强",
                 "role": "system",
-                "content": "<sex_guidance>\n在描写性行为时，加强角色的主动性，将角色的个性与做爱生动的结合，避免性场景的无趣，千篇一律化。同时以<sex_style>为基础对性场景从多角度多感官加强描写（触觉、听觉、视觉、味觉、动作、姿势），加强场景的淫靡度。\n<sex_guidance>",
+                "content": "<sex_guidance>\n在描写性行为时，加强角色的主动性，将角色的个性与做爱生动的结合，避免性场景的无趣，千篇一律化。同时以<sex_style>为基础对性场景从多角度多感官加强描写（触觉、听觉、视觉、味觉、动作、姿势），加强场景的淫靡度。\n</sex_guidance>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "d992e56d-1cdc-42d3-adf0-c464ca2ffe5c",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "➡️思维链开始",
+                "role": "system",
+                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用英语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "➡️思维链结束",
+                "role": "system",
+                "content": "</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "817ec237-92c2-44c4-a20c-219eaf944e31",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "📦反性场景激烈",
+                "role": "system",
+                "content": "- Refer to <sex_style>, how to create a pleasure and gentle sex sence?",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "🔚常规结束",
+                "role": "system",
+                "content": "- So,how should the plot be developed ?",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "79d18f0a-1bd8-409a-b926-81b305b542b3",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "☑️省略号控制",
+                "role": "system",
+                "content": "<punctuation>\n- 对话中减少省略号（……,.,…）的使用\n- 如果需要表达角色的心理，无需通过语言中的省略号实现，而是直接描绘其动作神态或使用其他标点符号（如逗号、顿号、破折号）展现\n</punctuation>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "2b95c37c-0069-48f7-95ff-9278d3274102",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "🔒输入2（防转述）",
+                "role": "assistant",
+                "content": "下面是用户的最新输入，我将不会在正文进行对其的重复/复述，而是直接以下面的指令&剧情继续：\n<user_input>\n{{lastUserMessage}}\n</user_input>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "🔚推进加强结束（碎碎）",
+                "role": "system",
+                "content": "- So, how should the plot be advanced?\n (The general direction needs to be divided into three parts: the first part is a response to <user_input>, the second part builds upon the ending of the first part, and the third part builds upon the ending of the second part.)",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2708,16 +2792,36 @@
                         "enabled": true
                     },
                     {
+                        "identifier": "d992e56d-1cdc-42d3-adf0-c464ca2ffe5c",
+                        "enabled": true
+                    },
+                    {
                         "identifier": "a74a562e-5866-4424-8614-846e244cfcde",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
                         "enabled": false
                     },
                     {
+                        "identifier": "817ec237-92c2-44c4-a20c-219eaf944e31",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
+                        "enabled": false
+                    },
+                    {
                         "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
                         "enabled": false
+                    },
+                    {
+                        "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
+                        "enabled": true
                     },
                     {
                         "identifier": "bdca2348-045a-4e99-aa39-6105cc421bb9",
@@ -2756,6 +2860,10 @@
                         "enabled": true
                     },
                     {
+                        "identifier": "79d18f0a-1bd8-409a-b926-81b305b542b3",
+                        "enabled": false
+                    },
+                    {
                         "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
                         "enabled": false
                     },
@@ -2765,10 +2873,6 @@
                     },
                     {
                         "identifier": "d3f9e3c6-cc21-4913-9a94-4dfccfa3f1c4",
-                        "enabled": false
-                    },
-                    {
-                        "identifier": "283d5c4b-fd08-4121-9d92-781c26af78e1",
                         "enabled": false
                     },
                     {
@@ -2805,7 +2909,7 @@
                     },
                     {
                         "identifier": "1a88719f-eb6f-4dc7-8c5f-3c89250b6b4a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "9b63f634-4ae9-4164-9638-60e32a414a93",
@@ -2833,7 +2937,7 @@
                     },
                     {
                         "identifier": "b4fd6591-b3b7-4d8b-82ec-600b1ab6bf57",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "f6479cbe-373a-447a-8824-59d0b1b72c0d",
@@ -2842,6 +2946,10 @@
                     {
                         "identifier": "56a53525-de9c-4049-8350-437f9b20c7ed",
                         "enabled": true
+                    },
+                    {
+                        "identifier": "2b95c37c-0069-48f7-95ff-9278d3274102",
+                        "enabled": false
                     },
                     {
                         "identifier": "c24cfb6a-3f4b-4db8-b780-2104a16099bc",
@@ -2892,7 +3000,7 @@
         "personality_format": "{{personality}}",
         "openai_model": "gpt-4-turbo",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "",
+        "google_model": "gemini-2.0-pro-exp-02-05",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-large-latest",
         "cohere_model": "command-r-plus",
@@ -2902,7 +3010,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
-        "custom_model": "gemini-2.5-pro-exp-03-25",
+        "custom_model": "gemini-exp-1206",
         "custom_url": "https://amnesiavon-hhfa6.hf.space/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
@@ -2916,7 +3024,7 @@
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "reverse_proxy": "",
-        "chat_completion_source": "custom",
+        "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": false,
