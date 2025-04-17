@@ -55,7 +55,8 @@
         "world_info": {
             "globalSelect": [
                 "hq手机0403",
-                "地图导航模块"
+                "地图导航模块",
+                "酒馆文学网 v1.22"
             ],
             "charLore": [
                 {
@@ -1122,8 +1123,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 58053,
-                "LAST_SEND_CHARS": 129595
+                "LAST_SEND_TOKENS": 58031,
+                "LAST_SEND_CHARS": 129534
             }
         },
         "attachments": [],
