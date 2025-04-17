@@ -57,14 +57,7 @@
                 "hq手机0403",
                 "酒馆文学网 v1.22"
             ],
-            "charLore": [
-                {
-                    "name": "地图+论坛",
-                    "extraBooks": [
-                        "地图导航模块"
-                    ]
-                }
-            ]
+            "charLore": []
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
