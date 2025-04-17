@@ -545,57 +545,6 @@
         "dice": {},
         "regex": [
             {
-                "id": "a3165d7a-7ca7-46ac-b528-26debe916e2b",
-                "scriptName": "Kemini 1",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "31d541db-0225-4bcc-958b-2820fcfdbcf8",
-                "scriptName": "Kemini 2",
-                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "f34d966d-be8f-4ba8-910d-30dfcee28fed",
-                "scriptName": "Kemini 3",
-                "findRegex": "/^[\\s\\S]*</thinking>/",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
                 "scriptName": "置空thinking ",
                 "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)",
