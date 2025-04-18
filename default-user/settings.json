@@ -294,7 +294,7 @@
         "mesIDDisplay_enabled": true,
         "hideChatAvatars_enabled": false,
         "max_context_unlocked": false,
-        "message_token_count_enabled": false,
+        "message_token_count_enabled": true,
         "expand_message_actions": false,
         "enableZenSliders": false,
         "enableLabMode": false,
@@ -394,7 +394,7 @@
         "encode_tags": false,
         "servers": [],
         "bogus_folders": false,
-        "zoomed_avatar_magnification": "",
+        "zoomed_avatar_magnification": true,
         "show_tag_filters": false,
         "aux_field": "character_version",
         "stscript": {
