@@ -517,22 +517,8 @@
             "allowMultiple": true
         },
         "connectionManager": {
-            "selectedProfile": "4496224f-fc3b-4f0e-b6a9-d0e09deb134d",
-            "profiles": [
-                {
-                    "id": "4496224f-fc3b-4f0e-b6a9-d0e09deb134d",
-                    "mode": "cc",
-                    "exclude": [],
-                    "api": "custom",
-                    "preset": "kemini预设 3.11",
-                    "api-url": "https://amnesiavon-hhfa6.hf.space/v1",
-                    "model": "gemini-2.5-pro-exp-03-25",
-                    "proxy": "None",
-                    "stop-strings": "[]",
-                    "start-reply-with": "",
-                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.06-3"
-                }
-            ]
+            "selectedProfile": null,
+            "profiles": []
         },
         "dice": {},
         "regex": [
