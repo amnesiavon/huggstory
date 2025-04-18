@@ -592,6 +592,23 @@
                 "maxDepth": null
             },
             {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "美化省token",
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "c1f3ce1f-59a2-4059-ac1b-548af1e611da",
                 "scriptName": "Kemini 1",
                 "findRegex": "^([\\s\\S]*)$",
@@ -708,23 +725,6 @@
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": false,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
-                "scriptName": "美化省token",
-                "findRegex": "/<[^>]*>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
