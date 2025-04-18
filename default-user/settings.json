@@ -957,6 +957,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "71bc1369-d9b8-4df0-8de8-9e2498ac9d18",
+                "scriptName": "替换css正则",
+                "findRegex": "/```css([\\s\\S]*?)```/g",
+                "replaceString": "<style>$1</style>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
