@@ -2983,7 +2983,13 @@
         "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
         "bias_preset_selected": "Default (none)",
         "bias_presets": {
-            "Default (none)": [],
+            "Default (none)": [
+                {
+                    "id": "946173e4-6b05-4985-af04-6b9d0e655514",
+                    "text": "zi",
+                    "value": 0
+                }
+            ],
             "Anti-bond": [
                 {
                     "id": "22154f79-dd98-41bc-8e34-87015d6a0eaf",
