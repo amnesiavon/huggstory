@@ -610,6 +610,23 @@
                 "maxDepth": null
             },
             {
+                "id": "56ba381b-c9b9-49a6-8033-6d97fbaac277",
+                "scriptName": "Kemini 1",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
                 "id": "77485d33-7658-4ad5-815a-261ec8cdf67b",
                 "scriptName": "替换头部html注释",
                 "findRegex": "/```html/g`",
@@ -919,6 +936,74 @@
                 ],
                 "disabled": true,
                 "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "b1d70d6b-3d6d-49fc-81a1-95d764892f7f",
+                "scriptName": "Kemini 2",
+                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "b4a0dd0e-c978-4f74-a5d2-97d963f8d8a7",
+                "scriptName": "Kemini 3",
+                "findRegex": "/^[\\s\\S]*</thinking>/",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "c02ff635-ece5-4815-90ae-f0587c600467",
+                "scriptName": "省略号减少",
+                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 1,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "8f6e5925-16ea-4a0f-b4cd-a14f6362ac48",
+                "scriptName": "去除所有用户消息",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
