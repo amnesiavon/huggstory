@@ -644,6 +644,40 @@
                 "maxDepth": null
             },
             {
+                "id": "8f6e5925-16ea-4a0f-b4cd-a14f6362ac48",
+                "scriptName": "去除所有用户消息",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "c02ff635-ece5-4815-90ae-f0587c600467",
+                "scriptName": "省略号减少",
+                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 1,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
                 "scriptName": "美化省token",
                 "findRegex": "/<[^>]*>/g",
@@ -970,40 +1004,6 @@
                 ],
                 "disabled": true,
                 "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "c02ff635-ece5-4815-90ae-f0587c600467",
-                "scriptName": "省略号减少",
-                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
-                "replaceString": "$1",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 1,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "8f6e5925-16ea-4a0f-b4cd-a14f6362ac48",
-                "scriptName": "去除所有用户消息",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
