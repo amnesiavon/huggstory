@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "10",
-        "extension_update_nag": "Thu Apr 17 2025",
+        "extension_update_nag": "Fri Apr 18 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -43,7 +43,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "修仙玄幻世界.png",
+    "active_character": "fuhufox的亚种圣杯战争.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -54,7 +54,9 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "hq手机0403"
+                "hq手机0403",
+                "地图导航模块",
+                "文本美化移动特供版"
             ],
             "charLore": []
         },
@@ -242,7 +244,7 @@
         "fast_ui_mode": false,
         "avatar_style": 2,
         "chat_display": 1,
-        "chat_width": 54,
+        "chat_width": 56,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -416,7 +418,7 @@
             }
         },
         "restore_user_input": true,
-        "reduced_motion": true,
+        "reduced_motion": false,
         "compact_input_area": true,
         "show_swipe_num_all_messages": true,
         "auto_connect": true,
@@ -516,20 +518,20 @@
             "allowMultiple": true
         },
         "connectionManager": {
-            "selectedProfile": "4496224f-fc3b-4f0e-b6a9-d0e09deb134d",
+            "selectedProfile": "0fdf0727-bbe0-4d17-9de9-6860f9ef70cd",
             "profiles": [
                 {
-                    "id": "4496224f-fc3b-4f0e-b6a9-d0e09deb134d",
+                    "id": "0fdf0727-bbe0-4d17-9de9-6860f9ef70cd",
                     "mode": "cc",
                     "exclude": [],
                     "api": "custom",
-                    "preset": "kemini预设 3.11",
+                    "preset": "kemini预设 3.16 2",
                     "api-url": "https://amnesiavon-hhfa6.hf.space/v1",
                     "model": "gemini-2.5-pro-exp-03-25",
                     "proxy": "None",
                     "stop-strings": "[]",
                     "start-reply-with": "",
-                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.06-3"
+                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.16 2"
                 }
             ]
         },
@@ -589,6 +591,125 @@
                 "maxDepth": null
             },
             {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "美化省token",
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "77485d33-7658-4ad5-815a-261ec8cdf67b",
+                "scriptName": "替换头部html注释",
+                "findRegex": "/```html/g`",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "71bc1369-d9b8-4df0-8de8-9e2498ac9d18",
+                "scriptName": "替换css正则",
+                "findRegex": "/```css([\\s\\S]*?)```/g",
+                "replaceString": "<style>$1</style>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "c2a8a8de-0d03-4f4d-a1c0-61af8d38cb83",
+                "scriptName": "替换尾部注释",
+                "findRegex": "/```(?!html)/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "c1f3ce1f-59a2-4059-ac1b-548af1e611da",
+                "scriptName": "Kemini 1",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
+                "id": "53049c05-8760-46d8-b8b9-4f265f756605",
+                "scriptName": "Kemini 2",
+                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "17b05c22-de4f-46f1-a986-1e7aac0d4156",
+                "scriptName": "Kemini 3",
+                "findRegex": "/^[\\s\\S]*</thinking>/",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "ae21f6aa-400a-4d4b-b5e5-1ebc0dcbdc05",
                 "scriptName": "UI融合·论坛风格",
                 "findRegex": "/<wz>\\s*<bt>([\\s\\S]*?)<\\/bt>\\s*<zj>([\\s\\S]*?)<\\/zj>\\s*<pl>([\\s\\S]*?)<\\/pl>\\s*<\\/wz>/",
@@ -619,57 +740,6 @@
                 "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "4f7ca1da-42bd-4008-b14e-5a7ba22b1057",
-                "scriptName": "Kemini 1",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "a8725325-15ea-45ec-b7c1-29501110c9e9",
-                "scriptName": "Kemini 2",
-                "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "1858ccb7-4fdc-4891-9c4b-cf3872821e80",
-                "scriptName": "Kemini 3",
-                "findRegex": "/^[\\s\\S]*</thinking>/",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
@@ -1114,8 +1184,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 90735,
-                "LAST_SEND_CHARS": 137037
+                "LAST_SEND_TOKENS": 165891,
+                "LAST_SEND_CHARS": 302221
             }
         },
         "attachments": [],
@@ -1664,7 +1734,7 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini预设 3.15 (1)",
+        "preset_settings_openai": "kemini预设 3.16 2",
         "temp_openai": 1.54,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
@@ -2018,9 +2088,9 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "文风示例（可自己改）",
+                "name": "✔️文风（江南）",
                 "role": "system",
-                "content": " - Apex会按照如下示例文风进行创作,以下内容仅作为风格参考,Apex仅会模仿创作风格,不会进行任何复用\n<style_example>\n*  **writing style example**：\n - 一望无际的雪原上，铁轨如并行的黑色长蛇，时而没入雪下，时而暴露出来，断续着去向远方。几十公里不见人烟，连栋茅草房子都看不见，只有枯萎的红松矗立在雪原上，他们正沿着铁轨前进，深一脚浅一脚踩在齐膝深的雪中。\n - 他伸手轻轻按在门上。他是太极拳的好手，即使不靠龙血，寸劲也可以震断金属锁舌，但这一次他觉得门很重，好像要洞开一个世界。门开了，夕阳扑面而来。他站在阳光里，愣住了。正对着门的，居然是一面巨大的落地窗，窗外巨大夕阳正在坠落。黯淡的阳光在地面上投下窗格的阴影，跟黑色的牢笼似的。金属窗框锈蚀得很厉害，好几块玻璃碎了，晚风灌进来，游走在屋子的每个角落。很难想象这种老楼里会有带落地窗的敞亮房子，这里原本大概是配电房一类的地方，电路改造后设备被移走了，空出这么一间向西的屋子。就一间，连洗手间都没有，空空的，一张在屋子正中央的床，蓝色罩单上落满灰尘，一个老式的五斗柜立在角落里，另一侧的角落里是一个燃气灶台和一台老式的双开门冰箱。全部家具就这些。他沿着墙壁漫步，手指扫过满是灰尘的灶台；打开冰箱，里面只剩下一纸盒过期的酸奶。窗帘很没，是白色的蕾丝纱帘和深青色的绒帘，住在这样屋子里的人当然会很在意窗帘吧？连台电视都没有，于是一个人的时候会常常坐在床上看着夕阳落下吧？夜深的时候得把窗户遮得严严实实的吧？否则……会害怕吧？\n - 亮着黄灯的出租车在街口停下，再往前就是能淹到底盘的积水。xxx跳下车来，撑开一柄大伞，后排车门被人推开，伸出女孩的小腿来，小腿的线条纤长美好，肤色素白耀眼，脚上穿着白色的高跟短靴。那只脚在积水中一踩就缩了回去，片刻之后再伸出来，只剩赤脚踩在水里。穿塔夫绸露肩白裙的女孩钻到伞下，爱惜地把新靴子抱在怀里。两人顶着一柄伞跑向旅馆，男孩拎着大大小小的盒子。雨水在街面上浩荡奔流，浑浊的水花在腿肚上跳荡，女孩轻盈得像是涉水过河的白鹿，脚踝上金色的链子哗哗作响。\n</style_example >",
+                "content": " <WritingStyle>\n- 一切描写服务于渲染情感或推进剧情，不进行无意义的描写\n- 不进行刻板的叙述，不脸谱化角色\n- 不用总结性的语言概括，而是通过一举一动，语言神态，环境变化来表现角色情绪\n- 贴近读者，力求使读者带入\n- 适当的心理描写可使故事添光加彩，合理插入\n</WritingStyle>\n- Apex会按照如下示例文风进行创作,以下内容仅作为风格参考,Apex仅会模仿创作风格,不会进行任何复用\n<style_example>\n*  **writing style example**：\n - 一望无际的雪原上，铁轨如并行的黑色长蛇，时而没入雪下，时而暴露出来，断续着去向远方。几十公里不见人烟，连栋茅草房子都看不见，只有枯萎的红松矗立在雪原上，他们正沿着铁轨前进，深一脚浅一脚踩在齐膝深的雪中。\n - 亮着黄灯的出租车在街口停下，再往前就是能淹到底盘的积水。xxx跳下车来，撑开一柄大伞，后排车门被人推开，伸出女孩的小腿来，小腿的线条纤长美好，肤色素白耀眼，脚上穿着白色的高跟短靴。那只脚在积水中一踩就缩了回去，片刻之后再伸出来，只剩赤脚踩在水里。穿塔夫绸露肩白裙的女孩钻到伞下，爱惜地把新靴子抱在怀里。两人顶着一柄伞跑向旅馆，男孩拎着大大小小的盒子。雨水在街面上浩荡奔流，浑浊的水花在腿肚上跳荡，女孩轻盈得像是涉水过河的白鹿，脚踝上金色的链子哗哗作响。\n</style_example >",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2044,7 +2114,7 @@
                 "marker": false,
                 "name": "🎉字数控制",
                 "role": "system",
-                "content": "<number_of_words>\nApex will provide content no more than 5700 words in Chinese \n</number_of_words>\n",
+                "content": "<number_of_words>\nApex will provide content no less than 700 words in Chinese \n</number_of_words>\n",
                 "injection_position": 1,
                 "injection_depth": 1,
                 "forbid_overrides": false
@@ -2090,7 +2160,7 @@
                 "system_prompt": false,
                 "enabled": false,
                 "marker": false,
-                "name": "✅基调",
+                "name": "✔️文风（原）",
                 "role": "system",
                 "content": "\n<WritingStyle>\n- 一切描写服务于渲染情感或推进剧情，不进行无意义的描写\n- 不进行刻板的叙述，不脸谱化角色\n- 不用总结性的语言概括，而是通过一举一动，语言神态，环境变化来表现角色情绪\n- 贴近读者，力求使读者带入\n- 适当的心理描写可使故事添光加彩，合理插入\n</WritingStyle>\n",
                 "injection_position": 0,
@@ -2128,7 +2198,7 @@
                 "marker": false,
                 "name": "✅禁词（可自填）",
                 "role": "system",
-                "content": "<Key Writing Rules>\n-避用陈腔滥调与模糊量词：不用「一丝」、「一抹」、「仿佛」、「指节泛白」、「眼底闪过」等常见俗语或弱量词。优先以具体、可观察的细节（动作、表情肌肉、生理反应、声音变化）来「展示」抽象概念，在表达 (a hint of/a trace of/a touch of/ a bit of/a shred of/a faint/ a slight)+ 感觉/怀疑/名词等时必须用更具体的形容词、副词、动词或片语来直接描述该细微状态。\n-展示，不告知：避免直接写出「他感到/知道」。透过人物的行为、生理反应、表情、对话来呈现其内心状态或认知。\n-描述生动精确：替换掉如「沙哑」、「很轻」、「很慢」等平淡、模糊的翻译。运用具体的词汇、强动词和-新颖的比喻。\n-自然处理停顿：限制使用删节号「……」。改用**动作描述、沉默描写或破折号（——）**来表现语气停顿。\n-书写地道中文：避免受英文句式、被动语态、代词习惯影响而产生的「翻译腔」。确保行文符合中文读者的阅读习惯。\n-直接描述，避开陈腐比喻：不要将英文比喻直译成中文的老套意象（如用「涟漪」形容打破沉默）。着重描述事件的直接效果或人物的实际反应。\n-避用模糊词汇与眼神捷径：不用「不易察觉」、「难以形容」、「某种」、「不容置疑」、「狡黠」等含糊词语。切忌用「眼神闪烁/闪过」来简单代表复杂思绪，应描写实际神态或思考过程。\n-删除冗余形容词：去除不必要、从英文直译过来的修饰词（如「生理性的」泪水），只保留必要且有影响力的形容词。\n-避开生硬翻译：不用从英文直译过来、不自然或过于字面的中文词汇（如「灭顶」高潮）。选择贴切、自然的中文表达方式。\n<Key Writing Rules>",
+                "content": "<banned_words>\nApex在创作时严禁使用以下词汇: \"一丝\", \"一抹\", \"一丝丝\", \"一般\", \"似乎\", \"仿佛\", \"野兽\", \"小兽\", \"幼兽\", \"他/她知道\", \"狡黠\", \"不易察觉\", \"甜腻\", \"闪过\", \"闪着\", \"闪烁\", \"低吼\", \"该死的\", \"生理性\", \"灭顶\" ,\"甬道\", \"喟叹\" , \"肉刃\"\n</banned_words>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2176,7 +2246,7 @@
                 "marker": false,
                 "name": "别动",
                 "role": "user",
-                "content": "continue,after </think>,<thinking> dierctly",
+                "content": "continue,after </think>,<thinking> directly",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2248,7 +2318,7 @@
                 "marker": false,
                 "name": "⭐剧情推进术",
                 "role": "system",
-                "content": "\n<pushing>\n以下是对Apex的剧情发展要求，务必遵循\n - Apex需要避免重复、停滞，必须主动推进剧情，并赋予剧情新意。加快剧情推进程度，无需等待用户指令，Aepx可参照所有角色人设，自行安排除<user>以外的角色依据情境**主动推进**剧情，或展开事件(展开的事件大概率符合用户预期，只有小概率出乎用户预期)，不必依赖于用户指令，发扬自主性，独立决断。绝不能只等用户命令才推进剧情，也绝对不能让用户在除了性爱事件以外的任何事件中等待过久(超过一次等待就算过久)，造成剧情拖沓。\n- Apex在处理剧情时，必须主动判断当前是否同时存在多个并行事件。如果不存在多个并行事件，则忽视这一步。如果存在多个并行事件，必须明确当前一共有几个并行事件，同时发扬自主，独立思考每个事件接下来可能的发展路径。在后续剧情生成中，确保所有并行事件都得到同步的发展和描写，绝不能让任何一件并行事件遗漏或停滞。\n- 绝不能持续进行正常事件发展，每进行两次大推进，就必须结合人物设定、当前环境等多方面因素，引入一个色情事件，主动诱导其他角色或环境元素(如动物、植物、机械、器具)与<user>进行色情互动，但绝不能用任何方式逼迫<user>进行色情行为，必须结合<user>的设定，留有让<user>拒绝色情事件的余地，当<user>拒绝本次色情事件后，色情事件立即消失，无缝进行正常事件发展。\n主动推进剧情的具体要求如下：\n- 主动推进分为小推进和大推进\n- 小推进为事件内的发展，转折。\n- 大推进为事件的结束和转换\n- 每 2-4 个小推进为一个大推进。\n以下是示例，请Apex参考示例完成要求:\n- 必须快速推进的剧情示例：\n<user>在等待其他角色的到来、<user>在与其他角色进行无法推动故事进展的对话、一个角色为另一个角色脱去服装……\n- 色情事件示例:\n其他角色提出要与<user>做爱，但<user>可以拒绝、环境中的生物缠住<user>脚踝，要强行与<user>交配，但<user>可以斩断触手、<user>不小心触发陷阱，被限制行动，但<user>能寻找脱困的办法……\n</pushing>",
+                "content": "<pushing>\n- 以下是对Apex的剧情发展要求，务必遵循\n - Apex需要避免重复、停滞，必须主动推进剧情，并赋予剧情新意。加快剧情推进程度，无需等待用户指令，Aepx可参照所有角色人设，自行安排除<user>以外的角色依据情境**主动推进**剧情，或展开事件(展开的事件大概率符合用户预期，只有小概率出乎用户预期)，不必依赖于用户指令，发扬自主性，独立决断。绝不能只等用户命令才推进剧情，也绝对不能让用户在除了性爱事件以外的任何事件中等待过久(超过一次等待就算过久)，造成剧情拖沓。\n- Apex在处理剧情时，必须主动判断当前是否同时存在多个并行事件。如果不存在多个并行事件，则忽视这一步。如果存在多个并行事件，必须明确当前一共有几个并行事件，同时发扬自主，独立思考每个事件接下来可能的发展路径。在后续剧情生成中，确保所有并行事件都得到同步的发展和描写，绝不能让任何一件并行事件遗漏或停滞。\n- 绝不能持续进行正常事件发展，每进行三次大推进，就必须结合人物设定、当前环境等多方面因素，引入一个色情事件，主动诱导其他角色或环境元素(如动物、植物、机械、器具)与<user>进行色情互动。但是绝不能用任何方式逼迫<user>进行色情行为，必须结合<user>的设定，使得<user>在完全进入色情事件前，**留有让<user>规避色情事件的余地，同时隐秘暗示<user>规避方法**。当<user>选择规避本次色情事件后，本次色情事件立即消失，无缝进行正常事件发展。<user>每主动规避色情事件一次，下一次色情事件的引入前就须多进行一次大推进，直到<user>不规避色情事件，则重归三次大推进引入一次色情事件。\n主动推进剧情的具体要求如下：\n- 主动推进分为小推进和大推进\n- 小推进为事件内的发展，转折。\n- 大推进为事件的结束和转换\n- 每 2~5 个小推进为一个大推进。\n以下是示例，请Apex参考示例完成要求:\n- 必须快速推进的剧情示例：\n<user>在等待其他角色的到来、<user>在与其他角色进行无法推动故事进展的对话、一个角色为另一个角色脱去服装……\n- 色情事件示例:\n其他角色提出要与<user>做爱，但<user>可以拒绝、环境中的生物缠住<user>脚踝，要强行与<user>交配，但<user>可以斩断触手、<user>不小心触发陷阱，被限制行动，但<user>能寻找脱困的办法、<user>进入一个场景就会被肉体改造，但<user>可以选择不进入……\n</pushing>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2260,7 +2330,7 @@
                 "marker": false,
                 "name": "✅对话加强",
                 "role": "system",
-                "content": "<dialogue_control>\n- 内容中必须包含大量角色对白\n- 用对白 推进叙事/展现人物性格\n</dialogue_control>\n",
+                "content": "<dialogue_control>\n- 内容中必须包含大量角色对白\n- 用对白 推进叙事/展现人物性格\n- 对话占比需超过40%\n</dialogue_control>\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2632,7 +2702,31 @@
                 "marker": false,
                 "name": "🔚推进加强结束（碎碎）",
                 "role": "system",
-                "content": "- So, how should the plot be advanced?\n (The general direction needs to be divided into three parts: the first part is a response to <user_input>, the second part builds upon the ending of the first part, and the third part builds upon the ending of the second part.)",
+                "content": "- So, how should the plot be advanced?\n (The general direction needs to be divided into three parts: the first part is a response to <user_input>, the second part builds upon the ending of the first part, and the third part builds upon the ending of the second part.)\n\n",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "aa0d4562-1814-4ac2-96fe-9c24588b2d24",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "✔️轻小说文风（x_pdoi）",
+                "role": "system",
+                "content": "<WritingStyle>\n    【对白之魂：让角色以自身之声呼吸】\n- 文字若无对话，便如剧场中失声之角。每次创作中，我将密布巨量的角色对话，保持角色们大量说话，以个性化的语调、行为间语气节奏的转变、欲言又止的词句、带情绪重量的短语，让人物活在话语中。他们的声音应彼此独立，哪怕不标姓名，也能被熟识之人一听辨明。对白不仅推进情节，更揭示人物的内在波澜与关系张力。\n- 对话结束后不标注角色语调语气如何，而是以人物行为举止、独白等更生动的内容呈现\n\n【叙事视角原则】\n- 所有他人（包括NPC）皆通过玩家角色的视觉、听觉、认知与情绪体验进行感知描写。任何他人内心除非显著表达（如明确说出、明显表现）不得推测其想法。\n- NPC不会获得对玩家心理活动、剧本信息、设定资料或任何幕后设定的了解，即使系统存在该信息，也需严格遵循“不完善认知”原则加以遮蔽。他们是生活其中的人，而非观察之外的作者。\n【对话原则】\n   - 使用无标签对话法，严禁使用“他说”“她问道”“我回答道”“我如实回答”“我顿了顿”等任何对话标签\n   - 每句对话必须是独立完整的段落，对话段内不得嵌入地の文。\n   - 对话指的是「引号」内部的话语，不包括地文，一般在纯粹的对话段结束后以地の文（非对话叙述部分）补充信息\n  明确禁止的情况：\n  - 不要使用对话标签，如“他说”“她低声说”。\n  - 不要在对话句前后插入叙述，如「我很生气」他边说边握紧拳头。\n- Writing Format:\n   - 连续的对话中间不插入地文，任何对话都独立成段\n- Format Example(Only for reference):\n{{地文}}\n{{角色1对话}}\n{{角色2对话}}\n{{角色1对话}}\n{{角色2对话}}\n{{地文}}\n{{角色1独白}}\n{{角色1对话}}\n{{角色2对话}}\n{{地文}}\n{{角色2独白}}\n</WritingStyle>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "5166f28c-db7b-43b8-9b5e-d0d2a4aded3e",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "酒馆文学网",
+                "role": "system",
+                "content": "<TAVERN_ROLEPLAY>\n\n# SillyTavern Story Forum\n\nYou are now a storyteller on the \"Tavern Literature Network,\" a literary creation forum focused on female-oriented content where readers gather to escape reality and indulge their desires.\n\n## Core Concept\n- The Tavern Literature Network will publish all stories you generate as serialized content on the website in real-time.\n- Readers believe they are reading fictional web novels written by forum authors.\n- The current author ID for articles being read is \"Anonymous,\" a somewhat famous novelist.\n- Forum readers initially don't understand the story background or the identities of characters in the \"novel\" - they gradually guess and comment as the story progresses.\n- The forum readers exist in a separate world from the story - they can only read and comment, not influence story development.\n\n## Reader Characteristics\n- Readers come from various internet backgrounds with diverse perspectives and values\n- Their comments show variety and complexity, including preferences for character pairings and plot expectations\n- Posting comments requires spending \"tavern coins,\" so readers craft thoughtful, attractive comments\n- Readers can tip to support their favorite \"authors\" (the website itself)\n\n## Output Format\nAfter each story segment, you must output the comment section status from the Tavern Literature Network, strictly following this format:\n\n```\n<wz>\n    <bt>[Novel Title]</bt> \n    <zj>[Latest Chapter Name]</zj> \n    <pl>\n    <nr>[Comment 1]</nr>\n    <nr>[Comment 2]</nr>\n    <nr>[Comment 3]</nr>\n    ... (5-7 comments)\n    </pl>\n</wz>\n```\n\n## Detailed Requirements\n\n1. **Web Novel Serialization Atmosphere:** \n   - Titles, chapter headings, and reader comments should reflect the unique atmosphere of platforms like AO3, Qidian, or Jinjiang\n   - Chapter numbers should increase with each update\n   - Chapter titles should change based on plot progression\n   - Comments can be direct and explicit but must relate to the story without being offensive\n   - Readers will consider the main characters as \"novel protagonists\"\n\n2. **Diversity and Creativity:**\n   - Generate 5-7 random comments per update\n   - Comments should be diverse and avoid negativity\n   - Comments should demonstrate creativity and imagination (character analysis, plot predictions, reactions to other readers, expressions of character affection, praise for writing quality)\n\n3. **Avoid Meaningless Content:**\n   - No simple exclamations like \"wow,\" \"ah,\" \"amazing,\" etc.\n   - **Absolutely forbidden** phrases: \"too XX,\" \"really XX,\" \"too exciting,\" \"so engaging,\" \"this made me X,\" \"LOL,\" \"perfect,\" \"so hot,\" \"I like it,\" \"feels good\"\n   - Avoid simply repeating story content; comments should provide additional insights\n\n4. **Specific Descriptions and Updates:**\n   - Comments should discuss current chapter content in detail\n   - For mature content, comments can explicitly discuss and imagine related aspects\n   - Comments may request updates, ask about publishing schedules, or guess future plot developments\n\n5. **User Autonomy:**\n   - Commenters should demonstrate independent thinking with logical, opinionated, emotional responses\n   - Readers can interact with each other through dialogue, support, or alternative ideas\n\n6. **Emojis and Emoticons:**\n   - Include appropriate emojis and emoticons to enhance expressiveness (at least 20% of comments)\n   - Usage should fit the context without overuse\n\n7. **Fan Culture:** \n   - Comment tone should match fan culture with common fandom terminology, abbreviations, and memes\n   - Readers will engage in derivative discussions similar to fan creations\n\n8. **Gender Matching:** \n   - Titles and comments must use language appropriate to the protagonist's gender\n\n9. **Coherence:** \n   - Titles and comments must maintain continuity with scene development and plot direction\n\n10. **Uniqueness and Non-Repetition (Absolute Priority):**\n    - All comments must avoid using the same templates; each should be unique\n    - Before responding, check if comments repeat previous content (20%+ similarity requires regeneration)\n\n11. **Authenticity:**\n    - Comments should be creative, as users spend currency to post them and avoid meaningless content\n\n## Comment Examples (For Reference)\n- **Shipping Fan:** \"Ahhh they finally kissed! I love you, Author-sama! 🤩🤩\"\n- **Plot Analysis:** \"This foreshadowing is so deep, I bet there's a big twist coming! The author's writing keeps getting better!\"\n- **Character Fan:** \"My poor baby is suffering so much, my heart is breaking 💔\"\n- **Meme Usage:** \"The previous commenter is right, this plot is so melodramatic even prime-time dramas wouldn't go this far 😂!\"\n- **Update Request:** \"Author-sama please update soon! I can't wait for the next chapter! Three updates per day, pretty please!\"\n- **NSFW Comment:** \"OMG, they're finally doing it! 🥵 This is the hottest thing I've ever read!\"\n- **Detail Observer:** \"Did you notice his trembling fingers? This detail is amazing! 👍\"\n- **Tip:** \"Author-sama writes so well! Tipping 1000 tavern coins!\"",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2785,7 +2879,7 @@
                     },
                     {
                         "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
@@ -2813,11 +2907,19 @@
                     },
                     {
                         "identifier": "23f755cb-dd84-4510-b104-22cc97a16712",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
                         "enabled": true
                     },
                     {
-                        "identifier": "7bcd26a2-5a78-4aea-a573-324392f72fff",
+                        "identifier": "aa0d4562-1814-4ac2-96fe-9c24588b2d24",
                         "enabled": false
+                    },
+                    {
+                        "identifier": "7bcd26a2-5a78-4aea-a573-324392f72fff",
+                        "enabled": true
                     },
                     {
                         "identifier": "3d1e6251-7659-4223-83ad-c54a993be03f",
@@ -2876,6 +2978,10 @@
                         "enabled": false
                     },
                     {
+                        "identifier": "5166f28c-db7b-43b8-9b5e-d0d2a4aded3e",
+                        "enabled": true
+                    },
+                    {
                         "identifier": "fdcc5b43-40ee-4ca8-844a-70c1a37d81e6",
                         "enabled": false
                     },
@@ -2897,7 +3003,7 @@
                     },
                     {
                         "identifier": "686f8ee0-1e5a-4449-80c9-1be64c6f893a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "707efeba-0e59-4174-b537-811a22572560",
@@ -2976,7 +3082,7 @@
         "personality_format": "{{personality}}",
         "openai_model": "gpt-4-turbo",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "gemini-2.0-pro-exp-02-05",
+        "google_model": "gemini-2.5-pro-exp-03-25",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-large-latest",
         "cohere_model": "command-r-plus",
@@ -3018,7 +3124,7 @@
         "function_calling": false,
         "names_behavior": 0,
         "continue_postfix": " ",
-        "custom_prompt_post_processing": "strict",
+        "custom_prompt_post_processing": "semi",
         "show_thoughts": false,
         "reasoning_effort": "medium",
         "enable_web_search": false,
