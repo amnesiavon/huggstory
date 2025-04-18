@@ -610,23 +610,6 @@
                 "maxDepth": 1
             },
             {
-                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
-                "scriptName": "美化省token",
-                "findRegex": "/<[^>]*>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "b1d70d6b-3d6d-49fc-81a1-95d764892f7f",
                 "scriptName": "Kemini 2",
                 "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
@@ -654,6 +637,23 @@
                 ],
                 "disabled": false,
                 "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "美化省token",
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
