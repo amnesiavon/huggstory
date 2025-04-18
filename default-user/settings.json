@@ -53,11 +53,7 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": [
-                "hq手机0403",
-                "地图导航模块",
-                "文本美化移动特供版"
-            ],
+            "globalSelect": [],
             "charLore": []
         },
         "world_info_depth": 2,
