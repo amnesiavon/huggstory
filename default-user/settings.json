@@ -39,11 +39,13 @@
         "DataBank_sortOrder": "asc",
         "LNavLockOn": "true",
         "AlertWI_地图导航模块.png": "true",
-        "AlertRegex_地图导航模块.png": "true"
+        "AlertRegex_地图导航模块.png": "true",
+        "AlertWI_机动战士高达-SEED V1.2.png": "true",
+        "AlertRegex_机动战士高达-SEED V1.2.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "fuhufox的亚种圣杯战争.png",
+    "active_character": "机动战士高达-SEED V1.2.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -995,7 +997,8 @@
             "卜卜.png",
             "fuhufox的亚种圣杯战争.png",
             "地图导航模块.png",
-            "地图+论坛.png"
+            "地图+论坛.png",
+            "机动战士高达-SEED V1.2.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1666,7 +1669,8 @@
         "卜卜.png": [],
         "fuhufox的亚种圣杯战争.png": [],
         "地图导航模块.png": [],
-        "地图+论坛.png": []
+        "地图+论坛.png": [],
+        "机动战士高达-SEED V1.2.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
