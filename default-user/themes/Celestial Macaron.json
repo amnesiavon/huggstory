@@ -12,16 +12,16 @@
     "shadow_color": "rgba(0, 0, 0, 0.3)",
     "shadow_width": 1,
     "border_color": "rgba(60, 74, 110, 0.93)",
-    "font_scale": 1,
+    "font_scale": 1.18,
     "fast_ui_mode": false,
     "waifuMode": false,
     "avatar_style": 0,
     "chat_display": 1,
     "noShadows": true,
-    "chat_width": 58,
+    "chat_width": 50,
     "timer_enabled": true,
     "timestamps_enabled": true,
-    "timestamp_model_icon": false,
+    "timestamp_model_icon": true,
     "mesIDDisplay_enabled": true,
     "hideChatAvatars_enabled": false,
     "message_token_count_enabled": true,
@@ -33,5 +33,6 @@
     "bogus_folders": true,
     "zoomed_avatar_magnification": false,
     "reduced_motion": false,
-    "compact_input_area": true
+    "compact_input_area": true,
+    "show_swipe_num_all_messages": true
 }
