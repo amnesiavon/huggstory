@@ -1221,8 +1221,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 74160,
-                "LAST_SEND_CHARS": 138986
+                "LAST_SEND_TOKENS": 71440,
+                "LAST_SEND_CHARS": 134959
             }
         },
         "attachments": [],
@@ -3176,7 +3176,7 @@
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
         "custom_model": "gemini-2.5-pro-exp-03-25",
-        "custom_url": "https://amnesiavon-comfy6am.hf.space/v1",
+        "custom_url": "https://hfsgcvfcsbgf.ap-northeast-1.clawcloudrun.com/",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
