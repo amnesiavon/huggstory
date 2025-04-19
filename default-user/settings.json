@@ -1270,7 +1270,7 @@
                 "auto_disable_incompatible_options": true,
                 "tampermonkey_compatibility": false,
                 "process_depth": 3,
-                "rendering_optimize": true
+                "rendering_optimize": false
             },
             "audio": {
                 "audio_setting": true,
