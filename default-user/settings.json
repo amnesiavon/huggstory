@@ -58,7 +58,6 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "文本美化移动特供版",
                 "酒馆文学网 v1.22"
             ],
             "charLore": []
@@ -670,7 +669,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -687,7 +686,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
