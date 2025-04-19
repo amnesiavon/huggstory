@@ -275,7 +275,7 @@
         "movingUI": false,
         "movingUIState": {},
         "movingUIPreset": "Default",
-        "noShadows": true,
+        "noShadows": false,
         "theme": "Celestial Macaron",
         "gestures": true,
         "auto_swipe": false,
@@ -1222,8 +1222,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 74761,
-                "LAST_SEND_CHARS": 141090
+                "LAST_SEND_TOKENS": 72041,
+                "LAST_SEND_CHARS": 137063
             }
         },
         "attachments": [],
