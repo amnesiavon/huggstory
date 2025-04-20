@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "10",
-        "extension_update_nag": "Sat Apr 19 2025",
+        "extension_update_nag": "Sun Apr 20 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -58,8 +58,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "hq手机0403",
-                "文本美化移动特供版"
+                "酒馆文学网 v1.22"
             ],
             "charLore": []
         },
@@ -257,7 +256,7 @@
         "sort_field": "name",
         "sort_order": "asc",
         "sort_rule": null,
-        "font_scale": 1.13,
+        "font_scale": 0.88,
         "blur_strength": 3,
         "shadow_width": 2,
         "main_text_color": "rgba(0, 0, 0, 1)",
@@ -653,7 +652,7 @@
                 "placement": [
                     1
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -670,7 +669,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -687,7 +686,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -827,7 +826,7 @@
                     2,
                     6
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -855,24 +854,6 @@
                 "maxDepth": null
             },
             {
-                "id": "0001876a-0304-4c56-a14a-e981372cac2a",
-                "scriptName": "user消息",
-                "findRegex": "/\\[我方消息\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
-                "replaceString": "<div class=\"message sent message-$1\">\n    <div class=\"message-wrapper\">\n         <div class=\"message-content\"><span style=\"display:none\">$1</span><span>$2</span><span>$3</span></div>\n    </div>\n</div>          ",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": false,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "05d96b39-8542-4fe6-979e-5c3a596ea98f",
                 "scriptName": "上下文限制[5]",
                 "findRegex": "/[\\s\\S]*/gm",
@@ -892,6 +873,24 @@
                 "maxDepth": null
             },
             {
+                "id": "0001876a-0304-4c56-a14a-e981372cac2a",
+                "scriptName": "user消息",
+                "findRegex": "/\\[我方消息\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
+                "replaceString": "<div class=\"message sent message-$1\">\n    <div class=\"message-wrapper\">\n         <div class=\"message-content\"><span style=\"display:none\">$1</span><span>$2</span><span>$3</span></div>\n    </div>\n</div>          ",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "ec014833-960b-4d09-b35e-d1e70426116d",
                 "scriptName": "对方消息",
                 "findRegex": "/\\[对方消息\\|(.*?)\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
@@ -900,7 +899,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -917,7 +916,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": false,
@@ -934,7 +933,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": false,
@@ -952,7 +951,7 @@
                     1,
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -969,7 +968,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -986,7 +985,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -1222,8 +1221,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 68026,
-                "LAST_SEND_CHARS": 131412
+                "LAST_SEND_TOKENS": 57420,
+                "LAST_SEND_CHARS": 97728
             }
         },
         "attachments": [],
@@ -3023,7 +3022,7 @@
                     },
                     {
                         "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "7a93c8c9-d86b-4828-bcdd-1ab55e7bbae7",
@@ -3035,11 +3034,11 @@
                     },
                     {
                         "identifier": "9c667918-89db-4926-b5a4-1683fde0f7e3",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "b6d0f461-d1b7-4e64-a203-802b5d4194a2",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "0d16acb2-27d7-4de2-9aca-37ccc5f7667f",
