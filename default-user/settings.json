@@ -1244,8 +1244,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 37698,
-                "LAST_SEND_CHARS": 70726
+                "LAST_SEND_TOKENS": 28384,
+                "LAST_SEND_CHARS": 54674
             }
         },
         "attachments": [],
@@ -1317,7 +1317,7 @@
         "muyoo_dataTable": {
             "injection_mode": "deep_system",
             "deep": 2,
-            "isExtensionAble": true,
+            "isExtensionAble": false,
             "isAiReadTable": true,
             "isAiWriteTable": true,
             "isTableToChat": false,
