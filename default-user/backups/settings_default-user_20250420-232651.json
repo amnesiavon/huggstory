@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "10",
-        "extension_update_nag": "Sun Apr 20 2025",
+        "extension_update_nag": "Mon Apr 21 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -851,7 +851,7 @@
                     2,
                     6
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -870,7 +870,7 @@
                     2,
                     6
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1246,8 +1246,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 71045,
-                "LAST_SEND_CHARS": 120717
+                "LAST_SEND_TOKENS": 148993,
+                "LAST_SEND_CHARS": 230856
             }
         },
         "attachments": [],
@@ -3126,7 +3126,7 @@
                     },
                     {
                         "identifier": "801feeb1-5546-4bd7-b4e4-c92fe4ccfd58",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "686f8ee0-1e5a-4449-80c9-1be64c6f893a",
