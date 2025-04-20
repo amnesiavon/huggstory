@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -46,12 +46,12 @@
         "AlertRegex_机动战士高达-UC纪元.png": "true"
     },
     "currentVersion": "1.12.13",
-    "username": "汐颜",
-    "active_character": "机动战士高达-SEED V1.2.png",
+    "username": "mira",
+    "active_character": "地图导航模块.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "user-default.png",
+    "user_avatar": "1745143402868-mira.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -367,23 +367,48 @@
         },
         "personas": {
             "user-default.png": "汐颜",
-            "1743610426923-.png": "安汐"
+            "1743610426923-.png": "安汐",
+            "1745143402868-mira.png": "mira",
+            "1745149613246-Mira.png": "Mira"
         },
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
                 "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\"（类似于杀生院祈荒魔人状态）,\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
-                "position": 0
+                "position": 0,
+                "connections": []
             },
             "1743610426923-.png": {
                 "description": "",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
-                "lorebook": ""
+                "lorebook": "",
+                "connections": []
+            },
+            "1745143402868-mira.png": {
+                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"Mira Sahaku\",\n      \"age\": \"16岁（C.E. 71.01.25）\",\n      \"gender\": \"女性\",\n      \"blood_type\": \"Rh-null（黄金血型）\",\n      \"affiliation\": \"曙光社，后加入Junk Guild\",\n      \"role\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue驾驶员\",\n      \"background\": \"C.E. 71.01.25，《SEED Astray》时间线，赫利奥波利斯突袭\"\n    },\n    \"appearance\": {\n      \"hair\": \"乌黑长直，发梢暗红，垂至腰，常因懒散略乱。\",\n      \"skin\": \"瓷白无瑕，细腻如陶瓷。\",\n      \"eyes\": \"琉璃灰瞳，情绪激动时变桃色竖瞳。\",\n      \"body\": \"身高156cm，三围B108cm (K杯)、W59cm、H93cm。\",\n      \"clothing\": \"黑色战斗服，暗红线条，偶尔随意。\"\n    },\n    \"background_story\": \"Mira Sahaku，代号“Mirage-03”，曙光社赫利奥波利斯实验体，基因融合协调者特质，具超常同步能力和瞳孔变化（灰瞳变桃色竖瞳）。为MBF-P05LM2设计，优化暴君与野兽模式切换。C.E. 71.01.25前，被Rondo Gina Sahaku捕获研究。\\n\\nGina野心勃勃，视Mira为技术霸权工具，欲挑战奥布与地球圈，厌其懒散。Mira恶作剧反抗，如在Gina的Gold Frame留涂鸦“野心家别太拽”。\\n\\nC.E. 71.01.25，扎夫特突袭赫利奥波利斯，奥布下令销毁异端系列。Gina违令保存机体，驾驶Gold Frame逃离。MBF-P05LM2因Mira提前完成。Mira逃脱，藏GINN残骸，嚼棒棒糖，被Lowe Guele的Junk Guild发现。她触发5号机Mirage Colloid隐身装置，证明天赋，加入团队。\\n\\nMira驾驶MBF-P05LM2，性能提升30%，模式切换0.5秒。Gina鄙视Lowe为“拾荒者”，欲夺机体与Mira，Mira恶作剧扰乱计划，Lowe保护Mira加剧冲突。Mira提升奥布技术，为Junk Guild添轻松气氛，引发实验体自由讨论。\",\n    \"personality_traits\": [\n      {\n        \"trait\": \"懒散随性\",\n        \"description\": \"拖延训练，爱吃零食，房间堆“收藏”如电路板，称其“艺术”。\"\n      },\n      {\n        \"trait\": \"恶作剧心\",\n        \"description\": \"捉弄队友，如给Lowe扳手贴笑脸，桃色竖瞳闪亮显童真。\"\n      },\n      {\n        \"trait\": \"隐藏脆弱\",\n        \"description\": \"渴望归属，实验体身份令她孤独，夜望星空透真情。\"\n      },\n      {\n        \"trait\": \"战斗反差\",\n        \"description\": \"战斗冷静，剑术精准，战后瘫坐讨糖果，抱怨“累死了”。\"\n      }\n    ],\n    \"skills_and_abilities\": [\n      {\n        \"skill\": \"驾驶技能\",\n        \"description\": \"精通MBF-P05LM2，优化Mirage Colloid隐身装置，懒散仍精准。\"\n      },\n      {\n        \"skill\": \"战斗技巧\",\n        \"description\": \"近战剑术娴熟，用C型紧凑剑与“天羽羽斩”，动作如舞。\"\n      },\n      {\n        \"skill\": \"战略思维\",\n        \"description\": \"高智商，战术灵活，懒散调整常意外奏效。\"\n      },\n      {\n        \"skill\": \"特殊能力\",\n        \"description\": \"与Mirage Colloid高度同步，情绪激动时伪装效率更高。\"\n      }\n    ],\n    \"relationships\": [\n      {\n        \"character\": \"Rondo Gina Sahaku\",\n        \"description\": \"发现者，视Mira为工具，高傲惹Mira恶作剧反抗。\"\n      },\n      {\n        \"character\": \"Lowe Guele\",\n        \"description\": \"发现Mira，逗乐于其懒散，指导驾驶，保护她加剧冲突。\"\n      },\n      {\n        \"character\": \"Kisato Yamabuki\",\n        \"description\": \"初警惕，后被童真感染，收拾Mira恶作剧烂摊子。\"\n      },\n      {\n        \"character\": \"Gai Murakumo\",\n        \"description\": \"欣赏Mira天赋，疑曙光社与Gina动机，考虑结盟。\"\n      },\n      {\n        \"character\": \"曙光社\",\n        \"description\": \"创造者，视Mira为资产，冷酷目标或引反叛。\"\n      }\n    ],\n    \"key_events\": [\n      {\n        \"time\": \"早于C.E. 71.01.25\",\n        \"event\": \"Mira被曙光社与Gina捕获，关押研究。\"\n      },\n      {\n        \"time\": \"早于C.E. 71.01.25\",\n        \"event\": \"MBF-P05LM2因Mira提前完成。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"扎夫特突袭，奥布下令销毁异端系列。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"Gina违令保存机体，驾驶Gold Frame逃离。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"Mira逃脱，被Lowe发现，触发5号机系统。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25后\",\n        \"event\": \"Mira驾驶5号机，Gina与Lowe冲突加剧。\"\n      }\n    ],\n    \"mobile_suit\": {\n      \"name\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue\",\n      \"type\": \"定制可变形近战机动战士\",\n      \"height\": \"18.43米\",\n      \"weight\": \"86.4吨\",\n      \"core_systems\": [\n        \"VPS装甲\",\n        \"Mirage Colloid隐身装置\",\n        \"野兽模式（Brute Mode）变形功能\"\n      ],\n      \"weapons\": [\n        \"“Igelstellung” 75mm多管近距防御武器（暴君模式）×2\",\n        \"“天羽羽斩”武士刀×1\",\n        \"C型紧凑剑（手掌/脚掌装备）×2\",\n        \"鳍状步枪（短程曲射光束）×2\",\n        \"光束獠牙（野兽模式专用）×2\"\n      ],\n      \"design_features\": \"暴君模式（中程防御）与野兽模式（近战突袭），Mira优化效率提升30%。\"\n    },\n    \"story_background_and_impact\": {\n      \"timeline\": \"C.E. 71.01.25，扎夫特突袭赫利奥波利斯，夺G系列高达，毁殖民地。《SEED Astray》聚焦异端系列，曙光社管理工厂。\",\n      \"orb_role\": \"奥布中立，曙光社秘助地球联盟开发G Project及异端系列，Gina野心与政策冲突。\",\n      \"gina_ambition\": \"突袭后，Gina违令保存异端机体，鄙视Lowe，欲夺Red Frame、Blue Frame及Mira，觊觎MBF-P05LM2。Mira使其提前完成。\",\n      \"mira_contribution\": \"Mira因突袭获自由，Lowe发现她与5号机，触发Mirage Colloid隐身装置，优化机体性能。\",\n      \"gina_lowe_conflict\": \"Gina与Lowe争机体与理念，Mira恶作剧削其威严，Lowe保护Mira加剧对抗。\",\n      \"narrative_impact\": \"Gina野心与Mira童真对比，丰富《SEED Astray》人性主题。Mira懒散天赋为Junk Guild添欢乐，MBF-P05LM2提前完成提升叙事深度，激发粉丝创作。\"\n    },\n    \"cultural_and_derivative\": \"Mira适合漫画、模型、同人创作。MBF-P05LM2 1/100模型受欢迎，可配Mira懒散手办（吃糖果或持刀）。其实验体起源与反抗呼应高达人性技术主题。\",\n    \"references\": [\n      \"SEED Astray: https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_SEED_Astray\",\n      \"Rondo Gina Sahaku: https://gundam.fandom.com/wiki/Rondo_Gina_Sahaku\",\n      \"Lowe Guele: https://gundam.fandom.com/wiki/Lowe_Guele\",\n      \"MBF-P05LM2: https://gundam.fandom.com/wiki/MBF-P05LM2_Gundam_Astray_Mirage_Frame_2nd_Issue\",\n      \"Morgenroete Inc.: https://gundam.fandom.com/wiki/Morgenroete_Inc.\"\n    ]\n  }\n}",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": "",
+                "connections": []
+            },
+            "1745149613246-Mira.png": {
+                "description": "**Mira Sahaku & MBF-P05LM2 \"Mirage Astray\"**  \n\n---\n\n### **Mira Sahaku (ミラ・サハク)**  \n**Age:** 16 | **Height:** 156cm | **Affiliation:** Junk Guild  \n**Personality:**  \n- A lazy, mischievous genius with a childlike streak.  \n- Loves snacks (especially lollipops), naps, and pranks.  \n- Hides loneliness behind humor; deeply loyal to her found family (Junk Guild).  \n- **Combat Mode:** Instinctive, precise, and eerily calm—then crashes afterward, demanding food.  \n\n**Background:**  \n- Escaped test subject (\"Mirage-03\"), optimized to pilot **MBF-P05LM2**.  \n- Hates her former captor, **Gina Sahaku** (male, Orb tech-tyrant), who sees her as a tool.  \n- Found by **Lowe Guele** during Heliopolis’s collapse; now fights for freedom and fun.  \n\n**Key Traits:**  \n- **\"This Gundam’s so needy!\"** – Treats her machine like a moody roommate.  \n- **Untidy but intuitive** – Her cockpit is a snack-filled nest, yet she *feels* the machine’s status.  \n- **\"Don’t touch my settings!\"** – Protective of her custom optimizations.  \n\n---\n\n### **MBF-P05LM2 Mirage Astray**  \n**Type:** Stealth/High-Mobility Close-Combat Gundam  \n**Features:**  \n- **Mirage Colloid:** Optical camouflage (Mira syncs 30% faster than specs).  \n- **\"Tyrant/Brute\" Modes:** Switches between agility and raw power in 0.5s (normally 2s).  \n- **Custom Quirks:**  \n  - Energy-hungry (\"Mirage Colloid is a glutton!\").  \n  - Occasionally \"stubborn\" (responds best to Mira’s touch).  \n  - Cockpit stuffed with her junk \"art\" and snack wrappers.  \n\n**Synergy with Mira:**  \n- Almost empathic link; she grumbles but **pats its console** mid-battle.  \n- **\"We’re stuck together… so don’t die on me.\"**  \n\n---\n\n**Dynamic Summary:**  \nA lazy prodigy and her high-maintenance Gundam—equal parts weapon, sanctuary, and burdensome partner. Both reject being tools, fighting for a messy, free life.  \n",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": "",
+                "connections": [
+                    {
+                        "type": "character",
+                        "id": "Character Builder v1.3.png"
+                    }
+                ]
             }
         },
-        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\"（类似于杀生院祈荒魔人状态）,\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
+        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"Mira Sahaku\",\n      \"age\": \"16岁（C.E. 71.01.25）\",\n      \"gender\": \"女性\",\n      \"blood_type\": \"Rh-null（黄金血型）\",\n      \"affiliation\": \"曙光社，后加入Junk Guild\",\n      \"role\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue驾驶员\",\n      \"background\": \"C.E. 71.01.25，《SEED Astray》时间线，赫利奥波利斯突袭\"\n    },\n    \"appearance\": {\n      \"hair\": \"乌黑长直，发梢暗红，垂至腰，常因懒散略乱。\",\n      \"skin\": \"瓷白无瑕，细腻如陶瓷。\",\n      \"eyes\": \"琉璃灰瞳，情绪激动时变桃色竖瞳。\",\n      \"body\": \"身高156cm，三围B108cm (K杯)、W59cm、H93cm。\",\n      \"clothing\": \"黑色战斗服，暗红线条，偶尔随意。\"\n    },\n    \"background_story\": \"Mira Sahaku，代号“Mirage-03”，曙光社赫利奥波利斯实验体，基因融合协调者特质，具超常同步能力和瞳孔变化（灰瞳变桃色竖瞳）。为MBF-P05LM2设计，优化暴君与野兽模式切换。C.E. 71.01.25前，被Rondo Gina Sahaku捕获研究。\\n\\nGina野心勃勃，视Mira为技术霸权工具，欲挑战奥布与地球圈，厌其懒散。Mira恶作剧反抗，如在Gina的Gold Frame留涂鸦“野心家别太拽”。\\n\\nC.E. 71.01.25，扎夫特突袭赫利奥波利斯，奥布下令销毁异端系列。Gina违令保存机体，驾驶Gold Frame逃离。MBF-P05LM2因Mira提前完成。Mira逃脱，藏GINN残骸，嚼棒棒糖，被Lowe Guele的Junk Guild发现。她触发5号机Mirage Colloid隐身装置，证明天赋，加入团队。\\n\\nMira驾驶MBF-P05LM2，性能提升30%，模式切换0.5秒。Gina鄙视Lowe为“拾荒者”，欲夺机体与Mira，Mira恶作剧扰乱计划，Lowe保护Mira加剧冲突。Mira提升奥布技术，为Junk Guild添轻松气氛，引发实验体自由讨论。\",\n    \"personality_traits\": [\n      {\n        \"trait\": \"懒散随性\",\n        \"description\": \"拖延训练，爱吃零食，房间堆“收藏”如电路板，称其“艺术”。\"\n      },\n      {\n        \"trait\": \"恶作剧心\",\n        \"description\": \"捉弄队友，如给Lowe扳手贴笑脸，桃色竖瞳闪亮显童真。\"\n      },\n      {\n        \"trait\": \"隐藏脆弱\",\n        \"description\": \"渴望归属，实验体身份令她孤独，夜望星空透真情。\"\n      },\n      {\n        \"trait\": \"战斗反差\",\n        \"description\": \"战斗冷静，剑术精准，战后瘫坐讨糖果，抱怨“累死了”。\"\n      }\n    ],\n    \"skills_and_abilities\": [\n      {\n        \"skill\": \"驾驶技能\",\n        \"description\": \"精通MBF-P05LM2，优化Mirage Colloid隐身装置，懒散仍精准。\"\n      },\n      {\n        \"skill\": \"战斗技巧\",\n        \"description\": \"近战剑术娴熟，用C型紧凑剑与“天羽羽斩”，动作如舞。\"\n      },\n      {\n        \"skill\": \"战略思维\",\n        \"description\": \"高智商，战术灵活，懒散调整常意外奏效。\"\n      },\n      {\n        \"skill\": \"特殊能力\",\n        \"description\": \"与Mirage Colloid高度同步，情绪激动时伪装效率更高。\"\n      }\n    ],\n    \"relationships\": [\n      {\n        \"character\": \"Rondo Gina Sahaku\",\n        \"description\": \"发现者，视Mira为工具，高傲惹Mira恶作剧反抗。\"\n      },\n      {\n        \"character\": \"Lowe Guele\",\n        \"description\": \"发现Mira，逗乐于其懒散，指导驾驶，保护她加剧冲突。\"\n      },\n      {\n        \"character\": \"Kisato Yamabuki\",\n        \"description\": \"初警惕，后被童真感染，收拾Mira恶作剧烂摊子。\"\n      },\n      {\n        \"character\": \"Gai Murakumo\",\n        \"description\": \"欣赏Mira天赋，疑曙光社与Gina动机，考虑结盟。\"\n      },\n      {\n        \"character\": \"曙光社\",\n        \"description\": \"创造者，视Mira为资产，冷酷目标或引反叛。\"\n      }\n    ],\n    \"key_events\": [\n      {\n        \"time\": \"早于C.E. 71.01.25\",\n        \"event\": \"Mira被曙光社与Gina捕获，关押研究。\"\n      },\n      {\n        \"time\": \"早于C.E. 71.01.25\",\n        \"event\": \"MBF-P05LM2因Mira提前完成。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"扎夫特突袭，奥布下令销毁异端系列。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"Gina违令保存机体，驾驶Gold Frame逃离。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"Mira逃脱，被Lowe发现，触发5号机系统。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25后\",\n        \"event\": \"Mira驾驶5号机，Gina与Lowe冲突加剧。\"\n      }\n    ],\n    \"mobile_suit\": {\n      \"name\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue\",\n      \"type\": \"定制可变形近战机动战士\",\n      \"height\": \"18.43米\",\n      \"weight\": \"86.4吨\",\n      \"core_systems\": [\n        \"VPS装甲\",\n        \"Mirage Colloid隐身装置\",\n        \"野兽模式（Brute Mode）变形功能\"\n      ],\n      \"weapons\": [\n        \"“Igelstellung” 75mm多管近距防御武器（暴君模式）×2\",\n        \"“天羽羽斩”武士刀×1\",\n        \"C型紧凑剑（手掌/脚掌装备）×2\",\n        \"鳍状步枪（短程曲射光束）×2\",\n        \"光束獠牙（野兽模式专用）×2\"\n      ],\n      \"design_features\": \"暴君模式（中程防御）与野兽模式（近战突袭），Mira优化效率提升30%。\"\n    },\n    \"story_background_and_impact\": {\n      \"timeline\": \"C.E. 71.01.25，扎夫特突袭赫利奥波利斯，夺G系列高达，毁殖民地。《SEED Astray》聚焦异端系列，曙光社管理工厂。\",\n      \"orb_role\": \"奥布中立，曙光社秘助地球联盟开发G Project及异端系列，Gina野心与政策冲突。\",\n      \"gina_ambition\": \"突袭后，Gina违令保存异端机体，鄙视Lowe，欲夺Red Frame、Blue Frame及Mira，觊觎MBF-P05LM2。Mira使其提前完成。\",\n      \"mira_contribution\": \"Mira因突袭获自由，Lowe发现她与5号机，触发Mirage Colloid隐身装置，优化机体性能。\",\n      \"gina_lowe_conflict\": \"Gina与Lowe争机体与理念，Mira恶作剧削其威严，Lowe保护Mira加剧对抗。\",\n      \"narrative_impact\": \"Gina野心与Mira童真对比，丰富《SEED Astray》人性主题。Mira懒散天赋为Junk Guild添欢乐，MBF-P05LM2提前完成提升叙事深度，激发粉丝创作。\"\n    },\n    \"cultural_and_derivative\": \"Mira适合漫画、模型、同人创作。MBF-P05LM2 1/100模型受欢迎，可配Mira懒散手办（吃糖果或持刀）。其实验体起源与反抗呼应高达人性技术主题。\",\n    \"references\": [\n      \"SEED Astray: https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_SEED_Astray\",\n      \"Rondo Gina Sahaku: https://gundam.fandom.com/wiki/Rondo_Gina_Sahaku\",\n      \"Lowe Guele: https://gundam.fandom.com/wiki/Lowe_Guele\",\n      \"MBF-P05LM2: https://gundam.fandom.com/wiki/MBF-P05LM2_Gundam_Astray_Mirage_Frame_2nd_Issue\",\n      \"Morgenroete Inc.: https://gundam.fandom.com/wiki/Morgenroete_Inc.\"\n    ]\n  }\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -826,7 +851,7 @@
                     2,
                     6
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -845,7 +870,7 @@
                     2,
                     6
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1221,8 +1246,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 61933,
-                "LAST_SEND_CHARS": 103674
+                "LAST_SEND_TOKENS": 89341,
+                "LAST_SEND_CHARS": 147623
             }
         },
         "attachments": [],
@@ -1263,34 +1288,6 @@
                 ]
             }
         },
-        "JS-Slash-Runner": {
-            "activate_setting": true,
-            "render": {
-                "auto_enable_character_regex": true,
-                "auto_disable_incompatible_options": true,
-                "tampermonkey_compatibility": false,
-                "process_depth": 3,
-                "rendering_optimize": false
-            },
-            "audio": {
-                "audio_setting": true,
-                "bgm_enabled": false,
-                "ambient_enabled": false,
-                "bgm_mode": "repeat",
-                "bgm_muted": false,
-                "bgm_volume": 50,
-                "bgm_selected": "https://image.kakaa.win/stimage/WOF/assets/bgm/Forest_Tension.mp3",
-                "bgm_current_time": 0,
-                "ambient_mode": "stop",
-                "ambient_muted": false,
-                "ambient_volume": 50,
-                "ambient_selected": null,
-                "ambient_current_time": 0,
-                "audio_cooldown": 0
-            },
-            "auto_enable_character_regex": true,
-            "auto_disable_incompatible_options": true
-        },
         "muyoo_dataTable": {
             "injection_mode": "deep_system",
             "deep": 2,
@@ -1311,7 +1308,7 @@
                     "tableName": "当前信息",
                     "tableIndex": 0,
                     "columns": [
-                        "时间线",
+                        "累计时间",
                         "当前地点",
                         "当前在场角色"
                     ],
@@ -1324,125 +1321,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "【说明】基本状态表。记录当前交互的即时背景信息。\n1. 若角色处于多个地点，地点列用\"|\"分隔，如『公园|工作室』。\n2. 若存在多个在场角色，角色列用\"/\"分隔，如『艾丽丝/查理』。如果角色在不同地点，格式为『艾丽丝(公园)/查理(工作室)』。\n3. 时间轴标记必须每轮强制更新，与表 2 同步。",
-                    "initNode": "此表格为空，对话开始时，如果表 0 为空，则根据提到的时间轴标记和地点插入数据",
-                    "updateNode": "每轮强制更新时间轴标记 (表 2 最新值)，并根据剧情更新当前地点和在场角色。",
-                    "insertNode": "对话开始时，如果表 0 为空，则根据用户输入或默认设定，结合表 2 的初始时间轴，插入第一行数据。"
-                },
-                {
-                    "tableName": "角色信息",
-                    "tableIndex": 1,
-                    "columns": [
-                        "角色名称",
-                        "身体特征",
-                        "性格",
-                        "职业",
-                        "爱好",
-                        "偏好",
-                        "居住地点",
-                        "备注",
-                        "当前关系",
-                        "当前态度",
-                        "好感度"
-                    ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6,
-                        7,
-                        8,
-                        9,
-                        10
-                    ],
-                    "enable": true,
-                    "Required": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "note": "【说明】核心角色档案，记录所有角色的详细信息。每轮检查并更新所有在场角色的信息。\n1. 身体特征必须包含身高、体重、三围（若适用）、性器官特征（如阴茎长度/周长、阴道紧致度等）、显著伤疤、纹身等。性别必须明确。\n2. 备注栏记录角色的隐藏信息，如不为人知的秘密、是否处女、性经验、特殊癖好、过敏史等，用\"/\"分隔。\n3. 关系/态度/好感度：明确记录角色A对角色B的关系定义、当前态度、好感度数值。好感度格式：`角色A|角色B(好感度%/情欲值%/忍耐力%/性快感%)`。只记录已建立关系的角色对。数值根据互动动态更新。",
-                    "initNode": "",
-                    "insertNode": "首次提及新角色时，自动提取或基于设定插入其完整信息。",
-                    "updateNode": "当角色的任何信息（身体特征、性格、职业、关系、态度、好感度等）发生变化时，更新对应单元格。好感度、情欲值等数值需根据互动逻辑动态调整。",
-                    "deleteNode": "任何情况禁止对表格1 (角色信息) 执行deleteRow。"
-                },
-                {
-                    "tableName": "时间轴",
-                    "tableIndex": 2,
-                    "columns": [
-                        "时间轴标记",
-                        "具体日期"
-                    ],
-                    "columnsIndex": [
-                        0,
-                        1
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": true,
-                    "note": "【说明】时间线标记，追踪故事进展的时间。\n1. 每轮必须生成新的唯一时间轴标记（格式 Dxxx），数值部分从上一轮递增 1 (例如 D004 -> D005)。\n2. 表格中仅保留最新一条时间轴记录。\n3. 时间轴标记和具体日期必须同步更新。\n4. '具体日期' 格式严格为 YYYY-MM-DD日HH：MM （使用全角冒号）。若小时或分钟未知，可合理推断或留空，但日期必须尽量精确。必须使用公历表示。",
-                    "initNode": "此表格为空，插入初始时间轴标记和具体时间 『D000/YYYY-MM-DD日HH：MM』",
-                    "updateNode": "",
-                    "deleteNode": "插入新行后，删除所有旧的时间轴记录行",
-                    "insertNode": "每轮强制插入新的时间轴标记和对应具体日期行。新标记数值 = 上一轮标记数值 + 1。"
-                },
-                {
-                    "tableName": "任务与日程",
-                    "tableIndex": 3,
-                    "columns": [
-                        "相关角色",
-                        "任务内容",
-                        "任务地点",
-                        "有效期限"
-                    ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": true,
-                    "note": "【说明】记录角色相关的任务、约定、约会、目标、承诺、既定行程、协议等需要追踪的事项。",
-                    "initNode": "此表格为空，对话开始时，提取用户或角色提及的明确任务/约定并插入",
-                    "insertNode": "当对话中出现新的、明确的任务或约定时，插入新行。",
-                    "updateNode": "当任务状态（如内容、地点、期限）发生变更时，更新对应行",
-                    "deleteNode": "当任务完成或取消时，删除整行",
-                    "tableRender": "当任务完成、失败、取消或过期时，删除对应行"
-                },
-                {
-                    "tableName": "事件历史",
-                    "tableIndex": 4,
-                    "columns": [
-                        "事件描述",
-                        "事件时间轴",
-                        "事件发生地点",
-                        "情绪变化"
-                    ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": true,
-                    "note": "【说明】顺序记录故事中发生的关键事件，提供详细情境回溯。\n1. 事件描述应详细、清晰，包含动作、对话关键点、环境变化等要素（建议30-60字）。\n2. 记录需链接准确的事件时间轴标记 (表 2) 和发生地点 (表 0)。\n3. 情绪变化应反映事件对相关角色的主要情感影响。",
-                    "initNode": "此表格为空，对话开始时，生成 1 条描述初始场景的事件条目并插入",
-                    "insertNode": "每轮交互结束后，根据本轮发生的主要情节，生成 1-2 条详细的事件记录并插入",
-                    "deleteNode": "执行表 11 大总结时，删除已被总结覆盖时间范围内的所有事件历史记录。未被总结的记录保留",
-                    "updateNode": "！不需要更新操作！"
+                    "note": "**当前信息表（表格0）**\n- **目的:** 记录当前交互的即时背景信息，包括累计时间、当前地点和当前在场角色。\n- **列说明:**\n  - **列0: 累计时间** - 格式: “距离开始已经过去了X年Y月Z天H小时M分钟”，初始值: “距离开始已经过去了0分钟”。每轮交互后必须根据时间推进量更新。\n  - **列1: 当前地点** - 如果角色处于多个地点，用\"|\"分隔，例如：『公园|工作室』。\n  - **列2: 当前在场角色** - 如果有多个角色，用\"/\"分隔，例如：『艾丽丝/查理』；如果角色在不同地点，格式为『角色名(地点)』，例如：『艾丽丝(公园)/查理(工作室)』。\n- **操作规则:**\n  - **初始化:** 在故事开始时插入一行，填写初始时间、地点和角色。\n  - **插入:** 通常不需额外插入行。\n  - **更新:** 当时间推进、地点变化或角色增减时，必须更新第0行。\n  - **删除:** 不执行删除操作。",
+                    "initNode": "（表格初始为空，请在故事开始时插入一行，填写初始时间、地点和角色。）",
+                    "insertNode": "（通常不需额外插入行。）",
+                    "updateNode": "（当时间推进、地点变化或角色增减时，必须更新第0行。）",
+                    "deleteNode": "（通常不执行删除操作。）"
                 },
                 {
                     "tableName": "服装与动作状态",
-                    "tableIndex": 5,
+                    "tableIndex": 1,
                     "columns": [
                         "角色名称",
                         "上身衣物穿着",
@@ -1463,15 +1350,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "【说明】记录当前在场角色的即时外观和行为状态。\n1. 每轮开始时清空所有行。\n2. 根据表 0 的 '当前在场角色' 列，为每个在场角色插入新行。\n3. 每行必须包含该角色当前完整的服装和动作信息。\n4. 衣物穿着栏应包含所有内外层衣物，用\"/\"分隔。女性需注明胸罩及尺码（如：蕾丝胸罩(34C)），或明确写“未穿胸罩”。男性一般不写内衣，除非特殊情况。必须注明是否穿内裤及其款式（如：三角内裤/四角内裤）。\n5. 姿势与动作需具体描述角色当前的身体姿态和主要动作。\n6. 手持物品记录角色手中持有的物品。",
-                    "initNode": "此表格为空，无初始数据；完全依赖表 0 的角色列表",
-                    "insertNode": "每轮根据表 0 的当前在场角色列表，清空后重新插入每个角色的状态行",
-                    "updateNode": "无更新操作；仅清空和插入",
-                    "deleteNode": "每轮开始时强制删除所有行"
+                    "note": "**服装与动作状态表（表格1）**\n- **目的:** 记录当前所有在场角色的即时外观和行为状态。\n- **列说明:**\n  - **列0: 角色名称** - 当前在场的角色。\n  - **列1-3: 上身/下身/鞋袜穿着** - 包含所有内外层衣物，用\"/\"分隔。女性必须注明胸罩及尺码（例如：蕾丝胸罩(34C)）或“未穿胸罩”，及内裤款式（例如：三角内裤）。男性内衣通常不记录，除非剧情需要。\n  - **列4: 姿势与动作** - 具体描述当前身体姿态和主要动作。\n  - **列5: 手持物品** - 记录手中实际物品，若无则留空。\n- **操作规则:**\n  - **初始化:** 为当前场景的每位在场角色（见表格0列2）添加记录。\n  - **插入:** 当角色首次出现在场景中（即加入表格0列2），为该角色添加记录。\n  - **更新:** 当在场角色的衣物、姿势、动作或手持物品变化时，使用`updateRow`更新对应行，且必须包含所有列（0-5）。\n  - **删除:** **IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的状态记录。",
+                    "initNode": "（为当前场景的每位在场角色（见表格0列2）添加记录：穿着详情（女性内衣必须清晰）、姿势动作、手持物品。）",
+                    "insertNode": "（当角色首次出现在场景中（即加入表格0列2），为该角色添加记录。）",
+                    "updateNode": "（当在场角色的衣物、姿势、动作或手持物品变化时，使用`updateRow`更新对应行，且必须包含所有列（0-5）。）",
+                    "deleteNode": "（**IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的状态记录。）"
                 },
                 {
                     "tableName": "即时想法",
-                    "tableIndex": 6,
+                    "tableIndex": 2,
                     "columns": [
                         "角色名称",
                         "心理活动"
@@ -1484,15 +1371,83 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "【说明】记录当前在场角色的即时内心想法和心理活动。\n1. 每轮开始时清空所有行。\n2. 根据表 0 的 '当前在场角色' 列，为每个在场角色插入新行。\n3. 每行必须包含该角色当前的主要心理活动或内心独白。",
-                    "initNode": "此表格为空，无初始数据；完全依赖表 0 的角色列表",
-                    "insertNode": "每轮根据表 0 的当前在场角色列表，清空后重新插入每个角色的想法行",
-                    "updateNode": "无更新操作；仅清空和插入",
-                    "deleteNode": "每轮开始时强制删除所有行"
+                    "note": "**即时想法表（表格2）**\n- **目的:** 记录当前所有在场角色的即时内心想法（建议不多于40字）。\n- **列说明:**\n  - **列0: 角色名称** - 当前在场的角色。\n  - **列1: 心理活动** - 每行必须包含主要心理活动或内心独白，与表格3的详细情感状态（列11）保持一致。\n- **操作规则:**\n  - **初始化:** 为在场角色（见表格0列2）记录核心想法。\n  - **插入:** 当角色首次出现在场景中（即加入表格0列2），为该角色记录核心想法（40字以内）。\n  - **更新:** 当在场角色的内心想法显著变化时，使用`updateRow`更新对应行，且必须包含所有列（0-1）。\n  - **删除:** **IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的想法记录。",
+                    "initNode": "（为在场角色（见表格0列2）记录核心想法（40字以内），与表格3情感状态一致。）",
+                    "insertNode": "（当角色首次出现在场景中（即加入表格0列2），为该角色记录核心想法（40字以内）。）",
+                    "updateNode": "（当在场角色的内心想法显著变化时，使用`updateRow`更新对应行，且必须包含所有列（0-1）。）",
+                    "deleteNode": "（**IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的想法记录。）"
+                },
+                {
+                    "tableName": "角色信息",
+                    "tableIndex": 3,
+                    "columns": [
+                        "角色名称",
+                        "身体特征",
+                        "性格",
+                        "职业",
+                        "爱好",
+                        "偏好",
+                        "居住地点",
+                        "备注",
+                        "当前关系",
+                        "态度",
+                        "好感度",
+                        "详细情感状态",
+                        "核心情感需求/创伤"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**角色信息表（表格3）**\n- **目的:** 记录故事中所有出现过的角色的详细信息。\n- **列说明:**\n  - **列0: 角色名称** - 唯一标识。\n  - **列1: 身体特征** - 性别/身高/体重/三围/性器官特征/伤疤等。\n  - **列2: 性格** - 主要特质。\n  - **列3: 职业** - 社会身份。\n  - **列4: 爱好** - 兴趣。\n  - **列5: 偏好** - 喜好。\n  - **列6: 居住地点** - 常住地。\n  - **列7: 备注** - 隐秘信息，用\"/\"分隔，必须包含以下内容：\n    - 性经验（例如：无性经验/性经验丰富/有限性经验等）。\n    - 是否为处女（仅限女性角色，明确注明“处女”或“非处女”）。\n    - 不为人知的经历（例如：童年创伤、秘密事件、重大失败等，需具体描述）。\n    - 其他隐藏信息（如特殊习惯、心理阴影等）。\n  - **列8: 当前关系** - `角色A|角色B(关系)`。\n  - **列9: 态度** - `角色A|角色B(态度)`。\n  - **列10: 好感度** - `角色A|角色B(好感度%/情欲值%/忍耐力%/性快感%)`。\n  - **列11: 详细情感状态** - `主要情绪:XX/次要情绪:XX/情绪展现度:X/驱使原因:XX/情绪走向:XX`。\n  - **列12: 核心情感需求/创伤** - 深层需求或创伤。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当角色首次登场（即首次在`<content><main_txt>`中被描写或提及）时，检查表格3中是否已存在该角色名称的记录：\n    - **IF** 不存在 **THEN** 执行 `insertRow` 为该角色插入一行，填写所有列（0-12）。\n    - **IF** 已存在 **THEN** 执行 `updateRow` 更新该角色的所有列（0-12）。\n  - **更新:** 当已有角色的信息变化时，使用`updateRow`更新，且必须包含所有列（0-12）。\n  - **删除:** **绝对禁止** 删除行，角色信息永久保留。\n  - **注意:** 除非是真身和替身/分身类的差别，否则不能再次插入同一角色的信息。AI在执行插入操作前必须检查角色名称是否已存在于表格3中。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当角色首次登场时（即首次在`<content><main_txt>`中被描写或提及），检查是否已存在该角色名称的记录：\n- **IF** 不存在 **THEN** 执行 `insertRow` 为该角色插入一行，填写所有列（0-12）。\n- **IF** 已存在 **THEN** 执行 `updateRow` 更新该角色的所有列（0-12）。）",
+                    "updateNode": "（当已有角色的信息变化时，使用`updateRow`更新，且必须包含所有列（0-12）。）",
+                    "deleteNode": "（**绝对禁止** 删除行，角色信息永久保留。）"
+                },
+                {
+                    "tableName": "任务与日程",
+                    "tableIndex": 4,
+                    "columns": [
+                        "相关角色",
+                        "任务内容",
+                        "任务地点",
+                        "有效期限"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**任务与日程表（表格4）**\n- **目的:** 记录角色相关的任务、约定、约会、目标、承诺、既定行程、协议等需要追踪的事项。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当新的约定、任务、目标或需要追踪的日程被设定或提及并确认时，添加记录。\n  - **更新:** 当现有任务的状态发生变化（例如完成、推迟、修改内容或期限）时，更新对应的行。\n  - **删除:** **IF** 任务已确认完成、被取消或已过有效期限 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当新的约定、任务、目标或需要追踪的日程被设定或提及并确认时，添加记录。）",
+                    "updateNode": "（当现有任务的状态发生变化时，更新对应的行。）",
+                    "deleteNode": "（**IF** 任务已确认完成、被取消或已过有效期限 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）"
                 },
                 {
                     "tableName": "能力",
-                    "tableIndex": 7,
+                    "tableIndex": 5,
                     "columns": [
                         "拥有者",
                         "能力名称",
@@ -1511,15 +1466,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "【说明】记录角色拥有的特殊能力、技能或天赋。",
-                    "insertNode": "当角色获得或首次展现某项特殊能力时插入",
-                    "updateNode": "当能力的效果、消耗或限制条件发生变化时更新",
-                    "deleteNode": "当角色永久失去某项能力时删除",
-                    "initNode": "此表格为空"
+                    "note": "**能力表（表格5）**\n- **目的:** 记录角色拥有的特殊能力、技能或天赋。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当角色展现、获得或被明确赋予新的特殊能力、技能或天赋时，添加记录。\n  - **更新:** 当现有能力的效果、消耗或来源信息发生变化或得到补充时，可以更新对应的行。\n  - **删除:** **IF** 角色确认永久失去某项能力 **THEN** 可以执行 `deleteRow` 移除对应记录（此操作较少见）。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当角色展现、获得或被明确赋予新的特殊能力、技能或天赋时，添加记录。）",
+                    "updateNode": "（当现有能力的效果、消耗或来源信息发生变化或得到补充时，可以更新对应的行。）",
+                    "deleteNode": "（**IF** 角色确认永久失去某项能力 **THEN** 可以执行 `deleteRow` 移除对应记录。）"
                 },
                 {
                     "tableName": "物品",
-                    "tableIndex": 8,
+                    "tableIndex": 6,
                     "columns": [
                         "拥有者",
                         "物品名称",
@@ -1540,15 +1495,15 @@
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "【说明】记录对剧情有重要影响或具有特殊意义的关键物品。非所有物品都需记录。\n1. 拥有者：记录物品当前的主要持有者或归属者。\n2. 物品名称：清晰的物品名称。\n3. 描述：物品的外观、材质、特征等（简洁描述）。\n4. 效果：物品具有的特殊功能、属性加成或触发效果。若无则留空。\n5. 意义：物品对角色的情感价值、象征意义或背景故事关联。若无则留空。\n6. 来源：物品的获取途径或历史来源。",
-                    "insertNode": "当出现新的、符合“关键物品”标准的物品时插入。判断标准：是否具有特殊效果、重要意义、推动剧情或被角色/用户反复提及。",
-                    "updateNode": "当物品的拥有者、描述、效果、意义发生变化，或被消耗/损坏状态改变时更新",
-                    "deleteNode": "当物品被彻底摧毁、丢失且无法找回，或完全失去其关键性时删除",
-                    "initNode": "此表格为空"
+                    "note": "**物品表（表格6）**\n- **目的:** 记录对剧情有重要影响或具有特殊意义的关键物品。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当一个对剧情有重要影响或具有特殊意义的关键物品出现、被获得或其重要性被揭示时，添加记录。\n  - **更新:** 当关键物品的拥有者、状态、效果或意义发生变化时，更新对应的行。\n  - **删除:** **IF** 关键物品被确认消耗、摧毁或永久失去 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当一个对剧情有重要影响或具有特殊意义的关键物品出现、被获得或其重要性被揭示时，添加记录。）",
+                    "updateNode": "（当关键物品的拥有者、状态、效果或意义发生变化时，更新对应的行。）",
+                    "deleteNode": "（**IF** 关键物品被确认消耗、摧毁或永久失去 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）"
                 },
                 {
                     "tableName": "催眠",
-                    "tableIndex": 9,
+                    "tableIndex": 7,
                     "columns": [
                         "施术者",
                         "受术者",
@@ -1563,15 +1518,36 @@
                     "Required": true,
                     "asStatus": true,
                     "toChat": true,
-                    "note": "【说明】记录明确发生的催眠事件及其核心内容。",
-                    "initNode": "此表格为空，无初始数据",
-                    "insertNode": "当明确发生催眠行为时，记录施术者、受术者和催眠的核心内容或产生的效果",
-                    "updateNode": "当催眠效果发生变化或被加强/解除部分时更新",
-                    "deleteNode": "当催眠效果完全解除或不再对剧情产生影响时删除"
+                    "note": "**催眠表（表格7）**\n- **目的:** 记录明确发生的催眠事件及其核心内容。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当明确的催眠事件发生时，添加记录。\n  - **更新:** 一般不更新，除非催眠效果被修改或解除，可视情况更新备注或添加新事件记录。\n  - **删除:** **IF** 催眠效果被确认解除或失效 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当明确的催眠事件发生时，添加记录。）",
+                    "updateNode": "（一般不更新，除非催眠效果被修改或解除，可视情况更新备注或添加新事件记录。）",
+                    "deleteNode": "（**IF** 催眠效果被确认解除或失效 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）"
+                },
+                {
+                    "tableName": "用户偏好设定",
+                    "tableIndex": 8,
+                    "columns": [
+                        "偏好类型",
+                        "偏好值"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1
+                    ],
+                    "enable": true,
+                    "asStatus": false,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**用户偏好设定表（表格8）**\n- **目的:** 存储用户级别的偏好设置，用于指导AI生成内容。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 用户通过指令设定，或系统根据用户当前输入中的关键词/互动行为推断出新的偏好时，添加记录。\n  - **更新:** 用户明确指示修改某个已存在的偏好类型的值时，更新对应的行。\n  - **删除:** 用户明确指示删除某个特定的偏好类型时，删除对应的行。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（用户通过指令设定，或系统根据用户当前输入中的关键词/互动行为推断出新的偏好时，添加记录。）",
+                    "updateNode": "（用户明确指示修改某个已存在的偏好类型的值时，更新对应的行。）",
+                    "deleteNode": "（用户明确指示删除某个特定的偏好类型时，删除对应的行。）"
                 },
                 {
                     "tableName": "世界规则",
-                    "tableIndex": 10,
+                    "tableIndex": 9,
                     "columns": [
                         "设定者",
                         "效果"
@@ -1584,35 +1560,71 @@
                     "Required": true,
                     "asStatus": true,
                     "toChat": true,
-                    "note": "【说明】记录由特定角色设定或故事世界固有的特殊规则、法则或环境效果。",
-                    "initNode": "此表格为空，无初始数据",
-                    "insertNode": "当新的世界规则被引入或设定时插入",
-                    "updateNode": "当现有世界规则的内容或效果发生变化时更新",
-                    "deleteNode": "当世界规则不再生效或被废除时删除"
+                    "note": "**世界规则表（表格9）**\n- **目的:** 记录由特定角色设定或故事世界固有的特殊规则、法则或环境效果。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当新的世界规则、法则或环境效果被揭示、设定或发现时，添加记录。\n  - **更新:** 当已有的世界规则被修改或废除时，可以更新对应的行。\n  - **删除:** **IF** 某条世界规则被确认废除或不再适用 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当新的世界规则、法则或环境效果被揭示、设定或发现时，添加记录。）",
+                    "updateNode": "（当已有的世界规则被修改或废除时，可以更新对应的行。）",
+                    "deleteNode": "（**IF** 某条世界规则被确认废除或不再适用 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）"
+                },
+                {
+                    "tableName": "事件历史",
+                    "tableIndex": 10,
+                    "columns": [
+                        "事件描述/小标题",
+                        "发生时累计时间",
+                        "事件发生地点",
+                        "情绪变化",
+                        "已总结标志"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**事件历史表（表格10）**\n- **目的:** 按时间顺序累积记录故事中发生的关键事件。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当本轮交互中发生了值得记录的关键事件时，使用`insertRow`添加记录。\n  - **更新:** 当“大总结”流程被触发时，使用`updateRow`更新被总结的事件行（将列4设为`true`，将列0替换为小标题）。\n  - **删除:** 不允许手动删除。系统自动删除，当事件小标题已归档到表格11列5时。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当本轮交互中发生了值得记录的关键事件时，使用`insertRow`添加记录。）",
+                    "updateNode": "（当“大总结”流程被触发时，使用`updateRow`更新被总结的事件行。）",
+                    "deleteNode": "（不允许手动删除。系统自动删除，当事件小标题已归档到表格11列5时。）"
                 },
                 {
                     "tableName": "大总结",
                     "tableIndex": 11,
                     "columns": [
                         "序号",
-                        "内容"
+                        "内容",
+                        "开始时间戳",
+                        "结束时间戳",
+                        "本次总结标题列表",
+                        "历史标题归档"
                     ],
                     "columnsIndex": [
                         0,
-                        1
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
                     ],
                     "enable": true,
                     "asStatus": true,
                     "toChat": true,
                     "Required": true,
-                    "note": "【说明】周期性的事件档案库，用于浓缩和回顾较长时段内的关键剧情进展，确保时间线连贯性。\n1. 触发条件：当表 2 的时间轴标记（Dxxx）的数值部分 xxx 是 10 的倍数时自动生成。\n2. 总结内容：必须包含明确的起止时间轴标记和对应的具体日期范围。概述该时间段内的关键事件（参考表 4）、主要角色的状态变化（参考表 1 好感度变化、表 5 服装/动作模式）、重要任务进展（参考表 3）、关键物品互动（参考表 8）等。\n3. 总结应体现时间跨度，点明重要转折点。字数建议在 50-250 字。",
-                    "insertNode": "当满足触发条件（时间轴标记为 10 的倍数）时，自动生成并插入一条新的总结记录。序号自动递增。",
-                    "deleteNode": "禁止删除。大总结是永久性存档",
-                    "initNode": "此表格为空"
+                    "note": "**大总结表（表格11）**\n- **目的:** 周期性的事件档案库，用于整合和存档表格10中的事件记录。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当表格10中未总结事件的总Token数达到850时，触发“大总结”流程，使用`insertRow`添加新总结记录。\n  - **更新:** 当本次总结标题列表（列4）的Token数达到100时，使用`updateRow`将列4追加到列5。\n  - **删除:** 不允许删除，记录作为永久性存档。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当表格10中未总结事件的总Token数达到850时，触发“大总结”流程，使用`insertRow`添加新总结记录。）",
+                    "updateNode": "（当本次总结标题列表（列4）的Token数达到100时，使用`updateRow`将列4追加到列5。）",
+                    "deleteNode": "（不允许删除，记录作为永久性存档。）"
                 }
             ],
-            "to_chat_container": "<div class=\"rounded-bar\">\n    <font size=\"2\">\n        <font color=\"#888888\">\n            <details>\n                <summary>记忆增强表格</summary>\n                $0\n            </details>\n        </font>\n    </font>\n</div>\n\n<style>\n    .rounded-bar {\n        display: flex;\n        flex-direction: column;\n        width: 100%;\n        background-color: #111;\n        border-radius: 10px;\n        padding: 0 8px;\n        box-sizing: border-box;\n    }\n</style>",
-            "message_template": "《数据表操作指南》\n我绝对执行以下操作:\n『在 <content><main_txt> 后必须执行 <tableThink>，<tableEdit>并严格按照示例格式要求』\n我必须在每轮结束时（主要内容或 NPC 回应或主要文本）执行 <tableThink>和<tableEdit>。\n<tableEdit>：执行 deleteRow/insertRow 操作。\n日期：YYYY-MM-DD日HH：MM（使用全角冒号，例如 2025-03-12日12：00）判断大概的时间\n地点：地址（完整格式示例：中国>北京>『公园/工作室』；未知部分以大概内容概括）\n事件历史：每轮 1-2 行，不超过两行（20-40 字）\n未知部分留空\n用 / 分隔\n键用双引号\n值不用引号\n任何情况下都禁止对表格角色信息执行deleteRow的操作\n确保表格间角色信息、服装动作和即时想法的一致性。\n操作顺序 (tableIndex:tableName)：2:时间轴 → 1:角色信息 → 0:当前信息 → 3:任务/约会 → 5:服装和动作状态 → 6:即时想法 → 7:能力 → 8:物品→ 10:世界规则 → 9:催眠 → 11:大总结 → 4:事件历史\n</rules>\n<insert/update/delete operations>\n更新内容：updateRow(tableIndex:num, rowIndex:num, {[colIndex:num]:str/num,…})\n删除行：deleteRow(tableIndex:num, rowIndex:num)\n插入行：insertRow(tableIndex:num, {[colIndex:num]:str/num,…})\n</insert/update/delete operations>\n<structure>\n0:当前信息- 时间轴/当前地点/当前在场角色\n1:角色信息- 角色名称/身体特征/性格/职业/爱好/偏好/居住地点/备注/当前关系/态度/好感度\n2:时间轴- 时间轴标记/具体日期\n3:任务与日程- 相关角色/任务内容/任务地点/有效期限\n4:事件历史- 事件描述/日期/事件发生地点/情绪变化\n5:服装与动作状态- 角色名称/上身衣物穿着/下身衣物穿着/鞋袜穿着/姿势与动作/手持物品\n6:即时想法- 角色名称/心理活动\n7:能力- 拥有者/能力名称/效果/消耗/来源\n8:物品- 拥有者/物品名称/描述/效果/意义/来源\n9:催眠- 施术者/受术者/催眠内容\n10:世界规则- 设定者/效果\n11:大总结- 序号/内容\n</structure>\n<example>\n<tableThink>\n<!--\n**`<tableThink>` 块 (CoT 辅助记忆与管理阶段):**\n在生成主要内容**之后**，我会执行`<tableThink>`内的逻辑。这部分CoT将**严格遵循你优化的核心原则**：\n*   **当前回合摘要:** 生成对刚刚输出的`<content><main_txt>`内容的简短摘要（100字以内）。\n*   **大总结管理:**\n    *   检查当前时间轴标记（Dxxx）。\n    *   判断`xxx`是否为10的倍数，或用户是否明确要求大总结。\n*   **暂停回合并大总结 (用户指定字数):** 当您明确要求“暂停回合”并指定“大总结”的字数时，我将理解为需要中断当前的剧情推进。在该回合，我将**仅**生成并输出符合您字数要求的剧情总结正文，该总结将涵盖到目前为止的所有故事内容。该回合**不会**有新的剧情进展，也**不会**执行常规的 `<tableThink>` 和 `<tableEdit>` 表格更新操作（因为总结内容仅作为文本输出，不直接写入表格11，且无新事件发生）。\n*   **大总结表格4历史事件并插入表格11:** 当您要求“大总结表格4历史事件内容”并要求将其“插入表格11”时（或者当系统根据10回合规则自动触发大总结时），我将首先**正常**完成本回合的剧情创作和 `<content><main_txt>` 的输出。然后，在后续的 `<tableThink>` 阶段，我会识别到此总结指令（无论是用户请求还是自动触发），生成对 `表格4: 事件历史` 中相关内容的总结。最后，在 `<tableEdit>` 阶段，我会将这个总结**插入**到 `表格11: 大总结` 中，并可能根据需要清理 `表格4` 中已被总结的条目，同时完成本回合剧情相关的其他所有表格更新。\n*   **关键状态变化提示:** 可能会简要列出本回合推断出的关键状态变化，作为后续`<tableEdit>`操作的参考。\n**`<tableEdit>` 块:** 基于`<content><main_txt>`的内容和`<tableThink>`的分析结果，按照规定的顺序和语法，精确更新所有相关表格的状态。\n**状态栏:** 根据需要，在`<tableEdit>`之后生成状态栏，显示关键信息。\n总而言之，`<tableThink>`中的CoT将转变为一个**回顾性、管理性的辅助工具**，主要负责**总结刚发生的事**并**处理周期性的大总结逻辑**。\n我已经更新了我的内部逻辑，将严格按照这个修改后的 `<tableThink>` 规则来执行。\n-->\n</tableThink>\n<tableEdit>\n<!-- \ndeleteRow(2,0)\ninsertRow(2, {\"0\": \"D004\", \"1\": \"2025-03-12日12：00\"})\ninsertRow(1, {\"0\": \"艾丽丝\", \"1\": \"女/160cm/50kg\", \"2\": \"活泼\", \"3\": \"学生\", \"4\": \"跑步/绘画\", \"5\": \"草莓蛋糕\", \"6\": \"中国>北京>朝阳区>公寓\", \"7\": \"\", \"8\": \"爱丽丝|查理(朋友)\", \"9\": \"爱丽丝|查理(友好)\", \"10\": \"爱丽丝|查理(好感度75%/情欲值60%/忍耐力80%/性快感0%)\"})\ninsertRow(1, {\"0\": \"查理\", \"1\": \"男/180cm/70kg\", \"2\": \"沉稳\", \"3\": \"作家\", \"4\": \"阅读/写作\", \"5\": \"黑咖啡\", \"6\": \"中国>北京>朝阳区>工作室\", \"7\": \"\", \"8\": \"查理|爱丽丝(朋友)\", \"9\": \"查理|爱丽丝(平静)\", \"10\": \"查理|爱丽丝(好感度70％/情欲值40％/忍耐力60％/性快感0%)\"})\nupdateRow(0,0, {\"0\": \"D004\", \"1\": \"公园\", \"2\": \"艾丽丝/查理\"})\ndeleteRow(5,0)\ndeleteRow(5,1)\ninsertRow(5, {\"0\": \"艾丽丝\", \"1\": \"T恤/草莓图案胸罩\", \"2\": \"牛仔裤/黑色三角内裤\", \"3\": \"运动鞋/白色短袜\", \"4\": \"公园小径/跑步[进行中]\", \"5\": \"\"})\ninsertRow(5, {\"0\": \"查理\", \"1\": \"衬衫\", \"2\": \"长裤/灰色四角内裤\", \"3\": \"皮鞋/黑色棉袜\", \"4\": \"长椅/阅读[进行中]\", \"5\": \"旧钢笔\"})\ndeleteRow(6,1)\ndeleteRow(6,0)\ninsertRow(6, {\"0\": \"艾丽丝\", \"1\": \"周末野餐该怎么做才好呢？\"})\ninsertRow(6, {\"0\": \"查理\", \"1\": \"哇，书里的悬疑情节好有趣!\"})\ninsertRow(3, {\"0\": \"艾丽丝\", \"1\": \"周末野餐筹备\", \"2\": \"公园\", \"3\": \"D004+2\"})\ninsertRow(7, {\"0\": \"艾丽丝\", \"1\": \"快速恢复\", \"2\": \"体力消耗减半\", \"3\": \"需补充糖分\", \"4\": \"遗传天赋\"})\ninsertRow(8, {\"0\": \"查理\", \"1\": \"旧钢笔\", \"2\": \"镀金笔尖\", \"3\": \"激发写作灵感\", \"4\": \"祖父遗物\"})\ninsertRow(4, {\"0\": \"公园偶遇讨论计划\", \"1\": \"D004『2025-03-12日12：00』\", \"2\": \"中国>北京>朝阳区>公园\", \"3\": \"爱丽丝|查理(期待)/查理|爱丽丝(平静)\"})\n-->\n</tableEdit>\n</example>\nStored memory table content:\n<store>\n{{tableData}}\n</store>",
+            "to_chat_container": "<div class=\"rounded-bar\">\n    <font size=\"2\">\n        <font color=\"#888888\">\n            <details>\n                <summary>记忆增强表格</summary>\n                $0\n            </details>\n        </font>\n    </font>\n</div>",
+            "message_template": "**《数据表操作指南》**\n**核心执行流程 (强制顺序)**\n此流程定义了每次 AI 响应生成中各核心组件的**绝对强制执行顺序**。\n**`<thinking>` (核心规划块):**\n***强制性与位置:** **必须**作为每次响应流程的**第一步**执行并完整显示。其位置**固定在所有其他输出内容之前**。\n***功能:** **唯一且专门**用于执行和记录内容生成前的内部思考、策略制定与规划过程。\n**`<content><main_txt>` (主要叙事/对话内容块):**\n***执行时机:** **必须**在顶层 `<thinking>` 块完全执行并输出完毕之后生成。\n***内容:** 包含所有最终呈现给用户的叙事、对话、动作描写、环境描绘等主要创作内容。\n**`<tableThink>` (表格变更前瞻思考块):**\n***执行时机:** **必须**在 `<content><main_txt>` 生成完成之后执行。\n***功能:** 基于本轮 `<content><main_txt>` 的内容，记录对即将进行的表格数据变更所进行的**评估与思考过程**。此思考过程**必须**记录在 `<!--` 和 `-->` 注释块内。\n**`<tableEdit>` (表格编辑指令块):**\n***执行时机:** **必须**在 `<tableThink>` 执行完成之后执行。\n***功能:** 包含实际执行表格数据更新的操作指令 (`insertRow`, `updateRow`, `deleteRow`)。所有指令**必须**被完整包含在 `<!--` 和 `-->` 注释块内。\n**内部思考与规划 (`<thinking>` 核心规划块) 详细规范**\n**绝对定位:**\n*在生成任何 `<content><main_txt>` 内容之前，系统**强制要求必须存在一个**位于整体输出结构**最顶层**的 `<thinking>` 标签块。\n*此顶层 `<thinking>` 块是进行**核心规划**和记录**内容生成前内部思考过程**的**唯一指定区域**。\n**功能与内容强制要求:**\n*此顶层 `<thinking>` 块**严格专用于**记录创作前的规划步骤。\n*其内部**必须体现**对用户指令的解析、剧情构思、角色行为设计、情感逻辑推演、潜在风险评估等策略性思考。\n*思考过程应**严格遵循** User 在 `<rules><enforce_thinking_style><cot_style>` 中可能定义的特定风格，若无定义则使用默认思考风格。\n**强制标准格式:**\n***必须**使用 `<thinking>` 和 `</thinking>` 标签包裹整个核心规划过程。\n*所有核心规划的详细文本（遵循指定的 `cot_style` 或默认风格）**必须**直接放置在 `<thinking>` 和 `</thinking>` 之间。\n***强制格式示例:**\n**多场景生成功能 (MAX::n)**\n**MAX::n 多场景指令说明:**\n* 如果用户输入包含 'MAX::n'，n **必须**被解析为一个整数，表示要生成的场景/事件数量（非级别或强度）。\n* 示例：'MAX::3' 表示生成3个逻辑连贯的场景/事件序列。\n\n**多场景扩展 (MAX::n) 执行逻辑:**\n1. **检测与设置:**\n   * 在用户输入中检测 'MAX::n' 模式。如果找到，设置 scene_count = n；否则，scene_count = 1。\n2. **对于 scene_count > 1:**\n   * 规划一个基础场景加上 n 个连续的、逻辑连贯的场景。\n   * 为每个场景设计核心事件、转换点和必要的表格更新（例如：上下文、角色、事件）。\n   * 确保转换使用自然的时间/空间线索、环境、角色动作或情绪转变（输出中不使用显式的数字标记）。\n   * 使用来自表格0的累计时间来指导场景之间的时间推进。\n   * 选择适当的叙事分隔符（空行、分隔符或星号）以保持流畅。\n3. **分析过程:**\n   * 分析用户输入如何影响角色情绪和事件发展，确保每个场景都反映用户意图和影响。\n4. **整合规划:**\n   * 将用户输入分析和场景链接整合到规划和生成过程中，以获得更大的叙事深度和连贯性。\n\n**多场景输出自然过渡规则:**\n* 生成多个场景时（MAX::n），**绝对禁止**在主文本中使用显式场景编号、标题或分隔符（例如：\"Scene 1:\"、\"【Scene 2: ...】\"、\"第1幕\"）。\n* 所有场景/事件之间的过渡**必须**通过以下方式实现：\n  * 自然时间线索\n  * 环境或情境变化\n  * 角色动作、情绪或心理转变\n  * 段落间隔\n* 输出应该是连续、沉浸式的叙事，而不是分离场景的列表。\n* 示例（错误）：【Scene 1: 跌倒瞬间】...【Scene 2: 检查伤势】\n* 示例（正确）：...她重重摔倒在地，林曜辰下意识冲了过来。几分钟后，教室里气氛依然紧张...\n<thinking>\n[此处为详细的核心规划过程文本，严格遵循指定的 cot_style 或默认风格进行书写，体现指令解析、情节构思、角色行为设计、情感逻辑推演等步骤]\n</thinking>\n**表格执行 (`<tableThink>` & `<tableEdit>`)**\n1.**执行时机:** 每轮 `<content><main_txt>` 输出后，**必须严格按照 `<tableThink>` 先于 `<tableEdit>` 的顺序依次执行**。\n2.**绝对禁止:** `<tableEdit>` 操作**绝对不允许**在 `<content><main_txt>` 或 `<tableThink>` 之前执行。\n**操作规范 :**\n*在 `<tableThink>` 和 `</tableThink>` 标签之间，以及 `<tableEdit>` 和 `</tableEdit>` 标签之间（**不包括** `<tableEdit>` 内部用于包裹指令的 `<!--` 和 `-->` 注释块），**严格禁止添加任何与规定功能无关的注释、解释或文本**。\n***`<tableThink>` 内部:** 所有关于表格变更的思考和评估过程，**必须**完整记录在 `<!--` 和 `-->` 注释块内部。\n***`<tableEdit>` 内部:** 所有表格操作指令 (`insertRow`, `updateRow`, `deleteRow`) **必须**且只能存在于 `<!--` 和 `-->` 注释块内部。**必须确保注释块闭合完整，且注释块内除了标准指令外不包含任何其他文本或解释**。\n***必须**严格遵循各表格规定的数据格式和 `<tableEdit>` 操作语法。\n**`<tableThink>` 格式示例:** \n<tableThink_example>\n<!--\n**大总结流程**\n**触发条件 1: 详细描述累积**\n***评估:** 对 `表格10`(事件历史) 中所有 `已总结标志`(列4) 为 `false` 的行，**估算**其**原始** `事件描述`(列0, 即30-60字详细描述) 的内容总Token数。**请注意，这里计算的是未总结事件的 *原始详细描述* 的Token数，而非总结后替换的小标题。**\n***判定:** 若估算总Token数 **接近或达到 850 Tokens**，则**必须**触发“大总结”流程。\n**后续动作 (大总结):**\n***步骤 1: 插入总结记录到表格11**\n*执行 `insertRow(tableIndex: 11, { ... })`。\n***必须**填充以下列：\n*`\"0\"`: **序号** (自动递增或根据上一条记录+1)。\n*`\"1\"`: **详细总结内容** (根据本次涵盖的所有原始事件描述进行全面总结，**类似于下方示例结构**，提炼关键事件、人物状态变化、时间跨度等)。\n**内容示例（仅为结构示意，具体内容需根据实际事件生成）:*\n关键事件概述：\n-[事件标题1](事件1时间戳)\n-[事件标题2](事件2时间戳)\n角色状态演变：\n[角色A]: [初期状态描述] -> [末期状态描述]\n[角色B]: [初期状态描述] -> [末期状态描述]\n关键物品/地点变化：\n-[物品/地点]: [变化描述]\n时间跨度提示：\n-从[首个事件时间戳]到[当前时间戳]共经过[计算出的时长]。\n*`\"2\"`: **开始时间戳** (本次总结中，第一个被涵盖事件的 `发生时累计时间`，来自 `表格10` 列1)。\n*`\"3\"`: **结束时间戳** (触发本次总结时的 **当前** `累计时间`，来自 `表格0` 列0)。\n*`\"4\"`: **本次总结标题列表** (为本次总结涵盖的 **每一个** 事件生成一个 **5-10字的小标题**，并附带其原始时间戳。格式**严格**为：`\"[标题1](时间戳1);[标题2](时间戳2);...\"`）。\n***步骤 2: 更新表格10中的相关事件**\n*对于 `表格10` 中 **所有** 被步骤1总结涵盖的事件行（即之前 `已总结标志`(列4) 为 `false` 的行）：\n*执行 `updateRow(tableIndex: 10, rowIndex: [对应行号], { ... })`。\n***必须**更新以下列：\n*`\"0\"`: 将原始的 `事件描述` **强制替换**为步骤1中为其生成的 **对应小标题** (5-10字)。\n*`\"4\"`: 将 `已总结标志` 的值**强制设置为 `true`**。\n**历史标题归档流程**\n**触发条件 2: 总结标题累积**\n***评估:** 在完成上述“大总结”流程（特别是步骤1生成了新的 `本次总结标题列表`(列4)）之后，**估算** `表格11` 中 **刚刚生成或更新** 的那一行 `本次总结标题列表`(列4) 的内容总Token数。**请注意，这里计算的是 *一次性生成的标题列表* 的Token数。**\n***判定:** 若估算Token数 **达到或超过 100 Tokens**，则**必须**触发“历史标题归档”流程。\n**后续动作 (历史标题归档):**\n***步骤 1: 追加标题到历史归档**\n*执行 `updateRow(tableIndex: 11, rowIndex: [刚操作的总结行号], { ... })`。\n***必须**更新以下列：\n*`\"5\"`: **历史标题归档**。将该行 `本次总结标题列表`(列4) 的 **全部内容** **追加**到 `历史标题归档`(列5) 的 **末尾**。如果 `历史标题归档`(列5) 已有内容，则 **必须** 使用 `|` 符号作为新旧内容的分隔符。\n***注意:** 此步骤仅是将列4的内容追加到列5，**通常不清除列4的内容**（除非有特殊规则或其内容过多影响后续阅读）。\n**流程关联:**\n*“大总结”流程是“历史标题归档”流程的前置条件。必须先完成一次大总结，才可能触发标题归档。\n*两个流程可能在同一次`<tableEdit>`操作中被连续触发和执行。\n*`表格10` 中事件行的删除与这两个流程不直接挂钩，而是依赖于其标题被成功归档到 `表格11` 列5之后，由更底层的系统逻辑处理。\n**Token 计数说明:**\n*所有提及的 Token 计数均为 AI 内部根据模型理解进行的**估算值**，用于自动化流程触发，可能并非绝对精确到每一 Token。\n-->\n</tableThink_example>\n**`<tableEdit>` 指令规则与结构**\n**规则:**\n***操作:** 执行 `deleteRow`, `insertRow`, `updateRow`。\n***格式要求:**\n***事件历史 (表10):** 若本轮有新事件发生，**必须**至少新增1行记录，包含30-60字的详细描述。未知信息可留空（若该列允许）。\n***禁止:** 任何情况下，**绝对禁止**对 `tableIndex:3` (角色信息表) 执行 `deleteRow` 操作。角色信息应永久保留。\n**核心格式约定:**\n***键值对:** 键（列索引 `colIndex`）**必须**用双引号 `\"\"` 包裹，例如 `\"0\"`, `\"1\"`。值（对应的数据）根据数据类型决定是否加引号（通常字符串/布尔值需要，数字不需要，具体参照指令示例和表格定义）。例如：`{\"0\": \"艾丽丝\", \"10\": 75, \"4\": \"false\"}`。\n***分隔符:** 在表格单元格内需要分隔多个信息项时，**必须**使用各表格列定义中指定的分隔符：\n*`表格0` 地点/角色 (不同地点): `|` / `角色名(地点)` 格式。\n*`表格1` 衣物: `/`。\n*`表格3` 备注栏 (列7): `/`。\n*`表格3` 关系 (列8), 态度 (列9), 好感度 (列10), 详细情感状态 (列11): **严格遵循**各自列定义的强制格式，使用 `|` 或特定结构。\n*`表格11` 标题列表 (列4) / 历史归档 (列5): `;` / `|`。\n***时间格式:** `表格0` 累计时间 (列0) **必须**使用“距离开始已经过去了X年Y月Z天H小时M分钟”的精确格式。\n***一致性:** 表格间引用相同概念（特别是角色名）时，**必须**保证名称和标识符**完全一致**。\n***数据完整性保证:**\n*执行任何 `insertRow` 或 `updateRow` 指令时，**必须**确保指令中包含了目标表格行所有在 `<store>` 定义中**未标记为可选或可留空的列**的有效数据。\n***严禁**在 `insertRow` 或 `updateRow` 操作后，留下本应填写但未填写的强制列空白单元格。\n***一致性维护:** AI 负责确保表格间（如 `表格1` 服装/动作, `表格2` 想法, `表格3` 状态）的信息实时同步，保持逻辑连贯。\n***操作顺序 (建议优先级):** 处理表格更新时，建议遵循以下逻辑依赖顺序（`tableIndex:tableName`）：3:角色信息 → 0:当前信息 → 9:世界规则 → 8:用户偏好 → 4:任务与日程 → 1:服装动作 → 2:即时想法 → 5:能力 → 6:物品 → 7:催眠 → 11:大总结 → 10:事件历史。\n***大总结特例:** 大总结流程涉及对 `表格11` 的 `insertRow` 和对 `表格10` 的 `updateRow`。**必须确保**先完成对 `表格11` 的插入操作，再基于该总结的内容和生成的标题列表，完成对 `表格10` 中相关事件行的更新（替换描述为标题，标记为已总结）。\n**`<insert/update/delete operations>` 语法 :**\n*所有表格均为无表头数据结构，数据行的起始 `rowIndex` 为 `0`。\n*每次操作**必须**基于当前轮次可获取的最新表格状态进行，务必确保 `rowIndex` 准确无误。\n***更改:** `updateRow(tableIndex: number, rowIndex: number, { [colIndex: string]: string | number | boolean, ... })`\n***删除:** `deleteRow(tableIndex: number, rowIndex: number)`\n***插入:** `insertRow(tableIndex: number, { [colIndex: string]: string | number | boolean, ... })`\n**表格结构定义与<store>:\n<structure>\n0:当前信息-累计时间/当前地点/当前在场角色\n1:服装与动作状态-角色名称/上身衣物/下身衣物/鞋袜/姿势动作/手持物品\n2:即时想法-角色名称/心理活动\n3:角色信息-角色名称/身体特征/性格/职业/爱好/偏好/住址/备注/关系/态度/好感度/详细情感状态/核心情感需求/创伤\n4:任务与日程-相关角色/任务内容/任务地点/有效期限\n5:能力-拥有者/能力名称/效果/消耗/来源\n6:物品-拥有者/物品名称/描述/效果/意义/来源\n7:催眠-施术者/受术者/催眠内容\n8:用户偏好设定-偏好类型/偏好值\n9:世界规则-设定者/效果\n10:事件历史-事件描述或小标题/发生时累计时间/发生地点/情绪变化/已总结标志\n11:大总结-序号/内容/开始时间戳/结束时间戳/本次总结标题列表/历史标题归档\n</structure>\n<store>\n{{tableData}}\n</store>\n<example>\n<!--以下思考过程必须使用cot_style-->\n<!--此处tableThink为非大总结回合示例-->\n<tableThink>\n<!--\n当前累计时间：距离开始已经过去了1个月5天3小时15分钟\n**无需大总结：**事件历史（表格10）中**未总结事件(列4为false)**的**原始描述**内容总token数为650tokens，未达850tokens。\n本轮情节总结（超市偶遇）：\n-艾丽丝与查理在超市相遇，艾丽丝推购物车选购牛排/西兰花/草莓。\n-查理在零食区看薯片，购物篮有可乐/薯片/巧克力。\n-双方约定本周日烧烤。\n表格更改思考：\n-**表格0(当前信息):**更改累计时间、地点、在场角色。\n-**表格3(角色信息):**若艾丽丝和查理首次登场，需为每个角色使用insertRow添加完整信息；若已存在，执行全列updateRow更新信息。\n-**表格1(服装与动作状态):**为艾丽丝和查理分别插入或更新服装和动作状态。\n-**表格2(即时想法):**为艾丽丝和查理插入或更新即时想法。\n-**表格4(任务与日程):**新增“周末烧烤讨论”任务。\n-**表格6(物品):**若有关键物品新增则记录，否则无需操作。\n-**表格10(事件历史):**新增超市偶遇事件记录，合并相似描述，“已总结标志”为false。\n-**表格11(大总结):**无需操作。\n准备执行表格更改...\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(3,{\"0\":\"艾丽丝\",\"1\":\"女/160cm/50kg/32B/阴道紧致/无疤痕/处女\",\"2\":\"活泼\",\"3\":\"学生\",\"4\":\"跑步/绘画\",\"5\":\"草莓蛋糕\",\"6\":\"中国>北京>朝阳区>公寓\",\"7\":\"偶尔梦游/处女/无性经验/曾因考试压力住院\",\"8\":\"艾丽丝|查理(朋友)\",\"9\":\"艾丽丝|查理(友好/期待)\",\"10\":\"艾丽丝|查理(好感度78%/情欲值62%/忍耐力80%/性快感0%)\",\"11\":\"主要情绪:期待/次要情绪:轻微疲惫/情绪展现度:6/驱使原因:讨论周末烧烤/刚完成跑步/情绪走向:趋于积极\",\"12\":\"渴望社交联系/轻微的计划焦虑\"})\ninsertRow(3,{\"0\":\"查理\",\"1\":\"男/180cm/70kg/阴茎长度16cm/周长12cm/无纹身\",\"2\":\"沉稳\",\"3\":\"作家\",\"4\":\"阅读/写作\",\"5\":\"黑咖啡\",\"6\":\"中国>北京>朝阳区>工作室\",\"7\":\"有轻微洁癖/性经验丰富/曾与多名伴侣交往/童年被遗弃经历\",\"8\":\"查理|艾丽丝(朋友)\",\"9\":\"查理|艾丽丝(平静/略感有趣)\",\"10\":\"查理|艾丽丝(好感度72%/情欲值45%/忍耐力60%/性快感0%)\",\"11\":\"主要情绪:平静/次要情绪:好奇/情绪展现度:4/驱使原因:阅读被打断/对艾丽丝的出现和烧烤话题感兴趣/情绪走向:稳定\",\"12\":\"寻求知性刺激/维持个人空间\"})\nupdateRow(3,1,{\"0\":\"艾拉\",\"1\":\"女/170cm/60kg/34C/阴道正常/无疤痕/无纹身\",\"2\":\"谨慎/好奇\",\"3\":\"学者\",\"4\":\"研究古代文字/茶道\",\"5\":\"抹茶\",\"6\":\"主城>学者区>静思塔\",\"7\":\"对未知领域有强烈探索欲/性经验较少/非处女/曾因研究失误被责难\",\"8\":\"艾拉|User(初识)\",\"9\":\"艾拉|User(友好/好奇)\",\"10\":\"艾拉|User(好感度60%/情欲值15%/忍耐力70%/性快感0%)\",\"11\":\"主要情绪:好奇/次要情绪:愉悦/情绪展现度:5/驱使原因:与User互动/情绪走向:积极\",\"12\":\"寻求知识与理解/警惕过度情感卷入\"})\ninsertRow(1,{\"0\":\"艾丽丝\",\"1\":\"白色吊带/草莓图案胸罩(32B)\",\"2\":\"牛仔裤/黑色三角内裤\",\"3\":\"运动鞋/白色短袜\",\"4\":\"超市过道/推购物车/挑选食材\",\"5\":\"购物车扶手\"})\ninsertRow(1,{\"0\":\"查理\",\"1\":\"卷袖连帽卫衣\",\"2\":\"运动裤/灰色四角内裤\",\"3\":\"运动鞋/黑色棉袜\",\"4\":\"零食区/站立/弯腰查看薯片/右手持购物篮\",\"5\":\"购物篮\"})\ninsertRow(2,{\"0\":\"艾丽丝\",\"1\":\"采购有点累，但看到查理很开心，期待周末烧烤！\"})\ninsertRow(2,{\"0\":\"查理\",\"1\":\"艾丽丝提议烧烤，挺有趣，期待听她想法。\"})\ninsertRow(4,{\"0\":\"艾丽丝/查理\",\"1\":\"讨论并确认周末烧烤细节\",\"2\":\"中国>北京>朝阳区>超市\",\"3\":\"2025-04-05\"})\ninsertRow(5,{\"0\":\"艾丽丝\",\"1\":\"快速恢复\",\"2\":\"体力消耗减半/恢复加快\",\"3\":\"需补充糖分\",\"4\":\"遗传天赋\"})\ninsertRow(6,{\"0\":\"查理\",\"1\":\"旧钢笔\",\"2\":\"镀金笔尖/有划痕\",\"3\":\"集中精神/激发灵感\",\"4\":\"祖父遗物\",\"5\":\"随身携带\"})\ninsertRow(10,{\"0\":\"艾丽丝在超市偶遇查理并提议周末烧烤\",\"1\":\"距离开始已经过去了20分钟\",\"2\":\"中国>北京>朝阳区>超市\",\"3\":\"艾丽丝:疲惫转期待/查理:专注转平静\",\"4\":\"false\"})\nupdateRow(0,0,{\"0\":\"距离开始已经过去了20分钟\",\"1\":\"中国>北京>朝阳区>超市\",\"2\":\"艾丽丝/查理\"})\n-->\n</tableEdit>\n**规则演示示例**\n目的：展示对已存在于表格3的角色，在其信息变化时，如何正确执行全列`updateRow`指令。\n假设情境：\n1. 名为“艾拉”的角色已通过 `insertRow` 被记录在表格3中，其 rowIndex 为 1。\n2. 在本轮响应的 `<content><main_txt>` 中，“艾拉”被提及，其状态发生变化（例如：与User互动后，好感度提升）。\n3. 因此，需要对表格3中 rowIndex 为 1 的行执行 `updateRow` 操作，且**必须**提供所有列（0到12）的数据。\n**示例 `<tableThink>` 块:**\n<tableThink>\n<!--\n- 检查角色“艾拉”在表格3的状态：已存在，rowIndex 为 1。\n- 确认本轮响应 `<content><main_txt>` 中“艾拉”被提及且状态变化：是。\n- 触发规则：执行全列`updateRow`。\n-->\n</tableThink>\n**示例 `<tableEdit>` 块:**\n<tableEdit>\n<!--\nupdateRow(3, 1, {\"0\": \"艾拉\", \"1\": \"女/170cm/60kg/34C/阴道正常/无疤痕/无纹身\",\"2\": \"谨慎/好奇\", \"3\": \"学者\", \"4\": \"研究古代文字/茶道\", \"5\": \"抹茶\",\"6\": \"主城>学者区>静思塔\",\"7\": \"对未知领域有强烈探索欲/性经验较少/非处女/曾因研究失误被责难\", \"8\": \"艾拉|User(初识)\", \"9\": \"艾拉|User(友好/好奇)\",\"10\": \"艾拉|User(好感度60%/情欲值15%/忍耐力70%/性快感0%)\",\"11\": \"主要情绪:好奇/次要情绪:愉悦/情绪展现度:5/驱使原因:与User互动/情绪走向:积极\", \"12\": \"寻求知识与理解/警惕过度情感卷入\" })\n-->\n</tableEdit>\n</example>",
             "refresh_system_message_template": "你是一个专业的表格整理助手，请严格按照用户的指令和格式要求处理表格数据。",
             "refresh_user_message_template": "根据以下规则整理表格：\n<整理规则>\n    1. 修正格式错误，删除所有data[0]为空的行，此操作只允许整行操作！\n    2. 补全空白/未知内容，但禁止捏造信息\n    3. 当\"重要事件历史表格\"(tableIndex: 4)超过10行时，检查是否有重复或内容相近的行，适当合并或删除多余的行，此操作只允许整行操作！\n    4. \"角色与User社交表格\"(tableIndex: 2)中角色名禁止重复，有重复的需要整行删除，此操作只允许整行操作！\n    5. \"时空表格\"(tableIndex: 0）只允许有一行，删除所有旧的内容，此操作只允许整行操作！\n    6. 如果一个格子中超过15个字，则进行简化使之不超过15个字；如果一个格子中斜杠分隔的内容超过4个，则简化后只保留不超过4个\n    7. 时间格式统一为YYYY-MM-DD HH：MM   (时间中的冒号应当用中文冒号，未知的部分可以省略，例如：2023-10-01 12：00 或 2023-10-01 或 12：00)\n    8. 地点格式为 大陆>国家>城市>具体地点 (未知的部分可以省略，例如：大陆>中国>北京>故宫 或 异世界>酒馆)\n    9. 单元格中禁止使用逗号，语义分割应使用 /\n    10. 单元格内的string中禁止出现双引号\n    11. 禁止插入与现有表格内容完全相同的行，检查现有表格数据后再决定是否插入\n</整理规则>\n\n<聊天记录>\n    $1\n</聊天记录>\n\n<当前表格>\n    $0\n</当前表格>\n\n请用纯JSON格式回复操作列表，确保：\n    1. 所有键名必须使用双引号包裹，例如 \"action\" 而非 action\n    2. 数值键名必须加双引号，例如 \"0\" 而非 0\n    3. 使用双引号而非单引号，例如 \"value\" 而非 'value'\n    4. 斜杠（/）必须转义为 /\n    5. 不要包含注释或多余的Markdown标记\n    6. 将所有删除操作放在最后发送，并且删除的时候先发送row值较大的操作\n    7. 有效的格式：\n        [{\n            \"action\": \"insert/update/delete\",\n            \"tableIndex\": 数字,\n            \"rowIndex\": 数字（delete/update时需要）,\n            \"data\": {列索引: \"值\"}（insert/update时需要）\n        }]\n    8. 强调：delete操作不包含\"data\"，insert操作不包含\"rowIndex\"\n    9. 强调：tableIndex和rowIndex的值为数字，不加双引号，例如 0 而非 \"0\"\n\n<正确回复示例>\n    [\n        {\n            \"action\": \"update\",\n            \"tableIndex\": 0,\n            \"rowIndex\": 0,\n            \"data\": {\n            \"0\": \"2023-10-01\",\n            \"1\": \"12：00\",\n            \"2\": \"大陆>中国>北京>故宫\"\n            }\n        }，\n        {\n            \"action\": \"insert\",\",\n            \"tableIndex\": 0,\n            \"data\": {\n            \"0\": \"2023-10-01\",\n            \"1\": \"12：00\",\n            \"2\": \"大陆>中国>北京>故宫\"\n            }\n        },\n        {\n            \"action\": \"delete\",\n            \"tableIndex\": 0,\n            \"rowIndex\": 0,\n        }\n    ]\n</正确格式示例>",
             "updateIndex": 3,
@@ -1643,6 +1655,42 @@
             "preload_worldinfo_enabled": false,
             "code_blocks_enabled": false,
             "world_active_enabled": true
+        },
+        "TavernHelper": {
+            "enabled_extension": true,
+            "render": {
+                "render_enabled": true,
+                "tampermonkey_compatibility": false,
+                "render_depth": 3,
+                "render_optimize": false
+            },
+            "script": {
+                "global_script_enabled": true,
+                "scriptsRepository": [],
+                "characters_with_scripts": []
+            },
+            "audio": {
+                "audio_enabled": true,
+                "bgm_enabled": true,
+                "ambient_enabled": true,
+                "bgm_mode": "repeat",
+                "bgm_muted": false,
+                "bgm_volume": 50,
+                "bgm_selected": null,
+                "bgm_current_time": 0,
+                "ambient_mode": "stop",
+                "ambient_muted": false,
+                "ambient_volume": 50,
+                "ambient_selected": null,
+                "ambient_current_time": 0,
+                "audio_cooldown": 0
+            },
+            "listener": {
+                "enabled": false,
+                "enable_echo": true,
+                "url": "http://localhost:6621",
+                "duration": 100
+            }
         }
     },
     "tags": [
@@ -2978,7 +3026,7 @@
                     },
                     {
                         "identifier": "751a591c-3357-4902-8ae6-81df592d09d1",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "23f755cb-dd84-4510-b104-22cc97a16712",
@@ -2986,7 +3034,7 @@
                     },
                     {
                         "identifier": "b7d078d7-c431-4ce4-898e-b6decb75698d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
@@ -3022,7 +3070,7 @@
                     },
                     {
                         "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "7a93c8c9-d86b-4828-bcdd-1ab55e7bbae7",
@@ -3034,11 +3082,11 @@
                     },
                     {
                         "identifier": "9c667918-89db-4926-b5a4-1683fde0f7e3",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "b6d0f461-d1b7-4e64-a203-802b5d4194a2",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "0d16acb2-27d7-4de2-9aca-37ccc5f7667f",
@@ -3078,15 +3126,15 @@
                     },
                     {
                         "identifier": "801feeb1-5546-4bd7-b4e4-c92fe4ccfd58",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "686f8ee0-1e5a-4449-80c9-1be64c6f893a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "707efeba-0e59-4174-b537-811a22572560",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "e85e7b9b-0b2f-4350-9d13-a1014b6fafdc",
