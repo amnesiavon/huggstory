@@ -826,7 +826,7 @@
                     2,
                     6
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": false,
                 "runOnEdit": true,
