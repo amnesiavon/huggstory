@@ -57,9 +57,7 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": [
-                "酒馆文学网 v1.22"
-            ],
+            "globalSelect": [],
             "charLore": []
         },
         "world_info_depth": 2,
