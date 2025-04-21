@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -1229,8 +1229,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 125971,
-                "LAST_SEND_CHARS": 195918
+                "LAST_SEND_TOKENS": 125310,
+                "LAST_SEND_CHARS": 194677
             }
         },
         "attachments": [],
@@ -2612,7 +2612,7 @@
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
         "custom_model": "gemini-2.0-flash",
-        "custom_url": "https://amnesiavon-HAGEMI.hf.space/v1",
+        "custom_url": "https://hfsgcvfcsbgf.ap-northeast-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
