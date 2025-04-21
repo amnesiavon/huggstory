@@ -48,11 +48,12 @@
         "AlertWI_[前端]调教状态栏+选项.png": "true",
         "AlertRegex_[前端]调教状态栏+选项.png": "true",
         "AlertWI_看看他或她怎么想吧~.png": "true",
-        "AlertRegex_看看他或她怎么想吧~.png": "true"
+        "AlertRegex_看看他或她怎么想吧~.png": "true",
+        "AlertRegex_流式传输.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "mira",
-    "active_character": "霜影剑歌行.png",
+    "active_character": "流式传输.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1135,7 +1136,8 @@
             "机动战士高达-UC纪元.png",
             "机动战士高达-SEED V1.2_1.png",
             "[前端]调教状态栏+选项.png",
-            "看看他或她怎么想吧~.png"
+            "看看他或她怎么想吧~.png",
+            "流式传输.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1837,7 +1839,9 @@
         "机动战士高达-SEED V1.2_1.png": [],
         "[前端]调教状态栏+选项.png": [],
         "World Builder V1.4.png": [],
-        "看看他或她怎么想吧~.png": []
+        "看看他或她怎么想吧~.png": [],
+        "实时修改css.png": [],
+        "流式传输.png": []
     },
     "nai_settings": {
         "temperature": 1.5,

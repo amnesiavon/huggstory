@@ -1,0 +1,2 @@
+{"user_name":"mira","character_name":"流式传输","create_date":"2025-04-21@22h26m37s","chat_metadata":{}}
+{"name":"流式传输","is_user":false,"is_system":false,"send_date":"April 21, 2025 10:26pm","mes":"> [点此查看源文件](https://gitgud.io/StageDog/tavern_resource/-/tree/main/酒馆助手/流式传输/源文件?ref_type=heads)\r\n\r\n# 安装说明\r\n\r\n- 更新/安装最新版前端助手: https://discord.com/channels/1134557553011998840/1296494001406345318\r\n- 将本角色卡的局部正则 \"脚本-控制\" 移动到你的角色卡中\r\n\r\n# 使用说明\r\n\r\n在本角色卡的局部正则中有一个 \"脚本-App\" 作为示例. 你所要做的就是像这样创建一个 \"脚本-App\" 正则, 而 \"脚本-控制\" 将会加载它到消息楼层中","extra":{}}
