@@ -1325,8 +1325,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 2,
-                "LAST_SEND_CHARS": 2
+                "LAST_SEND_TOKENS": 72096,
+                "LAST_SEND_CHARS": 140010
             }
         },
         "attachments": [],
@@ -3330,7 +3330,7 @@
         "personality_format": "{{personality}}",
         "openai_model": "gpt-4-turbo",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "",
+        "google_model": "gemini-2.0-pro-exp-02-05",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-large-latest",
         "cohere_model": "command-r-plus",
@@ -3354,7 +3354,7 @@
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "reverse_proxy": "",
-        "chat_completion_source": "makersuite",
+        "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": false,
