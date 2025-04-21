@@ -1760,7 +1760,16 @@
             },
             "script": {
                 "global_script_enabled": true,
-                "scriptsRepository": [],
+                "scriptsRepository": [
+                    {
+                        "id": "自动关闭前端卡不兼容选项",
+                        "name": "自动关闭前端卡不兼容选项",
+                        "content": "",
+                        "info": "",
+                        "buttons": [],
+                        "enabled": false
+                    }
+                ],
                 "characters_with_scripts": [
                     "[前端]调教状态栏+选项.png"
                 ]
