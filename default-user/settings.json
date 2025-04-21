@@ -53,7 +53,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "安汐",
-    "active_character": "流式传输.png",
+    "active_character": "总结.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1866,7 +1866,8 @@
         "World Builder V1.4.png": [],
         "看看他或她怎么想吧~.png": [],
         "实时修改css.png": [],
-        "流式传输.png": []
+        "流式传输.png": [],
+        "总结.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
