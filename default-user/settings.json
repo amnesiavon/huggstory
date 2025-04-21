@@ -579,7 +579,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -597,7 +597,7 @@
                     1,
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -615,7 +615,7 @@
                     1,
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1323,8 +1323,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 140746,
-                "LAST_SEND_CHARS": 220674
+                "LAST_SEND_TOKENS": 71574,
+                "LAST_SEND_CHARS": 140332
             }
         },
         "attachments": [],
