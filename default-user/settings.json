@@ -1762,12 +1762,28 @@
                 "global_script_enabled": true,
                 "scriptsRepository": [
                     {
+                        "id": "标签化",
+                        "name": "标签化: 随世界书、预设或链接配置自动开关正则、提示词条目",
+                        "content": "",
+                        "info": "",
+                        "buttons": [],
+                        "enabled": true
+                    },
+                    {
+                        "id": "自动开启角色卡局部正则",
+                        "name": "自动开启角色卡局部正则",
+                        "content": "",
+                        "info": "",
+                        "buttons": [],
+                        "enabled": true
+                    },
+                    {
                         "id": "自动关闭前端卡不兼容选项",
                         "name": "自动关闭前端卡不兼容选项",
                         "content": "",
                         "info": "",
                         "buttons": [],
-                        "enabled": false
+                        "enabled": true
                     }
                 ],
                 "characters_with_scripts": [
