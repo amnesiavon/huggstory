@@ -43,11 +43,12 @@
         "AlertWI_机动战士高达-SEED V1.2.png": "true",
         "AlertRegex_机动战士高达-SEED V1.2.png": "true",
         "AlertWI_机动战士高达-UC纪元.png": "true",
-        "AlertRegex_机动战士高达-UC纪元.png": "true"
+        "AlertRegex_机动战士高达-UC纪元.png": "true",
+        "AlertRegex_机动战士高达-SEED V1.2_1.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "mira",
-    "active_character": "机动战士高达-SEED V1.2.png",
+    "active_character": "机动战士高达-SEED V1.2_1.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1041,7 +1042,8 @@
             "地图导航模块.png",
             "地图+论坛.png",
             "机动战士高达-SEED V1.2.png",
-            "机动战士高达-UC纪元.png"
+            "机动战士高达-UC纪元.png",
+            "机动战士高达-SEED V1.2_1.png"
         ],
         "tts": {
             "voiceMap": "",
