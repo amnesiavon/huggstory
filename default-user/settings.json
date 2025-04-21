@@ -52,7 +52,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "mira",
-    "active_character": "看看他或她怎么想吧~.png",
+    "active_character": "「系统Z-09」.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -63,6 +63,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "看看他或她怎么想吧~",
                 "酒馆文学网 v1.22"
             ],
             "charLore": []
