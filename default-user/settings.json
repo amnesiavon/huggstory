@@ -1109,6 +1109,21 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "50796f28-1c5d-4b6d-b9d1-643e863609cd",
+                "scriptName": "脚本-控制",
+                "findRegex": "",
+                "replaceString": "<script>\nlet e=\"\";async function t(t,n){const s=$(t),r=parseInt(s.attr(\"mesid\"));n=n??await triggerSlashWithResult(`/messages names=off ${r}`)??\"\";const a=s.find(\".mes_text\");a.prop(\"hidden\",!0);const i=s.find(\".frontend-app\");if(i.length>0)return i.prop(\"hidden\",!1),void eventEmit(`app-${r}`,n);const c=`<script>window.message = ${JSON.stringify(n)};<\\/script>`,o=`<script>window.message_id = ${r};<\\/script>`,d=e.replace(\"</head>\",`${c}${o}</head>`),E=$(\"<iframe>\").attr(\"srcdoc\",d).addClass(\"frontend-app\").css(\"border\",\"none\").css(\"margin\",\"5px auto\").css(\"width\",\"100%\").insertAfter(s.find(\".ch_name\"));new MutationObserver((()=>{$(\"#curEditTextarea\",window.parent.document).parent().is(a)&&(a.prop(\"hidden\",!1),E.prop(\"hidden\",!0))})).observe(a.get(0),{childList:!0,subtree:!0,characterData:!0})}async function n(){const e=$(\"#chat\",window.parent.document).children(\".mes[is_user='false'][is_system='false']\");for(const n of e)t(n)}!function(){const t=$(\"#script-iframe-App\",window.parent.document).attr(\"srcdoc\");if(!t)throw Error(\"{Render} 未找到要渲染的 html 界面\");e=t}(),n(),eventOn(tavern_events.MESSAGE_DELETED,n),eventOn(tavern_events.CHARACTER_MESSAGE_RENDERED,n),eventOn(tavern_events.USER_MESSAGE_RENDERED,n),eventOn(tavern_events.MESSAGE_UPDATED,n),eventOn(tavern_events.MESSAGE_SWIPED,n),eventOn(tavern_events.STREAM_TOKEN_RECEIVED,(async function(e){const n=$(\"#chat\",window.parent.document).children(\".mes.last_mes\").get(0);n&&t(n,e)}));\n//# sourceMappingURL=index.js.map\n</script>",
+                "trimStrings": [],
+                "placement": [],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": false,
+                "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
