@@ -48,7 +48,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "mira",
-    "active_character": "机动战士高达-SEED V1.2_1.png",
+    "active_character": "机动战士高达-SEED V1.2.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -59,7 +59,6 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "机动战士高达SEED世界书",
                 "酒馆文学网 v1.22"
             ],
             "charLore": []
@@ -1232,8 +1231,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 108790,
-                "LAST_SEND_CHARS": 169882
+                "LAST_SEND_TOKENS": 109194,
+                "LAST_SEND_CHARS": 170682
             }
         },
         "attachments": [],
@@ -3057,7 +3056,7 @@
                     },
                     {
                         "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "7a93c8c9-d86b-4828-bcdd-1ab55e7bbae7",
