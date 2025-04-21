@@ -46,11 +46,13 @@
         "AlertRegex_机动战士高达-UC纪元.png": "true",
         "AlertRegex_机动战士高达-SEED V1.2_1.png": "true",
         "AlertWI_[前端]调教状态栏+选项.png": "true",
-        "AlertRegex_[前端]调教状态栏+选项.png": "true"
+        "AlertRegex_[前端]调教状态栏+选项.png": "true",
+        "AlertWI_看看他或她怎么想吧~.png": "true",
+        "AlertRegex_看看他或她怎么想吧~.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "mira",
-    "active_character": "[前端]调教状态栏+选项.png",
+    "active_character": "看看他或她怎么想吧~.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1046,7 +1048,8 @@
             "机动战士高达-SEED V1.2.png",
             "机动战士高达-UC纪元.png",
             "机动战士高达-SEED V1.2_1.png",
-            "[前端]调教状态栏+选项.png"
+            "[前端]调教状态栏+选项.png",
+            "看看他或她怎么想吧~.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1747,7 +1750,8 @@
         "机动战士高达-UC纪元.png": [],
         "机动战士高达-SEED V1.2_1.png": [],
         "[前端]调教状态栏+选项.png": [],
-        "World Builder V1.4.png": []
+        "World Builder V1.4.png": [],
+        "看看他或她怎么想吧~.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
