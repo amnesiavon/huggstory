@@ -64,6 +64,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "地图导航模块 (1)",
                 "看看他或她怎么想吧~",
                 "酒馆文学网 v1.22"
             ],
@@ -1357,8 +1358,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 19800,
                 "LAST_SEND_CHARS": 53499,
-                "LAST_RECEIVE_TOKENS": 15619,
-                "LAST_RECEIVE_CHARS": 53321
+                "LAST_RECEIVE_TOKENS": 349,
+                "LAST_RECEIVE_CHARS": 435
             }
         },
         "attachments": [],
