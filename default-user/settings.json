@@ -53,7 +53,7 @@
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "机动战士高达-SEED V1.2_1.png",
+    "active_character": "地图导航模块.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1309,7 +1309,9 @@
         "variables": {
             "global": {
                 "LAST_SEND_TOKENS": 72096,
-                "LAST_SEND_CHARS": 140010
+                "LAST_SEND_CHARS": 140010,
+                "LAST_RECEIVE_TOKENS": 112,
+                "LAST_RECEIVE_CHARS": 189
             }
         },
         "attachments": [],
