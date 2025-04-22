@@ -1835,6 +1835,16 @@
             "color": "",
             "color2": "",
             "create_date": 1744176017365
+        },
+        {
+            "id": "f590d7a5-1550-42fb-b344-79d76a1e2f80",
+            "name": "模拟器",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745336726733
         }
     ],
     "tag_map": {
@@ -1879,7 +1889,10 @@
         "流式传输.png": [],
         "总结.png": [],
         "哥谭模拟器QR.png": [],
-        "哥谭模拟器QR1.png": []
+        "哥谭模拟器QR1.png": [],
+        "哥谭模拟器.png": [
+            "f590d7a5-1550-42fb-b344-79d76a1e2f80"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
