@@ -267,7 +267,7 @@
         "sort_field": "name",
         "sort_order": "asc",
         "sort_rule": null,
-        "font_scale": 1.18,
+        "font_scale": 0.83,
         "blur_strength": 10,
         "shadow_width": 1,
         "main_text_color": "rgba(229, 175, 162, 1)",
