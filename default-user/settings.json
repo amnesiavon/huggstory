@@ -1804,6 +1804,9 @@
                 "url": "http://localhost:6621",
                 "duration": 100
             }
+        },
+        "vue-frontend": {
+            "enabled": false
         }
     },
     "tags": [
