@@ -655,7 +655,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -740,7 +740,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
