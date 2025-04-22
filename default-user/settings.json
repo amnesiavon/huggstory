@@ -49,11 +49,13 @@
         "AlertRegex_[前端]调教状态栏+选项.png": "true",
         "AlertWI_看看他或她怎么想吧~.png": "true",
         "AlertRegex_看看他或她怎么想吧~.png": "true",
-        "AlertRegex_流式传输.png": "true"
+        "AlertRegex_流式传输.png": "true",
+        "AlertWI_哥谭模拟器.png": "true",
+        "AlertRegex_哥谭模拟器.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "汐颜",
-    "active_character": "哥谭模拟器QR1.png",
+    "active_character": "哥谭模拟器.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1138,7 +1140,8 @@
             "机动战士高达-SEED V1.2_1.png",
             "[前端]调教状态栏+选项.png",
             "看看他或她怎么想吧~.png",
-            "流式传输.png"
+            "流式传输.png",
+            "哥谭模拟器.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1328,8 +1331,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 57520,
                 "LAST_SEND_CHARS": 134613,
-                "LAST_RECEIVE_TOKENS": 13355,
-                "LAST_RECEIVE_CHARS": 50099
+                "LAST_RECEIVE_TOKENS": 2929,
+                "LAST_RECEIVE_CHARS": 7042
             }
         },
         "attachments": [],
