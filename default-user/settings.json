@@ -66,7 +66,6 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "  [前端]调教状态栏+选项",
                 "地图导航模块 (1)",
                 "文本美化移动特供版",
                 "看看他或她怎么想吧~",
@@ -1334,7 +1333,7 @@
                 "LAST_SEND_TOKENS": 60117,
                 "LAST_SEND_CHARS": 139203,
                 "LAST_RECEIVE_TOKENS": 14344,
-                "LAST_RECEIVE_CHARS": 51561
+                "LAST_RECEIVE_CHARS": 51560
             }
         },
         "attachments": [],
