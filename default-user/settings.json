@@ -1360,15 +1360,15 @@
             "config": {
                 "setList": [
                     {
-                        "set": "快速总结",
-                        "isVisible": true
-                    },
-                    {
                         "set": "角色扮演輔助一般版(1.2.1)",
                         "isVisible": true
                     },
                     {
                         "set": "总结",
+                        "isVisible": true
+                    },
+                    {
+                        "set": "哥谭模拟器QR",
                         "isVisible": true
                     }
                 ]
