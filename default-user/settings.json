@@ -909,7 +909,7 @@
             {
                 "id": "a0db4198-26d9-4936-8672-61c74e5a1ee9",
                 "scriptName": "会自动更新的手机",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
                 "replaceString": "```\n\n<body>\n    <script type=\"module\">\n\n\n        async function Load(params) {\n            // const html = await retrieve_raw(\"index.html\");\n            // if (!html) {\n            //     $(\"body\").html(html);\n            //     return;\n            // }\n            for (let i = 0; i < 3; i++) {\n                const response = await fetch(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n                const html = await response.text();\n                if (html) {\n                    console.log(html);\n                    $(\"body\").html(html);\n                    return;\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n            //$(\"body\").load(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n        }\n        Load();\n    </script>\n</body>\n```",
