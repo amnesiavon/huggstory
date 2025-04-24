@@ -1181,6 +1181,10 @@
                     {
                         "set": "哥谭模拟器QR",
                         "isVisible": true
+                    },
+                    {
+                        "set": "召唤同层手机",
+                        "isVisible": true
                     }
                 ]
             }
