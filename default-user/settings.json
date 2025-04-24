@@ -892,58 +892,6 @@
                 "maxDepth": null
             },
             {
-                "id": "0001876a-0304-4c56-a14a-e981372cac2a",
-                "scriptName": "user消息",
-                "findRegex": "/\\[我方消息\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
-                "replaceString": "<div class=\"message sent message-$1\">\n    <div class=\"message-wrapper\">\n         <div class=\"message-content\"><span style=\"display:none\">$1</span><span>$2</span><span>$3</span></div>\n    </div>\n</div>          ",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": false,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "ec014833-960b-4d09-b35e-d1e70426116d",
-                "scriptName": "对方消息",
-                "findRegex": "/\\[对方消息\\|(.*?)\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
-                "replaceString": "<div class=\"message received message-$2\" >\n    <div class=\"message-wrapper\">\n<div class=\"avatar\"><img src=\"http://8.218.55.252:5999/scripts/extensions/third-party/hq/img/avatar-1.jpg\"></div>\n        <div class=\"message-content\">$3<span>$4</span></div>\n    </div>\n</div>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "a3594d4e-580c-4b58-9880-1cfdcd61309d",
-                "scriptName": "添加好友",
-                "findRegex": "/\\[qq号\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
-                "replaceString": "<div class=\"qqhao qqhao-$2\">\n<div>\n<span class=\"qq-name\">$1</span>\n<span class=\"qq-number\">qq号$2</span>\n<span class=\"qq-hgd\">$3</span>\n</div>\n<div class=\"qq-cont-$2\">\n</div>\n</div>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": false,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "a3594d4e-580c-4b58-9880-1cfdcd61309d",
                 "scriptName": "添加好友",
                 "findRegex": "/\\[qq号\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
