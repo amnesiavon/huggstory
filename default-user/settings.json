@@ -1160,6 +1160,10 @@
                     {
                         "set": "总结",
                         "isVisible": true
+                    },
+                    {
+                        "set": "哥谭模拟器QR",
+                        "isVisible": true
                     }
                 ]
             }
