@@ -55,7 +55,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "顾云汐.png",
+    "active_character": "24H.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1719,7 +1719,8 @@
         "总结.png": [],
         "哥谭模拟器.png": [
             "f590d7a5-1550-42fb-b344-79d76a1e2f80"
-        ]
+        ],
+        "24H.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
