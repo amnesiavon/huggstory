@@ -53,11 +53,12 @@
         "AlertWI_哥谭模拟器.png": "true",
         "AlertRegex_哥谭模拟器.png": "true",
         "AlertWI_24H1.png": "true",
-        "AlertRegex_24H1.png": "true"
+        "AlertRegex_24H1.png": "true",
+        "AlertWI_凡人修仙传之又起天南·我的内门弟子母亲.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "哥谭模拟器.png",
+    "active_character": "凡人修仙传之又起天南·我的内门弟子母亲.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
