@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -53,7 +53,7 @@
         "AlertWI_哥谭模拟器.png": "true",
         "AlertRegex_哥谭模拟器.png": "true"
     },
-    "currentVersion": "1.12.13",
+    "currentVersion": "1.12.14",
     "username": "汐颜",
     "active_character": "哥谭模拟器.png",
     "active_group": null,
@@ -373,7 +373,8 @@
             "prefix": "<thinking>",
             "suffix": "</thinking>",
             "separator": "\n\n",
-            "max_additions": 1
+            "max_additions": 1,
+            "name": "[Migrated] Custom"
         },
         "personas": {
             "user-default.png": "汐颜",
@@ -1727,19 +1728,19 @@
             "fontSize": 1
         },
         "EjsTemplate": {
-            "enabled": true,
-            "generate_enabled": true,
-            "generate_before_enabled": true,
-            "generate_after_enabled": true,
-            "render_enabled": true,
-            "render_before_enabled": true,
-            "render_after_enabled": true,
+            "enabled": false,
+            "generate_enabled": false,
+            "generate_before_enabled": false,
+            "generate_after_enabled": false,
+            "render_enabled": false,
+            "render_before_enabled": false,
+            "render_after_enabled": false,
             "strict_enabled": false,
             "debug_enabled": false,
-            "autosave_enabled": true,
-            "preload_worldinfo_enabled": true,
+            "autosave_enabled": false,
+            "preload_worldinfo_enabled": false,
             "code_blocks_enabled": false,
-            "world_active_enabled": true
+            "world_active_enabled": false
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -3356,8 +3357,8 @@
         "groq_model": "llama-3.1-70b-versatile",
         "nanogpt_model": "gpt-4o-mini",
         "zerooneai_model": "yi-large",
-        "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
+        "xai_model": "grok-3-beta",
         "custom_model": "gemini-2.5-pro-exp-03-25",
         "custom_url": "https://hfsgcvfcsbgf.ap-northeast-1.clawcloudrun.com/v1",
         "custom_include_body": "",
