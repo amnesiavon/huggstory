@@ -51,11 +51,13 @@
         "AlertRegex_看看他或她怎么想吧~.png": "true",
         "AlertRegex_流式传输.png": "true",
         "AlertWI_哥谭模拟器.png": "true",
-        "AlertRegex_哥谭模拟器.png": "true"
+        "AlertRegex_哥谭模拟器.png": "true",
+        "AlertWI_24H1.png": "true",
+        "AlertRegex_24H1.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "24H.png",
+    "active_character": "24H1.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -951,7 +953,8 @@
             "[前端]调教状态栏+选项.png",
             "看看他或她怎么想吧~.png",
             "流式传输.png",
-            "哥谭模拟器.png"
+            "哥谭模拟器.png",
+            "24H1.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1720,7 +1723,8 @@
         "哥谭模拟器.png": [
             "f590d7a5-1550-42fb-b344-79d76a1e2f80"
         ],
-        "24H.png": []
+        "24H.png": [],
+        "24H1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
