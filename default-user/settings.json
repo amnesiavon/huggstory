@@ -1697,6 +1697,86 @@
             "color": "",
             "color2": "",
             "create_date": 1745336726733
+        },
+        {
+            "id": "f17c0d1d-7c9d-48ab-9412-95368f0637be",
+            "name": "修仙",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745516305319
+        },
+        {
+            "id": "7f25a447-497d-41d2-9737-4268a33806da",
+            "name": "凡人修仙传",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745516305319
+        },
+        {
+            "id": "49998d9e-05e4-4eeb-be5e-bb9446677ec5",
+            "name": "凡人",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745516305319
+        },
+        {
+            "id": "8c1bec5d-b73e-4fd3-988b-ca3104948bca",
+            "name": "崛起",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745516305320
+        },
+        {
+            "id": "925f3842-a21a-4399-9c79-cb7094d22ef2",
+            "name": "人生",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745516305320
+        },
+        {
+            "id": "8e989cfc-41d4-4b67-88f0-e750b3084a16",
+            "name": "妈妈",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745516305320
+        },
+        {
+            "id": "bbf88bf7-a7ca-4f23-a2b7-9f021b65bae2",
+            "name": "母亲",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745516305320
+        },
+        {
+            "id": "b232f8c9-771f-4671-a4bf-3d55387a9e35",
+            "name": "成长",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1745516305320
         }
     ],
     "tag_map": {
@@ -1744,7 +1824,17 @@
             "f590d7a5-1550-42fb-b344-79d76a1e2f80"
         ],
         "24H.png": [],
-        "24H1.png": []
+        "24H1.png": [],
+        "凡人修仙传之又起天南·我的内门弟子母亲.png": [
+            "f17c0d1d-7c9d-48ab-9412-95368f0637be",
+            "7f25a447-497d-41d2-9737-4268a33806da",
+            "49998d9e-05e4-4eeb-be5e-bb9446677ec5",
+            "8c1bec5d-b73e-4fd3-988b-ca3104948bca",
+            "925f3842-a21a-4399-9c79-cb7094d22ef2",
+            "8e989cfc-41d4-4b67-88f0-e750b3084a16",
+            "bbf88bf7-a7ca-4f23-a2b7-9f021b65bae2",
+            "b232f8c9-771f-4671-a4bf-3d55387a9e35"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
