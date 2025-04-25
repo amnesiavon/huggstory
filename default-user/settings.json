@@ -54,11 +54,13 @@
         "AlertRegex_哥谭模拟器.png": "true",
         "AlertWI_24H1.png": "true",
         "AlertRegex_24H1.png": "true",
-        "AlertWI_凡人修仙传之又起天南·我的内门弟子母亲.png": "true"
+        "AlertWI_凡人修仙传之又起天南·我的内门弟子母亲.png": "true",
+        "AlertWI_外置手机淘宝版（世界书开全局，正则全部改成全局）.png": "true",
+        "AlertRegex_外置手机淘宝版（世界书开全局，正则全部改成全局）.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "凡人修仙传之又起天南·我的内门弟子母亲.png",
+    "active_character": "外置手机淘宝版（世界书开全局，正则全部改成全局）.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -974,7 +976,8 @@
             "看看他或她怎么想吧~.png",
             "流式传输.png",
             "哥谭模拟器.png",
-            "24H1.png"
+            "24H1.png",
+            "外置手机淘宝版（世界书开全局，正则全部改成全局）.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1837,7 +1840,8 @@
             "8e989cfc-41d4-4b67-88f0-e750b3084a16",
             "bbf88bf7-a7ca-4f23-a2b7-9f021b65bae2",
             "b232f8c9-771f-4671-a4bf-3d55387a9e35"
-        ]
+        ],
+        "外置手机淘宝版（世界书开全局，正则全部改成全局）.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
