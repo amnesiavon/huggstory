@@ -38,8 +38,6 @@
         "DataBank_sortField": "created",
         "DataBank_sortOrder": "asc",
         "LNavLockOn": "true",
-        "AlertWI_地图导航模块.png": "true",
-        "AlertRegex_地图导航模块.png": "true",
         "AlertWI_机动战士高达-SEED V1.2.png": "true",
         "AlertRegex_机动战士高达-SEED V1.2.png": "true",
         "AlertWI_机动战士高达-UC纪元.png": "true",
@@ -1070,8 +1068,6 @@
             "Character Builder v1.3.png",
             "卜卜.png",
             "fuhufox的亚种圣杯战争.png",
-            "地图导航模块.png",
-            "地图+论坛.png",
             "机动战士高达-SEED V1.2.png",
             "机动战士高达-UC纪元.png",
             "机动战士高达-SEED V1.2_1.png",
@@ -1740,8 +1736,7 @@
                     }
                 ],
                 "characters_with_scripts": [
-                    "[前端]调教状态栏+选项.png",
-                    "地图导航模块.png"
+                    "[前端]调教状态栏+选项.png"
                 ]
             },
             "audio": {
@@ -1919,8 +1914,6 @@
         "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": [],
         "卜卜.png": [],
         "fuhufox的亚种圣杯战争.png": [],
-        "地图导航模块.png": [],
-        "地图+论坛.png": [],
         "机动战士高达-SEED V1.2.png": [],
         "机动战士高达-UC纪元.png": [],
         "机动战士高达-SEED V1.2_1.png": [],
