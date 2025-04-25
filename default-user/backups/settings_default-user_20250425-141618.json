@@ -798,7 +798,7 @@
             {
                 "id": "121d991d-2b34-44a5-b4eb-76bf540106ed",
                 "scriptName": "隐藏表格思维链",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<tableThink_cot\\b[^>]*>[\\s\\S]*?<\\/tableThink_cot>/s",
                 "replaceString": "",
