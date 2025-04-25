@@ -291,7 +291,7 @@
         "movingUI": false,
         "movingUIState": {},
         "movingUIPreset": "Default",
-        "noShadows": true,
+        "noShadows": false,
         "theme": "Celestial Macaron",
         "gestures": true,
         "auto_swipe": false,
