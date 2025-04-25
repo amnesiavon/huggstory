@@ -56,11 +56,12 @@
         "AlertWI_外置手机淘宝版（世界书开全局，正则全部改成全局）.png": "true",
         "AlertRegex_外置手机淘宝版（世界书开全局，正则全部改成全局）.png": "true",
         "AlertWI_地图导航模块3.0.png": "true",
-        "AlertRegex_地图导航模块3.0.png": "true"
+        "AlertRegex_地图导航模块3.0.png": "true",
+        "AlertWI_霍格兰德大陆.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "地图导航模块3.0.png",
+    "active_character": "霍格兰德大陆.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
