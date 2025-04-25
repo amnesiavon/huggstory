@@ -946,6 +946,58 @@
                 "maxDepth": 0,
                 "markdownOnly": true,
                 "promptOnly": false
+            },
+            {
+                "id": "98591258-8eb1-4ad6-aefd-3f0cb1a76e30",
+                "scriptName": "淘宝",
+                "findRegex": "/\\[商品\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
+                "replaceString": "<div class=\"product\" data-category=\"$2\">\n                        <div class=\"product-info\">\n                            <div class=\"product-name\">$1</div>\n                            <div class=\"product-price\">$3</div>\n                        </div>\n                    </div>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "0001876a-0304-4c56-a14a-e981372cac2a",
+                "scriptName": "user消息",
+                "findRegex": "/\\[我方消息\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
+                "replaceString": "<div class=\"message sent message-$1\">\n    <div class=\"message-wrapper\">\n         <div class=\"message-content\"><span style=\"display:none\">$1</span><span>$2</span><span>$3</span></div>\n    </div>\n</div>          ",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "7265e711-b030-4fb9-b4f3-ce6f97bdca2c",
+                "scriptName": "我方群聊消息",
+                "findRegex": "/\\[我方群聊消息\\|(.*?)\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
+                "replaceString": "<div class=\"qun-cont qq-cont-send qun-$1\">\n<div class=\"qun-hide\">\n<h2>我</h2>\n<div class=qun-bg>\n<span>$3</span>\n<span>$4</span>\n</div>\n</div>\n </div>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
