@@ -72,6 +72,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "【地图导航】",
                 "hq手机0424",
                 "单人通用世界书 (1)",
                 "文本效果增强",
@@ -1295,8 +1296,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 26731,
                 "LAST_SEND_CHARS": 54274,
-                "LAST_RECEIVE_TOKENS": 1794,
-                "LAST_RECEIVE_CHARS": 2603
+                "LAST_RECEIVE_TOKENS": 65,
+                "LAST_RECEIVE_CHARS": 94
             }
         },
         "attachments": [],
