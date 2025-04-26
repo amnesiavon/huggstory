@@ -1293,8 +1293,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 60675,
                 "LAST_SEND_CHARS": 139386,
-                "LAST_RECEIVE_TOKENS": 5,
-                "LAST_RECEIVE_CHARS": 4
+                "LAST_RECEIVE_TOKENS": 210,
+                "LAST_RECEIVE_CHARS": 291
             }
         },
         "attachments": [],
