@@ -1694,8 +1694,8 @@
             "fontSize": 1
         },
         "EjsTemplate": {
-            "enabled": false,
-            "generate_enabled": false,
+            "enabled": true,
+            "generate_enabled": true,
             "generate_before_enabled": false,
             "generate_after_enabled": false,
             "render_enabled": false,
