@@ -1,2 +1,0 @@
-{"user_name":"汐颜","character_name":"地图导航模块3.0","create_date":"2025-04-25@22h05m30s","chat_metadata":{"integrity":"68eb68f0-2ef8-4c49-9518-4712019bf492"}}
-{"name":"地图导航模块3.0","is_user":false,"is_system":false,"send_date":"April 25, 2025 10:05pm","mes":"局部正则上移,世界书设为全局\r\n\r\n\r\n<Map>\r\n[MOVEBLOCK:NO]\r\n[主地点A]次级地点A 目标A | 次级地点B 目标B | 次级地点C \r\n[主地点B]次级地点D  | 次级地点E 目标C | 次级地点F \r\n[主地点C]次级地点G 目标D 目标F| 次级地点H | 次级地点I  \r\n</Map>","extra":{}}
