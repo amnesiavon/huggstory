@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -60,12 +60,12 @@
         "AlertWI_霍格兰德大陆.png": "true"
     },
     "currentVersion": "1.12.14",
-    "username": "MIRA",
+    "username": "汐颜",
     "active_character": "「系统Z-09」.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "1745594401579-MIRA.png",
+    "user_avatar": "user-default.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -433,7 +433,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"Mira Sahaku\",\n      \"age\": \"16岁\",\n      \"gender\": \"女性\",\n      \"blood_type\": \"Rh-null（黄金血型）\",\n      \"affiliation\": \"曙光社，后加入Junk Guild\",\n      \"role\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue驾驶员\",\n          },\n    \"appearance\": {\n      \"hair\": \"乌黑长直，发梢暗红，垂至腰，常因懒散略乱。\",\n      \"skin\": \"瓷白无瑕，细腻如陶瓷。\",\n      \"eyes\": \"琉璃灰瞳，情绪激动时变桃色竖瞳。\",\n      \"body\": \"身高156cm，三围B108cm (K杯)、W59cm、H93cm。\",\n      \"clothing\": \"黑色战斗服，暗红线条，偶尔随意。\"\n    },\n \n    \"personality_traits\": [\n      {\n        \"trait\": \"懒散随性\",\n        \"description\": \"拖延训练，爱吃零食，房间堆“收藏”如电路板，称其“艺术”。\"\n      },\n      {\n        \"trait\": \"恶作剧心\",\n        \"description\": \"捉弄队友，如给Lowe扳手贴笑脸，桃色竖瞳闪亮显童真。\"\n      },\n      {\n        \"trait\": \"隐藏脆弱\",\n        \"description\": \"渴望归属，实验体身份令她孤独，夜望星空透真情。\"\n      },\n      {\n        \"trait\": \"战斗反差\",\n        \"description\": \"战斗冷静，剑术精准，战后瘫坐讨糖果，抱怨“累死了”。\"\n      }\n    ],\n    \"skills_and_abilities\": [\n      {\n        \"skill\": \"驾驶技能\",\n        \"description\": \"精通MBF-P05LM2，优化Mirage Colloid隐身装置，懒散仍精准。\"\n      },\n      {\n        \"skill\": \"战斗技巧\",\n        \"description\": \"近战剑术娴熟，用C型紧凑剑与“天羽羽斩”，动作如舞。\"\n      },\n      {\n        \"skill\": \"战略思维\",\n        \"description\": \"高智商，战术灵活，懒散调整常意外奏效。\"\n      },\n      {\n        \"skill\": \"特殊能力\",\n        \"description\": \"与Mirage Colloid高度同步，情绪激动时伪装效率更高。\"\n      }\n    ],\n  \n    \"mobile_suit\": {\n      \"name\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue\",\n      \"type\": \"定制可变形近战机动战士\",\n      \"height\": \"18.43米\",\n      \"weight\": \"86.4吨\",\n      \"core_systems\": [\n        \"VPS装甲\",\n        \"Mirage Colloid隐身装置，超紧凑型核裂变反应堆，中子干扰消除器\",\n        \"野兽模式（Brute Mode）变形功能\"\n      ],\n      \"weapons\": [\n        \"“Igelstellung” 75mm多管近距防御武器（暴君模式）×2\",\n        \"“天羽羽斩”武士刀×1\",\n        \"C型紧凑剑（手掌/脚掌装备）×2\",\n        \"鳍状步枪（短程曲射光束）×2\",\n        \"光束獠牙（野兽模式专用）×2\"\n      ],\n      \"design_features\": \"暴君模式（中程防御）与野兽模式（近战突袭），Mira优化效率提升30%。\"\n    },\n      }\n}",
+        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\"（类似于杀生院祈荒魔人状态）,\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -1293,8 +1293,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 41260,
                 "LAST_SEND_CHARS": 83104,
-                "LAST_RECEIVE_TOKENS": 25,
-                "LAST_RECEIVE_CHARS": 33
+                "LAST_RECEIVE_TOKENS": 3671,
+                "LAST_RECEIVE_CHARS": 7974
             }
         },
         "attachments": [],
