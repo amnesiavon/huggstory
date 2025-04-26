@@ -1298,8 +1298,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 33578,
                 "LAST_SEND_CHARS": 72418,
-                "LAST_RECEIVE_TOKENS": 41,
-                "LAST_RECEIVE_CHARS": 57
+                "LAST_RECEIVE_TOKENS": 1546,
+                "LAST_RECEIVE_CHARS": 3752
             }
         },
         "attachments": [],
@@ -1824,6 +1824,11 @@
                 "character-机动战士高达-SEED V1.2_1.png": {
                     "hideLastN": 10,
                     "lastProcessedLength": 15,
+                    "userConfigured": true
+                },
+                "character-罗落大陆.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 23,
                     "userConfigured": true
                 }
             },
