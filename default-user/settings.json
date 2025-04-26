@@ -61,7 +61,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "MIRA",
-    "active_character": "霍格兰德大陆.png",
+    "active_character": "机动战士高达-SEED V1.2.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1295,8 +1295,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 60675,
                 "LAST_SEND_CHARS": 139386,
-                "LAST_RECEIVE_TOKENS": 371,
-                "LAST_RECEIVE_CHARS": 1500
+                "LAST_RECEIVE_TOKENS": 5,
+                "LAST_RECEIVE_CHARS": 4
             }
         },
         "attachments": [],
