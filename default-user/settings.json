@@ -1108,7 +1108,8 @@
             "哥谭模拟器.png",
             "24H1.png",
             "外置手机淘宝版（世界书开全局，正则全部改成全局）.png",
-            "地图导航模块3.0.png"
+            "地图导航模块3.0.png",
+            "绝望黎明：未知命运.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1298,8 +1299,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 34853,
                 "LAST_SEND_CHARS": 67578,
-                "LAST_RECEIVE_TOKENS": 11,
-                "LAST_RECEIVE_CHARS": 15
+                "LAST_RECEIVE_TOKENS": 4410,
+                "LAST_RECEIVE_CHARS": 10594
             }
         },
         "attachments": [],
