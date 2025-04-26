@@ -59,11 +59,13 @@
         "AlertRegex_地图导航模块3.0.png": "true",
         "AlertWI_霍格兰德大陆.png": "true",
         "AlertWI_绝望黎明：未知命运.png": "true",
-        "AlertRegex_绝望黎明：未知命运.png": "true"
+        "AlertRegex_绝望黎明：未知命运.png": "true",
+        "AlertWI_罗落大陆.png": "true",
+        "AlertRegex_罗落大陆.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "绝望黎明：未知命运.png",
+    "active_character": "罗落大陆.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1107,7 +1109,8 @@
             "24H1.png",
             "外置手机淘宝版（世界书开全局，正则全部改成全局）.png",
             "地图导航模块3.0.png",
-            "绝望黎明：未知命运.png"
+            "绝望黎明：未知命运.png",
+            "罗落大陆.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1297,8 +1300,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 36725,
                 "LAST_SEND_CHARS": 72643,
-                "LAST_RECEIVE_TOKENS": 3,
-                "LAST_RECEIVE_CHARS": 4
+                "LAST_RECEIVE_TOKENS": 8592,
+                "LAST_RECEIVE_CHARS": 20796
             }
         },
         "attachments": [],
@@ -1982,7 +1985,8 @@
         "外置手机淘宝版（世界书开全局，正则全部改成全局）.png": [],
         "地图导航模块3.0.png": [],
         "霍格兰德大陆.png": [],
-        "绝望黎明：未知命运.png": []
+        "绝望黎明：未知命运.png": [],
+        "罗落大陆.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -3262,7 +3266,7 @@
                     },
                     {
                         "identifier": "b7d078d7-c431-4ce4-898e-b6decb75698d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
