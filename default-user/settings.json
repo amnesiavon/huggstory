@@ -63,7 +63,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "绝望黎明：未知命运.png",
+    "active_character": "Mori.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1305,8 +1305,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 38048,
                 "LAST_SEND_CHARS": 74832,
-                "LAST_RECEIVE_TOKENS": 215,
-                "LAST_RECEIVE_CHARS": 790
+                "LAST_RECEIVE_TOKENS": 11604,
+                "LAST_RECEIVE_CHARS": 44228
             }
         },
         "attachments": [],
