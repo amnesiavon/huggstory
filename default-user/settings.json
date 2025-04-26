@@ -697,23 +697,6 @@
                 "promptOnly": true
             },
             {
-                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
-                "scriptName": "美化省token",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<[^>]*>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
                 "scriptName": "[不发送]导航",
                 "disabled": false,
@@ -728,6 +711,23 @@
                 "minDepth": null,
                 "maxDepth": null,
                 "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "美化省token",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
                 "promptOnly": true
             },
             {
