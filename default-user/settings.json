@@ -1293,8 +1293,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 25104,
                 "LAST_SEND_CHARS": 41726,
-                "LAST_RECEIVE_TOKENS": 3183,
-                "LAST_RECEIVE_CHARS": 4755
+                "LAST_RECEIVE_TOKENS": 5469,
+                "LAST_RECEIVE_CHARS": 13975
             }
         },
         "attachments": [],
@@ -1715,7 +1715,7 @@
             "render": {
                 "render_enabled": true,
                 "tampermonkey_compatibility": false,
-                "render_depth": 3,
+                "render_depth": 0,
                 "render_optimize": false
             },
             "script": {
