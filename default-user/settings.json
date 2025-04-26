@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -61,7 +61,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "露出世界.png",
+    "active_character": "fuhufox的亚种圣杯战争.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1293,8 +1293,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 25104,
                 "LAST_SEND_CHARS": 41726,
-                "LAST_RECEIVE_TOKENS": 5357,
-                "LAST_RECEIVE_CHARS": 13817
+                "LAST_RECEIVE_TOKENS": 66,
+                "LAST_RECEIVE_CHARS": 97
             }
         },
         "attachments": [],
