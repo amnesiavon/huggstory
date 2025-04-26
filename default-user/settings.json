@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -1305,8 +1305,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 38048,
                 "LAST_SEND_CHARS": 74832,
-                "LAST_RECEIVE_TOKENS": 31332,
-                "LAST_RECEIVE_CHARS": 123022
+                "LAST_RECEIVE_TOKENS": 40279,
+                "LAST_RECEIVE_CHARS": 148966
             }
         },
         "attachments": [],
