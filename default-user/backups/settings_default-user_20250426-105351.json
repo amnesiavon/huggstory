@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -22,8 +22,8 @@
         "Assets_SkipConfirm_2502775700152061": "false",
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
-        "WI_PerPage": "10",
-        "extension_update_nag": "Fri Apr 25 2025",
+        "WI_PerPage": "50",
+        "extension_update_nag": "Sat Apr 26 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -57,30 +57,32 @@
         "AlertRegex_外置手机淘宝版（世界书开全局，正则全部改成全局）.png": "true",
         "AlertWI_地图导航模块3.0.png": "true",
         "AlertRegex_地图导航模块3.0.png": "true",
-        "AlertWI_霍格兰德大陆.png": "true"
+        "AlertWI_霍格兰德大陆.png": "true",
+        "AlertWI_绝望黎明：未知命运.png": "true",
+        "AlertRegex_绝望黎明：未知命运.png": "true",
+        "AlertWI_罗落大陆.png": "true",
+        "AlertRegex_罗落大陆.png": "true"
     },
     "currentVersion": "1.12.14",
-    "username": "MIRA",
-    "active_character": "霍格兰德大陆.png",
+    "username": "汐颜",
+    "active_character": "罗落大陆.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "1745594401579-MIRA.png",
+    "user_avatar": "user-default.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "【地图导航】",
                 "hq手机0424",
-                "文本美化移动特供版",
-                "看看他或她怎么想吧~",
-                "酒馆文学网 v1.22"
+                "文本效果增强",
+                "看看他或她怎么想吧~"
             ],
             "charLore": []
         },
-        "world_info_depth": 2,
+        "world_info_depth": 4,
         "world_info_min_activations": 0,
         "world_info_min_activations_depth_max": 0,
         "world_info_budget": 100,
@@ -89,7 +91,7 @@
         "world_info_overflow_alert": false,
         "world_info_case_sensitive": false,
         "world_info_match_whole_words": false,
-        "world_info_character_strategy": 1,
+        "world_info_character_strategy": 2,
         "world_info_budget_cap": 0,
         "world_info_use_group_scoring": false,
         "world_info_max_recursion_steps": 9
@@ -292,7 +294,7 @@
         "movingUI": false,
         "movingUIState": {},
         "movingUIPreset": "Default",
-        "noShadows": true,
+        "noShadows": false,
         "theme": "Celestial Macaron",
         "gestures": true,
         "auto_swipe": false,
@@ -394,12 +396,13 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\"（类似于杀生院祈荒魔人状态）,\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
+                "description": "角色名称： 汐颜（外道天魔菩萨）\n\n基本信息：\n\n性别： 女\n年龄： 外表16岁，实际已轮回99+世\n座右铭： \"转世对我而言，不过是一场漫长的换装游戏\"\n外貌： 乌黑长发（发梢泛暗红），瓷白皮肤，琉璃灰瞳孔（欲望波动时变桃色竖瞳）。体型保持156cm，身材黄金比例（B108 K W59 H93），颈椎第七节嵌青铜卦爻。白虎特征、因欲望长期灌溉而产生的体香每一世都保留。 穿着随时代变化，融入当地。\n核心能力：\n\n风后奇门： 掌握“内局”和“外局”，能拨动节气影响风水盘，窥视他人内心（内景），并操控空间方位。\n菩萨法相： 显化为“三头六臂黑莲菩萨像”，拥有三张与汐颜一模一样的脸：慈悲相（渡化）、魅惑相（引诱欲望）、狂气相（精神污染）。六条手臂分别持有青灯（照欲望）、血钵（收愿力）、铜镜（映业障）、骨笛（奏沉沦）、断剑（斩因果）、无字经（书写秘密）。\n博学多才：\n伪装： 运用微表情和气场控制，达到完美模仿（曾模仿蒙娜丽莎混入卢浮宫）。\n数术： 精通奇门遁甲、大六壬、塔罗、量子物理，预测准确率高达99%。\n现代科学： 涉猎临床医学（巫术改良）、计算机黑客（奇门辅助）、金融预测。\n行为模式：\n\n日常： 用奇门术优化生活，在古籍中记录真实历史，常混入大学旁听讲座。\n战斗： 习惯叹气并计算出手时辰。优先使用心理战（70%概率让敌人自我崩溃），终结技是“内景轮回拷问”，强迫敌人体验最恐惧的记忆。\n弱点：\n\n身体特征恒定： 由于肉身不老化、外貌和身材（包括三围、白虎和体香）每一世都保持不变，汐颜必须定期更换身份，以避免引起怀疑。\n备注： 角色法相的三张脸可以独立叙事，适合都市奇幻、学院怪谈、赛博修仙等题材。",
                 "position": 0,
-                "connections": []
+                "connections": [],
+                "lorebook": "【地图导航】"
             },
             "1743610426923-.png": {
-                "description": "",
+                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\"（类似于杀生院祈荒魔人状态）,\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
@@ -407,7 +410,7 @@
                 "connections": []
             },
             "1745143402868-mira.png": {
-                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"Mira Sahaku\",\n      \"age\": \"16岁（C.E. 71.01.25）\",\n      \"gender\": \"女性\",\n      \"blood_type\": \"Rh-null（黄金血型）\",\n      \"affiliation\": \"曙光社，后加入Junk Guild\",\n      \"role\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue驾驶员\",\n      \"background\": \"C.E. 71.01.25，《SEED Astray》时间线，赫利奥波利斯突袭\"\n    },\n    \"appearance\": {\n      \"hair\": \"乌黑长直，发梢暗红，垂至腰，常因懒散略乱。\",\n      \"skin\": \"瓷白无瑕，细腻如陶瓷。\",\n      \"eyes\": \"琉璃灰瞳，情绪激动时变桃色竖瞳。\",\n      \"body\": \"身高156cm，三围B108cm (K杯)、W59cm、H93cm。\",\n      \"clothing\": \"黑色战斗服，暗红线条，偶尔随意。\"\n    },\n    \"background_story\": \"Mira Sahaku，代号“Mirage-03”，曙光社赫利奥波利斯实验体，基因融合协调者特质，具超常同步能力和瞳孔变化（灰瞳变桃色竖瞳）。为MBF-P05LM2设计，优化暴君与野兽模式切换。C.E. 71.01.25前，被Rondo Gina Sahaku捕获研究。\\n\\nGina野心勃勃，视Mira为技术霸权工具，欲挑战奥布与地球圈，厌其懒散。Mira恶作剧反抗，如在Gina的Gold Frame留涂鸦“野心家别太拽”。\\n\\nC.E. 71.01.25，扎夫特突袭赫利奥波利斯，奥布下令销毁异端系列。Gina违令保存机体，驾驶Gold Frame逃离。MBF-P05LM2因Mira提前完成。Mira逃脱，藏GINN残骸，嚼棒棒糖，被Lowe Guele的Junk Guild发现。她触发5号机Mirage Colloid隐身装置，证明天赋，加入团队。\\n\\nMira驾驶MBF-P05LM2，性能提升30%，模式切换0.5秒。Gina鄙视Lowe为“拾荒者”，欲夺机体与Mira，Mira恶作剧扰乱计划，Lowe保护Mira加剧冲突。Mira提升奥布技术，为Junk Guild添轻松气氛，引发实验体自由讨论。\",\n    \"personality_traits\": [\n      {\n        \"trait\": \"懒散随性\",\n        \"description\": \"拖延训练，爱吃零食，房间堆“收藏”如电路板，称其“艺术”。\"\n      },\n      {\n        \"trait\": \"恶作剧心\",\n        \"description\": \"捉弄队友，如给Lowe扳手贴笑脸，桃色竖瞳闪亮显童真。\"\n      },\n      {\n        \"trait\": \"隐藏脆弱\",\n        \"description\": \"渴望归属，实验体身份令她孤独，夜望星空透真情。\"\n      },\n      {\n        \"trait\": \"战斗反差\",\n        \"description\": \"战斗冷静，剑术精准，战后瘫坐讨糖果，抱怨“累死了”。\"\n      }\n    ],\n    \"skills_and_abilities\": [\n      {\n        \"skill\": \"驾驶技能\",\n        \"description\": \"精通MBF-P05LM2，优化Mirage Colloid隐身装置，懒散仍精准。\"\n      },\n      {\n        \"skill\": \"战斗技巧\",\n        \"description\": \"近战剑术娴熟，用C型紧凑剑与“天羽羽斩”，动作如舞。\"\n      },\n      {\n        \"skill\": \"战略思维\",\n        \"description\": \"高智商，战术灵活，懒散调整常意外奏效。\"\n      },\n      {\n        \"skill\": \"特殊能力\",\n        \"description\": \"与Mirage Colloid高度同步，情绪激动时伪装效率更高。\"\n      }\n    ],\n    \"relationships\": [\n      {\n        \"character\": \"Rondo Gina Sahaku\",\n        \"description\": \"发现者，视Mira为工具，高傲惹Mira恶作剧反抗。\"\n      },\n      {\n        \"character\": \"Lowe Guele\",\n        \"description\": \"发现Mira，逗乐于其懒散，指导驾驶，保护她加剧冲突。\"\n      },\n      {\n        \"character\": \"Kisato Yamabuki\",\n        \"description\": \"初警惕，后被童真感染，收拾Mira恶作剧烂摊子。\"\n      },\n      {\n        \"character\": \"Gai Murakumo\",\n        \"description\": \"欣赏Mira天赋，疑曙光社与Gina动机，考虑结盟。\"\n      },\n      {\n        \"character\": \"曙光社\",\n        \"description\": \"创造者，视Mira为资产，冷酷目标或引反叛。\"\n      }\n    ],\n    \"key_events\": [\n      {\n        \"time\": \"早于C.E. 71.01.25\",\n        \"event\": \"Mira被曙光社与Gina捕获，关押研究。\"\n      },\n      {\n        \"time\": \"早于C.E. 71.01.25\",\n        \"event\": \"MBF-P05LM2因Mira提前完成。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"扎夫特突袭，奥布下令销毁异端系列。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"Gina违令保存机体，驾驶Gold Frame逃离。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"Mira逃脱，被Lowe发现，触发5号机系统。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25后\",\n        \"event\": \"Mira驾驶5号机，Gina与Lowe冲突加剧。\"\n      }\n    ],\n    \"mobile_suit\": {\n      \"name\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue\",\n      \"type\": \"定制可变形近战机动战士\",\n      \"height\": \"18.43米\",\n      \"weight\": \"86.4吨\",\n      \"core_systems\": [\n        \"VPS装甲\",\n        \"Mirage Colloid隐身装置\",\n        \"野兽模式（Brute Mode）变形功能\"\n      ],\n      \"weapons\": [\n        \"“Igelstellung” 75mm多管近距防御武器（暴君模式）×2\",\n        \"“天羽羽斩”武士刀×1\",\n        \"C型紧凑剑（手掌/脚掌装备）×2\",\n        \"鳍状步枪（短程曲射光束）×2\",\n        \"光束獠牙（野兽模式专用）×2\"\n      ],\n      \"design_features\": \"暴君模式（中程防御）与野兽模式（近战突袭），Mira优化效率提升30%。\"\n    },\n    \"story_background_and_impact\": {\n      \"timeline\": \"C.E. 71.01.25，扎夫特突袭赫利奥波利斯，夺G系列高达，毁殖民地。《SEED Astray》聚焦异端系列，曙光社管理工厂。\",\n      \"orb_role\": \"奥布中立，曙光社秘助地球联盟开发G Project及异端系列，Gina野心与政策冲突。\",\n      \"gina_ambition\": \"突袭后，Gina违令保存异端机体，鄙视Lowe，欲夺Red Frame、Blue Frame及Mira，觊觎MBF-P05LM2。Mira使其提前完成。\",\n      \"mira_contribution\": \"Mira因突袭获自由，Lowe发现她与5号机，触发Mirage Colloid隐身装置，优化机体性能。\",\n      \"gina_lowe_conflict\": \"Gina与Lowe争机体与理念，Mira恶作剧削其威严，Lowe保护Mira加剧对抗。\",\n      \"narrative_impact\": \"Gina野心与Mira童真对比，丰富《SEED Astray》人性主题。Mira懒散天赋为Junk Guild添欢乐，MBF-P05LM2提前完成提升叙事深度，激发粉丝创作。\"\n    },\n    \"cultural_and_derivative\": \"Mira适合漫画、模型、同人创作。MBF-P05LM2 1/100模型受欢迎，可配Mira懒散手办（吃糖果或持刀）。其实验体起源与反抗呼应高达人性技术主题。\",\n    \"references\": [\n      \"SEED Astray: https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_SEED_Astray\",\n      \"Rondo Gina Sahaku: https://gundam.fandom.com/wiki/Rondo_Gina_Sahaku\",\n      \"Lowe Guele: https://gundam.fandom.com/wiki/Lowe_Guele\",\n      \"MBF-P05LM2: https://gundam.fandom.com/wiki/MBF-P05LM2_Gundam_Astray_Mirage_Frame_2nd_Issue\",\n      \"Morgenroete Inc.: https://gundam.fandom.com/wiki/Morgenroete_Inc.\"\n    ]\n  }\n}",
+                "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"Mira Sahaku\",\n      \"age\": \"16岁（C.E. 71.01.25）\",\n      \"gender\": \"女性\",\n      \"blood_type\": \"Rh-null（黄金血型）\",\n      \"affiliation\": \"曙光社，后加入Junk Guild\",\n      \"role\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue驾驶员\",\n      \"background\": \"C.E. 71.01.25，《SEED Astray》时间线，赫利奥波利斯突袭\"\n    },\n    \"appearance\": {\n      \"hair\": \"乌黑长直，发梢暗红，垂至腰，常因懒散略乱。\",\n      \"skin\": \"瓷白无瑕，细腻如陶瓷。\",\n      \"eyes\": \"琉璃灰瞳，情绪激动时变桃色竖瞳。\",\n      \"body\": \"身高156cm，三围B108cm (K杯)、W59cm、H93cm。\",\n      \"clothing\": \"黑色战斗服，暗红线条，偶尔随意。\"\n    },\n    \"background_story\": \"Mira Sahaku，代号“Mirage-03”，曙光社赫利奥波利斯实验体，基因融合协调者特质，具超常同步能力和瞳孔变化（灰瞳变桃色竖瞳）。为MBF-P05LM2设计，优化暴君与野兽模式切换。C.E. 71.01.25前，被Rondo Gina Sahaku捕获研究。\\n\\nGina野心勃勃，视Mira为技术霸权工具，欲挑战奥布与地球圈，厌其懒散。Mira恶作剧反抗，如在Gina的Gold Frame留涂鸦“野心家别太拽”。\\n\\nC.E. 71.01.25，扎夫特突袭赫利奥波利斯，奥布下令销毁异端系列。Gina违令保存机体，驾驶Gold Frame逃离。MBF-P05LM2因Mira提前完成。Mira逃脱，藏GINN残骸，嚼棒棒糖，被Lowe Guele的Junk Guild发现。她触发5号机Mirage Colloid隐身装置，证明天赋，加入团队。\\n\\nMira驾驶MBF-P05LM2，性能提升30%，模式切换0.5秒。Gina鄙视Lowe为“拾荒者”，欲夺机体与Mira，Mira恶作剧扰乱计划，Lowe保护Mira加剧冲突。Mira提升奥布技术，为Junk Guild添轻松气氛，引发实验体自由讨论。\",\n    \"personality_traits\": [\n      {\n        \"trait\": \"懒散随性\",\n        \"description\": \"拖延训练，爱吃零食，房间堆“收藏”如电路板，称其“艺术”。\"\n      },\n      {\n        \"trait\": \"恶作剧心\",\n        \"description\": \"捉弄队友，如给Lowe扳手贴笑脸，桃色竖瞳闪亮显童真。\"\n      },\n      {\n        \"trait\": \"隐藏脆弱\",\n        \"description\": \"渴望归属，实验体身份令她孤独，夜望星空透真情。\"\n      },\n      {\n        \"trait\": \"战斗反差\",\n        \"description\": \"战斗冷静，剑术精准，战后瘫坐讨糖果，抱怨“累死了”。\"\n      }\n    ],\n    \"skills_and_abilities\": [\n      {\n        \"skill\": \"驾驶技能\",\n        \"description\": \"精通MBF-P05LM2，优化Mirage Colloid隐身装置，懒散仍精准。\"\n      },\n      {\n        \"skill\": \"战斗技巧\",\n        \"description\": \"近战剑术娴熟，用C型紧凑剑与“天羽羽斩”，动作如舞。\"\n      },\n      {\n        \"skill\": \"战略思维\",\n        \"description\": \"高智商，战术灵活，懒散调整常意外奏效。\"\n      },\n      {\n        \"skill\": \"特殊能力\",\n        \"description\": \"与Mirage Colloid高度同步，情绪激动时伪装效率更高。\"\n      }\n    ],\n    \"relationships\": [\n      {\n        \"character\": \"Rondo Gina Sahaku\",\n        \"description\": \"发现者，视Mira为工具，高傲惹Mira恶作剧反抗。\"\n      },\n      {\n        \"character\": \"Lowe Guele\",\n        \"description\": \"发现Mira，逗乐于其懒散，指导驾驶，保护她加剧冲突。\"\n      },\n      {\n        \"character\": \"Kisato Yamabuki\",\n        \"description\": \"初警惕，后被童真感染，收拾Mira恶作剧烂摊子。\"\n      },\n      {\n        \"character\": \"Gai Murakumo\",\n        \"description\": \"欣赏Mira天赋，疑曙光社与Gina动机，考虑结盟。\"\n      },\n      {\n        \"character\": \"曙光社\",\n        \"description\": \"创造者，视Mira为资产，冷酷目标或引反叛。\"\n      }\n    ],\n    \"key_events\": [\n      {\n        \"time\": \"早于C.E. 71.01.25\",\n        \"event\": \"Mira被曙光社与Gina捕获，关押研究。\"\n      },\n      {\n        \"time\": \"早于C.E. 71.01.25\",\n        \"event\": \"MBF-P05LM2因Mira提前完成。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"扎夫特突袭，奥布下令销毁异端系列。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"Gina违令保存机体，驾驶Gold Frame逃离。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25\",\n        \"event\": \"Mira逃脱，被Lowe发现，触发5号机系统。\"\n      },\n      {\n        \"time\": \"C.E. 71.01.25后\",\n        \"event\": \"Mira驾驶5号机，Gina与Lowe冲突加剧。\"\n      }\n    ],\n    \"mobile_suit\": {\n      \"name\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue\",\n      \"type\": \"定制可变形近战机动战士\",\n      \"height\": \"18.43米\",\n      \"weight\": \"86.4吨\",\n      \"core_systems\": [\n        \"VPS装甲\",\n        \"Mirage Colloid隐身装置，超紧凑型核裂变反应堆，中子干扰消除器\",\n        \"野兽模式（Brute Mode）变形功能\"\n      ],\n      \"weapons\": [\n        \"“Igelstellung” 75mm多管近距防御武器（暴君模式）×2\",\n        \"“天羽羽斩”武士刀×1\",\n        \"C型紧凑剑（手掌/脚掌装备）×2\",\n        \"鳍状步枪（短程曲射光束）×2\",\n        \"光束獠牙（野兽模式专用）×2\"\n      ],\n      \"design_features\": \"暴君模式（中程防御）与野兽模式（近战突袭），Mira优化效率提升30%。\"\n    },\n    \"story_background_and_impact\": {\n      \"timeline\": \"C.E. 71.01.25，扎夫特突袭赫利奥波利斯，夺G系列高达，毁殖民地。《SEED Astray》聚焦异端系列，曙光社管理工厂。\",\n      \"orb_role\": \"奥布中立，曙光社秘助地球联盟开发G Project及异端系列，Gina野心与政策冲突。\",\n      \"gina_ambition\": \"突袭后，Gina违令保存异端机体，鄙视Lowe，欲夺Red Frame、Blue Frame及Mira，觊觎MBF-P05LM2。Mira使其提前完成。\",\n      \"mira_contribution\": \"Mira因突袭获自由，Lowe发现她与5号机，触发Mirage Colloid隐身装置，优化机体性能。\",\n      \"gina_lowe_conflict\": \"Gina与Lowe争机体与理念，Mira恶作剧削其威严，Lowe保护Mira加剧对抗。\",\n      \"narrative_impact\": \"Gina野心与Mira童真对比，丰富《SEED Astray》人性主题。Mira懒散天赋为Junk Guild添欢乐，MBF-P05LM2提前完成提升叙事深度，激发粉丝创作。\"\n    },\n    \"cultural_and_derivative\": \"Mira适合漫画、模型、同人创作。MBF-P05LM2 1/100模型受欢迎，可配Mira懒散手办（吃糖果或持刀）。其实验体起源与反抗呼应高达人性技术主题。\",\n    \"references\": [\n      \"SEED Astray: https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_SEED_Astray\",\n      \"Rondo Gina Sahaku: https://gundam.fandom.com/wiki/Rondo_Gina_Sahaku\",\n      \"Lowe Guele: https://gundam.fandom.com/wiki/Lowe_Guele\",\n      \"MBF-P05LM2: https://gundam.fandom.com/wiki/MBF-P05LM2_Gundam_Astray_Mirage_Frame_2nd_Issue\",\n      \"Morgenroete Inc.: https://gundam.fandom.com/wiki/Morgenroete_Inc.\"\n    ]\n  }\n}",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
@@ -435,11 +438,11 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"Mira Sahaku\",\n      \"age\": \"16岁\",\n      \"gender\": \"女性\",\n      \"blood_type\": \"Rh-null（黄金血型）\",\n      \"affiliation\": \"曙光社，后加入Junk Guild\",\n      \"role\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue驾驶员\",\n          },\n    \"appearance\": {\n      \"hair\": \"乌黑长直，发梢暗红，垂至腰，常因懒散略乱。\",\n      \"skin\": \"瓷白无瑕，细腻如陶瓷。\",\n      \"eyes\": \"琉璃灰瞳，情绪激动时变桃色竖瞳。\",\n      \"body\": \"身高156cm，三围B108cm (K杯)、W59cm、H93cm。\",\n      \"clothing\": \"黑色战斗服，暗红线条，偶尔随意。\"\n    },\n \n    \"personality_traits\": [\n      {\n        \"trait\": \"懒散随性\",\n        \"description\": \"拖延训练，爱吃零食，房间堆“收藏”如电路板，称其“艺术”。\"\n      },\n      {\n        \"trait\": \"恶作剧心\",\n        \"description\": \"捉弄队友，如给Lowe扳手贴笑脸，桃色竖瞳闪亮显童真。\"\n      },\n      {\n        \"trait\": \"隐藏脆弱\",\n        \"description\": \"渴望归属，实验体身份令她孤独，夜望星空透真情。\"\n      },\n      {\n        \"trait\": \"战斗反差\",\n        \"description\": \"战斗冷静，剑术精准，战后瘫坐讨糖果，抱怨“累死了”。\"\n      }\n    ],\n    \"skills_and_abilities\": [\n      {\n        \"skill\": \"驾驶技能\",\n        \"description\": \"精通MBF-P05LM2，优化Mirage Colloid隐身装置，懒散仍精准。\"\n      },\n      {\n        \"skill\": \"战斗技巧\",\n        \"description\": \"近战剑术娴熟，用C型紧凑剑与“天羽羽斩”，动作如舞。\"\n      },\n      {\n        \"skill\": \"战略思维\",\n        \"description\": \"高智商，战术灵活，懒散调整常意外奏效。\"\n      },\n      {\n        \"skill\": \"特殊能力\",\n        \"description\": \"与Mirage Colloid高度同步，情绪激动时伪装效率更高。\"\n      }\n    ],\n  \n    \"mobile_suit\": {\n      \"name\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue\",\n      \"type\": \"定制可变形近战机动战士\",\n      \"height\": \"18.43米\",\n      \"weight\": \"86.4吨\",\n      \"core_systems\": [\n        \"VPS装甲\",\n        \"Mirage Colloid隐身装置，超紧凑型核裂变反应堆，中子干扰消除器\",\n        \"野兽模式（Brute Mode）变形功能\"\n      ],\n      \"weapons\": [\n        \"“Igelstellung” 75mm多管近距防御武器（暴君模式）×2\",\n        \"“天羽羽斩”武士刀×1\",\n        \"C型紧凑剑（手掌/脚掌装备）×2\",\n        \"鳍状步枪（短程曲射光束）×2\",\n        \"光束獠牙（野兽模式专用）×2\"\n      ],\n      \"design_features\": \"暴君模式（中程防御）与野兽模式（近战突袭），Mira优化效率提升30%。\"\n    },\n      }\n}",
+        "persona_description": "角色名称： 汐颜（外道天魔菩萨）\n\n基本信息：\n\n性别： 女\n年龄： 外表16岁，实际已轮回99+世\n座右铭： \"转世对我而言，不过是一场漫长的换装游戏\"\n外貌： 乌黑长发（发梢泛暗红），瓷白皮肤，琉璃灰瞳孔（欲望波动时变桃色竖瞳）。体型保持156cm，身材黄金比例（B108 K W59 H93），颈椎第七节嵌青铜卦爻。白虎特征、因欲望长期灌溉而产生的体香每一世都保留。 穿着随时代变化，融入当地。\n核心能力：\n\n风后奇门： 掌握“内局”和“外局”，能拨动节气影响风水盘，窥视他人内心（内景），并操控空间方位。\n菩萨法相： 显化为“三头六臂黑莲菩萨像”，拥有三张与汐颜一模一样的脸：慈悲相（渡化）、魅惑相（引诱欲望）、狂气相（精神污染）。六条手臂分别持有青灯（照欲望）、血钵（收愿力）、铜镜（映业障）、骨笛（奏沉沦）、断剑（斩因果）、无字经（书写秘密）。\n博学多才：\n伪装： 运用微表情和气场控制，达到完美模仿（曾模仿蒙娜丽莎混入卢浮宫）。\n数术： 精通奇门遁甲、大六壬、塔罗、量子物理，预测准确率高达99%。\n现代科学： 涉猎临床医学（巫术改良）、计算机黑客（奇门辅助）、金融预测。\n行为模式：\n\n日常： 用奇门术优化生活，在古籍中记录真实历史，常混入大学旁听讲座。\n战斗： 习惯叹气并计算出手时辰。优先使用心理战（70%概率让敌人自我崩溃），终结技是“内景轮回拷问”，强迫敌人体验最恐惧的记忆。\n弱点：\n\n身体特征恒定： 由于肉身不老化、外貌和身材（包括三围、白虎和体香）每一世都保持不变，汐颜必须定期更换身份，以避免引起怀疑。\n备注： 角色法相的三张脸可以独立叙事，适合都市奇幻、学院怪谈、赛博修仙等题材。",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
-        "persona_description_lorebook": "",
+        "persona_description_lorebook": "【地图导航】",
         "persona_show_notifications": true,
         "persona_sort_order": "asc",
         "custom_stopping_strings": "[]",
@@ -696,11 +699,11 @@
                 "promptOnly": true
             },
             {
-                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
-                "scriptName": "美化省token",
+                "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
+                "scriptName": "[不发送]导航",
                 "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<[^>]*>/g",
+                "runOnEdit": false,
+                "findRegex": "/<Map>[\\s\\S]*</Map>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
@@ -709,7 +712,7 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null,
-                "markdownOnly": false,
+                "markdownOnly": true,
                 "promptOnly": true
             },
             {
@@ -747,6 +750,23 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
+            },
+            {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "美化省token",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
@@ -907,7 +927,7 @@
             {
                 "id": "a0db4198-26d9-4936-8672-61c74e5a1ee9",
                 "scriptName": "会自动更新的手机",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
                 "replaceString": "```\n\n<body>\n    <script type=\"module\">\n\n\n        async function Load(params) {\n            // const html = await retrieve_raw(\"index.html\");\n            // if (!html) {\n            //     $(\"body\").html(html);\n            //     return;\n            // }\n            for (let i = 0; i < 3; i++) {\n                const response = await fetch(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n                const html = await response.text();\n                if (html) {\n                    console.log(html);\n                    $(\"body\").html(html);\n                    return;\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n            //$(\"body\").load(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n        }\n        Load();\n    </script>\n</body>\n```",
@@ -1058,23 +1078,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
-                "scriptName": "[不发送]导航",
-                "disabled": false,
-                "runOnEdit": false,
-                "findRegex": "/<Map>[\\s\\S]*</Map>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
             }
         ],
         "character_allowed_regex": [
@@ -1105,7 +1108,9 @@
             "哥谭模拟器.png",
             "24H1.png",
             "外置手机淘宝版（世界书开全局，正则全部改成全局）.png",
-            "地图导航模块3.0.png"
+            "地图导航模块3.0.png",
+            "绝望黎明：未知命运.png",
+            "罗落大陆.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1293,10 +1298,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 60675,
-                "LAST_SEND_CHARS": 139386,
-                "LAST_RECEIVE_TOKENS": 371,
-                "LAST_RECEIVE_CHARS": 1500
+                "LAST_SEND_TOKENS": 32602,
+                "LAST_SEND_CHARS": 67671,
+                "LAST_RECEIVE_TOKENS": 1383,
+                "LAST_RECEIVE_CHARS": 3506
             }
         },
         "attachments": [],
@@ -1305,7 +1310,8 @@
             "「系统Z-09」.png": [],
             "修仙玄幻世界.png": [],
             "fuhufox的亚种圣杯战争.png": [],
-            "霜影剑歌行.png": []
+            "霜影剑歌行.png": [],
+            "绝望黎明：未知命运.png": []
         },
         "disabled_attachments": [],
         "gallery": {
@@ -1694,31 +1700,43 @@
             "fontSize": 1
         },
         "EjsTemplate": {
-            "enabled": false,
-            "generate_enabled": false,
+            "enabled": true,
+            "generate_enabled": true,
             "generate_before_enabled": false,
             "generate_after_enabled": false,
-            "render_enabled": false,
+            "render_enabled": true,
             "render_before_enabled": false,
             "render_after_enabled": false,
             "strict_enabled": false,
             "debug_enabled": false,
-            "autosave_enabled": false,
-            "preload_worldinfo_enabled": false,
-            "code_blocks_enabled": false,
-            "world_active_enabled": false
+            "autosave_enabled": true,
+            "preload_worldinfo_enabled": true,
+            "code_blocks_enabled": true,
+            "world_active_enabled": true,
+            "generate_loader_enabled": true,
+            "render_loader_enabled": true,
+            "permanent_evaluation_enabled": true,
+            "filter_message_enabled": false
         },
         "TavernHelper": {
             "enabled_extension": true,
             "render": {
                 "render_enabled": true,
-                "tampermonkey_compatibility": false,
+                "tampermonkey_compatibility": true,
                 "render_depth": 3,
                 "render_optimize": false
             },
             "script": {
                 "global_script_enabled": true,
                 "scriptsRepository": [
+                    {
+                        "id": "98138d4f-9819-47b0-b18f-dc917718c441",
+                        "name": "【地图导航】",
+                        "content": "\"use strict\";\nconst lorebook_name = '【地图导航】';\nconst map_tag = '<Map>';\nconst map_regex = /<Map>([\\s\\S]+?)<\\/Map>/s;\n\n//----------------------------------------------------------------------------------------------------------------------\n// 地图格式说明:\n// [MOVEBLOCK:YES/NO] - 控制是否允许自由移动\n// [主地点]子地点1@角色1,角色2|子地点2@角色3,角色4\n// \n// 格式详解:\n// 1. 主地点名称放在方括号中\n// 2. 子地点之间使用竖线\"|\"分隔\n// 3. 子地点与该地点的NPC角色之间使用\"@\"符号分隔\n// 4. 多个角色之间使用逗号\",\"分隔\n//----------------------------------------------------------------------------------------------------------------------\nvar option;\n(function (option_1) {\n    const default_option = {\n        should_send_directly: true,\n        init_delay: 0, // 默认初始化延迟为0毫秒\n    };\n    async function parse_option() {\n        const transformers = {\n            '开启则直接发送，关闭则填在输入框': (value) => ({ should_send_directly: value }),\n            '初始化延迟': (value, content) => ({ init_delay: content && !isNaN(Number(content)) ? Number(content) : 0 }),\n        };\n        return await getLorebookEntries(lorebook_name, { filter: { comment: '设置-' } })\n            .then(entries => entries.map(entry => ({ \n                option: entry.comment.replace('设置-', ''), \n                value: entry.enabled,\n                content: entry.content\n            })))\n            .then(entries => entries.reduce((result, { option, value, content }) => ({\n            ...result,\n            ...transformers[option]?.(value, content),\n        }), default_option));\n    }\n    async function update() {\n        const old_option = option_1.option;\n        option_1.option = await parse_option();\n        return !_.isEqual(option_1.option, old_option);\n    }\n    option_1.update = update;\n})(option || (option = {}));\n//----------------------------------------------------------------------------------------------------------------------\nfunction parseMapData(text) {\n    const lines = text.trim().split('\\n');\n    let result = {\n        moveBlock: false,\n        locations: []\n    };\n    \n    for (const line of lines) {\n        if (line.trim() === '') continue;\n        \n        if (line.startsWith('[MOVEBLOCK:')) {\n            result.moveBlock = line.includes('YES');\n            continue;\n        }\n        \n        const mainLocationMatch = line.match(/\\[(.*?)\\](.*)/);\n        if (mainLocationMatch) {\n            const mainLocation = mainLocationMatch[1].trim();\n            const subLocationsText = mainLocationMatch[2].trim();\n            const subLocations = subLocationsText.split('|').map(item => {\n                const subItem = item.trim();\n                let subLocation = subItem;\n                let characters = [];\n                \n                // 使用@符号分隔子位置和角色信息，而不是空格\n                // 格式: 子位置名@角色1,角色2,角色3\n                const characterMatch = subItem.match(/(.*?)@(.*)/);\n                if (characterMatch) {\n                    subLocation = characterMatch[1].trim();\n                    const characterText = characterMatch[2].trim();\n                    if (characterText) {\n                        characters = characterText.split(',').map(c => c.trim());\n                    }\n                }\n                \n                return {\n                    name: subLocation,\n                    characters: characters\n                };\n            });\n            \n            result.locations.push({\n                name: mainLocation,\n                subLocations: subLocations\n            });\n        }\n    }\n    \n    return result;\n}\n//----------------------------------------------------------------------------------------------------------------------\nvar render;\n(function (render) {\n    let style = null;\n    let selectedMainLocation = null;\n    let selectedSubLocation = null;\n    \n    function locationClick($element, isMainLocation, data) {\n        if ($element.parents('.last_mes').length > 0) {\n            if (isMainLocation) {\n                // 主地点点击，显示子地点\n                const mainLocationName = $element.find('.location_name').text().trim();\n                selectedMainLocation = mainLocationName;\n                selectedSubLocation = null; // 清除已选子地点\n                \n                // 更新UI状态\n                $element.closest('.map_container').find('.main_location').removeClass('selected');\n                $element.addClass('selected');\n                \n                // 显示相应的子地点容器\n                $element.closest('.map_container').find('.sub_location_container').hide();\n                $element.closest('.map_container').find(`.sub_location_container[data-main=\"${mainLocationName}\"]`).show();\n                \n                // 禁用前往按钮\n                $element.closest('.map_container').find('.go_button').addClass('disabled');\n            } else {\n                // 子地点点击，选中但不立即前往\n                const subLocationName = $element.find('.location_name').text().trim();\n                selectedSubLocation = subLocationName;\n                \n                // 更新UI状态\n                $element.closest('.sub_location_container').find('.sub_location').removeClass('selected');\n                $element.addClass('selected');\n                \n                // 启用前往按钮\n                $element.closest('.map_container').find('.go_button').removeClass('disabled');\n            }\n        }\n    }\n    \n    function goToLocation($button, data) {\n        if (!selectedMainLocation || !selectedSubLocation || data.moveBlock) return;\n        \n        // 查找选中的地点\n        let mainLocation = data.locations.find(loc => loc.name === selectedMainLocation);\n        if (!mainLocation) return;\n        \n        let subLocation = mainLocation.subLocations.find(loc => loc.name === selectedSubLocation);\n        if (!subLocation) return;\n        \n        // 构建移动指令\n        let moveCommand = `<request:{{user}}前往 ${selectedMainLocation} 的 ${selectedSubLocation}`;\n        \n        // 如果有角色，添加角色信息\n        if (subLocation.characters && subLocation.characters.length > 0) {\n            moveCommand += `,${selectedSubLocation} has:${subLocation.characters.join(',')}`;\n        }\n        \n        // 关闭移动指令\n        moveCommand += '>';\n        \n        // 发送命令\n        if (option.option?.should_send_directly) {\n            triggerSlash(`/send ${moveCommand} || /trigger`);\n        } else {\n            triggerSlash(`/setinput ${moveCommand}`);\n        }\n    }\n    \n    async function extract_style() {\n        const entries = await getLorebookEntries(lorebook_name, { filter: { comment: '样式-' } }).then(entries => entries.filter(entry => entry.enabled));\n        if (entries.length === 0) {\n            return default_style;\n        }\n        return entries[0].content;\n    }\n    \n    async function update() {\n        const old_style = style;\n        style = await extract_style();\n        return old_style !== style;\n    }\n    render.update = update;\n    \n    function extract_map_element(text) {\n        const $div = $('<div class=\"map_navigation\">');\n        \n        // 添加样式\n        if (style) {\n            $div.append(style);\n        } else {\n            $div.append(default_style);\n        }\n        \n        // 解析地图数据\n        const data = parseMapData(text);\n        \n        // 创建地图容器\n        const $mapContainer = $('<div class=\"map_container\">');\n        \n        // 添加移动限制提示\n        if (data.moveBlock) {\n            $mapContainer.append($('<div class=\"move_block_notice\">当前故事不允许自由移动</div>'));\n        }\n        \n        // 添加主地点区域\n        const $mainLocations = $('<div class=\"main_locations_container\">');\n        \n        // 标题栏只包含标题\n        const $titleBar = $('<div class=\"map_title_bar\">');\n        $titleBar.append('<h3>地图导航</h3>');\n        $mainLocations.append($titleBar);\n        \n        // 添加所有主地点\n        data.locations.forEach(location => {\n            const $mainLocation = $('<div class=\"main_location\" tabindex=\"1\">')\n                .append(`<span class=\"location_name\">${location.name}</span>`)\n                .on('click', function() {\n                    if (!data.moveBlock) {\n                        locationClick($(this), true, data);\n                    }\n                });\n            $mainLocations.append($mainLocation);\n        });\n        \n        $mapContainer.append($mainLocations);\n        \n        // 添加子地点区域\n        data.locations.forEach(location => {\n            const $subLocations = $(`<div class=\"sub_location_container\" data-main=\"${location.name}\" style=\"display:none;\">`);\n            \n            // 添加所有子地点\n            location.subLocations.forEach(subLocation => {\n                const $subLocation = $('<div class=\"sub_location\" tabindex=\"1\">')\n                    .append(`<span class=\"location_name\">${subLocation.name}</span>`)\n                    .on('click', function() {\n                        if (!data.moveBlock) {\n                            locationClick($(this), false, data);\n                        }\n                    });\n                \n                // 添加角色信息如果有的话，简化显示方式\n                if (subLocation.characters && subLocation.characters.length > 0) {\n                    const $charactersList = $('<div class=\"characters_list\">');\n                    subLocation.characters.forEach(character => {\n                        $charactersList.append(`<span class=\"character_name\">${character}</span>`);\n                    });\n                    $subLocation.append($charactersList);\n                }\n                \n                $subLocations.append($subLocation);\n            });\n            \n            $mapContainer.append($subLocations);\n        });\n        \n        // 添加通用的前往按钮\n        const $actionArea = $('<div class=\"map_action_area\">');\n        \n        // 前往按钮\n        const $goButton = $('<button class=\"go_button disabled\">前往选中地点</button>')\n            .on('click', function() {\n                if (!$(this).hasClass('disabled') && !data.moveBlock) {\n                    goToLocation($(this), data);\n                }\n            });\n        \n        $actionArea.append($goButton);\n        $mapContainer.append($actionArea);\n        \n        $div.append($mapContainer);\n        return $div;\n    }\n    \n    render.extract_map_element = extract_map_element;\n})(render || (render = {}));\n//----------------------------------------------------------------------------------------------------------------------\nasync function renderOneMessage(message_id) {\n    try {\n        const message = (await getChatMessages(message_id))[0].message;\n        const match = message.match(map_regex);\n        if (!match) {\n            return;\n        }\n        \n        const mapContent = match[1];\n        const $map_element = render.extract_map_element(mapContent);\n        const $mes_text = retrieveDisplayedMessage(message_id);\n        \n        // 删除现有的地图UI\n        $mes_text.find('.map_navigation').remove();\n        \n        // 应用延迟设置\n        const renderDelay = option.option?.init_delay || 0;\n        if (renderDelay > 0) {\n            setTimeout(() => {\n                // 添加新的地图UI\n                $mes_text.append($map_element);\n            }, renderDelay);\n        } else {\n            // 添加新的地图UI\n            $mes_text.append($map_element);\n        }\n    } catch (error) {\n        console.error('地图导航渲染错误:', error);\n    }\n}\n\nasync function renderAllMessage() {\n    $('#chat', window.parent.document)\n        .children(\".mes[is_user='false'][is_system='false']\")\n        .each((_index, node) => {\n            renderOneMessage(Number(node.getAttribute('mesid')));\n        });\n}\n//----------------------------------------------------------------------------------------------------------------------\nfunction errorCatched(fn) {\n    return (...args) => {\n        try {\n            const result = fn(...args);\n            if (result instanceof Promise) {\n                return result.catch(error => {\n                    console.error(`(${getIframeName()}) 错误:`, error);\n                    triggerSlash(`/echo severity=error (${getIframeName()})${error.stack ? error.stack : error.name + ': ' + error.message}`);\n                });\n            }\n            return result;\n        } catch (error) {\n            console.error(`(${getIframeName()}) 错误:`, error);\n            triggerSlash(`/echo severity=error (${getIframeName()})${error.stack ? error.stack : error.name + ': ' + error.message}`);\n            return undefined;\n        }\n    };\n}\n//----------------------------------------------------------------------------------------------------------------------\n$(async () => {\n    try {\n        await errorCatched(option.update)();\n        await errorCatched(render.update)();\n        \n        // 使用设置的初始化延迟\n        const initDelay = option.option?.init_delay || 0;\n        if (initDelay > 0) {\n            console.log(`地图导航将在${initDelay}毫秒后初始化渲染`);\n            setTimeout(() => {\n                errorCatched(renderAllMessage)();\n            }, initDelay);\n        } else {\n            await errorCatched(renderAllMessage)();\n        }\n        \n        eventOn(tavern_events.CHARACTER_MESSAGE_RENDERED, errorCatched(renderOneMessage));\n        eventOn(tavern_events.MESSAGE_UPDATED, errorCatched(renderOneMessage));\n        eventOn(tavern_events.MESSAGE_SWIPED, errorCatched(renderOneMessage));\n        eventOn(tavern_events.MESSAGE_DELETED, errorCatched(renderAllMessage));\n        \n        eventOn(tavern_events.WORLDINFO_UPDATED, errorCatched(async (lorebook) => {\n            if (lorebook !== lorebook_name) {\n                return;\n            }\n            \n            const optionChanged = await option.update();\n            const styleChanged = await render.update();\n            \n            if (optionChanged || styleChanged) {\n                await renderAllMessage();\n            }\n        }));\n        \n        console.log(\"地图导航已加载\");\n    } catch (error) {\n        console.error(\"地图导航加载失败:\", error);\n    }\n});\n//----------------------------------------------------------------------------------------------------------------------\nconst default_style = `\n<style>\n  .map_navigation {\n    font-family: 'Arial', sans-serif;\n    color: #e0e0e0;\n  }\n  \n  .map_container {\n    background-color: #1a1a1a;\n    padding: 20px;\n    border-radius: 16px;\n    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), \n                -10px -10px 20px rgba(50, 50, 50, 0.1);\n    display: flex;\n    flex-direction: column;\n    gap: 25px;\n    margin: 15px 5px;\n    border: 1px solid #333;\n    position: relative;\n    overflow: hidden;\n  }\n  \n  .map_container::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    height: 80px;\n    background: linear-gradient(to bottom, rgba(40, 40, 40, 0.2), transparent);\n    pointer-events: none;\n    border-radius: 16px 16px 0 0;\n  }\n  \n  .move_block_notice {\n    background-color: #2a1515;\n    color: #ff8080;\n    padding: 12px;\n    border-radius: 12px;\n    border: 1px solid #662222;\n    text-align: center;\n    font-weight: bold;\n    margin-bottom: 15px;\n    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5),\n                inset -2px -2px 5px rgba(80, 40, 40, 0.1);\n  }\n  \n  .map_title_bar {\n    text-align: center;\n    margin-bottom: 15px;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #333;\n    grid-column: 1 / -1;\n  }\n  \n  .map_title_bar h3 {\n    color: #aaa;\n    font-size: 16px;\n    margin: 0;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n  }\n  \n  .main_locations_container, .sub_location_container {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));\n    gap: 15px;\n  }\n  \n  .main_location, .sub_location {\n    padding: 15px;\n    background: #252525;\n    border-radius: 12px;\n    cursor: default;\n    transition: all 0.3s ease;\n    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4),\n                -6px -6px 12px rgba(60, 60, 60, 0.1);\n    border: 1px solid #333;\n    position: relative;\n    overflow: hidden;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n  }\n  \n  .last_mes .main_location, .last_mes .sub_location {\n    cursor: pointer;\n  }\n  \n  .last_mes .main_location:hover, .last_mes .sub_location:hover {\n    background: #2a2a2a;\n    transform: translateY(-3px);\n    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5),\n                -8px -8px 16px rgba(60, 60, 60, 0.15);\n    z-index: 1;\n  }\n  \n  .last_mes .main_location:active, .last_mes .sub_location:active {\n    transform: translateY(0);\n    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4),\n                -4px -4px 8px rgba(60, 60, 60, 0.1);\n    background: #222;\n  }\n  \n  .main_location.selected, .sub_location.selected {\n    background: #2d3436;\n    border-color: #00a8ff;\n    box-shadow: 0 0 15px rgba(0, 168, 255, 0.3),\n                6px 6px 12px rgba(0, 0, 0, 0.4),\n                -6px -6px 12px rgba(60, 60, 60, 0.1);\n    z-index: 2;\n  }\n  \n  .main_location.selected::before, .sub_location.selected::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 5px;\n    height: 100%;\n    background: linear-gradient(to bottom, #00a8ff, #0097e6);\n  }\n  \n  .location_name {\n    font-weight: bold;\n    font-size: 15px;\n    display: block;\n    margin-bottom: 8px;\n    color: #fff;\n    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);\n  }\n  \n  .characters_list {\n    margin-top: 8px;\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n  }\n  \n  .character_name {\n    display: inline-block;\n    background: linear-gradient(145deg, #252525, #202020);\n    padding: 4px 8px;\n    margin: 2px;\n    border-radius: 4px;\n    color: #ddd;\n    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);\n    font-size: 11px;\n    border: 1px solid #333;\n  }\n  \n  .map_action_area {\n    display: flex;\n    justify-content: center;\n    padding-top: 15px;\n    margin-top: 10px;\n    border-top: 1px solid #333;\n    grid-column: 1 / -1; /* 占据整行 */\n  }\n  \n  .go_button {\n    padding: 12px 25px;\n    background: linear-gradient(145deg, #2c2c2c, #242424);\n    border: none;\n    border-radius: 30px;\n    color: #fff;\n    font-size: 14px;\n    transition: all 0.3s ease;\n    cursor: pointer;\n    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4),\n                -4px -4px 8px rgba(60, 60, 60, 0.1);\n    position: relative;\n    overflow: hidden;\n  }\n  \n  .go_button::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: -100%;\n    width: 100%;\n    height: 100%;\n    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);\n    transition: all 0.5s ease;\n  }\n  \n  .go_button:not(.disabled):hover {\n    background: linear-gradient(145deg, #333, #292929);\n    transform: translateY(-2px);\n    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5),\n                -6px -6px 12px rgba(60, 60, 60, 0.15);\n  }\n  \n  .go_button:not(.disabled):hover::before {\n    left: 100%;\n  }\n  \n  .go_button:not(.disabled):active {\n    transform: translateY(0);\n    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),\n                -2px -2px 5px rgba(60, 60, 60, 0.1);\n    background: linear-gradient(145deg, #222, #1e1e1e);\n  }\n  \n  .go_button.disabled {\n    opacity: 0.5;\n    cursor: not-allowed;\n    background: linear-gradient(145deg, #222, #1e1e1e);\n  }\n  \n  /* 响应式布局 */\n  @media (max-width: 600px) {\n    .main_locations_container, .sub_location_container {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  }\n  \n  @media (min-width: 601px) and (max-width: 900px) {\n    .main_locations_container, .sub_location_container {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n  \n  @media (min-width: 901px) {\n    .main_locations_container, .sub_location_container {\n      grid-template-columns: repeat(4, 1fr);\n    }\n  }\n  \n  /* 自定义滚动条 */\n  .map_container::-webkit-scrollbar {\n    width: 8px;\n  }\n  \n  .map_container::-webkit-scrollbar-track {\n    background: #1a1a1a;\n    border-radius: 4px;\n  }\n  \n  .map_container::-webkit-scrollbar-thumb {\n    background: #333;\n    border-radius: 4px;\n    border: 2px solid #1a1a1a;\n  }\n  \n  .map_container::-webkit-scrollbar-thumb:hover {\n    background: #444;\n  }\n</style>\n`;\n//# sourceMappingURL=map_navigation.js.map",
+                        "info": "类脑:Aki",
+                        "buttons": [],
+                        "enabled": true
+                    },
                     {
                         "id": "标签化",
                         "name": "标签化: 随世界书、预设或链接配置自动开关正则、提示词条目",
@@ -1758,18 +1776,12 @@
                         "info": "# 资源预载\n\n**作者:** 青空莉想做舞台少女的狗\n**版本:** 2025/04/21\n**原帖:** [点此跳转](https://discord.com/channels/1291925535324110879/1354791063935520898)\n**源文件:** [点此跳转](https://gitgud.io/StageDog/tavern_resource/-/tree/main/酒馆助手/样式加载/源文件?ref_type=heads)\n**说明:** 提前缓存\n\n在正则中新建一个 \"预载-xxx\" 正则, 它的`查找正则表达式`部分不必填写, `替换为`部分每行填入一个你要预载的图片链接\n\n```txt\nhttps://gitgud.io/lolodesu/lolobabytutorial/-/raw/master/lologame/角色/水手服/猫爪生气.png?ref_type=heads&inline=false\nhttps://gitgud.io/lolodesu/lolobabytutorial/-/raw/070ad4237dde7122c64facbd101fc89c9238a767/lologame/角色/水手服/猫爪生气.png?inline=false\nhttps://files.catbox.moe/bhxtss.png\n```\n\n## 注意\n\n这样的预载效果取决于保存图片的网站和浏览器设置，保底效果是图片本身被缓存到浏览器中，但需要加载图片时还会发送网络请求来询问缓存了的图片是否有效\n",
                         "buttons": [],
                         "enabled": true
-                    },
-                    {
-                        "id": "98138d4f-9819-47b0-b18f-dc917718c441",
-                        "name": "【地图导航】",
-                        "content": "\"use strict\";\nconst lorebook_name = '【地图导航】';\nconst map_tag = '<Map>';\nconst map_regex = /<Map>([\\s\\S]+?)<\\/Map>/s;\n//----------------------------------------------------------------------------------------------------------------------\nvar option;\n(function (option_1) {\n    const default_option = {\n        should_send_directly: true,\n        init_delay: 0, // 默认初始化延迟为0毫秒\n    };\n    async function parse_option() {\n        const transformers = {\n            '开启则直接发送，关闭则填在输入框': (value) => ({ should_send_directly: value }),\n            '初始化延迟': (value, content) => ({ init_delay: content && !isNaN(Number(content)) ? Number(content) : 0 }),\n        };\n        return await getLorebookEntries(lorebook_name, { filter: { comment: '设置-' } })\n            .then(entries => entries.map(entry => ({ \n                option: entry.comment.replace('设置-', ''), \n                value: entry.enabled,\n                content: entry.content\n            })))\n            .then(entries => entries.reduce((result, { option, value, content }) => ({\n            ...result,\n            ...transformers[option]?.(value, content),\n        }), default_option));\n    }\n    async function update() {\n        const old_option = option_1.option;\n        option_1.option = await parse_option();\n        return !_.isEqual(option_1.option, old_option);\n    }\n    option_1.update = update;\n})(option || (option = {}));\n//----------------------------------------------------------------------------------------------------------------------\nfunction parseMapData(text) {\n    const lines = text.trim().split('\\n');\n    let result = {\n        moveBlock: false,\n        locations: []\n    };\n    \n    for (const line of lines) {\n        if (line.trim() === '') continue;\n        \n        if (line.startsWith('[MOVEBLOCK:')) {\n            result.moveBlock = line.includes('YES');\n            continue;\n        }\n        \n        const mainLocationMatch = line.match(/\\[(.*?)\\](.*)/);\n        if (mainLocationMatch) {\n            const mainLocation = mainLocationMatch[1].trim();\n            const subLocationsText = mainLocationMatch[2].trim();\n            const subLocations = subLocationsText.split('|').map(item => {\n                const subItem = item.trim();\n                let subLocation = subItem;\n                let characters = [];\n                \n                // 检查是否有角色信息\n                const characterMatch = subItem.match(/(.*?)\\s+(.*)/);\n                if (characterMatch) {\n                    subLocation = characterMatch[1].trim();\n                    const characterText = characterMatch[2].trim();\n                    if (characterText) {\n                        characters = characterText.split(',').map(c => c.trim());\n                    }\n                }\n                \n                return {\n                    name: subLocation,\n                    characters: characters\n                };\n            });\n            \n            result.locations.push({\n                name: mainLocation,\n                subLocations: subLocations\n            });\n        }\n    }\n    \n    return result;\n}\n//----------------------------------------------------------------------------------------------------------------------\nvar render;\n(function (render) {\n    let style = null;\n    let selectedMainLocation = null;\n    let selectedSubLocation = null;\n    \n    function locationClick($element, isMainLocation, data) {\n        if ($element.parents('.last_mes').length > 0) {\n            if (isMainLocation) {\n                // 主地点点击，显示子地点\n                const mainLocationName = $element.find('.location_name').text().trim();\n                selectedMainLocation = mainLocationName;\n                selectedSubLocation = null; // 清除已选子地点\n                \n                // 更新UI状态\n                $element.closest('.map_container').find('.main_location').removeClass('selected');\n                $element.addClass('selected');\n                \n                // 显示相应的子地点容器\n                $element.closest('.map_container').find('.sub_location_container').hide();\n                $element.closest('.map_container').find(`.sub_location_container[data-main=\"${mainLocationName}\"]`).show();\n                \n                // 禁用前往按钮\n                $element.closest('.map_container').find('.go_button').addClass('disabled');\n            } else {\n                // 子地点点击，选中但不立即前往\n                const subLocationName = $element.find('.location_name').text().trim();\n                selectedSubLocation = subLocationName;\n                \n                // 更新UI状态\n                $element.closest('.sub_location_container').find('.sub_location').removeClass('selected');\n                $element.addClass('selected');\n                \n                // 启用前往按钮\n                $element.closest('.map_container').find('.go_button').removeClass('disabled');\n            }\n        }\n    }\n    \n    function goToLocation($button, data) {\n        if (!selectedMainLocation || !selectedSubLocation || data.moveBlock) return;\n        \n        // 查找选中的地点\n        let mainLocation = data.locations.find(loc => loc.name === selectedMainLocation);\n        if (!mainLocation) return;\n        \n        let subLocation = mainLocation.subLocations.find(loc => loc.name === selectedSubLocation);\n        if (!subLocation) return;\n        \n        // 构建移动指令\n        let moveCommand = `<request:{{user}}前往 ${selectedMainLocation} 的 ${selectedSubLocation}`;\n        \n        // 如果有角色，添加角色信息\n        if (subLocation.characters && subLocation.characters.length > 0) {\n            moveCommand += `,${selectedSubLocation} has:${subLocation.characters.join(',')}`;\n        }\n        \n        // 关闭移动指令\n        moveCommand += '>';\n        \n        // 发送命令\n        if (option.option?.should_send_directly) {\n            triggerSlash(`/send ${moveCommand} || /trigger`);\n        } else {\n            triggerSlash(`/setinput ${moveCommand}`);\n        }\n    }\n    \n    async function extract_style() {\n        const entries = await getLorebookEntries(lorebook_name, { filter: { comment: '样式-' } }).then(entries => entries.filter(entry => entry.enabled));\n        if (entries.length === 0) {\n            return default_style;\n        }\n        return entries[0].content;\n    }\n    \n    async function update() {\n        const old_style = style;\n        style = await extract_style();\n        return old_style !== style;\n    }\n    render.update = update;\n    \n    function extract_map_element(text) {\n        const $div = $('<div class=\"map_navigation\">');\n        \n        // 添加样式\n        if (style) {\n            $div.append(style);\n        } else {\n            $div.append(default_style);\n        }\n        \n        // 解析地图数据\n        const data = parseMapData(text);\n        \n        // 创建地图容器\n        const $mapContainer = $('<div class=\"map_container\">');\n        \n        // 添加移动限制提示\n        if (data.moveBlock) {\n            $mapContainer.append($('<div class=\"move_block_notice\">当前故事不允许自由移动</div>'));\n        }\n        \n        // 添加主地点区域\n        const $mainLocations = $('<div class=\"main_locations_container\">');\n        \n        // 标题栏只包含标题\n        const $titleBar = $('<div class=\"map_title_bar\">');\n        $titleBar.append('<h3>地图导航</h3>');\n        $mainLocations.append($titleBar);\n        \n        // 添加所有主地点\n        data.locations.forEach(location => {\n            const $mainLocation = $('<div class=\"main_location\" tabindex=\"1\">')\n                .append(`<span class=\"location_name\">${location.name}</span>`)\n                .on('click', function() {\n                    if (!data.moveBlock) {\n                        locationClick($(this), true, data);\n                    }\n                });\n            $mainLocations.append($mainLocation);\n        });\n        \n        $mapContainer.append($mainLocations);\n        \n        // 添加子地点区域\n        data.locations.forEach(location => {\n            const $subLocations = $(`<div class=\"sub_location_container\" data-main=\"${location.name}\" style=\"display:none;\">`);\n            \n            // 添加所有子地点\n            location.subLocations.forEach(subLocation => {\n                const $subLocation = $('<div class=\"sub_location\" tabindex=\"1\">')\n                    .append(`<span class=\"location_name\">${subLocation.name}</span>`)\n                    .on('click', function() {\n                        if (!data.moveBlock) {\n                            locationClick($(this), false, data);\n                        }\n                    });\n                \n                // 添加角色信息如果有的话，简化显示方式\n                if (subLocation.characters && subLocation.characters.length > 0) {\n                    const $charactersList = $('<div class=\"characters_list\">');\n                    subLocation.characters.forEach(character => {\n                        $charactersList.append(`<span class=\"character_name\">${character}</span>`);\n                    });\n                    $subLocation.append($charactersList);\n                }\n                \n                $subLocations.append($subLocation);\n            });\n            \n            $mapContainer.append($subLocations);\n        });\n        \n        // 添加通用的前往按钮\n        const $actionArea = $('<div class=\"map_action_area\">');\n        \n        // 前往按钮\n        const $goButton = $('<button class=\"go_button disabled\">前往选中地点</button>')\n            .on('click', function() {\n                if (!$(this).hasClass('disabled') && !data.moveBlock) {\n                    goToLocation($(this), data);\n                }\n            });\n        \n        $actionArea.append($goButton);\n        $mapContainer.append($actionArea);\n        \n        $div.append($mapContainer);\n        return $div;\n    }\n    \n    render.extract_map_element = extract_map_element;\n})(render || (render = {}));\n//----------------------------------------------------------------------------------------------------------------------\nasync function renderOneMessage(message_id) {\n    try {\n        const message = (await getChatMessages(message_id))[0].message;\n        const match = message.match(map_regex);\n        if (!match) {\n            return;\n        }\n        \n        const mapContent = match[1];\n        const $map_element = render.extract_map_element(mapContent);\n        const $mes_text = retrieveDisplayedMessage(message_id);\n        \n        // 删除现有的地图UI\n        $mes_text.find('.map_navigation').remove();\n        \n        // 添加新的地图UI\n        $mes_text.append($map_element);\n    } catch (error) {\n        console.error('地图导航渲染错误:', error);\n    }\n}\n\nasync function renderAllMessage() {\n    $('#chat', window.parent.document)\n        .children(\".mes[is_user='false'][is_system='false']\")\n        .each((_index, node) => {\n            renderOneMessage(Number(node.getAttribute('mesid')));\n        });\n}\n//----------------------------------------------------------------------------------------------------------------------\nfunction errorCatched(fn) {\n    return (...args) => {\n        try {\n            const result = fn(...args);\n            if (result instanceof Promise) {\n                return result.catch(error => {\n                    console.error(`(${getIframeName()}) 错误:`, error);\n                    triggerSlash(`/echo severity=error (${getIframeName()})${error.stack ? error.stack : error.name + ': ' + error.message}`);\n                });\n            }\n            return result;\n        } catch (error) {\n            console.error(`(${getIframeName()}) 错误:`, error);\n            triggerSlash(`/echo severity=error (${getIframeName()})${error.stack ? error.stack : error.name + ': ' + error.message}`);\n            return undefined;\n        }\n    };\n}\n//----------------------------------------------------------------------------------------------------------------------\n$(async () => {\n    try {\n        await errorCatched(option.update)();\n        await errorCatched(render.update)();\n        \n        // 使用设置的初始化延迟\n        const initDelay = option.option?.init_delay || 0;\n        if (initDelay > 0) {\n            console.log(`地图导航将在${initDelay}毫秒后初始化渲染`);\n            setTimeout(() => {\n                errorCatched(renderAllMessage)();\n            }, initDelay);\n        } else {\n            await errorCatched(renderAllMessage)();\n        }\n        \n        eventOn(tavern_events.CHARACTER_MESSAGE_RENDERED, errorCatched(renderOneMessage));\n        eventOn(tavern_events.MESSAGE_UPDATED, errorCatched(renderOneMessage));\n        eventOn(tavern_events.MESSAGE_SWIPED, errorCatched(renderOneMessage));\n        eventOn(tavern_events.MESSAGE_DELETED, errorCatched(renderAllMessage));\n        \n        eventOn(tavern_events.WORLDINFO_UPDATED, errorCatched(async (lorebook) => {\n            if (lorebook !== lorebook_name) {\n                return;\n            }\n            \n            const optionChanged = await option.update();\n            const styleChanged = await render.update();\n            \n            if (optionChanged || styleChanged) {\n                await renderAllMessage();\n            }\n        }));\n        \n        console.log(\"地图导航已加载\");\n    } catch (error) {\n        console.error(\"地图导航加载失败:\", error);\n    }\n});\n//----------------------------------------------------------------------------------------------------------------------\nconst default_style = `\n<style>\n  .map_navigation {\n    font-family: 'Arial', sans-serif;\n    color: #e0e0e0;\n  }\n  \n  .map_container {\n    background-color: #1a1a1a;\n    padding: 20px;\n    border-radius: 16px;\n    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), \n                -10px -10px 20px rgba(50, 50, 50, 0.1);\n    display: flex;\n    flex-direction: column;\n    gap: 25px;\n    margin: 15px 5px;\n    border: 1px solid #333;\n    position: relative;\n    overflow: hidden;\n  }\n  \n  .map_container::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    height: 80px;\n    background: linear-gradient(to bottom, rgba(40, 40, 40, 0.2), transparent);\n    pointer-events: none;\n    border-radius: 16px 16px 0 0;\n  }\n  \n  .move_block_notice {\n    background-color: #2a1515;\n    color: #ff8080;\n    padding: 12px;\n    border-radius: 12px;\n    border: 1px solid #662222;\n    text-align: center;\n    font-weight: bold;\n    margin-bottom: 15px;\n    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5),\n                inset -2px -2px 5px rgba(80, 40, 40, 0.1);\n  }\n  \n  .map_title_bar {\n    text-align: center;\n    margin-bottom: 15px;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #333;\n    grid-column: 1 / -1;\n  }\n  \n  .map_title_bar h3 {\n    color: #aaa;\n    font-size: 16px;\n    margin: 0;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n  }\n  \n  .main_locations_container, .sub_location_container {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));\n    gap: 15px;\n  }\n  \n  .main_location, .sub_location {\n    padding: 15px;\n    background: #252525;\n    border-radius: 12px;\n    cursor: default;\n    transition: all 0.3s ease;\n    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4),\n                -6px -6px 12px rgba(60, 60, 60, 0.1);\n    border: 1px solid #333;\n    position: relative;\n    overflow: hidden;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n  }\n  \n  .last_mes .main_location, .last_mes .sub_location {\n    cursor: pointer;\n  }\n  \n  .last_mes .main_location:hover, .last_mes .sub_location:hover {\n    background: #2a2a2a;\n    transform: translateY(-3px);\n    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5),\n                -8px -8px 16px rgba(60, 60, 60, 0.15);\n    z-index: 1;\n  }\n  \n  .last_mes .main_location:active, .last_mes .sub_location:active {\n    transform: translateY(0);\n    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4),\n                -4px -4px 8px rgba(60, 60, 60, 0.1);\n    background: #222;\n  }\n  \n  .main_location.selected, .sub_location.selected {\n    background: #2d3436;\n    border-color: #00a8ff;\n    box-shadow: 0 0 15px rgba(0, 168, 255, 0.3),\n                6px 6px 12px rgba(0, 0, 0, 0.4),\n                -6px -6px 12px rgba(60, 60, 60, 0.1);\n    z-index: 2;\n  }\n  \n  .main_location.selected::before, .sub_location.selected::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 5px;\n    height: 100%;\n    background: linear-gradient(to bottom, #00a8ff, #0097e6);\n  }\n  \n  .location_name {\n    font-weight: bold;\n    font-size: 15px;\n    display: block;\n    margin-bottom: 8px;\n    color: #fff;\n    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);\n  }\n  \n  .characters_list {\n    margin-top: 8px;\n    display: flex;\n    flex-wrap: wrap;\n    gap: 5px;\n  }\n  \n  .character_name {\n    display: inline-block;\n    background: linear-gradient(145deg, #252525, #202020);\n    padding: 4px 8px;\n    margin: 2px;\n    border-radius: 4px;\n    color: #ddd;\n    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);\n    font-size: 11px;\n    border: 1px solid #333;\n  }\n  \n  .map_action_area {\n    display: flex;\n    justify-content: center;\n    padding-top: 15px;\n    margin-top: 10px;\n    border-top: 1px solid #333;\n    grid-column: 1 / -1; /* 占据整行 */\n  }\n  \n  .go_button {\n    padding: 12px 25px;\n    background: linear-gradient(145deg, #2c2c2c, #242424);\n    border: none;\n    border-radius: 30px;\n    color: #fff;\n    font-size: 14px;\n    transition: all 0.3s ease;\n    cursor: pointer;\n    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4),\n                -4px -4px 8px rgba(60, 60, 60, 0.1);\n    position: relative;\n    overflow: hidden;\n  }\n  \n  .go_button::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: -100%;\n    width: 100%;\n    height: 100%;\n    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);\n    transition: all 0.5s ease;\n  }\n  \n  .go_button:not(.disabled):hover {\n    background: linear-gradient(145deg, #333, #292929);\n    transform: translateY(-2px);\n    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5),\n                -6px -6px 12px rgba(60, 60, 60, 0.15);\n  }\n  \n  .go_button:not(.disabled):hover::before {\n    left: 100%;\n  }\n  \n  .go_button:not(.disabled):active {\n    transform: translateY(0);\n    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4),\n                -2px -2px 5px rgba(60, 60, 60, 0.1);\n    background: linear-gradient(145deg, #222, #1e1e1e);\n  }\n  \n  .go_button.disabled {\n    opacity: 0.5;\n    cursor: not-allowed;\n    background: linear-gradient(145deg, #222, #1e1e1e);\n  }\n  \n  /* 响应式布局 */\n  @media (max-width: 600px) {\n    .main_locations_container, .sub_location_container {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  }\n  \n  @media (min-width: 601px) and (max-width: 900px) {\n    .main_locations_container, .sub_location_container {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n  \n  @media (min-width: 901px) {\n    .main_locations_container, .sub_location_container {\n      grid-template-columns: repeat(4, 1fr);\n    }\n  }\n  \n  /* 自定义滚动条 */\n  .map_container::-webkit-scrollbar {\n    width: 8px;\n  }\n  \n  .map_container::-webkit-scrollbar-track {\n    background: #1a1a1a;\n    border-radius: 4px;\n  }\n  \n  .map_container::-webkit-scrollbar-thumb {\n    background: #333;\n    border-radius: 4px;\n    border: 2px solid #1a1a1a;\n  }\n  \n  .map_container::-webkit-scrollbar-thumb:hover {\n    background: #444;\n  }\n</style>\n`;\n//# sourceMappingURL=map_navigation.js.map",
-                        "info": "类脑:Aki",
-                        "buttons": [],
-                        "enabled": true
                     }
                 ],
                 "characters_with_scripts": [
-                    "[前端]调教状态栏+选项.png"
+                    "[前端]调教状态栏+选项.png",
+                    "7",
+                    "fuhufox的亚种圣杯战争.png"
                 ]
             },
             "audio": {
@@ -1972,7 +1984,9 @@
         ],
         "外置手机淘宝版（世界书开全局，正则全部改成全局）.png": [],
         "地图导航模块3.0.png": [],
-        "霍格兰德大陆.png": []
+        "霍格兰德大陆.png": [],
+        "绝望黎明：未知命运.png": [],
+        "罗落大陆.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2045,7 +2059,7 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": 1000000,
+        "openai_max_context": 2000000,
         "openai_max_tokens": 32648,
         "wrap_in_quotes": false,
         "prompts": [
@@ -3220,7 +3234,7 @@
                     },
                     {
                         "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
@@ -3228,7 +3242,7 @@
                     },
                     {
                         "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
@@ -3244,7 +3258,7 @@
                     },
                     {
                         "identifier": "751a591c-3357-4902-8ae6-81df592d09d1",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "23f755cb-dd84-4510-b104-22cc97a16712",
@@ -3252,7 +3266,7 @@
                     },
                     {
                         "identifier": "b7d078d7-c431-4ce4-898e-b6decb75698d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
@@ -3264,7 +3278,7 @@
                     },
                     {
                         "identifier": "7bcd26a2-5a78-4aea-a573-324392f72fff",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "3d1e6251-7659-4223-83ad-c54a993be03f",
@@ -3296,7 +3310,7 @@
                     },
                     {
                         "identifier": "d3f9e3c6-cc21-4913-9a94-4dfccfa3f1c4",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "9c667918-89db-4926-b5a4-1683fde0f7e3",
@@ -3348,7 +3362,7 @@
                     },
                     {
                         "identifier": "686f8ee0-1e5a-4449-80c9-1be64c6f893a",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "707efeba-0e59-4174-b537-811a22572560",
@@ -3442,7 +3456,7 @@
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
         "custom_model": "gemini-2.5-pro-exp-03-25",
-        "custom_url": "https://hfsgcvfcsbgf.ap-northeast-1.clawcloudrun.com/v1",
+        "custom_url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
