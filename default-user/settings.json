@@ -696,7 +696,7 @@
             {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
                 "scriptName": "美化省token",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<[^>]*>/g",
                 "replaceString": "",
@@ -1291,8 +1291,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 40902,
-                "LAST_SEND_CHARS": 82461,
+                "LAST_SEND_TOKENS": 41260,
+                "LAST_SEND_CHARS": 83104,
                 "LAST_RECEIVE_TOKENS": 3162,
                 "LAST_RECEIVE_CHARS": 6006
             }
