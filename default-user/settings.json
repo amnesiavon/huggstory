@@ -57,11 +57,13 @@
         "AlertRegex_外置手机淘宝版（世界书开全局，正则全部改成全局）.png": "true",
         "AlertWI_地图导航模块3.0.png": "true",
         "AlertRegex_地图导航模块3.0.png": "true",
-        "AlertWI_霍格兰德大陆.png": "true"
+        "AlertWI_霍格兰德大陆.png": "true",
+        "AlertWI_绝望黎明：未知命运.png": "true",
+        "AlertRegex_绝望黎明：未知命运.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "fuhufox的亚种圣杯战争.png",
+    "active_character": "绝望黎明：未知命运.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1296,8 +1298,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 34853,
                 "LAST_SEND_CHARS": 67578,
-                "LAST_RECEIVE_TOKENS": 2846,
-                "LAST_RECEIVE_CHARS": 4389
+                "LAST_RECEIVE_TOKENS": 11,
+                "LAST_RECEIVE_CHARS": 15
             }
         },
         "attachments": [],
@@ -1979,7 +1981,8 @@
         ],
         "外置手机淘宝版（世界书开全局，正则全部改成全局）.png": [],
         "地图导航模块3.0.png": [],
-        "霍格兰德大陆.png": []
+        "霍格兰德大陆.png": [],
+        "绝望黎明：未知命运.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
