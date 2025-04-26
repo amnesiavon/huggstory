@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -61,7 +61,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "「系统Z-09」.png",
+    "active_character": "露出世界.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1293,8 +1293,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 23215,
                 "LAST_SEND_CHARS": 48061,
-                "LAST_RECEIVE_TOKENS": 410,
-                "LAST_RECEIVE_CHARS": 637
+                "LAST_RECEIVE_TOKENS": 18615,
+                "LAST_RECEIVE_CHARS": 51101
             }
         },
         "attachments": [],
