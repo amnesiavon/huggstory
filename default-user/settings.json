@@ -79,7 +79,14 @@
                 "文本效果增强",
                 "看看他或她怎么想吧~"
             ],
-            "charLore": []
+            "charLore": [
+                {
+                    "name": "绝望黎明：未知命运",
+                    "extraBooks": [
+                        "酒馆文学网 v1.22"
+                    ]
+                }
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
