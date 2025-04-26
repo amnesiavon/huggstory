@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "10",
-        "extension_update_nag": "Sat Apr 26 2025",
+        "extension_update_nag": "Fri Apr 25 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -61,7 +61,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "MIRA",
-    "active_character": "机动战士高达-SEED V1.2.png",
+    "active_character": "霍格兰德大陆.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -72,7 +72,10 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "【地图导航】",
+                "hq手机0424",
                 "文本美化移动特供版",
+                "看看他或她怎么想吧~",
                 "酒馆文学网 v1.22"
             ],
             "charLore": []
@@ -261,7 +264,7 @@
         "fast_ui_mode": false,
         "avatar_style": 0,
         "chat_display": 1,
-        "chat_width": 60,
+        "chat_width": 50,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -289,7 +292,7 @@
         "movingUI": false,
         "movingUIState": {},
         "movingUIPreset": "Default",
-        "noShadows": false,
+        "noShadows": true,
         "theme": "Celestial Macaron",
         "gestures": true,
         "auto_swipe": false,
@@ -3205,7 +3208,7 @@
                     },
                     {
                         "identifier": "a74a562e-5866-4424-8614-846e244cfcde",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
@@ -3249,7 +3252,7 @@
                     },
                     {
                         "identifier": "b7d078d7-c431-4ce4-898e-b6decb75698d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
