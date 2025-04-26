@@ -1807,6 +1807,33 @@
         },
         "vue-frontend": {
             "enabled": false
+        },
+        "hide_4": {
+            "enabled": true,
+            "settings_by_entity": {
+                "character-fuhufox的亚种圣杯战争.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 9,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 3,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2_1.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 15,
+                    "userConfigured": true
+                }
+            },
+            "migration_v1_complete": true,
+            "useGlobalSettings": false,
+            "globalHideSettings": {
+                "hideLastN": 0,
+                "lastProcessedLength": 0,
+                "userConfigured": false
+            }
         }
     },
     "tags": [
