@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -72,7 +72,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "文本效果增强",
+                "看看他或她怎么想吧~",
                 "酒馆文学网 v1.22"
             ],
             "charLore": []
