@@ -1727,7 +1727,7 @@
             "enabled_extension": true,
             "render": {
                 "render_enabled": true,
-                "tampermonkey_compatibility": false,
+                "tampermonkey_compatibility": true,
                 "render_depth": 0,
                 "render_optimize": false
             },
