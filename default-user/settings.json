@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -3228,7 +3228,7 @@
                     },
                     {
                         "identifier": "a74a562e-5866-4424-8614-846e244cfcde",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
