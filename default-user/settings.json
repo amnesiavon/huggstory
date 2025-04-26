@@ -1716,7 +1716,7 @@
                 "render_enabled": true,
                 "tampermonkey_compatibility": false,
                 "render_depth": 0,
-                "render_optimize": true
+                "render_optimize": false
             },
             "script": {
                 "global_script_enabled": true,
