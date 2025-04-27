@@ -603,6 +603,23 @@
         "dice": {},
         "regex": [
             {
+                "id": "59d4706c-4a9b-4868-91f3-28554631b135",
+                "scriptName": "【戏剧之王】置空用户输入（去除10楼以上user的输入）",
+                "findRegex": "[\\s\\S]*",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 10,
+                "maxDepth": null
+            },
+            {
                 "id": "a1bf82a2-3c73-4977-8836-05461d4d0780",
                 "scriptName": "【戏剧之王】去除10楼之上的除摘要部分",
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
@@ -685,23 +702,6 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "59d4706c-4a9b-4868-91f3-28554631b135",
-                "scriptName": "【戏剧之王】置空用户输入（去除10楼以上user的输入）",
-                "findRegex": "[\\s\\S]*",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 10,
                 "maxDepth": null
             },
             {
