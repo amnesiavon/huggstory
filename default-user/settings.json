@@ -3486,7 +3486,7 @@
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
         "custom_model": "gemini-2.5-pro-exp-03-25",
-        "custom_url": "https://hfsgcvfcsbgf.ap-northeast-1.clawcloudrun.com/v1",
+        "custom_url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
