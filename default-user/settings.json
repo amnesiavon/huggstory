@@ -645,7 +645,7 @@
             {
                 "id": "56ba381b-c9b9-49a6-8033-6d97fbaac277",
                 "scriptName": "Kemini 1",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
@@ -662,7 +662,7 @@
             {
                 "id": "b1d70d6b-3d6d-49fc-81a1-95d764892f7f",
                 "scriptName": "Kemini 2",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<guifan>(?:(?!<guifan>)[\\s\\S])*<\\/guifan>/g",
                 "replaceString": "",
@@ -679,7 +679,7 @@
             {
                 "id": "b4a0dd0e-c978-4f74-a5d2-97d963f8d8a7",
                 "scriptName": "Kemini 3",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/^[\\s\\S]*</thinking>/",
                 "replaceString": "",
@@ -766,7 +766,7 @@
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "上下文视觉屏蔽[20]",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -1295,8 +1295,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 43013,
                 "LAST_SEND_CHARS": 90382,
-                "LAST_RECEIVE_TOKENS": 1761,
-                "LAST_RECEIVE_CHARS": 4008
+                "LAST_RECEIVE_TOKENS": 2467,
+                "LAST_RECEIVE_CHARS": 5098
             }
         },
         "attachments": [],
