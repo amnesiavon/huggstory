@@ -766,7 +766,7 @@
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "上下文视觉屏蔽[20]",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -784,7 +784,7 @@
             {
                 "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
                 "scriptName": "上下文限制[10]",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
