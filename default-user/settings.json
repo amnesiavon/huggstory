@@ -1293,8 +1293,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 37806,
-                "LAST_SEND_CHARS": 79939,
+                "LAST_SEND_TOKENS": 38566,
+                "LAST_SEND_CHARS": 81209,
                 "LAST_RECEIVE_TOKENS": 33,
                 "LAST_RECEIVE_CHARS": 44
             }
@@ -1825,7 +1825,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 11,
-                    "lastProcessedLength": 36,
+                    "lastProcessedLength": 37,
                     "userConfigured": true
                 }
             },
