@@ -1443,7 +1443,7 @@
         "variables": {
             "global": {
                 "LAST_SEND_TOKENS": 50665,
-                "LAST_SEND_CHARS": 113806,
+                "LAST_SEND_CHARS": 113807,
                 "LAST_RECEIVE_TOKENS": 1994,
                 "LAST_RECEIVE_CHARS": 4350
             }
@@ -1974,7 +1974,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 48,
+                    "lastProcessedLength": 49,
                     "userConfigured": true
                 },
                 "character-test.png": {
