@@ -15,7 +15,7 @@
         "AlertRegex_「系统Z-09」.png": "true",
         "AlertWI_Mori.png": "true",
         "AlertRegex_万界聊天群“真语阁”.png": "true",
-        "SelectedNavTab": "rm_button_selected_ch",
+        "SelectedNavTab": "rm_button_characters",
         "AlertRegex_顾云汐.png": "true",
         "AlertWI_白化蓝染的日记本.png": "true",
         "AlertWI_「系统Z-09」.png": "true",
@@ -66,7 +66,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "罗落大陆.png",
+    "active_character": "test.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1295,8 +1295,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 43013,
                 "LAST_SEND_CHARS": 90382,
-                "LAST_RECEIVE_TOKENS": 2467,
-                "LAST_RECEIVE_CHARS": 5098
+                "LAST_RECEIVE_TOKENS": 844,
+                "LAST_RECEIVE_CHARS": 1274
             }
         },
         "attachments": [],
