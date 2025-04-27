@@ -672,6 +672,40 @@
                 "promptOnly": true
             },
             {
+                "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
+                "scriptName": "【戏剧之王】Gemini去省略号|感叹号|星号|括号",
+                "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
+                "scriptName": "【戏剧之王】去除10楼以下摘要文本",
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10
+            },
+            {
                 "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
                 "scriptName": "【戏剧之王】user去除</Main_Quest>",
                 "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
@@ -807,40 +841,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": true
-            },
-            {
-                "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
-                "scriptName": "【戏剧之王】Gemini去省略号|感叹号|星号|括号",
-                "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
-                "scriptName": "【戏剧之王】去除10楼以下摘要文本",
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10
             },
             {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
