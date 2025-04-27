@@ -1294,8 +1294,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 33980,
                 "LAST_SEND_CHARS": 69159,
-                "LAST_RECEIVE_TOKENS": 984,
-                "LAST_RECEIVE_CHARS": 2916
+                "LAST_RECEIVE_TOKENS": 8592,
+                "LAST_RECEIVE_CHARS": 20796
             }
         },
         "attachments": [],
@@ -1340,7 +1340,7 @@
         "muyoo_dataTable": {
             "injection_mode": "deep_system",
             "deep": 5,
-            "isExtensionAble": true,
+            "isExtensionAble": false,
             "isAiReadTable": true,
             "isAiWriteTable": true,
             "isTableToChat": false,
@@ -1824,7 +1824,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 3,
+                    "lastProcessedLength": 1,
                     "userConfigured": true
                 }
             },
