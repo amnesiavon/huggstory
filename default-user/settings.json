@@ -603,23 +603,6 @@
         "dice": {},
         "regex": [
             {
-                "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
-                "scriptName": "【戏剧之王】ai去除非最新楼层的</Main_Quest>",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null
-            },
-            {
                 "id": "a1bf82a2-3c73-4977-8836-05461d4d0780",
                 "scriptName": "【戏剧之王】去除10楼之上的除摘要部分",
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
@@ -634,23 +617,6 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 11,
-                "maxDepth": null
-            },
-            {
-                "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
-                "scriptName": "【戏剧之王】Gemini去省略号|感叹号|星号|括号",
-                "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
                 "maxDepth": null
             },
             {
@@ -669,6 +635,40 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 10
+            },
+            {
+                "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
+                "scriptName": "【戏剧之王】ai去除非最新楼层的</Main_Quest>",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 2,
+                "maxDepth": null
+            },
+            {
+                "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
+                "scriptName": "【戏剧之王】Gemini去省略号|感叹号|星号|括号",
+                "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             },
             {
                 "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
