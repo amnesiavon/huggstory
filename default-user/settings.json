@@ -569,8 +569,22 @@
             "allowMultiple": true
         },
         "connectionManager": {
-            "selectedProfile": "0fdf0727-bbe0-4d17-9de9-6860f9ef70cd",
+            "selectedProfile": "57cfb92b-10ed-4f24-890b-cf75ca16af5f",
             "profiles": [
+                {
+                    "id": "57cfb92b-10ed-4f24-890b-cf75ca16af5f",
+                    "mode": "cc",
+                    "exclude": [],
+                    "api": "custom",
+                    "preset": "【戏剧之王】Gemini_v2.57",
+                    "api-url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
+                    "model": "gemini-2.5-pro-exp-03-25",
+                    "proxy": "None",
+                    "stop-strings": "[]",
+                    "start-reply-with": "",
+                    "reasoning-template": "[Migrated] Custom",
+                    "name": "custom gemini-2.5-pro-exp-03-25 - 【戏剧之王】Gemini_v2.57"
+                },
                 {
                     "id": "0fdf0727-bbe0-4d17-9de9-6860f9ef70cd",
                     "mode": "cc",
