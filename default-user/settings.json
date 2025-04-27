@@ -1976,6 +1976,11 @@
                     "hideLastN": 11,
                     "lastProcessedLength": 39,
                     "userConfigured": true
+                },
+                "character-test.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 3,
+                    "userConfigured": true
                 }
             },
             "migration_v1_complete": true,
