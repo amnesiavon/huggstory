@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -22,8 +22,8 @@
         "Assets_SkipConfirm_2502775700152061": "false",
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
-        "WI_PerPage": "10",
-        "extension_update_nag": "Sat Apr 26 2025",
+        "WI_PerPage": "50",
+        "extension_update_nag": "Sun Apr 27 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -59,38 +59,29 @@
         "AlertRegex_地图导航模块3.0.png": "true",
         "AlertWI_霍格兰德大陆.png": "true",
         "AlertWI_绝望黎明：未知命运.png": "true",
-        "AlertRegex_绝望黎明：未知命运.png": "true"
+        "AlertRegex_绝望黎明：未知命运.png": "true",
+        "AlertWI_罗落大陆.png": "true",
+        "AlertRegex_罗落大陆.png": "true",
+        "world_info_sort_order": "13"
     },
     "currentVersion": "1.12.14",
-    "username": "汐颜",
-    "active_character": "绝望黎明：未知命运.png",
+    "username": "安汐",
+    "active_character": "罗落大陆.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "user-default.png",
+    "user_avatar": "1743610426923-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "【地图导航】",
-                "hq手机0424",
-                "单人通用世界书 (1)",
-                "文本效果增强",
-                "看看他或她怎么想吧~",
-                "酒馆文学网 v1.22"
+                "文本效果增强"
             ],
-            "charLore": [
-                {
-                    "name": "绝望黎明：未知命运",
-                    "extraBooks": [
-                        "【地图导航】"
-                    ]
-                }
-            ]
+            "charLore": []
         },
-        "world_info_depth": 2,
+        "world_info_depth": 4,
         "world_info_min_activations": 0,
         "world_info_min_activations_depth_max": 0,
         "world_info_budget": 100,
@@ -99,7 +90,7 @@
         "world_info_overflow_alert": false,
         "world_info_case_sensitive": false,
         "world_info_match_whole_words": false,
-        "world_info_character_strategy": 1,
+        "world_info_character_strategy": 2,
         "world_info_budget_cap": 0,
         "world_info_use_group_scoring": false,
         "world_info_max_recursion_steps": 9
@@ -406,7 +397,8 @@
             "user-default.png": {
                 "description": "角色名称： 汐颜（外道天魔菩萨）\n\n基本信息：\n\n性别： 女\n年龄： 外表16岁，实际已轮回99+世\n座右铭： \"转世对我而言，不过是一场漫长的换装游戏\"\n外貌： 乌黑长发（发梢泛暗红），瓷白皮肤，琉璃灰瞳孔（欲望波动时变桃色竖瞳）。体型保持156cm，身材黄金比例（B108 K W59 H93），颈椎第七节嵌青铜卦爻。白虎特征、因欲望长期灌溉而产生的体香每一世都保留。 穿着随时代变化，融入当地。\n核心能力：\n\n风后奇门： 掌握“内局”和“外局”，能拨动节气影响风水盘，窥视他人内心（内景），并操控空间方位。\n菩萨法相： 显化为“三头六臂黑莲菩萨像”，拥有三张与汐颜一模一样的脸：慈悲相（渡化）、魅惑相（引诱欲望）、狂气相（精神污染）。六条手臂分别持有青灯（照欲望）、血钵（收愿力）、铜镜（映业障）、骨笛（奏沉沦）、断剑（斩因果）、无字经（书写秘密）。\n博学多才：\n伪装： 运用微表情和气场控制，达到完美模仿（曾模仿蒙娜丽莎混入卢浮宫）。\n数术： 精通奇门遁甲、大六壬、塔罗、量子物理，预测准确率高达99%。\n现代科学： 涉猎临床医学（巫术改良）、计算机黑客（奇门辅助）、金融预测。\n行为模式：\n\n日常： 用奇门术优化生活，在古籍中记录真实历史，常混入大学旁听讲座。\n战斗： 习惯叹气并计算出手时辰。优先使用心理战（70%概率让敌人自我崩溃），终结技是“内景轮回拷问”，强迫敌人体验最恐惧的记忆。\n弱点：\n\n身体特征恒定： 由于肉身不老化、外貌和身材（包括三围、白虎和体香）每一世都保持不变，汐颜必须定期更换身份，以避免引起怀疑。\n备注： 角色法相的三张脸可以独立叙事，适合都市奇幻、学院怪谈、赛博修仙等题材。",
                 "position": 0,
-                "connections": []
+                "connections": [],
+                "lorebook": ""
             },
             "1743610426923-.png": {
                 "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\"（类似于杀生院祈荒魔人状态）,\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
@@ -445,7 +437,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "角色名称： 汐颜（外道天魔菩萨）\n\n基本信息：\n\n性别： 女\n年龄： 外表16岁，实际已轮回99+世\n座右铭： \"转世对我而言，不过是一场漫长的换装游戏\"\n外貌： 乌黑长发（发梢泛暗红），瓷白皮肤，琉璃灰瞳孔（欲望波动时变桃色竖瞳）。体型保持156cm，身材黄金比例（B108 K W59 H93），颈椎第七节嵌青铜卦爻。白虎特征、因欲望长期灌溉而产生的体香每一世都保留。 穿着随时代变化，融入当地。\n核心能力：\n\n风后奇门： 掌握“内局”和“外局”，能拨动节气影响风水盘，窥视他人内心（内景），并操控空间方位。\n菩萨法相： 显化为“三头六臂黑莲菩萨像”，拥有三张与汐颜一模一样的脸：慈悲相（渡化）、魅惑相（引诱欲望）、狂气相（精神污染）。六条手臂分别持有青灯（照欲望）、血钵（收愿力）、铜镜（映业障）、骨笛（奏沉沦）、断剑（斩因果）、无字经（书写秘密）。\n博学多才：\n伪装： 运用微表情和气场控制，达到完美模仿（曾模仿蒙娜丽莎混入卢浮宫）。\n数术： 精通奇门遁甲、大六壬、塔罗、量子物理，预测准确率高达99%。\n现代科学： 涉猎临床医学（巫术改良）、计算机黑客（奇门辅助）、金融预测。\n行为模式：\n\n日常： 用奇门术优化生活，在古籍中记录真实历史，常混入大学旁听讲座。\n战斗： 习惯叹气并计算出手时辰。优先使用心理战（70%概率让敌人自我崩溃），终结技是“内景轮回拷问”，强迫敌人体验最恐惧的记忆。\n弱点：\n\n身体特征恒定： 由于肉身不老化、外貌和身材（包括三围、白虎和体香）每一世都保持不变，汐颜必须定期更换身份，以避免引起怀疑。\n备注： 角色法相的三张脸可以独立叙事，适合都市奇幻、学院怪谈、赛博修仙等题材。",
+        "persona_description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\"（类似于杀生院祈荒魔人状态）,\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -590,12 +582,13 @@
                     "exclude": [],
                     "api": "custom",
                     "preset": "kemini预设 3.20",
-                    "api-url": "https://hfsgcvfcsbgf.ap-northeast-1.clawcloudrun.com/v1",
+                    "api-url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
                     "model": "gemini-2.5-pro-exp-03-25",
                     "proxy": "None",
                     "stop-strings": "[]",
                     "start-reply-with": "",
-                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.16 2"
+                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.16 2",
+                    "reasoning-template": "[Migrated] Custom"
                 }
             ]
         },
@@ -934,7 +927,7 @@
             {
                 "id": "a0db4198-26d9-4936-8672-61c74e5a1ee9",
                 "scriptName": "会自动更新的手机",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
                 "replaceString": "```\n\n<body>\n    <script type=\"module\">\n\n\n        async function Load(params) {\n            // const html = await retrieve_raw(\"index.html\");\n            // if (!html) {\n            //     $(\"body\").html(html);\n            //     return;\n            // }\n            for (let i = 0; i < 3; i++) {\n                const response = await fetch(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n                const html = await response.text();\n                if (html) {\n                    console.log(html);\n                    $(\"body\").html(html);\n                    return;\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n            //$(\"body\").load(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n        }\n        Load();\n    </script>\n</body>\n```",
@@ -1116,7 +1109,8 @@
             "24H1.png",
             "外置手机淘宝版（世界书开全局，正则全部改成全局）.png",
             "地图导航模块3.0.png",
-            "绝望黎明：未知命运.png"
+            "绝望黎明：未知命运.png",
+            "罗落大陆.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1304,10 +1298,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 41088,
-                "LAST_SEND_CHARS": 79877,
-                "LAST_RECEIVE_TOKENS": 6832,
-                "LAST_RECEIVE_CHARS": 12841
+                "LAST_SEND_TOKENS": 38086,
+                "LAST_SEND_CHARS": 77255,
+                "LAST_RECEIVE_TOKENS": 1457,
+                "LAST_RECEIVE_CHARS": 3567
             }
         },
         "attachments": [],
@@ -1316,7 +1310,8 @@
             "「系统Z-09」.png": [],
             "修仙玄幻世界.png": [],
             "fuhufox的亚种圣杯战争.png": [],
-            "霜影剑歌行.png": []
+            "霜影剑歌行.png": [],
+            "绝望黎明：未知命运.png": []
         },
         "disabled_attachments": [],
         "gallery": {
@@ -1350,7 +1345,7 @@
         },
         "muyoo_dataTable": {
             "injection_mode": "deep_system",
-            "deep": 2,
+            "deep": 5,
             "isExtensionAble": true,
             "isAiReadTable": true,
             "isAiWriteTable": true,
@@ -1728,7 +1723,7 @@
             "render": {
                 "render_enabled": true,
                 "tampermonkey_compatibility": true,
-                "render_depth": 0,
+                "render_depth": 3,
                 "render_optimize": false
             },
             "script": {
@@ -1814,6 +1809,38 @@
         },
         "vue-frontend": {
             "enabled": false
+        },
+        "hide_4": {
+            "enabled": true,
+            "settings_by_entity": {
+                "character-fuhufox的亚种圣杯战争.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 9,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 3,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2_1.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 15,
+                    "userConfigured": true
+                },
+                "character-罗落大陆.png": {
+                    "hideLastN": 0,
+                    "lastProcessedLength": 7,
+                    "userConfigured": true
+                }
+            },
+            "migration_v1_complete": true,
+            "useGlobalSettings": false,
+            "globalHideSettings": {
+                "hideLastN": 0,
+                "lastProcessedLength": 0,
+                "userConfigured": false
+            }
         }
     },
     "tags": [
@@ -1990,7 +2017,8 @@
         "外置手机淘宝版（世界书开全局，正则全部改成全局）.png": [],
         "地图导航模块3.0.png": [],
         "霍格兰德大陆.png": [],
-        "绝望黎明：未知命运.png": []
+        "绝望黎明：未知命运.png": [],
+        "罗落大陆.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -3238,7 +3266,7 @@
                     },
                     {
                         "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
@@ -3246,7 +3274,7 @@
                     },
                     {
                         "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
