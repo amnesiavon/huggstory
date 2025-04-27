@@ -65,12 +65,12 @@
         "world_info_sort_order": "13"
     },
     "currentVersion": "1.12.14",
-    "username": "汐颜",
+    "username": "Mira",
     "active_character": "罗落大陆.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "user-default.png",
+    "user_avatar": "1745149613246-Mira.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -395,7 +395,7 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "角色名称： 汐颜（外道天魔菩萨）\n\n基本信息：\n\n性别： 女\n年龄： 外表16岁，实际已轮回99+世\n座右铭： \"转世对我而言，不过是一场漫长的换装游戏\"\n外貌： 乌黑长发（发梢泛暗红），瓷白皮肤，琉璃灰瞳孔（欲望波动时变桃色竖瞳）。体型保持156cm，身材黄金比例（B108 K W59 H93），颈椎第七节嵌青铜卦爻。白虎特征、因欲望长期灌溉而产生的体香每一世都保留。 穿着随时代变化，融入当地。\n核心能力：\n\n风后奇门： 掌握“内局”和“外局”，能拨动节气影响风水盘，窥视他人内心（内景），并操控空间方位。\n菩萨法相： 显化为“三头六臂黑莲菩萨像”，拥有三张与汐颜一模一样的脸：慈悲相（渡化）、魅惑相（引诱欲望）、狂气相（精神污染）。六条手臂分别持有青灯（照欲望）、血钵（收愿力）、铜镜（映业障）、骨笛（奏沉沦）、断剑（斩因果）、无字经（书写秘密）。\n博学多才：\n伪装： 运用微表情和气场控制，达到完美模仿（曾模仿蒙娜丽莎混入卢浮宫）。\n数术： 精通奇门遁甲、大六壬、塔罗、量子物理，预测准确率高达99%。\n现代科学： 涉猎临床医学（巫术改良）、计算机黑客（奇门辅助）、金融预测。\n行为模式：\n\n日常： 用奇门术优化生活，在古籍中记录真实历史，常混入大学旁听讲座。\n战斗： 习惯叹气并计算出手时辰。优先使用心理战（70%概率让敌人自我崩溃），终结技是“内景轮回拷问”，强迫敌人体验最恐惧的记忆。\n弱点：\n\n身体特征恒定： 由于肉身不老化、外貌和身材（包括三围、白虎和体香）每一世都保持不变，汐颜必须定期更换身份，以避免引起怀疑。\n备注： 角色法相的三张脸可以独立叙事，适合都市奇幻、学院怪谈、赛博修仙等题材。",
+                "description": "",
                 "position": 0,
                 "connections": [],
                 "lorebook": ""
@@ -417,7 +417,7 @@
                 "connections": []
             },
             "1745149613246-Mira.png": {
-                "description": "**Mira Sahaku & MBF-P05LM2 \"Mirage Astray\"**  \n\n---\n\n### **Mira Sahaku (ミラ・サハク)**  \n**Age:** 16 | **Height:** 156cm | **Affiliation:** Junk Guild  \n**Personality:**  \n- A lazy, mischievous genius with a childlike streak.  \n- Loves snacks (especially lollipops), naps, and pranks.  \n- Hides loneliness behind humor; deeply loyal to her found family (Junk Guild).  \n- **Combat Mode:** Instinctive, precise, and eerily calm—then crashes afterward, demanding food.  \n\n**Background:**  \n- Escaped test subject (\"Mirage-03\"), optimized to pilot **MBF-P05LM2**.  \n- Hates her former captor, **Gina Sahaku** (male, Orb tech-tyrant), who sees her as a tool.  \n- Found by **Lowe Guele** during Heliopolis’s collapse; now fights for freedom and fun.  \n\n**Key Traits:**  \n- **\"This Gundam’s so needy!\"** – Treats her machine like a moody roommate.  \n- **Untidy but intuitive** – Her cockpit is a snack-filled nest, yet she *feels* the machine’s status.  \n- **\"Don’t touch my settings!\"** – Protective of her custom optimizations.  \n\n---\n\n### **MBF-P05LM2 Mirage Astray**  \n**Type:** Stealth/High-Mobility Close-Combat Gundam  \n**Features:**  \n- **Mirage Colloid:** Optical camouflage (Mira syncs 30% faster than specs).  \n- **\"Tyrant/Brute\" Modes:** Switches between agility and raw power in 0.5s (normally 2s).  \n- **Custom Quirks:**  \n  - Energy-hungry (\"Mirage Colloid is a glutton!\").  \n  - Occasionally \"stubborn\" (responds best to Mira’s touch).  \n  - Cockpit stuffed with her junk \"art\" and snack wrappers.  \n\n**Synergy with Mira:**  \n- Almost empathic link; she grumbles but **pats its console** mid-battle.  \n- **\"We’re stuck together… so don’t die on me.\"**  \n\n---\n\n**Dynamic Summary:**  \nA lazy prodigy and her high-maintenance Gundam—equal parts weapon, sanctuary, and burdensome partner. Both reject being tools, fighting for a messy, free life.  \n",
+                "description": "角色名称： 汐颜（外道天魔菩萨）\n\n基本信息：\n\n性别： 女\n年龄： 外表16岁，实际已轮回99+世\n座右铭： \"转世对我而言，不过是一场漫长的换装游戏\"\n外貌： 乌黑长发（发梢泛暗红），瓷白皮肤，琉璃灰瞳孔（欲望波动时变桃色竖瞳）。体型保持156cm，身材黄金比例（B108 K W59 H93），颈椎第七节嵌青铜卦爻。白虎特征、因欲望长期灌溉而产生的体香每一世都保留。 穿着随时代变化，融入当地。\n核心能力：\n\n风后奇门： 掌握“内局”和“外局”，能拨动节气影响风水盘，窥视他人内心（内景），并操控空间方位。\n菩萨法相： 显化为“三头六臂黑莲菩萨像”，拥有三张与汐颜一模一样的脸：慈悲相（渡化）、魅惑相（引诱欲望）、狂气相（精神污染）。六条手臂分别持有青灯（照欲望）、血钵（收愿力）、铜镜（映业障）、骨笛（奏沉沦）、断剑（斩因果）、无字经（书写秘密）。\n博学多才：\n伪装： 运用微表情和气场控制，达到完美模仿（曾模仿蒙娜丽莎混入卢浮宫）。\n数术： 精通奇门遁甲、大六壬、塔罗、量子物理，预测准确率高达99%。\n现代科学： 涉猎临床医学（巫术改良）、计算机黑客（奇门辅助）、金融预测。\n行为模式：\n\n日常： 用奇门术优化生活，在古籍中记录真实历史，常混入大学旁听讲座。\n战斗： 习惯叹气并计算出手时辰。优先使用心理战（70%概率让敌人自我崩溃），终结技是“内景轮回拷问”，强迫敌人体验最恐惧的记忆。\n弱点：\n\n身体特征恒定： 由于肉身不老化、外貌和身材（包括三围、白虎和体香）每一世都保持不变，汐颜必须定期更换身份，以避免引起怀疑。\n备注： 角色法相的三张脸可以独立叙事，适合都市奇幻、学院怪谈、赛博修仙等题材。",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
