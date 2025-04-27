@@ -671,6 +671,23 @@
                 "maxDepth": 1
             },
             {
+                "id": "1d86af9b-c461-4696-9943-ab6c38788f77",
+                "scriptName": "【戏剧之王】去<theatre>前所有内容、disclaimer多余内容",
+                "findRegex": "/(<disclaimer>.*?<\\/disclaimer>)|((.*)(?=<theatre>(?![\\s\\S]*<theatre>)))|((?:<\\s*!?\\s*-\\s*-|<\\s*-\\s*-)[\\s\\S]*?-\\s*-\\s*>(\\n)?)|(.*?<\\/think(?:ing)?>(\\n)?)|(<think(?:ing)?>[\\s\\S]*<\\/think(?:ing)?>(\\n)?)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
                 "scriptName": "【戏剧之王】Gemini去省略号|感叹号|星号|括号",
                 "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
@@ -716,23 +733,6 @@
                 "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "1d86af9b-c461-4696-9943-ab6c38788f77",
-                "scriptName": "【戏剧之王】去<theatre>前所有内容、disclaimer多余内容",
-                "findRegex": "/(<disclaimer>.*?<\\/disclaimer>)|((.*)(?=<theatre>(?![\\s\\S]*<theatre>)))|((?:<\\s*!?\\s*-\\s*-|<\\s*-\\s*-)[\\s\\S]*?-\\s*-\\s*>(\\n)?)|(.*?<\\/think(?:ing)?>(\\n)?)|(<think(?:ing)?>[\\s\\S]*<\\/think(?:ing)?>(\\n)?)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
