@@ -654,21 +654,21 @@
                 "maxDepth": 10
             },
             {
-                "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
-                "scriptName": "【戏剧之王】ai去除非最新楼层的</Main_Quest>",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
+                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
+                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
                 "trimStrings": [],
                 "placement": [
-                    2
+                    1
                 ],
                 "disabled": false,
-                "markdownOnly": false,
+                "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null
+                "minDepth": null,
+                "maxDepth": 1
             },
             {
                 "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
@@ -685,6 +685,23 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
+                "scriptName": "【戏剧之王】ai去除非最新楼层的</Main_Quest>",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 2,
                 "maxDepth": null
             },
             {
@@ -720,23 +737,6 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
-            },
-            {
-                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
-                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
             },
             {
                 "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
