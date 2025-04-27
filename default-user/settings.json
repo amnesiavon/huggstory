@@ -1974,7 +1974,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 24,
+                    "lastProcessedLength": 25,
                     "userConfigured": true
                 },
                 "character-test.png": {
@@ -3728,7 +3728,7 @@
                     },
                     {
                         "identifier": "76",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "77",
