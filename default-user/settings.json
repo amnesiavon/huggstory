@@ -603,23 +603,6 @@
         "dice": {},
         "regex": [
             {
-                "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
-                "scriptName": "置空thinking ",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 3,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
                 "id": "a1bf82a2-3c73-4977-8836-05461d4d0780",
                 "scriptName": "【戏剧之王】去除10楼之上的除摘要部分",
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
@@ -652,24 +635,6 @@
                 "substituteRegex": 0,
                 "minDepth": 2,
                 "maxDepth": null
-            },
-            {
-                "id": "3222e6f2-8d5a-495c-b9ba-5446dc6c76ac",
-                "scriptName": "置空content main_txt 1",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "<content><main_txt>[\\s\\S]*?<\\/content><\\/main_txt>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 3,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
             },
             {
                 "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
@@ -772,6 +737,41 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 1
+            },
+            {
+                "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
+                "scriptName": "置空thinking ",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 3,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "3222e6f2-8d5a-495c-b9ba-5446dc6c76ac",
+                "scriptName": "置空content main_txt 1",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "<content><main_txt>[\\s\\S]*?<\\/content><\\/main_txt>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 3,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "0d529749-d49b-4cee-bff8-70f0904598af",
