@@ -725,6 +725,40 @@
                 "maxDepth": null
             },
             {
+                "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
+                "scriptName": "【戏剧之王】user去除</Main_Quest>",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
+                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
                 "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
                 "scriptName": "[不发送]导航",
                 "disabled": false,
@@ -883,40 +917,6 @@
                 "promptOnly": false
             },
             {
-                "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
-                "scriptName": "【戏剧之王】user去除</Main_Quest>",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
-                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
                 "id": "1d86af9b-c461-4696-9943-ab6c38788f77",
                 "scriptName": "【戏剧之王】去<theatre>前所有内容、disclaimer多余内容",
                 "findRegex": "/(<disclaimer>.*?<\\/disclaimer>)|((.*)(?=<theatre>(?![\\s\\S]*<theatre>)))|((?:<\\s*!?\\s*-\\s*-|<\\s*-\\s*-)[\\s\\S]*?-\\s*-\\s*>(\\n)?)|(.*?<\\/think(?:ing)?>(\\n)?)|(<think(?:ing)?>[\\s\\S]*<\\/think(?:ing)?>(\\n)?)/gs",
@@ -965,6 +965,23 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 10,
+                "maxDepth": null
+            },
+            {
+                "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
+                "scriptName": "Gemini去省略号|感叹号|星号|括号",
+                "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
                 "maxDepth": null
             },
             {
@@ -1206,23 +1223,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
-                "scriptName": "Gemini去省略号|感叹号|星号|括号",
-                "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
