@@ -581,12 +581,13 @@
                     "exclude": [],
                     "api": "custom",
                     "preset": "kemini预设 3.20",
-                    "api-url": "https://hfsgcvfcsbgf.ap-northeast-1.clawcloudrun.com/v1",
+                    "api-url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
                     "model": "gemini-2.5-pro-exp-03-25",
                     "proxy": "None",
                     "stop-strings": "[]",
                     "start-reply-with": "",
-                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.16 2"
+                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.16 2",
+                    "reasoning-template": "[Migrated] Custom"
                 }
             ]
         },
@@ -3486,7 +3487,7 @@
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
         "custom_model": "gemini-2.5-pro-exp-03-25",
-        "custom_url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/",
+        "custom_url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
