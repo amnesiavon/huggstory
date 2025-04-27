@@ -769,7 +769,7 @@
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "上下文视觉屏蔽[20]",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -787,7 +787,7 @@
             {
                 "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
                 "scriptName": "上下文限制[10]",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -1298,8 +1298,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 32643,
                 "LAST_SEND_CHARS": 72170,
-                "LAST_RECEIVE_TOKENS": 23,
-                "LAST_RECEIVE_CHARS": 29
+                "LAST_RECEIVE_TOKENS": 1312,
+                "LAST_RECEIVE_CHARS": 3436
             }
         },
         "attachments": [],
