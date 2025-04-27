@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -1827,7 +1827,7 @@
                     "userConfigured": true
                 },
                 "character-罗落大陆.png": {
-                    "hideLastN": 10,
+                    "hideLastN": 0,
                     "lastProcessedLength": 87,
                     "userConfigured": true
                 }
