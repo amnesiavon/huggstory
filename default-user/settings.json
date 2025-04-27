@@ -1345,7 +1345,7 @@
         },
         "muyoo_dataTable": {
             "injection_mode": "deep_system",
-            "deep": 2,
+            "deep": 5,
             "isExtensionAble": false,
             "isAiReadTable": true,
             "isAiWriteTable": true,
