@@ -3611,7 +3611,7 @@
                     },
                     {
                         "identifier": "48",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "49",
@@ -3635,7 +3635,7 @@
                     },
                     {
                         "identifier": "54",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "55",
