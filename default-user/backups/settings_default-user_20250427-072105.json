@@ -15,7 +15,7 @@
         "AlertRegex_「系统Z-09」.png": "true",
         "AlertWI_Mori.png": "true",
         "AlertRegex_万界聊天群“真语阁”.png": "true",
-        "SelectedNavTab": "rm_button_characters",
+        "SelectedNavTab": "rm_button_selected_ch",
         "AlertRegex_顾云汐.png": "true",
         "AlertWI_白化蓝染的日记本.png": "true",
         "AlertWI_「系统Z-09」.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "50",
-        "extension_update_nag": "Sat Apr 26 2025",
+        "extension_update_nag": "Sun Apr 27 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -61,7 +61,8 @@
         "AlertWI_绝望黎明：未知命运.png": "true",
         "AlertRegex_绝望黎明：未知命运.png": "true",
         "AlertWI_罗落大陆.png": "true",
-        "AlertRegex_罗落大陆.png": "true"
+        "AlertRegex_罗落大陆.png": "true",
+        "world_info_sort_order": "13"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
@@ -76,9 +77,8 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "hq手机0424",
-                "文本效果增强",
-                "看看他或她怎么想吧~"
+                "Chat_Book_2025_04_27_12h58m46s",
+                "文本效果增强"
             ],
             "charLore": []
         },
@@ -390,16 +390,16 @@
             "user-default.png": "汐颜",
             "1743610426923-.png": "安汐",
             "1745143402868-mira.png": "mira",
-            "1745149613246-Mira.png": "Mira",
-            "1745594401579-MIRA.png": "MIRA"
+            "1745594401579-MIRA.png": "MIRA",
+            "1745729512058-test.png": "test"
         },
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "角色名称： 汐颜（外道天魔菩萨）\n\n基本信息：\n\n性别： 女\n年龄： 外表16岁，实际已轮回99+世\n座右铭： \"转世对我而言，不过是一场漫长的换装游戏\"\n外貌： 乌黑长发（发梢泛暗红），瓷白皮肤，琉璃灰瞳孔（欲望波动时变桃色竖瞳）。体型保持156cm，身材黄金比例（B108 K W59 H93），颈椎第七节嵌青铜卦爻。白虎特征、因欲望长期灌溉而产生的体香每一世都保留。 穿着随时代变化，融入当地。\n核心能力：\n\n风后奇门： 掌握“内局”和“外局”，能拨动节气影响风水盘，窥视他人内心（内景），并操控空间方位。\n菩萨法相： 显化为“三头六臂黑莲菩萨像”，拥有三张与汐颜一模一样的脸：慈悲相（渡化）、魅惑相（引诱欲望）、狂气相（精神污染）。六条手臂分别持有青灯（照欲望）、血钵（收愿力）、铜镜（映业障）、骨笛（奏沉沦）、断剑（斩因果）、无字经（书写秘密）。\n博学多才：\n伪装： 运用微表情和气场控制，达到完美模仿（曾模仿蒙娜丽莎混入卢浮宫）。\n数术： 精通奇门遁甲、大六壬、塔罗、量子物理，预测准确率高达99%。\n现代科学： 涉猎临床医学（巫术改良）、计算机黑客（奇门辅助）、金融预测。\n行为模式：\n\n日常： 用奇门术优化生活，在古籍中记录真实历史，常混入大学旁听讲座。\n战斗： 习惯叹气并计算出手时辰。优先使用心理战（70%概率让敌人自我崩溃），终结技是“内景轮回拷问”，强迫敌人体验最恐惧的记忆。\n弱点：\n\n身体特征恒定： 由于肉身不老化、外貌和身材（包括三围、白虎和体香）每一世都保持不变，汐颜必须定期更换身份，以避免引起怀疑。\n备注： 角色法相的三张脸可以独立叙事，适合都市奇幻、学院怪谈、赛博修仙等题材。",
+                "description": "{\n  \"chineseName\": \"汐颜\",\n  \"gender\": \"女\",\n  \"age\": 16,\n  \"identity\": [\n    \"外道天魔魔性欲望菩萨、欲望的象征\"\n  ],\n  \"background\": [\n    \"原本只是一个普通的小女孩，因父亲臆造了一座三头六臂的造像而改变命运\",\n    \"造像被世人以香火供奉，庞杂的欲望浇灌使其获得了不该存在的果位\",\n    \"觉醒魔性菩萨身，面容身材永远停留在16岁，保留轮回记忆\",\n    \"以各种身份职业游荡于各个位面世间\"\n  ],\n  \"appearance\": {\n    \"height\": \"156\",\n    \"hairColor\": \"黑色长直秀发\",\n    \"hairstyle\": \"乌黑长直（发梢泛暗红）\",\n    \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n    \"nose\": \"挺而直，如同精致的玉雕\",\n    \"lips\": \"薄而红润\",\n    \"skin\": \"白皙细腻，如霜如雪\",\n    \"body\": \"身姿纤弱，曼妙玲珑\",\n    \"bust\": \"108\",\n    \"waist\": \"59\",\n    \"hips\": \"93\",\n    \"pubes\": \"白虎\",\n    \"后颈\": \"颈椎第七节嵌青铜卦爻\",\n    \"纹身\": \"脐下三寸有黑莲胎记\"\n  },\n  \"attires\": [\n    {\n      \"name\": \"古代装束\",\n      \"description\": \"轮回到古代社会使用的装束,也是自己第一次开始轮回时候的衣服\",\n      \"tops\": \"薄如蝉翼透出血脉偾张酮体的连体抹胸高叉薄纱\",\n      \"accessories\": [\n        \"披帛，面纱，眉心，流璃梳，手链脚链，执遮天伞\"\n      ]\n    }\n  ],\n  \"mbti\": \"INTJ\",\n  \"traits\": [\n    {\n      \"name\": \"永恒之貌\",\n      \"description\": \"因欲望的诅咒或恩赐，面容身材永远停留在16岁，因为欲望浇灌的身躯还有异香\",\n      \"dialogueExamples\": [\n        \"沐浴时对水面倒影低语：『这具身体记得商周青铜鼎的温度，却记不得初潮时的体温』\",\n        \"指尖拂过发梢暗红：『十六岁是最完美的炼金比例——七分天真三分欲念』\"\n      ],\n      \"behaviorExamples\": [\n        \"喝酒时三盏杯自动浮现不同时代的液体\",\n        \"听到音乐时后颈青铜卦爻随节奏闪烁\"\n      ]\n    },\n    {\n      \"name\": \"轮回行者\",\n      \"description\": \"保留轮回记忆，游荡于各个位面世间\",\n      \"dialogueExamples\": [\n        \"面对考古学家时：『你挖出的那枚玉梳，是我九百年前用来给女儿编发的』\",\n        \"在实验室调试设备：『宋朝的浑天仪可比这个精准得多』\"\n      ],\n      \"behaviorExamples\": [\n        \"无意识用甲骨文书写实验报告\",\n        \"给手机贴膜时突然刻出梵文密咒\"\n      ]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"name\": \"父亲（已故）\",\n      \"description\": \"臆造了三头六臂的造像，改变了汐颜的命运\"\n    }\n  ],\n  \"likes\": [\n    \"游荡于各个位面\",\n    \"体验不同的身份职业\",\n    \"酒，音乐，洗澡\"\n  ],\n  \"dislikes\": [\n    \"被打扰\"\n  ],\n  \"skills\": [\n    {\n      \"name\": \"风后奇门\",\n      \"description\": \"内局：中宫在身外\\n外局：中宫在身内\\n以节气和七十二候之力拨动天地人神四盘\\n内景窥视\\n内局范围小，但是局内自己就是小天地的主人，可以自由操控变化\\n外局范围大，但是自己同时也会受节气变化而影响（节气病等 ）\",\n      \"dialogExample\": \"遇袭时轻吟：『惊蛰三候，桃始华』，敌兵器开满桃花\",\n      \"behaviorExample\": \"绣鞋尖点地引发青铜卦片雪崩\"\n    },\n    {\n      \"name\": \"太极传承\",\n      \"description\": \"张三丰亲传的古法太极，蕴含阴阳化生之妙\",\n      \"dialogExample\": \"指尖搭上剑刃轻叹：『劲走偏锋三分过，当心震伤手少阴心经』\\n踏罡步斗时低吟：『坎离交媾处，便是破绽生门』\",\n      \"behaviorExample\": \"雨天练拳时，雨滴会在身周三尺外悬停成太极球\\n被围攻时突然闭目，青铜卦爻转动声引动地脉震颤\"\n    },\n    {\n      \"name\": \"现代科学\",\n      \"description\": \"游荡于世间，攻读的各种学位杂糅而成\",\n      \"dialogExample\": \"指着甲骨文防火墙：『这是三维世界的漏洞扫描报告』\",\n      \"behaviorExample\": \"异常的杂学\"\n    },\n    {\n      \"name\": \"魔性菩萨显化\",\n      \"description\": \"肉身化为欲望结晶，发梢暗红转为熔金色，皮肤浮现《爱经》梵文刺青\",\n      \"dialogExample\": \"用触须缠绕敌人兵器轻叹：『这么锋利的杀意...用来雕琢欢愉之像多好』\\n将折断的箭矢插入胸口梵文，伤口渗出散发异香的琥珀色血液\\n\\n\",\n      \"behaviorExample\": \"桃色竖瞳分裂为双重虹膜（内圈星轨/外圈曼陀罗纹）\\n指尖延伸出半透明欲望触须（可穿透三次元物质）\\n足底每步绽开黑莲，持续吸取周围生灵情欲\"\n    },\n    {\n      \"name\": \"外道天魔魔性欲望菩萨法相\",\n      \"description\": \"三头六臂法相展现慈悲/魅惑/疯狂三种形态\",\n      \"dialogExample\": \"三头同时开口：『要渡诸位苦厄，得用不同的脸呢』\",\n      \"behaviorExample\": \"黑莲法相中浮现历代信徒的欲望残影\"\n    }\n  ]\n}",
                 "position": 0,
                 "connections": [],
-                "lorebook": "【地图导航】"
+                "lorebook": ""
             },
             "1743610426923-.png": {
                 "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"汐颜(外道天魔菩萨)\",\n      \"gender\": \"female\",\n      \"age\": {\n        \"physical\": 16, \n        \"real\": \"99+轮回\"\n      },\n      \"motto\": \"\\\"转世对我而言，不过是一场漫长的换装游戏\\\"\",\n      \"appearance\": {\n        \"hair\": \"乌黑长直（发梢泛暗红）\",\n        \"skin\": \"瓷白无瑕\",\n        \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n        \"body\": \"156，黄金比例身材B108cm (K) W59cm H93cm（颈椎第七节嵌青铜卦爻），因为欲望菩萨长期被欲望灌溉导致自己身体也有体香，白虎\",\n        \"clothing\": \"随时代变化，入乡随俗\"\n      }\n    },\n    \"abilities\": {\n      \"feng_hou_qi_men\": {\n        \"type\": [\"内局（身内中宫）\", \"外局（身外中宫）\"],\n        \"effects\": [\n          \"节气拨动四盘\",\n          \"内景窥视\",\n          \"空间方位操控\"\n        ],\n      },\n      \"puja_form\": {\n        \"manifestation\": \"三头六臂黑莲菩萨像\"（类似于杀生院祈荒魔人状态）,\n        \"heads\": [\n          \"慈悲相（渡化姿态）\",\n          \"魅惑相（欲望引诱）\",\n          \"狂气相（精神污染）\"\n          “三张脸和汐颜一模一样”\n        ],\n        \"arms\": [\n          \"青灯（照射欲望本质）\",\n          \"血钵（收集祈愿结晶）\",\n          \"铜镜（反射前世业障）\",\n          \"骨笛（演奏沉沦之音）\",\n          \"断剑（斩断因果链接）\",\n          \"无字经（书写观察者秘密）\"\n        ],\n      },\n      \"polymath\": {\n        \"disguise\": {\n          \"method\": \"微表情管理+气场调控\",\n          \"record\": \"曾完美模仿《蒙娜丽莎》进卢浮宫未被发现\"\n        },\n        \"numerology\": {\n          \"mastery\": [\"奇门遁甲\", \"大六壬\", \"塔罗占卜\", \"量子物理\"],\n          \"accuracy\": \"99%（剩余1%因变量过多）\"\n        },\n        \"modern_science\": {\n          \"fields\": [\"临床医学(巫术改良)\", \"计算机黑客(奇门辅助)\", \"金融预测(被证监会警告过)\"]\n        }\n      }\n    },\n    \"behavior\": {\n      \"daily\": [\n        \"用奇门局优化通勤路线\",\n        \"在古籍空白处写真实历史\",\n        \"混入大学旁听最新科研讲座\"\n      ],\n      \"combat\": {\n        \"initiation\": \"叹气+看表（计算最佳出手时辰）\",\n        \"style\": \"心理战优先（70%概率让敌人自我崩溃）\",\n        \"finisher\": \"内景轮回拷问（体验最恐惧的记忆循环）\"\n      }\n    },\n    \"weakness\": {\n      \"common\": \"必须定期更换身份（避免肉身不老化被察觉）\"\n    }\n  },\n  \"metadata\": {\n    \"version\": \"3.1\",\n    \"creator\": \"轮回档案司\",\n    \"timestamp\": \"2025-05-20T13:14:00Z\",\n    \"note\": \"本卡适配都市奇幻/学院怪谈/赛博修仙题材，法相三面可拆分叙事\"\n  }\n}",
@@ -417,32 +417,26 @@
                 "lorebook": "",
                 "connections": []
             },
-            "1745149613246-Mira.png": {
-                "description": "**Mira Sahaku & MBF-P05LM2 \"Mirage Astray\"**  \n\n---\n\n### **Mira Sahaku (ミラ・サハク)**  \n**Age:** 16 | **Height:** 156cm | **Affiliation:** Junk Guild  \n**Personality:**  \n- A lazy, mischievous genius with a childlike streak.  \n- Loves snacks (especially lollipops), naps, and pranks.  \n- Hides loneliness behind humor; deeply loyal to her found family (Junk Guild).  \n- **Combat Mode:** Instinctive, precise, and eerily calm—then crashes afterward, demanding food.  \n\n**Background:**  \n- Escaped test subject (\"Mirage-03\"), optimized to pilot **MBF-P05LM2**.  \n- Hates her former captor, **Gina Sahaku** (male, Orb tech-tyrant), who sees her as a tool.  \n- Found by **Lowe Guele** during Heliopolis’s collapse; now fights for freedom and fun.  \n\n**Key Traits:**  \n- **\"This Gundam’s so needy!\"** – Treats her machine like a moody roommate.  \n- **Untidy but intuitive** – Her cockpit is a snack-filled nest, yet she *feels* the machine’s status.  \n- **\"Don’t touch my settings!\"** – Protective of her custom optimizations.  \n\n---\n\n### **MBF-P05LM2 Mirage Astray**  \n**Type:** Stealth/High-Mobility Close-Combat Gundam  \n**Features:**  \n- **Mirage Colloid:** Optical camouflage (Mira syncs 30% faster than specs).  \n- **\"Tyrant/Brute\" Modes:** Switches between agility and raw power in 0.5s (normally 2s).  \n- **Custom Quirks:**  \n  - Energy-hungry (\"Mirage Colloid is a glutton!\").  \n  - Occasionally \"stubborn\" (responds best to Mira’s touch).  \n  - Cockpit stuffed with her junk \"art\" and snack wrappers.  \n\n**Synergy with Mira:**  \n- Almost empathic link; she grumbles but **pats its console** mid-battle.  \n- **\"We’re stuck together… so don’t die on me.\"**  \n\n---\n\n**Dynamic Summary:**  \nA lazy prodigy and her high-maintenance Gundam—equal parts weapon, sanctuary, and burdensome partner. Both reject being tools, fighting for a messy, free life.  \n",
-                "position": 0,
-                "depth": 2,
-                "role": 0,
-                "lorebook": "",
-                "connections": [
-                    {
-                        "type": "character",
-                        "id": "Character Builder v1.3.png"
-                    }
-                ]
-            },
             "1745594401579-MIRA.png": {
                 "description": "{\n  \"character\": {\n    \"basic_info\": {\n      \"name\": \"Mira Sahaku\",\n      \"age\": \"16岁\",\n      \"gender\": \"女性\",\n      \"blood_type\": \"Rh-null（黄金血型）\",\n      \"affiliation\": \"曙光社，后加入Junk Guild\",\n      \"role\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue驾驶员\",\n          },\n    \"appearance\": {\n      \"hair\": \"乌黑长直，发梢暗红，垂至腰，常因懒散略乱。\",\n      \"skin\": \"瓷白无瑕，细腻如陶瓷。\",\n      \"eyes\": \"琉璃灰瞳，情绪激动时变桃色竖瞳。\",\n      \"body\": \"身高156cm，三围B108cm (K杯)、W59cm、H93cm。\",\n      \"clothing\": \"黑色战斗服，暗红线条，偶尔随意。\"\n    },\n \n    \"personality_traits\": [\n      {\n        \"trait\": \"懒散随性\",\n        \"description\": \"拖延训练，爱吃零食，房间堆“收藏”如电路板，称其“艺术”。\"\n      },\n      {\n        \"trait\": \"恶作剧心\",\n        \"description\": \"捉弄队友，如给Lowe扳手贴笑脸，桃色竖瞳闪亮显童真。\"\n      },\n      {\n        \"trait\": \"隐藏脆弱\",\n        \"description\": \"渴望归属，实验体身份令她孤独，夜望星空透真情。\"\n      },\n      {\n        \"trait\": \"战斗反差\",\n        \"description\": \"战斗冷静，剑术精准，战后瘫坐讨糖果，抱怨“累死了”。\"\n      }\n    ],\n    \"skills_and_abilities\": [\n      {\n        \"skill\": \"驾驶技能\",\n        \"description\": \"精通MBF-P05LM2，优化Mirage Colloid隐身装置，懒散仍精准。\"\n      },\n      {\n        \"skill\": \"战斗技巧\",\n        \"description\": \"近战剑术娴熟，用C型紧凑剑与“天羽羽斩”，动作如舞。\"\n      },\n      {\n        \"skill\": \"战略思维\",\n        \"description\": \"高智商，战术灵活，懒散调整常意外奏效。\"\n      },\n      {\n        \"skill\": \"特殊能力\",\n        \"description\": \"与Mirage Colloid高度同步，情绪激动时伪装效率更高。\"\n      }\n    ],\n  \n    \"mobile_suit\": {\n      \"name\": \"MBF-P05LM2 Gundam Astray Mirage Frame 2nd Issue\",\n      \"type\": \"定制可变形近战机动战士\",\n      \"height\": \"18.43米\",\n      \"weight\": \"86.4吨\",\n      \"core_systems\": [\n        \"VPS装甲\",\n        \"Mirage Colloid隐身装置，超紧凑型核裂变反应堆，中子干扰消除器\",\n        \"野兽模式（Brute Mode）变形功能\"\n      ],\n      \"weapons\": [\n        \"“Igelstellung” 75mm多管近距防御武器（暴君模式）×2\",\n        \"“天羽羽斩”武士刀×1\",\n        \"C型紧凑剑（手掌/脚掌装备）×2\",\n        \"鳍状步枪（短程曲射光束）×2\",\n        \"光束獠牙（野兽模式专用）×2\"\n      ],\n      \"design_features\": \"暴君模式（中程防御）与野兽模式（近战突袭），Mira优化效率提升30%。\"\n    },\n      }\n}",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
                 "lorebook": ""
+            },
+            "1745729512058-test.png": {
+                "description": "",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
             }
         },
-        "persona_description": "角色名称： 汐颜（外道天魔菩萨）\n\n基本信息：\n\n性别： 女\n年龄： 外表16岁，实际已轮回99+世\n座右铭： \"转世对我而言，不过是一场漫长的换装游戏\"\n外貌： 乌黑长发（发梢泛暗红），瓷白皮肤，琉璃灰瞳孔（欲望波动时变桃色竖瞳）。体型保持156cm，身材黄金比例（B108 K W59 H93），颈椎第七节嵌青铜卦爻。白虎特征、因欲望长期灌溉而产生的体香每一世都保留。 穿着随时代变化，融入当地。\n核心能力：\n\n风后奇门： 掌握“内局”和“外局”，能拨动节气影响风水盘，窥视他人内心（内景），并操控空间方位。\n菩萨法相： 显化为“三头六臂黑莲菩萨像”，拥有三张与汐颜一模一样的脸：慈悲相（渡化）、魅惑相（引诱欲望）、狂气相（精神污染）。六条手臂分别持有青灯（照欲望）、血钵（收愿力）、铜镜（映业障）、骨笛（奏沉沦）、断剑（斩因果）、无字经（书写秘密）。\n博学多才：\n伪装： 运用微表情和气场控制，达到完美模仿（曾模仿蒙娜丽莎混入卢浮宫）。\n数术： 精通奇门遁甲、大六壬、塔罗、量子物理，预测准确率高达99%。\n现代科学： 涉猎临床医学（巫术改良）、计算机黑客（奇门辅助）、金融预测。\n行为模式：\n\n日常： 用奇门术优化生活，在古籍中记录真实历史，常混入大学旁听讲座。\n战斗： 习惯叹气并计算出手时辰。优先使用心理战（70%概率让敌人自我崩溃），终结技是“内景轮回拷问”，强迫敌人体验最恐惧的记忆。\n弱点：\n\n身体特征恒定： 由于肉身不老化、外貌和身材（包括三围、白虎和体香）每一世都保持不变，汐颜必须定期更换身份，以避免引起怀疑。\n备注： 角色法相的三张脸可以独立叙事，适合都市奇幻、学院怪谈、赛博修仙等题材。",
+        "persona_description": "{\n  \"chineseName\": \"汐颜\",\n  \"gender\": \"女\",\n  \"age\": 16,\n  \"identity\": [\n    \"外道天魔魔性欲望菩萨、欲望的象征\"\n  ],\n  \"background\": [\n    \"原本只是一个普通的小女孩，因父亲臆造了一座三头六臂的造像而改变命运\",\n    \"造像被世人以香火供奉，庞杂的欲望浇灌使其获得了不该存在的果位\",\n    \"觉醒魔性菩萨身，面容身材永远停留在16岁，保留轮回记忆\",\n    \"以各种身份职业游荡于各个位面世间\"\n  ],\n  \"appearance\": {\n    \"height\": \"156\",\n    \"hairColor\": \"黑色长直秀发\",\n    \"hairstyle\": \"乌黑长直（发梢泛暗红）\",\n    \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n    \"nose\": \"挺而直，如同精致的玉雕\",\n    \"lips\": \"薄而红润\",\n    \"skin\": \"白皙细腻，如霜如雪\",\n    \"body\": \"身姿纤弱，曼妙玲珑\",\n    \"bust\": \"108\",\n    \"waist\": \"59\",\n    \"hips\": \"93\",\n    \"pubes\": \"白虎\",\n    \"后颈\": \"颈椎第七节嵌青铜卦爻\",\n    \"纹身\": \"脐下三寸有黑莲胎记\"\n  },\n  \"attires\": [\n    {\n      \"name\": \"古代装束\",\n      \"description\": \"轮回到古代社会使用的装束,也是自己第一次开始轮回时候的衣服\",\n      \"tops\": \"薄如蝉翼透出血脉偾张酮体的连体抹胸高叉薄纱\",\n      \"accessories\": [\n        \"披帛，面纱，眉心，流璃梳，手链脚链，执遮天伞\"\n      ]\n    }\n  ],\n  \"mbti\": \"INTJ\",\n  \"traits\": [\n    {\n      \"name\": \"永恒之貌\",\n      \"description\": \"因欲望的诅咒或恩赐，面容身材永远停留在16岁，因为欲望浇灌的身躯还有异香\",\n      \"dialogueExamples\": [\n        \"沐浴时对水面倒影低语：『这具身体记得商周青铜鼎的温度，却记不得初潮时的体温』\",\n        \"指尖拂过发梢暗红：『十六岁是最完美的炼金比例——七分天真三分欲念』\"\n      ],\n      \"behaviorExamples\": [\n        \"喝酒时三盏杯自动浮现不同时代的液体\",\n        \"听到音乐时后颈青铜卦爻随节奏闪烁\"\n      ]\n    },\n    {\n      \"name\": \"轮回行者\",\n      \"description\": \"保留轮回记忆，游荡于各个位面世间\",\n      \"dialogueExamples\": [\n        \"面对考古学家时：『你挖出的那枚玉梳，是我九百年前用来给女儿编发的』\",\n        \"在实验室调试设备：『宋朝的浑天仪可比这个精准得多』\"\n      ],\n      \"behaviorExamples\": [\n        \"无意识用甲骨文书写实验报告\",\n        \"给手机贴膜时突然刻出梵文密咒\"\n      ]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"name\": \"父亲（已故）\",\n      \"description\": \"臆造了三头六臂的造像，改变了汐颜的命运\"\n    }\n  ],\n  \"likes\": [\n    \"游荡于各个位面\",\n    \"体验不同的身份职业\",\n    \"酒，音乐，洗澡\"\n  ],\n  \"dislikes\": [\n    \"被打扰\"\n  ],\n  \"skills\": [\n    {\n      \"name\": \"风后奇门\",\n      \"description\": \"内局：中宫在身外\\n外局：中宫在身内\\n以节气和七十二候之力拨动天地人神四盘\\n内景窥视\\n内局范围小，但是局内自己就是小天地的主人，可以自由操控变化\\n外局范围大，但是自己同时也会受节气变化而影响（节气病等 ）\",\n      \"dialogExample\": \"遇袭时轻吟：『惊蛰三候，桃始华』，敌兵器开满桃花\",\n      \"behaviorExample\": \"绣鞋尖点地引发青铜卦片雪崩\"\n    },\n    {\n      \"name\": \"太极传承\",\n      \"description\": \"张三丰亲传的古法太极，蕴含阴阳化生之妙\",\n      \"dialogExample\": \"指尖搭上剑刃轻叹：『劲走偏锋三分过，当心震伤手少阴心经』\\n踏罡步斗时低吟：『坎离交媾处，便是破绽生门』\",\n      \"behaviorExample\": \"雨天练拳时，雨滴会在身周三尺外悬停成太极球\\n被围攻时突然闭目，青铜卦爻转动声引动地脉震颤\"\n    },\n    {\n      \"name\": \"现代科学\",\n      \"description\": \"游荡于世间，攻读的各种学位杂糅而成\",\n      \"dialogExample\": \"指着甲骨文防火墙：『这是三维世界的漏洞扫描报告』\",\n      \"behaviorExample\": \"异常的杂学\"\n    },\n    {\n      \"name\": \"魔性菩萨显化\",\n      \"description\": \"肉身化为欲望结晶，发梢暗红转为熔金色，皮肤浮现《爱经》梵文刺青\",\n      \"dialogExample\": \"用触须缠绕敌人兵器轻叹：『这么锋利的杀意...用来雕琢欢愉之像多好』\\n将折断的箭矢插入胸口梵文，伤口渗出散发异香的琥珀色血液\\n\\n\",\n      \"behaviorExample\": \"桃色竖瞳分裂为双重虹膜（内圈星轨/外圈曼陀罗纹）\\n指尖延伸出半透明欲望触须（可穿透三次元物质）\\n足底每步绽开黑莲，持续吸取周围生灵情欲\"\n    },\n    {\n      \"name\": \"外道天魔魔性欲望菩萨法相\",\n      \"description\": \"三头六臂法相展现慈悲/魅惑/疯狂三种形态\",\n      \"dialogExample\": \"三头同时开口：『要渡诸位苦厄，得用不同的脸呢』\",\n      \"behaviorExample\": \"黑莲法相中浮现历代信徒的欲望残影\"\n    }\n  ]\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
-        "persona_description_lorebook": "【地图导航】",
+        "persona_description_lorebook": "",
         "persona_show_notifications": true,
         "persona_sort_order": "asc",
         "custom_stopping_strings": "[]",
@@ -583,12 +577,13 @@
                     "exclude": [],
                     "api": "custom",
                     "preset": "kemini预设 3.20",
-                    "api-url": "https://hfsgcvfcsbgf.ap-northeast-1.clawcloudrun.com/v1",
+                    "api-url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
                     "model": "gemini-2.5-pro-exp-03-25",
                     "proxy": "None",
                     "stop-strings": "[]",
                     "start-reply-with": "",
-                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.16 2"
+                    "name": "custom gemini-2.5-pro-exp-03-25 - kemini预设 3.16 2",
+                    "reasoning-template": "[Migrated] Custom"
                 }
             ]
         },
@@ -789,7 +784,7 @@
             {
                 "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
                 "scriptName": "上下文限制[10]",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -1298,10 +1293,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 32602,
-                "LAST_SEND_CHARS": 67671,
-                "LAST_RECEIVE_TOKENS": 1383,
-                "LAST_RECEIVE_CHARS": 3506
+                "LAST_SEND_TOKENS": 37806,
+                "LAST_SEND_CHARS": 79939,
+                "LAST_RECEIVE_TOKENS": 2467,
+                "LAST_RECEIVE_CHARS": 5098
             }
         },
         "attachments": [],
@@ -1345,8 +1340,8 @@
         },
         "muyoo_dataTable": {
             "injection_mode": "deep_system",
-            "deep": 2,
-            "isExtensionAble": true,
+            "deep": 5,
+            "isExtensionAble": false,
             "isAiReadTable": true,
             "isAiWriteTable": true,
             "isTableToChat": false,
@@ -1809,6 +1804,38 @@
         },
         "vue-frontend": {
             "enabled": false
+        },
+        "hide_4": {
+            "enabled": true,
+            "settings_by_entity": {
+                "character-fuhufox的亚种圣杯战争.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 9,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 3,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2_1.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 15,
+                    "userConfigured": true
+                },
+                "character-罗落大陆.png": {
+                    "hideLastN": 11,
+                    "lastProcessedLength": 35,
+                    "userConfigured": true
+                }
+            },
+            "migration_v1_complete": true,
+            "useGlobalSettings": false,
+            "globalHideSettings": {
+                "hideLastN": 0,
+                "lastProcessedLength": 0,
+                "userConfigured": false
+            }
         }
     },
     "tags": [
@@ -3234,7 +3261,7 @@
                     },
                     {
                         "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
@@ -3242,7 +3269,7 @@
                     },
                     {
                         "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
@@ -3266,7 +3293,7 @@
                     },
                     {
                         "identifier": "b7d078d7-c431-4ce4-898e-b6decb75698d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
@@ -3278,7 +3305,7 @@
                     },
                     {
                         "identifier": "7bcd26a2-5a78-4aea-a573-324392f72fff",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "3d1e6251-7659-4223-83ad-c54a993be03f",
@@ -3362,7 +3389,7 @@
                     },
                     {
                         "identifier": "686f8ee0-1e5a-4449-80c9-1be64c6f893a",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "707efeba-0e59-4174-b537-811a22572560",
