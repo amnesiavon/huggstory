@@ -741,7 +741,7 @@
             {
                 "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
                 "scriptName": "置空thinking ",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)",
                 "replaceString": "",
@@ -758,7 +758,7 @@
             {
                 "id": "3222e6f2-8d5a-495c-b9ba-5446dc6c76ac",
                 "scriptName": "置空content main_txt 1",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "<content><main_txt>[\\s\\S]*?<\\/content><\\/main_txt>",
                 "replaceString": "",
@@ -776,7 +776,7 @@
             {
                 "id": "0d529749-d49b-4cee-bff8-70f0904598af",
                 "scriptName": "置空content main_txt 2",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "<content><main_txt>[\\s\\S]*?<\\/main_txt><\\/content>",
                 "replaceString": "",
