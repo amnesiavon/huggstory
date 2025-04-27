@@ -766,7 +766,7 @@
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "上下文视觉屏蔽[20]",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -1295,8 +1295,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 38789,
                 "LAST_SEND_CHARS": 81619,
-                "LAST_RECEIVE_TOKENS": 34,
-                "LAST_RECEIVE_CHARS": 50
+                "LAST_RECEIVE_TOKENS": 1761,
+                "LAST_RECEIVE_CHARS": 4008
             }
         },
         "attachments": [],
