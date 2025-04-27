@@ -1295,8 +1295,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 37806,
                 "LAST_SEND_CHARS": 79939,
-                "LAST_RECEIVE_TOKENS": 2467,
-                "LAST_RECEIVE_CHARS": 5098
+                "LAST_RECEIVE_TOKENS": 33,
+                "LAST_RECEIVE_CHARS": 44
             }
         },
         "attachments": [],
@@ -1825,7 +1825,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 11,
-                    "lastProcessedLength": 35,
+                    "lastProcessedLength": 36,
                     "userConfigured": true
                 }
             },
