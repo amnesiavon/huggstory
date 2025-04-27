@@ -883,6 +883,40 @@
                 "promptOnly": false
             },
             {
+                "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
+                "scriptName": "【戏剧之王】user去除</Main_Quest>",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
+                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
                 "id": "ba84aef0-5a14-4f5b-abd3-b6ff69374580",
                 "scriptName": "【看想法】阴暗想法",
                 "disabled": false,
@@ -1104,40 +1138,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
-                "scriptName": "【戏剧之王】user去除</Main_Quest>",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
-                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
             },
             {
                 "id": "1d86af9b-c461-4696-9943-ab6c38788f77",
