@@ -783,7 +783,7 @@
             {
                 "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
                 "scriptName": "上下文限制[10]",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -1823,7 +1823,7 @@
                     "userConfigured": true
                 },
                 "character-罗落大陆.png": {
-                    "hideLastN": 0,
+                    "hideLastN": 10,
                     "lastProcessedLength": 11,
                     "userConfigured": true
                 }
