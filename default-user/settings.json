@@ -1297,10 +1297,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 31498,
-                "LAST_SEND_CHARS": 64410,
-                "LAST_RECEIVE_TOKENS": 4,
-                "LAST_RECEIVE_CHARS": 3
+                "LAST_SEND_TOKENS": 36298,
+                "LAST_SEND_CHARS": 72267,
+                "LAST_RECEIVE_TOKENS": 8592,
+                "LAST_RECEIVE_CHARS": 20796
             }
         },
         "attachments": [],
@@ -1345,7 +1345,7 @@
         "muyoo_dataTable": {
             "injection_mode": "deep_system",
             "deep": 2,
-            "isExtensionAble": true,
+            "isExtensionAble": false,
             "isAiReadTable": true,
             "isAiWriteTable": true,
             "isTableToChat": false,
@@ -1829,7 +1829,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 4,
+                    "lastProcessedLength": 1,
                     "userConfigured": true
                 }
             },
