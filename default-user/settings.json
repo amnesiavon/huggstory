@@ -811,7 +811,7 @@
             },
             {
                 "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
-                "scriptName": "Gemini去省略号|感叹号|星号|括号",
+                "scriptName": "【戏剧之王】Gemini去省略号|感叹号|星号|括号",
                 "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
                 "replaceString": "",
                 "trimStrings": [],
