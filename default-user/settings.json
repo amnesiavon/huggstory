@@ -827,6 +827,23 @@
                 "maxDepth": null
             },
             {
+                "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
+                "scriptName": "【戏剧之王】去除10楼以下摘要文本",
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10
+            },
+            {
                 "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
                 "scriptName": "[不发送]导航",
                 "disabled": false,
@@ -1000,23 +1017,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
-                "scriptName": "【戏剧之王】去除10楼以下摘要文本",
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10
             },
             {
                 "id": "cb9e7616-ca15-4d2a-8885-c0eab3d38d21",
