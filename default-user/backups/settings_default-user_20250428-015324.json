@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "50",
-        "extension_update_nag": "Sun Apr 27 2025",
+        "extension_update_nag": "Mon Apr 28 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -603,9 +603,162 @@
         "dice": {},
         "regex": [
             {
+                "id": "59d4706c-4a9b-4868-91f3-28554631b135",
+                "scriptName": "【戏剧之王】置空用户输入（去除10楼以上user的输入）",
+                "findRegex": "[\\s\\S]*",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 10,
+                "maxDepth": null
+            },
+            {
+                "id": "a1bf82a2-3c73-4977-8836-05461d4d0780",
+                "scriptName": "【戏剧之王】去除10楼之上的除摘要部分",
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 11,
+                "maxDepth": null
+            },
+            {
+                "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
+                "scriptName": "【戏剧之王】去除10楼以下摘要文本",
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10
+            },
+            {
+                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
+                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
+                "id": "1d86af9b-c461-4696-9943-ab6c38788f77",
+                "scriptName": "【戏剧之王】去<theatre>前所有内容、disclaimer多余内容",
+                "findRegex": "/(<disclaimer>.*?<\\/disclaimer>)|((.*)(?=<theatre>(?![\\s\\S]*<theatre>)))|((?:<\\s*!?\\s*-\\s*-|<\\s*-\\s*-)[\\s\\S]*?-\\s*-\\s*>(\\n)?)|(.*?<\\/think(?:ing)?>(\\n)?)|(<think(?:ing)?>[\\s\\S]*<\\/think(?:ing)?>(\\n)?)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
+                "scriptName": "【戏剧之王】Gemini去省略号|感叹号|星号|括号",
+                "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
+                "scriptName": "【戏剧之王】ai去除非最新楼层的</Main_Quest>",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 2,
+                "maxDepth": null
+            },
+            {
+                "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
+                "scriptName": "【戏剧之王】user去除</Main_Quest>",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "美化省token",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
                 "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
                 "scriptName": "置空thinking ",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)",
                 "replaceString": "",
@@ -622,7 +775,7 @@
             {
                 "id": "3222e6f2-8d5a-495c-b9ba-5446dc6c76ac",
                 "scriptName": "置空content main_txt 1",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "<content><main_txt>[\\s\\S]*?<\\/content><\\/main_txt>",
                 "replaceString": "",
@@ -640,7 +793,7 @@
             {
                 "id": "0d529749-d49b-4cee-bff8-70f0904598af",
                 "scriptName": "置空content main_txt 2",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "<content><main_txt>[\\s\\S]*?<\\/main_txt><\\/content>",
                 "replaceString": "",
@@ -707,142 +860,6 @@
                 "promptOnly": true
             },
             {
-                "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
-                "scriptName": "【戏剧之王】ai去除非最新楼层的</Main_Quest>",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null
-            },
-            {
-                "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
-                "scriptName": "【戏剧之王】user去除</Main_Quest>",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
-                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "1d86af9b-c461-4696-9943-ab6c38788f77",
-                "scriptName": "【戏剧之王】去<theatre>前所有内容、disclaimer多余内容",
-                "findRegex": "/(<disclaimer>.*?<\\/disclaimer>)|((.*)(?=<theatre>(?![\\s\\S]*<theatre>)))|((?:<\\s*!?\\s*-\\s*-|<\\s*-\\s*-)[\\s\\S]*?-\\s*-\\s*>(\\n)?)|(.*?<\\/think(?:ing)?>(\\n)?)|(<think(?:ing)?>[\\s\\S]*<\\/think(?:ing)?>(\\n)?)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "a1bf82a2-3c73-4977-8836-05461d4d0780",
-                "scriptName": "【戏剧之王】去除10楼之上的除摘要部分",
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null
-            },
-            {
-                "id": "59d4706c-4a9b-4868-91f3-28554631b135",
-                "scriptName": "【戏剧之王】置空用户输入（去除10楼以上user的输入）",
-                "findRegex": "[\\s\\S]*",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 10,
-                "maxDepth": null
-            },
-            {
-                "id": "d2e7081f-55fd-4cee-b1b8-9b8c46fb60e9",
-                "scriptName": "【戏剧之王】Gemini去省略号|感叹号|星号|括号",
-                "findRegex": "/(…)|(!)|(！)|(\\*{2})|(（[^）]*）)|(\\([^)]*\\))/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
-                "scriptName": "【戏剧之王】去除10楼以下摘要文本",
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10
-            },
-            {
                 "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
                 "scriptName": "[不发送]导航",
                 "disabled": false,
@@ -894,23 +911,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
-                "scriptName": "美化省token",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<[^>]*>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
             },
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
@@ -1442,10 +1442,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 36344,
-                "LAST_SEND_CHARS": 84125,
-                "LAST_RECEIVE_TOKENS": 1778,
-                "LAST_RECEIVE_CHARS": 4059
+                "LAST_SEND_TOKENS": 39457,
+                "LAST_SEND_CHARS": 91952,
+                "LAST_RECEIVE_TOKENS": 249,
+                "LAST_RECEIVE_CHARS": 1931
             }
         },
         "attachments": [],
@@ -1973,8 +1973,8 @@
                     "userConfigured": true
                 },
                 "character-罗落大陆.png": {
-                    "hideLastN": 10,
-                    "lastProcessedLength": 15,
+                    "hideLastN": 0,
+                    "lastProcessedLength": 37,
                     "userConfigured": true
                 },
                 "character-test.png": {
@@ -3460,7 +3460,7 @@
                     },
                     {
                         "identifier": "9",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "10",
@@ -3552,7 +3552,7 @@
                     },
                     {
                         "identifier": "32",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "33",
@@ -3628,7 +3628,7 @@
                     },
                     {
                         "identifier": "51",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "52",
@@ -3676,7 +3676,7 @@
                     },
                     {
                         "identifier": "63",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "64",
@@ -3696,7 +3696,7 @@
                     },
                     {
                         "identifier": "68",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "69",
@@ -3704,11 +3704,11 @@
                     },
                     {
                         "identifier": "70",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "71",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "72",
@@ -3728,7 +3728,7 @@
                     },
                     {
                         "identifier": "76",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "77",
