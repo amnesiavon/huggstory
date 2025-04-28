@@ -1174,7 +1174,7 @@
             },
             {
                 "id": "f6e979b6-bbfd-4a2c-89de-0c43d6cf4b11",
-                "scriptName": "去除过去用户输入",
+                "scriptName": "【kemini】去除过去用户输入",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
                 "trimStrings": [],
@@ -1191,7 +1191,7 @@
             },
             {
                 "id": "63a78ae7-cddc-4ce1-bf24-ee0dc5daa66d",
-                "scriptName": "省略号减少",
+                "scriptName": "【kemini】省略号减少",
                 "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
                 "replaceString": "$1",
                 "trimStrings": [],
