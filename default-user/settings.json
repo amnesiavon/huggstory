@@ -1188,40 +1188,6 @@
                 "substituteRegex": 0,
                 "minDepth": 1,
                 "maxDepth": null
-            },
-            {
-                "id": "64808628-d211-4d4e-894b-cdeb317ea6be",
-                "scriptName": "省略号减少",
-                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
-                "replaceString": "$1",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 1,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "343089f8-ccf9-47d1-aa03-028b19942d85",
-                "scriptName": "小总结2",
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
