@@ -32,7 +32,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 0,
-            "displayIndex": 9,
+            "displayIndex": 17,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": false,
@@ -90,7 +90,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 1,
-            "displayIndex": 15,
+            "displayIndex": 16,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": false,
@@ -148,7 +148,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 2,
-            "displayIndex": 20,
+            "displayIndex": 11,
             "extensions": {
                 "position": 0,
                 "exclude_recursion": false,
@@ -206,7 +206,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 3,
-            "displayIndex": 14,
+            "displayIndex": 18,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": true,
@@ -264,7 +264,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 5,
-            "displayIndex": 7,
+            "displayIndex": 31,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": true,
@@ -322,7 +322,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 6,
-            "displayIndex": 8,
+            "displayIndex": 28,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": true,
@@ -391,7 +391,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 7,
-            "displayIndex": 0,
+            "displayIndex": 21,
             "extensions": {
                 "position": 0,
                 "exclude_recursion": true,
@@ -451,7 +451,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 8,
-            "displayIndex": 1,
+            "displayIndex": 20,
             "extensions": {
                 "position": 0,
                 "exclude_recursion": false,
@@ -509,7 +509,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 9,
-            "displayIndex": 17,
+            "displayIndex": 13,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": false,
@@ -569,7 +569,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 10,
-            "displayIndex": 11,
+            "displayIndex": 24,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": false,
@@ -629,7 +629,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 11,
-            "displayIndex": 2,
+            "displayIndex": 12,
             "extensions": {
                 "position": 0,
                 "exclude_recursion": false,
@@ -689,7 +689,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 12,
-            "displayIndex": 3,
+            "displayIndex": 10,
             "extensions": {
                 "position": 0,
                 "exclude_recursion": false,
@@ -747,7 +747,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 13,
-            "displayIndex": 10,
+            "displayIndex": 15,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": false,
@@ -807,7 +807,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 14,
-            "displayIndex": 4,
+            "displayIndex": 27,
             "extensions": {
                 "position": 0,
                 "exclude_recursion": false,
@@ -867,7 +867,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 15,
-            "displayIndex": 12,
+            "displayIndex": 25,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": false,
@@ -927,7 +927,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 16,
-            "displayIndex": 13,
+            "displayIndex": 26,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": false,
@@ -1000,7 +1000,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 17,
-            "displayIndex": 5,
+            "displayIndex": 22,
             "extensions": {
                 "position": 0,
                 "exclude_recursion": true,
@@ -1071,7 +1071,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 18,
-            "displayIndex": 6,
+            "displayIndex": 23,
             "extensions": {
                 "position": 0,
                 "exclude_recursion": true,
@@ -1129,7 +1129,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 19,
-            "displayIndex": 21,
+            "displayIndex": 29,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": true,
@@ -1187,7 +1187,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 20,
-            "displayIndex": 18,
+            "displayIndex": 30,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": true,
@@ -1303,7 +1303,7 @@
             "cooldown": 0,
             "delay": 0,
             "uid": 22,
-            "displayIndex": 16,
+            "displayIndex": 14,
             "extensions": {
                 "position": 4,
                 "exclude_recursion": false,
