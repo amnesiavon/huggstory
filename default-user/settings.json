@@ -673,7 +673,7 @@
             {
                 "id": "63a78ae7-cddc-4ce1-bf24-ee0dc5daa66d",
                 "scriptName": "【kemini】省略号减少",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
                 "replaceString": "$1",
