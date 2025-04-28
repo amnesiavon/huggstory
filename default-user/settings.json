@@ -66,7 +66,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "罗落大陆.png",
+    "active_character": "异世界冒险模拟器1.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1444,8 +1444,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 39457,
                 "LAST_SEND_CHARS": 91952,
-                "LAST_RECEIVE_TOKENS": 249,
-                "LAST_RECEIVE_CHARS": 1931
+                "LAST_RECEIVE_TOKENS": 11840,
+                "LAST_RECEIVE_CHARS": 26589
             }
         },
         "attachments": [],
