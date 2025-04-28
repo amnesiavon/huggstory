@@ -809,23 +809,6 @@
                 "promptOnly": true
             },
             {
-                "id": "56ba381b-c9b9-49a6-8033-6d97fbaac277",
-                "scriptName": "Kemini 1",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
                 "id": "b1d70d6b-3d6d-49fc-81a1-95d764892f7f",
                 "scriptName": "Kemini 2",
                 "disabled": true,
