@@ -1493,8 +1493,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 28015,
-                "LAST_SEND_CHARS": 59370,
+                "LAST_SEND_TOKENS": 18280,
+                "LAST_SEND_CHARS": 42302,
                 "LAST_RECEIVE_TOKENS": 8592,
                 "LAST_RECEIVE_CHARS": 20796
             }
@@ -1527,10 +1527,6 @@
             "showPopoutButton": true,
             "config": {
                 "setList": [
-                    {
-                        "set": "总结",
-                        "isVisible": true
-                    },
                     {
                         "set": "召唤同层手机",
                         "isVisible": true
