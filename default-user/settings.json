@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -1495,8 +1495,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 30128,
                 "LAST_SEND_CHARS": 64615,
-                "LAST_RECEIVE_TOKENS": 939,
-                "LAST_RECEIVE_CHARS": 1275
+                "LAST_RECEIVE_TOKENS": 854,
+                "LAST_RECEIVE_CHARS": 2769
             }
         },
         "attachments": [],
@@ -3543,7 +3543,7 @@
                 "marker": false,
                 "name": "⚠️小cot",
                 "role": "system",
-                "content": "Apex will insert multiple analyses regarding the upcoming character emotional expression, using the <!-- consider: (current analysis) --> format, BEFORE describing character attitudes.\nThe purpose of this is to prevent the character from exhibiting excessive internal friction/rumination, overly intense or negative emotional reactions, or negatively interpreting the <user>'s intentions, and also to prevent the character from hindering plot progression due to becoming emotionally incapacitated（Overwhelmed）.\nAdditionally, if in a sex scene, it is also necessary to ensure the scene adheres to <sex_style>.",
+                "content": "在描述角色态度之前，Apex 将针对即将出现的角色情感表达插入多项分析，采用 <!-- consider: (当前分析) --> 这种格式。\n这样做的目的是防止角色表现出过度的内心纠结 / 反复思考、过于强烈或负面的情绪反应，或者对 <用户> 的意图做出负面解读，同时也防止角色因情绪失控（不堪重负）而阻碍剧情发展。\n此外，如果涉及性爱场景，还必须确保该场景符合 < sex_style>。",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
