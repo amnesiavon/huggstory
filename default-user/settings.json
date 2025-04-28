@@ -1171,23 +1171,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "eb41ac26-567a-45d1-b65f-a3e1b0974574",
-                "scriptName": "去除过去用户输入",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": true,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
