@@ -1939,7 +1939,7 @@
                                 "visible": true
                             }
                         ],
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "id": "3caabaab-6ab5-400b-b4f7-8cd1a81c28de",
@@ -1960,7 +1960,7 @@
                                 "visible": true
                             }
                         ],
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "id": "f745e1db-3bbc-47b7-8778-e0353f7f0016",
