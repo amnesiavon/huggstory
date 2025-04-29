@@ -603,6 +603,23 @@
         "dice": {},
         "regex": [
             {
+                "id": "afdff3b5-9363-4529-a705-3595378acb9d",
+                "scriptName": "【kemini】去除过去用户输入",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null
+            },
+            {
                 "id": "59d4706c-4a9b-4868-91f3-28554631b135",
                 "scriptName": "【戏剧之王】置空用户输入（去除10楼以上user的输入）",
                 "disabled": true,
@@ -739,20 +756,20 @@
                 "promptOnly": false
             },
             {
-                "id": "afdff3b5-9363-4529-a705-3595378acb9d",
-                "scriptName": "【kemini】去除过去用户输入",
-                "findRegex": "^([\\s\\S]*)$",
+                "id": "dc01696c-e801-41d5-870a-1bee48773644",
+                "scriptName": "【kemini】小总结2",
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
-                    1
+                    2
                 ],
                 "disabled": false,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
-                "minDepth": 1,
+                "minDepth": 11,
                 "maxDepth": null
             },
             {
@@ -788,6 +805,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 1
+            },
+            {
+                "id": "9a357968-24dc-403b-ada5-767f6c3c9041",
+                "scriptName": "【Kemini】移除大小思维链和免责声明",
+                "findRegex": "/(<guifan>.*?</guifan>)|(<!-- State(.*?)d(.*?) -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<thinking?>[\\s\\S]*<\\/thinking?>(\\n)?)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             },
             {
                 "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
@@ -984,23 +1018,6 @@
                 "promptOnly": true
             },
             {
-                "id": "dc01696c-e801-41d5-870a-1bee48773644",
-                "scriptName": "【kemini】小总结2",
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null
-            },
-            {
                 "id": "9b3a2314-1f01-4672-9999-8910487b13f8",
                 "scriptName": "【看想法】原则和底线",
                 "disabled": false,
@@ -1016,23 +1033,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "9a357968-24dc-403b-ada5-767f6c3c9041",
-                "scriptName": "【Kemini】移除大小思维链和免责声明",
-                "findRegex": "/(<guifan>.*?</guifan>)|(<!-- State(.*?)d(.*?) -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<thinking?>[\\s\\S]*<\\/thinking?>(\\n)?)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             },
             {
                 "id": "ba84aef0-5a14-4f5b-abd3-b6ff69374580",
