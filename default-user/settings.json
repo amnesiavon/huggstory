@@ -824,6 +824,23 @@
                 "promptOnly": false
             },
             {
+                "id": "b4fe947d-6cb9-4249-8452-336e89dd8367",
+                "scriptName": "【kemini】小总结1",
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10
+            },
+            {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
                 "scriptName": "美化省token",
                 "disabled": false,
@@ -1084,23 +1101,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "b4fe947d-6cb9-4249-8452-336e89dd8367",
-                "scriptName": "【kemini】小总结1",
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10
             },
             {
                 "id": "81a3dbe8-f49a-4fbb-a35d-b480377bd1c0",
