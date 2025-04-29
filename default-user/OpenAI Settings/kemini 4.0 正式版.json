@@ -957,7 +957,7 @@
             "marker": false,
             "name": "📦反性场景激烈0325",
             "role": "system",
-            "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか",
+            "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか\n- if: 考虑场景是否涉及NSFW元素，如果涉及的话请按照{{getvar::NSFWcot}}推导，严格输出每一回合思考，并学习模仿其中<writing_style1>的示例。else: 忽视这一步.",
             "injection_position": 0,
             "injection_depth": 4,
             "forbid_overrides": false
@@ -1398,11 +1398,11 @@
                 },
                 {
                     "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "817ec237-92c2-44c4-a20c-219eaf944e31",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
@@ -1426,7 +1426,7 @@
                 },
                 {
                     "identifier": "751a591c-3357-4902-8ae6-81df592d09d1",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "23f755cb-dd84-4510-b104-22cc97a16712",
@@ -1438,11 +1438,11 @@
                 },
                 {
                     "identifier": "b7d078d7-c431-4ce4-898e-b6decb75698d",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "aa0d4562-1814-4ac2-96fe-9c24588b2d24",
@@ -1474,7 +1474,7 @@
                 },
                 {
                     "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "7a93c8c9-d86b-4828-bcdd-1ab55e7bbae7",
@@ -1482,7 +1482,7 @@
                 },
                 {
                     "identifier": "d3f9e3c6-cc21-4913-9a94-4dfccfa3f1c4",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "9c667918-89db-4926-b5a4-1683fde0f7e3",
@@ -1522,7 +1522,7 @@
                 },
                 {
                     "identifier": "9880daca-1c3a-4532-8004-ecc779b6c980",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "d219981f-4a6b-4e40-b38d-2e941e8529be",
@@ -1546,7 +1546,7 @@
                 },
                 {
                     "identifier": "686f8ee0-1e5a-4449-80c9-1be64c6f893a",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "707efeba-0e59-4174-b537-811a22572560",
