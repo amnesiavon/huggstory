@@ -3267,7 +3267,7 @@
                 "marker": false,
                 "name": "📦反性场景激烈0325",
                 "role": "system",
-                "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか",
+                "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか\n- if: 考虑场景是否涉及NSFW元素，如果涉及的话请按照{{getvar::NSFWcot}}推导，严格输出每一回合思考，并学习模仿其中<writing_style1>的示例。else: 忽视这一步.",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3708,11 +3708,11 @@
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "817ec237-92c2-44c4-a20c-219eaf944e31",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "23fcc725-4b96-42ab-a09b-d98b34fb14e7",
