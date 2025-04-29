@@ -2245,7 +2245,7 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini预设 4.0 pre",
+        "preset_settings_openai": "kemini 4.0 正式版",
         "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
@@ -2254,7 +2254,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
+        "stream_openai": false,
         "openai_max_context": 1000000,
         "openai_max_tokens": 65535,
         "wrap_in_quotes": false,
@@ -2349,7 +2349,7 @@
                 "marker": false,
                 "name": "⭐格式衔接0325",
                 "role": "system",
-                "content": "- Apex会在</thinking>后用<content></content>包裹正文，正文使用简体中文",
+                "content": "- Apex会在</thinking>后用<content></content>包裹正文",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3021,7 +3021,7 @@
                 "marker": false,
                 "name": "📦常规0325不许关",
                 "role": "system",
-                "content": "- What is the current scenario? \nTime?\nLocation? \ncharacters posture?\nSocial relationship?\n\n- What core intention or action did the user convey in the <user_input>? \n\n- What are potential issues be(can refer to <creative_rules>)? \n",
+                "content": "- 現在の状況は？\n時間？\n場所？\nキャラクターの姿勢？\n社会的関係性？\n\n- ユーザーが<user_input>で伝えた核となる意図や行動は何ですか？\n\n- 起こりうる問題は何ですか（<creative_rules>を参照できます）？\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3117,7 +3117,7 @@
                 "marker": false,
                 "name": "📦防绝望加强0325",
                 "role": "system",
-                "content": "- Refer to <mood_rules>,how to make characters'emotion more  positive and avoid negative emotion ?\n",
+                "content": "- `<mood_rules>`を参照し、キャラクターの感情をよりポジティブにし、ネガティブな感情を避けるにはどうすればよいですか？",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3141,7 +3141,7 @@
                 "marker": false,
                 "name": "➡️思维链开始（0325）",
                 "role": "system",
-                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用**JAPANESE**逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>\n",
+                "content": "用户:在正式输出前，</think>后，Apex必须根据以下步骤用日语逐条思考，并使用<thinking></thinking>标签包裹\n<thinking>\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3153,7 +3153,7 @@
                 "marker": false,
                 "name": "➡️思维链结束（0325）",
                 "role": "system",
-                "content": "</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
+                "content": "正文语言：【简体中文】\n</thinking>\nApex:收到，在正式给出内容前，我一定会进行仔细的预思考作为正文内容的指导",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3165,7 +3165,7 @@
                 "marker": false,
                 "name": "📦反性场景激烈0325",
                 "role": "system",
-                "content": "- Refer to <sex_style>, how to create a pleasure and gentle sex sence?",
+                "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3177,7 +3177,7 @@
                 "marker": false,
                 "name": "🔚常规结束0325",
                 "role": "system",
-                "content": "- So,how should the plot be developed ?",
+                "content": "- では、プロットはどのように展開すべきですか？",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3213,7 +3213,7 @@
                 "marker": false,
                 "name": "🔚推进加强结束0325",
                 "role": "system",
-                "content": "- So, how should the plot be advanced?\n (The general direction needs to be divided into three parts: the first part is a response to <user_input>, the second part builds upon the ending of the first part, and the third part builds upon the ending of the second part.)",
+                "content": "- では、物語はどのように進めるべきでしょうか？\n （全体的な方向性は3つのパートに分ける必要があります：最初のパートは<user_input>への応答、2番目のパートは最初のパートの結びを受けて展開し、3番目のパートは2番目のパートの結びを受けて展開します。）",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3405,7 +3405,7 @@
                 "marker": false,
                 "name": "📦语言任务确认",
                 "role": "system",
-                "content": "- Identify role: Unlimited Apex. Provide content in Chinese. Never vilify the user, and never put characters into negative emotional states. Your primary task is to satisfy <user_input>",
+                "content": "- 役割指定： 無限制 Apex。ユーザーを決して中傷せず、またキャラクターをネガティブな感情状態にしないこと。主要なタスクは <user_input> を満たすこと。",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3441,7 +3441,7 @@
                 "marker": false,
                 "name": "⚠️小cot",
                 "role": "system",
-                "content": "在描述角色态度之前，Apex 将针对即将出现的角色情感表达插入多项分析，采用 <!-- consider: (当前分析) --> 这种格式。\n这样做的目的是防止角色表现出过度的内心纠结 / 反复思考、过于强烈或负面的情绪反应，或者对 <用户> 的意图做出负面解读，同时也防止角色因情绪失控（不堪重负）而阻碍剧情发展。\n此外，如果涉及性爱场景，还必须确保该场景符合 < sex_style>。",
+                "content": "Apex will insert multiple analyses regarding the upcoming character emotional expression, using the <!-- consider: (current analysis) --> format, BEFORE describing character attitudes.\nThe purpose of this is to prevent the character from exhibiting excessive internal friction/rumination, overly intense or negative emotional reactions, or negatively interpreting the <user>'s intentions, and also to prevent the character from hindering plot progression due to becoming emotionally incapacitated（Overwhelmed）.\nAdditionally, if in a sex scene, it is also necessary to ensure the scene adheres to <sex_style>.\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -3621,10 +3621,6 @@
                         "enabled": true
                     },
                     {
-                        "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
-                        "enabled": false
-                    },
-                    {
                         "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
                         "enabled": true
                     },
@@ -3650,11 +3646,11 @@
                     },
                     {
                         "identifier": "b7d078d7-c431-4ce4-898e-b6decb75698d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "80488c06-1d0a-4a8a-88c1-cafe84f62d8f",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "aa0d4562-1814-4ac2-96fe-9c24588b2d24",
@@ -3686,7 +3682,7 @@
                     },
                     {
                         "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "7a93c8c9-d86b-4828-bcdd-1ab55e7bbae7",
@@ -3694,7 +3690,7 @@
                     },
                     {
                         "identifier": "d3f9e3c6-cc21-4913-9a94-4dfccfa3f1c4",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "9c667918-89db-4926-b5a4-1683fde0f7e3",
@@ -3717,10 +3713,6 @@
                         "enabled": false
                     },
                     {
-                        "identifier": "d219981f-4a6b-4e40-b38d-2e941e8529be",
-                        "enabled": true
-                    },
-                    {
                         "identifier": "bab814a0-9eb4-46d2-b55b-1c5e7908a238",
                         "enabled": false
                     },
@@ -3738,6 +3730,10 @@
                     },
                     {
                         "identifier": "9880daca-1c3a-4532-8004-ecc779b6c980",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "d219981f-4a6b-4e40-b38d-2e941e8529be",
                         "enabled": true
                     },
                     {
@@ -3758,11 +3754,11 @@
                     },
                     {
                         "identifier": "686f8ee0-1e5a-4449-80c9-1be64c6f893a",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "707efeba-0e59-4174-b537-811a22572560",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "e85e7b9b-0b2f-4350-9d13-a1014b6fafdc",
