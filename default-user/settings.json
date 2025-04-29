@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -602,108 +602,6 @@
         },
         "dice": {},
         "regex": [
-            {
-                "id": "68b90de3-6ea4-4fc0-90ac-453ad66fdd8c",
-                "scriptName": "【Kemini】移除大小思维链和免责声明",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/(<guifan>.*?</guifan>)|(<!-- State(.*?)d(.*?) -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<thinking?>[\\s\\S]*<\\/thinking?>(\\n)?)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "20113572-008e-4994-bf6a-926b97494871",
-                "scriptName": "【Kemini】添加tag",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "8b0122e2-332d-4928-ac01-c2cdbc67567b",
-                "scriptName": "【kemini】小总结1",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "7b11b968-1b33-4301-92e2-2c690d310160",
-                "scriptName": "【kemini】小总结2",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "63a78ae7-cddc-4ce1-bf24-ee0dc5daa66d",
-                "scriptName": "【kemini】省略号减少",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
-                "replaceString": "$1",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "f6e979b6-bbfd-4a2c-89de-0c43d6cf4b11",
-                "scriptName": "【kemini】去除过去用户输入",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
             {
                 "id": "59d4706c-4a9b-4868-91f3-28554631b135",
                 "scriptName": "【戏剧之王】置空用户输入（去除10楼以上user的输入）",
