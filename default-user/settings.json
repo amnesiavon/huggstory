@@ -671,6 +671,23 @@
                 "maxDepth": null
             },
             {
+                "id": "dc01696c-e801-41d5-870a-1bee48773644",
+                "scriptName": "【kemini】小总结2",
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 11,
+                "maxDepth": null
+            },
+            {
                 "id": "a1bf82a2-3c73-4977-8836-05461d4d0780",
                 "scriptName": "【戏剧之王】去除10楼之上的除摘要部分",
                 "disabled": true,
@@ -686,6 +703,23 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
+            },
+            {
+                "id": "e2114785-8595-4ea4-8deb-342103de02f9",
+                "scriptName": "【Kemini】添加tag",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
             },
             {
                 "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
@@ -790,23 +824,6 @@
                 "promptOnly": false
             },
             {
-                "id": "dc01696c-e801-41d5-870a-1bee48773644",
-                "scriptName": "【kemini】小总结2",
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null
-            },
-            {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
                 "scriptName": "美化省token",
                 "disabled": false,
@@ -822,23 +839,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "e2114785-8595-4ea4-8deb-342103de02f9",
-                "scriptName": "【Kemini】添加tag",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
             },
             {
                 "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
