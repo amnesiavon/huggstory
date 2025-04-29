@@ -950,6 +950,23 @@
                 "maxDepth": null
             },
             {
+                "id": "76a8bcb5-05cd-402b-a23d-c1966db826f7",
+                "scriptName": "【kemini】省略号减少",
+                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 1,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "9b3a2314-1f01-4672-9999-8910487b13f8",
                 "scriptName": "【看想法】原则和底线",
                 "disabled": false,
@@ -1188,23 +1205,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "76a8bcb5-05cd-402b-a23d-c1966db826f7",
-                "scriptName": "【kemini】省略号减少",
-                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
-                "replaceString": "$1",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 1,
-                "minDepth": null,
-                "maxDepth": null
             },
             {
                 "id": "dc01696c-e801-41d5-870a-1bee48773644",
