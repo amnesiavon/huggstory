@@ -739,6 +739,23 @@
                 "promptOnly": false
             },
             {
+                "id": "afdff3b5-9363-4529-a705-3595378acb9d",
+                "scriptName": "【kemini】去除过去用户输入",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null
+            },
+            {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
                 "scriptName": "美化省token",
                 "disabled": false,
@@ -756,6 +773,23 @@
                 "promptOnly": true
             },
             {
+                "id": "e2114785-8595-4ea4-8deb-342103de02f9",
+                "scriptName": "【Kemini】添加tag",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
                 "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
                 "scriptName": "置空thinking ",
                 "disabled": true,
@@ -771,6 +805,23 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": true
+            },
+            {
+                "id": "76a8bcb5-05cd-402b-a23d-c1966db826f7",
+                "scriptName": "【kemini】省略号减少",
+                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 1,
+                "minDepth": null,
+                "maxDepth": null
             },
             {
                 "id": "3222e6f2-8d5a-495c-b9ba-5446dc6c76ac",
@@ -931,57 +982,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": true
-            },
-            {
-                "id": "afdff3b5-9363-4529-a705-3595378acb9d",
-                "scriptName": "【kemini】去除过去用户输入",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null
-            },
-            {
-                "id": "76a8bcb5-05cd-402b-a23d-c1966db826f7",
-                "scriptName": "【kemini】省略号减少",
-                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
-                "replaceString": "$1",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 1,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "e2114785-8595-4ea4-8deb-342103de02f9",
-                "scriptName": "【Kemini】添加tag",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
             },
             {
                 "id": "dc01696c-e801-41d5-870a-1bee48773644",
