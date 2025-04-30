@@ -1036,6 +1036,57 @@
                 "promptOnly": false
             },
             {
+                "id": "adf7a44b-87ae-4874-ae74-ea4d446d81bb",
+                "scriptName": "【kemini】去除过去用户输入",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "f81bd4f3-a205-4924-8e90-7aa5241793eb",
+                "scriptName": "【kemini】小总结2",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 11,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "03300e5a-f4c5-43d0-b26b-8ebfcdf49759",
+                "scriptName": "【Kemini】移除大小思维链和免责声明",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/(<guifan>.*?</guifan>)|(<!-- State(.*?)d(.*?) -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<thinking?>[\\s\\S]*<\\/thinking?>(\\n)?)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
                 "id": "e9ce2b3d-ffdf-4aea-a087-cbd15d03c57d",
                 "scriptName": "多人手机界面4.8",
                 "disabled": false,
@@ -1172,57 +1223,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "adf7a44b-87ae-4874-ae74-ea4d446d81bb",
-                "scriptName": "【kemini】去除过去用户输入",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "f81bd4f3-a205-4924-8e90-7aa5241793eb",
-                "scriptName": "【kemini】小总结2",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "03300e5a-f4c5-43d0-b26b-8ebfcdf49759",
-                "scriptName": "【Kemini】移除大小思维链和免责声明",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/(<guifan>.*?</guifan>)|(<!-- State(.*?)d(.*?) -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<thinking?>[\\s\\S]*<\\/thinking?>(\\n)?)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
             },
             {
                 "id": "ab55e330-a9c4-498e-9ad2-0f8280fd4dad",
