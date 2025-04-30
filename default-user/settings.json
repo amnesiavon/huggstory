@@ -812,7 +812,7 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "findRegex": "/<jiucuot>[\\s\\S]*?<\\/jiucuo>/gs",
+                "findRegex": "/<jiucuot>[\\s\\S]*?<\\/jiucuo>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
@@ -1428,8 +1428,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 50334,
                 "LAST_SEND_CHARS": 102882,
-                "LAST_RECEIVE_TOKENS": 1770,
-                "LAST_RECEIVE_CHARS": 4047
+                "LAST_RECEIVE_TOKENS": 1952,
+                "LAST_RECEIVE_CHARS": 4322
             }
         },
         "attachments": [],
