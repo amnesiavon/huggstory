@@ -77,7 +77,8 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "文本效果增强"
+                "文本效果增强",
+                "针对2.5pro的瑟瑟场景"
             ],
             "charLore": []
         },
