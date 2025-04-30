@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -657,6 +657,23 @@
                 "promptOnly": true
             },
             {
+                "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
+                "scriptName": "隐藏纠错",
+                "findRegex": "/<jiucuo>(?![\\\\s\\\\S]*<\\\\/jiucuo>)[\\\\s\\\\S]*$/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 2,
+                "maxDepth": null
+            },
+            {
                 "id": "16ef537f-371b-4d57-8f5c-da2da49061cf",
                 "scriptName": "【kemini】小总结1",
                 "disabled": false,
@@ -808,23 +825,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
-                "scriptName": "隐藏纠错",
-                "findRegex": "/<jiucuo>(?![\\\\s\\\\S]*<\\\\/jiucuo>)[\\\\s\\\\S]*$/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null
             },
             {
                 "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
