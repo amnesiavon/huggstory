@@ -615,8 +615,8 @@
                     2
                 ],
                 "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
+                "markdownOnly": true,
+                "promptOnly": false,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
