@@ -861,6 +861,40 @@
                 "promptOnly": true
             },
             {
+                "id": "ab55e330-a9c4-498e-9ad2-0f8280fd4dad",
+                "scriptName": "【Kemini】添加tag",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "8dc0cd61-df39-4982-b17f-249b21cf922d",
+                "scriptName": "【kemini】省略号减少",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
                 "id": "7f06a374-be42-4e7d-937b-2af29058f9d7",
                 "scriptName": "[不发送]导航",
                 "disabled": true,
@@ -964,6 +998,23 @@
                 "substituteRegex": 0,
                 "minDepth": 5,
                 "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "16ef537f-371b-4d57-8f5c-da2da49061cf",
+                "scriptName": "【kemini】小总结1",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10,
                 "markdownOnly": false,
                 "promptOnly": true
             },
@@ -1085,57 +1136,6 @@
                 "maxDepth": 0,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "ab55e330-a9c4-498e-9ad2-0f8280fd4dad",
-                "scriptName": "【Kemini】添加tag",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "16ef537f-371b-4d57-8f5c-da2da49061cf",
-                "scriptName": "【kemini】小总结1",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "8dc0cd61-df39-4982-b17f-249b21cf922d",
-                "scriptName": "【kemini】省略号减少",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
-                "replaceString": "$1",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
             },
             {
                 "id": "e9ce2b3d-ffdf-4aea-a087-cbd15d03c57d",
