@@ -930,7 +930,7 @@
             {
                 "id": "ae21f6aa-400a-4d4b-b5e5-1ebc0dcbdc05",
                 "scriptName": "UI融合·论坛风格",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<wz>\\s*<bt>([\\s\\S]*?)<\\/bt>\\s*<zj>([\\s\\S]*?)<\\/zj>\\s*<pl>([\\s\\S]*?)<\\/pl>\\s*<\\/wz>/",
                 "replaceString": "<div style=\"background: rgba(255, 255, 255, 0.2); padding: 16px; margin: 24px auto; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; font-family: 'Microsoft YaHei', Arial, sans-serif; line-height: 1.75; backdrop-filter: blur(10px); box-shadow: 0 2px 6px rgba(0,0,0,0.15); max-width: 800px;\">\n    <div style=\"color: currentColor; font-size: 20px; font-weight: bold; text-align: center; border-bottom: 2px solid rgba(255, 255, 255, 0.4); padding-bottom: 10px; margin-bottom: 12px;\">\n        📖 $1\n    </div>\n    <div style=\"color: currentColor; font-size: 16px; text-align: center; font-style: italic; margin-bottom: 18px;\">\n        🪧 章节：$2\n    </div>\n    <details style=\"border: none;\">\n        <summary style=\"color: currentColor; font-weight: bold; font-size: 15px; margin-bottom: 8px; border-left: 4px solid rgba(255, 255, 255, 0.4); padding-left: 8px; cursor: pointer; outline: none;\">\n            💬 评论区（点击展开/收起）\n        </summary>\n        <div style=\"background: rgba(255, 255, 255, 0.3); border: 1px solid rgba(255, 255, 255, 0.4); padding: 12px; font-size: 14px; border-radius: 4px; max-height: 300px; overflow-y: auto; margin-top: 8px; backdrop-filter: blur(5px); color: currentColor;\">\n            $3\n        </div>\n    </details>\n</div>",
@@ -948,7 +948,7 @@
             {
                 "id": "021fc5b1-33ef-4bcd-9bf0-f639aeb0ddad",
                 "scriptName": "UI融合·评论",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<nr>([\\s\\S]*?)<\\/nr>/g",
                 "replaceString": "<div style=\"background: rgba(255, 255, 255, 0.15); padding: 10px; margin: 8px 0; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; color: var(--text-color, #5a3d2b); line-height: 1.6; font-family: 'Microsoft YaHei', Arial, sans-serif; font-size: 14px; backdrop-filter: blur(5px); box-sizing: border-box;\">\n    $1\n</div>",
@@ -1122,7 +1122,7 @@
             {
                 "id": "a0db4198-26d9-4936-8672-61c74e5a1ee9",
                 "scriptName": "会自动更新的手机",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
                 "replaceString": "```\n\n<body>\n    <script type=\"module\">\n\n\n        async function Load(params) {\n            // const html = await retrieve_raw(\"index.html\");\n            // if (!html) {\n            //     $(\"body\").html(html);\n            //     return;\n            // }\n            for (let i = 0; i < 3; i++) {\n                const response = await fetch(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n                const html = await response.text();\n                if (html) {\n                    console.log(html);\n                    $(\"body\").html(html);\n                    return;\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n            //$(\"body\").load(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n        }\n        Load();\n    </script>\n</body>\n```",
