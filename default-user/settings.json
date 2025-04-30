@@ -655,6 +655,23 @@
                 "promptOnly": true
             },
             {
+                "id": "16ef537f-371b-4d57-8f5c-da2da49061cf",
+                "scriptName": "【kemini】小总结1",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
                 "id": "f81bd4f3-a205-4924-8e90-7aa5241793eb",
                 "scriptName": "【kemini】小总结2",
                 "disabled": false,
@@ -998,23 +1015,6 @@
                 "substituteRegex": 0,
                 "minDepth": 5,
                 "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "16ef537f-371b-4d57-8f5c-da2da49061cf",
-                "scriptName": "【kemini】小总结1",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10,
                 "markdownOnly": false,
                 "promptOnly": true
             },
