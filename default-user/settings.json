@@ -810,6 +810,23 @@
                 "promptOnly": true
             },
             {
+                "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
+                "scriptName": "隐藏纠错",
+                "findRegex": "/<纠错>[IsIS]*?<\\/纠错>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 2,
+                "maxDepth": null
+            },
+            {
                 "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
                 "scriptName": "【戏剧之王】ai去除非最新楼层的</Main_Quest>",
                 "disabled": false,
@@ -1189,23 +1206,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
-                "scriptName": "隐藏纠错",
-                "findRegex": "/<纠错>[IsIS]*?<\\/纠错>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -1428,8 +1428,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 50164,
                 "LAST_SEND_CHARS": 102623,
-                "LAST_RECEIVE_TOKENS": 1754,
-                "LAST_RECEIVE_CHARS": 4071
+                "LAST_RECEIVE_TOKENS": 1631,
+                "LAST_RECEIVE_CHARS": 3894
             }
         },
         "attachments": [],
