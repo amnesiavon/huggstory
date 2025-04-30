@@ -1158,23 +1158,6 @@
                 "promptOnly": false
             },
             {
-                "id": "98591258-8eb1-4ad6-aefd-3f0cb1a76e30",
-                "scriptName": "淘宝",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/\\[商品\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
-                "replaceString": "<div class=\"product\" data-category=\"$2\">\n                        <div class=\"product-info\">\n                            <div class=\"product-name\">$1</div>\n                            <div class=\"product-price\">$3</div>\n                        </div>\n                    </div>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
-            },
-            {
                 "id": "0001876a-0304-4c56-a14a-e981372cac2a",
                 "scriptName": "user消息",
                 "disabled": false,
