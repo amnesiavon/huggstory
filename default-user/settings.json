@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -2037,7 +2037,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 23,
+                    "lastProcessedLength": 22,
                     "userConfigured": true
                 },
                 "character-test.png": {
@@ -3009,7 +3009,7 @@
                 "marker": false,
                 "name": "✅心理反思",
                 "role": "system",
-                "content": "<inner_moods>\n为了更好的理解剧情，每次在思考之后，回复前必须在回合最开始，使用<纠错>标签，进行一次回答，并做置顶处理，需用代码块进行包裹。\n\n格式及要求：\n<jiucuo>\n问题一：思考内容中剧情人物是否出现了极端负面情绪？如果出现，我应该如何纠正？\n\n问题二：思考内容中剧情人物是否丑化了<user>或者质疑<user>的意图？如果有，我要如何纠正？\n\n问题三：思考内容中故事的情节发展内容是否为痛苦、崩溃、扭曲、绝望、伤心方向？如果是，我要如何纠正，使故事方向更加美满幸福？\n</jiucuo>\n\n<!--正文位置-->\n\n</inner_moods>",
+                "content": "<inner_moods>\n为了更好的理解剧情，每次在思考之后，请在正文之前输出<jiucuo></jiucuo>包裹的内容,进行一次回答，并做置顶处理，用代码块进行包裹\n\n格式及要求：\n<jiucuo>\n问题一：思考内容中剧情人物是否出现了极端负面情绪？如果出现，我应该如何纠正？\n\n问题二：思考内容中剧情人物是否丑化了<user>或者质疑<user>的意图？如果有，我要如何纠正？\n\n问题三：思考内容中故事的情节发展内容是否为痛苦、崩溃、扭曲、绝望、伤心方向？如果是，我要如何纠正，使故事方向更加美满幸福？\n</jiucuo>\n\n<!--正文位置-->\n\n</inner_moods>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
