@@ -619,7 +619,7 @@
                 "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
-                "minDepth": 2,
+                "minDepth": null,
                 "maxDepth": null
             },
             {
