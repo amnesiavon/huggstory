@@ -1243,7 +1243,7 @@
             },
             {
                 "id": "16ef537f-371b-4d57-8f5c-da2da49061cf",
-                "scriptName": "小总结1",
+                "scriptName": "【kemini】小总结1",
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
                 "trimStrings": [],
@@ -1260,7 +1260,7 @@
             },
             {
                 "id": "8dc0cd61-df39-4982-b17f-249b21cf922d",
-                "scriptName": "省略号减少",
+                "scriptName": "【kemini】省略号减少",
                 "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
                 "replaceString": "$1",
                 "trimStrings": [],
