@@ -623,7 +623,7 @@
             {
                 "id": "03300e5a-f4c5-43d0-b26b-8ebfcdf49759",
                 "scriptName": "【Kemini】移除大小思维链和免责声明",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/(<guifan>.*?</guifan>)|(<!-- State(.*?)d(.*?) -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<thinking?>[\\s\\S]*<\\/thinking?>(\\n)?)/gs",
                 "replaceString": "",
@@ -640,7 +640,7 @@
             {
                 "id": "8dc0cd61-df39-4982-b17f-249b21cf922d",
                 "scriptName": "【kemini】省略号减少",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
                 "replaceString": "$1",
@@ -657,7 +657,7 @@
             {
                 "id": "16ef537f-371b-4d57-8f5c-da2da49061cf",
                 "scriptName": "【kemini】小总结1",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
@@ -691,7 +691,7 @@
             {
                 "id": "ab55e330-a9c4-498e-9ad2-0f8280fd4dad",
                 "scriptName": "【Kemini】添加tag",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
