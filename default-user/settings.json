@@ -604,23 +604,6 @@
         "dice": {},
         "regex": [
             {
-                "id": "afdff3b5-9363-4529-a705-3595378acb9d",
-                "scriptName": "【kemini】去除过去用户输入",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "b4fe947d-6cb9-4249-8452-336e89dd8367",
                 "scriptName": "【kemini】小总结1",
                 "disabled": false,
@@ -2352,7 +2335,7 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini 4.0 不卡cot 4",
+        "preset_settings_openai": "kemini 4.0不卡cot",
         "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
