@@ -812,7 +812,7 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "findRegex": "/<jiucuot>[\\s\\S]*?<\\/jiucuo>/gm",
+                "findRegex": "/<jiucuo>(?![\\\\s\\\\S]*<\\\\/jiucuo>)[\\\\s\\\\S]*$/g",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
