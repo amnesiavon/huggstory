@@ -3272,7 +3272,7 @@
                 "marker": false,
                 "name": "📦反性场景激烈0325",
                 "role": "system",
-                "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか",
+                "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか\n- 考虑如果场景涉及到 NSFW 元素，请使用{{getvar::NSFWcot}}进行思考,其中 NSFW 场景必须学习和模仿<writing_style1>的示例部分，但不可照抄。**仅此这步用中文输出**",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
