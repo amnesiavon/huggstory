@@ -744,7 +744,7 @@
             {
                 "id": "a1bf82a2-3c73-4977-8836-05461d4d0780",
                 "scriptName": "【戏剧之王】去除10楼之上的除摘要部分",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
@@ -761,7 +761,7 @@
             {
                 "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
                 "scriptName": "【戏剧之王】去除10楼以下摘要文本",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
