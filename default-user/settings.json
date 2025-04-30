@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -1426,8 +1426,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 50164,
-                "LAST_SEND_CHARS": 102623,
+                "LAST_SEND_TOKENS": 50222,
+                "LAST_SEND_CHARS": 102715,
                 "LAST_RECEIVE_TOKENS": 1625,
                 "LAST_RECEIVE_CHARS": 3888
             }
@@ -2037,7 +2037,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 22,
+                    "lastProcessedLength": 23,
                     "userConfigured": true
                 },
                 "character-test.png": {
