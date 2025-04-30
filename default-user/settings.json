@@ -1193,24 +1193,6 @@
                 "promptOnly": false
             },
             {
-                "id": "fc3d1767-c1e2-466d-ad2d-a105b5ee7f24",
-                "scriptName": "创建群聊",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/\\[创建群聊\\|(.*?)\\|(.*?)\\|(.*?)\\]/gm",
-                "replaceString": "<div class=\"qq-qun qq-qun-$1\">\n<div>\n<span class=\"qun-id\">$1</span><span class=\"qun-name\">$2</span><span class=\"qun-number\">$3</span>\n</div>\n</div>",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
-            },
-            {
                 "id": "ec014833-960b-4d09-b35e-d1e70426116d",
                 "scriptName": "对方消息",
                 "disabled": false,
