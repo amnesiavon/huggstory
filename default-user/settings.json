@@ -5,7 +5,7 @@
         "AlertWI_WorldofHorror.png": "true",
         "Proxy_SkipConfirm_1689603996807551": "true",
         "AlertWI_修仙玄幻世界.png": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
@@ -62,11 +62,13 @@
         "AlertRegex_绝望黎明：未知命运.png": "true",
         "AlertWI_罗落大陆.png": "true",
         "AlertRegex_罗落大陆.png": "true",
-        "world_info_sort_order": "13"
+        "world_info_sort_order": "13",
+        "AlertWI_可视化地图导航.png": "true",
+        "AlertRegex_可视化地图导航.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "罗落大陆.png",
+    "active_character": "可视化地图导航.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1306,7 +1308,8 @@
             "外置手机淘宝版（世界书开全局，正则全部改成全局）.png",
             "地图导航模块3.0.png",
             "绝望黎明：未知命运.png",
-            "罗落大陆.png"
+            "罗落大陆.png",
+            "可视化地图导航.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1496,8 +1499,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 30394,
                 "LAST_SEND_CHARS": 64526,
-                "LAST_RECEIVE_TOKENS": 1615,
-                "LAST_RECEIVE_CHARS": 3807
+                "LAST_RECEIVE_TOKENS": 1036,
+                "LAST_RECEIVE_CHARS": 1373
             }
         },
         "attachments": [],
@@ -2289,7 +2292,8 @@
         "地图导航模块3.0.png": [],
         "霍格兰德大陆.png": [],
         "绝望黎明：未知命运.png": [],
-        "罗落大陆.png": []
+        "罗落大陆.png": [],
+        "可视化地图导航.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
