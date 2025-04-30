@@ -1262,23 +1262,6 @@
                 "promptOnly": false
             },
             {
-                "id": "7e95b3b9-9c3b-4d43-9696-dde2efa017ad",
-                "scriptName": "群聊消息",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/\\[群聊消息\\|(.*?)\\|(.*?)\\|(.*?)\\|(.*?)\\]/gs",
-                "replaceString": "<div class=\"qun-cont qun-$1\">\n<div class=\"qun-hide\">\n<h2>$2</h2>\n<div class=qun-bg>\n<span>$3</span>\n<span>$4</span>\n</div>\n</div>\n </div>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
-            },
-            {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
                 "scriptName": "隐藏",
                 "disabled": false,
