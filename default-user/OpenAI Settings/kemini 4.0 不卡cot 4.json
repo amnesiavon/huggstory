@@ -16,8 +16,11 @@
     "perplexity_model": "llama-3.1-70b-instruct",
     "groq_model": "llama-3.1-70b-versatile",
     "zerooneai_model": "yi-large",
-    "blockentropy_model": "be-70b-base-llama3.1",
     "custom_model": "gemini-2.5-pro-exp-03-25",
+    "custom_url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "",
+    "custom_include_headers": "",
     "custom_prompt_post_processing": "semi",
     "google_model": "gemini-2.5-pro-exp-03-25",
     "temperature": 1.2,
@@ -39,6 +42,8 @@
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
     "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
@@ -952,7 +957,7 @@
             "marker": false,
             "name": "📦反性场景激烈0325",
             "role": "system",
-            "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか",
+            "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか\n- 考虑如果场景涉及到 NSFW 元素，请使用{{getvar::NSFWcot}}进行思考,其中 NSFW 场景必须学习和模仿<writing_style1>的示例部分，但不可照抄。**仅此这步用中文输出**",
             "injection_position": 0,
             "injection_depth": 4,
             "forbid_overrides": false
@@ -1517,7 +1522,7 @@
                 },
                 {
                     "identifier": "9880daca-1c3a-4532-8004-ecc779b6c980",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "d219981f-4a6b-4e40-b38d-2e941e8529be",
