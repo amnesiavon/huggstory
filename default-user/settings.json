@@ -3899,6 +3899,23 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
+            },
+            {
+                "id": "b30e3d5c-48e8-4a44-8a2e-00e7f10ed6a1",
+                "scriptName": "tablethink隐藏",
+                "findRegex": "/<tableThink\\b[^>]*>[\\s\\S]*?<\\/tableThink>/s",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
