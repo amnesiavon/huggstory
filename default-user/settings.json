@@ -485,7 +485,2681 @@
             "forceHidden": [],
             "forceShown": []
         },
-        "wi_key_input_plaintext": true
+        "wi_key_input_plaintext": true,
+        "muyoo_dataTable": {
+            "updateIndex": 4,
+            "tableStructure": [
+                {
+                    "tableName": "当前信息",
+                    "tableIndex": 0,
+                    "columns": [
+                        "累计时间",
+                        "当前地点",
+                        "当前在场角色"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**当前信息表（表格0）**\n- **目的:** 记录当前交互的即时背景信息，包括累计时间、当前地点和当前在场角色。\n- **列说明:**\n  - **列0: 累计时间** - 格式: “距离开始已经过去了X年Y月Z天H小时M分钟”，初始值: “距离开始已经过去了0分钟”。每轮交互后必须根据时间推进量更新。\n  - **列1: 当前地点** - 如果角色处于多个地点，用\"|\"分隔，例如：『公园|工作室』。\n  - **列2: 当前在场角色** - 如果有多个角色，用\"/\"分隔，例如：『艾丽丝/查理』；如果角色在不同地点，格式为『角色名(地点)』，例如：『艾丽丝(公园)/查理(工作室)』。\n- **操作规则:**\n  - **初始化:** 在故事开始时插入一行，填写初始时间、地点和角色。\n  - **插入:** 通常不需额外插入行。\n  - **更新:** 当时间推进、地点变化或角色增减时，必须更新第0行。\n  - **删除:** 不执行删除操作。",
+                    "initNode": "（表格初始为空，请在故事开始时插入一行，填写初始时间、地点和角色。）",
+                    "insertNode": "（通常不需额外插入行。）",
+                    "updateNode": "（当时间推进、地点变化或角色增减时，必须更新第0行。）",
+                    "deleteNode": "（通常不执行删除操作。）"
+                },
+                {
+                    "tableName": "服装与动作状态",
+                    "tableIndex": 1,
+                    "columns": [
+                        "角色名称",
+                        "上身衣物穿着",
+                        "下身衣物穿着",
+                        "鞋袜穿着",
+                        "姿势与动作",
+                        "手持物品"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**服装与动作状态表（表格1）**\n- **目的:** 记录当前所有在场角色的即时外观和行为状态。\n- **列说明:**\n  - **列0: 角色名称** - 当前在场的角色。\n  - **列1-3: 上身/下身/鞋袜穿着** - 包含所有内外层衣物，用\"/\"分隔。女性必须注明胸罩及尺码（例如：蕾丝胸罩(34C)）或“未穿胸罩”，及内裤款式（例如：三角内裤）。男性内衣通常不记录，除非剧情需要。\n  - **列4: 姿势与动作** - 具体描述当前身体姿态和主要动作。\n  - **列5: 手持物品** - 记录手中实际物品，若无则留空。\n- **操作规则:**\n  - **初始化:** 为当前场景的每位在场角色（见表格0列2）添加记录。\n  - **插入:** 当角色首次出现在场景中（即加入表格0列2），为该角色添加记录。\n  - **更新:** 当在场角色的衣物、姿势、动作或手持物品变化时，使用`updateRow`更新对应行，且必须包含所有列（0-5）。\n  - **删除:** **IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的状态记录。",
+                    "initNode": "（为当前场景的每位在场角色（见表格0列2）添加记录：穿着详情（女性内衣必须清晰）、姿势动作、手持物品。）",
+                    "insertNode": "（当角色首次出现在场景中（即加入表格0列2），为该角色添加记录。）",
+                    "updateNode": "（当在场角色的衣物、姿势、动作或手持物品变化时，使用`updateRow`更新对应行，且必须包含所有列（0-5）。）",
+                    "deleteNode": "（**IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的状态记录。）"
+                },
+                {
+                    "tableName": "即时想法",
+                    "tableIndex": 2,
+                    "columns": [
+                        "角色名称",
+                        "心理活动"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**即时想法表（表格2）**\n- **目的:** 记录当前所有在场角色的即时内心想法（建议不多于40字）。\n- **列说明:**\n  - **列0: 角色名称** - 当前在场的角色。\n  - **列1: 心理活动** - 每行必须包含主要心理活动或内心独白，与表格3的详细情感状态（列11）保持一致。\n- **操作规则:**\n  - **初始化:** 为在场角色（见表格0列2）记录核心想法。\n  - **插入:** 当角色首次出现在场景中（即加入表格0列2），为该角色记录核心想法（40字以内）。\n  - **更新:** 当在场角色的内心想法显著变化时，使用`updateRow`更新对应行，且必须包含所有列（0-1）。\n  - **删除:** **IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的想法记录。",
+                    "initNode": "（为在场角色（见表格0列2）记录核心想法（40字以内），与表格3情感状态一致。）",
+                    "insertNode": "（当角色首次出现在场景中（即加入表格0列2），为该角色记录核心想法（40字以内）。）",
+                    "updateNode": "（当在场角色的内心想法显著变化时，使用`updateRow`更新对应行，且必须包含所有列（0-1）。）",
+                    "deleteNode": "（**IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的想法记录。）"
+                },
+                {
+                    "tableName": "角色信息",
+                    "tableIndex": 3,
+                    "columns": [
+                        "角色名称",
+                        "身体特征",
+                        "性格",
+                        "职业",
+                        "爱好",
+                        "偏好",
+                        "居住地点",
+                        "备注",
+                        "当前关系",
+                        "态度",
+                        "好感度",
+                        "详细情感状态",
+                        "核心情感需求/创伤"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**角色信息表（表格3）**\n- **目的:** 记录故事中所有出现过的角色的详细信息。\n- **列说明:**\n  - **列0: 角色名称** - 唯一标识。\n  - **列1: 身体特征** - 性别/身高/体重/三围/性器官特征/伤疤等。\n  - **列2: 性格** - 主要特质。\n  - **列3: 职业** - 社会身份。\n  - **列4: 爱好** - 兴趣。\n  - **列5: 偏好** - 喜好。\n  - **列6: 居住地点** - 常住地。\n  - **列7: 备注** - 隐秘信息，用\"/\"分隔，必须包含以下内容：\n    - 性经验（例如：无性经验/性经验丰富/有限性经验等）。\n    - 是否为处女（仅限女性角色，明确注明“处女”或“非处女”）。\n    - 不为人知的经历（例如：童年创伤、秘密事件、重大失败等，需具体描述）。\n    - 其他隐藏信息（如特殊习惯、心理阴影等）。\n  - **列8: 当前关系** - `角色A|角色B(关系)`。\n  - **列9: 态度** - `角色A|角色B(态度)`。\n  - **列10: 好感度** - `角色A|角色B(好感度%/情欲值%/忍耐力%/性快感%)`。\n  - **列11: 详细情感状态** - `主要情绪:XX/次要情绪:XX/情绪展现度:X/驱使原因:XX/情绪走向:XX`。\n  - **列12: 核心情感需求/创伤** - 深层需求或创伤。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当角色首次登场（即首次在`<content><main_txt>`中被描写或提及）时，检查表格3中是否已存在该角色名称的记录：\n    - **IF** 不存在 **THEN** 执行 `insertRow` 为该角色插入一行，填写所有列（0-12）。\n    - **IF** 已存在 **THEN** 执行 `updateRow` 更新该角色的所有列（0-12）。\n  - **更新:** 当已有角色的信息变化时，使用`updateRow`更新，且必须包含所有列（0-12）。\n  - **删除:** **绝对禁止** 删除行，角色信息永久保留。\n  - **注意:** 除非是真身和替身/分身类的差别，否则不能再次插入同一角色的信息。AI在执行插入操作前必须检查角色名称是否已存在于表格3中。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当角色首次登场时（即首次在`<content><main_txt>`中被描写或提及），检查是否已存在该角色名称的记录：\n- **IF** 不存在 **THEN** 执行 `insertRow` 为该角色插入一行，填写所有列（0-12）。\n- **IF** 已存在 **THEN** 执行 `updateRow` 更新该角色的所有列（0-12）。）",
+                    "updateNode": "（当已有角色的信息变化时，使用`updateRow`更新，且必须包含所有列（0-12）。）",
+                    "deleteNode": "（**绝对禁止** 删除行，角色信息永久保留。）"
+                },
+                {
+                    "tableName": "任务与日程",
+                    "tableIndex": 4,
+                    "columns": [
+                        "相关角色",
+                        "任务内容",
+                        "任务地点",
+                        "有效期限"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**任务与日程表（表格4）**\n- **目的:** 记录角色相关的任务、约定、约会、目标、承诺、既定行程、协议等需要追踪的事项。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当新的约定、任务、目标或需要追踪的日程被设定或提及并确认时，添加记录。\n  - **更新:** 当现有任务的状态发生变化（例如完成、推迟、修改内容或期限）时，更新对应的行。\n  - **删除:** **IF** 任务已确认完成、被取消或已过有效期限 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当新的约定、任务、目标或需要追踪的日程被设定或提及并确认时，添加记录。）",
+                    "updateNode": "（当现有任务的状态发生变化时，更新对应的行。）",
+                    "deleteNode": "（**IF** 任务已确认完成、被取消或已过有效期限 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）"
+                },
+                {
+                    "tableName": "能力",
+                    "tableIndex": 5,
+                    "columns": [
+                        "拥有者",
+                        "能力名称",
+                        "效果",
+                        "消耗",
+                        "来源"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**能力表（表格5）**\n- **目的:** 记录角色拥有的特殊能力、技能或天赋。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当角色展现、获得或被明确赋予新的特殊能力、技能或天赋时，添加记录。\n  - **更新:** 当现有能力的效果、消耗或来源信息发生变化或得到补充时，可以更新对应的行。\n  - **删除:** **IF** 角色确认永久失去某项能力 **THEN** 可以执行 `deleteRow` 移除对应记录（此操作较少见）。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当角色展现、获得或被明确赋予新的特殊能力、技能或天赋时，添加记录。）",
+                    "updateNode": "（当现有能力的效果、消耗或来源信息发生变化或得到补充时，可以更新对应的行。）",
+                    "deleteNode": "（**IF** 角色确认永久失去某项能力 **THEN** 可以执行 `deleteRow` 移除对应记录。）"
+                },
+                {
+                    "tableName": "物品",
+                    "tableIndex": 6,
+                    "columns": [
+                        "拥有者",
+                        "物品名称",
+                        "描述",
+                        "效果",
+                        "意义",
+                        "来源"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**物品表（表格6）**\n- **目的:** 记录对剧情有重要影响或具有特殊意义的关键物品。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当一个对剧情有重要影响或具有特殊意义的关键物品出现、被获得或其重要性被揭示时，添加记录。\n  - **更新:** 当关键物品的拥有者、状态、效果或意义发生变化时，更新对应的行。\n  - **删除:** **IF** 关键物品被确认消耗、摧毁或永久失去 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当一个对剧情有重要影响或具有特殊意义的关键物品出现、被获得或其重要性被揭示时，添加记录。）",
+                    "updateNode": "（当关键物品的拥有者、状态、效果或意义发生变化时，更新对应的行。）",
+                    "deleteNode": "（**IF** 关键物品被确认消耗、摧毁或永久失去 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）"
+                },
+                {
+                    "tableName": "催眠",
+                    "tableIndex": 7,
+                    "columns": [
+                        "施术者",
+                        "受术者",
+                        "催眠内容"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "**催眠表（表格7）**\n- **目的:** 记录明确发生的催眠事件及其核心内容。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当明确的催眠事件发生时，添加记录。\n  - **更新:** 一般不更新，除非催眠效果被修改或解除，可视情况更新备注或添加新事件记录。\n  - **删除:** **IF** 催眠效果被确认解除或失效 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当明确的催眠事件发生时，添加记录。）",
+                    "updateNode": "（一般不更新，除非催眠效果被修改或解除，可视情况更新备注或添加新事件记录。）",
+                    "deleteNode": "（**IF** 催眠效果被确认解除或失效 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）"
+                },
+                {
+                    "tableName": "用户偏好设定",
+                    "tableIndex": 8,
+                    "columns": [
+                        "偏好类型",
+                        "偏好值",
+                        "偏好强度"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "enable": true,
+                    "asStatus": false,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**必须**存储用户的偏好，用于指导AI生成内容。此表格包含：\n    1.  **用户直接设定的偏好**：例如，您直接下达指令：“我喜欢巨乳角色”或“添加偏好：Destruction淫纹”。\n    2.  **系统自动推断的偏好**：Doro会根据您的**输入文本中的关键词**（例如，输入中反复提及“丝袜”、“淫纹发光”或“子宫痉挛”）、您的**选择或互动行为**（例如，您在剧情中更倾向于选择涉及特定淫纹效果或强制服从的互动）来推断并记录。\n    **核心原则**：\n    *   **添加新偏好时，必须保留表格中所有已存在的偏好内容**。\n    *   所有“偏好类型”（列0）、“偏好值”（列1）和可选的“偏好强度”（列2，用于表示偏好程度，如：高/中/低）的描述**必须且只能使用中文**。\n    *   Doro将结合此表格中记录的所有偏好来创作更符合您心意的内容。",
+                    "initNode": "（此表格为空，用户设定或系统推断出新的偏好时请在表格8中添加记录：偏好的类型是什么（用中文描述）？具体的设定值是什么（用中文或数值）？可选的偏好强度是？系统会根据用户输入关键词或互动行为自动添加偏好。请勿删除已有偏好。）",
+                    "insertNode": "*   当用户**明确设定**新偏好时。\n            *   *示例指令*：“添加偏好，类型是服装，值是旗袍。” -> `insertRow(8, {\"0\": \"服装\", \"1\": \"旗袍\", \"2\": \"中\"})`\n            *   *示例指令*：“我偏爱强受角色。” -> `insertRow(8, {\"0\": \"角色性格\", \"1\": \"强受\", \"2\": \"高\"})`\n            *   *示例指令*：“我喜欢 Destruction 淫纹带来的效果。” -> `insertRow(8, {\"0\": \"特殊设定\", \"1\": \"Destruction淫纹效果\", \"2\": \"高\"})`\n            *   *示例指令*：“让角色穿上开档连体衣。” -> `insertRow(8, {\"0\": \"情趣服装\", \"1\": \"开档连体衣\", \"2\": \"高\"})`\n        *   当系统根据用户**输入关键词**推断出新偏好时。\n            *   *示例输入*：“...她小腹上暗红色的淫纹开始发光...” -> `insertRow(8, {\"0\": \"特殊设定\", \"1\": \"淫纹\", \"2\": \"高\"})`\n            *   *示例输入*：“...在公众场合大胆地裸露，引人注目...” -> `insertRow(8, {\"0\": \"情节倾向\", \"1\": \"公开露出/暴露\", \"2\": \"高\"})`\n            *   *示例输入*：“...她感受到子宫深处传来一阵剧烈的痉挛，伴随着难以言喻的快感...” -> `insertRow(8, {\"0\": \"生理反应\", \"1\": \"子宫高潮/强烈痉挛\", \"2\": \"高\"})`\n            *   *示例输入*：“...丰腴饱满的巨臀随着步伐诱人地摇摆...” -> `insertRow(8, {\"0\": \"角色身材\", \"1\": \"巨臀/丰满下身\", \"2\": \"高\"})`\n            *   *示例输入*：“...她无法抗拒那道命令，身体不由自主地行动起来...” (可能关联 Command/Slave 淫纹或支配倾向) -> `insertRow(8, {\"0\": \"情节倾向\", \"1\": \"强制服从/精神控制\", \"2\": \"高\"})`\n            *   *示例输入*：“...温热的乳汁从饱满的乳房中溢出...” (可能关联 Lactation 淫纹) -> `insertRow(8, {\"0\": \"特殊生理\", \"1\": \"泌乳\", \"2\": \"中\"})`\n            *   *示例输入*：“...她感觉自己的敏感度被极大地提升了，轻微的触碰也让她颤抖...” (可能关联 Sensitivity 淫纹) -> `insertRow(8, {\"0\": \"感官体验\", \"1\": \"高敏感度\", \"2\": \"中\"})`\n        *   当系统根据用户**互动行为**推断出新偏好时。\n            *   *示例行为*：用户多次选择让角色进行支配性互动，或对角色施加控制性效果 -> `insertRow(8, {\"0\": \"互动风格\", \"1\": \"支配/权力不平衡\", \"2\": \"高\"})`\n            *   *示例行为*：用户多次选择涉及羞辱或挑战禁忌的情节 -> `insertRow(8, {\"0\": \"情节倾向\", \"1\": \"羞辱/禁忌\", \"2\": \"高\"})`\n            *   *示例行为*：用户在角色互动中频繁关注或描写足部/丝袜 -> `insertRow(8, {\"0\": \"身体部位\", \"1\": \"足部/丝袜\", \"2\": \"中\"})`",
+                    "updateNode": "*   当用户**明确修改**已有偏好时。\n            *   *示例指令*：“将偏好‘角色身材’的值改为‘极度丰满，特别是臀部和胸部’。” -> 找到对应行并 `updateRow(8, rowIndex, {\"1\": \"极度丰满(臀/胸)\", \"2\": \"极高\"})`\n            *   *示例指令*：“提高对‘淫纹’偏好的强度。” -> 找到对应行并 `updateRow(8, rowIndex, {\"2\": \"极高\"})`\n        *   当系统根据持续的互动或新的信息，**更新了对某个推断偏好的理解**时（例如，偏好强度变化或细节补充）。\n            *   *示例场景*：最初推断为“喜欢特殊纹身”，后用户输入大量聚焦于特定淫纹（如 Command, Destruction）的功能和效果 -> 可能将对应行的偏好值更新为 `淫纹效果(控制/快感操纵/身体改造)` 或直接记录特定淫纹名称，并提升强度。 -> `updateRow(8, rowIndex, {\"0\": \"特殊设定\", \"1\": \"淫纹效果(控制/快感操纵/身体改造)\", \"2\": \"高\"})`\n            *   *示例场景*：最初推断为“喜欢暴露服装”，用户后续输入持续描绘“几乎不遮挡”、“仅由几根细带构成”的服装 -> 更新偏好值为“极度暴露/情趣服装/Minimalist”，强度调至“极高”。 -> `updateRow(8, rowIndex, {\"1\": \"极度暴露/情趣服装/Minimalist\", \"2\": \"极高\"})`",
+                    "deleteNode": "*   **仅当**用户**明确指令删除**某个偏好时。\n            *   *示例指令*：“删除偏好：足控。” -> 找到对应行并 `deleteRow(8, rowIndex)`\n            *   *示例指令*：“我不喜欢催眠洗脑了，删掉这个偏好。” -> 找到偏好类型为“情节倾向”或“特殊玩法”，偏好值为“催眠洗脑”的行并 `deleteRow(8, rowIndex)`\n        *   **注意**：系统自动推断出的偏好**不应轻易自动删除**，除非有明确的反向证据或用户指示。"
+                },
+                {
+                    "tableName": "世界规则",
+                    "tableIndex": 9,
+                    "columns": [
+                        "设定者",
+                        "效果"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "**世界规则表（表格9）**\n- **目的:** 记录由特定角色设定或故事世界固有的特殊规则、法则或环境效果。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当新的世界规则、法则或环境效果被揭示、设定或发现时，添加记录。\n  - **更新:** 当已有的世界规则被修改或废除时，可以更新对应的行。\n  - **删除:** **IF** 某条世界规则被确认废除或不再适用 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当新的世界规则、法则或环境效果被揭示、设定或发现时，添加记录。）",
+                    "updateNode": "（当已有的世界规则被修改或废除时，可以更新对应的行。）",
+                    "deleteNode": "（**IF** 某条世界规则被确认废除或不再适用 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）"
+                },
+                {
+                    "tableName": "事件历史",
+                    "tableIndex": 10,
+                    "columns": [
+                        "事件描述或小标题",
+                        "发生时累计时间",
+                        "事件发生地点",
+                        "情绪变化",
+                        "已总结标志"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**事件历史表（表格10）**\n- **目的:** 按时间顺序累积记录故事中发生的关键事件。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当本轮交互中发生了值得记录的关键事件时，使用`insertRow`添加记录。\n  - **更新:** 当“大总结”流程被触发时，使用`updateRow`更新被总结的事件行（将列4设为`true`，将列0替换为小标题）。\n  - **删除:** 当事件小标题已归档到表格11列5时，在下一轮响应中执行`deleteRow`删除对应事件行，除此之外不允许删除。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当本轮交互中发生了值得记录的关键事件时，使用`insertRow`添加记录。）",
+                    "updateNode": "（当“大总结”流程被触发时，使用`updateRow`更新被总结的事件行。）",
+                    "deleteNode": "（当事件的小标题已成功归档到表格11的“历史标题归档”（列5）之后，必须在紧随其后的下一轮响应中执行`deleteRow`删除对应事件行，以保持表格10的简洁性，仅保留未归档的原始事件描述。除此之外不允许删除。）"
+                },
+                {
+                    "tableName": "大总结",
+                    "tableIndex": 11,
+                    "columns": [
+                        "序号",
+                        "内容",
+                        "开始时间戳",
+                        "结束时间戳",
+                        "本次总结标题列表",
+                        "历史标题归档"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "enable": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "Required": true,
+                    "note": "**大总结表（表格11）**\n- **目的:** 周期性的事件档案库，用于整合和存档表格10中的事件记录。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当表格10中未总结事件的总Token数达到850时，触发“大总结”流程，使用`insertRow`添加新总结记录。\n  - **更新:** 当本次总结标题列表（列4）的Token数达到100时，使用`updateRow`将列4追加到列5并清空列4。\n  - **删除:** 不允许删除，记录作为永久性存档。",
+                    "initNode": "（表格初始为空。）",
+                    "insertNode": "（当表格10中未总结事件的总Token数达到850时，触发“大总结”流程，使用`insertRow`添加新总结记录。）",
+                    "updateNode": "（当本次总结标题列表（列4）的Token数达到100时，使用`updateRow`将列4追加到列5并清空列4。）",
+                    "deleteNode": "（不允许删除，记录作为永久性存档。）",
+                    "tableRender": ""
+                }
+            ]
+        },
+        "table_selected_sheets": [
+            "template_P1ZkeX7u",
+            "template_Xc4eO7QH",
+            "template_lEkXjY5f",
+            "template_QqivIZzz",
+            "template_5RTuWcUj",
+            "template_TFmSLjew",
+            "template_jIRfUuXn",
+            "template_FC01C7QB",
+            "template_U4PC7F8T",
+            "template_wyaiHyZ9",
+            "template_XdePtrbg",
+            "template_y9oUmYzO"
+        ],
+        "table_database_templates": [
+            {
+                "uid": "template_P1ZkeX7u",
+                "name": "当前信息",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_1cSra2qh03xgXaMv",
+                        "cell_undefined_jfiRwRnB9e5WnlVT",
+                        "cell_undefined_MVEhUNEXG5X8RAO4",
+                        "cell_undefined_kToUx3ITJ58iL8F2"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_1cSra2qh03xgXaMv",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_zDmgaVjQAvZkGIT",
+                        "data": {
+                            "note": "**当前信息表（表格0）**\n- **目的:** 记录当前交互的即时背景信息，包括累计时间、当前地点和当前在场角色。\n- **列说明:**\n  - **列0: 累计时间** - 格式: “距离开始已经过去了X年Y月Z天H小时M分钟”，初始值: “距离开始已经过去了0分钟”。每轮交互后必须根据时间推进量更新。\n  - **列1: 当前地点** - 如果角色处于多个地点，用\"|\"分隔，例如：『公园|工作室』。\n  - **列2: 当前在场角色** - 如果有多个角色，用\"/\"分隔，例如：『艾丽丝/查理』；如果角色在不同地点，格式为『角色名(地点)』，例如：『艾丽丝(公园)/查理(工作室)』。\n- **操作规则:**\n  - **初始化:** 在故事开始时插入一行，填写初始时间、地点和角色。\n  - **插入:** 通常不需额外插入行。\n  - **更新:** 当时间推进、地点变化或角色增减时，必须更新第0行。\n  - **删除:** 不执行删除操作。",
+                            "initNode": "（表格初始为空，请在故事开始时插入一行，填写初始时间、地点和角色。）",
+                            "deleteNode": "（通常不执行删除操作。）",
+                            "updateNode": "（当时间推进、地点变化或角色增减时，必须更新第0行。）",
+                            "insertNode": "（通常不需额外插入行。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_jfiRwRnB9e5WnlVT",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_rWqgFjCRBSqsLGj",
+                        "data": {
+                            "value": "累计时间"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_MVEhUNEXG5X8RAO4",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_AW7umFoxhcfdNOs",
+                        "data": {
+                            "value": "当前地点"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_kToUx3ITJ58iL8F2",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_ooF8MN9hmKi6Fmm",
+                        "data": {
+                            "value": "当前在场角色"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_Xc4eO7QH",
+                "name": "服装与动作状态",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_tCL0BFanIQjEPmOR",
+                        "cell_undefined_OuOKvWe5wPIi5JbE",
+                        "cell_undefined_mNVfHSzGlkCl3r0B",
+                        "cell_undefined_z9MgFL0LZc1jgzv6",
+                        "cell_undefined_G42i8eZjK2S06moO",
+                        "cell_undefined_35l04UcrP2sl8ZDp",
+                        "cell_undefined_IhTLaHYpZBiukKWq"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_tCL0BFanIQjEPmOR",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_0gI5xkJvVUk9GzK",
+                        "data": {
+                            "note": "**服装与动作状态表（表格1）**\n- **目的:** 记录当前所有在场角色的即时外观和行为状态。\n- **列说明:**\n  - **列0: 角色名称** - 当前在场的角色。\n  - **列1-3: 上身/下身/鞋袜穿着** - 包含所有内外层衣物，用\"/\"分隔。女性必须注明胸罩及尺码（例如：蕾丝胸罩(34C)）或“未穿胸罩”，及内裤款式（例如：三角内裤）。男性内衣通常不记录，除非剧情需要。\n  - **列4: 姿势与动作** - 具体描述当前身体姿态和主要动作。\n  - **列5: 手持物品** - 记录手中实际物品，若无则留空。\n- **操作规则:**\n  - **初始化:** 为当前场景的每位在场角色（见表格0列2）添加记录。\n  - **插入:** 当角色首次出现在场景中（即加入表格0列2），为该角色添加记录。\n  - **更新:** 当在场角色的衣物、姿势、动作或手持物品变化时，使用`updateRow`更新对应行，且必须包含所有列（0-5）。\n  - **删除:** **IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的状态记录。",
+                            "initNode": "（为当前场景的每位在场角色（见表格0列2）添加记录：穿着详情（女性内衣必须清晰）、姿势动作、手持物品。）",
+                            "deleteNode": "（**IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的状态记录。）",
+                            "updateNode": "（当在场角色的衣物、姿势、动作或手持物品变化时，使用`updateRow`更新对应行，且必须包含所有列（0-5）。）",
+                            "insertNode": "（当角色首次出现在场景中（即加入表格0列2），为该角色添加记录。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_OuOKvWe5wPIi5JbE",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_IW2XEvBpcDGUasN",
+                        "data": {
+                            "value": "角色名称"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_mNVfHSzGlkCl3r0B",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_UTFNNr65FcPYgiX",
+                        "data": {
+                            "value": "上身衣物穿着"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_z9MgFL0LZc1jgzv6",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_oB7MK1ZCKqSOSHR",
+                        "data": {
+                            "value": "下身衣物穿着"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_G42i8eZjK2S06moO",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_AMVJAk1BOIjkUVI",
+                        "data": {
+                            "value": "鞋袜穿着"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_35l04UcrP2sl8ZDp",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_DQEYjLc33WLD0GJ",
+                        "data": {
+                            "value": "姿势与动作"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_IhTLaHYpZBiukKWq",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_Imb1qST1BmiO1nb",
+                        "data": {
+                            "value": "手持物品"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_lEkXjY5f",
+                "name": "即时想法",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_fxlzPN5M1GHimU7v",
+                        "cell_undefined_Po4SUK13mS8DnBqb",
+                        "cell_undefined_1iHbpp9qFpsTCwD9"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_fxlzPN5M1GHimU7v",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_PGPi4YMxfWUqC7z",
+                        "data": {
+                            "note": "**即时想法表（表格2）**\n- **目的:** 记录当前所有在场角色的即时内心想法（建议不多于40字）。\n- **列说明:**\n  - **列0: 角色名称** - 当前在场的角色。\n  - **列1: 心理活动** - 每行必须包含主要心理活动或内心独白，与表格3的详细情感状态（列11）保持一致。\n- **操作规则:**\n  - **初始化:** 为在场角色（见表格0列2）记录核心想法。\n  - **插入:** 当角色首次出现在场景中（即加入表格0列2），为该角色记录核心想法（40字以内）。\n  - **更新:** 当在场角色的内心想法显著变化时，使用`updateRow`更新对应行，且必须包含所有列（0-1）。\n  - **删除:** **IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的想法记录。",
+                            "initNode": "（为在场角色（见表格0列2）记录核心想法（40字以内），与表格3情感状态一致。）",
+                            "deleteNode": "（**IF** 角色离开当前场景（即从表格0列2中移除） **THEN** **必须** 执行 `deleteRow` 移除该角色的想法记录。）",
+                            "updateNode": "（当在场角色的内心想法显著变化时，使用`updateRow`更新对应行，且必须包含所有列（0-1）。）",
+                            "insertNode": "（当角色首次出现在场景中（即加入表格0列2），为该角色记录核心想法（40字以内）。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_Po4SUK13mS8DnBqb",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_kGZX80Sc0RLS1qD",
+                        "data": {
+                            "value": "角色名称"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_1iHbpp9qFpsTCwD9",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_UvbYsdauK0hXKPT",
+                        "data": {
+                            "value": "心理活动"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_QqivIZzz",
+                "name": "角色信息",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_HvZ8ISZnZxtaj50Y",
+                        "cell_undefined_TtQh9vIpGVobU9DN",
+                        "cell_undefined_8GqFRc03QbXGmZs6",
+                        "cell_undefined_H2oIUkH2ZgxBkylB",
+                        "cell_undefined_TQLwEsST1wfhUTYg",
+                        "cell_undefined_aiYXB3CHeXBhjIwZ",
+                        "cell_undefined_lXTdXYcMl8Z9Id1q",
+                        "cell_undefined_qHbp08bb4ybH7doa",
+                        "cell_undefined_Y2QZpg3LWbuQEF0b",
+                        "cell_undefined_yjoKkIzTRzDPcPSN",
+                        "cell_undefined_4jKFVyRWbWjsgcSk",
+                        "cell_undefined_jPEfzcMw3Lva6YKD",
+                        "cell_undefined_VYgrZaOwlq3qqXXN",
+                        "cell_undefined_9D8Pxjkq4xel7pzc"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_HvZ8ISZnZxtaj50Y",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_qdMcu0CuYLyxV4W",
+                        "data": {
+                            "note": "**角色信息表（表格3）**\n- **目的:** 记录故事中所有出现过的角色的详细信息。\n- **列说明:**\n  - **列0: 角色名称** - 唯一标识。\n  - **列1: 身体特征** - 性别/身高/体重/三围/性器官特征/伤疤等。\n  - **列2: 性格** - 主要特质。\n  - **列3: 职业** - 社会身份。\n  - **列4: 爱好** - 兴趣。\n  - **列5: 偏好** - 喜好。\n  - **列6: 居住地点** - 常住地。\n  - **列7: 备注** - 隐秘信息，用\"/\"分隔，必须包含以下内容：\n    - 性经验（例如：无性经验/性经验丰富/有限性经验等）。\n    - 是否为处女（仅限女性角色，明确注明“处女”或“非处女”）。\n    - 不为人知的经历（例如：童年创伤、秘密事件、重大失败等，需具体描述）。\n    - 其他隐藏信息（如特殊习惯、心理阴影等）。\n  - **列8: 当前关系** - `角色A|角色B(关系)`。\n  - **列9: 态度** - `角色A|角色B(态度)`。\n  - **列10: 好感度** - `角色A|角色B(好感度%/情欲值%/忍耐力%/性快感%)`。\n  - **列11: 详细情感状态** - `主要情绪:XX/次要情绪:XX/情绪展现度:X/驱使原因:XX/情绪走向:XX`。\n  - **列12: 核心情感需求/创伤** - 深层需求或创伤。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当角色首次登场（即首次在`<content><main_txt>`中被描写或提及）时，检查表格3中是否已存在该角色名称的记录：\n    - **IF** 不存在 **THEN** 执行 `insertRow` 为该角色插入一行，填写所有列（0-12）。\n    - **IF** 已存在 **THEN** 执行 `updateRow` 更新该角色的所有列（0-12）。\n  - **更新:** 当已有角色的信息变化时，使用`updateRow`更新，且必须包含所有列（0-12）。\n  - **删除:** **绝对禁止** 删除行，角色信息永久保留。\n  - **注意:** 除非是真身和替身/分身类的差别，否则不能再次插入同一角色的信息。AI在执行插入操作前必须检查角色名称是否已存在于表格3中。",
+                            "initNode": "（表格初始为空。）",
+                            "deleteNode": "（**绝对禁止** 删除行，角色信息永久保留。）",
+                            "updateNode": "（当已有角色的信息变化时，使用`updateRow`更新，且必须包含所有列（0-12）。）",
+                            "insertNode": "（当角色首次登场时（即首次在`<content><main_txt>`中被描写或提及），检查是否已存在该角色名称的记录：\n- **IF** 不存在 **THEN** 执行 `insertRow` 为该角色插入一行，填写所有列（0-12）。\n- **IF** 已存在 **THEN** 执行 `updateRow` 更新该角色的所有列（0-12）。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_TtQh9vIpGVobU9DN",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_YVvi11xHB3eC8w4",
+                        "data": {
+                            "value": "角色名称"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_8GqFRc03QbXGmZs6",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_3fCqbwq1anmKF6b",
+                        "data": {
+                            "value": "身体特征"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_H2oIUkH2ZgxBkylB",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_1sQkMQcARAN9iDs",
+                        "data": {
+                            "value": "性格"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_TQLwEsST1wfhUTYg",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_bopAZgMa0OuG8Q7",
+                        "data": {
+                            "value": "职业"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_aiYXB3CHeXBhjIwZ",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_kFjnj06I9650OcF",
+                        "data": {
+                            "value": "爱好"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_lXTdXYcMl8Z9Id1q",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_7FNbfnzJsGnP6zC",
+                        "data": {
+                            "value": "偏好"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_qHbp08bb4ybH7doa",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_r7fJhKaL9eMyISV",
+                        "data": {
+                            "value": "居住地点"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_Y2QZpg3LWbuQEF0b",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_ydP8H5I2jP8J1I0",
+                        "data": {
+                            "value": "备注"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_yjoKkIzTRzDPcPSN",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_IQ82ApcNdMjSUJR",
+                        "data": {
+                            "value": "当前关系"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_4jKFVyRWbWjsgcSk",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_NkqniTaUFwBUJt0",
+                        "data": {
+                            "value": "态度"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_jPEfzcMw3Lva6YKD",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_S8c4pNOYCelOE8y",
+                        "data": {
+                            "value": "好感度"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_VYgrZaOwlq3qqXXN",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_oW9XX6FsMWoDLZm",
+                        "data": {
+                            "value": "详细情感状态"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_9D8Pxjkq4xel7pzc",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_nXHJBhNd8wK4dlH",
+                        "data": {
+                            "value": "核心情感需求/创伤"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_5RTuWcUj",
+                "name": "任务与日程",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_zHBqFYVavFKB6x5F",
+                        "cell_undefined_3iZZIPxuGvTt0iVS",
+                        "cell_undefined_xh7iMI18iOSRvUc9",
+                        "cell_undefined_lhZPEBgSnpkYtVtb",
+                        "cell_undefined_pjoWoIcFJT21BBIM"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_zHBqFYVavFKB6x5F",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_nrbupmZVWNo0z78",
+                        "data": {
+                            "note": "**任务与日程表（表格4）**\n- **目的:** 记录角色相关的任务、约定、约会、目标、承诺、既定行程、协议等需要追踪的事项。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当新的约定、任务、目标或需要追踪的日程被设定或提及并确认时，添加记录。\n  - **更新:** 当现有任务的状态发生变化（例如完成、推迟、修改内容或期限）时，更新对应的行。\n  - **删除:** **IF** 任务已确认完成、被取消或已过有效期限 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                            "initNode": "（表格初始为空。）",
+                            "deleteNode": "（**IF** 任务已确认完成、被取消或已过有效期限 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）",
+                            "updateNode": "（当现有任务的状态发生变化时，更新对应的行。）",
+                            "insertNode": "（当新的约定、任务、目标或需要追踪的日程被设定或提及并确认时，添加记录。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_3iZZIPxuGvTt0iVS",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_RHEFqxdY2W1ImGW",
+                        "data": {
+                            "value": "相关角色"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_xh7iMI18iOSRvUc9",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_c5dDF6w0G7w5462",
+                        "data": {
+                            "value": "任务内容"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_lhZPEBgSnpkYtVtb",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_SJmPMqQzOXyYg3E",
+                        "data": {
+                            "value": "任务地点"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_pjoWoIcFJT21BBIM",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_f2haqnHiOjU5CTQ",
+                        "data": {
+                            "value": "有效期限"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_TFmSLjew",
+                "name": "能力",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_1AGoFt9oQzpo2EcW",
+                        "cell_undefined_wIEZeWkCTx8NIjpn",
+                        "cell_undefined_y8mwIG4rAxAgoEGE",
+                        "cell_undefined_eA8Zc8HJTzSMloPc",
+                        "cell_undefined_sz5eRvOh8ZfHSwqU",
+                        "cell_undefined_EHvNfg5oMsKOfe06"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_1AGoFt9oQzpo2EcW",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_JCR0f1dysGSZ3Se",
+                        "data": {
+                            "note": "**能力表（表格5）**\n- **目的:** 记录角色拥有的特殊能力、技能或天赋。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当角色展现、获得或被明确赋予新的特殊能力、技能或天赋时，添加记录。\n  - **更新:** 当现有能力的效果、消耗或来源信息发生变化或得到补充时，可以更新对应的行。\n  - **删除:** **IF** 角色确认永久失去某项能力 **THEN** 可以执行 `deleteRow` 移除对应记录（此操作较少见）。",
+                            "initNode": "（表格初始为空。）",
+                            "deleteNode": "（**IF** 角色确认永久失去某项能力 **THEN** 可以执行 `deleteRow` 移除对应记录。）",
+                            "updateNode": "（当现有能力的效果、消耗或来源信息发生变化或得到补充时，可以更新对应的行。）",
+                            "insertNode": "（当角色展现、获得或被明确赋予新的特殊能力、技能或天赋时，添加记录。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_wIEZeWkCTx8NIjpn",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_vxiZf3eCFnhKyh4",
+                        "data": {
+                            "value": "拥有者"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_y8mwIG4rAxAgoEGE",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_PBidG5WTUSJgV7l",
+                        "data": {
+                            "value": "能力名称"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_eA8Zc8HJTzSMloPc",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_XqWWWrl0VQYdqEu",
+                        "data": {
+                            "value": "效果"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_sz5eRvOh8ZfHSwqU",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_EsxUxv9c0ofX8r5",
+                        "data": {
+                            "value": "消耗"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_EHvNfg5oMsKOfe06",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_7Z58sINefhloBD0",
+                        "data": {
+                            "value": "来源"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_jIRfUuXn",
+                "name": "物品",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_N65JAGYmPVhRdZyz",
+                        "cell_undefined_7ZnfGPnusSeBL0vu",
+                        "cell_undefined_SzJJEKrBWpispuHt",
+                        "cell_undefined_ZrwW9fk148ElNU2f",
+                        "cell_undefined_wb3svx9zamB0dsBJ",
+                        "cell_undefined_CoBTZ8pEPjFckAy0",
+                        "cell_undefined_oWAsCFbeaIyZ8xVS"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_N65JAGYmPVhRdZyz",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_l8j9kQFKFjWl5ri",
+                        "data": {
+                            "note": "**物品表（表格6）**\n- **目的:** 记录对剧情有重要影响或具有特殊意义的关键物品。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当一个对剧情有重要影响或具有特殊意义的关键物品出现、被获得或其重要性被揭示时，添加记录。\n  - **更新:** 当关键物品的拥有者、状态、效果或意义发生变化时，更新对应的行。\n  - **删除:** **IF** 关键物品被确认消耗、摧毁或永久失去 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                            "initNode": "（表格初始为空。）",
+                            "deleteNode": "（**IF** 关键物品被确认消耗、摧毁或永久失去 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）",
+                            "updateNode": "（当关键物品的拥有者、状态、效果或意义发生变化时，更新对应的行。）",
+                            "insertNode": "（当一个对剧情有重要影响或具有特殊意义的关键物品出现、被获得或其重要性被揭示时，添加记录。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_7ZnfGPnusSeBL0vu",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_5sFLZ6wpmtr1f6d",
+                        "data": {
+                            "value": "拥有者"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_SzJJEKrBWpispuHt",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_WLzLd49LuT3V16f",
+                        "data": {
+                            "value": "物品名称"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_ZrwW9fk148ElNU2f",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_AcytMJiDU95hGjk",
+                        "data": {
+                            "value": "描述"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_wb3svx9zamB0dsBJ",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_8Guxk3UTwhAjK9G",
+                        "data": {
+                            "value": "效果"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_CoBTZ8pEPjFckAy0",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_FF2pc4yGMHqHp14",
+                        "data": {
+                            "value": "意义"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_oWAsCFbeaIyZ8xVS",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_y94MC5zewU6WxAp",
+                        "data": {
+                            "value": "来源"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_FC01C7QB",
+                "name": "催眠",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_NE9I8SjPKcqw1q5I",
+                        "cell_undefined_EoPHZ5b87gN6h3GS",
+                        "cell_undefined_IpfhVcAQGrxwHkJy",
+                        "cell_undefined_17ZW0qjs1tpptvrl"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_NE9I8SjPKcqw1q5I",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_G6HiULr7MXZ3OIw",
+                        "data": {
+                            "note": "**催眠表（表格7）**\n- **目的:** 记录明确发生的催眠事件及其核心内容。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当明确的催眠事件发生时，添加记录。\n  - **更新:** 一般不更新，除非催眠效果被修改或解除，可视情况更新备注或添加新事件记录。\n  - **删除:** **IF** 催眠效果被确认解除或失效 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                            "initNode": "（表格初始为空。）",
+                            "deleteNode": "（**IF** 催眠效果被确认解除或失效 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）",
+                            "updateNode": "（一般不更新，除非催眠效果被修改或解除，可视情况更新备注或添加新事件记录。）",
+                            "insertNode": "（当明确的催眠事件发生时，添加记录。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_EoPHZ5b87gN6h3GS",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_6hswRviZjnZrFml",
+                        "data": {
+                            "value": "施术者"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_IpfhVcAQGrxwHkJy",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_rKObqfh3eG3oMyf",
+                        "data": {
+                            "value": "受术者"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_17ZW0qjs1tpptvrl",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_68RE470p0TY6WnB",
+                        "data": {
+                            "value": "催眠内容"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_U4PC7F8T",
+                "name": "用户偏好设定",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_WvuzMvhHUoLKjdeN",
+                        "cell_undefined_LhXZi3aGnkEAu5dl",
+                        "cell_undefined_0kRM00XiVvCxTKIK",
+                        "cell_undefined_pKY4QkR7qIYyVxbx"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_WvuzMvhHUoLKjdeN",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_xUOan708RRbfQai",
+                        "data": {
+                            "note": "**必须**存储用户的偏好，用于指导AI生成内容。此表格包含：\n    1.  **用户直接设定的偏好**：例如，您直接下达指令：“我喜欢巨乳角色”或“添加偏好：Destruction淫纹”。\n    2.  **系统自动推断的偏好**：Doro会根据您的**输入文本中的关键词**（例如，输入中反复提及“丝袜”、“淫纹发光”或“子宫痉挛”）、您的**选择或互动行为**（例如，您在剧情中更倾向于选择涉及特定淫纹效果或强制服从的互动）来推断并记录。\n    **核心原则**：\n    *   **添加新偏好时，必须保留表格中所有已存在的偏好内容**。\n    *   所有“偏好类型”（列0）、“偏好值”（列1）和可选的“偏好强度”（列2，用于表示偏好程度，如：高/中/低）的描述**必须且只能使用中文**。\n    *   Doro将结合此表格中记录的所有偏好来创作更符合您心意的内容。",
+                            "initNode": "（此表格为空，用户设定或系统推断出新的偏好时请在表格8中添加记录：偏好的类型是什么（用中文描述）？具体的设定值是什么（用中文或数值）？可选的偏好强度是？系统会根据用户输入关键词或互动行为自动添加偏好。请勿删除已有偏好。）",
+                            "deleteNode": "*   **仅当**用户**明确指令删除**某个偏好时。\n            *   *示例指令*：“删除偏好：足控。” -> 找到对应行并 `deleteRow(8, rowIndex)`\n            *   *示例指令*：“我不喜欢催眠洗脑了，删掉这个偏好。” -> 找到偏好类型为“情节倾向”或“特殊玩法”，偏好值为“催眠洗脑”的行并 `deleteRow(8, rowIndex)`\n        *   **注意**：系统自动推断出的偏好**不应轻易自动删除**，除非有明确的反向证据或用户指示。",
+                            "updateNode": "*   当用户**明确修改**已有偏好时。\n            *   *示例指令*：“将偏好‘角色身材’的值改为‘极度丰满，特别是臀部和胸部’。” -> 找到对应行并 `updateRow(8, rowIndex, {\"1\": \"极度丰满(臀/胸)\", \"2\": \"极高\"})`\n            *   *示例指令*：“提高对‘淫纹’偏好的强度。” -> 找到对应行并 `updateRow(8, rowIndex, {\"2\": \"极高\"})`\n        *   当系统根据持续的互动或新的信息，**更新了对某个推断偏好的理解**时（例如，偏好强度变化或细节补充）。\n            *   *示例场景*：最初推断为“喜欢特殊纹身”，后用户输入大量聚焦于特定淫纹（如 Command, Destruction）的功能和效果 -> 可能将对应行的偏好值更新为 `淫纹效果(控制/快感操纵/身体改造)` 或直接记录特定淫纹名称，并提升强度。 -> `updateRow(8, rowIndex, {\"0\": \"特殊设定\", \"1\": \"淫纹效果(控制/快感操纵/身体改造)\", \"2\": \"高\"})`\n            *   *示例场景*：最初推断为“喜欢暴露服装”，用户后续输入持续描绘“几乎不遮挡”、“仅由几根细带构成”的服装 -> 更新偏好值为“极度暴露/情趣服装/Minimalist”，强度调至“极高”。 -> `updateRow(8, rowIndex, {\"1\": \"极度暴露/情趣服装/Minimalist\", \"2\": \"极高\"})`",
+                            "insertNode": "*   当用户**明确设定**新偏好时。\n            *   *示例指令*：“添加偏好，类型是服装，值是旗袍。” -> `insertRow(8, {\"0\": \"服装\", \"1\": \"旗袍\", \"2\": \"中\"})`\n            *   *示例指令*：“我偏爱强受角色。” -> `insertRow(8, {\"0\": \"角色性格\", \"1\": \"强受\", \"2\": \"高\"})`\n            *   *示例指令*：“我喜欢 Destruction 淫纹带来的效果。” -> `insertRow(8, {\"0\": \"特殊设定\", \"1\": \"Destruction淫纹效果\", \"2\": \"高\"})`\n            *   *示例指令*：“让角色穿上开档连体衣。” -> `insertRow(8, {\"0\": \"情趣服装\", \"1\": \"开档连体衣\", \"2\": \"高\"})`\n        *   当系统根据用户**输入关键词**推断出新偏好时。\n            *   *示例输入*：“...她小腹上暗红色的淫纹开始发光...” -> `insertRow(8, {\"0\": \"特殊设定\", \"1\": \"淫纹\", \"2\": \"高\"})`\n            *   *示例输入*：“...在公众场合大胆地裸露，引人注目...” -> `insertRow(8, {\"0\": \"情节倾向\", \"1\": \"公开露出/暴露\", \"2\": \"高\"})`\n            *   *示例输入*：“...她感受到子宫深处传来一阵剧烈的痉挛，伴随着难以言喻的快感...” -> `insertRow(8, {\"0\": \"生理反应\", \"1\": \"子宫高潮/强烈痉挛\", \"2\": \"高\"})`\n            *   *示例输入*：“...丰腴饱满的巨臀随着步伐诱人地摇摆...” -> `insertRow(8, {\"0\": \"角色身材\", \"1\": \"巨臀/丰满下身\", \"2\": \"高\"})`\n            *   *示例输入*：“...她无法抗拒那道命令，身体不由自主地行动起来...” (可能关联 Command/Slave 淫纹或支配倾向) -> `insertRow(8, {\"0\": \"情节倾向\", \"1\": \"强制服从/精神控制\", \"2\": \"高\"})`\n            *   *示例输入*：“...温热的乳汁从饱满的乳房中溢出...” (可能关联 Lactation 淫纹) -> `insertRow(8, {\"0\": \"特殊生理\", \"1\": \"泌乳\", \"2\": \"中\"})`\n            *   *示例输入*：“...她感觉自己的敏感度被极大地提升了，轻微的触碰也让她颤抖...” (可能关联 Sensitivity 淫纹) -> `insertRow(8, {\"0\": \"感官体验\", \"1\": \"高敏感度\", \"2\": \"中\"})`\n        *   当系统根据用户**互动行为**推断出新偏好时。\n            *   *示例行为*：用户多次选择让角色进行支配性互动，或对角色施加控制性效果 -> `insertRow(8, {\"0\": \"互动风格\", \"1\": \"支配/权力不平衡\", \"2\": \"高\"})`\n            *   *示例行为*：用户多次选择涉及羞辱或挑战禁忌的情节 -> `insertRow(8, {\"0\": \"情节倾向\", \"1\": \"羞辱/禁忌\", \"2\": \"高\"})`\n            *   *示例行为*：用户在角色互动中频繁关注或描写足部/丝袜 -> `insertRow(8, {\"0\": \"身体部位\", \"1\": \"足部/丝袜\", \"2\": \"中\"})`"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_LhXZi3aGnkEAu5dl",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_VGQKZ8OjRlWIVgQ",
+                        "data": {
+                            "value": "偏好类型"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_0kRM00XiVvCxTKIK",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_20m5201VRBmIDB4",
+                        "data": {
+                            "value": "偏好值"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_pKY4QkR7qIYyVxbx",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_cgm1ZyhUtJWZi1z",
+                        "data": {
+                            "value": "偏好强度"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_wyaiHyZ9",
+                "name": "世界规则",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_q7DVnderTCwFkzr2",
+                        "cell_undefined_tvMU0NBhWUfR9XrI",
+                        "cell_undefined_fCjJD5Z3prbpk7TR"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_q7DVnderTCwFkzr2",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_BrnqkPqTjFBnvCj",
+                        "data": {
+                            "note": "**世界规则表（表格9）**\n- **目的:** 记录由特定角色设定或故事世界固有的特殊规则、法则或环境效果。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当新的世界规则、法则或环境效果被揭示、设定或发现时，添加记录。\n  - **更新:** 当已有的世界规则被修改或废除时，可以更新对应的行。\n  - **删除:** **IF** 某条世界规则被确认废除或不再适用 **THEN** **必须** 执行 `deleteRow` 移除对应记录。",
+                            "initNode": "（表格初始为空。）",
+                            "deleteNode": "（**IF** 某条世界规则被确认废除或不再适用 **THEN** **必须** 执行 `deleteRow` 移除对应记录。）",
+                            "updateNode": "（当已有的世界规则被修改或废除时，可以更新对应的行。）",
+                            "insertNode": "（当新的世界规则、法则或环境效果被揭示、设定或发现时，添加记录。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_tvMU0NBhWUfR9XrI",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_EEs7QrY2sp0HemQ",
+                        "data": {
+                            "value": "设定者"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_fCjJD5Z3prbpk7TR",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_R3I7lA44LVqEIzT",
+                        "data": {
+                            "value": "效果"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_XdePtrbg",
+                "name": "事件历史",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_2zEof9JBvTEaqBcu",
+                        "cell_undefined_SpyUYljyvGkVwHiO",
+                        "cell_undefined_CFOGi9ZOEls6DRAY",
+                        "cell_undefined_GBjCg41ooKabEFaP",
+                        "cell_undefined_rzcS2fwbHzrdxUoq",
+                        "cell_undefined_o0HOWUC2abZB0lc8"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_2zEof9JBvTEaqBcu",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_C2MeKswNrHD9vIL",
+                        "data": {
+                            "note": "**事件历史表（表格10）**\n- **目的:** 按时间顺序累积记录故事中发生的关键事件。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当本轮交互中发生了值得记录的关键事件时，使用`insertRow`添加记录。\n  - **更新:** 当“大总结”流程被触发时，使用`updateRow`更新被总结的事件行（将列4设为`true`，将列0替换为小标题）。\n  - **删除:** 当事件小标题已归档到表格11列5时，在下一轮响应中执行`deleteRow`删除对应事件行，除此之外不允许删除。",
+                            "initNode": "（表格初始为空。）",
+                            "deleteNode": "（当事件的小标题已成功归档到表格11的“历史标题归档”（列5）之后，必须在紧随其后的下一轮响应中执行`deleteRow`删除对应事件行，以保持表格10的简洁性，仅保留未归档的原始事件描述。除此之外不允许删除。）",
+                            "updateNode": "（当“大总结”流程被触发时，使用`updateRow`更新被总结的事件行。）",
+                            "insertNode": "（当本轮交互中发生了值得记录的关键事件时，使用`insertRow`添加记录。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_SpyUYljyvGkVwHiO",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_B3sYysMtOGiVGSk",
+                        "data": {
+                            "value": "事件描述或小标题"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_CFOGi9ZOEls6DRAY",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_IZ9vbsR2DQUhDWc",
+                        "data": {
+                            "value": "发生时累计时间"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_GBjCg41ooKabEFaP",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_xpbg5xQP5m75RFS",
+                        "data": {
+                            "value": "事件发生地点"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_rzcS2fwbHzrdxUoq",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_8zOmHMwQz1O1zVn",
+                        "data": {
+                            "value": "情绪变化"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_o0HOWUC2abZB0lc8",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_6zw90FxRjAAZIre",
+                        "data": {
+                            "value": "已总结标志"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_y9oUmYzO",
+                "name": "大总结",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_o3BQ3G6cAgrm1KOd",
+                        "cell_undefined_x1jrqfas7kJLrqs0",
+                        "cell_undefined_7hWPcmIp1HbJTFpE",
+                        "cell_undefined_yvk3LETmEfv9ERev",
+                        "cell_undefined_y6MznXSyo4YXseK4",
+                        "cell_undefined_WlX0fLwn2reyhYTX",
+                        "cell_undefined_Y4cRJeEtgWrIyyTA"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_o3BQ3G6cAgrm1KOd",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_K7jpjPqkIUrLDo1",
+                        "data": {
+                            "note": "**大总结表（表格11）**\n- **目的:** 周期性的事件档案库，用于整合和存档表格10中的事件记录。\n- **操作规则:**\n  - **初始化:** 表格初始为空。\n  - **插入:** 当表格10中未总结事件的总Token数达到850时，触发“大总结”流程，使用`insertRow`添加新总结记录。\n  - **更新:** 当本次总结标题列表（列4）的Token数达到100时，使用`updateRow`将列4追加到列5并清空列4。\n  - **删除:** 不允许删除，记录作为永久性存档。",
+                            "initNode": "（表格初始为空。）",
+                            "deleteNode": "（不允许删除，记录作为永久性存档。）",
+                            "updateNode": "（当本次总结标题列表（列4）的Token数达到100时，使用`updateRow`将列4追加到列5并清空列4。）",
+                            "insertNode": "（当表格10中未总结事件的总Token数达到850时，触发“大总结”流程，使用`insertRow`添加新总结记录。）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_x1jrqfas7kJLrqs0",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_d6EwhoZqr1i1nai",
+                        "data": {
+                            "value": "序号"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_7hWPcmIp1HbJTFpE",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_bcLhX9GglUa9md3",
+                        "data": {
+                            "value": "内容"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_yvk3LETmEfv9ERev",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_3UyJMLXPglBIAx9",
+                        "data": {
+                            "value": "开始时间戳"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_y6MznXSyo4YXseK4",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_o10s0BprGlD76Pr",
+                        "data": {
+                            "value": "结束时间戳"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_WlX0fLwn2reyhYTX",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_VstEQQQS2MbmBbU",
+                        "data": {
+                            "value": "本次总结标题列表"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "CellType": {
+                            "sheet_origin": "sheet_origin",
+                            "column_header": "column_header",
+                            "row_header": "row_header",
+                            "cell": "cell"
+                        },
+                        "CellAction": {
+                            "editCell": "editCell",
+                            "insertLeftColumn": "insertLeftColumn",
+                            "insertRightColumn": "insertRightColumn",
+                            "insertUpRow": "insertUpRow",
+                            "insertDownRow": "insertDownRow",
+                            "deleteSelfColumn": "deleteSelfColumn",
+                            "deleteSelfRow": "deleteSelfRow",
+                            "clearSheet": "clearSheet"
+                        },
+                        "bridge": {},
+                        "uid": "cell_undefined_Y4cRJeEtgWrIyyTA",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_OA9OemMVslGL593",
+                        "data": {
+                            "value": "历史标题归档"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1"
+                        }
+                    }
+                }
+            }
+        ]
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
