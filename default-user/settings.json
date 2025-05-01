@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "50",
-        "extension_update_nag": "Thu May 01 2025",
+        "extension_update_nag": "Wed Apr 30 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -78,6 +78,7 @@
         "world_info": {
             "globalSelect": [
                 "hq手机0429",
+                "可视化地图导航",
                 "文本效果增强",
                 "轻小说、网文文风-对话与心理驱动",
                 "针对2.5pro的瑟瑟场景 (1)"
@@ -608,19 +609,19 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "disabled": false,
-                "runOnEdit": true,
                 "findRegex": "/<jiucuo>[\\s\\S]*?<\\/jiucuo>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
+                "maxDepth": null
             },
             {
                 "id": "adf7a44b-87ae-4874-ae74-ea4d446d81bb",
@@ -986,7 +987,7 @@
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "上下文视觉屏蔽[20]",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -1176,7 +1177,7 @@
             {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
                 "scriptName": "隐藏",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
                 "replaceString": "",
@@ -1193,7 +1194,7 @@
             {
                 "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
                 "scriptName": "隐藏2",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
                 "replaceString": "",
@@ -1428,8 +1429,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 51496,
                 "LAST_SEND_CHARS": 104104,
-                "LAST_RECEIVE_TOKENS": 8592,
-                "LAST_RECEIVE_CHARS": 20796
+                "LAST_RECEIVE_TOKENS": 1331,
+                "LAST_RECEIVE_CHARS": 3397
             }
         },
         "attachments": [],
@@ -2037,7 +2038,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 1,
+                    "lastProcessedLength": 23,
                     "userConfigured": true
                 },
                 "character-test.png": {
