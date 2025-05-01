@@ -608,19 +608,19 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<jiucuo>[\\s\\S]*?<\\/jiucuo>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "adf7a44b-87ae-4874-ae74-ea4d446d81bb",
@@ -986,7 +986,7 @@
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "上下文视觉屏蔽[20]",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -1176,7 +1176,7 @@
             {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
                 "scriptName": "隐藏",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
                 "replaceString": "",
@@ -1193,7 +1193,7 @@
             {
                 "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
                 "scriptName": "隐藏2",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
                 "replaceString": "",
