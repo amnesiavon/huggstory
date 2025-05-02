@@ -3474,8 +3474,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 42448,
                 "LAST_SEND_CHARS": 90256,
-                "LAST_RECEIVE_TOKENS": 1754,
-                "LAST_RECEIVE_CHARS": 4063
+                "LAST_RECEIVE_TOKENS": 1947,
+                "LAST_RECEIVE_CHARS": 4247
             }
         },
         "attachments": [],
@@ -3870,7 +3870,7 @@
             "enabled": true
         },
         "variable_viewer": {
-            "isShown": false,
+            "isShown": true,
             "fontSize": 1
         },
         "EjsTemplate": {
