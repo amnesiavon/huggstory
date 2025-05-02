@@ -6022,8 +6022,8 @@
         "n": 1
     },
     "background": {
-        "name": "tavern day.jpg",
-        "url": "url(\"backgrounds/tavern day.jpg\")",
+        "name": "_white.jpg",
+        "url": "url(\"backgrounds/_white.jpg\")",
         "fitting": "classic"
     },
     "proxies": [
