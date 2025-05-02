@@ -3870,7 +3870,7 @@
             "enabled": true
         },
         "variable_viewer": {
-            "isShown": false,
+            "isShown": true,
             "fontSize": 1
         },
         "EjsTemplate": {
