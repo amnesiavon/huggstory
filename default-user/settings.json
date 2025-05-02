@@ -77,6 +77,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "！！Table_v1.3.11",
                 "hq手机0429",
                 "文本效果增强",
                 "轻小说、网文文风-对话与心理驱动",
@@ -3474,8 +3475,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 37883,
                 "LAST_SEND_CHARS": 80848,
-                "LAST_RECEIVE_TOKENS": 985,
-                "LAST_RECEIVE_CHARS": 2976
+                "LAST_RECEIVE_TOKENS": 1539,
+                "LAST_RECEIVE_CHARS": 3717
             }
         },
         "attachments": [],
