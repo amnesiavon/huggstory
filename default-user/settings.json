@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -4085,7 +4085,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 5,
+                    "lastProcessedLength": 4,
                     "userConfigured": true
                 },
                 "character-test.png": {
@@ -5383,7 +5383,7 @@
                 "marker": false,
                 "name": "▶️小总结",
                 "role": "system",
-                "content": "<summary_format>\n在每一条回复的的底部必须使用<details><summary>摘要</summary></details>包裹摘要。\n\n摘要格式示例：\n\n<details><summary>摘要</summary>\n<内容>\n用约100字概括本条回复的剧情，禁止不必要的总结和升华，忠实记录角色的言行举止和情感变化\n\n时间：年月日 星期X 开始时分 ~ 结束时分\n\n地点：大地点/中地点/小地点\n</details>\n</summary_format>\n",
+                "content": "<summary_format>\n在每一条回复的的底部必须使用<details><summary>摘要</summary></details>包裹摘要。\n\n摘要格式示例：\n\n<details><summary>摘要</summary>\n<内容>\n用约100字概括本条回复的剧情，禁止不必要的总结和升华，忠实记录角色的言行举止和情感变化\n\n时间：具体年月日 星期X 开始时分 ~ 结束时分\n\n地点：大地点/中地点/小地点\n</details>\n</summary_format>\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
