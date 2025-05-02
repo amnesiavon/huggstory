@@ -279,7 +279,7 @@
         "sort_order": "asc",
         "sort_rule": null,
         "font_scale": 1.1,
-        "blur_strength": 3,
+        "blur_strength": 4,
         "shadow_width": 5,
         "main_text_color": "rgba(240, 240, 240, 1)",
         "italics_text_color": "rgba(215, 215, 215, 1)",
