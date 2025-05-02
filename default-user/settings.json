@@ -296,7 +296,7 @@
         "movingUI": false,
         "movingUIState": {},
         "movingUIPreset": "Default",
-        "noShadows": true,
+        "noShadows": false,
         "theme": "双色盒子-浅色",
         "gestures": true,
         "auto_swipe": false,
