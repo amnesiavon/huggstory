@@ -3472,8 +3472,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 42392,
-                "LAST_SEND_CHARS": 90172,
+                "LAST_SEND_TOKENS": 42448,
+                "LAST_SEND_CHARS": 90256,
                 "LAST_RECEIVE_TOKENS": 1739,
                 "LAST_RECEIVE_CHARS": 4089
             }
@@ -3870,7 +3870,7 @@
             "enabled": true
         },
         "variable_viewer": {
-            "isShown": true,
+            "isShown": false,
             "fontSize": 1
         },
         "EjsTemplate": {
@@ -4085,7 +4085,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 7,
+                    "lastProcessedLength": 6,
                     "userConfigured": true
                 },
                 "character-test.png": {
