@@ -3508,6 +3508,10 @@
                     {
                         "set": "小功能",
                         "isVisible": true
+                    },
+                    {
+                        "set": "哥谭模拟器QR",
+                        "isVisible": true
                     }
                 ]
             }
