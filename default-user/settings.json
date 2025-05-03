@@ -3186,23 +3186,6 @@
                 "promptOnly": false
             },
             {
-                "id": "a0db4198-26d9-4936-8672-61c74e5a1ee9",
-                "scriptName": "会自动更新的手机",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
-                "replaceString": "```\n\n<body>\n    <script type=\"module\">\n\n\n        async function Load(params) {\n            // const html = await retrieve_raw(\"index.html\");\n            // if (!html) {\n            //     $(\"body\").html(html);\n            //     return;\n            // }\n            for (let i = 0; i < 3; i++) {\n                const response = await fetch(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n                const html = await response.text();\n                if (html) {\n                    console.log(html);\n                    $(\"body\").html(html);\n                    return;\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n            //$(\"body\").load(\"http://sharkpan.xyz/f/1BEot2/index.html\");\n        }\n        Load();\n    </script>\n</body>\n```",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 0,
-                "markdownOnly": true,
-                "promptOnly": false
-            },
-            {
                 "id": "e9ce2b3d-ffdf-4aea-a087-cbd15d03c57d",
                 "scriptName": "多人手机界面4.8",
                 "disabled": false,
@@ -4085,7 +4068,7 @@
                 },
                 "character-罗落大陆.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 61,
+                    "lastProcessedLength": 63,
                     "userConfigured": true
                 },
                 "character-test.png": {
