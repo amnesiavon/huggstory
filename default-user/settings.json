@@ -3508,10 +3508,6 @@
                     {
                         "set": "小功能",
                         "isVisible": true
-                    },
-                    {
-                        "set": "召唤同层手机",
-                        "isVisible": true
                     }
                 ]
             }
