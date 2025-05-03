@@ -66,7 +66,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "哥谭模拟器.png",
+    "active_character": "fuhufox的亚种圣杯战争.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -3473,8 +3473,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 23236,
                 "LAST_SEND_CHARS": 56247,
-                "LAST_RECEIVE_TOKENS": 4761,
-                "LAST_RECEIVE_CHARS": 11797
+                "LAST_RECEIVE_TOKENS": 65,
+                "LAST_RECEIVE_CHARS": 94
             }
         },
         "attachments": [],
@@ -4069,7 +4069,7 @@
             "settings_by_entity": {
                 "character-fuhufox的亚种圣杯战争.png": {
                     "hideLastN": 10,
-                    "lastProcessedLength": 9,
+                    "lastProcessedLength": 1,
                     "userConfigured": true
                 },
                 "character-机动战士高达-SEED V1.2.png": {
