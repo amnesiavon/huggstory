@@ -487,7 +487,7 @@
         },
         "wi_key_input_plaintext": true,
         "muyoo_dataTable": {
-            "updateIndex": 3,
+            "updateIndex": 4,
             "tableStructure": [
                 {
                     "tableName": "当前信息",
@@ -749,18 +749,18 @@
             "table_to_chat_mode": "last_message"
         },
         "table_selected_sheets": [
-            "template_Evda92EG",
-            "template_VOOrZK4l",
-            "template_t57z67Wq",
-            "template_tWh93Shx",
-            "template_7YojLUZ0",
-            "template_4naoj8O5",
-            "template_zjvzTu51",
-            "template_fA86Yqey"
+            "template_IC2Ktls6",
+            "template_VnFzHoLx",
+            "template_DovCjy70",
+            "template_Uv6ZLFQg",
+            "template_ICuQFYPl",
+            "template_OhnZqePt",
+            "template_nbIvpObc",
+            "template_NKhHQhEA"
         ],
         "table_database_templates": [
             {
-                "uid": "template_Evda92EG",
+                "uid": "template_IC2Ktls6",
                 "name": "当前信息",
                 "domain": "global",
                 "type": "dynamic",
@@ -768,10 +768,10 @@
                 "required": true,
                 "hashSheet": [
                     [
-                        "cell_undefined_HIzwhXPiqyeaFcjH",
-                        "cell_undefined_Eg1FFQKqqkgFF4S6",
-                        "cell_undefined_AdmWgPr2KpHjSc0q",
-                        "cell_undefined_BoBplcruhlGW1ONI"
+                        "cell_undefined_AGOOP7AuwkWOYYYq",
+                        "cell_undefined_EFcLPgFPLTIQTSwq",
+                        "cell_undefined_vZ1fR0Rx8wzZyPIx",
+                        "cell_undefined_8ZMI9559H0ZvTBx1"
                     ]
                 ],
                 "cellHistory": [
@@ -793,10 +793,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_HIzwhXPiqyeaFcjH",
+                        "uid": "cell_undefined_AGOOP7AuwkWOYYYq",
                         "type": "sheet_origin",
                         "status": "",
-                        "coordUid": "coo_JDZ3utBIpy8d3IC",
+                        "coordUid": "coo_0GwXVyZilnL0IOe",
                         "data": {
                             "note": "当前信息",
                             "initNode": "本轮必须使用insertRow插入一行，填写每一列：当前的时间（YYYY-MM-DD 星期X hh:mm）/地点（国家/城区/地址/具体位置，可简化）/<user>拥有资金",
@@ -822,10 +822,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_Eg1FFQKqqkgFF4S6",
+                        "uid": "cell_undefined_EFcLPgFPLTIQTSwq",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_vqZKuydOWodPYcp",
+                        "coordUid": "coo_wsuvSVay47FCzqt",
                         "data": {
                             "value": "时间"
                         },
@@ -849,10 +849,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_AdmWgPr2KpHjSc0q",
+                        "uid": "cell_undefined_vZ1fR0Rx8wzZyPIx",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_IcOVkdVe6qEbPKn",
+                        "coordUid": "coo_0Gi04DVtGitxl5s",
                         "data": {
                             "value": "地点"
                         },
@@ -876,10 +876,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_BoBplcruhlGW1ONI",
+                        "uid": "cell_undefined_8ZMI9559H0ZvTBx1",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_TZN3cMSwUeOU251",
+                        "coordUid": "coo_lFAooauuauINHvS",
                         "data": {
                             "value": "<user>拥有资金"
                         },
@@ -901,7 +901,7 @@
                 }
             },
             {
-                "uid": "template_VOOrZK4l",
+                "uid": "template_VnFzHoLx",
                 "name": "近期角色",
                 "domain": "global",
                 "type": "dynamic",
@@ -909,14 +909,14 @@
                 "required": true,
                 "hashSheet": [
                     [
-                        "cell_undefined_3RfKWDe47kebdnj6",
-                        "cell_undefined_uf2CwlHijkjFVcR9",
-                        "cell_undefined_8RgVwAtF0ScQgYI5",
-                        "cell_undefined_gvGqTa3TRWQK5GkK",
-                        "cell_undefined_LYtIJT1IPCXWrw8u",
-                        "cell_undefined_2DYptG48d8V0jdYV",
-                        "cell_undefined_CowFjFClkjXRSw3n",
-                        "cell_undefined_xDk2PBw6gfBqhvmK"
+                        "cell_undefined_QUo9MtbVOA9RDk2k",
+                        "cell_undefined_pgT8kDLTKTEJwhhk",
+                        "cell_undefined_PFWxhYg0QkvJyVdI",
+                        "cell_undefined_Pw9ChBVm7pUaP33p",
+                        "cell_undefined_nIEQEpZeu5Tod5Hf",
+                        "cell_undefined_XDX9TylDyzIPQSM4",
+                        "cell_undefined_wKjvvmJeIoiwwWJn",
+                        "cell_undefined_4xEcAueIKsXZFOkE"
                     ]
                 ],
                 "cellHistory": [
@@ -938,10 +938,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_3RfKWDe47kebdnj6",
+                        "uid": "cell_undefined_QUo9MtbVOA9RDk2k",
                         "type": "sheet_origin",
                         "status": "",
-                        "coordUid": "coo_VSFovSWftPJgSzF",
+                        "coordUid": "coo_cC6cOfNRg6wUsAS",
                         "data": {
                             "note": "近期角色",
                             "initNode": "本轮必须从回复中寻找出场的所有角色，对每个角色使用insertRow插入一行（将<user>作为第0行），填写每一列：角色名/离场轮数（置为0）/位置（仅限具体位置，包括与临近角色的位置关系）/姿势/情绪/身体状态（如汗、伤口、泪、性器官变化等）/服装（包含服装状态，脱衣时标注原服装及已脱，受损属于状态，完全损毁时删除）",
@@ -969,10 +969,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_uf2CwlHijkjFVcR9",
+                        "uid": "cell_undefined_pgT8kDLTKTEJwhhk",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_jEr4kiJVliuzY5D",
+                        "coordUid": "coo_2GfZqsupIErY27O",
                         "data": {
                             "value": "角色名"
                         },
@@ -996,10 +996,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_8RgVwAtF0ScQgYI5",
+                        "uid": "cell_undefined_PFWxhYg0QkvJyVdI",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_zruh8ku3bsCk3xh",
+                        "coordUid": "coo_KxEr8CoJtDtdXIi",
                         "data": {
                             "value": "离场轮数"
                         },
@@ -1023,10 +1023,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_gvGqTa3TRWQK5GkK",
+                        "uid": "cell_undefined_Pw9ChBVm7pUaP33p",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_4gr62yF6yc9iZNo",
+                        "coordUid": "coo_brCXIwIRGOX0Lxg",
                         "data": {
                             "value": "位置"
                         },
@@ -1050,10 +1050,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_LYtIJT1IPCXWrw8u",
+                        "uid": "cell_undefined_nIEQEpZeu5Tod5Hf",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_VUvMaIl6yRk4AZX",
+                        "coordUid": "coo_p0jlm0OFIVW9pTg",
                         "data": {
                             "value": "姿势"
                         },
@@ -1077,10 +1077,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_2DYptG48d8V0jdYV",
+                        "uid": "cell_undefined_XDX9TylDyzIPQSM4",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_0gdPWm2cGD9eonR",
+                        "coordUid": "coo_zVljy53WDQ32isi",
                         "data": {
                             "value": "情绪"
                         },
@@ -1104,10 +1104,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_CowFjFClkjXRSw3n",
+                        "uid": "cell_undefined_wKjvvmJeIoiwwWJn",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_IWnSe0kVs67lWYG",
+                        "coordUid": "coo_9rfK8TeiJAMAKRg",
                         "data": {
                             "value": "身体状态"
                         },
@@ -1131,10 +1131,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_xDk2PBw6gfBqhvmK",
+                        "uid": "cell_undefined_4xEcAueIKsXZFOkE",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_jU40jsqj3l3gpX6",
+                        "coordUid": "coo_xgVinzv3G8EON7n",
                         "data": {
                             "value": "服装"
                         },
@@ -1156,7 +1156,7 @@
                 }
             },
             {
-                "uid": "template_t57z67Wq",
+                "uid": "template_DovCjy70",
                 "name": "角色信息",
                 "domain": "global",
                 "type": "dynamic",
@@ -1164,20 +1164,20 @@
                 "required": true,
                 "hashSheet": [
                     [
-                        "cell_undefined_e3I5T2pmJfo2RUBq",
-                        "cell_undefined_I9399rQSNLZzqMja",
-                        "cell_undefined_DISgMCDkde28g3Y8",
-                        "cell_undefined_bT9tvD5VYZNf2HGF",
-                        "cell_undefined_ZSbVKjJGlJH1K63k",
-                        "cell_undefined_Qr4GItkPJJv5Qri1",
-                        "cell_undefined_T52rDLxYWeJa9HMs",
-                        "cell_undefined_xlHKD25xrJBylaSL",
-                        "cell_undefined_Nai5h1AZbk0wC5m9",
-                        "cell_undefined_Dp9MFjCcve8hwf1l",
-                        "cell_undefined_Q6rGOVMKPr62G72a",
-                        "cell_undefined_P3bVUKVYKEVgXIjA",
-                        "cell_undefined_vPIk5A41ASJrSOCu",
-                        "cell_undefined_oXkwcWi1VjDunRT0"
+                        "cell_undefined_5L8VAsH8LSppmxvz",
+                        "cell_undefined_iiFUuMDusrioZ8Qy",
+                        "cell_undefined_5LD2AiNuVX4bW2NX",
+                        "cell_undefined_7lGPncn49jEiwWuj",
+                        "cell_undefined_FqUYPJAWqeP0EB1q",
+                        "cell_undefined_ViBekn3u1clZqgN9",
+                        "cell_undefined_rvuhC1p6a79Mf6Nf",
+                        "cell_undefined_PHTEEEVTSFYHoBDb",
+                        "cell_undefined_NpneHKdvGAmHbRqk",
+                        "cell_undefined_Qblapn69M48bjfKe",
+                        "cell_undefined_QhQHaR0fN3lpHX0D",
+                        "cell_undefined_UKdV9eTee8Pbucgb",
+                        "cell_undefined_82c2XQSJMxzaUY5e",
+                        "cell_undefined_laH8dVXTToGwAWtW"
                     ]
                 ],
                 "cellHistory": [
@@ -1199,10 +1199,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_e3I5T2pmJfo2RUBq",
+                        "uid": "cell_undefined_5L8VAsH8LSppmxvz",
                         "type": "sheet_origin",
                         "status": "",
-                        "coordUid": "coo_R376uE0OJTLaPyF",
+                        "coordUid": "coo_3jXTT4cI2gC4iVD",
                         "data": {
                             "note": "角色信息",
                             "initNode": "本轮必须从回复中寻找出场的所有角色，对每个角色使用insertRow插入一行（将<user>作为第0行），填写每一列：角色名/性别/年龄（准确值）/身份/住所（非所在地）/身体特征（不含服装、姿势、状态）/服装偏好（风格、必备配饰等，并非当前服装）/性格（不含情绪）/喜好（兴趣、爱好、嗜好品等，并非本职）/目标/关系（是<user>的——）/对<user>态度（包括好感度/关系值等,不含情绪）/其他重要信息",
@@ -1230,10 +1230,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_I9399rQSNLZzqMja",
+                        "uid": "cell_undefined_iiFUuMDusrioZ8Qy",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_Xxb0WRKIdTTfcKX",
+                        "coordUid": "coo_kJPMSKiyC5X6ue1",
                         "data": {
                             "value": "角色名"
                         },
@@ -1257,10 +1257,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_DISgMCDkde28g3Y8",
+                        "uid": "cell_undefined_5LD2AiNuVX4bW2NX",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_f0cVLbuSHHTEHYw",
+                        "coordUid": "coo_pTtLYDfYsyEtxqB",
                         "data": {
                             "value": "性别"
                         },
@@ -1284,10 +1284,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_bT9tvD5VYZNf2HGF",
+                        "uid": "cell_undefined_7lGPncn49jEiwWuj",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_W4V14RvhD0QS1Hy",
+                        "coordUid": "coo_08NB9lnxYe0HqiH",
                         "data": {
                             "value": "年龄"
                         },
@@ -1311,10 +1311,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_ZSbVKjJGlJH1K63k",
+                        "uid": "cell_undefined_FqUYPJAWqeP0EB1q",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_rU4oXbIBnD1QdHg",
+                        "coordUid": "coo_Sk0nJi3Oo3sSAYt",
                         "data": {
                             "value": "身份"
                         },
@@ -1338,10 +1338,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_Qr4GItkPJJv5Qri1",
+                        "uid": "cell_undefined_ViBekn3u1clZqgN9",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_RZDFgWQnacRA8Z9",
+                        "coordUid": "coo_XI7kLu60kcGvShS",
                         "data": {
                             "value": "住所"
                         },
@@ -1365,10 +1365,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_T52rDLxYWeJa9HMs",
+                        "uid": "cell_undefined_rvuhC1p6a79Mf6Nf",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_wtDmPoOmJxneSj0",
+                        "coordUid": "coo_cVX6kvRErDFtJhv",
                         "data": {
                             "value": "身体特征"
                         },
@@ -1392,10 +1392,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_xlHKD25xrJBylaSL",
+                        "uid": "cell_undefined_PHTEEEVTSFYHoBDb",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_15ldIZRuvKrQDeq",
+                        "coordUid": "coo_lz4JzirjoGLOaLZ",
                         "data": {
                             "value": "服装偏好"
                         },
@@ -1419,10 +1419,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_Nai5h1AZbk0wC5m9",
+                        "uid": "cell_undefined_NpneHKdvGAmHbRqk",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_HBrByqQ5PTz9KQ0",
+                        "coordUid": "coo_SaxGznwt8OQOUS0",
                         "data": {
                             "value": "性格"
                         },
@@ -1446,10 +1446,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_Dp9MFjCcve8hwf1l",
+                        "uid": "cell_undefined_Qblapn69M48bjfKe",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_1r2GnxwMzYVoa76",
+                        "coordUid": "coo_em236ccnFuePjVx",
                         "data": {
                             "value": "喜好"
                         },
@@ -1473,10 +1473,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_Q6rGOVMKPr62G72a",
+                        "uid": "cell_undefined_QhQHaR0fN3lpHX0D",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_IhC03UeHpw4md4u",
+                        "coordUid": "coo_S7gNZ9EJtLktlq2",
                         "data": {
                             "value": "目标"
                         },
@@ -1500,10 +1500,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_P3bVUKVYKEVgXIjA",
+                        "uid": "cell_undefined_UKdV9eTee8Pbucgb",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_KclHHn77B7Q3iYg",
+                        "coordUid": "coo_kyAxJt4C3NpnEhV",
                         "data": {
                             "value": "关系（是<user>的——）"
                         },
@@ -1527,10 +1527,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_vPIk5A41ASJrSOCu",
+                        "uid": "cell_undefined_82c2XQSJMxzaUY5e",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_9mb0usZRCZ7yzYq",
+                        "coordUid": "coo_XvngWzOzLk5MUCt",
                         "data": {
                             "value": "对<user>态度"
                         },
@@ -1554,10 +1554,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_oXkwcWi1VjDunRT0",
+                        "uid": "cell_undefined_laH8dVXTToGwAWtW",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_8j3bd14W6EfanDA",
+                        "coordUid": "coo_HcSqeCEG0e1rbyV",
                         "data": {
                             "value": "其他重要信息"
                         },
@@ -1579,7 +1579,7 @@
                 }
             },
             {
-                "uid": "template_tWh93Shx",
+                "uid": "template_Uv6ZLFQg",
                 "name": "任务及日程",
                 "domain": "global",
                 "type": "dynamic",
@@ -1587,14 +1587,14 @@
                 "required": false,
                 "hashSheet": [
                     [
-                        "cell_undefined_SOcz1i2Y3fHx7jsr",
-                        "cell_undefined_5aDJSxoPXVwqnDnx",
-                        "cell_undefined_roEgbtHO66WmdKUu",
-                        "cell_undefined_KrsfurofJxAomgzl",
-                        "cell_undefined_PSCH5uAi6RHGwzsF",
-                        "cell_undefined_iPoGie1GXrJmaiuK",
-                        "cell_undefined_ndhV1oG9SLHm167E",
-                        "cell_undefined_4FdbR7IYBNO04zxm"
+                        "cell_undefined_I3sy7DbkUtDvBk2M",
+                        "cell_undefined_QrnnczebOGUGrzul",
+                        "cell_undefined_S4nimBAQxjanVISt",
+                        "cell_undefined_29oeHecBtAf9dQAl",
+                        "cell_undefined_yKmwDj2XhC6Q1KyK",
+                        "cell_undefined_XKALFpuHLoNSvtOw",
+                        "cell_undefined_AMDTUD8fnTAnjKEN",
+                        "cell_undefined_qFCC3HEv7U2jUGbm"
                     ]
                 ],
                 "cellHistory": [
@@ -1616,10 +1616,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_SOcz1i2Y3fHx7jsr",
+                        "uid": "cell_undefined_I3sy7DbkUtDvBk2M",
                         "type": "sheet_origin",
                         "status": "",
-                        "coordUid": "coo_zDc2M80fRPTV8sG",
+                        "coordUid": "coo_pKKHniEUIoT9wvA",
                         "data": {
                             "note": "任务及日程",
                             "initNode": "",
@@ -1647,10 +1647,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_5aDJSxoPXVwqnDnx",
+                        "uid": "cell_undefined_QrnnczebOGUGrzul",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_1qtFSAR8mnMnFhh",
+                        "coordUid": "coo_x1pkfVIFDhGZE81",
                         "data": {
                             "value": "执行人"
                         },
@@ -1674,10 +1674,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_roEgbtHO66WmdKUu",
+                        "uid": "cell_undefined_S4nimBAQxjanVISt",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_QGHETJddHSI9u71",
+                        "coordUid": "coo_T0UWjtvvYsIGlVI",
                         "data": {
                             "value": "任务或日程"
                         },
@@ -1701,10 +1701,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_KrsfurofJxAomgzl",
+                        "uid": "cell_undefined_29oeHecBtAf9dQAl",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_T5dK7IGizdmN1he",
+                        "coordUid": "coo_499cCJELNlhB9Xf",
                         "data": {
                             "value": "委托人"
                         },
@@ -1728,10 +1728,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_PSCH5uAi6RHGwzsF",
+                        "uid": "cell_undefined_yKmwDj2XhC6Q1KyK",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_FFk6uW0e5XzE1u6",
+                        "coordUid": "coo_y0w1eiepYaMUYrW",
                         "data": {
                             "value": "报酬"
                         },
@@ -1755,10 +1755,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_iPoGie1GXrJmaiuK",
+                        "uid": "cell_undefined_XKALFpuHLoNSvtOw",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_ZIV9jPLIpTvOeUB",
+                        "coordUid": "coo_fds0RrTsj027on3",
                         "data": {
                             "value": "地点"
                         },
@@ -1782,10 +1782,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_ndhV1oG9SLHm167E",
+                        "uid": "cell_undefined_AMDTUD8fnTAnjKEN",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_jNHQsJ19m7mUUd8",
+                        "coordUid": "coo_4pcNQRrxumlwmvK",
                         "data": {
                             "value": "起始时间"
                         },
@@ -1809,10 +1809,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_4FdbR7IYBNO04zxm",
+                        "uid": "cell_undefined_qFCC3HEv7U2jUGbm",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_C2Y8g3XGWXDcp6L",
+                        "coordUid": "coo_MU9rKJQLenqf7l2",
                         "data": {
                             "value": "结束或限制时间"
                         },
@@ -1834,7 +1834,7 @@
                 }
             },
             {
-                "uid": "template_7YojLUZ0",
+                "uid": "template_ICuQFYPl",
                 "name": "能力",
                 "domain": "global",
                 "type": "dynamic",
@@ -1842,12 +1842,12 @@
                 "required": false,
                 "hashSheet": [
                     [
-                        "cell_undefined_Szbw2uZjUcGRlY6v",
-                        "cell_undefined_jsuI2RHZOxkTHtqf",
-                        "cell_undefined_FnHMVHpYtcRJNbnA",
-                        "cell_undefined_yNyxtULBeM6vcNwA",
-                        "cell_undefined_SkPQc6UHrOrImTy2",
-                        "cell_undefined_5WW3cPOiNCTxAjRN"
+                        "cell_undefined_Bd5xmW7IWxc4JUUZ",
+                        "cell_undefined_wytjvX7WgOTxJtWE",
+                        "cell_undefined_spW8G2hn3cABDLJK",
+                        "cell_undefined_bMQxtdYM8JF48dZH",
+                        "cell_undefined_CjpZpXQfRlP8Zynh",
+                        "cell_undefined_jd6W2cgm0EaV7qZx"
                     ]
                 ],
                 "cellHistory": [
@@ -1869,10 +1869,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_Szbw2uZjUcGRlY6v",
+                        "uid": "cell_undefined_Bd5xmW7IWxc4JUUZ",
                         "type": "sheet_origin",
                         "status": "",
-                        "coordUid": "coo_AtoCPey44eAPqDV",
+                        "coordUid": "coo_ksLXbtgqpON9ig2",
                         "data": {
                             "note": "能力",
                             "deleteNode": "本轮角色能力转移或失去时",
@@ -1899,10 +1899,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_jsuI2RHZOxkTHtqf",
+                        "uid": "cell_undefined_wytjvX7WgOTxJtWE",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_J6IhWFogWA6IfYa",
+                        "coordUid": "coo_rqhPTZppbtgbptR",
                         "data": {
                             "value": "拥有人"
                         },
@@ -1926,10 +1926,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_FnHMVHpYtcRJNbnA",
+                        "uid": "cell_undefined_spW8G2hn3cABDLJK",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_e83wUjGDM9IMWNH",
+                        "coordUid": "coo_y0Fph2MgEendbJh",
                         "data": {
                             "value": "能力名"
                         },
@@ -1953,10 +1953,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_yNyxtULBeM6vcNwA",
+                        "uid": "cell_undefined_bMQxtdYM8JF48dZH",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_OlFlcQWknfiFepB",
+                        "coordUid": "coo_PJspH6mQAaPsIhu",
                         "data": {
                             "value": "效果"
                         },
@@ -1980,10 +1980,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_SkPQc6UHrOrImTy2",
+                        "uid": "cell_undefined_CjpZpXQfRlP8Zynh",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_yPGXmoGMmhBVk7T",
+                        "coordUid": "coo_fsDDtpjXd65IrEQ",
                         "data": {
                             "value": "代价"
                         },
@@ -2007,10 +2007,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_5WW3cPOiNCTxAjRN",
+                        "uid": "cell_undefined_jd6W2cgm0EaV7qZx",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_jYq4jyC2azrB4o8",
+                        "coordUid": "coo_yh4rPuVgQGC8RYF",
                         "data": {
                             "value": "来源"
                         },
@@ -2032,7 +2032,7 @@
                 }
             },
             {
-                "uid": "template_4naoj8O5",
+                "uid": "template_OhnZqePt",
                 "name": "物品",
                 "domain": "global",
                 "type": "dynamic",
@@ -2040,13 +2040,13 @@
                 "required": false,
                 "hashSheet": [
                     [
-                        "cell_undefined_ZRxhrixnUZEqG1YF",
-                        "cell_undefined_CQZzrbSw0IEKcbrE",
-                        "cell_undefined_eRnLRCgvJUOrNe4I",
-                        "cell_undefined_T79Sm6xs5jmhe3OR",
-                        "cell_undefined_y0upbYSGuBN87QFK",
-                        "cell_undefined_vBuZWDuQvL3zdy7q",
-                        "cell_undefined_kNZgvI9k4YhUS6YY"
+                        "cell_undefined_zTb05IWnOKCfsxgQ",
+                        "cell_undefined_QoslhYe4FXJ6ruP0",
+                        "cell_undefined_dmwO3ehPyGaOce9M",
+                        "cell_undefined_SNgPHMlOom0Ps3gW",
+                        "cell_undefined_0kvM3bDlDMPlj5o4",
+                        "cell_undefined_sUn5Fkd4VcEU7TDe",
+                        "cell_undefined_NUlcuyYHWjhOqcTt"
                     ]
                 ],
                 "cellHistory": [
@@ -2068,10 +2068,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_ZRxhrixnUZEqG1YF",
+                        "uid": "cell_undefined_zTb05IWnOKCfsxgQ",
                         "type": "sheet_origin",
                         "status": "",
-                        "coordUid": "coo_luAASoc0v02aUBg",
+                        "coordUid": "coo_D7menGimpVsMkrp",
                         "data": {
                             "note": "物品",
                             "deleteNode": "本轮角色失去或耗尽物品时",
@@ -2098,10 +2098,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_CQZzrbSw0IEKcbrE",
+                        "uid": "cell_undefined_QoslhYe4FXJ6ruP0",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_oYSeSDvYxsEy1UU",
+                        "coordUid": "coo_zCEZjjM5mtMbTC1",
                         "data": {
                             "value": "拥有人"
                         },
@@ -2125,10 +2125,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_eRnLRCgvJUOrNe4I",
+                        "uid": "cell_undefined_dmwO3ehPyGaOce9M",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_8t2OvX3kzaF8Trh",
+                        "coordUid": "coo_oxwvqCePeNEP0Ap",
                         "data": {
                             "value": "物品名"
                         },
@@ -2152,10 +2152,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_T79Sm6xs5jmhe3OR",
+                        "uid": "cell_undefined_SNgPHMlOom0Ps3gW",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_42jQe2LHMeXj6zx",
+                        "coordUid": "coo_IDjUIWkQbhJrJKq",
                         "data": {
                             "value": "数量"
                         },
@@ -2179,10 +2179,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_y0upbYSGuBN87QFK",
+                        "uid": "cell_undefined_0kvM3bDlDMPlj5o4",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_xJ0fraz9P6GVNBN",
+                        "coordUid": "coo_McRLdL6MHGzTQDG",
                         "data": {
                             "value": "描述"
                         },
@@ -2206,10 +2206,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_vBuZWDuQvL3zdy7q",
+                        "uid": "cell_undefined_sUn5Fkd4VcEU7TDe",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_7XCoFaWLvTGplch",
+                        "coordUid": "coo_A4CslAeO288v41b",
                         "data": {
                             "value": "效果或意义"
                         },
@@ -2233,10 +2233,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_kNZgvI9k4YhUS6YY",
+                        "uid": "cell_undefined_NUlcuyYHWjhOqcTt",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_27svETEfOurYK68",
+                        "coordUid": "coo_JcXgqrkYDfWIpAt",
                         "data": {
                             "value": "来源"
                         },
@@ -2258,7 +2258,7 @@
                 }
             },
             {
-                "uid": "template_zjvzTu51",
+                "uid": "template_nbIvpObc",
                 "name": "事件历史",
                 "domain": "global",
                 "type": "dynamic",
@@ -2266,10 +2266,10 @@
                 "required": false,
                 "hashSheet": [
                     [
-                        "cell_undefined_QsnmQPjS8be87yTJ",
-                        "cell_undefined_D3BpqJAxMzDsVtvt",
-                        "cell_undefined_6OiaEiQhkJbGSWfq",
-                        "cell_undefined_xPAorKfs0DKoKZO2"
+                        "cell_undefined_jVwI6wqXmSjoCgwH",
+                        "cell_undefined_83m7HaMTMunwDH7L",
+                        "cell_undefined_nSL5GJLwtlVES12y",
+                        "cell_undefined_k4n4q7HuPXSwS7EJ"
                     ]
                 ],
                 "cellHistory": [
@@ -2291,10 +2291,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_QsnmQPjS8be87yTJ",
+                        "uid": "cell_undefined_jVwI6wqXmSjoCgwH",
                         "type": "sheet_origin",
                         "status": "",
-                        "coordUid": "coo_q5a5qt55xJexfN5",
+                        "coordUid": "coo_bQNql60vHcin1oA",
                         "data": {
                             "note": "事件历史",
                             "initNode": "",
@@ -2322,10 +2322,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_D3BpqJAxMzDsVtvt",
+                        "uid": "cell_undefined_83m7HaMTMunwDH7L",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_Adv08jNHO9v2Y6h",
+                        "coordUid": "coo_tgiKnAaiEuzGmtf",
                         "data": {
                             "value": "时间"
                         },
@@ -2349,10 +2349,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_6OiaEiQhkJbGSWfq",
+                        "uid": "cell_undefined_nSL5GJLwtlVES12y",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_tFwZ5LBJVGd9LY3",
+                        "coordUid": "coo_Wd8tVLK0IQG1NbJ",
                         "data": {
                             "value": "地点"
                         },
@@ -2376,10 +2376,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_xPAorKfs0DKoKZO2",
+                        "uid": "cell_undefined_k4n4q7HuPXSwS7EJ",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_8b3ksbixU5aifH2",
+                        "coordUid": "coo_TZDUxmAakOaZmL4",
                         "data": {
                             "value": "事件"
                         },
@@ -2401,7 +2401,7 @@
                 }
             },
             {
-                "uid": "template_fA86Yqey",
+                "uid": "template_NKhHQhEA",
                 "name": "大总结",
                 "domain": "global",
                 "type": "dynamic",
@@ -2409,9 +2409,9 @@
                 "required": false,
                 "hashSheet": [
                     [
-                        "cell_undefined_Wg1zmTcRInTsHUoY",
-                        "cell_undefined_d6h5sazYhNccCnLS",
-                        "cell_undefined_PJ0JB6kjxoRqfWZ2"
+                        "cell_undefined_7Sju78LEblz4IVNP",
+                        "cell_undefined_4E5jhEgmKb4BdeAV",
+                        "cell_undefined_MBaUbDYzrR09ZfON"
                     ]
                 ],
                 "cellHistory": [
@@ -2433,10 +2433,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_Wg1zmTcRInTsHUoY",
+                        "uid": "cell_undefined_7Sju78LEblz4IVNP",
                         "type": "sheet_origin",
                         "status": "",
-                        "coordUid": "coo_9rUlhjdANEs1kcE",
+                        "coordUid": "coo_Y9UYnQLyHybHnFS",
                         "data": {
                             "note": "大总结",
                             "deleteNode": "",
@@ -2463,10 +2463,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_d6h5sazYhNccCnLS",
+                        "uid": "cell_undefined_4E5jhEgmKb4BdeAV",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_tqZREFIyIq29nmV",
+                        "coordUid": "coo_PcwfnLyDVq6F89I",
                         "data": {
                             "value": "时间范围"
                         },
@@ -2490,10 +2490,10 @@
                             "clearSheet": "clearSheet"
                         },
                         "bridge": {},
-                        "uid": "cell_undefined_PJ0JB6kjxoRqfWZ2",
+                        "uid": "cell_undefined_MBaUbDYzrR09ZfON",
                         "type": "column_header",
                         "status": "",
-                        "coordUid": "coo_v0GvQcHHlvnLPpJ",
+                        "coordUid": "coo_SNCdnrGCW83vMuE",
                         "data": {
                             "value": "内容"
                         },
