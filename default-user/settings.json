@@ -6021,8 +6021,8 @@
         "n": 1
     },
     "background": {
-        "name": "_white.jpg",
-        "url": "url(\"backgrounds/_white.jpg\")",
+        "name": "cityscape medieval night.jpg",
+        "url": "url(\"backgrounds/cityscape medieval night.jpg\")",
         "fitting": "classic"
     },
     "proxies": [
