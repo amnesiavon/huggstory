@@ -62,11 +62,12 @@
         "AlertRegex_罗落大陆.png": "true",
         "world_info_sort_order": "13",
         "AlertWI_可视化地图导航.png": "true",
-        "AlertRegex_可视化地图导航.png": "true"
+        "AlertRegex_可视化地图导航.png": "true",
+        "AlertWI_穿越修真界被四个天命之子当炉鼎.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "fuhufox的亚种圣杯战争.png",
+    "active_character": "穿越修真界被四个天命之子当炉鼎.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -3473,8 +3474,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 23236,
                 "LAST_SEND_CHARS": 56247,
-                "LAST_RECEIVE_TOKENS": 329,
-                "LAST_RECEIVE_CHARS": 1423
+                "LAST_RECEIVE_TOKENS": 149,
+                "LAST_RECEIVE_CHARS": 205
             }
         },
         "attachments": [],
