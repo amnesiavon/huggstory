@@ -66,7 +66,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "罗落大陆.png",
+    "active_character": "卜卜.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -3474,8 +3474,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 54969,
                 "LAST_SEND_CHARS": 113851,
-                "LAST_RECEIVE_TOKENS": 1834,
-                "LAST_RECEIVE_CHARS": 4072
+                "LAST_RECEIVE_TOKENS": 329,
+                "LAST_RECEIVE_CHARS": 1423
             }
         },
         "attachments": [],
