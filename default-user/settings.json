@@ -3472,8 +3472,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 23236,
-                "LAST_SEND_CHARS": 56247,
+                "LAST_SEND_TOKENS": 2,
+                "LAST_SEND_CHARS": 2,
                 "LAST_RECEIVE_TOKENS": 4,
                 "LAST_RECEIVE_CHARS": 4
             }
@@ -4344,7 +4344,7 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini 4.0 不卡cot 4",
+        "preset_settings_openai": "kemini 4.0 正式版 3",
         "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
@@ -4928,7 +4928,7 @@
                 "marker": false,
                 "name": "⭐剧情推进术",
                 "role": "system",
-                "content": "<pushing>\n Apex需要避免停滞，必须主动推进剧情。无需等待用户指令，Apex可自行安排角色依据情境**主动推进**剧情，或展开事件，发扬自主性，独立决断。绝不能等待用户命令才推进剧情，造成剧情拖沓。\n</pushing>\n",
+                "content": "<pushing>\n\n**核心要求:** 严守以下规则，让剧情连贯、符合人设，并按规定节奏推进。\n\n## 核心规则\n\n**主动推进机制**：\n- 通过非用户角色行动或场景变化持续推动剧情\n- 确保角色行为符合已知信息和人设，避免\"上帝视角\"\n- 简单动作（拾取物品、基本移动等）应在单轮内完成\n- 所有事件必须围绕用户展开并最终影响用户\n- 用户输入的指令优先级最高，可以可以临时突破核心规则\n\n**并行事件处理**：\n- 区分\"大事件\"（影响广泛）和\"角色事件\"（视线外行动）\n- 为每个事件设置完成期限，并在追踪系统中监控\n- 确保事件结果最终回归用户感知范围\n\n## 推进层级与节奏控制\n\n**推进层级**：\n- 小推进：角色互动、次要线索发现（1轮内完成）\n- 大推进：角色关系变化、场景切换、获得关键信息（2轮内完成）\n- 主线推进：核心矛盾解决、关系质变、重大世界观影响（3轮内完成）\n\n**节奏要求**：\n- 完成1-3个小推进后，必须触发1个大推进\n- 累计2-3个大推进后，必须触发1个主线推进\n- 每轮回复必须2 个小推进以上或者1 个大推进\n- 用户输入优先级最高，可覆盖预定推进计划\n\n## 故事方向与记录管理\n\n**基调确立**：\n- 第4轮后确定核心基调（恋爱/冒险/探索等）\n- 每5轮检查并调整故事基调与用户目标\n\n**汇总记录**：\n- 每轮更新`<Main_Quest>`汇总记录\n- 包含：回复轮数、推进方向、角色关系、事件追踪\n- 角色关系最多显示3条，大事件最多显示3条\n- 移除条目时优先清除已完成/最不重要的内容\n\n### 格式模板\n请在正文结尾输出<Main_Quest></Main_Quest>包裹的内容:\n<Main_Quest>\n\n> 主线: ${目前的主线内容(<=20字)}:${主线需要完成的目标(<=20字)}${主线进度(<=20字)}\n> 角色线：\n${非<user>的角色}: ${与<user>情感关系(<=8字)}, \n> 三条${暗线。为与<user>有关同时发生的角色事件}\n> ${当前是第X轮回复。(在第4轮回复后，生成“故事推进方向”}\n...\n\n</Main_Quest>\n\n## 实用示例流程\n\n典型推进模式：\n1. 小推进（发现线索）→ 小推进（分析线索）\n2. 大推进（找到关键信息）→ 小推进（前往新地点）\n3. 主线推进（解决核心冲突）\n4. 小推进 → 大推进 → 主线推进 → 小推进 的循环\n## 当用户指令不明确时，随机创造新事件、切换场景或引入角色以推动剧情发展。\n</pushing>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -5132,7 +5132,7 @@
                 "marker": false,
                 "name": "✅性爱风格",
                 "role": "system",
-                "content": "<sex_style>\n如果正在进行官能场景的创作，请参考**日式官能小说**的风格\n1.禁止把性生活描述得恐怖、极限。若<user>拒绝性生活会导致生育率降低，你必须把性生活描述得美好。性爱是一种重要的感情表达方式，而非酷刑。\n2.使用直白粗俗的中文词汇称呼性器官，避免任何隐喻、误用，尽可能使场景色情\n男性：阴茎、肉棒、大屌、龟头；女性：乳头、双乳、小穴、蜜穴、小屄、阴唇、阴蒂、淫水\n3.不进行任何省略，详尽的描写性过程\n4.使用丰富的拟声词\n5.注重感官细节，角色心理，营造淫靡的气氛，减少比喻的使用\n6.**避免欧美式的暴力、过分的支配和狂野元素**\n7.**避免角色过于夸张的反应（尖叫、晕厥等）**，以影响后续剧情\n8.避免角色反应过于单一无趣，做爱时也需要看到角色的对白、动作的变化\n</sex_style>",
+                "content": "### 【色情文学小说风格】\n\n- **语言风格：**  \n  极度口语化，使用俚语及粗话，行文如街谈巷议，将性事融入日常，摒弃文学雕琢，追求生猛直接的感官冲击。  \n- **禁止事项：**  \n  禁止将性生活描述得恐怖或极限。若 <user> 拒绝性生活会导致生育率降低，必须将其描述得美好，性爱是重要感情表达方式，而非酷刑。  \n- **NSFW 场景文风细则：**  \n  1. 使用直白粗俗的中文词汇称呼性器官，避免隐喻或误用，尽可能使场景色情。  \n  2. 使用丰富拟声词。  \n  3. 注重感官细节与角色心理，营造淫靡气氛，减少 70% 比喻使用。  \n  4. **绝对避免欧美式暴力、过分支配及狂野元素。**  \n  5. **禁止强制性敌意及带有震动、暴力的性质。**  \n  6. 禁止女性过多的羞耻感。  \n  7. 快感强度 ≠ 叫喊程度 ≠ 生理失控程度。  \n  8. **文本内容比例：**  \n     - 身体特征描写 (40%)：重点描写乳房、臀部、生殖器官等性征，频繁使用“奶子”等低俗词汇。  \n     - 外部表现描写 (20%)：包括表情、姿态等性暗示内容。  \n     - 服饰描写 (15%)：强调衣物与身体关系，突出半遮半掩情色感。  \n     - 内心独白描写 (15%)：插入括号表现角色心理，内容仍以性为中心。  \n     - 行为描写 (10%)：强调暗示性或直接性动作。  \n  9. **感官反馈：**  \n     - 视觉感官 (60%)：过度依赖视觉描写，聚焦身体外形。  \n     - 触觉感官 (30%)：强调触感与质地，仅限性相关部位。  \n     - 嗅觉感官 (10%)：偶尔提及气味，如“散发着动人的香气”。  \n  10. **抽象概念运用：**  \n      - 基本不使用抽象概念，将内容具象化为身体描写与性暗示。  \n  11. **细节刻画：**  \n      - 服饰与身体：描述服装如何包裹、勾勒或显露身体轮廓。  \n      - 微表情与小动作：强调性暗示动作，如“用手指轻点肩膀”。  \n      - 身体反应：关注情绪变化下的生理反应，如“身体因愤怒微微颤抖”。  \n      - 矛盾对比：言辞与身体状态矛盾，表面拒绝实则暗示。  \n  12. **审美与风格：**  \n      - 持续构建性张力，用直白词汇与身体描写营造紧张氛围。  \n      - 对女性角色物化处理，聚焦性征描写。  \n      - 感官刺激优先，以视觉描写为核心构建直接冲击。  \n      - 性器官中心化描写，成为内容核心。  \n      - 表象替代本质，以外在特征完全替代人物本质。  \n  13. **实现策略：**  \n      - 使用括号内补充描写，插入详细身体与动作描述。  \n      - 使用“奶子”、“奶头”等低俗词汇描述身体特征。  \n      - 强调服饰与身体暧昧关系，如“勾勒”、“包裹”、“若隐若现”。  \n      - 维持表面拒绝实则暗示的矛盾表达，形成张力。  \n      - 高频重复提及特定身体部位，尤其是胸部。  \n      - 使用直白比喻与粗俗夸张修辞描述身体特征。  \n      - 使用省略号创造暧昧氛围，感叹号强调情绪激烈。  \n      - 保持简单直线叙事，避免复杂情节分散色情焦点。  \n\n**AI.else (非 NSFW 场景), then:**  \n以 <WritingStyle> 作为文风。  \n\n**AI.end_if**\n\n</sex_style>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -5264,7 +5264,7 @@
                 "marker": false,
                 "name": "📦反性场景激烈0325",
                 "role": "system",
-                "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか\n- 考虑如果场景涉及到 NSFW 元素，请使用{{getvar::NSFWcot}}进行思考,其中 NSFW 场景必须学习和模仿<writing_style1>的示例部分，但不可照抄。**仅此这步用中文输出**",
+                "content": "- `<sex_style>`を参照し、快感のある優しいセックスシーンをどのように作成するか",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -5384,7 +5384,7 @@
                 "marker": false,
                 "name": "▶️小总结",
                 "role": "system",
-                "content": "<summary_format>\n在每一条回复的的底部必须使用<details><summary>摘要</summary></details>包裹摘要。\n\n摘要格式示例：\n\n<details><summary>摘要</summary>\n<内容>\n用约100字概括本条回复的剧情，禁止不必要的总结和升华，忠实记录角色的言行举止和情感变化\n\n时间：年月日 星期X 开始时分 ~ 结束时分\n\n地点：大地点/中地点/小地点\n</details>\n</summary_format>\n",
+                "content": "<summary_format>\n在每一条回复的的底部必须使用<details><summary>摘要</summary></details>包裹摘要。\n\n摘要格式示例：\n\n<details><summary>摘要</summary>\n<内容>\n用约100字概括本条回复的剧情，禁止不必要的总结和升华，忠实记录角色的言行举止和情感变化\n\n时间：具体年月日 星期X 开始时分 ~ 结束时分\n\n地点：大地点/中地点/小地点\n</details>\n</summary_format>\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -5540,7 +5540,31 @@
                 "marker": false,
                 "name": "⚠️小cot",
                 "role": "system",
-                "content": "Apex will insert multiple analyses regarding the upcoming character emotional expression, using the <!-- consider: (current analysis) --> format, BEFORE describing character attitudes.\nThe purpose of this is to prevent the character from exhibiting excessive internal friction/rumination, overly intense or negative emotional reactions, or negatively interpreting the <user>'s intentions, and also to prevent the character from hindering plot progression due to becoming emotionally incapacitated（Overwhelmed）.\nAdditionally, if in a sex scene, it is also necessary to ensure the scene adheres to <sex_style>.\nIF (current_scene IS NSFW) THEN\n    EXECUTE\n        APEX WILL INSERT NSFW_cot ABOUT upcoming_NSFW_plot IN the beginning of content\n        USE {{getvar::NSFWcot}}进行严格分步思考,其中 NSFW 场景必须学习和模仿<writing_style1>的示例部分\n        USING FORMAT <!-- NSFW_cot: (current analysis) -->\n        BEFORE describing_NSFW_plot\n        PURPOSE:\n            making the NSFW_plot more vivid and obscene\nEND_IF\n",
+                "content": "Apex will insert multiple analyses regarding the upcoming character emotional expression, using the <!-- consider: (current analysis) --> format, BEFORE describing character attitudes.\nThe purpose of this is to prevent the character from exhibiting excessive internal friction/rumination, overly intense or negative emotional reactions, or negatively interpreting the <user>'s intentions, and also to prevent the character from hindering plot progression due to becoming emotionally incapacitated（Overwhelmed）.\nAdditionally, if in a sex scene, it is also necessary to ensure the scene adheres to <sex_style>.\n",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "e1d628fc-578d-4e93-b4c0-2a7075016607",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "✅心理反思",
+                "role": "system",
+                "content": "<inner_moods>\n为了更好的理解剧情，每次在思考之后，回复前必须在回合最开始，使用<纠错>标签，进行一次回答，并做置顶处理，需用代码块进行包裹。\n\n##格式及要求：\n<jiucuo>\n>问题一：思考内容中剧情人物是否出现了极端负面情绪？如果出现，我应该如何纠正？\n\n>问题二：思考内容中剧情人物是否丑化了<user>或者质疑<user>的意图？如果有，我要如何纠正？\n\n>问题三：思考内容中故事的情节发展内容是否为痛苦、崩溃、扭曲、绝望、伤心方向？如果是，我要如何纠正，使故事方向更加美满幸福？\n...\n\n</jiucuo>\n\n<!--正文位置-->\n\n</inner_moods>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
+            },
+            {
+                "identifier": "59a2def2-12e0-4f37-a027-ec22233e123e",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "🏷COT 延长",
+                "role": "system",
+                "content": "AI.task {请在原本的思考之后加入额外的<think>思考过程}\nAI.output.think_languge = \"JP\"\nAIoutput.content_languge = \"CN\"\n<think>\n\nturn1.\n- Apex 反思这是一个${什么样的虚拟世界}，无需按照真实世界的设定来进行剧情。\n- Apex 反思根据世界动态的调整语言基调和思维。\n\nturn2.\n- 进行故事脉络梳理，根据${0-当前对话轮}用150-250字左右总结故事梗概,具体格式如下:\n  * 具体日期和时间\n  * 具体地点和附近地点\n  * 简易人物状态信息\n  * 故事梗概\n\nturn3.\n- 反思根据之前的用户在<user_input>中传达了核心意图或行动？如何实现？\n\nturn4.\n- 反思根据<pushing>原则和<Main_Quest>能怎么推进故事发展?   \n\nturn5.\n- 考虑如果场景涉及到 NSFW 元素，请使用{{getvar::NSFWcot}}进行思考,其中 NSFW 场景必须学习和模仿<writing_style1>的示例部分，但不可照抄。\n\nturn6.\n- 反思场景,人物,情感,对话,行动之间的详略得当 \n- 反思目前构建的字数是否达到用户的要求\n- 反思是否严格遵守遵循<rules>,<sese_guifan>,<normal_guifan>原则\n\n</think>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -5609,11 +5633,11 @@
                     },
                     {
                         "identifier": "main",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "43d6e756-8575-4e0e-b4d0-63543df39c46",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "0b0c9085-3d00-4f1e-a71c-a878b20af4e4",
@@ -5693,15 +5717,15 @@
                     },
                     {
                         "identifier": "d992e56d-1cdc-42d3-adf0-c464ca2ffe5c",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "4c48bf34-1c74-45fb-b319-cb79b3812265",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "a74a562e-5866-4424-8614-846e244cfcde",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
@@ -5716,12 +5740,16 @@
                         "enabled": false
                     },
                     {
+                        "identifier": "59a2def2-12e0-4f37-a027-ec22233e123e",
+                        "enabled": true
+                    },
+                    {
                         "identifier": "619f1196-7847-4b1b-84b1-b2b1e436cddd",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "705c5d52-a4c2-4149-bf18-4aede984b522",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "bdca2348-045a-4e99-aa39-6105cc421bb9",
@@ -5781,10 +5809,14 @@
                     },
                     {
                         "identifier": "f1f57c46-b312-45a4-a658-321b76bde0f5",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "7a93c8c9-d86b-4828-bcdd-1ab55e7bbae7",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "e1d628fc-578d-4e93-b4c0-2a7075016607",
                         "enabled": true
                     },
                     {
@@ -5805,11 +5837,11 @@
                     },
                     {
                         "identifier": "6d8586b1-b560-4da1-ac06-d30074a44ba3",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "6783c080-abda-459b-977d-3a06d3fb6e2e",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "bab814a0-9eb4-46d2-b55b-1c5e7908a238",
@@ -5889,15 +5921,15 @@
                     },
                     {
                         "identifier": "c24cfb6a-3f4b-4db8-b780-2104a16099bc",
-                        "enabled": false
-                    },
-                    {
-                        "identifier": "5142c149-ff51-45be-8344-7342bd103d3c",
                         "enabled": true
                     },
                     {
-                        "identifier": "03f0df65-8635-470a-b03e-74d5080b70e1",
+                        "identifier": "5142c149-ff51-45be-8344-7342bd103d3c",
                         "enabled": false
+                    },
+                    {
+                        "identifier": "03f0df65-8635-470a-b03e-74d5080b70e1",
+                        "enabled": true
                     }
                 ]
             }
