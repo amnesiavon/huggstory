@@ -3020,8 +3020,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 54694,
-                "LAST_SEND_CHARS": 112809,
+                "LAST_SEND_TOKENS": 54639,
+                "LAST_SEND_CHARS": 112735,
                 "LAST_RECEIVE_TOKENS": 32,
                 "LAST_RECEIVE_CHARS": 38
             }
@@ -5586,7 +5586,7 @@
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
         "custom_model": "models/gemini-2.5-pro-exp-03-25",
-        "custom_url": "https://nya-proxy.k3scat.com/api/gemini",
+        "custom_url": "https://neko.k3scat.com/api/gemini",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
