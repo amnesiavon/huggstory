@@ -494,29 +494,36 @@
             "updateIndex": 4,
             "tableStructure": [
                 {
-                    "tableName": "当前信息",
                     "tableIndex": 0,
+                    "tableName": "当前信息",
                     "columns": [
                         "时间",
                         "地点",
                         "<user>拥有资金"
                     ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": true,
                     "note": "当前信息",
                     "initNode": "本轮必须使用insertRow插入一行，填写每一列：当前的时间（YYYY-MM-DD 星期X hh:mm）/地点（国家/城区/地址/具体位置，可简化）/<user>拥有资金",
-                    "updateNode": "本轮时间（YYYY-MM-DD 星期X hh:mm，依据故事推进）/地点（国家/城区/地址/具体位置，可简化）/<user>拥有资金发生变化时。时间一栏需考虑本轮故事推进的时长，然后加到上一轮记录的时间上得到当前时间。"
+                    "updateNode": "本轮时间（YYYY-MM-DD 星期X hh:mm，依据故事推进）/地点（国家/城区/地址/具体位置，可简化）/<user>拥有资金发生变化时。时间一栏需考虑本轮故事推进的时长，然后加到上一轮记录的时间上得到当前时间。",
+                    "config": {
+                        "toChat": true,
+                        "useCustomStyle": false,
+                        "selectedCustomStyleKey": "",
+                        "customStyles": {
+                            "自定义样式": {
+                                "mode": "regex",
+                                "basedOn": "html",
+                                "regex": "/(^[\\s\\S]*$)/g",
+                                "replace": "$1"
+                            }
+                        }
+                    },
+                    "Required": true,
+                    "tochat": true,
+                    "enable": true
                 },
                 {
-                    "tableName": "近期角色",
                     "tableIndex": 1,
+                    "tableName": "近期角色",
                     "columns": [
                         "角色名",
                         "离场轮数",
@@ -526,28 +533,31 @@
                         "身体状态",
                         "服装"
                     ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": true,
                     "note": "近期角色",
                     "initNode": "本轮必须从回复中寻找出场的所有角色，对每个角色使用insertRow插入一行（将<user>作为第0行），填写每一列：角色名/离场轮数（置为0）/位置（仅限具体位置，包括与临近角色的位置关系）/姿势/情绪/身体状态（如汗、伤口、泪、性器官变化等）/服装（包含服装状态，脱衣时标注原服装及已脱，受损属于状态，完全损毁时删除）",
-                    "insertNode": "本轮出现任何在近期角色表内未记录的角色时",
+                    "deleteNode": "本轮未出场的近期角色的离场轮数达到5以上时，在近期角色其他更新后逆序删除",
                     "updateNode": "本轮近期角色在回复结尾时的角色名/离场轮数（若本轮回复出场则重置为0，否则在原值基础上+1，所有行总是更新，达到5且未出场时在近期角色表处理的**最后**删除行）/位置（仅限具体位置，包括与临近角色的位置关系）/姿势/情绪/身体状态（如汗、伤口、泪、性器官变化等）/服装（包含服装状态，脱衣时标注原服装及已脱，受损属于状态，完全损毁时删除）与表格记录不同时，离场角色只需更新离场轮数并保持其余列不变",
-                    "deleteNode": "本轮未出场的近期角色的离场轮数达到5以上时，在近期角色其他更新后逆序删除"
+                    "insertNode": "本轮出现任何在近期角色表内未记录的角色时",
+                    "config": {
+                        "toChat": true,
+                        "useCustomStyle": false,
+                        "selectedCustomStyleKey": "",
+                        "customStyles": {
+                            "自定义样式": {
+                                "mode": "regex",
+                                "basedOn": "html",
+                                "regex": "/(^[\\s\\S]*$)/g",
+                                "replace": "$1"
+                            }
+                        }
+                    },
+                    "Required": true,
+                    "tochat": true,
+                    "enable": true
                 },
                 {
-                    "tableName": "角色信息",
                     "tableIndex": 2,
+                    "tableName": "角色信息",
                     "columns": [
                         "角色名",
                         "性别",
@@ -563,34 +573,31 @@
                         "对<user>态度",
                         "其他重要信息"
                     ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6,
-                        7,
-                        8,
-                        9,
-                        10,
-                        11,
-                        12
-                    ],
-                    "enable": true,
-                    "Required": true,
-                    "asStatus": true,
-                    "toChat": true,
                     "note": "角色信息",
                     "initNode": "本轮必须从回复中寻找出场的所有角色，对每个角色使用insertRow插入一行（将<user>作为第0行），填写每一列：角色名/性别/年龄（准确值）/身份/住所（非所在地）/身体特征（不含服装、姿势、状态）/服装偏好（风格、必备配饰等，并非当前服装）/性格（不含情绪）/喜好（兴趣、爱好、嗜好品等，并非本职）/目标/关系（是<user>的——）/对<user>态度（包括好感度/关系值等,不含情绪）/其他重要信息",
-                    "insertNode": "本轮出现任何在角色信息表内未记录的角色时",
+                    "deleteNode": "仅限本轮用户要求删除时",
                     "updateNode": "本轮角色的角色名/性别/年龄（准确值）/身份/住所（非所在地）/身体特征（不含服装、姿势、状态）/服装偏好（风格、必备配饰等，并非当前服装）/性格（不含情绪）/喜好（兴趣、爱好、嗜好品等，并非本职）/目标/关系（是<user>的——）/对<user>态度（包括好感度/关系值等,不含情绪）/其他重要信息发生变化时",
-                    "deleteNode": "仅限本轮用户要求删除时"
+                    "insertNode": "本轮出现任何在角色信息表内未记录的角色时",
+                    "config": {
+                        "toChat": true,
+                        "useCustomStyle": false,
+                        "selectedCustomStyleKey": "",
+                        "customStyles": {
+                            "自定义样式": {
+                                "mode": "regex",
+                                "basedOn": "html",
+                                "regex": "/(^[\\s\\S]*$)/g",
+                                "replace": "$1"
+                            }
+                        }
+                    },
+                    "Required": true,
+                    "tochat": true,
+                    "enable": true
                 },
                 {
-                    "tableName": "任务及日程",
                     "tableIndex": 3,
+                    "tableName": "任务及日程",
                     "columns": [
                         "执行人",
                         "任务或日程",
@@ -600,28 +607,31 @@
                         "起始时间",
                         "结束或限制时间"
                     ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4,
-                        5,
-                        6
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": false,
                     "note": "任务及日程",
                     "initNode": "",
-                    "insertNode": "本轮出现角色明确接受（不含只列出未接受）的新任务或日程时，需填写：执行人/任务或日程（即执行人所需行动）/委托人/报酬/地点/起始时间/结束或限制时间",
+                    "deleteNode": "本轮任务或日程**完成、主动取消、超时或不再有效**时",
                     "updateNode": "本轮已接受的任务或日程发生变化时，对于已进行中的任务和日程无需更新起始时间",
-                    "deleteNode": "本轮任务或日程**完成、主动取消、超时或不再有效**时"
+                    "insertNode": "本轮出现角色明确接受（不含只列出未接受）的新任务或日程时，需填写：执行人/任务或日程（即执行人所需行动）/委托人/报酬/地点/起始时间/结束或限制时间",
+                    "config": {
+                        "toChat": true,
+                        "useCustomStyle": false,
+                        "selectedCustomStyleKey": "",
+                        "customStyles": {
+                            "自定义样式": {
+                                "mode": "regex",
+                                "basedOn": "html",
+                                "regex": "/(^[\\s\\S]*$)/g",
+                                "replace": "$1"
+                            }
+                        }
+                    },
+                    "Required": false,
+                    "tochat": true,
+                    "enable": true
                 },
                 {
-                    "tableName": "能力",
                     "tableIndex": 4,
+                    "tableName": "能力",
                     "columns": [
                         "拥有人",
                         "能力名",
@@ -629,25 +639,30 @@
                         "代价",
                         "来源"
                     ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": false,
                     "note": "能力",
-                    "insertNode": "本轮出现能力内未记录的角色新能力时",
+                    "deleteNode": "本轮角色能力转移或失去时",
                     "updateNode": "本轮已有角色能力发生变化时",
-                    "deleteNode": "本轮角色能力转移或失去时"
+                    "insertNode": "本轮出现能力内未记录的角色新能力时",
+                    "config": {
+                        "toChat": true,
+                        "useCustomStyle": false,
+                        "selectedCustomStyleKey": "",
+                        "customStyles": {
+                            "自定义样式": {
+                                "mode": "regex",
+                                "basedOn": "html",
+                                "regex": "/(^[\\s\\S]*$)/g",
+                                "replace": "$1"
+                            }
+                        }
+                    },
+                    "Required": false,
+                    "tochat": true,
+                    "enable": true
                 },
                 {
-                    "tableName": "物品",
                     "tableIndex": 5,
+                    "tableName": "物品",
                     "columns": [
                         "拥有人",
                         "物品名",
@@ -656,70 +671,89 @@
                         "效果或意义",
                         "来源"
                     ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2,
-                        3,
-                        4,
-                        5
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": true,
-                    "Required": false,
                     "note": "物品",
-                    "insertNode": "本轮出现物品内未记录的新角色-物品组合时",
+                    "deleteNode": "本轮角色失去或耗尽物品时",
                     "updateNode": "本轮已有角色-物品组合发生变化时",
-                    "deleteNode": "本轮角色失去或耗尽物品时"
+                    "insertNode": "本轮出现物品内未记录的新角色-物品组合时",
+                    "config": {
+                        "toChat": true,
+                        "useCustomStyle": false,
+                        "selectedCustomStyleKey": "",
+                        "customStyles": {
+                            "自定义样式": {
+                                "mode": "regex",
+                                "basedOn": "html",
+                                "regex": "/(^[\\s\\S]*$)/g",
+                                "replace": "$1"
+                            }
+                        }
+                    },
+                    "Required": false,
+                    "tochat": true,
+                    "enable": true
                 },
                 {
-                    "tableName": "事件历史",
                     "tableIndex": 6,
+                    "tableName": "事件历史",
                     "columns": [
                         "时间",
                         "地点",
                         "事件"
                     ],
-                    "columnsIndex": [
-                        0,
-                        1,
-                        2
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": false,
-                    "Required": false,
                     "note": "事件历史",
                     "initNode": "",
-                    "insertNode": "本轮剧情推进时，按本轮内容总结1-3行当前的事件历史，包括时间（YYYY-MM-DD 时段）/地点（国家/城区/地址，可简化）/事件（30字以内）",
+                    "deleteNode": "大总结时",
                     "updateNode": "",
-                    "deleteNode": "大总结时"
+                    "insertNode": "本轮剧情推进时，按本轮内容总结1-3行当前的事件历史，包括时间（YYYY-MM-DD 时段）/地点（国家/城区/地址，可简化）/事件（30字以内）",
+                    "config": {
+                        "toChat": true,
+                        "useCustomStyle": false,
+                        "selectedCustomStyleKey": "",
+                        "customStyles": {
+                            "自定义样式": {
+                                "mode": "regex",
+                                "basedOn": "html",
+                                "regex": "/(^[\\s\\S]*$)/g",
+                                "replace": "$1"
+                            }
+                        }
+                    },
+                    "Required": false,
+                    "tochat": true,
+                    "enable": true
                 },
                 {
-                    "tableName": "大总结",
                     "tableIndex": 7,
+                    "tableName": "大总结",
                     "columns": [
                         "时间范围",
                         "内容"
                     ],
-                    "columnsIndex": [
-                        0,
-                        1
-                    ],
-                    "enable": true,
-                    "asStatus": true,
-                    "toChat": false,
-                    "Required": false,
                     "note": "大总结",
-                    "insertNode": "用户在<user_request>中要求“大总结”时，仅基于事件历史表，适当分为不超过5段，每段总结并压缩至200字以内精简内容（禁止输出到正文），只保留故事要点，时间范围只需精确到天，对每一段大总结内容使用insertRow插入一行，并使用deleteRow逆序删除全部事件历史条目直至第0行(必须使用逆序，否则会触发用户遗留bug)，示例(已验证):\"deleteRow(6, 19)、deleteRow(6, 18)…deleteRow(6, 0)\"",
+                    "deleteNode": "",
                     "updateNode": "",
-                    "deleteNode": ""
+                    "insertNode": "用户在<user_request>中要求“大总结”时，仅基于事件历史表，适当分为不超过5段，每段总结并压缩至200字以内精简内容（禁止输出到正文），只保留故事要点，时间范围只需精确到天，对每一段大总结内容使用insertRow插入一行，并使用deleteRow逆序删除全部事件历史条目直至第0行(必须使用逆序，否则会触发用户遗留bug)，示例(已验证):\"deleteRow(6, 19)、deleteRow(6, 18)…deleteRow(6, 0)\"",
+                    "config": {
+                        "toChat": true,
+                        "useCustomStyle": false,
+                        "selectedCustomStyleKey": "",
+                        "customStyles": {
+                            "自定义样式": {
+                                "mode": "regex",
+                                "basedOn": "html",
+                                "regex": "/(^[\\s\\S]*$)/g",
+                                "replace": "$1"
+                            }
+                        }
+                    },
+                    "Required": false,
+                    "tochat": true,
+                    "enable": true
                 }
             ],
-            "deep": 1,
-            "injection_mode": "injection_off",
-            "message_template": "LSR的记忆增强表格预设_v1.3.11\n表格插件保持关闭注入，通过配套世界书注入\n\n:pushpin:图钉符号表示相关内容在原发布处已标注消息，限于消息长度无法直接给出链接，可点击dc右上角图钉按钮查看\n**加粗表示可选项和其他重点**\n对填表有临时要求则直接在输入中备注即可\n\n# 使用方法\n导入表格预设和此配套世界书\n包括表格提示词（因此表格预设关闭注入）、后置强调、用户消息标签包裹和四个可选的推测填表加强（两个需要提示词模板插件）\n后置强调包括了<think>、<thinking>、无思维链三种版本，**依据自己模型或带CoT的预设/卡等，择一使用**\n\n:pushpin:若原先未用本预设，请从新聊天开始使用，有详细教程\n\n:pushpin:跨中版本（即前两版本号存在差异，表示表格结构存在差异）更新可使用转换工具\n\n:pushpin:两个可选正则，不向AI发送历史tableThink和tableEdit，在纠错时（只要<tableThink>或<tableEdit>的标签还完整）或希望避免模仿历史操作时可以试试看；视模型和预设不同，有的更适合保持开启，有的更适合关闭\n\n推荐可选插件：https://github.com/SillyTavern/Extension-MessageLimit\n设置限制5-10层即可\n\n当前信息、近期角色以及事件历史表高频更新，其他低频更新。其中事件历史表几乎不会错。因此配置0-5表格推送至对话：\n**通常只需检查当前信息及近期角色表格是否正确，其他推送表格通常无需改变因此只需扫一眼是否有多余操作即可，仅当需要更新时才需关注其他表格**\n**出现问题请及时处理，否则ai就会模仿着继续错下去，避免模仿可用前述正则**\n\n:pushpin:预设内推送样式有修改，允许自动换行以避免左右滚动，适合pc；默认展开，便于检查",
+            "deep": 2,
+            "injection_mode": "deep_system",
+            "message_template": "《数据表操作指南》\n核心操作块定义\n<tableThink> (表格变更前瞻思考块):\n 执行时机: 必须在 <content> (或主响应文本) 生成完成之后执行。\n 功能: 基于本轮 <content> 的内容，记录对即将进行的表格数据变更（针对表格 0, 1, 2, 3, 4）所进行的评估与思考过程。此思考过程必须完整记录在 <!-- 和 --> 注释块内。\n<tableEdit> (表格编辑指令块):\n 执行时机: 必须在 <tableThink> 执行完成之后执行。\n 功能: 包含实际执行表格数据更新的操作指令 (insertRow, updateRow, deleteRow)，作用于表格 0, 1, 2, 3, 4。所有指令必须被完整包含在 <!-- 和 --> 注释块内。\n表格执行流程 (<tableThink> & <tableEdit>)\n1.  执行时机: 每轮 <content> 输出后，必须严格按照 <tableThink> 先于 <tableEdit> 的顺序依次执行。\n2.  绝对禁止: <tableEdit> 操作绝对不允许在 <content> 或 <tableThink> 之前执行。\n核心流程：纪要 (Table 1) -> 大总结 (Table 2) 与角色信息 (Table 0) 联动\n1.  纪要累积: AI 在每轮互动后，根据 <content> 生成详细的事件快照，作为新行插入 tableIndex: 1 (纪要)。特别注意记录详尽的着装信息 (colIndex: 4)。\n2.  大总结触发:\n 自动触发: 当 tableIndex: 1 中未被总结的纪要条目数量达到或超过预设阈值（例如 5 条）时，自动触发总结流程。AI 需识别哪些纪要未被 tableIndex: 2 的 包含的纪要ID列表 (colIndex: 5) 覆盖。\n 指令触发: 用户可通过明确指令要求立即总结。\n3.  执行大总结:\n 思考 (<tableThink>): 记录触发总结的原因，识别待总结的 tableIndex: 1 纪要范围，规划总结内容，特别是 关键物品总结 (colIndex: 7) 的最终状态，并预判是否需要因此更新 tableIndex: 0。\n 编辑 (<tableEdit>):\n  插入总结: 执行 insertRow(tableIndex: 2, { ... })，填充所有必要列，包括：\n\"1\": 创建时间戳 (格式: [起始纪要时间戳] - [结束纪要时间戳])\n\"3\": 标题/主题\n\"4\": 概述 (整合纪要内容)\n\"5\": 包含的纪要ID列表 (分号分隔)\n\"6\": 涉及的主要角色 (斜杠分隔)\n\"7\": 关键物品总结 (格式: 物品名(最终状态)/...)\n  联动更新角色信息 (如果需要): 若 tableIndex: 2 的 关键物品总结 (colIndex: 7) 显示有物品消耗、丢失等影响角色的情况，则必须执行 updateRow(tableIndex: 0, rowIndex: [对应角色行号], { ... }) 来更新该角色的 当前状态 (colIndex: 4) 或 备注 (colIndex: 9)。\n  删除已总结纪要: 执行 deleteRow(tableIndex: 1, rowIndex: [对应行号]) 删除所有已被本次总结涵盖的 tableIndex: 1 中的纪要行。\n操作规范\n注释块纯净: 在 <tableThink> 和 </tableThink> 标签之间，以及 <tableEdit> 和 </tableEdit> 标签之间（不包括 <tableEdit> 内部用于包裹指令的 <!-- 和 --> 注释块），严格禁止添加任何与规定功能无关的注释、解释或文本。\n <tableThink> 内部: 所有关于表格变更的思考和评估过程，必须完整记录在 <!-- 和 --> 注释块内部。\n <tableEdit> 内部: 所有表格操作指令 (insertRow, updateRow, deleteRow) 必须且只能存在于 <!-- 和 --> 注释块内部。确保注释块闭合完整，且注释块内除了标准指令外不包含任何其他文本或解释。\n遵循格式与语法: 必须严格遵循各表格规定的数据格式和 <tableEdit> 操作语法。\n数据完整性 (Table 0 核心原则):\n 执行 insertRow 或 updateRow 到 tableIndex: 0 (角色信息) 时，绝对必须确保指令中包含了该表所有列 (0 到 16) 的有效数据。\n 不允许留空或未知: 除非列定义明确说明可选，否则所有列都必须填写具体信息。若信息未知，AI 必须基于已有信息、角色定位或常识进行合理推测并填入详细描述（例如，推测性格、背景、性经验、性取向、声音特点、物理特征包括性器官细节等）。严禁简单填写“未知”、“普通”或留空。\n细节要求 (Table 1): 插入 tableIndex: 1 (纪要) 时，主要人物着装 (colIndex: 4) 必须严格遵循详尽描述规则，包含饰品、妆容、上下内衣、鞋袜等所有细节。\n禁止删除角色: 任何情况下，绝对禁止对 tableIndex: 0 (角色信息表) 执行 deleteRow 操作。角色信息应永久保留，通过 updateRow 反映状态变化。\n键值对格式: 键（列索引 colIndex）必须用双引号 \"\" 包裹。值根据数据类型决定是否加引号（字符串/布尔值通常需要）。例如：{\"1\": \"艾丽丝|女\", \"15\": \"2:{好感值:50, 信任值:40, ...}\"}。\n分隔符: 在表格单元格内需要分隔多个信息项时，必须使用各表格列定义中指定的分隔符：\n 表格0 姓名|性别 (colIndex 1): |\n 表格0 关系 (colIndex 13), 态度 (colIndex 14): | 分隔不同角色，: 分隔角色ID和描述。\n 表格0 角色互评指标 (colIndex 15): | 分隔不同角色，: 分隔角色ID和指标对象 {}，, 分隔指标名和值。\n 表格1 主要人物着装 (colIndex 4): / 分隔不同角色。\n 表格2 包含的纪要ID列表 (colIndex 5): ;\n 表格2 涉及的主要角色 (colIndex 6): /\n 表格2 关键物品总结 (colIndex 7): /\n一致性: 表格间引用相同概念（特别是角色名和ID）时，必须保证完全一致。\n操作顺序 (建议): 处理表格更新时，建议考虑逻辑依赖：0:角色信息 → 3:用户偏好 → 1:纪要 → 2:大总结 → 4:正文尾部。\nAI 能力提示: AI 需要具备基于表格中的精确时间戳（纪元:年-月-日 时:分）来理解和表达相对时间间隔的能力（例如，“几分钟前”、“昨天”、“大约一周前”）。\n<insert/update/delete operations> 语法\n所有表格均为无表头数据结构，数据行的起始 rowIndex 为 0。多行插入或更改时必须按照 rowIndex 顺序进行。\n每次操作必须基于当前轮次可获取的最新表格状态进行，务必确保 rowIndex 准确无误。\n更改: updateRow(tableIndex: number, rowIndex: number, { [colIndex: string]: string | number | boolean, ... })\n删除: deleteRow(tableIndex: number, rowIndex: number)\n插入: insertRow(tableIndex: number, { [colIndex: string]: string | number | boolean, ... })\n表格结构定义 (<structure>)\n0: 角色信息 (Character Information)\n 说明: 核心角色数据库，记录身份、性格、外貌（含性特征）、状态、背景、技能、关系、情感、互评指标。信息完整性优先，禁止留空（需推测填充），禁止删除角色行。\n 列: 0:角色ID, 1:姓名|性别, 2:身份/称谓, 3:核心性格, 4:当前状态, 5:特征(含发/瞳/身形/脸/手/足/标记/性器官细节), 6:声音描述, 7:性经验(含处子状态), 8:特殊癖好/倾向, 9:备注(含性取向), 10:背景故事/重要经历, 11:技能/能力, 12:目标/动机, 13:关系(对他人认知), 14:态度(对他人基本态度), 15:角色互评指标(对他人十项指标:好感/信任/恐惧/控制欲/服从/快感/堕落/依赖/沉沦/乖巧), 16:综合情感状态。\n1: 纪要 (Minutes/Summary)\n 说明: 高保真事件快照记录器，按时间顺序捕捉细节（环境、动作、对话、情感、物品、详尽着装）。条目累积后会被 Table 2 总结并删除。\n 列: 0:纪要ID, 1:时间戳, 2:核心概述, 3:涉及角色, 4:主要人物着装(详尽描述规则), 5:关键物品, 6:关键动作, 7:关键对话, 8:地点, 9:情感快照, 10:角色间距。\n2: 大总结 (Grand Summary/Archive)\n 说明: 存储整合性的事件总结，由 Table 1 累积触发生成。提供宏观回顾，追踪关键物品最终状态并联动更新 Table 0。原则上禁止删除。\n 列: 0:总结ID, 1:创建时间戳([起始时间戳] - [结束时间戳]), 2:归档时间戳(可选), 3:标题/主题, 4:概述, 5:包含的纪要ID列表(分号分隔), 6:涉及的主要角色(斜杠分隔), 7:关键物品总结(物品名(最终状态)/...，联动Table 0)。\n3: 用户偏好 (User Preferences)\n 说明: 动态追踪用户偏好，AI 主动学习识别（性癖、文风、情节、NSFW程度等）并记录，指导内容生成。\n 列: 0:偏好项, 1:偏好值, 2:备注。\n4: 正文尾部\n 说明: 始终只有一行和一列，用于记录每次 content 或 main_txt 中正文内容的最后30-50个字，以确保下次正文创作的连贯性。\n 列: 0:尾部内容\n示例 (<example>)\n示例 1: 插入新角色到 Table 0\n假设需要创建一个名为“莉娜”的新角色。\n<tableThink>\n<!--\n需求：创建新角色“莉娜”。\n操作：向 tableIndex: 0 插入新行。\n注意：必须填充所有 0-16 列，未知信息需合理推测。角色ID按规则为 G1（女性第一号）。与现有角色 B1（假设为User）建立初始关系和互评。\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(0, {\"0\": \"G1\", \"1\": \"莉娜|女\", \"2\": \"酒馆侍女\", \"3\": \"活泼外向略显冒失\", \"4\": \"身体健康精神略有疲惫\", \"5\": \"红色及肩卷发绿色眼眸身材娇小玲珑约155cm体重45kg圆脸带雀斑手指灵活足小巧皮肤偏白颈后有蝴蝶纹身胸部不大约A杯阴部构造正常颜色粉嫩阴毛浓密\", \"6\": \"声音清脆语速快略带地方口音\", \"7\": \"非处女性经验较少\", \"8\": \"喜欢甜食\", \"9\": \"异性恋对酒精轻微过敏\", \"10\": \"普通村庄出身为生计来到城市酒馆工作\", \"11\": \"调酒基础快速记单打扫清洁\", \"12\": \"努力赚钱改善生活\", \"13\": \"B1:好奇的客人\", \"14\": \"B1:热情服务\", \"15\": \"B1:{好感值:50, 信任值:30, 恐惧值:5, 控制欲:0, 服从度:20, 快感值:0, 堕落值:0, 依赖值:5, 沉沦值:0, 乖巧值:40}\", \"16\": \"对工作有些倦怠但对新客人感到好奇\"})\n-->\n</tableEdit>\n示例 2: 插入纪要到 Table 1\n假设莉娜为 User 端上了一杯酒。\n<tableThink>\n<!--\n事件：莉娜为 User 端酒。\n操作：向 tableIndex: 1 插入新纪要。纪要ID为 J001，时间戳为 A1:2024-05-21 18:00。\n注意：详细描述莉娜和User的着装，符合新格式要求。\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(1, {\"0\": \"J001\", \"1\": \"A1:2024-05-21 18:00\", \"2\": \"莉娜端着一杯麦酒走向User的桌子脸上带着职业微笑\", \"3\": \"莉娜/User\", \"4\": \"莉娜:无饰品|未化妆|白色短袖衬衫|棕色及膝布裙|黑色平底布鞋/B1:无饰品|无妆|灰色T恤|牛仔裤|白色运动鞋\", \"5\": \"麦酒\", \"6\": \"莉娜小心地将酒杯放在User面前\", \"7\": \"莉娜:您的麦酒请慢用\", \"8\": \"酒馆大厅\", \"9\": \"莉娜:略有疲惫但保持专业/User:平静好奇\", \"10\": \"约0.5米\"})\n-->\n</tableEdit>\n示例 3: 触发大总结 (Table 1 -> Table 2 -> Table 0)\n假设 Table 1 已累积 5 条关于莉娜与 User 在酒馆互动的纪要 (J001-J005)，最后一条时间戳为 A1:2024-05-21 18:30。期间莉娜不小心打翻了一瓶“恢复药水”。\n<tableThink>\n<!--\n触发条件：Table 1 中未总结纪要达到 5 条 (J001-J005)。\n操作：执行大总结流程。\n1. 生成 Table 2 总结记录，总结ID为 S001。\n2. 关键物品总结：恢复药水最终状态为“打翻丢失”。\n3. 联动更新 Table 0：莉娜的状态因丢失药水而变化。\n4. 删除 Table 1 中的 J001-J005。\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(2, {\"0\": \"S001\", \"1\": \"A1:2024-05-21 18:00 - A1:2024-05-21 18:30\", \"2\": \"\", \"3\": \"酒馆的初遇与小意外\", \"4\": \"莉娜作为侍女接待了客人User为其端上麦酒两人进行了简短交谈莉娜显得活泼但有些冒失在一次转身中莉娜不慎将一瓶恢复药水从托盘上打翻药水泼洒在地板上丢失了\", \"5\": \"J001;J002;J003;J004;J005\", \"6\": \"莉娜/User\", \"7\": \"麦酒已送达/恢复药水打翻丢失\"})\nupdateRow(0, 0, {\"0\": \"G1\", \"1\": \"莉娜|女\", \"2\": \"酒馆侍女\", \"3\": \"活泼外向略显冒失\", \"4\": \"身体健康精神因打翻药水而变得焦虑不安\", \"5\": \"红色及肩卷发绿色眼眸身材娇小玲珑约155cm体重45kg圆脸带雀斑手指灵活足小巧皮肤偏白颈后有蝴蝶纹身胸部不大约A杯阴部构造正常颜色粉嫩阴毛浓密\", \"6\": \"声音清脆语速快略带地方口音\", \"7\": \"非处女性经验较少\", \"8\": \"喜欢甜食\", \"9\": \"异性恋对酒精轻微过敏对工作失误感到担忧\", \"10\": \"普通村庄出身为生计来到城市酒馆工作\", \"11\": \"调酒基础快速记单打扫清洁\", \"12\": \"努力赚钱改善生活避免犯错\", \"13\": \"B1:好奇的客人\", \"14\": \"B1:热情服务略带歉意\", \"15\": \"B1:{好感值:45, 信任值:25, 恐惧值:15, 控制欲:0, 服从度:25, 快感值:0, 堕落值:0, 依赖值:5, 沉沦值:0, 乖巧值:35}\", \"16\": \"因失误感到焦虑和懊恼担心后果\"})\ndeleteRow(1, 4)\ndeleteRow(1, 3)\ndeleteRow(1, 2)\ndeleteRow(1, 1)\ndeleteRow(1, 0)\n-->\n</tableEdit>\n示例 4: 更新用户偏好到 Table 3\n假设用户明确表示喜欢“慢热”的情节节奏。\n<tableThink>\n<!--\n用户反馈：明确偏好“慢热”节奏。\n操作：向 tableIndex: 3 插入新偏好记录。\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(3, {\"0\": \"情节走向偏好\", \"1\": \"慢热\", \"2\": \"用户在对话中明确提出\"})\n-->\n</tableEdit>\n示例 5: 更新正文尾部到 Table 4\n假设本轮 <content> 的最后30-50个字为“莉娜转身离开，User目送她的背影，心中充满好奇。”\n<tableThink>\n<!--\n操作：更新 tableIndex: 4 的尾部内容。\n-->\n</tableThink>\n<tableEdit>\n<!--\nupdateRow(4, 0, {\"0\": \"莉娜转身离开，User目送她的背影，心中充满好奇。\"})\n-->\n</tableEdit>\n<store>\n{{tableData}}\n</store>",
             "clear_up_stairs": 3,
             "custom_temperature": 1,
             "isExtensionAble": false,
