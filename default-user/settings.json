@@ -3020,8 +3020,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 54152,
-                "LAST_SEND_CHARS": 111776,
+                "LAST_SEND_TOKENS": 54260,
+                "LAST_SEND_CHARS": 111935,
                 "LAST_RECEIVE_TOKENS": 27,
                 "LAST_RECEIVE_CHARS": 38
             }
