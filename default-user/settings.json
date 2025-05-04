@@ -67,7 +67,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "罗落大陆.png",
+    "active_character": "无限流跑团.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -3474,8 +3474,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 53058,
                 "LAST_SEND_CHARS": 109528,
-                "LAST_RECEIVE_TOKENS": 1749,
-                "LAST_RECEIVE_CHARS": 3965
+                "LAST_RECEIVE_TOKENS": 1334,
+                "LAST_RECEIVE_CHARS": 1964
             }
         },
         "attachments": [],
@@ -4310,7 +4310,9 @@
         "可视化地图导航.png": [],
         "vrmmo.png": [],
         "穿越修真界被四个天命之子当炉鼎.png": [],
-        "infinite.png": []
+        "infinite.png": [],
+        "无限流跑团.png": [],
+        "欲望天际.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
