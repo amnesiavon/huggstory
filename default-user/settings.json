@@ -67,7 +67,6 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "无限流跑团.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -4311,7 +4310,6 @@
         "vrmmo.png": [],
         "穿越修真界被四个天命之子当炉鼎.png": [],
         "infinite.png": [],
-        "无限流跑团.png": [],
         "欲望天际.png": []
     },
     "nai_settings": {
