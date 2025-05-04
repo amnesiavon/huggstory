@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "50",
-        "extension_update_nag": "Sat May 03 2025",
+        "extension_update_nag": "Sun May 04 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -3890,7 +3890,9 @@
             "generate_loader_enabled": true,
             "render_loader_enabled": true,
             "permanent_evaluation_enabled": true,
-            "filter_message_enabled": false
+            "filter_message_enabled": false,
+            "raw_message_evaluation_enabled": false,
+            "cache_enabled": false
         },
         "TavernHelper": {
             "enabled_extension": true,
@@ -4091,6 +4093,33 @@
                 "character-test.png": {
                     "hideLastN": 10,
                     "lastProcessedLength": 3,
+                    "userConfigured": true
+                }
+            },
+            "migration_v1_complete": true,
+            "useGlobalSettings": false,
+            "globalHideSettings": {
+                "hideLastN": 0,
+                "lastProcessedLength": 0,
+                "userConfigured": false
+            }
+        },
+        "hide": {
+            "enabled": true,
+            "settings_by_entity": {
+                "character-fuhufox的亚种圣杯战争.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 9,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 3,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2_1.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 15,
                     "userConfigured": true
                 }
             },
