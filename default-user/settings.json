@@ -63,10 +63,13 @@
         "world_info_sort_order": "13",
         "AlertWI_可视化地图导航.png": "true",
         "AlertRegex_可视化地图导航.png": "true",
-        "AlertWI_穿越修真界被四个天命之子当炉鼎.png": "true"
+        "AlertWI_穿越修真界被四个天命之子当炉鼎.png": "true",
+        "AlertWI_欲望天际.png": "true",
+        "AlertRegex_欲望天际.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
+    "active_character": "欲望天际.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -3283,7 +3286,8 @@
             "地图导航模块3.0.png",
             "绝望黎明：未知命运.png",
             "罗落大陆.png",
-            "可视化地图导航.png"
+            "可视化地图导航.png",
+            "欲望天际.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -3473,8 +3477,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 53058,
                 "LAST_SEND_CHARS": 109528,
-                "LAST_RECEIVE_TOKENS": 1334,
-                "LAST_RECEIVE_CHARS": 1964
+                "LAST_RECEIVE_TOKENS": 4141,
+                "LAST_RECEIVE_CHARS": 6115
             }
         },
         "attachments": [],
