@@ -3022,10 +3022,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 100603,
-                "LAST_SEND_CHARS": 168454,
-                "LAST_RECEIVE_TOKENS": 3,
-                "LAST_RECEIVE_CHARS": 3
+                "LAST_SEND_TOKENS": 100767,
+                "LAST_SEND_CHARS": 168726,
+                "LAST_RECEIVE_TOKENS": 2150,
+                "LAST_RECEIVE_CHARS": 3261
             }
         },
         "attachments": [],
