@@ -2683,6 +2683,42 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 0
+            },
+            {
+                "id": "19acf874-78f6-4797-936a-3e029b21650e",
+                "scriptName": "【剧场工具】回帖",
+                "findRegex": "/<tz>(.*?)：(.*?)<\\/tz>/g",
+                "replaceString": "<div style=\"\n    padding: 10px;\n    margin: 8px 0;\n    background: #fff;\n    border-radius: 4px;\n    border: 1px solid #e9ecef;\n\">\n    <div style=\"\n        display: flex;\n        align-items: center;\n        gap: 8px;\n        margin-bottom: 6px;\n    \">\n        <span style=\"\n            color: #1a73e8;\n            font-size: 13px;\n            font-weight: 500;\n        \">$1</span>\n        <span style=\"\n            color: #5f6368;\n            font-size: 12px;\n        \">2025-02-11</span>\n    </div>\n    <div style=\"\n        color: #202124;\n        font-size: 14px;\n        line-height: 1.5;\n    \">$2</div>\n</div>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "5247649b-c103-4609-90bb-58d9f76b33b0",
+                "scriptName": "【剧场工具】论坛",
+                "findRegex": "<lt>\\s*<ft>\\s*(.*?)\\s*(.*?)\\s*</ft>\\s*<hftz>([\\s\\S]*?)</hftz>\\s*</lt>",
+                "replaceString": "<div style=\"\n    width: 95%;\n    max-width: 400px;\n    margin: 10px auto;\n    background: #f8f9fa;\n    border-radius: 8px;\n    font-family: system-ui;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.1);\n    position: relative;\n\">\n    <!-- 手机状态栏 -->\n    <div style=\"\n        background: #000;\n        padding: 6px 15px;\n        border-radius: 8px 8px 0 0;\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        color: #fff;\n        font-size: 12px;\n    \">\n        <span>12:00</span>\n        <div style=\"display: flex; gap: 4px;\">\n            <span>📶</span>\n            <span>🔋</span>\n        </div>\n    </div>\n\n    <!-- 搜索栏 -->\n    <div style=\"\n        padding: 12px;\n        background: #fff;\n        border-bottom: 1px solid #e9ecef;\n        display: flex;\n        gap: 8px;\n    \">\n        <div style=\"\n            display: flex;\n            align-items: center;\n            background: #f8f9fa;\n            padding: 6px;\n            border-radius: 4px;\n            flex-grow: 1;\n        \">\n            <svg viewBox=\"0 0 24 24\" style=\"width: 16px; height: 16px; fill: #adb5bd;\">\n                <path d=\"M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"/>\n            </svg>\n            <input type=\"text\" placeholder=\"搜索帖子...\" style=\"\n                border: none;\n                background: transparent;\n                padding: 4px 8px;\n                outline: none;\n                width: 100%;\n                font-size: 14px;\n            \">\n        </div>\n    </div>\n\n    <!-- 帖子内容 -->\n    <div style=\"padding-bottom: 20px;\">\n        <!-- 帖子标题和内容 -->\n        <div style=\"\n            padding: 15px;\n            background: #fff;\n            border-bottom: 1px solid #e9ecef;\n        \">\n            <h2 style=\"\n                margin: 0;\n                font-size: 16px;\n                color: #1a73e8;\n                font-weight: 600;\n            \">$1</h2>\n            <p style=\"\n                margin: 10px 0 0;\n                font-size: 14px;\n                color: #5f6368;\n                line-height: 1.5;\n            \">$2</p>\n        </div>\n\n        <!-- 回复区域 -->\n        <div style=\"\n            padding: 10px;\n            max-height: 300px;\n            overflow-y: auto;\n        \">\n            $3\n        </div>\n\n        <!-- 删除提示 -->\n        <div style=\"\n            margin: 10px;\n            padding: 10px;\n            background: #fef2f2;\n            border: 1px solid #fee2e2;\n            border-radius: 4px;\n            display: flex;\n            align-items: center;\n            gap: 8px;\n            font-size: 13px;\n            color: #dc2626;\n        \">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n                <line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line>\n                <line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line>\n            </svg>\n            <span>该帖子已被管理员删除</span>\n        </div>\n    </div>\n</div>\n",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
