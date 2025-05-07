@@ -2863,6 +2863,60 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "fe40d79c-3f7a-4f6c-acf1-2f9075a97280",
+                "scriptName": "【剧场工具】日记（古风）",
+                "findRegex": "<rj>\\n\\[日记\\]\\s*日期：(.*?)\\s*天气：(.*?)\\s*内容：([\\s\\S]*)\\n</rj>",
+                "replaceString": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>古风日记</title>\n<style>\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    min-height: 100vh;\n    background-color: transparent;\n}\n\n.diary-container {\n    width: 320px;\n    height: 560px;\n    background: #fdf6e3;\n    padding: 30px;\n    overflow-y: auto;\n    font-family: 'XiaoWei', 'KaiTi', serif;\n    position: relative;\n}\n\n/* 新增印章样式 */\n.seal {\n    position: absolute;\n    top: 20px;\n    left: 20px;\n    width: 80px;\n    height: 80px;\n    background: url('https://files.catbox.moe/y6yw3c.png') no-repeat;\n    background-size: contain;\n    opacity: 0.85;\n    z-index: 2;\n    pointer-events: none;\n}\n\n.ink-decoration {\n    position: absolute;\n    pointer-events: none;\n    opacity: 0.12;\n}\n\n/* 调整后的墨迹位置 */\n.ink-vertical-1 {\n    right: 15px;\n    top: 45%;\n    width: 30px;\n    height: 150px;\n    background: url('https://files.catbox.moe/rb1j41.png') no-repeat;\n    background-size: contain;\n}\n\n.ink-vertical-2 {\n    left: 20px;\n    top: 40%;\n    width: 25px;\n    height: 120px;\n    background: url('https://files.catbox.moe/rb1j41.png') no-repeat;\n    background-size: contain;\n    transform: scaleX(-1);\n}\n\n.ink-horizontal-1 {\n    left: 50%;\n    bottom: 40px;\n    transform: translateX(-50%);\n    width: 180px;\n    height: 30px;\n    background: url('https://files.catbox.moe/kv4cih.webp') no-repeat;\n    background-size: contain;\n}\n\n.ink-diagonal-1 {\n    right: 40px;\n    top: 30%;\n    width: 100px;\n    height: 100px;\n    background: url('https://files.catbox.moe/9xc7qe.png') no-repeat;\n    background-size: contain;\n    transform: rotate(-15deg);\n}\n\n.ink-diagonal-2 {\n    left: 30px;\n    bottom: 20%;\n    width: 80px;\n    height: 80px;\n    background: url('https://files.catbox.moe/9xc7qe.png') no-repeat;\n    background-size: contain;\n    transform: rotate(165deg);\n}\n\n.diary-header {\n    text-align: right;\n    margin-bottom: 20px;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #8b4513;\n    position: relative;\n    z-index: 1;\n}\n\n.diary-date {\n    font-size: 18px;\n    color: #4a2712;\n    margin-bottom: 8px;\n}\n\n.diary-weather {\n    font-size: 16px;\n    color: #6b3c1c;\n}\n\n.diary-content {\n    font-size: 16px;\n    line-height: 2;\n    color: #4a2712;\n    text-indent: 2em;\n    background: linear-gradient(transparent 95%, #d4b995 95%);\n    background-size: 100% 2em;\n    padding: 0 10px;\n    position: relative;\n    z-index: 1;\n}\n\n.diary-container::-webkit-scrollbar {\n    width: 6px;\n}\n\n.diary-container::-webkit-scrollbar-track {\n    background: #fdf6e3;\n}\n\n.diary-container::-webkit-scrollbar-thumb {\n    background: #d4b995;\n    border-radius: 3px;\n}\n</style>\n</head>\n<body>\n<div class=\"diary-outer\">\n    <div class=\"diary-container\">\n        <!-- 添加印章 -->\n        <div class=\"seal\"></div>\n        <div class=\"ink-decoration ink-vertical-1\"></div>\n        <div class=\"ink-decoration ink-vertical-2\"></div>\n        <div class=\"ink-decoration ink-horizontal-1\"></div>\n        <div class=\"ink-decoration ink-diagonal-1\"></div>\n        <div class=\"ink-decoration ink-diagonal-2\"></div>\n        <div class=\"diary-header\">\n            <div class=\"diary-date\">$1</div>\n            <div class=\"diary-weather\">$2</div>\n        </div>\n        <div class=\"diary-content\">$3</div>\n    </div>\n</div>\n</body>\n</html>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "3a3995e9-205c-4dfe-bada-bc2b47911830",
+                "scriptName": "【剧场工具】状态栏(多人-1)",
+                "findRegex": "<status>\\s*\\[([^\\]]+?)\\s*-\\s*([^\\]]+?)\\s*-\\s*([^\\]]+?)\\]\\s*((?:<js>[\\s\\S]+?<\\/js>\\s*)+)\\s*([^<]+?)\\s*<\\/status>",
+                "replaceString": "<div style=\"width:94%;max-width:360px;margin:12px auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;\">\n  <details style=\"background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(99,102,241,0.08);overflow:hidden;\">\n    <summary style=\"padding:12px;display:block;cursor:pointer;position:relative;\">\n      <div style=\"display:flex;gap:8px;align-items:center;\">\n        <div style=\"width:32px;height:32px;background:#6366f1;border-radius:8px;\n                  display:flex;align-items:center;justify-content:center;\">\n          <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2\">\n            <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z\"/>\n            <path d=\"M12 8v4M16 12H8\"/>\n          </svg>\n        </div>\n        <div>\n          <div style=\"color:#4f46e5;font-weight:600;font-size:0.95em;\">时间轴</div>\n          <div style=\"color:#6b7280;font-size:0.85em;margin-top:4px;\">📍$2 │ 🌤️$3</div>\n        </div>\n      </div>\n    </summary>\n\n    <div style=\"max-height:55vh;overflow-y:auto;padding:12px;\">\n      $4\n      \n      <!-- 固定底部模块 -->\n      <div style=\"margin-top:12px;padding:16px;background:#f8f9ff;border-radius:8px;\">\n        <div style=\"display:flex;gap:8px;align-items:center;margin-bottom:8px;\">\n          <div style=\"width:20px;height:20px;background:#e0e7ff;border-radius:4px;\"></div>\n          <span style=\"color:#4f46e5;font-weight:500;\">小贴士</span>\n        </div>\n        <p style=\"margin:0;color:#6b7280;font-size:0.9em;line-height:1.5;word-break:break-word;\">$5</p>\n      </div>\n    </div>\n  </details>\n</div>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "90780980-e920-4538-8be3-739f2c2e241f",
+                "scriptName": "【剧场工具】状态栏(多人-2)",
+                "findRegex": "/<js>\\s*([^|]+?)\\s*\\|\\s*([^|]+?)\\s*\\|\\s*([^|%]+%)\\s*\\|\\s*([^|%]+%)\\s*\\|\\s*([^<\\n]+)\\s*<\\/js>/g",
+                "replaceString": "<div class=\"role-card\">\n  <div style=\"margin-bottom:10px;\">\n    <div style=\"color:#4338ca; font-weight:600;\">$1</div>\n    <div style=\"display:flex; gap:6px; margin-top:4px;\">\n      <span style=\"background:#eef2ff; padding:3px 8px; border-radius:4px; font-size:0.85em;\">\n        💫 $2\n      </span>\n    </div>\n  </div>\n\n  <div style=\"display:grid; gap:8px;\">\n    <div>\n      <div style=\"display:flex; justify-content:space-between; margin-bottom:3px;\">\n        <span style=\"color:#818cf8; font-size:0.9em;\">好感值</span>\n        <span style=\"color:#4f46e5; font-size:0.85em;\">$3</span>\n      </div>\n      <div style=\"height:4px; background:#e0e7ff; border-radius:2px;\">\n        <div style=\"width:$3; height:100%; background:linear-gradient(90deg,#4f46e5,#6366f1); \n                    border-radius:2px;\"></div>\n      </div>\n    </div>\n\n    <div>\n      <div style=\"display:flex; justify-content:space-between; margin-bottom:3px;\">\n        <span style=\"color:#818cf8; font-size:0.9em;\">性欲值</span>\n        <span style=\"color:#ec4899; font-size:0.85em;\">$4</span>\n      </div>\n      <div style=\"height:4px; background:#fce7f3; border-radius:2px;\">\n        <div style=\"width:$4; height:100%; background:linear-gradient(90deg,#ec4899,#f472b6); \n                    border-radius:2px;\"></div>\n      </div>\n    </div>\n  </div>\n\n  <div style=\"margin-top:8px; padding:8px; background:#fafaff; border-radius:4px;\">\n    <div style=\"color:#818cf8; font-size:0.9em;\">✧ 想法</div>\n    <p style=\"margin:4px 0 0; color:#6b7280; font-size:0.85em; font-style:italic;\">\"$5\"</p>\n  </div>\n</div>\n\n<style>\n.role-card {\n  padding:12px;\n  background:white; \n  border-radius:6px;\n  border:1px solid #eef2ff;\n  box-shadow:0 1px 4px rgba(99,102,241,0.05);\n  margin-bottom:8px;\n}\n</style>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
