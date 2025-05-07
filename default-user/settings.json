@@ -2189,19 +2189,19 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<jiucuo>[\\s\\S]*?<\\/jiucuo>/gm",
+                "findRegex": "/<tablethink>[\\s\\S]*?<\\/tablethink>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
+                "maxDepth": null
             },
             {
                 "id": "59d4706c-4a9b-4868-91f3-28554631b135",
