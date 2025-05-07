@@ -12,7 +12,7 @@
             "addMemo": true,
             "order": 999,
             "position": 4,
-            "disable": true,
+            "disable": false,
             "excludeRecursion": true,
             "preventRecursion": true,
             "delayUntilRecursion": false,
