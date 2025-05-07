@@ -2755,6 +2755,60 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "5bac42bd-6c4a-42fe-992b-7253b5385559",
+                "scriptName": "【剧场工具】阴暗想法",
+                "findRegex": "<xf>\\s*目前对性事的看法：(.*?)\\s*感兴趣的玩法：(.*?)\\s*喜欢的地点：(.*?)\\s*想法：(.*?)\\s*性爱幻想：(.*?)\\s*</xf>",
+                "replaceString": "<div style=\"\n    width: 95%;\n    max-width: 400px;\n    margin: 10px auto;\n    background: #0a0a0a;\n    border: 1px solid #300;\n    border-radius: 8px;\n    padding: 12px;\n    font-family: serif;\n    color: #800;\n    position: relative;\n    box-shadow: 0 2px 10px rgba(136,0,0,0.2);\n\">\n    <!-- 眼睛图标 -->\n    <div style=\"\n        position: absolute;\n        top: 10px;\n        right: 10px;\n        width: 24px;\n        height: 24px;\n        cursor: pointer;\n    \">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\" style=\"fill: #600;\">\n            <path d=\"M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z\"/>\n        </svg>\n    </div>\n\n    <!-- 简短信息区域 -->\n    <div style=\"\n        background: #0d0d0d;\n        border: 1px solid #300;\n        border-radius: 4px;\n        padding: 8px;\n        margin-bottom: 10px;\n        font-size: 12px;\n    \">\n        <div style=\"margin-bottom: 4px;\"><span style=\"color: #600;\">看法：</span><span style=\"color: #800;\">$1</span></div>\n        <div style=\"margin-bottom: 4px;\"><span style=\"color: #600;\">玩法：</span><span style=\"color: #800;\">$2</span></div>\n        <div style=\"margin-bottom: 4px;\"><span style=\"color: #600;\">地点：</span><span style=\"color: #800;\">$3</span></div>\n        <div><span style=\"color: #600;\">想法：</span><span style=\"color: #800;\">$4</span></div>\n    </div>\n\n    <!-- 主要内容区域 -->\n    <div style=\"\n        background: #0d0d0d;\n        border: 1px solid #300;\n        border-radius: 4px;\n        padding: 12px;\n        font-size: 14px;\n        color: #900;\n        line-height: 1.5;\n        position: relative;\n    \">\n        <div style=\"\n            color: #600;\n            font-size: 14px;\n            margin-bottom: 8px;\n            border-bottom: 1px solid #300;\n            padding-bottom: 4px;\n        \">性爱幻想</div>\n        <div style=\"color: #800;\">$5</div>\n    </div>\n</div>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "4ebdb8e4-fb38-4671-b435-df87236f720d",
+                "scriptName": "【剧场工具】评论",
+                "findRegex": "/<pl>([\\s\\S]*?)<\\/pl>/g",
+                "replaceString": "<div class=\"comment-item\">\n    <div style=\"color: #333;\">$1</div>\n    <div class=\"like-count\">👍 $2</div>\n</div>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "be2150b2-936e-49fd-893f-30398a47798d",
+                "scriptName": "【剧场工具】小说（点家）",
+                "findRegex": "<xs>\\s*<bt>(.*?)</bt>\\s*<rq>(.*?)</rq>\\s*<ed>([\\s\\S]*?)</ed>\\s*</xs>",
+                "replaceString": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<style>\n.novel-status {\n    width: 100%;\n    max-width: 480px;\n    margin: 0 auto;\n    background: #ffffff;\n    border: 1px solid #e6e6e6;\n    border-radius: 8px;\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n    overflow: hidden;\n}\n\n.status-header {\n    background: #bf2c24;\n    padding: 12px 16px;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n}\n\n.status-logo {\n    width: 24px;\n    height: 24px;\n    background-image: url('https://files.catbox.moe/j26dd5.png');\n    background-size: cover;\n    border-radius: 4px;\n}\n\n.chapter-info {\n    padding: 12px 16px;\n    border-bottom: 1px solid #f0f0f0;\n}\n\n.chapter-title {\n    font-size: 18px;\n    font-weight: 600;\n    color: #333333;\n    margin-bottom: 8px;\n}\n\n.chapter-stats {\n    display: flex;\n    align-items: center;\n    gap: 16px;\n    color: #666666;\n    font-size: 14px;\n}\n\n.comments-container {\n    padding: 16px;\n    background: #fff;\n    margin: 12px;\n    border-radius: 8px;\n    height: 300px; /* 固定高度 */\n    overflow-y: auto; /* 添加垂直滚动 */\n}\n\n/* 添加滚动条样式 */\n.comments-container::-webkit-scrollbar {\n    width: 6px;\n}\n\n.comments-container::-webkit-scrollbar-track {\n    background: #f5f5f5;\n    border-radius: 3px;\n}\n\n.comments-container::-webkit-scrollbar-thumb {\n    background: #bf2c24;\n    border-radius: 3px;\n}\n\n.comment-item {\n    padding: 12px;\n    border-bottom: 1px solid #f0f0f0;\n    margin-bottom: 8px; /* 增加评论间距 */\n}\n\n/* 添加滚动提示 */\n.scroll-hint {\n    position: absolute;\n    bottom: 20px;\n    left: 50%;\n    transform: translateX(-50%);\n    background: rgba(191, 44, 36, 0.8);\n    color: #ffffff;\n    padding: 8px 16px;\n    border-radius: 20px;\n    font-size: 12px;\n    pointer-events: none;\n    transition: opacity 0.3s;\n}\n\n/* 当滚动到底部时隐藏提示 */\n.comments-container::-webkit-scrollbar-thumb:active + .scroll-hint {\n    opacity: 0;\n}\n</style>\n</head>\n<body>\n<div class=\"novel-status\">\n    <div class=\"status-header\">\n        <div class=\"status-logo\"></div>\n        <div style=\"color: #ffffff; font-weight: 600;\">起点中文网</div>\n    </div>\n    <div class=\"chapter-info\">\n        <div class=\"chapter-title\">$1</div>\n        <div class=\"chapter-stats\">\n            <span>📖 当前章节</span>\n            <span>👥 阅读量：$2</span>\n        </div>\n    </div>\n    <div style=\"position: relative;\">\n        <div class=\"comments-container\">\n            $3\n        </div>\n        <div class=\"scroll-hint\">\n            ↓ 查看更多评论 ↓\n        </div>\n    </div>\n</div>\n</body>\n</html>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
