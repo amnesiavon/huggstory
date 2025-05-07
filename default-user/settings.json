@@ -2186,36 +2186,36 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<jiucuo>[\\s\\S]*?<\\/jiucuo>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "b30e3d5c-48e8-4a44-8a2e-00e7f10ed6a1",
                 "scriptName": "tablethink隐藏",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<tableThink\\b[^>]*>[\\s\\S]*?<\\/tableThink>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "59d4706c-4a9b-4868-91f3-28554631b135",
@@ -2686,121 +2686,121 @@
             {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "会自动更新的手机",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
                 "replaceString": "```\n\n<body>\n    <script type=\"module\">\n        const urls = [`https://sharkpan.xyz/f/1BEot2/index.html`]\n        function Http_Get(url) {\n            return new Promise((resolve, reject) => {\n                $.ajax({\n                    url: url,\n                    method: 'GET',\n                    timeout: 5000,\n                    success: function (data, status) {\n                        resolve(data); // 成功时返回数据\n                    },\n                    error: function (xhr, status, error) {\n                        if (status === 'timeout') {\n                            console.error('请求超时，请检查网络或重试');\n                        } else {\n                            console.error('请求失败，错误信息：', error);\n                        }\n                        resolve(null);\n                    }\n                });\n            });\n        }\n\n        async function Load() {\n            for (const url of urls) {\n                for (let i = 0; i < 3; i++) {\n                    try {\n                        const html = await Http_Get(url);\n                        if (html && html.indexOf(\"MiPhone\") > 0) {\n                            $(\"body\").html(html);\n                            return;\n                        }\n                    } catch (e) {\n\n                    }\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n        }\n        Load();\n    </script>\n</body>\n```",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 0
+                "maxDepth": 0,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "757e767f-6766-4b42-8033-b25dceca3c13",
                 "scriptName": "小总结2",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": true,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 11,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "892b6d86-036b-498c-b3ed-7db94a5c08a3",
                 "scriptName": "K去除所有用户消息",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 1,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
                 "scriptName": "小总结1",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": true,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 10
+                "maxDepth": 10,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "504466a0-8ea1-4cad-b1c9-847caa7869fe",
                 "scriptName": "K去除多余内容新",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/(<disclaimer>.*?</disclaimer>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "2620d562-e4da-4e38-95f5-9937fc20ca8f",
                 "scriptName": "K添加tag",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 1
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "d8a0b111-86fd-4766-83c6-47f85c3180c0",
                 "scriptName": "K去除所有用户消息",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 1,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             }
         ],
         "character_allowed_regex": [
