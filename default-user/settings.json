@@ -2719,6 +2719,42 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "cfdb6996-f1c6-4995-b508-33ac9bbfe2fc",
+                "scriptName": "【剧场工具】年度报告1",
+                "findRegex": "<ndbg>\\s*<kp>\\s*(.*?)\\s*(.*?)\\s*</kp>\\s*<bgnr>([\\s\\S]*?)</bgnr>\\s*</ndbg>",
+                "replaceString": "<div style=\"\n    width: 95%;\n    max-width: 400px;\n    margin: 10px auto;\n    background: #0a192f;\n    border-radius: 15px;\n    font-family: 'Orbitron', system-ui;\n    box-shadow: 0 0 20px rgba(64, 169, 255, 0.2);\n    position: relative;\n    height: 100vh;\n    overflow-y: auto;\n    border: 1px solid #40a9ff;\n\">\n    <!-- 状态栏 -->\n    <div style=\"\n        background: #000;\n        padding: 5px 15px;\n        border-radius: 15px 15px 0 0;\n        color: #fff;\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        border-bottom: 1px solid #40a9ff;\n        font-size: 12px;\n    \">\n        <span>⚡ SYSTEM ONLINE</span>\n        <span style=\"color: #40a9ff;\">12:00</span>\n        <span>🔋 100%</span>\n    </div>\n\n    <!-- 标题部分 -->\n    <div style=\"\n        background: linear-gradient(45deg, #001529, #002140);\n        padding: 15px;\n        color: #fff;\n        text-align: center;\n        position: sticky;\n        top: 0;\n        z-index: 1;\n        border-bottom: 1px solid #40a9ff;\n    \">\n        <h1 style=\"\n            margin: 0;\n            font-size: 20px;\n            color: #7fdbff;\n            text-shadow: 0 0 10px rgba(127, 219, 255, 0.5);\n        \">$1的年度报告</h1>\n        <p style=\"margin: 10px 0 0; font-size: 14px; color: #a8b2d1;\">$2</p>\n    </div>\n\n    <!-- 内容部分 -->\n    <div style=\"padding: 15px;\">\n        $3\n    </div>\n\n    \n</div>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "1a37e199-a5b2-415c-9cbe-bc2431462847",
+                "scriptName": "【剧场工具】年度报告2",
+                "findRegex": "/<nr>\\s*(.*?)\\s*1\\.(.*?)\\s*(.*?)\\s*(.*?)\\s*2\\.(.*?)\\s*(.*?)\\s*(.*?)\\s*3\\.(.*?)\\s*(.*?)\\s*(.*?)\\s*总结：(.*?)\\s*</nr>/g",
+                "replaceString": "<div style=\"margin-bottom: 20px;\">\n    <h2 style=\"\n        color: #40a9ff;\n        font-size: 18px;\n        margin-bottom: 10px;\n        text-shadow: 0 0 5px #40a9ff;\n        border-left: 3px solid #40a9ff;\n        padding-left: 10px;\n    \">$1</h2>\n    <div style=\"\n        background: rgba(17, 34, 64, 0.8);\n        padding: 15px;\n        border-radius: 10px;\n        margin-bottom: 10px;\n        border: 1px solid #40a9ff;\n        box-shadow: 0 0 10px rgba(64, 169, 255, 0.1);\n    \">\n        <p style=\"color: #8892b0; margin: 8px 0;\">1. $2 <span style=\"color: #40a9ff;\">$3</span> - $4</p>\n        <p style=\"color: #8892b0; margin: 8px 0;\">2. $5 <span style=\"color: #40a9ff;\">$6</span> - $7</p>\n        <p style=\"color: #8892b0; margin: 8px 0;\">3. $8 <span style=\"color: #40a9ff;\">$9</span> - $10</p>\n        <p style=\"\n            margin-top: 15px;\n            padding-top: 10px;\n            border-top: 1px solid #40a9ff;\n            color: #40a9ff;\n        \">总结：$11</p>\n    </div>\n</div>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
