@@ -2303,23 +2303,6 @@
                 "promptOnly": true
             },
             {
-                "id": "d29314ba-9277-4c96-8e2d-83c0377091ee",
-                "scriptName": "置空thinking ",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "(<thinking>)(?:[\\s\\S]*?)(<\\/thinking>)",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 3,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
                 "id": "f81282c4-c729-4f0d-978b-2de2289bb8b9",
                 "scriptName": "【戏剧之王】ai去除非最新楼层的</Main_Quest>",
                 "disabled": false,
