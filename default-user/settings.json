@@ -2918,6 +2918,24 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "40146a7c-0f58-4994-b01d-6927c398e42c",
+                "scriptName": "【剧场工具】状态栏（单人-便签风格）",
+                "findRegex": "/\\[([\\s\\S]+?) - ([\\s\\S]+?) - ([\\s\\S]+?)\\|([\\s\\S]+?)\\|(\\d+%)\\|(\\d+%)\\|([\\s\\S]+?)\\|([\\s\\S]+?)\\]/gi",
+                "replaceString": "<details>\n<summary style=\"background-color: #fff7c4; padding: 4px 12px; border-radius: 6px; \n               box-shadow: 1px 1px 3px rgba(0,0,0,0.2); display: inline-block; \n               font-family: 'Caveat', 'Ma Shan Zheng', cursive; color: #333;\n               border: 1px solid #e6d5a7; list-style: none; cursor: pointer;\">\n<div style=\"margin-bottom:12px;line-height:1.5;width:100%;font-family: 'Courier New', monospace, 'STKaiti', 'PingFang SC', serif;\">\n        <p style=\"margin:0;padding:0;color:#;\">🕒 $1 - <span>$2</span><br>🌦 $3</p>\n    </div>\n</summary>\n\n<div style=\"background-color: #fff7c4; padding: 15px; margin: 10px 0; border-radius: 8px;\n           box-shadow: 2px 2px 5px rgba(0,0,0,0.15); font-family: 'Caveat', 'Ma Shan Zheng', cursive;\n           max-width: 300px; position: relative;\">\n\n  <!-- Red tape decoration -->\n  <div style=\"position: absolute; top: -10px; left: 50%; transform: translateX(-50%);\n              width: 100px; height: 20px; background: linear-gradient(to right, #ff6b6b, #ff8787);\n              border-radius: 2px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\n              transform: rotate(-2deg);\">\n  </div>\n \n\n  <div style=\"margin: 15px 0 10px; padding: 8px; background: rgba(255,255,255,0.5); border-radius: 6px;\n              border-left: 3px solid #ffb347;\">\n    <strong style=\"color: #8b4513;\">🎭 心情: </strong>\n    <span style=\"color: #444;\">$4</span>\n  </div>\n\n  <div style=\"margin: 10px 0;\">\n    <strong style=\"color: #8b4513;\">❤️ 好感: </strong>\n    <small style=\"color: #4a5568;\">$5</small>\n    <div style=\"margin-top: 6px; background: rgba(255,255,255,0.6); height: 8px; border-radius: 4px;\">\n      <div style=\"background: linear-gradient(90deg, #ff7675, #fab1a0); \n                 width: $5; height: 100%; border-radius: 4px;\"></div>\n    </div>\n  </div>\n\n  <div style=\"margin: 10px 0;\">\n    <strong style=\"color: #8b4513;\">🔥 性欲: </strong>\n    <small style=\"color: #4a5568;\">$6</small>\n    <div style=\"margin-top: 6px; background: rgba(255,255,255,0.6); height: 8px; border-radius: 4px;\">\n      <div style=\"background: linear-gradient(90deg, #fd79a8, #ffd1dc); \n                 width: $6; height: 100%; border-radius: 4px;\"></div>\n    </div>\n  </div>\n\n  <div style=\"margin: 10px 0; padding: 8px; background: rgba(255,255,255,0.5); border-radius: 6px;\n              border-left: 3px solid #4ecdc4;\">\n    <strong style=\"color: #8b4513;\">💭 想法: </strong>\n    <span style=\"color: #444; font-style: italic;\">\"$7\"</span>\n  </div>\n\n   <div style=\"margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.7); \n              border-radius: 6px; border: 1px dashed #d4b483; position: relative;\n              transform: rotate(1deg);\">\n    <div style=\"position: absolute; top: -8px; left: 8px; background: #fff7c4; padding: 0 6px;\">\n      <span style=\"color: #8b4513;\">小贴士</span>\n    </div>\n    <span style=\"color: #555; display: block; margin-top: 5px; font-size: 0.95em;\">$8</span>\n  </div>\n\n</div>\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
