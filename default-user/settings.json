@@ -2699,6 +2699,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 0
+            },
+            {
+                "id": "757e767f-6766-4b42-8033-b25dceca3c13",
+                "scriptName": "小总结2",
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 11,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -2921,8 +2938,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 109075,
-                "LAST_SEND_CHARS": 181465,
+                "LAST_SEND_TOKENS": 2,
+                "LAST_SEND_CHARS": 2,
                 "LAST_RECEIVE_TOKENS": 3697,
                 "LAST_RECEIVE_CHARS": 5454
             }
