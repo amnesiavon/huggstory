@@ -640,7 +640,7 @@
             "isExtensionAble": true,
             "isAiReadTable": true,
             "isAiWriteTable": true,
-            "isTableToChat": true,
+            "isTableToChat": false,
             "use_main_api": true,
             "bool_ignore_del": false,
             "to_chat_container": "<div class=\"table-preview-bar\"><details open> <summary>记忆增强表格</summary>\n$0\n</details></div>\n\n<style>\n.table-preview-bar {\n    padding: 0 8px;\n    border-radius: 10px;\n    color: #AAA;\n    font-size: 0.8rem;\n    display: flex;\n    flex-direction: column;\n    max-width: 100%;\n    box-sizing: border-box;\n    overflow: hidden;\n}\n\n.table-preview-bar table {\n    border-collapse: collapse;\n    table-layout: auto;\n    word-wrap: break-word;\n    overflow-wrap: break-word;\n}\n\n.table-preview-bar th, .table-preview-bar td {\n    padding: 8px;\n    border: 1px solid #555;\n    text-align: left;\n    white-space: normal;\n    word-break: break-word;\n}\n</style>",
