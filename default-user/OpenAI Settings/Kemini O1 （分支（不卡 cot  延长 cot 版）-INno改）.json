@@ -17,7 +17,7 @@
     "groq_model": "llama-3.1-70b-versatile",
     "zerooneai_model": "yi-large",
     "custom_model": "gemini-2.5-pro-exp-03-25",
-    "custom_url": "https://hbkssgbunctk.ap-northeast-1.clawcloudrun.com/v1",
+    "custom_url": "https://nya-proxy.k3scat.com/api/gemini",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
@@ -919,7 +919,7 @@
                 },
                 {
                     "identifier": "d3729de8-0e9a-4059-bf4d-de304ff9246b",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "47105f26-261c-49e8-bb58-818fe2f0be2c",
