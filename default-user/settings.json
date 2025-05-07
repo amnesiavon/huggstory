@@ -2201,23 +2201,6 @@
                 "promptOnly": false
             },
             {
-                "id": "b30e3d5c-48e8-4a44-8a2e-00e7f10ed6a1",
-                "scriptName": "tablethink隐藏",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<tableThink\\b[^>]*>[\\s\\S]*?<\\/tableThink>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
-            },
-            {
                 "id": "59d4706c-4a9b-4868-91f3-28554631b135",
                 "scriptName": "【戏剧之王】置空用户输入（去除10楼以上user的输入）",
                 "disabled": true,
