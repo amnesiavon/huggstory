@@ -86,7 +86,6 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "😎✌🏻主播超绝小工具小剧场2.3",
                 "hq手机0429",
                 "人类本能世界书",
                 "文本效果增强",
@@ -3161,8 +3160,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 124792,
                 "LAST_SEND_CHARS": 210176,
-                "LAST_RECEIVE_TOKENS": 2693,
-                "LAST_RECEIVE_CHARS": 4879
+                "LAST_RECEIVE_TOKENS": 2370,
+                "LAST_RECEIVE_CHARS": 3663
             }
         },
         "attachments": [],
