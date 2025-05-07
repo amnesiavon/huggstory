@@ -2546,9 +2546,7 @@
             },
             {
                 "id": "05d96b39-8542-4fe6-979e-5c3a596ea98f",
-                "scriptName": "上下文限制[5]",
-                "disabled": true,
-                "runOnEdit": true,
+                "scriptName": "【遮蔽】上下文限制[5]",
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
                 "trimStrings": [],
@@ -2556,28 +2554,13 @@
                     1,
                     2
                 ],
+                "disabled": true,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 5,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "121d991d-2b34-44a5-b4eb-76bf540106ed",
-                "scriptName": "隐藏表格思维链",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<tableThink_cot\\b[^>]*>[\\s\\S]*?<\\/tableThink_cot>/s",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
+                "maxDepth": null
             },
             {
                 "id": "9b3a2314-1f01-4672-9999-8910487b13f8",
