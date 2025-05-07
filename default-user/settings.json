@@ -69,11 +69,13 @@
         "AlertWI_被GM之神选中的我们的无尽冒险谭.png": "true",
         "AlertRegex_被GM之神选中的我们的无尽冒险谭.png": "true",
         "AlertWI_infinite.png": "true",
-        "AlertWI_vrmmo.png": "true"
+        "AlertWI_vrmmo.png": "true",
+        "AlertWI_妙妙小剧场2.3.png": "true",
+        "AlertRegex_妙妙小剧场2.3.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite.png",
+    "active_character": "妙妙小剧场2.3.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2715,7 +2717,8 @@
             "罗落大陆.png",
             "可视化地图导航.png",
             "欲望天际.png",
-            "被GM之神选中的我们的无尽冒险谭.png"
+            "被GM之神选中的我们的无尽冒险谭.png",
+            "妙妙小剧场2.3.png"
         ],
         "tts": {
             "voiceMap": "",
