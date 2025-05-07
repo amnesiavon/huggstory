@@ -2406,37 +2406,37 @@
             },
             {
                 "id": "2620d562-e4da-4e38-95f5-9937fc20ca8f",
-                "scriptName": "K添加tag",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "【K预设】K添加tag",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
+                "maxDepth": 1
             },
             {
                 "id": "504466a0-8ea1-4cad-b1c9-847caa7869fe",
-                "scriptName": "K去除多余内容新",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "【K预设】K去除多余内容新",
                 "findRegex": "/(<disclaimer>.*?</disclaimer>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
+                "maxDepth": null
             },
             {
                 "id": "d8a0b111-86fd-4766-83c6-47f85c3180c0",
