@@ -2459,6 +2459,40 @@
                 "promptOnly": false
             },
             {
+                "id": "757e767f-6766-4b42-8033-b25dceca3c13",
+                "scriptName": "K小总结2",
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 11,
+                "maxDepth": null
+            },
+            {
+                "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
+                "scriptName": "K小总结1",
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10
+            },
+            {
                 "id": "021fc5b1-33ef-4bcd-9bf0-f639aeb0ddad",
                 "scriptName": "UI融合·评论",
                 "disabled": true,
@@ -2599,23 +2633,6 @@
                 "promptOnly": false
             },
             {
-                "id": "757e767f-6766-4b42-8033-b25dceca3c13",
-                "scriptName": "K小总结2",
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null
-            },
-            {
                 "id": "892b6d86-036b-498c-b3ed-7db94a5c08a3",
                 "scriptName": "K去除所有用户消息",
                 "disabled": false,
@@ -2631,23 +2648,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
-                "scriptName": "K小总结1",
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10
             },
             {
                 "id": "2620d562-e4da-4e38-95f5-9937fc20ca8f",
