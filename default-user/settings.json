@@ -2356,7 +2356,7 @@
             {
                 "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
                 "scriptName": "【戏剧之王】user去除</Main_Quest>",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
                 "replaceString": "",
