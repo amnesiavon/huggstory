@@ -3199,10 +3199,6 @@
                     {
                         "set": "召唤同层手机",
                         "isVisible": true
-                    },
-                    {
-                        "set": "妙妙工具2.1",
-                        "isVisible": true
                     }
                 ]
             }
