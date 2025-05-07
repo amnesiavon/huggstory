@@ -2616,6 +2616,57 @@
                 "maxDepth": null
             },
             {
+                "id": "892b6d86-036b-498c-b3ed-7db94a5c08a3",
+                "scriptName": "K去除所有用户消息",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
+                "scriptName": "K小总结1",
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10
+            },
+            {
+                "id": "2620d562-e4da-4e38-95f5-9937fc20ca8f",
+                "scriptName": "K添加tag",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
                 "id": "c0caed01-5cd4-42c6-9ead-163163e9b66c",
                 "scriptName": "【看想法】心理阴影",
                 "disabled": false,
@@ -2718,40 +2769,6 @@
                 "promptOnly": false
             },
             {
-                "id": "892b6d86-036b-498c-b3ed-7db94a5c08a3",
-                "scriptName": "K去除所有用户消息",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
-                "scriptName": "K小总结1",
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10
-            },
-            {
                 "id": "504466a0-8ea1-4cad-b1c9-847caa7869fe",
                 "scriptName": "K去除多余内容新",
                 "disabled": false,
@@ -2765,23 +2782,6 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "2620d562-e4da-4e38-95f5-9937fc20ca8f",
-                "scriptName": "K添加tag",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
                 "markdownOnly": true,
                 "promptOnly": true
             },
