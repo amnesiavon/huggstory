@@ -2666,37 +2666,37 @@
             },
             {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
-                "scriptName": "隐藏",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "【可视地图】隐藏",
                 "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 0,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
+                "maxDepth": null
             },
             {
                 "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
-                "scriptName": "隐藏2",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "【可视地图】隐藏2",
                 "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 2,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
+                "maxDepth": null
             },
             {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
