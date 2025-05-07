@@ -2189,7 +2189,7 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "findRegex": "/<tablethink>[\\s\\S]*?<\\/tablethink>|/<tabledit>[\\s\\S]*?<\\/tabledit>/gm",
+                "findRegex": "/<tablethink>[\\s\\S]*?<\\/tablethink>|/<tableEdit>[\\s\\S]*?<\\/tableEdit>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
