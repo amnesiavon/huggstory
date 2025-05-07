@@ -2600,20 +2600,20 @@
             },
             {
                 "id": "757e767f-6766-4b42-8033-b25dceca3c13",
-                "scriptName": "小总结2",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "K小总结2",
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 11,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
+                "maxDepth": null
             },
             {
                 "id": "c0caed01-5cd4-42c6-9ead-163163e9b66c",
@@ -2736,20 +2736,20 @@
             },
             {
                 "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
-                "scriptName": "小总结1",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "K小总结1",
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 10,
-                "markdownOnly": false,
-                "promptOnly": true
+                "maxDepth": 10
             },
             {
                 "id": "504466a0-8ea1-4cad-b1c9-847caa7869fe",
