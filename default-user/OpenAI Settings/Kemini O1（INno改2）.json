@@ -49,7 +49,7 @@
     "scenario_format": "{{scenario}}",
     "personality_format": "{{personality}}",
     "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
-    "stream_openai": false,
+    "stream_openai": true,
     "prompts": [
         {
             "name": "Main Prompt",
@@ -899,11 +899,11 @@
                 },
                 {
                     "identifier": "b5e763c0-9dbd-403f-b11b-3bc87b54c96b",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "4ae2ba7e-93af-46f0-91c6-9ef1d687839b",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "9282073b-da36-4e41-b383-539502a1118c",
