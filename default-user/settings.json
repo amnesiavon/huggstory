@@ -2138,7 +2138,7 @@
             "allowMultiple": true
         },
         "connectionManager": {
-            "selectedProfile": "c87d8522-6a15-47e1-872a-e502c4ef03ec",
+            "selectedProfile": "c915028e-68f6-4bbf-80bb-be5fe8fe1c08",
             "profiles": [
                 {
                     "id": "57cfb92b-10ed-4f24-890b-cf75ca16af5f",
@@ -2181,6 +2181,20 @@
                     "start-reply-with": "",
                     "reasoning-template": "[Migrated] Custom",
                     "name": "custom models/gemini-2.5-pro-exp-03-25 - kemini 4.0 正式版 3"
+                },
+                {
+                    "id": "c915028e-68f6-4bbf-80bb-be5fe8fe1c08",
+                    "mode": "cc",
+                    "exclude": [],
+                    "api": "custom",
+                    "preset": "Kemini O1 （INno改）",
+                    "api-url": "https://nya-proxy.k3scat.com/api/gemini",
+                    "model": "models/gemini-2.5-pro-exp-03-25",
+                    "proxy": "None",
+                    "stop-strings": "[]",
+                    "start-reply-with": "",
+                    "reasoning-template": "[Migrated] Custom",
+                    "name": "custom models/gemini-2.5-pro-exp-03-25 - Kemini O1 （INno改）"
                 }
             ]
         },
