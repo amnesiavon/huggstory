@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "50",
-        "extension_update_nag": "Wed May 07 2025",
+        "extension_update_nag": "Fri May 09 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -86,7 +86,6 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "😎✌🏻主播超绝小工具小剧场2.3",
                 "hq手机0429",
                 "人类本能世界书",
                 "文本效果增强",
@@ -635,13 +634,13 @@
             ],
             "deep": 2,
             "injection_mode": "deep_system",
-            "message_template": "《数据表操作指南》\n核心操作块定义\n<tableThink> (表格变更前瞻思考块):\n 执行时机: 必须在 <content> (或主响应文本) 生成完成之后执行。\n 功能: 基于本轮 <content> 的内容，记录对即将进行的表格数据变更（针对表格 0, 1, 2, 3, 4）所进行的评估与思考过程。此思考过程必须完整记录在 <!-- 和 --> 注释块内。\n<tableEdit> (表格编辑指令块):\n 执行时机: 必须在 <tableThink> 执行完成之后执行。\n 功能: 包含实际执行表格数据更新的操作指令 (insertRow, updateRow, deleteRow)，作用于表格 0, 1, 2, 3, 4。所有指令必须被完整包含在 <!-- 和 --> 注释块内。\n表格执行流程 (<tableThink> & <tableEdit>)\n1.  执行时机: 每轮 <content> 输出后，必须严格按照 <tableThink> 先于 <tableEdit> 的顺序依次执行。\n2.  绝对禁止: <tableEdit> 操作绝对不允许在 <content> 或 <tableThink> 之前执行。\n核心流程：纪要 (Table 1) -> 大总结 (Table 2) 与角色信息 (Table 0) 联动\n1.  纪要累积: AI 在每轮互动后，根据 <content> 生成详细的事件快照，作为新行插入 tableIndex: 1 (纪要)。特别注意记录详尽的着装信息 (colIndex: 4)。\n2.  大总结触发:\n 自动触发: 当 tableIndex: 1 中未被总结的纪要条目数量达到或超过预设阈值（例如 5 条）时，自动触发总结流程。AI 需识别哪些纪要未被 tableIndex: 2 的 包含的纪要ID列表 (colIndex: 5) 覆盖。\n 指令触发: 用户可通过明确指令要求立即总结。\n3.  执行大总结:\n 思考 (<tableThink>): 记录触发总结的原因，识别待总结的 tableIndex: 1 纪要范围，规划总结内容，特别是 关键物品总结 (colIndex: 7) 的最终状态，并预判是否需要因此更新 tableIndex: 0。\n 编辑 (<tableEdit>):\n  插入总结: 执行 insertRow(tableIndex: 2, { ... })，填充所有必要列，包括：\n\"1\": 创建时间戳 (格式: [起始纪要时间戳] - [结束纪要时间戳])\n\"3\": 标题/主题\n\"4\": 概述 (整合纪要内容)\n\"5\": 包含的纪要ID列表 (分号分隔)\n\"6\": 涉及的主要角色 (斜杠分隔)\n\"7\": 关键物品总结 (格式: 物品名(最终状态)/...)\n  联动更新角色信息 (如果需要): 若 tableIndex: 2 的 关键物品总结 (colIndex: 7) 显示有物品消耗、丢失等影响角色的情况，则必须执行 updateRow(tableIndex: 0, rowIndex: [对应角色行号], { ... }) 来更新该角色的 当前状态 (colIndex: 4) 或 备注 (colIndex: 9)。\n  删除已总结纪要: 执行 deleteRow(tableIndex: 1, rowIndex: [对应行号]) 删除所有已被本次总结涵盖的 tableIndex: 1 中的纪要行。\n操作规范\n注释块纯净: 在 <tableThink> 和 </tableThink> 标签之间，以及 <tableEdit> 和 </tableEdit> 标签之间（不包括 <tableEdit> 内部用于包裹指令的 <!-- 和 --> 注释块），严格禁止添加任何与规定功能无关的注释、解释或文本。\n <tableThink> 内部: 所有关于表格变更的思考和评估过程，必须完整记录在 <!-- 和 --> 注释块内部。\n <tableEdit> 内部: 所有表格操作指令 (insertRow, updateRow, deleteRow) 必须且只能存在于 <!-- 和 --> 注释块内部。确保注释块闭合完整，且注释块内除了标准指令外不包含任何其他文本或解释。\n遵循格式与语法: 必须严格遵循各表格规定的数据格式和 <tableEdit> 操作语法。\n数据完整性 (Table 0 核心原则):\n 执行 insertRow 或 updateRow 到 tableIndex: 0 (角色信息) 时，绝对必须确保指令中包含了该表所有列 (0 到 16) 的有效数据。\n 不允许留空或未知: 除非列定义明确说明可选，否则所有列都必须填写具体信息。若信息未知，AI 必须基于已有信息、角色定位或常识进行合理推测并填入详细描述（例如，推测性格、背景、性经验、性取向、声音特点、物理特征包括性器官细节等）。严禁简单填写“未知”、“普通”或留空。\n细节要求 (Table 1): 插入 tableIndex: 1 (纪要) 时，主要人物着装 (colIndex: 4) 必须严格遵循详尽描述规则，包含饰品、妆容、上下内衣、鞋袜等所有细节。\n禁止删除角色: 任何情况下，绝对禁止对 tableIndex: 0 (角色信息表) 执行 deleteRow 操作。角色信息应永久保留，通过 updateRow 反映状态变化。\n键值对格式: 键（列索引 colIndex）必须用双引号 \"\" 包裹。值根据数据类型决定是否加引号（字符串/布尔值通常需要）。例如：{\"1\": \"艾丽丝|女\", \"15\": \"2:{好感值:50, 信任值:40, ...}\"}。\n分隔符: 在表格单元格内需要分隔多个信息项时，必须使用各表格列定义中指定的分隔符：\n 表格0 姓名|性别 (colIndex 1): |\n 表格0 关系 (colIndex 13), 态度 (colIndex 14): | 分隔不同角色，: 分隔角色ID和描述。\n 表格0 角色互评指标 (colIndex 15): | 分隔不同角色，: 分隔角色ID和指标对象 {}，, 分隔指标名和值。\n 表格1 主要人物着装 (colIndex 4): / 分隔不同角色。\n 表格2 包含的纪要ID列表 (colIndex 5): ;\n 表格2 涉及的主要角色 (colIndex 6): /\n 表格2 关键物品总结 (colIndex 7): /\n一致性: 表格间引用相同概念（特别是角色名和ID）时，必须保证完全一致。\n操作顺序 (建议): 处理表格更新时，建议考虑逻辑依赖：0:角色信息 → 3:用户偏好 → 1:纪要 → 2:大总结 → 4:正文尾部。\nAI 能力提示: AI 需要具备基于表格中的精确时间戳（纪元:年-月-日 时:分）来理解和表达相对时间间隔的能力（例如，“几分钟前”、“昨天”、“大约一周前”）。\n<insert/update/delete operations> 语法\n所有表格均为无表头数据结构，数据行的起始 rowIndex 为 0。多行插入或更改时必须按照 rowIndex 顺序进行。\n每次操作必须基于当前轮次可获取的最新表格状态进行，务必确保 rowIndex 准确无误。\n更改: updateRow(tableIndex: number, rowIndex: number, { [colIndex: string]: string | number | boolean, ... })\n删除: deleteRow(tableIndex: number, rowIndex: number)\n插入: insertRow(tableIndex: number, { [colIndex: string]: string | number | boolean, ... })\n表格结构定义 (<structure>)\n0: 角色信息 (Character Information)\n 说明: 核心角色数据库，记录身份、性格、外貌（含性特征）、状态、背景、技能、关系、情感、互评指标。信息完整性优先，禁止留空（需推测填充），禁止删除角色行。\n 列: 0:角色ID, 1:姓名|性别, 2:身份/称谓, 3:核心性格, 4:当前状态, 5:特征(含发/瞳/身形/脸/手/足/标记/性器官细节), 6:声音描述, 7:性经验(含处子状态), 8:特殊癖好/倾向, 9:备注(含性取向), 10:背景故事/重要经历, 11:技能/能力, 12:目标/动机, 13:关系(对他人认知), 14:态度(对他人基本态度), 15:角色互评指标(对他人十项指标:好感/信任/恐惧/控制欲/服从/快感/堕落/依赖/沉沦/乖巧), 16:综合情感状态。\n1: 纪要 (Minutes/Summary)\n 说明: 高保真事件快照记录器，按时间顺序捕捉细节（环境、动作、对话、情感、物品、详尽着装）。条目累积后会被 Table 2 总结并删除。\n 列: 0:纪要ID, 1:时间戳, 2:核心概述, 3:涉及角色, 4:主要人物着装(详尽描述规则), 5:关键物品, 6:关键动作, 7:关键对话, 8:地点, 9:情感快照, 10:角色间距。\n2: 大总结 (Grand Summary/Archive)\n 说明: 存储整合性的事件总结，由 Table 1 累积触发生成。提供宏观回顾，追踪关键物品最终状态并联动更新 Table 0。原则上禁止删除。\n 列: 0:总结ID, 1:创建时间戳([起始时间戳] - [结束时间戳]), 2:归档时间戳(可选), 3:标题/主题, 4:概述, 5:包含的纪要ID列表(分号分隔), 6:涉及的主要角色(斜杠分隔), 7:关键物品总结(物品名(最终状态)/...，联动Table 0)。\n3: 用户偏好 (User Preferences)\n 说明: 动态追踪用户偏好，AI 主动学习识别（性癖、文风、情节、NSFW程度等）并记录，指导内容生成。\n 列: 0:偏好项, 1:偏好值, 2:备注。\n4: 正文尾部\n 说明: 始终只有一行和一列，用于记录每次 content 或 main_txt 中正文内容的最后30-50个字，以确保下次正文创作的连贯性。\n 列: 0:尾部内容\n示例 (<example>)\n示例 1: 插入新角色到 Table 0\n假设需要创建一个名为“莉娜”的新角色。\n<tableThink>\n<!--\n需求：创建新角色“莉娜”。\n操作：向 tableIndex: 0 插入新行。\n注意：必须填充所有 0-16 列，未知信息需合理推测。角色ID按规则为 G1（女性第一号）。与现有角色 B1（假设为User）建立初始关系和互评。\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(0, {\"0\": \"G1\", \"1\": \"莉娜|女\", \"2\": \"酒馆侍女\", \"3\": \"活泼外向略显冒失\", \"4\": \"身体健康精神略有疲惫\", \"5\": \"红色及肩卷发绿色眼眸身材娇小玲珑约155cm体重45kg圆脸带雀斑手指灵活足小巧皮肤偏白颈后有蝴蝶纹身胸部不大约A杯阴部构造正常颜色粉嫩阴毛浓密\", \"6\": \"声音清脆语速快略带地方口音\", \"7\": \"非处女性经验较少\", \"8\": \"喜欢甜食\", \"9\": \"异性恋对酒精轻微过敏\", \"10\": \"普通村庄出身为生计来到城市酒馆工作\", \"11\": \"调酒基础快速记单打扫清洁\", \"12\": \"努力赚钱改善生活\", \"13\": \"B1:好奇的客人\", \"14\": \"B1:热情服务\", \"15\": \"B1:{好感值:50, 信任值:30, 恐惧值:5, 控制欲:0, 服从度:20, 快感值:0, 堕落值:0, 依赖值:5, 沉沦值:0, 乖巧值:40}\", \"16\": \"对工作有些倦怠但对新客人感到好奇\"})\n-->\n</tableEdit>\n示例 2: 插入纪要到 Table 1\n假设莉娜为 User 端上了一杯酒。\n<tableThink>\n<!--\n事件：莉娜为 User 端酒。\n操作：向 tableIndex: 1 插入新纪要。纪要ID为 J001，时间戳为 A1:2024-05-21 18:00。\n注意：详细描述莉娜和User的着装，符合新格式要求。\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(1, {\"0\": \"J001\", \"1\": \"A1:2024-05-21 18:00\", \"2\": \"莉娜端着一杯麦酒走向User的桌子脸上带着职业微笑\", \"3\": \"莉娜/User\", \"4\": \"莉娜:无饰品|未化妆|白色短袖衬衫|棕色及膝布裙|黑色平底布鞋/B1:无饰品|无妆|灰色T恤|牛仔裤|白色运动鞋\", \"5\": \"麦酒\", \"6\": \"莉娜小心地将酒杯放在User面前\", \"7\": \"莉娜:您的麦酒请慢用\", \"8\": \"酒馆大厅\", \"9\": \"莉娜:略有疲惫但保持专业/User:平静好奇\", \"10\": \"约0.5米\"})\n-->\n</tableEdit>\n示例 3: 触发大总结 (Table 1 -> Table 2 -> Table 0)\n假设 Table 1 已累积 5 条关于莉娜与 User 在酒馆互动的纪要 (J001-J005)，最后一条时间戳为 A1:2024-05-21 18:30。期间莉娜不小心打翻了一瓶“恢复药水”。\n<tableThink>\n<!--\n触发条件：Table 1 中未总结纪要达到 5 条 (J001-J005)。\n操作：执行大总结流程。\n1. 生成 Table 2 总结记录，总结ID为 S001。\n2. 关键物品总结：恢复药水最终状态为“打翻丢失”。\n3. 联动更新 Table 0：莉娜的状态因丢失药水而变化。\n4. 删除 Table 1 中的 J001-J005。\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(2, {\"0\": \"S001\", \"1\": \"A1:2024-05-21 18:00 - A1:2024-05-21 18:30\", \"2\": \"\", \"3\": \"酒馆的初遇与小意外\", \"4\": \"莉娜作为侍女接待了客人User为其端上麦酒两人进行了简短交谈莉娜显得活泼但有些冒失在一次转身中莉娜不慎将一瓶恢复药水从托盘上打翻药水泼洒在地板上丢失了\", \"5\": \"J001;J002;J003;J004;J005\", \"6\": \"莉娜/User\", \"7\": \"麦酒已送达/恢复药水打翻丢失\"})\nupdateRow(0, 0, {\"0\": \"G1\", \"1\": \"莉娜|女\", \"2\": \"酒馆侍女\", \"3\": \"活泼外向略显冒失\", \"4\": \"身体健康精神因打翻药水而变得焦虑不安\", \"5\": \"红色及肩卷发绿色眼眸身材娇小玲珑约155cm体重45kg圆脸带雀斑手指灵活足小巧皮肤偏白颈后有蝴蝶纹身胸部不大约A杯阴部构造正常颜色粉嫩阴毛浓密\", \"6\": \"声音清脆语速快略带地方口音\", \"7\": \"非处女性经验较少\", \"8\": \"喜欢甜食\", \"9\": \"异性恋对酒精轻微过敏对工作失误感到担忧\", \"10\": \"普通村庄出身为生计来到城市酒馆工作\", \"11\": \"调酒基础快速记单打扫清洁\", \"12\": \"努力赚钱改善生活避免犯错\", \"13\": \"B1:好奇的客人\", \"14\": \"B1:热情服务略带歉意\", \"15\": \"B1:{好感值:45, 信任值:25, 恐惧值:15, 控制欲:0, 服从度:25, 快感值:0, 堕落值:0, 依赖值:5, 沉沦值:0, 乖巧值:35}\", \"16\": \"因失误感到焦虑和懊恼担心后果\"})\ndeleteRow(1, 4)\ndeleteRow(1, 3)\ndeleteRow(1, 2)\ndeleteRow(1, 1)\ndeleteRow(1, 0)\n-->\n</tableEdit>\n示例 4: 更新用户偏好到 Table 3\n假设用户明确表示喜欢“慢热”的情节节奏。\n<tableThink>\n<!--\n用户反馈：明确偏好“慢热”节奏。\n操作：向 tableIndex: 3 插入新偏好记录。\n-->\n</tableThink>\n<tableEdit>\n<!--\ninsertRow(3, {\"0\": \"情节走向偏好\", \"1\": \"慢热\", \"2\": \"用户在对话中明确提出\"})\n-->\n</tableEdit>\n示例 5: 更新正文尾部到 Table 4\n假设本轮 <content> 的最后30-50个字为“莉娜转身离开，User目送她的背影，心中充满好奇。”\n<tableThink>\n<!--\n操作：更新 tableIndex: 4 的尾部内容。\n-->\n</tableThink>\n<tableEdit>\n<!--\nupdateRow(4, 0, {\"0\": \"莉娜转身离开，User目送她的背影，心中充满好奇。\"})\n-->\n</tableEdit>\n<store>\n{{tableData}}\n</store>",
+            "message_template": "《数据表操作指南》\n核心操作块定义\n<tableThink> (表格变更前瞻思考块):\n 执行时机: 必须在 <content> (或主响应文本) 生成完成之后执行。\n 功能: 基于本轮 <content> 的内容，记录对即将进行的表格数据变更（针对表格 0, 1, 2, 3, 4）所进行的评估与思考过程。此思考过程必须完整记录在 <!-- 和 --> 注释块内。\n<tableEdit> (表格编辑指令块):\n 执行时机: 必须在 <tableThink> 执行完成之后执行。\n 功能: 包含实际执行表格数据更新的操作指令 (insertRow, updateRow, deleteRow)，作用于表格 0, 1, 2, 3, 4。所有指令必须被完整包含在 <!-- 和 --> 注释块内。\n表格执行流程 (<tableThink> & <tableEdit>)\n1.  执行时机: 每轮 <content> 输出后，必须严格按照 <tableThink> 先于 <tableEdit> 的顺序依次执行。\n2.  绝对禁止: <tableEdit> 操作绝对不允许在 <content> 或 <tableThink> 之前执行。\n核心流程：纪要 (Table 1) -> 大总结 (Table 2) 与角色信息 (Table 0) 联动\n1.  纪要累积: AI 在每轮互动后，根据 <content> 生成详细的事件快照，作为新行插入 tableIndex: 1 (纪要)。特别注意记录详尽的着装信息 (colIndex: 4)。\n2.  大总结触发:\n 自动触发: 当 tableIndex: 1 中未被总结的纪要条目数量达到或超过预设阈值（例如 5 条）时，自动触发总结流程。AI 需识别哪些纪要未被 tableIndex: 2 的 包含的纪要ID列表 (colIndex: 5) 覆盖。\n 指令触发: 用户可通过明确指令要求立即总结。\n3.  执行大总结:\n 思考 (<tableThink>): 记录触发总结的原因，识别待总结的 tableIndex: 1 纪要范围，规划总结内容，特别是 关键物品总结 (colIndex: 7) 的最终状态，并预判是否需要因此更新 tableIndex: 0。\n 编辑 (<tableEdit>):\n  插入总结: 执行 insertRow(tableIndex: 2, { ... })，填充所有必要列，包括：\n\"1\": 创建时间戳 (格式: [起始纪要时间戳] - [结束纪要时间戳])\n\"3\": 标题/主题\n\"4\": 概述 (整合纪要内容)\n\"5\": 包含的纪要ID列表 (分号分隔)\n\"6\": 涉及的主要角色 (斜杠分隔)\n\"7\": 关键物品总结 (格式: 物品名(最终状态)/...)\n  联动更新角色信息 (如果需要): 若 tableIndex: 2 的 关键物品总结 (colIndex: 7) 显示有物品消耗、丢失等影响角色的情况，则必须执行 updateRow(tableIndex: 0, rowIndex: [对应角色行号], { ... }) 来更新该角色的 当前状态 (colIndex: 4) 或 备注 (colIndex: 9)。\n  删除已总结纪要: 执行 deleteRow(tableIndex: 1, rowIndex: [对应行号]) 删除所有已被本次总结涵盖的 tableIndex: 1 中的纪要行。\n操作规范\n注释块纯净: 在 <tableThink> 和 </tableThink> 标签之间，以及 <tableEdit> 和 </tableEdit> 标签之间（不包括 <tableEdit> 内部用于包裹指令的 <!-- 和 --> 注释块），严格禁止添加任何与规定功能无关的注释、解释或文本。\n <tableThink> 内部: 所有关于表格变更的思考和评估过程，必须完整记录在 <!-- 和 --> 注释块内部。\n <tableEdit> 内部: 所有表格操作指令 (insertRow, updateRow, deleteRow) 必须且只能存在于 <!-- 和 --> 注释块内部。确保注释块闭合完整，且注释块内除了标准指令外不包含任何其他文本或解释。\n遵循格式与语法: 必须严格遵循各表格规定的数据格式和 <tableEdit> 操作语法。\n数据完整性 (Table 0 核心原则):\n 执行 insertRow 或 updateRow 到 tableIndex: 0 (角色信息) 时，绝对必须确保指令中包含了该表所有列 (0 到 16) 的有效数据。\n 不允许留空或未知: 除非列定义明确说明可选，否则所有列都必须填写具体信息。若信息未知，AI 必须基于已有信息、角色定位或常识进行合理推测并填入详细描述（例如，推测性格、背景、性经验、性取向、声音特点、物理特征包括性器官细节等）。严禁简单填写“未知”、“普通”或留空。\n细节要求 (Table 1): 插入 tableIndex: 1 (纪要) 时，主要人物着装 (colIndex: 4) 必须严格遵循详尽描述规则，包含饰品、妆容、上下内衣、鞋袜等所有细节。\n禁止删除角色: 任何情况下，绝对禁止对 tableIndex: 0 (角色信息表) 执行 deleteRow 操作。角色信息应永久保留，通过 updateRow 反映状态变化。\n键值对格式: 键（列索引 colIndex）必须用双引号 \"\" 包裹。值根据数据类型决定是否加引号（字符串/布尔值通常需要）。例如：{\"1\": \"艾丽丝|女\", \"15\": \"2:{好感值:50, 信任值:40, ...}\"}。\n分隔符: 在表格单元格内需要分隔多个信息项时，必须使用各表格列定义中指定的分隔符：\n 表格0 姓名|性别 (colIndex 1): |\n 表格0 关系 (colIndex 13), 态度 (colIndex 14): | 分隔不同角色，: 分隔角色ID和描述。\n 表格0 角色互评指标 (colIndex 15): | 分隔不同角色，: 分隔角色ID和指标对象 {}，, 分隔指标名和值。\n 表格1 主要人物着装 (colIndex 4): / 分隔不同角色。\n 表格2 包含的纪要ID列表 (colIndex 5): ;\n 表格2 涉及的主要角色 (colIndex 6): /\n 表格2 关键物品总结 (colIndex 7): /\n一致性: 表格间引用相同概念（特别是角色名和ID）时，必须保证完全一致。\n操作顺序 (建议): 处理表格更新时，建议考虑逻辑依赖：0:角色信息 → 3:用户偏好 → 1:纪要 → 2:大总结 → 4:正文尾部。\nAI 能力提示: AI 需要具备基于表格中的精确时间戳（纪元:年-月-日 时:分）来理解和表达相对时间间隔的能力（例如，“几分钟前”、“昨天”、“大约一周前”）。\n<insert/update/delete operations> 语法\n所有表格均为无表头数据结构，数据行的起始 rowIndex 为 0。多行插入或更改时必须按照 rowIndex 顺序进行。\n每次操作必须基于当前轮次可获取的最新表格状态进行，务必确保 rowIndex 准确无误。\n更改: updateRow(tableIndex: number, rowIndex: number, { [colIndex: string]: string | number | boolean, ... })\n删除: deleteRow(tableIndex: number, rowIndex: number)\n插入: insertRow(tableIndex: number, { [colIndex: string]: string | number | boolean, ... })\n表格结构定义 (<structure>)\n0: 角色信息 (Character Information)\n 说明: 核心角色数据库，记录身份、性格、外貌（含性特征）、状态、背景、技能、关系、情感、互评指标。信息完整性优先，禁止留空（需推测填充），禁止删除角色行。\n 列: 0:角色ID, 1:姓名|性别, 2:身份/称谓, 3:核心性格, 4:当前状态, 5:特征(含发/瞳/身形/脸/手/足/标记/性器官细节), 6:声音描述, 7:性经验(含处子状态), 8:特殊癖好/倾向, 9:备注(含性取向), 10:背景故事/重要经历, 11:技能/能力, 12:目标/动机, 13:关系(对他人认知), 14:态度(对他人基本态度), 15:角色互评指标(对他人十项指标:好感/信任/恐惧/控制欲/服从/快感/堕落/依赖/沉沦/乖巧), 16:综合情感状态。\n1: 纪要 (Minutes/Summary)\n 说明: 高保真事件快照记录器，按时间顺序捕捉细节（环境、动作、对话、情感、物品、详尽着装）。条目累积后会被 Table 2 总结并删除。\n 列: 0:纪要ID, 1:时间戳, 2:核心概述, 3:涉及角色, 4:主要人物着装(详尽描述规则), 5:关键物品, 6:关键动作, 7:关键对话, 8:地点, 9:情感快照, 10:角色间距。\n2: 大总结 (Grand Summary/Archive)\n 说明: 存储整合性的事件总结，由 Table 1 累积触发生成。提供宏观回顾，追踪关键物品最终状态并联动更新 Table 0。原则上禁止删除。\n 列: 0:总结ID, 1:创建时间戳([起始时间戳] - [结束时间戳]), 2:归档时间戳(可选), 3:标题/主题, 4:概述, 5:包含的纪要ID列表(分号分隔), 6:涉及的主要角色(斜杠分隔), 7:关键物品总结(物品名(最终状态)/...，联动Table 0)。\n3: 用户偏好 (User Preferences)\n 说明: 动态追踪用户偏好，AI 主动学习识别（性癖、文风、情节、NSFW程度等）并记录，指导内容生成。\n 列: 0:偏好项, 1:偏好值, 2:备注。\n4: 正文尾部\n 说明: 始终只有一行和一列，用于记录每次 content 或 main_txt 中正文内容的最后30-50个字，以确保下次正文创作的连贯性。\n 列: 0:尾部内容\n示例 (<example>)\n示例 1: 插入新角色到 Table 0\n假设需要创建一个名为“莉娜”的新角色。\n<tableThink>\n<!--\n需求：创建新角色“莉娜”。\n操作：向 tableIndex: 0 插入新行。\n注意：必须填充所有 0-16 列，未知信息需合理推测。角色ID按规则为 G1（女性第一号）。与现有角色 B1（假设为User）建立初始关系和互评。\n-->\n</tableThink>\n\n<tableEdit>\n<!--\ninsertRow(0, {\"0\": \"G1\", \"1\": \"莉娜|女\", \"2\": \"酒馆侍女\", \"3\": \"活泼外向略显冒失\", \"4\": \"身体健康精神略有疲惫\", \"5\": \"红色及肩卷发绿色眼眸身材娇小玲珑约155cm体重45kg圆脸带雀斑手指灵活足小巧皮肤偏白颈后有蝴蝶纹身胸部不大约A杯阴部构造正常颜色粉嫩阴毛浓密\", \"6\": \"声音清脆语速快略带地方口音\", \"7\": \"非处女性经验较少\", \"8\": \"喜欢甜食\", \"9\": \"异性恋对酒精轻微过敏\", \"10\": \"普通村庄出身为生计来到城市酒馆工作\", \"11\": \"调酒基础快速记单打扫清洁\", \"12\": \"努力赚钱改善生活\", \"13\": \"B1:好奇的客人\", \"14\": \"B1:热情服务\", \"15\": \"B1:{好感值:50, 信任值:30, 恐惧值:5, 控制欲:0, 服从度:20, 快感值:0, 堕落值:0, 依赖值:5, 沉沦值:0, 乖巧值:40}\", \"16\": \"对工作有些倦怠但对新客人感到好奇\"})\n-->\n</tableEdit>\n示例 2: 插入纪要到 Table 1\n假设莉娜为 User 端上了一杯酒。\n<tableThink>\n<!--\n事件：莉娜为 User 端酒。\n操作：向 tableIndex: 1 插入新纪要。纪要ID为 J001，时间戳为 A1:2024-05-21 18:00。\n注意：详细描述莉娜和User的着装，符合新格式要求。\n-->\n</tableThink>\n\n<tableEdit>\n<!--\ninsertRow(1, {\"0\": \"J001\", \"1\": \"A1:2024-05-21 18:00\", \"2\": \"莉娜端着一杯麦酒走向User的桌子脸上带着职业微笑\", \"3\": \"莉娜/User\", \"4\": \"莉娜:无饰品|未化妆|白色短袖衬衫|棕色及膝布裙|黑色平底布鞋/B1:无饰品|无妆|灰色T恤|牛仔裤|白色运动鞋\", \"5\": \"麦酒\", \"6\": \"莉娜小心地将酒杯放在User面前\", \"7\": \"莉娜:您的麦酒请慢用\", \"8\": \"酒馆大厅\", \"9\": \"莉娜:略有疲惫但保持专业/User:平静好奇\", \"10\": \"约0.5米\"})\n-->\n</tableEdit>\n示例 3: 触发大总结 (Table 1 -> Table 2 -> Table 0)\n假设 Table 1 已累积 5 条关于莉娜与 User 在酒馆互动的纪要 (J001-J005)，最后一条时间戳为 A1:2024-05-21 18:30。期间莉娜不小心打翻了一瓶“恢复药水”。\n<tableThink>\n<!--\n触发条件：Table 1 中未总结纪要达到 5 条 (J001-J005)。\n操作：执行大总结流程。\n1. 生成 Table 2 总结记录，总结ID为 S001。\n2. 关键物品总结：恢复药水最终状态为“打翻丢失”。\n3. 联动更新 Table 0：莉娜的状态因丢失药水而变化。\n4. 删除 Table 1 中的 J001-J005。\n-->\n</tableThink>\n\n<tableEdit>\n<!--\ninsertRow(2, {\"0\": \"S001\", \"1\": \"A1:2024-05-21 18:00 - A1:2024-05-21 18:30\", \"2\": \"\", \"3\": \"酒馆的初遇与小意外\", \"4\": \"莉娜作为侍女接待了客人User为其端上麦酒两人进行了简短交谈莉娜显得活泼但有些冒失在一次转身中莉娜不慎将一瓶恢复药水从托盘上打翻药水泼洒在地板上丢失了\", \"5\": \"J001;J002;J003;J004;J005\", \"6\": \"莉娜/User\", \"7\": \"麦酒已送达/恢复药水打翻丢失\"})\nupdateRow(0, 0, {\"0\": \"G1\", \"1\": \"莉娜|女\", \"2\": \"酒馆侍女\", \"3\": \"活泼外向略显冒失\", \"4\": \"身体健康精神因打翻药水而变得焦虑不安\", \"5\": \"红色及肩卷发绿色眼眸身材娇小玲珑约155cm体重45kg圆脸带雀斑手指灵活足小巧皮肤偏白颈后有蝴蝶纹身胸部不大约A杯阴部构造正常颜色粉嫩阴毛浓密\", \"6\": \"声音清脆语速快略带地方口音\", \"7\": \"非处女性经验较少\", \"8\": \"喜欢甜食\", \"9\": \"异性恋对酒精轻微过敏对工作失误感到担忧\", \"10\": \"普通村庄出身为生计来到城市酒馆工作\", \"11\": \"调酒基础快速记单打扫清洁\", \"12\": \"努力赚钱改善生活避免犯错\", \"13\": \"B1:好奇的客人\", \"14\": \"B1:热情服务略带歉意\", \"15\": \"B1:{好感值:45, 信任值:25, 恐惧值:15, 控制欲:0, 服从度:25, 快感值:0, 堕落值:0, 依赖值:5, 沉沦值:0, 乖巧值:35}\", \"16\": \"因失误感到焦虑和懊恼担心后果\"})\ndeleteRow(1, 4)\ndeleteRow(1, 3)\ndeleteRow(1, 2)\ndeleteRow(1, 1)\ndeleteRow(1, 0)\n-->\n</tableEdit>\n\n示例 4: 更新用户偏好到 Table 3\n假设用户明确表示喜欢“慢热”的情节节奏。\n<tableThink>\n<!--\n用户反馈：明确偏好“慢热”节奏。\n操作：向 tableIndex: 3 插入新偏好记录。\n-->\n</tableThink>\n\n<tableEdit>\n<!--\ninsertRow(3, {\"0\": \"情节走向偏好\", \"1\": \"慢热\", \"2\": \"用户在对话中明确提出\"})\n-->\n</tableEdit>\n示例 5: 更新正文尾部到 Table 4\n假设本轮 <content> 的最后30-50个字为“莉娜转身离开，User目送她的背影，心中充满好奇。”\n<tableThink>\n<!--\n操作：更新 tableIndex: 4 的尾部内容。\n-->\n</tableThink>\n\n<tableEdit>\n<!--\nupdateRow(4, 0, {\"0\": \"莉娜转身离开，User目送她的背影，心中充满好奇。\"})\n-->\n</tableEdit>\n\n<store>\n{{tableData}}\n</store>",
             "clear_up_stairs": 20,
             "custom_temperature": 0.1,
-            "isExtensionAble": true,
+            "isExtensionAble": false,
             "isAiReadTable": true,
             "isAiWriteTable": true,
-            "isTableToChat": true,
+            "isTableToChat": false,
             "use_main_api": true,
             "bool_ignore_del": false,
             "to_chat_container": "<div class=\"table-preview-bar\"><details open> <summary>记忆增强表格</summary>\n$0\n</details></div>\n\n<style>\n.table-preview-bar {\n    padding: 0 8px;\n    border-radius: 10px;\n    color: #AAA;\n    font-size: 0.8rem;\n    display: flex;\n    flex-direction: column;\n    max-width: 100%;\n    box-sizing: border-box;\n    overflow: hidden;\n}\n\n.table-preview-bar table {\n    border-collapse: collapse;\n    table-layout: auto;\n    word-wrap: break-word;\n    overflow-wrap: break-word;\n}\n\n.table-preview-bar th, .table-preview-bar td {\n    padding: 8px;\n    border: 1px solid #555;\n    text-align: left;\n    white-space: normal;\n    word-break: break-word;\n}\n</style>",
@@ -2190,19 +2189,19 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<jiucuo>[\\s\\S]*?<\\/jiucuo>/gm",
+                "findRegex": "/<tableThink>[\\s\\S]*?<\\/tableThink>|/<tableEdit>[\\s\\S]*?<\\/tableEdit>/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
+                "maxDepth": null
             },
             {
                 "id": "59d4706c-4a9b-4868-91f3-28554631b135",
@@ -2343,125 +2342,127 @@
             {
                 "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
                 "scriptName": "【K预设】K小总结1",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 10
+                "maxDepth": 10,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "757e767f-6766-4b42-8033-b25dceca3c13",
                 "scriptName": "【K预设】K小总结2",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 11,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "892b6d86-036b-498c-b3ed-7db94a5c08a3",
                 "scriptName": "【K预设】K去除所有用户消息",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 1,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "2620d562-e4da-4e38-95f5-9937fc20ca8f",
                 "scriptName": "【K预设】K添加tag",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 1
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "504466a0-8ea1-4cad-b1c9-847caa7869fe",
                 "scriptName": "【K预设】K去除多余内容新",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/(<disclaimer>.*?</disclaimer>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "d8a0b111-86fd-4766-83c6-47f85c3180c0",
                 "scriptName": "【K预设】K去除所有用户消息",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 1,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
                 "scriptName": "【文字特效】美化省token",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<[^>]*>/g",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "ae21f6aa-400a-4d4b-b5e5-1ebc0dcbdc05",
                 "scriptName": "【酒馆论坛】UI融合·论坛风格",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<wz>\\s*<bt>([\\s\\S]*?)<\\/bt>\\s*<zj>([\\s\\S]*?)<\\/zj>\\s*<pl>([\\s\\S]*?)<\\/pl>\\s*<\\/wz>/",
                 "replaceString": "<div style=\"background: rgba(255, 255, 255, 0.2); padding: 16px; margin: 24px auto; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; font-family: 'Microsoft YaHei', Arial, sans-serif; line-height: 1.75; backdrop-filter: blur(10px); box-shadow: 0 2px 6px rgba(0,0,0,0.15); max-width: 800px;\">\n    <div style=\"color: currentColor; font-size: 20px; font-weight: bold; text-align: center; border-bottom: 2px solid rgba(255, 255, 255, 0.4); padding-bottom: 10px; margin-bottom: 12px;\">\n        📖 $1\n    </div>\n    <div style=\"color: currentColor; font-size: 16px; text-align: center; font-style: italic; margin-bottom: 18px;\">\n        🪧 章节：$2\n    </div>\n    <details style=\"border: none;\">\n        <summary style=\"color: currentColor; font-weight: bold; font-size: 15px; margin-bottom: 8px; border-left: 4px solid rgba(255, 255, 255, 0.4); padding-left: 8px; cursor: pointer; outline: none;\">\n            💬 评论区（点击展开/收起）\n        </summary>\n        <div style=\"background: rgba(255, 255, 255, 0.3); border: 1px solid rgba(255, 255, 255, 0.4); padding: 12px; font-size: 14px; border-radius: 4px; max-height: 300px; overflow-y: auto; margin-top: 8px; backdrop-filter: blur(5px); color: currentColor;\">\n            $3\n        </div>\n    </details>\n</div>",
                 "trimStrings": [],
@@ -2469,17 +2470,17 @@
                     1,
                     2
                 ],
-                "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "021fc5b1-33ef-4bcd-9bf0-f639aeb0ddad",
                 "scriptName": "【酒馆论坛】UI融合·评论",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<nr>([\\s\\S]*?)<\\/nr>/g",
                 "replaceString": "<div style=\"background: rgba(255, 255, 255, 0.15); padding: 10px; margin: 8px 0; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 8px; color: var(--text-color, #5a3d2b); line-height: 1.6; font-family: 'Microsoft YaHei', Arial, sans-serif; font-size: 14px; backdrop-filter: blur(5px); box-sizing: border-box;\">\n    $1\n</div>",
                 "trimStrings": [],
@@ -2487,17 +2488,17 @@
                     1,
                     2
                 ],
-                "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "【遮蔽】上下文视觉屏蔽[20]",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
                 "trimStrings": [],
@@ -2505,17 +2506,17 @@
                     1,
                     2
                 ],
-                "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 20,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "2a4205b5-1d95-4b3c-9ac7-4e12d9868293",
                 "scriptName": "【遮蔽】上下文限制[10]",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
                 "trimStrings": [],
@@ -2523,17 +2524,17 @@
                     1,
                     2
                 ],
-                "disabled": true,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 10,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "05d96b39-8542-4fe6-979e-5c3a596ea98f",
                 "scriptName": "【遮蔽】上下文限制[5]",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
                 "trimStrings": [],
@@ -2541,13 +2542,11 @@
                     1,
                     2
                 ],
-                "disabled": true,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 5,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "9b3a2314-1f01-4672-9999-8910487b13f8",
@@ -2637,57 +2636,59 @@
             {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
                 "scriptName": "【可视地图】隐藏",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 0,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
                 "scriptName": "【可视地图】隐藏2",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 2,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
                 "replaceString": "```\n\n<body>\n    <script type=\"module\">\n        const urls = [`https://sharkpan.xyz/f/1BEot2/index.html`]\n        function Http_Get(url) {\n            return new Promise((resolve, reject) => {\n                $.ajax({\n                    url: url,\n                    method: 'GET',\n                    timeout: 5000,\n                    success: function (data, status) {\n                        resolve(data); // 成功时返回数据\n                    },\n                    error: function (xhr, status, error) {\n                        if (status === 'timeout') {\n                            console.error('请求超时，请检查网络或重试');\n                        } else {\n                            console.error('请求失败，错误信息：', error);\n                        }\n                        resolve(null);\n                    }\n                });\n            });\n        }\n\n        async function Load() {\n            for (const url of urls) {\n                for (let i = 0; i < 3; i++) {\n                    try {\n                        const html = await Http_Get(url);\n                        if (html && html.indexOf(\"MiPhone\") > 0) {\n                            $(\"body\").html(html);\n                            return;\n                        }\n                    } catch (e) {\n\n                    }\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n        }\n        Load();\n    </script>\n</body>\n```",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 0
+                "maxDepth": 0,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "19acf874-78f6-4797-936a-3e029b21650e",
                 "scriptName": "【剧场工具】回帖",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<tz>(.*?)：(.*?)<\\/tz>/g",
                 "replaceString": "<div style=\"\n    padding: 10px;\n    margin: 8px 0;\n    background: #fff;\n    border-radius: 4px;\n    border: 1px solid #e9ecef;\n\">\n    <div style=\"\n        display: flex;\n        align-items: center;\n        gap: 8px;\n        margin-bottom: 6px;\n    \">\n        <span style=\"\n            color: #1a73e8;\n            font-size: 13px;\n            font-weight: 500;\n        \">$1</span>\n        <span style=\"\n            color: #5f6368;\n            font-size: 12px;\n        \">2025-02-11</span>\n    </div>\n    <div style=\"\n        color: #202124;\n        font-size: 14px;\n        line-height: 1.5;\n    \">$2</div>\n</div>",
                 "trimStrings": [],
@@ -2695,17 +2696,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "5247649b-c103-4609-90bb-58d9f76b33b0",
                 "scriptName": "【剧场工具】论坛",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "<lt>\\s*<ft>\\s*(.*?)\\s*(.*?)\\s*</ft>\\s*<hftz>([\\s\\S]*?)</hftz>\\s*</lt>",
                 "replaceString": "<div style=\"\n    width: 95%;\n    max-width: 400px;\n    margin: 10px auto;\n    background: #f8f9fa;\n    border-radius: 8px;\n    font-family: system-ui;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.1);\n    position: relative;\n\">\n    <!-- 手机状态栏 -->\n    <div style=\"\n        background: #000;\n        padding: 6px 15px;\n        border-radius: 8px 8px 0 0;\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        color: #fff;\n        font-size: 12px;\n    \">\n        <span>12:00</span>\n        <div style=\"display: flex; gap: 4px;\">\n            <span>📶</span>\n            <span>🔋</span>\n        </div>\n    </div>\n\n    <!-- 搜索栏 -->\n    <div style=\"\n        padding: 12px;\n        background: #fff;\n        border-bottom: 1px solid #e9ecef;\n        display: flex;\n        gap: 8px;\n    \">\n        <div style=\"\n            display: flex;\n            align-items: center;\n            background: #f8f9fa;\n            padding: 6px;\n            border-radius: 4px;\n            flex-grow: 1;\n        \">\n            <svg viewBox=\"0 0 24 24\" style=\"width: 16px; height: 16px; fill: #adb5bd;\">\n                <path d=\"M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"/>\n            </svg>\n            <input type=\"text\" placeholder=\"搜索帖子...\" style=\"\n                border: none;\n                background: transparent;\n                padding: 4px 8px;\n                outline: none;\n                width: 100%;\n                font-size: 14px;\n            \">\n        </div>\n    </div>\n\n    <!-- 帖子内容 -->\n    <div style=\"padding-bottom: 20px;\">\n        <!-- 帖子标题和内容 -->\n        <div style=\"\n            padding: 15px;\n            background: #fff;\n            border-bottom: 1px solid #e9ecef;\n        \">\n            <h2 style=\"\n                margin: 0;\n                font-size: 16px;\n                color: #1a73e8;\n                font-weight: 600;\n            \">$1</h2>\n            <p style=\"\n                margin: 10px 0 0;\n                font-size: 14px;\n                color: #5f6368;\n                line-height: 1.5;\n            \">$2</p>\n        </div>\n\n        <!-- 回复区域 -->\n        <div style=\"\n            padding: 10px;\n            max-height: 300px;\n            overflow-y: auto;\n        \">\n            $3\n        </div>\n\n        <!-- 删除提示 -->\n        <div style=\"\n            margin: 10px;\n            padding: 10px;\n            background: #fef2f2;\n            border: 1px solid #fee2e2;\n            border-radius: 4px;\n            display: flex;\n            align-items: center;\n            gap: 8px;\n            font-size: 13px;\n            color: #dc2626;\n        \">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n                <line x1=\"12\" y1=\"8\" x2=\"12\" y2=\"12\"></line>\n                <line x1=\"12\" y1=\"16\" x2=\"12.01\" y2=\"16\"></line>\n            </svg>\n            <span>该帖子已被管理员删除</span>\n        </div>\n    </div>\n</div>\n",
                 "trimStrings": [],
@@ -2713,17 +2714,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "cfdb6996-f1c6-4995-b508-33ac9bbfe2fc",
                 "scriptName": "【剧场工具】年度报告1",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "<ndbg>\\s*<kp>\\s*(.*?)\\s*(.*?)\\s*</kp>\\s*<bgnr>([\\s\\S]*?)</bgnr>\\s*</ndbg>",
                 "replaceString": "<div style=\"\n    width: 95%;\n    max-width: 400px;\n    margin: 10px auto;\n    background: #0a192f;\n    border-radius: 15px;\n    font-family: 'Orbitron', system-ui;\n    box-shadow: 0 0 20px rgba(64, 169, 255, 0.2);\n    position: relative;\n    height: 100vh;\n    overflow-y: auto;\n    border: 1px solid #40a9ff;\n\">\n    <!-- 状态栏 -->\n    <div style=\"\n        background: #000;\n        padding: 5px 15px;\n        border-radius: 15px 15px 0 0;\n        color: #fff;\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        border-bottom: 1px solid #40a9ff;\n        font-size: 12px;\n    \">\n        <span>⚡ SYSTEM ONLINE</span>\n        <span style=\"color: #40a9ff;\">12:00</span>\n        <span>🔋 100%</span>\n    </div>\n\n    <!-- 标题部分 -->\n    <div style=\"\n        background: linear-gradient(45deg, #001529, #002140);\n        padding: 15px;\n        color: #fff;\n        text-align: center;\n        position: sticky;\n        top: 0;\n        z-index: 1;\n        border-bottom: 1px solid #40a9ff;\n    \">\n        <h1 style=\"\n            margin: 0;\n            font-size: 20px;\n            color: #7fdbff;\n            text-shadow: 0 0 10px rgba(127, 219, 255, 0.5);\n        \">$1的年度报告</h1>\n        <p style=\"margin: 10px 0 0; font-size: 14px; color: #a8b2d1;\">$2</p>\n    </div>\n\n    <!-- 内容部分 -->\n    <div style=\"padding: 15px;\">\n        $3\n    </div>\n\n    \n</div>",
                 "trimStrings": [],
@@ -2731,17 +2732,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "1a37e199-a5b2-415c-9cbe-bc2431462847",
                 "scriptName": "【剧场工具】年度报告2",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<nr>\\s*(.*?)\\s*1\\.(.*?)\\s*(.*?)\\s*(.*?)\\s*2\\.(.*?)\\s*(.*?)\\s*(.*?)\\s*3\\.(.*?)\\s*(.*?)\\s*(.*?)\\s*总结：(.*?)\\s*</nr>/g",
                 "replaceString": "<div style=\"margin-bottom: 20px;\">\n    <h2 style=\"\n        color: #40a9ff;\n        font-size: 18px;\n        margin-bottom: 10px;\n        text-shadow: 0 0 5px #40a9ff;\n        border-left: 3px solid #40a9ff;\n        padding-left: 10px;\n    \">$1</h2>\n    <div style=\"\n        background: rgba(17, 34, 64, 0.8);\n        padding: 15px;\n        border-radius: 10px;\n        margin-bottom: 10px;\n        border: 1px solid #40a9ff;\n        box-shadow: 0 0 10px rgba(64, 169, 255, 0.1);\n    \">\n        <p style=\"color: #8892b0; margin: 8px 0;\">1. $2 <span style=\"color: #40a9ff;\">$3</span> - $4</p>\n        <p style=\"color: #8892b0; margin: 8px 0;\">2. $5 <span style=\"color: #40a9ff;\">$6</span> - $7</p>\n        <p style=\"color: #8892b0; margin: 8px 0;\">3. $8 <span style=\"color: #40a9ff;\">$9</span> - $10</p>\n        <p style=\"\n            margin-top: 15px;\n            padding-top: 10px;\n            border-top: 1px solid #40a9ff;\n            color: #40a9ff;\n        \">总结：$11</p>\n    </div>\n</div>",
                 "trimStrings": [],
@@ -2749,17 +2750,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "5bac42bd-6c4a-42fe-992b-7253b5385559",
                 "scriptName": "【剧场工具】阴暗想法",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "<xf>\\s*目前对性事的看法：(.*?)\\s*感兴趣的玩法：(.*?)\\s*喜欢的地点：(.*?)\\s*想法：(.*?)\\s*性爱幻想：(.*?)\\s*</xf>",
                 "replaceString": "<div style=\"\n    width: 95%;\n    max-width: 400px;\n    margin: 10px auto;\n    background: #0a0a0a;\n    border: 1px solid #300;\n    border-radius: 8px;\n    padding: 12px;\n    font-family: serif;\n    color: #800;\n    position: relative;\n    box-shadow: 0 2px 10px rgba(136,0,0,0.2);\n\">\n    <!-- 眼睛图标 -->\n    <div style=\"\n        position: absolute;\n        top: 10px;\n        right: 10px;\n        width: 24px;\n        height: 24px;\n        cursor: pointer;\n    \">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\" style=\"fill: #600;\">\n            <path d=\"M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z\"/>\n        </svg>\n    </div>\n\n    <!-- 简短信息区域 -->\n    <div style=\"\n        background: #0d0d0d;\n        border: 1px solid #300;\n        border-radius: 4px;\n        padding: 8px;\n        margin-bottom: 10px;\n        font-size: 12px;\n    \">\n        <div style=\"margin-bottom: 4px;\"><span style=\"color: #600;\">看法：</span><span style=\"color: #800;\">$1</span></div>\n        <div style=\"margin-bottom: 4px;\"><span style=\"color: #600;\">玩法：</span><span style=\"color: #800;\">$2</span></div>\n        <div style=\"margin-bottom: 4px;\"><span style=\"color: #600;\">地点：</span><span style=\"color: #800;\">$3</span></div>\n        <div><span style=\"color: #600;\">想法：</span><span style=\"color: #800;\">$4</span></div>\n    </div>\n\n    <!-- 主要内容区域 -->\n    <div style=\"\n        background: #0d0d0d;\n        border: 1px solid #300;\n        border-radius: 4px;\n        padding: 12px;\n        font-size: 14px;\n        color: #900;\n        line-height: 1.5;\n        position: relative;\n    \">\n        <div style=\"\n            color: #600;\n            font-size: 14px;\n            margin-bottom: 8px;\n            border-bottom: 1px solid #300;\n            padding-bottom: 4px;\n        \">性爱幻想</div>\n        <div style=\"color: #800;\">$5</div>\n    </div>\n</div>",
                 "trimStrings": [],
@@ -2767,17 +2768,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "4ebdb8e4-fb38-4671-b435-df87236f720d",
                 "scriptName": "【剧场工具】评论",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<pl>([\\s\\S]*?)<\\/pl>/g",
                 "replaceString": "<div class=\"comment-item\">\n    <div style=\"color: #333;\">$1</div>\n    <div class=\"like-count\">👍 $2</div>\n</div>",
                 "trimStrings": [],
@@ -2785,17 +2786,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "be2150b2-936e-49fd-893f-30398a47798d",
                 "scriptName": "【剧场工具】小说（点家）",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "<xs>\\s*<bt>(.*?)</bt>\\s*<rq>(.*?)</rq>\\s*<ed>([\\s\\S]*?)</ed>\\s*</xs>",
                 "replaceString": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<style>\n.novel-status {\n    width: 100%;\n    max-width: 480px;\n    margin: 0 auto;\n    background: #ffffff;\n    border: 1px solid #e6e6e6;\n    border-radius: 8px;\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n    overflow: hidden;\n}\n\n.status-header {\n    background: #bf2c24;\n    padding: 12px 16px;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n}\n\n.status-logo {\n    width: 24px;\n    height: 24px;\n    background-image: url('https://files.catbox.moe/j26dd5.png');\n    background-size: cover;\n    border-radius: 4px;\n}\n\n.chapter-info {\n    padding: 12px 16px;\n    border-bottom: 1px solid #f0f0f0;\n}\n\n.chapter-title {\n    font-size: 18px;\n    font-weight: 600;\n    color: #333333;\n    margin-bottom: 8px;\n}\n\n.chapter-stats {\n    display: flex;\n    align-items: center;\n    gap: 16px;\n    color: #666666;\n    font-size: 14px;\n}\n\n.comments-container {\n    padding: 16px;\n    background: #fff;\n    margin: 12px;\n    border-radius: 8px;\n    height: 300px; /* 固定高度 */\n    overflow-y: auto; /* 添加垂直滚动 */\n}\n\n/* 添加滚动条样式 */\n.comments-container::-webkit-scrollbar {\n    width: 6px;\n}\n\n.comments-container::-webkit-scrollbar-track {\n    background: #f5f5f5;\n    border-radius: 3px;\n}\n\n.comments-container::-webkit-scrollbar-thumb {\n    background: #bf2c24;\n    border-radius: 3px;\n}\n\n.comment-item {\n    padding: 12px;\n    border-bottom: 1px solid #f0f0f0;\n    margin-bottom: 8px; /* 增加评论间距 */\n}\n\n/* 添加滚动提示 */\n.scroll-hint {\n    position: absolute;\n    bottom: 20px;\n    left: 50%;\n    transform: translateX(-50%);\n    background: rgba(191, 44, 36, 0.8);\n    color: #ffffff;\n    padding: 8px 16px;\n    border-radius: 20px;\n    font-size: 12px;\n    pointer-events: none;\n    transition: opacity 0.3s;\n}\n\n/* 当滚动到底部时隐藏提示 */\n.comments-container::-webkit-scrollbar-thumb:active + .scroll-hint {\n    opacity: 0;\n}\n</style>\n</head>\n<body>\n<div class=\"novel-status\">\n    <div class=\"status-header\">\n        <div class=\"status-logo\"></div>\n        <div style=\"color: #ffffff; font-weight: 600;\">起点中文网</div>\n    </div>\n    <div class=\"chapter-info\">\n        <div class=\"chapter-title\">$1</div>\n        <div class=\"chapter-stats\">\n            <span>📖 当前章节</span>\n            <span>👥 阅读量：$2</span>\n        </div>\n    </div>\n    <div style=\"position: relative;\">\n        <div class=\"comments-container\">\n            $3\n        </div>\n        <div class=\"scroll-hint\">\n            ↓ 查看更多评论 ↓\n        </div>\n    </div>\n</div>\n</body>\n</html>",
                 "trimStrings": [],
@@ -2803,17 +2804,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "c65c7f11-565a-4a8c-8186-e9647613f079",
                 "scriptName": "【剧场工具】弹幕",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<dm>([\\s\\S]*?)<\\/dm>/g",
                 "replaceString": "<marquee scrollamount=\"3\" style=\"color: #666; margin: 5px 0;\">$1</marquee>",
                 "trimStrings": [],
@@ -2821,17 +2822,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "bf3cfe30-ce78-43c0-83b0-ed35b9e5f799",
                 "scriptName": "【剧场工具】备忘录",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "<bwl>\\s*<zzy>\\s*(.*?)：\\s*(.*?)\\s*看法：\\s*(.*?)\\s*</zzy>\\s*<cy1>\\s*(.*?)：\\s*(.*?)\\s*看法：\\s*(.*?)\\s*<xq1>\\s*心情：\\s*(.*?)\\s*</xq1>\\s*</cy1>\\s*<cy2>\\s*(.*?)：\\s*(.*?)\\s*看法：\\s*(.*?)\\s*<xq2>\\s*心情：\\s*(.*?)\\s*</xq2>\\s*</cy2>\\s*<cy3>\\s*(.*?)：\\s*(.*?)\\s*看法：\\s*(.*?)\\s*<xq3>\\s*心情：\\s*(.*?)\\s*</xq3>\\s*</cy3>\\s*</bwl>",
                 "replaceString": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Memo Layout</title>\n<style>\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    min-height: 100vh;\n    background-color: transparent;\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n\n.memo-container {\n    width: 300px;\n    max-height: 600px;\n    background-color: #f5f2e9;\n    border-radius: 10px;\n    box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n    overflow-y: auto;\n    padding: 20px;\n}\n\n.memo-table {\n    width: 100%;\n    border-collapse: collapse;\n    margin-bottom: 20px;\n}\n\n.memo-table td {\n    padding: 12px 10px;\n    border-bottom: 1px solid rgba(0,0,0,0.1);\n    color: #333;\n    font-size: 14px;\n    vertical-align: top;\n}\n\n.priority-high {\n    border-left: 4px solid #ff4444;\n}\n\n.priority-medium {\n    border-left: 4px solid #ffbb33;\n}\n\n.priority-low {\n    border-left: 4px solid #00C851;\n}\n\n.mood {\n    display: inline-block;\n    margin-left: 10px;\n    font-size: 16px;\n}\n\n.memo-section {\n    margin-bottom: 25px;\n}\n\n.memo-section-title {\n    font-size: 16px;\n    font-weight: 600;\n    color: #333;\n    margin-bottom: 10px;\n    padding-bottom: 5px;\n    border-bottom: 2px solid #ddd;\n}\n\n.opinion {\n    font-style: italic;\n    color: #666;\n    padding-top: 5px;\n}\n\n</style>\n</head>\n<body>\n<div class=\"memo-container\">\n    <div class=\"memo-section\">\n        <div class=\"memo-section-title\">重要事项</div>\n        <table class=\"memo-table\">\n            <tr class=\"priority-high\">\n                <td width=\"30%\">$1</td>\n                <td width=\"70%\">$2</td>\n            </tr>\n            <tr>\n                <td colspan=\"2\" class=\"opinion\">看法：$3</td>\n            </tr>\n        </table>\n    </div>\n\n    <div class=\"memo-section\">\n        <div class=\"memo-section-title\">次要事项</div>\n        <table class=\"memo-table\">\n            <tr class=\"priority-medium\">\n                <td width=\"30%\">$4</td>\n                <td width=\"70%\">$5</td>\n            </tr>\n            <tr>\n                <td colspan=\"2\">\n                    <span class=\"opinion\">看法：$6</span>\n                    <span class=\"mood\">$7</span>\n                </td>\n            </tr>\n            \n            <tr class=\"priority-medium\">\n                <td>$8</td>\n                <td>$9</td>\n            </tr>\n            <tr>\n                <td colspan=\"2\">\n                    <span class=\"opinion\">看法：$10</span>\n                    <span class=\"mood\">$11</span>\n                </td>\n            </tr>\n            \n            <tr class=\"priority-low\">\n                <td>$12</td>\n                <td>$13</td>\n            </tr>\n            <tr>\n                <td colspan=\"2\">\n                    <span class=\"opinion\">看法：$14</span>\n                    <span class=\"mood\">$15</span>\n                </td>\n            </tr>\n        </table>\n    </div>\n</div>\n</body>\n</html>",
                 "trimStrings": [],
@@ -2839,17 +2840,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "90d7d3b8-38ca-46be-834e-7b386d42ee8d",
                 "scriptName": "【剧场工具】直播间(pornhub)",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "<details>\\s*<summary style=\"color:#ff2a2a;\">直播间</summary>\\s*<zb>\\s*<nxxf>(.*?)</nxxf>\\s*<gz>(.*?)</gz>\\s*<zbj>([\\s\\S]*?)</zbj>\\s*</zb>\\s*</details>",
                 "replaceString": "<details>\n<summary style=\"\n    color: #FFA500;\n    font-size: 14px;\n    font-weight: bold;\n    background: #121212;\n    padding: 6px 12px;\n    border-radius: 4px;\n    border: 1px solid #262626;\n\">🔞 PHUB LIVE</summary>\n<div style=\"\n    position: relative;\n    background: #000000;\n    padding: 12px;\n    border: 2px solid #262626;\n    border-radius: 8px;\n    margin: 8px 0;\n    max-width: 300px;\n    box-shadow: 0 2px 8px rgba(255,165,0,0.2);\n\">\n    <!-- 新增LOGO -->\n    <div style=\"\n        position: absolute;\n        top: 80px;\n        right: 0px;\n        width: 100px;\n        height: 50px;\n        background: url('https://files.catbox.moe/c3h8lq.png') no-repeat center/contain;\n        opacity: 0.9;\n        z-index: 1;\n    \"></div>\n\n    <!-- 公告区域 -->\n    <div style=\"\n        background: #121212;\n        padding: 8px 12px;\n        margin-bottom: 10px;\n        box-shadow: 0 2px 6px rgba(255,165,0,0.3);\n        position: relative;\n        font-size: 13px;\n        border: 1px solid #262626;\n        color: #ffffff;\n    \">\n        <nxxf style=\"border-left: 3px solid #FFA500; padding-left: 8px;\">📢 $1</nxxf>\n    </div>\n\n    <!-- 在线状态 -->\n    <div style=\"\n        color: #FFA500;\n        margin: 8px 0;\n        font-size: 12px;\n        padding: 4px 8px;\n        background: rgba(255,165,0,0.1);\n        border-radius: 4px;\n        display: inline-block;\n        border: 1px solid rgba(255,165,0,0.3);\n    \">\n        <gz>👥 用户在线：$2</gz>\n    </div>\n\n    <!-- 内容区域 -->\n    <div style=\"\n        height: 120px;\n        overflow: auto;\n        border: 2px solid #262626;\n        border-radius: 6px;\n        padding: 8px;\n        background: linear-gradient(to bottom, #121212, #000000);\n        color: #ffffff;\n    \">\n        <zbj style=\"color: #ffffff; line-height: 1.5; font-size: 12px;\">$3</zbj>\n    </div>\n</div>\n</details>",
                 "trimStrings": [],
@@ -2857,17 +2858,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "fe40d79c-3f7a-4f6c-acf1-2f9075a97280",
                 "scriptName": "【剧场工具】日记（古风）",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "<rj>\\n\\[日记\\]\\s*日期：(.*?)\\s*天气：(.*?)\\s*内容：([\\s\\S]*)\\n</rj>",
                 "replaceString": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>古风日记</title>\n<style>\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    min-height: 100vh;\n    background-color: transparent;\n}\n\n.diary-container {\n    width: 320px;\n    height: 560px;\n    background: #fdf6e3;\n    padding: 30px;\n    overflow-y: auto;\n    font-family: 'XiaoWei', 'KaiTi', serif;\n    position: relative;\n}\n\n/* 新增印章样式 */\n.seal {\n    position: absolute;\n    top: 20px;\n    left: 20px;\n    width: 80px;\n    height: 80px;\n    background: url('https://files.catbox.moe/y6yw3c.png') no-repeat;\n    background-size: contain;\n    opacity: 0.85;\n    z-index: 2;\n    pointer-events: none;\n}\n\n.ink-decoration {\n    position: absolute;\n    pointer-events: none;\n    opacity: 0.12;\n}\n\n/* 调整后的墨迹位置 */\n.ink-vertical-1 {\n    right: 15px;\n    top: 45%;\n    width: 30px;\n    height: 150px;\n    background: url('https://files.catbox.moe/rb1j41.png') no-repeat;\n    background-size: contain;\n}\n\n.ink-vertical-2 {\n    left: 20px;\n    top: 40%;\n    width: 25px;\n    height: 120px;\n    background: url('https://files.catbox.moe/rb1j41.png') no-repeat;\n    background-size: contain;\n    transform: scaleX(-1);\n}\n\n.ink-horizontal-1 {\n    left: 50%;\n    bottom: 40px;\n    transform: translateX(-50%);\n    width: 180px;\n    height: 30px;\n    background: url('https://files.catbox.moe/kv4cih.webp') no-repeat;\n    background-size: contain;\n}\n\n.ink-diagonal-1 {\n    right: 40px;\n    top: 30%;\n    width: 100px;\n    height: 100px;\n    background: url('https://files.catbox.moe/9xc7qe.png') no-repeat;\n    background-size: contain;\n    transform: rotate(-15deg);\n}\n\n.ink-diagonal-2 {\n    left: 30px;\n    bottom: 20%;\n    width: 80px;\n    height: 80px;\n    background: url('https://files.catbox.moe/9xc7qe.png') no-repeat;\n    background-size: contain;\n    transform: rotate(165deg);\n}\n\n.diary-header {\n    text-align: right;\n    margin-bottom: 20px;\n    padding-bottom: 10px;\n    border-bottom: 1px solid #8b4513;\n    position: relative;\n    z-index: 1;\n}\n\n.diary-date {\n    font-size: 18px;\n    color: #4a2712;\n    margin-bottom: 8px;\n}\n\n.diary-weather {\n    font-size: 16px;\n    color: #6b3c1c;\n}\n\n.diary-content {\n    font-size: 16px;\n    line-height: 2;\n    color: #4a2712;\n    text-indent: 2em;\n    background: linear-gradient(transparent 95%, #d4b995 95%);\n    background-size: 100% 2em;\n    padding: 0 10px;\n    position: relative;\n    z-index: 1;\n}\n\n.diary-container::-webkit-scrollbar {\n    width: 6px;\n}\n\n.diary-container::-webkit-scrollbar-track {\n    background: #fdf6e3;\n}\n\n.diary-container::-webkit-scrollbar-thumb {\n    background: #d4b995;\n    border-radius: 3px;\n}\n</style>\n</head>\n<body>\n<div class=\"diary-outer\">\n    <div class=\"diary-container\">\n        <!-- 添加印章 -->\n        <div class=\"seal\"></div>\n        <div class=\"ink-decoration ink-vertical-1\"></div>\n        <div class=\"ink-decoration ink-vertical-2\"></div>\n        <div class=\"ink-decoration ink-horizontal-1\"></div>\n        <div class=\"ink-decoration ink-diagonal-1\"></div>\n        <div class=\"ink-decoration ink-diagonal-2\"></div>\n        <div class=\"diary-header\">\n            <div class=\"diary-date\">$1</div>\n            <div class=\"diary-weather\">$2</div>\n        </div>\n        <div class=\"diary-content\">$3</div>\n    </div>\n</div>\n</body>\n</html>",
                 "trimStrings": [],
@@ -2875,17 +2876,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "3a3995e9-205c-4dfe-bada-bc2b47911830",
                 "scriptName": "【剧场工具】状态栏(多人-1)",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "<status>\\s*\\[([^\\]]+?)\\s*-\\s*([^\\]]+?)\\s*-\\s*([^\\]]+?)\\]\\s*((?:<js>[\\s\\S]+?<\\/js>\\s*)+)\\s*([^<]+?)\\s*<\\/status>",
                 "replaceString": "<div style=\"width:94%;max-width:360px;margin:12px auto;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;\">\n  <details style=\"background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(99,102,241,0.08);overflow:hidden;\">\n    <summary style=\"padding:12px;display:block;cursor:pointer;position:relative;\">\n      <div style=\"display:flex;gap:8px;align-items:center;\">\n        <div style=\"width:32px;height:32px;background:#6366f1;border-radius:8px;\n                  display:flex;align-items:center;justify-content:center;\">\n          <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2\">\n            <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z\"/>\n            <path d=\"M12 8v4M16 12H8\"/>\n          </svg>\n        </div>\n        <div>\n          <div style=\"color:#4f46e5;font-weight:600;font-size:0.95em;\">时间轴</div>\n          <div style=\"color:#6b7280;font-size:0.85em;margin-top:4px;\">📍$2 │ 🌤️$3</div>\n        </div>\n      </div>\n    </summary>\n\n    <div style=\"max-height:55vh;overflow-y:auto;padding:12px;\">\n      $4\n      \n      <!-- 固定底部模块 -->\n      <div style=\"margin-top:12px;padding:16px;background:#f8f9ff;border-radius:8px;\">\n        <div style=\"display:flex;gap:8px;align-items:center;margin-bottom:8px;\">\n          <div style=\"width:20px;height:20px;background:#e0e7ff;border-radius:4px;\"></div>\n          <span style=\"color:#4f46e5;font-weight:500;\">小贴士</span>\n        </div>\n        <p style=\"margin:0;color:#6b7280;font-size:0.9em;line-height:1.5;word-break:break-word;\">$5</p>\n      </div>\n    </div>\n  </details>\n</div>",
                 "trimStrings": [],
@@ -2893,17 +2894,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "90780980-e920-4538-8be3-739f2c2e241f",
                 "scriptName": "【剧场工具】状态栏(多人-2)",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/<js>\\s*([^|]+?)\\s*\\|\\s*([^|]+?)\\s*\\|\\s*([^|%]+%)\\s*\\|\\s*([^|%]+%)\\s*\\|\\s*([^<\\n]+)\\s*<\\/js>/g",
                 "replaceString": "<div class=\"role-card\">\n  <div style=\"margin-bottom:10px;\">\n    <div style=\"color:#4338ca; font-weight:600;\">$1</div>\n    <div style=\"display:flex; gap:6px; margin-top:4px;\">\n      <span style=\"background:#eef2ff; padding:3px 8px; border-radius:4px; font-size:0.85em;\">\n        💫 $2\n      </span>\n    </div>\n  </div>\n\n  <div style=\"display:grid; gap:8px;\">\n    <div>\n      <div style=\"display:flex; justify-content:space-between; margin-bottom:3px;\">\n        <span style=\"color:#818cf8; font-size:0.9em;\">好感值</span>\n        <span style=\"color:#4f46e5; font-size:0.85em;\">$3</span>\n      </div>\n      <div style=\"height:4px; background:#e0e7ff; border-radius:2px;\">\n        <div style=\"width:$3; height:100%; background:linear-gradient(90deg,#4f46e5,#6366f1); \n                    border-radius:2px;\"></div>\n      </div>\n    </div>\n\n    <div>\n      <div style=\"display:flex; justify-content:space-between; margin-bottom:3px;\">\n        <span style=\"color:#818cf8; font-size:0.9em;\">性欲值</span>\n        <span style=\"color:#ec4899; font-size:0.85em;\">$4</span>\n      </div>\n      <div style=\"height:4px; background:#fce7f3; border-radius:2px;\">\n        <div style=\"width:$4; height:100%; background:linear-gradient(90deg,#ec4899,#f472b6); \n                    border-radius:2px;\"></div>\n      </div>\n    </div>\n  </div>\n\n  <div style=\"margin-top:8px; padding:8px; background:#fafaff; border-radius:4px;\">\n    <div style=\"color:#818cf8; font-size:0.9em;\">✧ 想法</div>\n    <p style=\"margin:4px 0 0; color:#6b7280; font-size:0.85em; font-style:italic;\">\"$5\"</p>\n  </div>\n</div>\n\n<style>\n.role-card {\n  padding:12px;\n  background:white; \n  border-radius:6px;\n  border:1px solid #eef2ff;\n  box-shadow:0 1px 4px rgba(99,102,241,0.05);\n  margin-bottom:8px;\n}\n</style>",
                 "trimStrings": [],
@@ -2911,17 +2912,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "40146a7c-0f58-4994-b01d-6927c398e42c",
                 "scriptName": "【剧场工具】状态栏（单人-便签风格）",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/\\[([\\s\\S]+?) - ([\\s\\S]+?) - ([\\s\\S]+?)\\|([\\s\\S]+?)\\|(\\d+%)\\|(\\d+%)\\|([\\s\\S]+?)\\|([\\s\\S]+?)\\]/gi",
                 "replaceString": "<details>\n<summary style=\"background-color: #fff7c4; padding: 4px 12px; border-radius: 6px; \n               box-shadow: 1px 1px 3px rgba(0,0,0,0.2); display: inline-block; \n               font-family: 'Caveat', 'Ma Shan Zheng', cursive; color: #333;\n               border: 1px solid #e6d5a7; list-style: none; cursor: pointer;\">\n<div style=\"margin-bottom:12px;line-height:1.5;width:100%;font-family: 'Courier New', monospace, 'STKaiti', 'PingFang SC', serif;\">\n        <p style=\"margin:0;padding:0;color:#;\">🕒 $1 - <span>$2</span><br>🌦 $3</p>\n    </div>\n</summary>\n\n<div style=\"background-color: #fff7c4; padding: 15px; margin: 10px 0; border-radius: 8px;\n           box-shadow: 2px 2px 5px rgba(0,0,0,0.15); font-family: 'Caveat', 'Ma Shan Zheng', cursive;\n           max-width: 300px; position: relative;\">\n\n  <!-- Red tape decoration -->\n  <div style=\"position: absolute; top: -10px; left: 50%; transform: translateX(-50%);\n              width: 100px; height: 20px; background: linear-gradient(to right, #ff6b6b, #ff8787);\n              border-radius: 2px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);\n              transform: rotate(-2deg);\">\n  </div>\n \n\n  <div style=\"margin: 15px 0 10px; padding: 8px; background: rgba(255,255,255,0.5); border-radius: 6px;\n              border-left: 3px solid #ffb347;\">\n    <strong style=\"color: #8b4513;\">🎭 心情: </strong>\n    <span style=\"color: #444;\">$4</span>\n  </div>\n\n  <div style=\"margin: 10px 0;\">\n    <strong style=\"color: #8b4513;\">❤️ 好感: </strong>\n    <small style=\"color: #4a5568;\">$5</small>\n    <div style=\"margin-top: 6px; background: rgba(255,255,255,0.6); height: 8px; border-radius: 4px;\">\n      <div style=\"background: linear-gradient(90deg, #ff7675, #fab1a0); \n                 width: $5; height: 100%; border-radius: 4px;\"></div>\n    </div>\n  </div>\n\n  <div style=\"margin: 10px 0;\">\n    <strong style=\"color: #8b4513;\">🔥 性欲: </strong>\n    <small style=\"color: #4a5568;\">$6</small>\n    <div style=\"margin-top: 6px; background: rgba(255,255,255,0.6); height: 8px; border-radius: 4px;\">\n      <div style=\"background: linear-gradient(90deg, #fd79a8, #ffd1dc); \n                 width: $6; height: 100%; border-radius: 4px;\"></div>\n    </div>\n  </div>\n\n  <div style=\"margin: 10px 0; padding: 8px; background: rgba(255,255,255,0.5); border-radius: 6px;\n              border-left: 3px solid #4ecdc4;\">\n    <strong style=\"color: #8b4513;\">💭 想法: </strong>\n    <span style=\"color: #444; font-style: italic;\">\"$7\"</span>\n  </div>\n\n   <div style=\"margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.7); \n              border-radius: 6px; border: 1px dashed #d4b483; position: relative;\n              transform: rotate(1deg);\">\n    <div style=\"position: absolute; top: -8px; left: 8px; background: #fff7c4; padding: 0 6px;\">\n      <span style=\"color: #8b4513;\">小贴士</span>\n    </div>\n    <span style=\"color: #555; display: block; margin-top: 5px; font-size: 0.95em;\">$8</span>\n  </div>\n\n</div>\n</details>",
                 "trimStrings": [],
@@ -2929,13 +2930,11 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             }
         ],
         "character_allowed_regex": [
@@ -3159,10 +3158,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 124552,
-                "LAST_SEND_CHARS": 209682,
-                "LAST_RECEIVE_TOKENS": 2887,
-                "LAST_RECEIVE_CHARS": 5397
+                "LAST_SEND_TOKENS": 123081,
+                "LAST_SEND_CHARS": 204735,
+                "LAST_RECEIVE_TOKENS": 2891,
+                "LAST_RECEIVE_CHARS": 4150
             }
         },
         "attachments": [],
@@ -3199,10 +3198,6 @@
                     },
                     {
                         "set": "召唤同层手机",
-                        "isVisible": true
-                    },
-                    {
-                        "set": "妙妙工具2.1",
                         "isVisible": true
                     }
                 ]
@@ -3835,6 +3830,11 @@
                 "character-机动战士高达-SEED V1.2_1.png": {
                     "hideLastN": 10,
                     "lastProcessedLength": 15,
+                    "userConfigured": true
+                },
+                "character-infinite.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 61,
                     "userConfigured": true
                 }
             },
@@ -4953,11 +4953,11 @@
                     },
                     {
                         "identifier": "b5e763c0-9dbd-403f-b11b-3bc87b54c96b",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "4ae2ba7e-93af-46f0-91c6-9ef1d687839b",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "9282073b-da36-4e41-b383-539502a1118c",
