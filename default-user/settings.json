@@ -71,11 +71,13 @@
         "AlertWI_infinite.png": "true",
         "AlertWI_vrmmo.png": "true",
         "AlertWI_妙妙小剧场2.3.png": "true",
-        "AlertRegex_妙妙小剧场2.3.png": "true"
+        "AlertRegex_妙妙小剧场2.3.png": "true",
+        "AlertWI_堕落吧，魔法少女.png": "true",
+        "AlertRegex_堕落吧，魔法少女.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite.png",
+    "active_character": "堕落吧，魔法少女.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2984,7 +2986,8 @@
             "可视化地图导航.png",
             "欲望天际.png",
             "被GM之神选中的我们的无尽冒险谭.png",
-            "妙妙小剧场2.3.png"
+            "妙妙小剧场2.3.png",
+            "堕落吧，魔法少女.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -3174,8 +3177,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 123081,
                 "LAST_SEND_CHARS": 204735,
-                "LAST_RECEIVE_TOKENS": 2891,
-                "LAST_RECEIVE_CHARS": 4150
+                "LAST_RECEIVE_TOKENS": 92,
+                "LAST_RECEIVE_CHARS": 145
             }
         },
         "attachments": [],
@@ -4042,7 +4045,8 @@
         "infinite.png": [],
         "欲望天际.png": [],
         "被GM之神选中的我们的无尽冒险谭.png": [],
-        "妙妙小剧场2.3.png": []
+        "妙妙小剧场2.3.png": [],
+        "堕落吧，魔法少女.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
