@@ -74,11 +74,13 @@
         "AlertRegex_妙妙小剧场2.3.png": "true",
         "AlertWI_堕落吧，魔法少女.png": "true",
         "AlertRegex_堕落吧，魔法少女.png": "true",
-        "AlertWI_高达00模拟器.png": "true"
+        "AlertWI_高达00模拟器.png": "true",
+        "AlertWI_【高度美化】游戏界面.png": "true",
+        "AlertRegex_【高度美化】游戏界面.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "fuhufox的亚种圣杯战争.png",
+    "active_character": "【高度美化】游戏界面.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2370,7 +2372,8 @@
             "欲望天际.png",
             "被GM之神选中的我们的无尽冒险谭.png",
             "妙妙小剧场2.3.png",
-            "堕落吧，魔法少女.png"
+            "堕落吧，魔法少女.png",
+            "【高度美化】游戏界面.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -2560,8 +2563,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 40660,
                 "LAST_SEND_CHARS": 80894,
-                "LAST_RECEIVE_TOKENS": 1761,
-                "LAST_RECEIVE_CHARS": 2452
+                "LAST_RECEIVE_TOKENS": 34763,
+                "LAST_RECEIVE_CHARS": 114728
             }
         },
         "attachments": [],
