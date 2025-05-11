@@ -2560,8 +2560,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 40644,
                 "LAST_SEND_CHARS": 80874,
-                "LAST_RECEIVE_TOKENS": 2095,
-                "LAST_RECEIVE_CHARS": 2881
+                "LAST_RECEIVE_TOKENS": 21,
+                "LAST_RECEIVE_CHARS": 33
             }
         },
         "attachments": [],
@@ -3219,7 +3219,7 @@
             "settings_by_entity": {
                 "character-fuhufox的亚种圣杯战争.png": {
                     "hideLastN": 10,
-                    "lastProcessedLength": 3,
+                    "lastProcessedLength": 2,
                     "userConfigured": true
                 },
                 "character-机动战士高达-SEED V1.2.png": {
