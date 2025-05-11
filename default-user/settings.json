@@ -2579,8 +2579,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 128236,
-                "LAST_SEND_CHARS": 212350,
+                "LAST_SEND_TOKENS": 128679,
+                "LAST_SEND_CHARS": 213125,
                 "LAST_RECEIVE_TOKENS": 9,
                 "LAST_RECEIVE_CHARS": 14
             }
@@ -3255,7 +3255,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 10,
-                    "lastProcessedLength": 30,
+                    "lastProcessedLength": 31,
                     "userConfigured": true
                 }
             },
