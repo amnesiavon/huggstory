@@ -80,7 +80,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "[前端]调教状态栏+选项.png",
+    "active_character": "infinite.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2581,8 +2581,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 129478,
                 "LAST_SEND_CHARS": 213966,
-                "LAST_RECEIVE_TOKENS": 36770,
-                "LAST_RECEIVE_CHARS": 117443
+                "LAST_RECEIVE_TOKENS": 980,
+                "LAST_RECEIVE_CHARS": 1354
             }
         },
         "attachments": [],
