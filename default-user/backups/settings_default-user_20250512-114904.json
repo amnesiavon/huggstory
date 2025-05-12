@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "50",
-        "extension_update_nag": "Sun May 11 2025",
+        "extension_update_nag": "Mon May 12 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -80,7 +80,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "fuhufox的亚种圣杯战争.png",
+    "active_character": "infinite.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -91,7 +91,6 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "【高度美化】游戏界面",
                 "hq手机0429",
                 "人类本能世界书",
                 "文本效果增强",
@@ -1916,7 +1915,7 @@
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "【遮蔽】上下文视觉屏蔽[20]",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -2579,10 +2578,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 43458,
-                "LAST_SEND_CHARS": 85364,
-                "LAST_RECEIVE_TOKENS": 2932,
-                "LAST_RECEIVE_CHARS": 4486
+                "LAST_SEND_TOKENS": 152194,
+                "LAST_SEND_CHARS": 249282,
+                "LAST_RECEIVE_TOKENS": 33,
+                "LAST_RECEIVE_CHARS": 43
             }
         },
         "attachments": [],
@@ -3240,7 +3239,7 @@
             "settings_by_entity": {
                 "character-fuhufox的亚种圣杯战争.png": {
                     "hideLastN": 10,
-                    "lastProcessedLength": 2,
+                    "lastProcessedLength": 3,
                     "userConfigured": true
                 },
                 "character-机动战士高达-SEED V1.2.png": {
@@ -3254,8 +3253,8 @@
                     "userConfigured": true
                 },
                 "character-infinite.png": {
-                    "hideLastN": 10,
-                    "lastProcessedLength": 61,
+                    "hideLastN": 0,
+                    "lastProcessedLength": 64,
                     "userConfigured": true
                 }
             },
