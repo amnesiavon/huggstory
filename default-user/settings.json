@@ -2583,8 +2583,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 164287,
                 "LAST_SEND_CHARS": 267921,
-                "LAST_RECEIVE_TOKENS": 1534,
-                "LAST_RECEIVE_CHARS": 2322
+                "LAST_RECEIVE_TOKENS": 67,
+                "LAST_RECEIVE_CHARS": 97
             }
         },
         "attachments": [],
@@ -3257,7 +3257,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 83,
+                    "lastProcessedLength": 84,
                     "userConfigured": true
                 }
             },
