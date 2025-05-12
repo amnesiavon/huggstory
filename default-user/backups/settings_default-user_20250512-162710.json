@@ -76,7 +76,9 @@
         "AlertRegex_堕落吧，魔法少女.png": "true",
         "AlertWI_高达00模拟器.png": "true",
         "AlertWI_【高度美化】游戏界面.png": "true",
-        "AlertRegex_【高度美化】游戏界面.png": "true"
+        "AlertRegex_【高度美化】游戏界面.png": "true",
+        "AlertWI_小魅穿书系统.png": "true",
+        "AlertRegex_小魅穿书系统.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
@@ -1915,7 +1917,7 @@
             {
                 "id": "960abfab-972d-45b8-98a6-4fbc4f469de1",
                 "scriptName": "【遮蔽】上下文视觉屏蔽[20]",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*/gm",
                 "replaceString": "",
@@ -2390,7 +2392,8 @@
             "被GM之神选中的我们的无尽冒险谭.png",
             "妙妙小剧场2.3.png",
             "堕落吧，魔法少女.png",
-            "【高度美化】游戏界面.png"
+            "【高度美化】游戏界面.png",
+            "小魅穿书系统.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -2578,10 +2581,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 116015,
-                "LAST_SEND_CHARS": 194910,
-                "LAST_RECEIVE_TOKENS": 1763,
-                "LAST_RECEIVE_CHARS": 2526
+                "LAST_SEND_TOKENS": 166156,
+                "LAST_SEND_CHARS": 270758,
+                "LAST_RECEIVE_TOKENS": 61,
+                "LAST_RECEIVE_CHARS": 87
             }
         },
         "attachments": [],
@@ -3254,7 +3257,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 13,
+                    "lastProcessedLength": 86,
                     "userConfigured": true
                 }
             },
@@ -3451,7 +3454,8 @@
         "妙妙小剧场2.3.png": [],
         "堕落吧，魔法少女.png": [],
         "高达00模拟器.png": [],
-        "【高度美化】游戏界面.png": []
+        "【高度美化】游戏界面.png": [],
+        "小魅穿书系统.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
