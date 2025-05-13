@@ -1593,19 +1593,19 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<tableThink>[\\s\\S]*?<\\/tableThink>|/<tableEdit>[\\s\\S]*?<\\/tableEdit>/gs",
+                "findRegex": "/<tableThink>[\\s\\S]*?<\\/tableThink>|/<tableEdit>[\\s\\S]*?<\\/tableEdit>|<GeneralStatus>[\\s\\S]*?<\\/GeneralStatus>/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
+                "maxDepth": null
             },
             {
                 "id": "59d4706c-4a9b-4868-91f3-28554631b135",
@@ -2584,8 +2584,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 129264,
                 "LAST_SEND_CHARS": 213555,
-                "LAST_RECEIVE_TOKENS": 3004,
-                "LAST_RECEIVE_CHARS": 4244
+                "LAST_RECEIVE_TOKENS": 1230,
+                "LAST_RECEIVE_CHARS": 1758
             }
         },
         "attachments": [],
