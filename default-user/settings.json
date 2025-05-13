@@ -2583,8 +2583,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 108672,
                 "LAST_SEND_CHARS": 182303,
-                "LAST_RECEIVE_TOKENS": 23,
-                "LAST_RECEIVE_CHARS": 30
+                "LAST_RECEIVE_TOKENS": 1168,
+                "LAST_RECEIVE_CHARS": 1738
             }
         },
         "attachments": [],
@@ -3303,7 +3303,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 8,
+                    "lastProcessedLength": 9,
                     "userConfigured": true
                 }
             },
@@ -3573,7 +3573,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 2000000,
         "openai_max_tokens": 8192,
         "wrap_in_quotes": false,
