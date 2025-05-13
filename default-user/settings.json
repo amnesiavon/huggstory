@@ -3171,6 +3171,23 @@
                         "info": "作者:Aki",
                         "buttons": [],
                         "enabled": true
+                    },
+                    {
+                        "id": "aed48ae6-1853-452f-921b-1445fefea9da",
+                        "name": "显示区间消息",
+                        "content": "import 'https://fastly.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/显示区间消息/index.js'",
+                        "info": "",
+                        "buttons": [
+                            {
+                                "name": "显示区间",
+                                "visible": true
+                            },
+                            {
+                                "name": "恢复默认",
+                                "visible": true
+                            }
+                        ],
+                        "enabled": true
                     }
                 ],
                 "characters_with_scripts": [
