@@ -1,6 +1,4 @@
 {
-    "genamt": 350,
-    "max_length": 8192,
     "chat_completion_source": "custom",
     "openai_model": "gpt-4-turbo",
     "claude_model": "claude-3-5-sonnet-20240620",
@@ -19,6 +17,10 @@
     "groq_model": "llama-3.1-70b-versatile",
     "zerooneai_model": "yi-large",
     "custom_model": "gemini-2.5-pro-exp-03-25",
+    "custom_url": "https://hajimi.rzline.dpdns.org/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "",
+    "custom_include_headers": "",
     "custom_prompt_post_processing": "strict",
     "google_model": "gemini-2.5-pro-exp-03-25",
     "temperature": 1.2,
@@ -40,6 +42,8 @@
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
     "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
@@ -891,11 +895,11 @@
                 },
                 {
                     "identifier": "2c1cf7b9-e80b-431a-8b38-3420c9daab52",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "dfbca7e1-20f4-47fe-8c54-120ae09582b8",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "5dfbe9da-e0d7-4c8f-8e13-4af2b5fdf2d5",
