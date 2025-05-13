@@ -1779,7 +1779,7 @@
             {
                 "id": "892b6d86-036b-498c-b3ed-7db94a5c08a3",
                 "scriptName": "【K预设】K去除所有用户消息",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
@@ -1830,7 +1830,7 @@
             {
                 "id": "d8a0b111-86fd-4766-83c6-47f85c3180c0",
                 "scriptName": "【K预设】K去除所有用户消息",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
@@ -3303,7 +3303,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 93,
+                    "lastProcessedLength": 92,
                     "userConfigured": true
                 }
             },
