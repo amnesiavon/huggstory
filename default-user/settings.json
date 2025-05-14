@@ -2179,8 +2179,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 111521,
                 "LAST_SEND_CHARS": 188943,
-                "LAST_RECEIVE_TOKENS": 2733,
-                "LAST_RECEIVE_CHARS": 3960
+                "LAST_RECEIVE_TOKENS": 19,
+                "LAST_RECEIVE_CHARS": 94
             }
         },
         "attachments": [],
@@ -4273,7 +4273,7 @@
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
         "custom_model": "gemini-2.5-pro-preview-03-25",
-        "custom_url": "https://api.smyslenny.icu/v1",
+        "custom_url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
