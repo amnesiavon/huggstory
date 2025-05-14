@@ -1592,7 +1592,7 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "findRegex": "/<tableThink>[\\s\\S]*?<\\/tableThink>|/<tableEdit>[\\s\\S]*?<\\/tableEdit>|<GeneralStatus>[\\s\\S]*?<\\/GeneralStatus>/gs",
+                "findRegex": "/<tableThink>[\\s\\S]*?<\\/tableThink>|/<tableEdit>[\\s\\S]*?<\\/tableEdit>|<GeneralStatus>[\\s\\S]*?<\\/GeneralStatus>|<guifan>[\\s\\S]*?<\\/guifan>/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
