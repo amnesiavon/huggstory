@@ -2583,8 +2583,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 84848,
                 "LAST_SEND_CHARS": 138546,
-                "LAST_RECEIVE_TOKENS": 1167,
-                "LAST_RECEIVE_CHARS": 1879
+                "LAST_RECEIVE_TOKENS": 19,
+                "LAST_RECEIVE_CHARS": 94
             }
         },
         "attachments": [],
@@ -4595,7 +4595,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "gemini-2.5-pro-exp-03-25",
+        "custom_model": "gemini-2.5-flash-preview-04-17",
         "custom_url": "https://hajimi.beijixingxing.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
