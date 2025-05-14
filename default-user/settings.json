@@ -96,7 +96,6 @@
         "world_info": {
             "globalSelect": [
                 "hq手机0429",
-                "人类本能世界书",
                 "多维情感网络联动书",
                 "文本效果增强",
                 "轻小说、网文文风-对话与心理驱动",
@@ -2178,8 +2177,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 106249,
-                "LAST_SEND_CHARS": 180570,
+                "LAST_SEND_TOKENS": 2,
+                "LAST_SEND_CHARS": 2,
                 "LAST_RECEIVE_TOKENS": 411,
                 "LAST_RECEIVE_CHARS": 613
             }
