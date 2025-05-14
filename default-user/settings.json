@@ -2512,7 +2512,7 @@
         "quickReplyV2": {
             "isEnabled": true,
             "isCombined": true,
-            "isPopout": true,
+            "isPopout": false,
             "showPopoutButton": true,
             "config": {
                 "setList": [
