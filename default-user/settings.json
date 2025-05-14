@@ -78,11 +78,13 @@
         "AlertWI_【高度美化】游戏界面.png": "true",
         "AlertRegex_【高度美化】游戏界面.png": "true",
         "AlertWI_小魅穿书系统.png": "true",
-        "AlertRegex_小魅穿书系统.png": "true"
+        "AlertRegex_小魅穿书系统.png": "true",
+        "AlertWI_上野花.png": "true",
+        "AlertRegex_上野花.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite.png",
+    "active_character": "上野花.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2291,7 +2293,8 @@
             "妙妙小剧场2.3.png",
             "堕落吧，魔法少女.png",
             "【高度美化】游戏界面.png",
-            "小魅穿书系统.png"
+            "小魅穿书系统.png",
+            "上野花.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -2481,8 +2484,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 99051,
                 "LAST_SEND_CHARS": 165527,
-                "LAST_RECEIVE_TOKENS": 820,
-                "LAST_RECEIVE_CHARS": 1192
+                "LAST_RECEIVE_TOKENS": 892,
+                "LAST_RECEIVE_CHARS": 1237
             }
         },
         "attachments": [],
@@ -3407,7 +3410,8 @@
         "堕落吧，魔法少女.png": [],
         "高达00模拟器.png": [],
         "【高度美化】游戏界面.png": [],
-        "小魅穿书系统.png": []
+        "小魅穿书系统.png": [],
+        "上野花.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
