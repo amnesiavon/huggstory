@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -84,6 +84,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
+    "active_character": "infinite.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2178,8 +2179,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 103724,
                 "LAST_SEND_CHARS": 177535,
-                "LAST_RECEIVE_TOKENS": 24,
-                "LAST_RECEIVE_CHARS": 30
+                "LAST_RECEIVE_TOKENS": 4058,
+                "LAST_RECEIVE_CHARS": 6045
             }
         },
         "attachments": [],
