@@ -1595,7 +1595,7 @@
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<tableThink>[\\s\\S]*?<\\/tableThink>|/<tableEdit>[\\s\\S]*?<\\/tableEdit>|<GeneralStatus>[\\s\\S]*?<\\/GeneralStatus>|<guifan>[\\s\\S]*?<\\/guifan>/gs",
                 "replaceString": "",
@@ -1914,6 +1914,40 @@
                 ],
                 "substituteRegex": 0,
                 "minDepth": 3,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "17a03215-0cae-435e-86c4-50ebf299f941",
+                "scriptName": "【demini】D1替绝望羊折叠正则",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<air>(.*?)</air>/gs",
+                "replaceString": "<details><summary>*<font color=#F08080>替绝望羊</font>*</summary>\n> $1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
+                "id": "1af7e9ca-8a6a-4026-9258-4ff07d661d69",
+                "scriptName": "【demini】D3前绝望羊补牢正则",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<air>[\\s\\S]*?</air>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": true
