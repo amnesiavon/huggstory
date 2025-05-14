@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -2110,10 +2110,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 46585,
-                "LAST_SEND_CHARS": 101504,
-                "LAST_RECEIVE_TOKENS": 5617,
-                "LAST_RECEIVE_CHARS": 14197
+                "LAST_SEND_TOKENS": 100255,
+                "LAST_SEND_CHARS": 169274,
+                "LAST_RECEIVE_TOKENS": 1293,
+                "LAST_RECEIVE_CHARS": 1852
             }
         },
         "attachments": [],
@@ -2840,7 +2840,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 2,
+                    "lastProcessedLength": 3,
                     "userConfigured": true
                 }
             },
