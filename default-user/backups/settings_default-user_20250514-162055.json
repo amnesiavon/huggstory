@@ -84,7 +84,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite.png",
+    "active_character": "infinite2.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -95,12 +95,9 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "hq手机0429",
-                "人类本能世界书",
+                "多维情感网络联动书",
                 "文本效果增强",
-                "轻小说、网文文风-对话与心理驱动",
-                "针对2.5pro的瑟瑟场景 (2)",
-                "多维情感网络联动书"
+                "针对2.5pro的瑟瑟场景 (2)"
             ],
             "charLore": []
         },
@@ -1579,9 +1576,9 @@
                     "mode": "cc",
                     "exclude": [],
                     "api": "custom",
-                    "preset": "Kemini O1 （INno改）",
-                    "api-url": "https://hajimi.rzline.dpdns.org/v1",
-                    "model": "gemini-2.5-pro-exp-03-25",
+                    "preset": "Kemini O1(INno改3.1)",
+                    "api-url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
+                    "model": "gemini-2.5-flash-preview-04-17",
                     "proxy": "None",
                     "stop-strings": "[]",
                     "start-reply-with": "",
@@ -2178,10 +2175,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 105482,
-                "LAST_SEND_CHARS": 179428,
-                "LAST_RECEIVE_TOKENS": 15,
-                "LAST_RECEIVE_CHARS": 24
+                "LAST_SEND_TOKENS": 87117,
+                "LAST_SEND_CHARS": 148352,
+                "LAST_RECEIVE_TOKENS": 510,
+                "LAST_RECEIVE_CHARS": 740
             }
         },
         "attachments": [],
@@ -2908,7 +2905,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 2,
+                    "lastProcessedLength": 21,
                     "userConfigured": true
                 }
             },
@@ -3107,7 +3104,8 @@
         "高达00模拟器.png": [],
         "【高度美化】游戏界面.png": [],
         "小魅穿书系统.png": [],
-        "上野花.png": []
+        "上野花.png": [],
+        "infinite2.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -3179,7 +3177,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 2000000,
         "openai_max_tokens": 8192,
         "wrap_in_quotes": false,
@@ -4273,8 +4271,8 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "gemini-2.5-pro-preview-03-25",
-        "custom_url": "https://hajimi.beijixingxing.com/v1",
+        "custom_model": "gemini-2.5-flash-preview-04-17",
+        "custom_url": "https://ntlsigamsxba.us-west-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
