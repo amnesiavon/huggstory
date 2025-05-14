@@ -1607,40 +1607,6 @@
                 "maxDepth": null
             },
             {
-                "id": "63449beb-c362-41f5-b206-e47ef4681dc5",
-                "scriptName": "【戏剧之王】去除10楼以下摘要文本",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "f7dbdb6e-b510-46a7-a398-04f885b802ce",
-                "scriptName": "【戏剧之王】user消息加<Last_inputs>",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<Last_inputs>\n$1\n</Last_inputs>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
                 "id": "1d86af9b-c461-4696-9943-ab6c38788f77",
                 "scriptName": "【戏剧之王】去<theatre>前所有内容、disclaimer多余内容",
                 "disabled": true,
