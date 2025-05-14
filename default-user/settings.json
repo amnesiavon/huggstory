@@ -95,7 +95,6 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
-                "hq手机0429",
                 "多维情感网络联动书",
                 "文本效果增强",
                 "针对2.5pro的瑟瑟场景 (2)"
@@ -2178,8 +2177,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 88817,
                 "LAST_SEND_CHARS": 152327,
-                "LAST_RECEIVE_TOKENS": 2275,
-                "LAST_RECEIVE_CHARS": 3236
+                "LAST_RECEIVE_TOKENS": 176,
+                "LAST_RECEIVE_CHARS": 265
             }
         },
         "attachments": [],
