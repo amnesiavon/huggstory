@@ -2904,7 +2904,7 @@
         "TavernHelper": {
             "enabled_extension": true,
             "render": {
-                "render_enabled": false,
+                "render_enabled": true,
                 "tampermonkey_compatibility": true,
                 "render_depth": 3,
                 "render_optimize": false
