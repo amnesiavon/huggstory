@@ -1982,6 +1982,40 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "d0e19ee8-89c6-47a7-ba2a-51b9b8c738c9",
+                "scriptName": "【demini】D1汇总记录折叠",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<Main_Quest>(.*?)</Main_Quest>/gs",
+                "replaceString": "<details><summary>*<font color=#87CEFA>汇总记录</font>*</summary>\n> $1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
+                "id": "d7ec2b30-6b2e-4d2f-986a-6f254f554204",
+                "scriptName": "【demini】D3略三楼前汇总",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<Main_Quest>[\\s\\S]*?</Main_Quest>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 3,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             }
         ],
         "character_allowed_regex": [
