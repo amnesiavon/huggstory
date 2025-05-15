@@ -1813,7 +1813,7 @@
             {
                 "id": "892b6d86-036b-498c-b3ed-7db94a5c08a3",
                 "scriptName": "【K预设】K去除所有用户消息",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
@@ -1830,7 +1830,7 @@
             {
                 "id": "2620d562-e4da-4e38-95f5-9937fc20ca8f",
                 "scriptName": "【K预设】K添加tag",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
