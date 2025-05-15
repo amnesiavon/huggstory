@@ -1949,7 +1949,7 @@
             {
                 "id": "504466a0-8ea1-4cad-b1c9-847caa7869fe",
                 "scriptName": "【K预设】K去除多余内容新",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/(<disclaimer>.*?</disclaimer>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
                 "replaceString": "",
@@ -1966,7 +1966,7 @@
             {
                 "id": "d8a0b111-86fd-4766-83c6-47f85c3180c0",
                 "scriptName": "【K预设】K去除所有用户消息",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
