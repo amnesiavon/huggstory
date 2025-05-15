@@ -1934,7 +1934,7 @@
             },
             {
                 "id": "61b305ad-e6db-441a-9814-a7ddfbd2d0bf",
-                "scriptName": "专防省略号增殖",
+                "scriptName": "【demini】专防省略号增殖",
                 "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…)/g",
                 "replaceString": "$1",
                 "trimStrings": [],
@@ -1951,7 +1951,7 @@
             },
             {
                 "id": "aff75d98-6689-4acd-b8bd-30b94a572c6c",
-                "scriptName": "专防省略号增殖2",
+                "scriptName": "【demini】专防省略号增殖2",
                 "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…|······)(?!\\s)/g",
                 "replaceString": "$1",
                 "trimStrings": [],
