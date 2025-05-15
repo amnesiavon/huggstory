@@ -1675,6 +1675,23 @@
                 "promptOnly": true
             },
             {
+                "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
+                "scriptName": "【K预设】K小总结1",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
                 "disabled": true,
@@ -1726,23 +1743,6 @@
                 "promptOnly": false
             },
             {
-                "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
-                "scriptName": "【K预设】K小总结1",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "757e767f-6766-4b42-8033-b25dceca3c13",
                 "scriptName": "【K预设】K小总结2",
                 "disabled": false,
@@ -1791,6 +1791,40 @@
                 "minDepth": null,
                 "maxDepth": 1,
                 "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "df4ba718-9808-4935-929c-6ee9da66c94d",
+                "scriptName": "【demini】开小总结用2",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 11,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "f15c998e-1751-45b5-868f-3920b63d0014",
+                "scriptName": "【demini】开小总结用1",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10,
+                "markdownOnly": false,
                 "promptOnly": true
             },
             {
@@ -2050,40 +2084,6 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
-            },
-            {
-                "id": "f15c998e-1751-45b5-868f-3920b63d0014",
-                "scriptName": "【demini】开小总结用1",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "df4ba718-9808-4935-929c-6ee9da66c94d",
-                "scriptName": "【demini】开小总结用2",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
             }
         ],
         "character_allowed_regex": [
