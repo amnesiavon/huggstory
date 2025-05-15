@@ -1607,6 +1607,23 @@
                 "promptOnly": true
             },
             {
+                "id": "d0e19ee8-89c6-47a7-ba2a-51b9b8c738c9",
+                "scriptName": "【demini】D1汇总记录折叠",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<Main_Quest>(.*?)</Main_Quest>/gs",
+                "replaceString": "<details><summary>*<font color=#87CEFA>汇总记录</font>*</summary>\n> $1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
                 "disabled": true,
@@ -1982,23 +1999,6 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
-            },
-            {
-                "id": "d0e19ee8-89c6-47a7-ba2a-51b9b8c738c9",
-                "scriptName": "【demini】D1汇总记录折叠",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<Main_Quest>(.*?)</Main_Quest>/gs",
-                "replaceString": "<details><summary>*<font color=#87CEFA>汇总记录</font>*</summary>\n> $1\n</details>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
             },
             {
                 "id": "d7ec2b30-6b2e-4d2f-986a-6f254f554204",
