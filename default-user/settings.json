@@ -1760,6 +1760,74 @@
                 "maxDepth": null
             },
             {
+                "id": "3086794e-26d5-470e-a420-dfca5376db2e",
+                "scriptName": "【demini】D1添加用户输入TAG",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "f9b3b511-8699-4853-baf8-f977e03e48cb",
+                "scriptName": "【demini】D2缔改去除多余内容",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<guifan>.*?</guifan>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!--\\s*consider\\s*:\\s*(.*?)\\s*-->)|(.*?</think(ing)?>(\\n)?)|(.*?<think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "【文字特效】美化省token",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
+                "scriptName": "【可更新手机】会自动更新的手机",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
+                "replaceString": "```\n\n<body>\n    <script type=\"module\">\n        const urls = [`https://sharkpan.xyz/f/1BEot2/index.html`]\n        function Http_Get(url) {\n            return new Promise((resolve, reject) => {\n                $.ajax({\n                    url: url,\n                    method: 'GET',\n                    timeout: 5000,\n                    success: function (data, status) {\n                        resolve(data); // 成功时返回数据\n                    },\n                    error: function (xhr, status, error) {\n                        if (status === 'timeout') {\n                            console.error('请求超时，请检查网络或重试');\n                        } else {\n                            console.error('请求失败，错误信息：', error);\n                        }\n                        resolve(null);\n                    }\n                });\n            });\n        }\n\n        async function Load() {\n            for (const url of urls) {\n                for (let i = 0; i < 3; i++) {\n                    try {\n                        const html = await Http_Get(url);\n                        if (html && html.indexOf(\"MiPhone\") > 0) {\n                            $(\"body\").html(html);\n                            return;\n                        }\n                    } catch (e) {\n\n                    }\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n        }\n        Load();\n    </script>\n</body>\n```",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 0,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
                 "disabled": true,
@@ -1913,23 +1981,6 @@
                 "promptOnly": true
             },
             {
-                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
-                "scriptName": "【文字特效】美化省token",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<[^>]*>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "cc8f9baa-ba96-493f-8e51-2b0d1e9ea598",
                 "scriptName": "【状态工具】游戏界面",
                 "disabled": true,
@@ -2032,57 +2083,6 @@
                 "minDepth": 2,
                 "maxDepth": null,
                 "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
-                "scriptName": "【可更新手机】会自动更新的手机",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
-                "replaceString": "```\n\n<body>\n    <script type=\"module\">\n        const urls = [`https://sharkpan.xyz/f/1BEot2/index.html`]\n        function Http_Get(url) {\n            return new Promise((resolve, reject) => {\n                $.ajax({\n                    url: url,\n                    method: 'GET',\n                    timeout: 5000,\n                    success: function (data, status) {\n                        resolve(data); // 成功时返回数据\n                    },\n                    error: function (xhr, status, error) {\n                        if (status === 'timeout') {\n                            console.error('请求超时，请检查网络或重试');\n                        } else {\n                            console.error('请求失败，错误信息：', error);\n                        }\n                        resolve(null);\n                    }\n                });\n            });\n        }\n\n        async function Load() {\n            for (const url of urls) {\n                for (let i = 0; i < 3; i++) {\n                    try {\n                        const html = await Http_Get(url);\n                        if (html && html.indexOf(\"MiPhone\") > 0) {\n                            $(\"body\").html(html);\n                            return;\n                        }\n                    } catch (e) {\n\n                    }\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n        }\n        Load();\n    </script>\n</body>\n```",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 0,
-                "markdownOnly": true,
-                "promptOnly": false
-            },
-            {
-                "id": "3086794e-26d5-470e-a420-dfca5376db2e",
-                "scriptName": "【demini】D1添加用户输入TAG",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "f9b3b511-8699-4853-baf8-f977e03e48cb",
-                "scriptName": "【demini】D2缔改去除多余内容",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<guifan>.*?</guifan>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!--\\s*consider\\s*:\\s*(.*?)\\s*-->)|(.*?</think(ing)?>(\\n)?)|(.*?<think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
                 "promptOnly": true
             }
         ],
