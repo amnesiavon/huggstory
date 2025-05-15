@@ -1675,6 +1675,23 @@
                 "promptOnly": true
             },
             {
+                "id": "f15c998e-1751-45b5-868f-3920b63d0014",
+                "scriptName": "【demini】开小总结用1",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
                 "id": "0e94620b-9e91-4572-84a8-9ca2c8b294dd",
                 "scriptName": "【demini】专防星号增殖正则",
                 "findRegex": "/\\*\\*/g",
@@ -1813,7 +1830,7 @@
             {
                 "id": "ee13fb19-b3b9-4418-ac7d-5e51e4c08d82",
                 "scriptName": "【K预设】K小总结1",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
@@ -1830,7 +1847,7 @@
             {
                 "id": "757e767f-6766-4b42-8033-b25dceca3c13",
                 "scriptName": "【K预设】K小总结2",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
@@ -1858,23 +1875,6 @@
                 "substituteRegex": 0,
                 "minDepth": 11,
                 "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "f15c998e-1751-45b5-868f-3920b63d0014",
-                "scriptName": "【demini】开小总结用1",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10,
                 "markdownOnly": false,
                 "promptOnly": true
             },
