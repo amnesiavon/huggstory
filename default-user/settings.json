@@ -1709,6 +1709,23 @@
                 "promptOnly": true
             },
             {
+                "id": "0e94620b-9e91-4572-84a8-9ca2c8b294dd",
+                "scriptName": "【demini】专防星号增殖正则",
+                "findRegex": "/\\*\\*/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
                 "disabled": true,
@@ -1826,6 +1843,23 @@
                 "maxDepth": 10,
                 "markdownOnly": false,
                 "promptOnly": true
+            },
+            {
+                "id": "61b305ad-e6db-441a-9814-a7ddfbd2d0bf",
+                "scriptName": "【demini】专防省略号增殖",
+                "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             },
             {
                 "id": "504466a0-8ea1-4cad-b1c9-847caa7869fe",
@@ -2035,23 +2069,6 @@
                 "promptOnly": true
             },
             {
-                "id": "61b305ad-e6db-441a-9814-a7ddfbd2d0bf",
-                "scriptName": "【demini】专防省略号增殖",
-                "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…)/g",
-                "replaceString": "$1",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "aff75d98-6689-4acd-b8bd-30b94a572c6c",
                 "scriptName": "【demini】专防省略号增殖2",
                 "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…|······)(?!\\s)/g",
@@ -2062,23 +2079,6 @@
                 ],
                 "disabled": false,
                 "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "0e94620b-9e91-4572-84a8-9ca2c8b294dd",
-                "scriptName": "【demini】专防星号增殖正则",
-                "findRegex": "/\\*\\*/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
