@@ -1968,7 +1968,7 @@
             },
             {
                 "id": "0e94620b-9e91-4572-84a8-9ca2c8b294dd",
-                "scriptName": "专防星号增殖正则",
+                "scriptName": "【demini】专防星号增殖正则",
                 "findRegex": "/\\*\\*/g",
                 "replaceString": "",
                 "trimStrings": [],
