@@ -2175,8 +2175,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 90167,
-                "LAST_SEND_CHARS": 152848,
+                "LAST_SEND_TOKENS": 2,
+                "LAST_SEND_CHARS": 2,
                 "LAST_RECEIVE_TOKENS": 2324,
                 "LAST_RECEIVE_CHARS": 3444
             }
@@ -4300,7 +4300,7 @@
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
         "custom_model": "gemini-2.5-flash-preview-04-17",
-        "custom_url": "https://wachimi.dpdns.org/v1",
+        "custom_url": "https://apisk.kfcvivo50.ggff.net/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
