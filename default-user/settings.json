@@ -1794,6 +1794,23 @@
                 "promptOnly": true
             },
             {
+                "id": "d7ec2b30-6b2e-4d2f-986a-6f254f554204",
+                "scriptName": "【demini】D3略三楼前汇总",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<Main_Quest>[\\s\\S]*?</Main_Quest>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 3,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
                 "id": "cc8f9baa-ba96-493f-8e51-2b0d1e9ea598",
                 "scriptName": "【状态工具】游戏界面",
                 "disabled": true,
@@ -1999,23 +2016,6 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
-            },
-            {
-                "id": "d7ec2b30-6b2e-4d2f-986a-6f254f554204",
-                "scriptName": "【demini】D3略三楼前汇总",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<Main_Quest>[\\s\\S]*?</Main_Quest>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 3,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
             },
             {
                 "id": "23028522-341b-410f-bbf5-26a832c2b642",
