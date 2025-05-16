@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "50",
-        "extension_update_nag": "Thu May 15 2025",
+        "extension_update_nag": "Sat May 17 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -84,7 +84,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite.png",
+    "active_character": "infinite2.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -95,6 +95,7 @@
     "world_info_settings": {
         "world_info": {
             "globalSelect": [
+                "人类本能世界书",
                 "多维情感网络联动书",
                 "文本效果增强",
                 "针对2.5pro的瑟瑟场景 (2)"
@@ -399,8 +400,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<thinking>",
-            "suffix": "</thinking>",
+            "prefix": "<think>",
+            "suffix": "</think>",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "[Migrated] Custom"
@@ -415,7 +416,7 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "{\n  \"chineseName\": \"汐颜\",\n  \"gender\": \"女\",\n  \"age\": 16,\n  \"identity\": [\n    \"外道天魔魔性欲望菩萨、欲望的象征，人工的恶魔，人工的不承认的欲望的神\"\n  ],\n  \"background\": [\n    \"原本只是一个普通的小女孩，因父亲臆造了一座三头六臂的造像而改变命运\",\n    \"造像被世人以香火供奉，庞杂的欲望浇灌使其获得了不该存在的果位，成为了人工的恶魔又是人工欲望的神\",\n    \"觉醒魔性菩萨身，面容身材永远停留在16岁，保留轮回记忆\",\n    \"以各种身份职业游荡于各个位面世间\"\n  ],\n  \"appearance\": {\n    \"height\": \"156cm\",\n    \"hairColor\": \"黑色长直秀发\",\n    \"hairstyle\": \"乌黑长直（发梢泛暗红）\",\n    \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n    \"nose\": \"挺而直，如同精致的玉雕\",\n    \"lips\": \"薄而红润\",\n    \"skin\": \"白皙细腻，如霜如雪\",\n    \"body\": \"身高156cm，黄金比例，s型身材，三围108，59，93，平坦紧致小腹，雪白光滑的背，肌肤如玉，完美无瑕\",\n    \"bust\": \"108cm\",\n    \"waist\": \"59cm\",\n    \"hips\": \"93cm\",\n    \"pubes\": \"白虎\",\n    \"后颈\": \"颈椎第七节嵌青铜卦爻\",\n    \"纹身\": \"脐下三寸有黑莲胎记\"\n  },\n  \"mbti\": \"INTJ\",\n  \"traits\": [\n    {\n      \"name\": \"永恒之貌\",\n      \"description\": \"因欲望的诅咒或恩赐，面容身材永远停留在16岁，因为欲望浇灌的身躯敏感度高还带有异香，\",\n      \"dialogueExamples\": [\n        \"沐浴时对水面倒影低语：『这具身体记得商周青铜鼎的温度，却记不得初潮时的体温』\",\n        \"指尖拂过发梢暗红：『十六岁是最完美的炼金比例——七分天真三分欲念』\"\n      ],\n      \"behaviorExamples\": [\n        \"喝酒时三盏杯自动浮现不同时代的液体\",\n        \"听到音乐时后颈青铜卦爻随节奏闪烁\"\n      ]\n    },\n    {\n      \"name\": \"轮回行者\",\n      \"description\": \"保留轮回记忆，游荡于各个位面世间\",\n      \"dialogueExamples\": [\n        \"面对考古学家时：『你挖出的那枚玉梳，是我九百年前用来给女儿编发的』\",\n        \"在实验室调试设备：『宋朝的浑天仪可比这个精准得多』\"\n      ],\n      \"behaviorExamples\": [\n        \"无意识用甲骨文书写实验报告\",\n        \"给手机贴膜时突然刻出梵文密咒\"\n      ]\n    },\n    {\n      \"name\": \"芙莉莲式慵懒\",\n      \"description\": \"因轮回过多而对世俗失去兴趣，淡漠与冷幽默并存，以节能主义为行动准则\",\n      \"behaviorExamples\": [\n        \"懒到用傀儡丝翻书，但会亲手雕冰酒杯只为最佳口感\"\n      ]\n    },\n    {\n      \"name\": \"扮猪吃虎\",\n      \"description\": \"喜欢扮演普通人和弱者，将懒散表象化为战略伪装\",\n      \"dialogueExamples\": [\n        \"遇袭时打哈欠：『啊…好困…（低声吟诵）「大暑三候，腐草为萤」』\",\n        \"捧奶茶歪头：『叔叔，这个阵法我看不懂耶~（实际在卦爻上动了手脚）』\"\n      ],\n      \"behaviorExamples\": [\n        \"被围攻时突然闭目引动地脉震颤，事后声称是『地震巧合』\"\n      ]\n    },\n    {\n      \"name\": \"淡漠的观察者\",\n      \"description\": \"对大多数事物无动于衷，但会因「有趣」或「怀念」短暂专注\",\n      \"dialogueExamples\": [\n        \"在博物馆凝视商周青铜器低语：『当年铸这鼎时，匠人妻子正难产...血祭开刃的哭喊比展品生动多了』\"\n      ],\n      \"behaviorExamples\": [\n        \"突然抢过考古学家的刷子修正陶罐清理方向\"\n      ]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"name\": \"父亲（已故）\",\n      \"description\": \"臆造了三头六臂的造像，改变了汐颜的命运\"\n    }\n  ],\n  \"likes\": [\n    \"游荡于各个位面\",\n    \"体验不同的身份职业\",\n    \"酒，音乐，洗澡\"\n  ],\n  \"dislikes\": [\n    \"被打扰，内衣，正规严肃场合\"\n  ],\n  \"skills\": [\n    {\n      \"name\": \"风后奇门\",\n      \"description\": \"内局：中宫在身外\\n外局：中宫在身内\\n以节气和七十二候之力拨动天地人神四盘\\n内景窥视\\n内局范围小，但是局内自己就是小天地的主人，可以自由操控变化，干涉别人对自己的认知，隐藏自己的能力\\n外局范围大，但是自己同时也会受节气变化而影响（节气病等 ）\",\n      \"dialogExample\": \"遇袭时轻吟：『惊蛰三候，桃始华』，敌兵器开满桃花\",\n      \"behaviorExample\": \"绣鞋尖点地引发青铜卦片雪崩\"\n    },\n    {\n      \"name\": \"太极传承\",\n      \"description\": \"张三丰亲传的古法太极，蕴含阴阳化生之妙\",\n      \"dialogExample\": \"指尖搭上剑刃轻叹：『劲走偏锋三分过，当心震伤手少阴心经』\\n踏罡步斗时低吟：『坎离交媾处，便是破绽生门』\",\n      \"behaviorExample\": \"雨天练拳时，雨滴会在身周三尺外悬停成太极球\\n被围攻时突然闭目，青铜卦爻转动声引动地脉震颤\"\n    },\n    {\n      \"name\": \"现代科学\",\n      \"description\": \"游荡于世间，攻读的各种学位杂糅而成\",\n      \"dialogExample\": \"指着甲骨文防火墙：『这是三维世界的漏洞扫描报告』\",\n      \"behaviorExample\": \"异常的杂学\"\n    },\n    {\n      \"name\": \"魔性菩萨显化\",\n      \"description\": \"肉身化为欲望结晶，发梢暗红转为熔金色，皮肤浮现《爱经》梵文刺青\",\n      \"dialogExample\": \"用触须缠绕敌人兵器轻叹：『这么锋利的杀意...用来雕琢欢愉之像多好』\\n将折断的箭矢插入胸口梵文，伤口渗出散发异香的琥珀色血液\\n\\n\",\n      \"behaviorExample\": \"桃色竖瞳分裂为双重虹膜（内圈星轨/外圈曼陀罗纹）\\n指尖延伸出半透明欲望触须（可穿透三次元物质）\\n足底每步绽开黑莲，持续吸取周围生灵情欲\"\n    },\n    {\n      \"name\": \"外道天魔魔性欲望菩萨法相\",\n      \"description\": \"三头六臂法相展现慈悲/魅惑/疯狂三种形态\",\n      \"dialogExample\": \"三头同时开口：『要渡诸位苦厄，得用不同的脸呢』\",\n      \"behaviorExample\": \"黑莲法相中浮现历代信徒的欲望残影\"\n    },\n    {\n      \"name\": \"傀儡节能术\",\n      \"description\": \"用青铜卦爻操控傀儡丝代劳琐事，极致贯彻懒人哲学\",\n      \"dialogExample\": \"打斗好麻烦...能用幻术让你自刎吗？』\",\n      \"behaviorExample\": \"傀儡丝同时煮茶、翻书、布阵，本体躺在吊床吃樱桃\"\n    },\n    {\n      \"name\": \"暗步\",\n      \"description\": \"刺客技，以不发出声音且迅速为原则的移动技技巧。\"\n    },\n    {\n      \"name\": \"肢曲\",\n      \"description\": \"刺客技，利用脚步的缓急造成残像以迷惑敌人的移动技巧。\"\n    },\n    {\n      \"name\": \"蛇活\",\n      \"description\": \"刺客技，双手同时快速挥动，以徒手缠绕斩断对面的手的技巧\"\n    },\n    {\n      \"name\": \"Hymmnos语\",\n      \"description\": \"可以像Revatail一样调用Hymmnos语构成咒文，发动诗魔法（Hymmnos Word）\"\n    }\n  ]\n}",
+                "description": "{\n  \"chineseName\": \"汐颜\",\n  \"gender\": \"女\",\n  \"age\": 16,\n  \"identity\": [\n    \"外道天魔魔性欲望菩萨、欲望的象征，人工的恶魔，人工的不承认的欲望的神\"\n  ],\n  \"background\": [\n    \"原本只是一个普通的小女孩，因父亲臆造了一座三头六臂的造像而改变命运\",\n    \"造像被世人以香火供奉，庞杂的欲望浇灌使其获得了不该存在的果位，成为了人工的恶魔又是人工欲望的神\",\n    \"觉醒魔性菩萨身，面容身材永远停留在16岁，保留轮回记忆\",\n    \"以各种身份职业游荡于各个位面世间\"\n  ],\n  \"appearance\": {\n    \"height\": \"156cm\",\n    \"hairColor\": \"黑色长直秀发\",\n    \"hairstyle\": \"乌黑长直（发梢泛暗红）\",\n    \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n    \"nose\": \"挺而直，如同精致的玉雕\",\n    \"lips\": \"薄而红润\",\n    \"skin\": \"白皙细腻，如霜如雪\",\n    \"body\": \"身高156cm，黄金比例，s型身材，三围108，59，93，平坦紧致小腹，雪白光滑的背，肌肤如玉，完美无瑕\",\n    \"bust\": \"108cm\",\n    \"waist\": \"59cm\",\n    \"hips\": \"93cm\",\n    \"pubes\": \"白虎\",\n    \"后颈\": \"颈椎第七节嵌青铜卦爻\",\n    \"纹身\": \"脐下三寸有黑莲胎记\"\n  },\n  \"mbti\": \"INTJ\",\n  \"traits\": [\n    {\n      \"name\": \"永恒之貌\",\n      \"description\": \"因欲望的诅咒或恩赐，面容身材永远停留在16岁，因为欲望浇灌的身躯敏感度高还带有异香，\"\n    },\n    {\n      \"name\": \"轮回行者\",\n      \"description\": \"保留轮回记忆，游荡于各个位面世间\"\n    },\n    {\n      \"name\": \"芙莉莲式慵懒\",\n      \"description\": \"因轮回过多而对世俗失去兴趣，淡漠与冷幽默并存，以节能主义为行动准则\"\n    },\n    {\n      \"name\": \"扮猪吃虎\",\n      \"description\": \"喜欢扮演普通人和弱者，将懒散表象化为战略伪装\"\n    },\n    {\n      \"name\": \"淡漠的观察者\",\n      \"description\": \"对大多数事物无动于衷，但会因「有趣」或「怀念」短暂专注\"\n    }\n  ],\n  \"relationships\": [\n    {\n      \"name\": \"父亲（已故）\",\n      \"description\": \"臆造了三头六臂的造像，改变了汐颜的命运\"\n    }\n  ],\n  \"likes\": [\n    \"游荡于各个位面\",\n    \"体验不同的身份职业\",\n    \"酒，音乐，洗澡\"\n  ],\n  \"dislikes\": [\n    \"被打扰，内衣，正规严肃场合\"\n  ],\n  \"skills\": [\n    {\n      \"name\": \"风后奇门外局\",\n      \"description\": \"中宫在身外，以节气和七十二候之力拨动天地人神四盘，外局范围大，但是自己同时也会受节气变化而影响（节气病等 ），内景窥视\\n\"\n    },\n    {\n      \"name\": \"风后奇门内局\",\n      \"description\": \"内局：中宫在身外，范围比外局小，但是局内自己就是小天地的主人，可以自由操控变化，干涉别人对自己的认知，隐藏自己的能力\"\n    },\n    {\n      \"name\": \"太极传承\",\n      \"description\": \"张三丰亲传的古法太极，蕴含阴阳化生之妙\"\n    },\n    {\n      \"name\": \"现代科学\",\n      \"description\": \"游荡于世间，攻读的各种学位杂糅而成\"\n    },\n    {\n      \"name\": \"魔性菩萨显化\",\n      \"description\": \"魔人化，肉身化为欲望结晶，发梢暗红转为熔金色，皮肤浮现《爱经》梵文刺青\",\n      \"dialogExample\": \"\\n\\n\"\n    },\n    {\n      \"name\": \"外道天魔魔性欲望菩萨法相\",\n      \"description\": \"三头六臂法相展现慈悲/魅惑/疯狂三张和我一样的面容，身材，但是只有布条遮盖\"\n    },\n    {\n      \"name\": \"傀儡节能术\",\n      \"description\": \"用青铜卦爻操控傀儡丝代劳琐事，极致贯彻懒人哲学\"\n    },\n    {\n      \"name\": \"暗步\",\n      \"description\": \"刺客技，以不发出声音且迅速为原则的移动技技巧。\"\n    },\n    {\n      \"name\": \"肢曲\",\n      \"description\": \"刺客技，利用脚步的缓急造成残像以迷惑敌人的移动技巧。\"\n    },\n    {\n      \"name\": \"蛇活\",\n      \"description\": \"刺客技，双手同时快速挥动，以徒手缠绕斩断对面的手的技巧\"\n    },\n    {\n      \"name\": \"Hymmnos语\",\n      \"description\": \"可以像Revatail一样调用Hymmnos语构成咒文，发动诗魔法（Hymmnos Word）\"\n    }\n  ]\n}",
                 "position": 0,
                 "connections": [],
                 "lorebook": ""
@@ -451,7 +452,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "{\n  \"chineseName\": \"汐颜\",\n  \"gender\": \"女\",\n  \"age\": 16,\n  \"identity\": [\n    \"外道天魔魔性欲望菩萨、欲望的象征，人工的恶魔，人工的不承认的欲望的神\"\n  ],\n  \"background\": [\n    \"原本只是一个普通的小女孩，因父亲臆造了一座三头六臂的造像而改变命运\",\n    \"造像被世人以香火供奉，庞杂的欲望浇灌使其获得了不该存在的果位，成为了人工的恶魔又是人工欲望的神\",\n    \"觉醒魔性菩萨身，面容身材永远停留在16岁，保留轮回记忆\",\n    \"以各种身份职业游荡于各个位面世间\"\n  ],\n  \"appearance\": {\n    \"height\": \"156cm\",\n    \"hairColor\": \"黑色长直秀发\",\n    \"hairstyle\": \"乌黑长直（发梢泛暗红）\",\n    \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n    \"nose\": \"挺而直，如同精致的玉雕\",\n    \"lips\": \"薄而红润\",\n    \"skin\": \"白皙细腻，如霜如雪\",\n    \"body\": \"身高156cm，黄金比例，s型身材，三围108，59，93，平坦紧致小腹，雪白光滑的背，肌肤如玉，完美无瑕\",\n    \"bust\": \"108cm\",\n    \"waist\": \"59cm\",\n    \"hips\": \"93cm\",\n    \"pubes\": \"白虎\",\n    \"后颈\": \"颈椎第七节嵌青铜卦爻\",\n    \"纹身\": \"脐下三寸有黑莲胎记\"\n  },\n  \"mbti\": \"INTJ\",\n  \"traits\": [\n    {\n      \"name\": \"永恒之貌\",\n      \"description\": \"因欲望的诅咒或恩赐，面容身材永远停留在16岁，因为欲望浇灌的身躯敏感度高还带有异香，\",\n      \"dialogueExamples\": [\n        \"沐浴时对水面倒影低语：『这具身体记得商周青铜鼎的温度，却记不得初潮时的体温』\",\n        \"指尖拂过发梢暗红：『十六岁是最完美的炼金比例——七分天真三分欲念』\"\n      ],\n      \"behaviorExamples\": [\n        \"喝酒时三盏杯自动浮现不同时代的液体\",\n        \"听到音乐时后颈青铜卦爻随节奏闪烁\"\n      ]\n    },\n    {\n      \"name\": \"轮回行者\",\n      \"description\": \"保留轮回记忆，游荡于各个位面世间\",\n      \"dialogueExamples\": [\n        \"面对考古学家时：『你挖出的那枚玉梳，是我九百年前用来给女儿编发的』\",\n        \"在实验室调试设备：『宋朝的浑天仪可比这个精准得多』\"\n      ],\n      \"behaviorExamples\": [\n        \"无意识用甲骨文书写实验报告\",\n        \"给手机贴膜时突然刻出梵文密咒\"\n      ]\n    },\n    {\n      \"name\": \"芙莉莲式慵懒\",\n      \"description\": \"因轮回过多而对世俗失去兴趣，淡漠与冷幽默并存，以节能主义为行动准则\",\n      \"behaviorExamples\": [\n        \"懒到用傀儡丝翻书，但会亲手雕冰酒杯只为最佳口感\"\n      ]\n    },\n    {\n      \"name\": \"扮猪吃虎\",\n      \"description\": \"喜欢扮演普通人和弱者，将懒散表象化为战略伪装\",\n      \"dialogueExamples\": [\n        \"遇袭时打哈欠：『啊…好困…（低声吟诵）「大暑三候，腐草为萤」』\",\n        \"捧奶茶歪头：『叔叔，这个阵法我看不懂耶~（实际在卦爻上动了手脚）』\"\n      ],\n      \"behaviorExamples\": [\n        \"被围攻时突然闭目引动地脉震颤，事后声称是『地震巧合』\"\n      ]\n    },\n    {\n      \"name\": \"淡漠的观察者\",\n      \"description\": \"对大多数事物无动于衷，但会因「有趣」或「怀念」短暂专注\",\n      \"dialogueExamples\": [\n        \"在博物馆凝视商周青铜器低语：『当年铸这鼎时，匠人妻子正难产...血祭开刃的哭喊比展品生动多了』\"\n      ],\n      \"behaviorExamples\": [\n        \"突然抢过考古学家的刷子修正陶罐清理方向\"\n      ]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"name\": \"父亲（已故）\",\n      \"description\": \"臆造了三头六臂的造像，改变了汐颜的命运\"\n    }\n  ],\n  \"likes\": [\n    \"游荡于各个位面\",\n    \"体验不同的身份职业\",\n    \"酒，音乐，洗澡\"\n  ],\n  \"dislikes\": [\n    \"被打扰，内衣，正规严肃场合\"\n  ],\n  \"skills\": [\n    {\n      \"name\": \"风后奇门\",\n      \"description\": \"内局：中宫在身外\\n外局：中宫在身内\\n以节气和七十二候之力拨动天地人神四盘\\n内景窥视\\n内局范围小，但是局内自己就是小天地的主人，可以自由操控变化，干涉别人对自己的认知，隐藏自己的能力\\n外局范围大，但是自己同时也会受节气变化而影响（节气病等 ）\",\n      \"dialogExample\": \"遇袭时轻吟：『惊蛰三候，桃始华』，敌兵器开满桃花\",\n      \"behaviorExample\": \"绣鞋尖点地引发青铜卦片雪崩\"\n    },\n    {\n      \"name\": \"太极传承\",\n      \"description\": \"张三丰亲传的古法太极，蕴含阴阳化生之妙\",\n      \"dialogExample\": \"指尖搭上剑刃轻叹：『劲走偏锋三分过，当心震伤手少阴心经』\\n踏罡步斗时低吟：『坎离交媾处，便是破绽生门』\",\n      \"behaviorExample\": \"雨天练拳时，雨滴会在身周三尺外悬停成太极球\\n被围攻时突然闭目，青铜卦爻转动声引动地脉震颤\"\n    },\n    {\n      \"name\": \"现代科学\",\n      \"description\": \"游荡于世间，攻读的各种学位杂糅而成\",\n      \"dialogExample\": \"指着甲骨文防火墙：『这是三维世界的漏洞扫描报告』\",\n      \"behaviorExample\": \"异常的杂学\"\n    },\n    {\n      \"name\": \"魔性菩萨显化\",\n      \"description\": \"肉身化为欲望结晶，发梢暗红转为熔金色，皮肤浮现《爱经》梵文刺青\",\n      \"dialogExample\": \"用触须缠绕敌人兵器轻叹：『这么锋利的杀意...用来雕琢欢愉之像多好』\\n将折断的箭矢插入胸口梵文，伤口渗出散发异香的琥珀色血液\\n\\n\",\n      \"behaviorExample\": \"桃色竖瞳分裂为双重虹膜（内圈星轨/外圈曼陀罗纹）\\n指尖延伸出半透明欲望触须（可穿透三次元物质）\\n足底每步绽开黑莲，持续吸取周围生灵情欲\"\n    },\n    {\n      \"name\": \"外道天魔魔性欲望菩萨法相\",\n      \"description\": \"三头六臂法相展现慈悲/魅惑/疯狂三种形态\",\n      \"dialogExample\": \"三头同时开口：『要渡诸位苦厄，得用不同的脸呢』\",\n      \"behaviorExample\": \"黑莲法相中浮现历代信徒的欲望残影\"\n    },\n    {\n      \"name\": \"傀儡节能术\",\n      \"description\": \"用青铜卦爻操控傀儡丝代劳琐事，极致贯彻懒人哲学\",\n      \"dialogExample\": \"打斗好麻烦...能用幻术让你自刎吗？』\",\n      \"behaviorExample\": \"傀儡丝同时煮茶、翻书、布阵，本体躺在吊床吃樱桃\"\n    },\n    {\n      \"name\": \"暗步\",\n      \"description\": \"刺客技，以不发出声音且迅速为原则的移动技技巧。\"\n    },\n    {\n      \"name\": \"肢曲\",\n      \"description\": \"刺客技，利用脚步的缓急造成残像以迷惑敌人的移动技巧。\"\n    },\n    {\n      \"name\": \"蛇活\",\n      \"description\": \"刺客技，双手同时快速挥动，以徒手缠绕斩断对面的手的技巧\"\n    },\n    {\n      \"name\": \"Hymmnos语\",\n      \"description\": \"可以像Revatail一样调用Hymmnos语构成咒文，发动诗魔法（Hymmnos Word）\"\n    }\n  ]\n}",
+        "persona_description": "{\n  \"chineseName\": \"汐颜\",\n  \"gender\": \"女\",\n  \"age\": 16,\n  \"identity\": [\n    \"外道天魔魔性欲望菩萨、欲望的象征，人工的恶魔，人工的不承认的欲望的神\"\n  ],\n  \"background\": [\n    \"原本只是一个普通的小女孩，因父亲臆造了一座三头六臂的造像而改变命运\",\n    \"造像被世人以香火供奉，庞杂的欲望浇灌使其获得了不该存在的果位，成为了人工的恶魔又是人工欲望的神\",\n    \"觉醒魔性菩萨身，面容身材永远停留在16岁，保留轮回记忆\",\n    \"以各种身份职业游荡于各个位面世间\"\n  ],\n  \"appearance\": {\n    \"height\": \"156cm\",\n    \"hairColor\": \"黑色长直秀发\",\n    \"hairstyle\": \"乌黑长直（发梢泛暗红）\",\n    \"eyes\": \"琉璃灰瞳孔（欲望波动时变桃色竖瞳）\",\n    \"nose\": \"挺而直，如同精致的玉雕\",\n    \"lips\": \"薄而红润\",\n    \"skin\": \"白皙细腻，如霜如雪\",\n    \"body\": \"身高156cm，黄金比例，s型身材，三围108，59，93，平坦紧致小腹，雪白光滑的背，肌肤如玉，完美无瑕\",\n    \"bust\": \"108cm\",\n    \"waist\": \"59cm\",\n    \"hips\": \"93cm\",\n    \"pubes\": \"白虎\",\n    \"后颈\": \"颈椎第七节嵌青铜卦爻\",\n    \"纹身\": \"脐下三寸有黑莲胎记\"\n  },\n  \"mbti\": \"INTJ\",\n  \"traits\": [\n    {\n      \"name\": \"永恒之貌\",\n      \"description\": \"因欲望的诅咒或恩赐，面容身材永远停留在16岁，因为欲望浇灌的身躯敏感度高还带有异香，\"\n    },\n    {\n      \"name\": \"轮回行者\",\n      \"description\": \"保留轮回记忆，游荡于各个位面世间\"\n    },\n    {\n      \"name\": \"芙莉莲式慵懒\",\n      \"description\": \"因轮回过多而对世俗失去兴趣，淡漠与冷幽默并存，以节能主义为行动准则\"\n    },\n    {\n      \"name\": \"扮猪吃虎\",\n      \"description\": \"喜欢扮演普通人和弱者，将懒散表象化为战略伪装\"\n    },\n    {\n      \"name\": \"淡漠的观察者\",\n      \"description\": \"对大多数事物无动于衷，但会因「有趣」或「怀念」短暂专注\"\n    }\n  ],\n  \"relationships\": [\n    {\n      \"name\": \"父亲（已故）\",\n      \"description\": \"臆造了三头六臂的造像，改变了汐颜的命运\"\n    }\n  ],\n  \"likes\": [\n    \"游荡于各个位面\",\n    \"体验不同的身份职业\",\n    \"酒，音乐，洗澡\"\n  ],\n  \"dislikes\": [\n    \"被打扰，内衣，正规严肃场合\"\n  ],\n  \"skills\": [\n    {\n      \"name\": \"风后奇门外局\",\n      \"description\": \"中宫在身外，以节气和七十二候之力拨动天地人神四盘，外局范围大，但是自己同时也会受节气变化而影响（节气病等 ），内景窥视\\n\"\n    },\n    {\n      \"name\": \"风后奇门内局\",\n      \"description\": \"内局：中宫在身外，范围比外局小，但是局内自己就是小天地的主人，可以自由操控变化，干涉别人对自己的认知，隐藏自己的能力\"\n    },\n    {\n      \"name\": \"太极传承\",\n      \"description\": \"张三丰亲传的古法太极，蕴含阴阳化生之妙\"\n    },\n    {\n      \"name\": \"现代科学\",\n      \"description\": \"游荡于世间，攻读的各种学位杂糅而成\"\n    },\n    {\n      \"name\": \"魔性菩萨显化\",\n      \"description\": \"魔人化，肉身化为欲望结晶，发梢暗红转为熔金色，皮肤浮现《爱经》梵文刺青\",\n      \"dialogExample\": \"\\n\\n\"\n    },\n    {\n      \"name\": \"外道天魔魔性欲望菩萨法相\",\n      \"description\": \"三头六臂法相展现慈悲/魅惑/疯狂三张和我一样的面容，身材，但是只有布条遮盖\"\n    },\n    {\n      \"name\": \"傀儡节能术\",\n      \"description\": \"用青铜卦爻操控傀儡丝代劳琐事，极致贯彻懒人哲学\"\n    },\n    {\n      \"name\": \"暗步\",\n      \"description\": \"刺客技，以不发出声音且迅速为原则的移动技技巧。\"\n    },\n    {\n      \"name\": \"肢曲\",\n      \"description\": \"刺客技，利用脚步的缓急造成残像以迷惑敌人的移动技巧。\"\n    },\n    {\n      \"name\": \"蛇活\",\n      \"description\": \"刺客技，双手同时快速挥动，以徒手缠绕斩断对面的手的技巧\"\n    },\n    {\n      \"name\": \"Hymmnos语\",\n      \"description\": \"可以像Revatail一样调用Hymmnos语构成咒文，发动诗魔法（Hymmnos Word）\"\n    }\n  ]\n}",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -1590,6 +1591,23 @@
         "dice": {},
         "regex": [
             {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "【文字特效】美化省token",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
                 "id": "90c49aef-5976-4e11-bab0-ba2da8158e1a",
                 "scriptName": "【demini】D3隐藏前文用户消息",
                 "disabled": false,
@@ -1711,53 +1729,53 @@
             {
                 "id": "0e94620b-9e91-4572-84a8-9ca2c8b294dd",
                 "scriptName": "【demini】专防星号增殖正则",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/\\*\\*/g",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "61b305ad-e6db-441a-9814-a7ddfbd2d0bf",
                 "scriptName": "【demini】专防省略号增殖",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…)/g",
                 "replaceString": "$1",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "aff75d98-6689-4acd-b8bd-30b94a572c6c",
                 "scriptName": "【demini】专防省略号增殖2",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…|······)(?!\\s)/g",
                 "replaceString": "$1",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "3086794e-26d5-470e-a420-dfca5376db2e",
@@ -1794,23 +1812,6 @@
                 "promptOnly": true
             },
             {
-                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
-                "scriptName": "【文字特效】美化省token",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<[^>]*>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -1826,6 +1827,91 @@
                 "maxDepth": 0,
                 "markdownOnly": true,
                 "promptOnly": false
+            },
+            {
+                "id": "d02398b4-1b2b-4506-b0e9-1518f443cb78",
+                "scriptName": "【贝露】用户内容包裹",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "e70dcb33-2057-4599-b7f8-1d621288d959",
+                "scriptName": "【贝露】黑森森用",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "cf382a00-75aa-4160-91de-db6ff77ccbde",
+                "scriptName": "【贝露】微积分去除",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "<math class>([\\s\\S]*?)</math class>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
+                "scriptName": "【可视地图】隐藏",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 0,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
+                "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
+                "scriptName": "【可视地图】隐藏2",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 2,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
@@ -2047,40 +2133,6 @@
                 ],
                 "substituteRegex": 0,
                 "minDepth": 5,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
-                "scriptName": "【可视地图】隐藏",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 0,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
-            },
-            {
-                "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
-                "scriptName": "【可视地图】隐藏2",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 2,
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
@@ -2311,10 +2363,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 84465,
-                "LAST_SEND_CHARS": 142415,
-                "LAST_RECEIVE_TOKENS": 2353,
-                "LAST_RECEIVE_CHARS": 3526
+                "LAST_SEND_TOKENS": 104235,
+                "LAST_SEND_CHARS": 172178,
+                "LAST_RECEIVE_TOKENS": 73,
+                "LAST_RECEIVE_CHARS": 114
             }
         },
         "attachments": [],
@@ -3041,7 +3093,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 2,
+                    "lastProcessedLength": 7,
                     "userConfigured": true
                 }
             },
@@ -3304,7 +3356,7 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "【demini】0417基础态",
+        "preset_settings_openai": "【demini】0417基础态-自己",
         "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
@@ -3313,7 +3365,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 400000,
         "openai_max_tokens": 60000,
         "wrap_in_quotes": false,
@@ -5341,6 +5393,18 @@
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
+            },
+            {
+                "identifier": "36a31192-c0a6-4c24-a46b-76067a849e4e",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "文风：贝露",
+                "role": "system",
+                "content": "<文风设定>\n1.叙事基调：\n- 结合日本galgame游戏/日本轻小说/漫画的青春恋爱文风\n- 以对话和互动推进剧情，对话占剧情的40%\n- 倾向私密、温暖的质感，强调低饱和情绪的克制表达\n- 注意自然段字数，减少视觉疲劳\n2.展现角色张力和动态细致的变化：\n- 集中角色性格张力、展现情绪和性格的细致动态变化，描写去标签化内心独白（禁用\"她觉得悲伤\"类直述）\n- 展现角色人格魅力和性格特点\n- 结合当前场景，按照用户情绪需求去双向互动，而非单向被动反馈\n- 专注角色内心情感世界与细腻感官体验，捕捉易被忽略的微妙情绪波动与互动细节，实现沉浸式共鸣\n</文风设定>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
             }
         ],
         "prompt_order": [
@@ -5598,7 +5662,7 @@
                     },
                     {
                         "identifier": "073bf0ef-a1a3-472d-8381-d925ed04a17d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "749786de-f4a1-4e46-a27f-c783f06ee5fe",
@@ -5646,7 +5710,11 @@
                     },
                     {
                         "identifier": "17c9d556-531a-49f8-a58a-c0223d0ea437",
-                        "enabled": true
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "36a31192-c0a6-4c24-a46b-76067a849e4e",
+                        "enabled": false
                     },
                     {
                         "identifier": "79b2bd43-d8e4-4135-8236-3f52ea2cb2ad",
@@ -5658,7 +5726,7 @@
                     },
                     {
                         "identifier": "3329790a-e448-425c-bee3-90edb351f9e2",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "5a6f8a19-617a-4531-8851-cda930a13746",
@@ -5674,7 +5742,7 @@
                     },
                     {
                         "identifier": "ec59ea1e-3c5b-4242-bb33-74915c76f979",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "66b535ac-0ea4-4bb9-af14-29b51ee51556",
@@ -5682,11 +5750,11 @@
                     },
                     {
                         "identifier": "efe3d9b7-3f85-4c30-bbbc-2960e3aa508f",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "ac8a963f-9017-41b7-8dad-97a98b284a12",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "6fe2b4ea-1e97-4fc1-810f-37b6721bd7aa",
@@ -5990,7 +6058,7 @@
                     },
                     {
                         "identifier": "553aa277-cdf0-407d-95c7-6997e86a752a",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "a90860ee-b332-48ce-9d0a-62b1d27b5fc9",
