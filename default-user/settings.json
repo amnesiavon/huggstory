@@ -84,7 +84,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite2_1.png",
+    "active_character": "infinite3-贝露.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -3328,7 +3328,7 @@
         "小魅穿书系统.png": [],
         "上野花.png": [],
         "infinite2.png": [],
-        "infinite2_1.png": []
+        "infinite3-贝露.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
