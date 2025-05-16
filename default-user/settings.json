@@ -1845,23 +1845,6 @@
                 "maxDepth": 1
             },
             {
-                "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
-                "scriptName": "【可视地图】隐藏2",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "e70dcb33-2057-4599-b7f8-1d621288d959",
                 "scriptName": "【贝露】黑森森用",
                 "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
@@ -1877,6 +1860,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
+                "scriptName": "【可视地图】隐藏2",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 2,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
