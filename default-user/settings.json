@@ -3654,7 +3654,7 @@
                 "marker": false,
                 "name": "摘要",
                 "role": "user",
-                "content": "beilu随后会根据正文使用英文输出摘要：\n<scene>具体地点 - 日期 时:分-时:分</scene>\n<details><summary>点击展开</summary>\n将正文简短总结。包括简略的关键情节和重要人物的转变。\n</details>",
+                "content": "beilu随后会根据正文使用英文输出摘要：\n\n<details><summary>点击展开</summary>\n<scene>具体地点 - 日期 时:分-时:分</scene>\n将正文简短总结。包括简略的关键情节和重要人物的转变。\n</details>",
                 "injection_position": 0,
                 "injection_depth": 2,
                 "forbid_overrides": false
