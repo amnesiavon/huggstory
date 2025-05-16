@@ -1846,6 +1846,57 @@
                 "maxDepth": null
             },
             {
+                "id": "13c0b769-2a92-4457-b6a7-771457b013fb",
+                "scriptName": "【贝露】省略号改逗号黑森森用",
+                "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "55012675-6f28-4cc7-9509-4ec1638219bb",
+                "scriptName": "【贝露】省略号改逗号用户内容包裹",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
+                "id": "6f9782d5-19be-4705-9439-656e9132b189",
+                "scriptName": "【贝露】省略号改逗号微积分去除",
+                "findRegex": "<math class>([\\s\\S]*?)</math class>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -2119,57 +2170,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "13c0b769-2a92-4457-b6a7-771457b013fb",
-                "scriptName": "【贝露】省略号改逗号黑森森用",
-                "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "55012675-6f28-4cc7-9509-4ec1638219bb",
-                "scriptName": "【贝露】省略号改逗号用户内容包裹",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "6f9782d5-19be-4705-9439-656e9132b189",
-                "scriptName": "【贝露】省略号改逗号微积分去除",
-                "findRegex": "<math class>([\\s\\S]*?)</math class>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
