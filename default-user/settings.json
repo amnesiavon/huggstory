@@ -1626,7 +1626,7 @@
             {
                 "id": "d0e19ee8-89c6-47a7-ba2a-51b9b8c738c9",
                 "scriptName": "【demini】D1汇总记录折叠",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<Main_Quest>(.*?)</Main_Quest>/gs",
                 "replaceString": "<details><summary>*<font color=#87CEFA>汇总记录</font>*</summary>\n> $1\n</details>",
@@ -1847,7 +1847,7 @@
             {
                 "id": "e70dcb33-2057-4599-b7f8-1d621288d959",
                 "scriptName": "【贝露】黑森森用",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
                 "replaceString": "",
@@ -2364,8 +2364,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 95037,
                 "LAST_SEND_CHARS": 157699,
-                "LAST_RECEIVE_TOKENS": 2599,
-                "LAST_RECEIVE_CHARS": 3889
+                "LAST_RECEIVE_TOKENS": 2690,
+                "LAST_RECEIVE_CHARS": 4042
             }
         },
         "attachments": [],
