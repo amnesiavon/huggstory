@@ -1862,6 +1862,23 @@
                 "maxDepth": null
             },
             {
+                "id": "cf382a00-75aa-4160-91de-db6ff77ccbde",
+                "scriptName": "【贝露】微积分去除",
+                "findRegex": "<math class>([\\s\\S]*?)</math class>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
                 "scriptName": "【可视地图】隐藏",
                 "disabled": true,
@@ -2118,23 +2135,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "cf382a00-75aa-4160-91de-db6ff77ccbde",
-                "scriptName": "【贝露】微积分去除",
-                "findRegex": "<math class>([\\s\\S]*?)</math class>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
