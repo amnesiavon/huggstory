@@ -49,7 +49,7 @@
     "scenario_format": "{{scenario}}",
     "personality_format": "{{personality}}",
     "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
-    "stream_openai": false,
+    "stream_openai": true,
     "prompts": [
         {
             "name": "缔改角色",
@@ -2391,7 +2391,7 @@
                 },
                 {
                     "identifier": "17c9d556-531a-49f8-a58a-c0223d0ea437",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "36a31192-c0a6-4c24-a46b-76067a849e4e",
@@ -2431,7 +2431,7 @@
                 },
                 {
                     "identifier": "efe3d9b7-3f85-4c30-bbbc-2960e3aa508f",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "ac8a963f-9017-41b7-8dad-97a98b284a12",
@@ -2471,7 +2471,7 @@
                 },
                 {
                     "identifier": "a40256f1-a1f4-4821-8b73-5173fa9b2f8c",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "b47e7ca0-eb90-417f-94cf-6933f2807023",
@@ -2739,7 +2739,7 @@
                 },
                 {
                     "identifier": "553aa277-cdf0-407d-95c7-6997e86a752a",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "a90860ee-b332-48ce-9d0a-62b1d27b5fc9",
