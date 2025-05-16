@@ -1829,57 +1829,6 @@
                 "promptOnly": false
             },
             {
-                "id": "d02398b4-1b2b-4506-b0e9-1518f443cb78",
-                "scriptName": "【贝露】用户内容包裹",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "e70dcb33-2057-4599-b7f8-1d621288d959",
-                "scriptName": "【贝露】黑森森用",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "cf382a00-75aa-4160-91de-db6ff77ccbde",
-                "scriptName": "【贝露】微积分去除",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "<math class>([\\s\\S]*?)</math class>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
                 "scriptName": "【可视地图】隐藏",
                 "disabled": true,
