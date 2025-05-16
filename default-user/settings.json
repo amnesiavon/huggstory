@@ -2105,7 +2105,7 @@
             },
             {
                 "id": "041e4eb5-790c-4fc4-93f1-d817a411cc56",
-                "scriptName": "星号",
+                "scriptName": "【贝露】省略号改逗号星号",
                 "findRegex": "/\\*\\*/g",
                 "replaceString": "",
                 "trimStrings": [],
