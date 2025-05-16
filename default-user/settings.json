@@ -1862,6 +1862,23 @@
                 "maxDepth": null
             },
             {
+                "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
+                "scriptName": "【可视地图】隐藏",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 0,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
                 "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
                 "scriptName": "【可视地图】隐藏2",
                 "disabled": true,
@@ -2101,23 +2118,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
-                "scriptName": "【可视地图】隐藏",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/<MapGraph>[\\s\\S]*</MapGraph>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 0,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
             },
             {
                 "id": "cf382a00-75aa-4160-91de-db6ff77ccbde",
