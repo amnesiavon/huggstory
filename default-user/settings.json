@@ -2087,7 +2087,7 @@
             },
             {
                 "id": "d02398b4-1b2b-4506-b0e9-1518f443cb78",
-                "scriptName": "用户内容包裹",
+                "scriptName": "【demini】用户内容包裹",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
