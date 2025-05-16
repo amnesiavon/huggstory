@@ -2139,7 +2139,7 @@
             },
             {
                 "id": "55012675-6f28-4cc7-9509-4ec1638219bb",
-                "scriptName": "用户内容包裹",
+                "scriptName": "【贝露】省略号改逗号用户内容包裹",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
