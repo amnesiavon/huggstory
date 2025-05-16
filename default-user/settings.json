@@ -2397,8 +2397,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 106546,
-                "LAST_SEND_CHARS": 173774,
+                "LAST_SEND_TOKENS": 106540,
+                "LAST_SEND_CHARS": 173776,
                 "LAST_RECEIVE_TOKENS": 2980,
                 "LAST_RECEIVE_CHARS": 4890
             }
