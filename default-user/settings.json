@@ -2398,7 +2398,7 @@
         "variables": {
             "global": {
                 "LAST_SEND_TOKENS": 116156,
-                "LAST_SEND_CHARS": 189704,
+                "LAST_SEND_CHARS": 189712,
                 "LAST_RECEIVE_TOKENS": 771,
                 "LAST_RECEIVE_CHARS": 1051
             }
