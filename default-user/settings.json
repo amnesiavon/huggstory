@@ -399,8 +399,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<thinking>|<think>",
-            "suffix": "</thinking>|</think>",
+            "prefix": "<think>",
+            "suffix": "</think>",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "[Migrated] Custom"
