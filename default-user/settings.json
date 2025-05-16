@@ -101,7 +101,7 @@
             ],
             "charLore": []
         },
-        "world_info_depth": 2,
+        "world_info_depth": 100,
         "world_info_min_activations": 0,
         "world_info_min_activations_depth_max": 0,
         "world_info_budget": 100,
