@@ -2397,10 +2397,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 131223,
-                "LAST_SEND_CHARS": 214320,
-                "LAST_RECEIVE_TOKENS": 2762,
-                "LAST_RECEIVE_CHARS": 4351
+                "LAST_SEND_TOKENS": 131239,
+                "LAST_SEND_CHARS": 214343,
+                "LAST_RECEIVE_TOKENS": 1555,
+                "LAST_RECEIVE_CHARS": 2224
             }
         },
         "attachments": [],
