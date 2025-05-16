@@ -15,7 +15,7 @@
         "AlertRegex_「系统Z-09」.png": "true",
         "AlertWI_Mori.png": "true",
         "AlertRegex_万界聊天群“真语阁”.png": "true",
-        "SelectedNavTab": "rm_button_characters",
+        "SelectedNavTab": "rm_button_selected_ch",
         "AlertRegex_顾云汐.png": "true",
         "AlertWI_白化蓝染的日记本.png": "true",
         "AlertWI_「系统Z-09」.png": "true",
@@ -84,7 +84,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite2.png",
+    "active_character": "infinite2_1.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2399,8 +2399,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 43401,
                 "LAST_SEND_CHARS": 81517,
-                "LAST_RECEIVE_TOKENS": 847,
-                "LAST_RECEIVE_CHARS": 1197
+                "LAST_RECEIVE_TOKENS": 176,
+                "LAST_RECEIVE_CHARS": 265
             }
         },
         "attachments": [],
@@ -3327,7 +3327,8 @@
         "【高度美化】游戏界面.png": [],
         "小魅穿书系统.png": [],
         "上野花.png": [],
-        "infinite2.png": []
+        "infinite2.png": [],
+        "infinite2_1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
