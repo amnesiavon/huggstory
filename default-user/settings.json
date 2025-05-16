@@ -2088,7 +2088,7 @@
             },
             {
                 "id": "11d13ac2-f287-4b9a-ada4-dd54d43f3320",
-                "scriptName": "省略号改逗号",
+                "scriptName": "【贝露】省略号改逗号",
                 "findRegex": "/(……|…(?!…))(?=\\S)/gs",
                 "replaceString": "，",
                 "trimStrings": [],
