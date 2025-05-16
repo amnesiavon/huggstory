@@ -4002,7 +4002,7 @@
                 "marker": false,
                 "name": "字数需求（可以改）",
                 "role": "user",
-                "content": "<用户正文需求>\n- 正文字数需求**1000字以上**\n- 正文使用语言：中文\n- 正文内容用\"<content>\" \"</content>\"进行包裹\n</用户正文需求>",
+                "content": "<用户正文需求>\n- 正文字数需求**5000字以上**\n- 正文使用语言：中文\n- 正文内容用\"<content>\" \"</content>\"进行包裹\n</用户正文需求>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -4527,7 +4527,7 @@
                     },
                     {
                         "identifier": "25b856e8-5859-4352-aeed-eb3e649b3244",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "a5cf2df7-0d58-4fee-99fc-1c29cdc7b7f7",
