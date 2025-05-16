@@ -2122,7 +2122,7 @@
             },
             {
                 "id": "13c0b769-2a92-4457-b6a7-771457b013fb",
-                "scriptName": "黑森森用",
+                "scriptName": "【贝露】省略号改逗号黑森森用",
                 "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
                 "replaceString": "",
                 "trimStrings": [],
@@ -2156,7 +2156,7 @@
             },
             {
                 "id": "6f9782d5-19be-4705-9439-656e9132b189",
-                "scriptName": "微积分去除",
+                "scriptName": "【贝露】省略号改逗号微积分去除",
                 "findRegex": "<math class>([\\s\\S]*?)</math class>",
                 "replaceString": "",
                 "trimStrings": [],
