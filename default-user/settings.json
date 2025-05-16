@@ -4632,7 +4632,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "https://hajimi.北极星星.com/v1",
+        "custom_model": "",
         "custom_url": "https://api.sbssolutions.sbs/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
