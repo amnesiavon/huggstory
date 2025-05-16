@@ -2362,10 +2362,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 86380,
-                "LAST_SEND_CHARS": 143907,
-                "LAST_RECEIVE_TOKENS": 2123,
-                "LAST_RECEIVE_CHARS": 3287
+                "LAST_SEND_TOKENS": 86349,
+                "LAST_SEND_CHARS": 143855,
+                "LAST_RECEIVE_TOKENS": 458,
+                "LAST_RECEIVE_CHARS": 667
             }
         },
         "attachments": [],
@@ -3364,7 +3364,7 @@
         "min_p_openai": 0.05,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1.1,
-        "stream_openai": true,
+        "stream_openai": false,
         "openai_max_context": 195982,
         "openai_max_tokens": 20000,
         "wrap_in_quotes": false,
