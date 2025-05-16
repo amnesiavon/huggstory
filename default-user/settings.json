@@ -400,8 +400,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<think>",
-            "suffix": "</think>",
+            "prefix": "<thinking>",
+            "suffix": "</thinking>",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "[Migrated] Custom"
@@ -2397,10 +2397,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 104235,
-                "LAST_SEND_CHARS": 172178,
-                "LAST_RECEIVE_TOKENS": 521,
-                "LAST_RECEIVE_CHARS": 784
+                "LAST_SEND_TOKENS": 43594,
+                "LAST_SEND_CHARS": 81704,
+                "LAST_RECEIVE_TOKENS": 2141,
+                "LAST_RECEIVE_CHARS": 3129
             }
         },
         "attachments": [],
