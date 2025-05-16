@@ -2362,10 +2362,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 85208,
-                "LAST_SEND_CHARS": 143216,
-                "LAST_RECEIVE_TOKENS": 521,
-                "LAST_RECEIVE_CHARS": 784
+                "LAST_SEND_TOKENS": 85214,
+                "LAST_SEND_CHARS": 143223,
+                "LAST_RECEIVE_TOKENS": 4,
+                "LAST_RECEIVE_CHARS": 11
             }
         },
         "attachments": [],
@@ -5789,7 +5789,7 @@
                     },
                     {
                         "identifier": "a40256f1-a1f4-4821-8b73-5173fa9b2f8c",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "b47e7ca0-eb90-417f-94cf-6933f2807023",
