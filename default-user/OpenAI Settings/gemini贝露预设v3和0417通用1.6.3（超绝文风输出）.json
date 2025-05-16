@@ -18,8 +18,11 @@
     "perplexity_model": "llama-3-70b-instruct",
     "groq_model": "llama3-70b-8192",
     "zerooneai_model": "yi-large",
-    "blockentropy_model": "be-70b-base-llama3.1",
     "custom_model": "gemini-2.5-flash-preview-04-17",
+    "custom_url": "https://apisk.kfcvivo50.ggff.net/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "",
+    "custom_include_headers": "",
     "custom_prompt_post_processing": "merge",
     "google_model": "gemini-pro",
     "temperature": 1.1,
@@ -35,13 +38,14 @@
     "wrap_in_quotes": false,
     "names_behavior": 0,
     "send_if_empty": "",
-    "jailbreak_system": false,
     "impersonation_prompt": "[Write your next reply from the point of view of {{user}}, using the chat history so far as a guideline for the writing style of {{user}}. Don't write as {{char}} or system. Don't describe actions of {{char}}.]",
     "new_chat_prompt": "[Start a new Chat]",
     "new_group_chat_prompt": "[Start a new group chat. Group members: {{group}}]",
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
     "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
@@ -334,7 +338,7 @@
             "marker": false,
             "name": "摘要",
             "role": "user",
-            "content": "beilu随后会根据正文使用英文输出摘要：\n<scene>具体地点 - 日期 时:分-时:分</scene>\n<details><summary>点击展开</summary>\n将正文简短总结。包括简略的关键情节和重要人物的转变。\n</details>",
+            "content": "beilu随后会根据正文使用英文输出摘要：\n\n<details><summary>点击展开</summary>\n<scene>具体地点 - 日期 时:分-时:分</scene>\n将正文简短总结。包括简略的关键情节和重要人物的转变。\n</details>",
             "injection_position": 0,
             "injection_depth": 2,
             "forbid_overrides": false
@@ -1063,11 +1067,11 @@
                 },
                 {
                     "identifier": "9e83414d-7f03-46fd-b409-6bcba3ccd29f",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "4df2711b-2452-4f18-8bce-fc3ee97806f8",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "f5680674-3e1b-461b-a701-863d9288c762",
@@ -1195,11 +1199,11 @@
                 },
                 {
                     "identifier": "25b856e8-5859-4352-aeed-eb3e649b3244",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "a5cf2df7-0d58-4fee-99fc-1c29cdc7b7f7",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "7bed4b41-c73f-45a4-8d78-653b6ee126d1",
@@ -1228,6 +1232,8 @@
     "function_calling": false,
     "show_thoughts": true,
     "reasoning_effort": "medium",
+    "enable_web_search": false,
+    "request_images": false,
     "seed": -1,
     "n": 1
 }
