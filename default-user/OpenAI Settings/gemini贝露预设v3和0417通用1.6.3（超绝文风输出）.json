@@ -882,6 +882,18 @@
             "injection_position": 0,
             "injection_depth": 4,
             "forbid_overrides": false
+        },
+        {
+            "identifier": "bafc8462-a445-4bdf-af97-bf32a14c99cc",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "自改摘要",
+            "role": "user",
+            "content": "beilu随后会根据正文使用英文输出摘要：\n<details><summary>摘要</summary>\n\n摘要格式示例：\n\n<details><summary>摘要</summary>\n<内容>\n用约100字将正文简短总结。包括简略的关键情节和重要人物的转变。，禁止不必要的总结和升华，忠实记录角色的言行举止和情感变化\n\n时间：年月日 星期X 开始时分 ~ 结束时分\n\n地点：大地点/中地点/小地点\n</details>",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
         }
     ],
     "prompt_order": [
@@ -1203,6 +1215,10 @@
                 },
                 {
                     "identifier": "a5cf2df7-0d58-4fee-99fc-1c29cdc7b7f7",
+                    "enabled": false
+                },
+                {
+                    "identifier": "bafc8462-a445-4bdf-af97-bf32a14c99cc",
                     "enabled": true
                 },
                 {
