@@ -1694,7 +1694,7 @@
             {
                 "id": "f15c998e-1751-45b5-868f-3920b63d0014",
                 "scriptName": "【demini】开小总结用1",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
@@ -2362,10 +2362,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 95033,
-                "LAST_SEND_CHARS": 157695,
-                "LAST_RECEIVE_TOKENS": 2126,
-                "LAST_RECEIVE_CHARS": 3122
+                "LAST_SEND_TOKENS": 86313,
+                "LAST_SEND_CHARS": 143805,
+                "LAST_RECEIVE_TOKENS": 2684,
+                "LAST_RECEIVE_CHARS": 4000
             }
         },
         "attachments": [],
