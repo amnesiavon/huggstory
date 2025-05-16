@@ -5392,6 +5392,18 @@
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
+            },
+            {
+                "identifier": "36a31192-c0a6-4c24-a46b-76067a849e4e",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "文风：贝露",
+                "role": "system",
+                "content": "<文风设定>\n1.叙事基调：\n- 结合日本galgame游戏/日本轻小说/漫画的青春恋爱文风\n- 以对话和互动推进剧情，对话占剧情的40%\n- 倾向私密、温暖的质感，强调低饱和情绪的克制表达\n- 注意自然段字数，减少视觉疲劳\n2.展现角色张力和动态细致的变化：\n- 集中角色性格张力、展现情绪和性格的细致动态变化，描写去标签化内心独白（禁用\"她觉得悲伤\"类直述）\n- 展现角色人格魅力和性格特点\n- 结合当前场景，按照用户情绪需求去双向互动，而非单向被动反馈\n- 专注角色内心情感世界与细腻感官体验，捕捉易被忽略的微妙情绪波动与互动细节，实现沉浸式共鸣\n</文风设定>",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
             }
         ],
         "prompt_order": [
