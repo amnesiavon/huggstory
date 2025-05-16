@@ -1812,6 +1812,40 @@
                 "promptOnly": true
             },
             {
+                "id": "11d13ac2-f287-4b9a-ada4-dd54d43f3320",
+                "scriptName": "【贝露】省略号改逗号",
+                "findRegex": "/(……|…(?!…))(?=\\S)/gs",
+                "replaceString": "，",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "041e4eb5-790c-4fc4-93f1-d817a411cc56",
+                "scriptName": "【贝露】省略号改逗号星号",
+                "findRegex": "/\\*\\*/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -2085,40 +2119,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "11d13ac2-f287-4b9a-ada4-dd54d43f3320",
-                "scriptName": "【贝露】省略号改逗号",
-                "findRegex": "/(……|…(?!…))(?=\\S)/gs",
-                "replaceString": "，",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "041e4eb5-790c-4fc4-93f1-d817a411cc56",
-                "scriptName": "【贝露】省略号改逗号星号",
-                "findRegex": "/\\*\\*/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             },
             {
                 "id": "13c0b769-2a92-4457-b6a7-771457b013fb",
