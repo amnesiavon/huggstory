@@ -84,7 +84,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite.png",
+    "active_character": "infinite2.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2364,8 +2364,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 86315,
                 "LAST_SEND_CHARS": 143775,
-                "LAST_RECEIVE_TOKENS": 2859,
-                "LAST_RECEIVE_CHARS": 4361
+                "LAST_RECEIVE_TOKENS": 1896,
+                "LAST_RECEIVE_CHARS": 2804
             }
         },
         "attachments": [],
