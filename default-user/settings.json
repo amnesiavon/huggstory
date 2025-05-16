@@ -2087,7 +2087,7 @@
             },
             {
                 "id": "d02398b4-1b2b-4506-b0e9-1518f443cb78",
-                "scriptName": "【demini】用户内容包裹",
+                "scriptName": "【贝露】用户内容包裹",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
@@ -2104,7 +2104,7 @@
             },
             {
                 "id": "e70dcb33-2057-4599-b7f8-1d621288d959",
-                "scriptName": "黑森森用",
+                "scriptName": "【贝露】黑森森用",
                 "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
                 "replaceString": "",
                 "trimStrings": [],
