@@ -2121,7 +2121,7 @@
             },
             {
                 "id": "cf382a00-75aa-4160-91de-db6ff77ccbde",
-                "scriptName": "微积分去除",
+                "scriptName": "【贝露】微积分去除",
                 "findRegex": "<math class>([\\s\\S]*?)</math class>",
                 "replaceString": "",
                 "trimStrings": [],
