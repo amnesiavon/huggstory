@@ -400,8 +400,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<thinking>\n",
-            "suffix": "\n</thinking>",
+            "prefix": "<thinki>\n",
+            "suffix": "\n</think>",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "DeepSeek"
@@ -2467,8 +2467,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 103878,
                 "LAST_SEND_CHARS": 174602,
-                "LAST_RECEIVE_TOKENS": 1777,
-                "LAST_RECEIVE_CHARS": 2578
+                "LAST_RECEIVE_TOKENS": 2582,
+                "LAST_RECEIVE_CHARS": 3760
             }
         },
         "attachments": [],
