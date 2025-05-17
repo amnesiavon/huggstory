@@ -2465,8 +2465,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 119157,
-                "LAST_SEND_CHARS": 198503,
+                "LAST_SEND_TOKENS": 119180,
+                "LAST_SEND_CHARS": 198534,
                 "LAST_RECEIVE_TOKENS": 2867,
                 "LAST_RECEIVE_CHARS": 4428
             }
@@ -3468,7 +3468,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 400000,
         "openai_max_tokens": 60000,
         "wrap_in_quotes": false,
