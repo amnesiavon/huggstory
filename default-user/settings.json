@@ -1727,6 +1727,23 @@
                 "maxDepth": null
             },
             {
+                "id": "ea78d22a-5fb5-4a9f-bde0-e152525ce516",
+                "scriptName": "【demini】D4隐藏前文用户消息",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -2016,23 +2033,6 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "ea78d22a-5fb5-4a9f-bde0-e152525ce516",
-                "scriptName": "【demini】D4隐藏前文用户消息",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 1,
                 "maxDepth": null
             },
             {
