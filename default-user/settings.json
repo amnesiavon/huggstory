@@ -1735,7 +1735,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1746,7 +1746,7 @@
             {
                 "id": "5bb6f1b1-8d6f-487b-a383-9e25a067ff67",
                 "scriptName": "【demini】D1非插件式表格折叠",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<table>(.*?)</table>/gs",
                 "replaceString": "<details><summary>*<font color=#C0C0C0>非插件式表格<font>*</summary>\n> $1\n</details>",
@@ -2467,8 +2467,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 107989,
                 "LAST_SEND_CHARS": 180322,
-                "LAST_RECEIVE_TOKENS": 1578,
-                "LAST_RECEIVE_CHARS": 2313
+                "LAST_RECEIVE_TOKENS": 2614,
+                "LAST_RECEIVE_CHARS": 3855
             }
         },
         "attachments": [],
