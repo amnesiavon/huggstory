@@ -1865,19 +1865,19 @@
             {
                 "id": "b22156fc-8df3-416f-b789-6a71f277266a",
                 "scriptName": "【demini】自动推算时间",
-                "disabled": false,
-                "runOnEdit": true,
                 "findRegex": "<currentTime>[\\s\\S]*?<\\/currentTime>",
-                "replaceString": "",
+                "replaceString": "<details><summary>*<font color=#C0C0C0>自动推算时间<font>*</summary>",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
+                "maxDepth": null
             },
             {
                 "id": "4f21d05f-4639-4282-a1cc-eeb3edfbfa56",
