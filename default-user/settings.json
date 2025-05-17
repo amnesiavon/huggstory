@@ -1761,6 +1761,23 @@
                 "promptOnly": false
             },
             {
+                "id": "67b40d74-65ea-4d45-978b-3d53b4b88274",
+                "scriptName": "【demini】D3略五楼前汇总",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?</Main_Quest>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 5,
+                "maxDepth": null
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -2050,23 +2067,6 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "67b40d74-65ea-4d45-978b-3d53b4b88274",
-                "scriptName": "【demini】D3略五楼前汇总",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?</Main_Quest>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 5,
                 "maxDepth": null
             },
             {
