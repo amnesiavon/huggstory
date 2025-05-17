@@ -84,7 +84,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "汐颜",
-    "active_character": "infinite3-贝露.png",
+    "active_character": "霜影剑歌行.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -2399,8 +2399,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 161893,
                 "LAST_SEND_CHARS": 264214,
-                "LAST_RECEIVE_TOKENS": 1925,
-                "LAST_RECEIVE_CHARS": 2700
+                "LAST_RECEIVE_TOKENS": 903,
+                "LAST_RECEIVE_CHARS": 642
             }
         },
         "attachments": [],
