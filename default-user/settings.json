@@ -1880,6 +1880,40 @@
                 "promptOnly": true
             },
             {
+                "id": "84758507-4c15-44cc-803e-a65b28540785",
+                "scriptName": "【demini】D3隐藏全部前文[22]",
+                "findRegex": "/[\\s\\S]*/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 22,
+                "maxDepth": null
+            },
+            {
+                "id": "5bb6f1b1-8d6f-487b-a383-9e25a067ff67",
+                "scriptName": "【demini】D1非插件式表格折叠",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<table>(.*?)</table>/gs",
+                "replaceString": "<details><summary>*<font color=#C0C0C0>非插件式表格<font>*</summary>\n> $1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -1948,23 +1982,6 @@
                 "promptOnly": true
             },
             {
-                "id": "84758507-4c15-44cc-803e-a65b28540785",
-                "scriptName": "【demini】D3隐藏全部前文[22]",
-                "findRegex": "/[\\s\\S]*/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 22,
-                "maxDepth": null
-            },
-            {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
                 "scriptName": "【可视地图】隐藏",
                 "disabled": true,
@@ -2005,23 +2022,6 @@
                 "runOnEdit": true,
                 "findRegex": "/<tableThink>[\\s\\S]*?<\\/tableThink>|/<tableEdit>[\\s\\S]*?<\\/tableEdit>|<GeneralStatus>[\\s\\S]*?<\\/GeneralStatus>|<guifan>[\\s\\S]*?<\\/guifan>/gs",
                 "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
-            },
-            {
-                "id": "5bb6f1b1-8d6f-487b-a383-9e25a067ff67",
-                "scriptName": "【demini】D1非插件式表格折叠",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<table>(.*?)</table>/gs",
-                "replaceString": "<details><summary>*<font color=#C0C0C0>非插件式表格<font>*</summary>\n> $1\n</details>",
                 "trimStrings": [],
                 "placement": [
                     2
