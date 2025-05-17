@@ -5755,7 +5755,7 @@
                 "marker": false,
                 "name": "时间观念增强(SHow)",
                 "role": "system",
-                "content": "- 在创作过程中，判断<user>与角色的对话、行为消耗的时间，分别用：\n<passedTime({minute:x})>\n<passedTime({hour:x})>\n<passedTime({day:x})>\n插入文中表示推进的分钟、小时、日。\n在<content>的最后补充:\n<currentTime>\n年，月，日，星期几，XX:XX\n<\\currentTime>\n用以记录当前具体时间",
+                "content": "- 在创作过程中，判断<user>与角色的对话、行为消耗的时间，分别用：\n<passedTime({minute:x})>\n<passedTime({hour:x})>\n<passedTime({day:x})>\n插入文中表示推进的分钟、小时、日。\n在<content>的最后用<currentTime><\\currentTime>补充:\n<currentTime>\n年，月，日，星期几，XX:XX\n<\\currentTime>\n用以记录当前具体时间",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
