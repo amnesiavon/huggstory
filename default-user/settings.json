@@ -1865,7 +1865,7 @@
             {
                 "id": "b22156fc-8df3-416f-b789-6a71f277266a",
                 "scriptName": "【demini】自动推算时间",
-                "findRegex": "/<currentTime>[\\s\\S]*?<\\/currentTime>",
+                "findRegex": "/<currentTime>[\\s\\S]*?<\\/currentTime>/gs",
                 "replaceString": "<details><summary>*<font color=#C0C0C0>自动推算时间<font>*</summary>",
                 "trimStrings": [],
                 "placement": [
