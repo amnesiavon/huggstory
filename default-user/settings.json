@@ -1846,23 +1846,6 @@
                 "maxDepth": null
             },
             {
-                "id": "569f5153-f6c7-44a8-93f9-4dd7706fac27",
-                "scriptName": "【demini】开小总结用2",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 11,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "4f21d05f-4639-4282-a1cc-eeb3edfbfa56",
                 "scriptName": "【demini】开小总结用1",
                 "disabled": false,
@@ -1876,6 +1859,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 10,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "569f5153-f6c7-44a8-93f9-4dd7706fac27",
+                "scriptName": "【demini】开小总结用2",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 11,
+                "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
             },
@@ -1895,6 +1895,23 @@
                 "maxDepth": 0,
                 "markdownOnly": true,
                 "promptOnly": false
+            },
+            {
+                "id": "fcbd9df9-3d50-46a7-86a9-933eb146255d",
+                "scriptName": "【专防】省略号增殖2",
+                "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…|······)(?!\\s)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             },
             {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
@@ -2153,23 +2170,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "fcbd9df9-3d50-46a7-86a9-933eb146255d",
-                "scriptName": "【专防】省略号增殖2",
-                "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…|······)(?!\\s)/g",
-                "replaceString": "$1",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             },
             {
                 "id": "120c6ea6-19b4-4092-8575-f02e9f646003",
