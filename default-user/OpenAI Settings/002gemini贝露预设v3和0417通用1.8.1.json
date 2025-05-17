@@ -1083,7 +1083,7 @@
                 },
                 {
                     "identifier": "4df2711b-2452-4f18-8bce-fc3ee97806f8",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "f5680674-3e1b-461b-a701-863d9288c762",
@@ -1207,7 +1207,7 @@
                 },
                 {
                     "identifier": "f9bcd565-1222-416c-af28-d33dc9df0972",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "53800f36-9d64-4a2f-81c4-fba448f8c51d",
@@ -1219,7 +1219,7 @@
                 },
                 {
                     "identifier": "a5cf2df7-0d58-4fee-99fc-1c29cdc7b7f7",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "7bed4b41-c73f-45a4-8d78-653b6ee126d1",
