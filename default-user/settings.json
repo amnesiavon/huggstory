@@ -3194,7 +3194,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 13,
+                    "lastProcessedLength": 12,
                     "userConfigured": true
                 }
             },
@@ -5972,7 +5972,7 @@
                     },
                     {
                         "identifier": "7800937b-8af6-4cbd-b563-02983e65e1be",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "25cd1c61-3ed7-4a0b-9922-b5d38de4b7ff",
