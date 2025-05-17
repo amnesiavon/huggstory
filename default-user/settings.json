@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -23,7 +23,7 @@
         "AlertWI_露出世界.png": "true",
         "AlertRegex_WorldofHorror.png": "true",
         "WI_PerPage": "50",
-        "extension_update_nag": "Sun May 18 2025",
+        "extension_update_nag": "Sat May 17 2025",
         "AlertWI_万界聊天群“真语阁”.png": "true",
         "AlertRegex_露出世界.png": "true",
         "__migrated": "1",
@@ -2464,10 +2464,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 135093,
-                "LAST_SEND_CHARS": 223992,
-                "LAST_RECEIVE_TOKENS": 4068,
-                "LAST_RECEIVE_CHARS": 6119
+                "LAST_SEND_TOKENS": 128601,
+                "LAST_SEND_CHARS": 213130,
+                "LAST_RECEIVE_TOKENS": 5151,
+                "LAST_RECEIVE_CHARS": 8544
             }
         },
         "attachments": [],
@@ -3194,7 +3194,7 @@
                 },
                 "character-infinite.png": {
                     "hideLastN": 0,
-                    "lastProcessedLength": 17,
+                    "lastProcessedLength": 15,
                     "userConfigured": true
                 }
             },
@@ -3461,7 +3461,7 @@
         "preset_settings_openai": "【demini】0417思考态-自改",
         "temp_openai": 1.2,
         "freq_pen_openai": 0,
-        "pres_pen_openai": -0.44,
+        "pres_pen_openai": 0,
         "top_p_openai": 0.99,
         "top_k_openai": 40,
         "min_p_openai": 0,
