@@ -400,7 +400,7 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<thinki>\n",
+            "prefix": "<think>\n",
             "suffix": "\n</think>",
             "separator": "\n\n",
             "max_additions": 1,
@@ -2465,8 +2465,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 119040,
-                "LAST_SEND_CHARS": 198333,
+                "LAST_SEND_TOKENS": 119041,
+                "LAST_SEND_CHARS": 198328,
                 "LAST_RECEIVE_TOKENS": 139,
                 "LAST_RECEIVE_CHARS": 202
             }
