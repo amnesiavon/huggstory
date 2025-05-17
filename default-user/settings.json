@@ -1778,6 +1778,23 @@
                 "maxDepth": null
             },
             {
+                "id": "7d2d7f40-cadd-4cca-930f-828f9bad8b78",
+                "scriptName": "【demini】D1替绝望羊折叠正则",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<air>(.*?)</air>/gs",
+                "replaceString": "<details><summary>*<font color=#F08080>替绝望羊</font>*</summary>\n> $1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -2153,23 +2170,6 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
-            },
-            {
-                "id": "7d2d7f40-cadd-4cca-930f-828f9bad8b78",
-                "scriptName": "【demini】D1替绝望羊折叠正则",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<air>(.*?)</air>/gs",
-                "replaceString": "<details><summary>*<font color=#F08080>替绝望羊</font>*</summary>\n> $1\n</details>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
             },
             {
                 "id": "569f5153-f6c7-44a8-93f9-4dd7706fac27",
