@@ -1795,6 +1795,23 @@
                 "promptOnly": false
             },
             {
+                "id": "f158f42a-1777-43fe-8567-9aaf16829ac7",
+                "scriptName": "【demini】D3前绝望羊补牢正则",
+                "findRegex": "/<air>[\\s\\S]*?</air>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -2149,23 +2166,6 @@
                 "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "f158f42a-1777-43fe-8567-9aaf16829ac7",
-                "scriptName": "【demini】D3前绝望羊补牢正则",
-                "findRegex": "/<air>[\\s\\S]*?</air>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
