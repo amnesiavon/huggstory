@@ -400,11 +400,11 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<thinking>",
-            "suffix": "</thinking>",
+            "prefix": "<thinking>\n",
+            "suffix": "\n</thinking>",
             "separator": "\n\n",
             "max_additions": 1,
-            "name": "[Migrated] Custom"
+            "name": "DeepSeek"
         },
         "personas": {
             "user-default.png": "汐颜",
