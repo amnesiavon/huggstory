@@ -1727,23 +1727,6 @@
                 "promptOnly": true
             },
             {
-                "id": "ea78d22a-5fb5-4a9f-bde0-e152525ce516",
-                "scriptName": "【demini】D4隐藏前文用户消息",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "84758507-4c15-44cc-803e-a65b28540785",
                 "scriptName": "【demini】D3隐藏全部前文[22]",
                 "findRegex": "/[\\s\\S]*/gm",
@@ -1759,6 +1742,23 @@
                 "substituteRegex": 0,
                 "minDepth": 22,
                 "maxDepth": null
+            },
+            {
+                "id": "ea78d22a-5fb5-4a9f-bde0-e152525ce516",
+                "scriptName": "【demini】D4隐藏前文用户消息",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "ecb4f196-c12b-409b-9c9a-e47b4285175f",
@@ -2467,8 +2467,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 100887,
                 "LAST_SEND_CHARS": 169631,
-                "LAST_RECEIVE_TOKENS": 521,
-                "LAST_RECEIVE_CHARS": 784
+                "LAST_RECEIVE_TOKENS": 176,
+                "LAST_RECEIVE_CHARS": 265
             }
         },
         "attachments": [],
