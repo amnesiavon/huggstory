@@ -2467,8 +2467,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 107989,
                 "LAST_SEND_CHARS": 180322,
-                "LAST_RECEIVE_TOKENS": 176,
-                "LAST_RECEIVE_CHARS": 265
+                "LAST_RECEIVE_TOKENS": 113,
+                "LAST_RECEIVE_CHARS": 223
             }
         },
         "attachments": [],
@@ -6457,7 +6457,7 @@
                     },
                     {
                         "identifier": "2bd0bb21-df44-4059-9a67-e81c4cc9b344",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "4f481a10-316b-4b85-a135-5c00486edf07",
