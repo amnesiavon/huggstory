@@ -2465,9 +2465,9 @@
         "variables": {
             "global": {
                 "LAST_SEND_TOKENS": 107384,
-                "LAST_SEND_CHARS": 178120,
-                "LAST_RECEIVE_TOKENS": 39,
-                "LAST_RECEIVE_CHARS": 56
+                "LAST_SEND_CHARS": 178110,
+                "LAST_RECEIVE_TOKENS": 1019,
+                "LAST_RECEIVE_CHARS": 1391
             }
         },
         "attachments": [],
