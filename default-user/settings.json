@@ -2466,9 +2466,9 @@
         "variables": {
             "global": {
                 "LAST_SEND_TOKENS": 103919,
-                "LAST_SEND_CHARS": 174686,
-                "LAST_RECEIVE_TOKENS": 521,
-                "LAST_RECEIVE_CHARS": 784
+                "LAST_SEND_CHARS": 174675,
+                "LAST_RECEIVE_TOKENS": 1449,
+                "LAST_RECEIVE_CHARS": 2176
             }
         },
         "attachments": [],
@@ -6733,7 +6733,7 @@
         "openrouter_middleout": "on",
         "reverse_proxy": "",
         "chat_completion_source": "custom",
-        "max_context_unlocked": true,
+        "max_context_unlocked": false,
         "api_url_scale": "",
         "show_external_models": false,
         "proxy_password": "",
