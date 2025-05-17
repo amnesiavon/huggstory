@@ -96,7 +96,6 @@
         "world_info": {
             "globalSelect": [
                 "人类本能世界书",
-                "多维情感网络联动书",
                 "文本效果增强",
                 "针对2.5pro的瑟瑟场景 (2)"
             ],
@@ -2465,8 +2464,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 119049,
-                "LAST_SEND_CHARS": 198328,
+                "LAST_SEND_TOKENS": 119044,
+                "LAST_SEND_CHARS": 198352,
                 "LAST_RECEIVE_TOKENS": 139,
                 "LAST_RECEIVE_CHARS": 202
             }
