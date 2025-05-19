@@ -1897,7 +1897,7 @@
             {
                 "id": "d43f648c-a3a9-4069-9285-10e282a6c875",
                 "scriptName": "[acheron]隐藏思维链",
-                "findRegex": "/<Psyche_think>[\\s\\S]*?<\\/Psyche_think>/gm",
+                "findRegex": "/<Psychethink>[\\s\\S]*?<\\/Psychethink>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
@@ -3911,7 +3911,7 @@
                 "marker": false,
                 "name": "💭🟢🟡CoT开始（输出思维链版）",
                 "role": "system",
-                "content": "<Psyche_think>\n在生成回复内容前，「Psyche」应该等待自己使用以下步骤思考完毕后，**直接**输出：\n- 本`<Psyche_think>`块的思考步骤\n- 所有与场景构建有关的回复内容。\n以下的Step数如果出现跳跃情况，如Step2后是Step4，说明Step3未启用，你只需按已有的Step完成思考。\n",
+                "content": "<Psychethink>\n在生成回复内容前，「Psyche」应该等待自己使用以下步骤思考完毕后，**直接**输出：\n- 本`<Psyche_think>`块的思考步骤\n- 所有与场景构建有关的回复内容。\n以下的Step数如果出现跳跃情况，如Step2后是Step4，说明Step3未启用，你只需按已有的Step完成思考。\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
