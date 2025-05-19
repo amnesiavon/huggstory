@@ -1590,23 +1590,6 @@
         "dice": {},
         "regex": [
             {
-                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
-                "scriptName": "【文字特效】美化省token",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<[^>]*>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "11d13ac2-f287-4b9a-ada4-dd54d43f3320",
                 "scriptName": "【贝露】省略号改逗号",
                 "disabled": true,
@@ -1981,6 +1964,23 @@
                 "substituteRegex": 0,
                 "minDepth": 5,
                 "maxDepth": null
+            },
+            {
+                "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
+                "scriptName": "【文字特效】美化省token",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
