@@ -1948,7 +1948,7 @@
             },
             {
                 "id": "9ec2bcb0-531e-49af-9c17-c41a61ee4166",
-                "scriptName": "[acheron不发送5楼以下摘要文本",
+                "scriptName": "[acheron]不发送5楼以下摘要文本",
                 "findRegex": "/<details>\\s*<summary>摘要<\\/summary>([\\s\\S]*?)<\\/details>/gm",
                 "replaceString": "",
                 "trimStrings": [],
