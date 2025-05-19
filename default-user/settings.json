@@ -2101,6 +2101,74 @@
                 "promptOnly": false
             },
             {
+                "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
+                "scriptName": "【K】去除<Main_Quest>1",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 2,
+                "maxDepth": null
+            },
+            {
+                "id": "bfdb2cfb-5e56-43d3-9a59-90ec31b0a0d8",
+                "scriptName": "【K】去除摘要_不发送正文",
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 10,
+                "maxDepth": null
+            },
+            {
+                "id": "afcf5bde-e980-40b4-bd7c-1c69c4245251",
+                "scriptName": "【K】K添加tag",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
+                "id": "0b23053e-a2a3-4d27-adb6-d41929de9743",
+                "scriptName": "【K】Kemini通用去除多余内容",
+                "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<guifan>.*?</guifan>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!--\\s*consider\\s*:\\s*(.*?)\\s*-->)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "97bc42a7-0ff9-4fb8-8e68-3ac5e66b73c4",
                 "scriptName": "【可视地图】隐藏2",
                 "disabled": true,
@@ -2116,6 +2184,40 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
+            },
+            {
+                "id": "db3e2b56-b154-424a-813b-4ff028a12be1",
+                "scriptName": "【K】去除摘要_防AI抄袭",
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 10
+            },
+            {
+                "id": "e51433ed-3bc6-4dc2-91d2-3a7f238f4afe",
+                "scriptName": "【K】K去除所有用户消息",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null
             },
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
@@ -2255,108 +2357,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
-                "scriptName": "【K】去除<Main_Quest>1",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null
-            },
-            {
-                "id": "e51433ed-3bc6-4dc2-91d2-3a7f238f4afe",
-                "scriptName": "【K】K去除所有用户消息",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null
-            },
-            {
-                "id": "db3e2b56-b154-424a-813b-4ff028a12be1",
-                "scriptName": "【K】去除摘要_防AI抄袭",
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10
-            },
-            {
-                "id": "bfdb2cfb-5e56-43d3-9a59-90ec31b0a0d8",
-                "scriptName": "【K】去除摘要_不发送正文",
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 10,
-                "maxDepth": null
-            },
-            {
-                "id": "0b23053e-a2a3-4d27-adb6-d41929de9743",
-                "scriptName": "【K】Kemini通用去除多余内容",
-                "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<guifan>.*?</guifan>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!--\\s*consider\\s*:\\s*(.*?)\\s*-->)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "afcf5bde-e980-40b4-bd7c-1c69c4245251",
-                "scriptName": "【K】K添加tag",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
             }
         ],
         "character_allowed_regex": [
