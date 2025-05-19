@@ -2273,7 +2273,7 @@
             {
                 "id": "56374d0d-8f96-428b-b177-09dcb8f30545",
                 "scriptName": "【贝露】用户内容包裹",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
