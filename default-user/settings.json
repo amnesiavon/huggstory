@@ -1982,21 +1982,38 @@
                 "maxDepth": null
             },
             {
-                "id": "87663666-3d87-4be5-804c-2e6b1babc0f8",
-                "scriptName": "【贝露】省略号改逗号",
+                "id": "e51433ed-3bc6-4dc2-91d2-3a7f238f4afe",
+                "scriptName": "【K】K去除所有用户消息",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
                 "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
                 "runOnEdit": true,
-                "findRegex": "/(……|…(?!…))(?=\\S)/gs",
-                "replaceString": "，",
+                "substituteRegex": 0,
+                "minDepth": 1,
+                "maxDepth": null
+            },
+            {
+                "id": "db3e2b56-b154-424a-813b-4ff028a12be1",
+                "scriptName": "【K】去除摘要_防AI抄袭",
+                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+                "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
+                "maxDepth": 10
             },
             {
                 "id": "bfdb2cfb-5e56-43d3-9a59-90ec31b0a0d8",
@@ -2014,6 +2031,23 @@
                 "substituteRegex": 0,
                 "minDepth": 10,
                 "maxDepth": null
+            },
+            {
+                "id": "87663666-3d87-4be5-804c-2e6b1babc0f8",
+                "scriptName": "【贝露】省略号改逗号",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/(……|…(?!…))(?=\\S)/gs",
+                "replaceString": "，",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "cc132fca-2726-4141-acff-5bf264b08dd6",
@@ -2184,40 +2218,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "db3e2b56-b154-424a-813b-4ff028a12be1",
-                "scriptName": "【K】去除摘要_防AI抄袭",
-                "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 10
-            },
-            {
-                "id": "e51433ed-3bc6-4dc2-91d2-3a7f238f4afe",
-                "scriptName": "【K】K去除所有用户消息",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 1,
-                "maxDepth": null
             },
             {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
