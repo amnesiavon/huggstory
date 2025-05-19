@@ -9,7 +9,7 @@
         "AlertRegex_白化蓝染的日记本.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}},\"2853916809379679\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_Mori.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertWI_顾云汐.png": "true",
         "WINavOpened": "true",
         "AlertRegex_「系统Z-09」.png": "true",
@@ -3580,7 +3580,7 @@
     "oai_settings": {
         "preset_settings_openai": "（Kemini o1分支）硬米INmini O1",
         "temp_openai": 1.2,
-        "freq_pen_openai": 0,
+        "freq_pen_openai": -1.21,
         "pres_pen_openai": 0,
         "top_p_openai": 0.82,
         "top_k_openai": 40,
