@@ -1899,7 +1899,7 @@
             {
                 "id": "29c2babc-4d7a-41ca-8b93-f13c07ddbc41",
                 "scriptName": "【DepressIon】剧情推进1 v2.5",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
                 "replaceString": "<details>\n<summary>剧情</summary>\n$1\n</details>",
@@ -2584,10 +2584,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 84686,
-                "LAST_SEND_CHARS": 142646,
-                "LAST_RECEIVE_TOKENS": 33,
-                "LAST_RECEIVE_CHARS": 47
+                "LAST_SEND_TOKENS": 87865,
+                "LAST_SEND_CHARS": 147653,
+                "LAST_RECEIVE_TOKENS": 1777,
+                "LAST_RECEIVE_CHARS": 2581
             }
         },
         "attachments": [],
