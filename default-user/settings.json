@@ -2275,20 +2275,20 @@
             },
             {
                 "id": "e51433ed-3bc6-4dc2-91d2-3a7f238f4afe",
-                "scriptName": "K去除所有用户消息",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "【K】K去除所有用户消息",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 1,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
+                "maxDepth": null
             },
             {
                 "id": "db3e2b56-b154-424a-813b-4ff028a12be1",
