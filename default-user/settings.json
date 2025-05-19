@@ -1948,6 +1948,24 @@
                 "maxDepth": 5
             },
             {
+                "id": "f15fd023-f8ae-47ad-87b2-2c6bc9190fa1",
+                "scriptName": "[acheron]不发送5楼以上除摘要外文本",
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>摘要<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 5,
+                "maxDepth": null
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -2014,6 +2032,23 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
+            },
+            {
+                "id": "d43f648c-a3a9-4069-9285-10e282a6c875",
+                "scriptName": "[acheron]隐藏思维链",
+                "findRegex": "/<Psyche_think>[\\s\\S]*?<\\/Psyche_think>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             },
             {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
@@ -2272,41 +2307,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "f15fd023-f8ae-47ad-87b2-2c6bc9190fa1",
-                "scriptName": "[acheron]不发送5楼以上除摘要外文本",
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>摘要<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 5,
-                "maxDepth": null
-            },
-            {
-                "id": "d43f648c-a3a9-4069-9285-10e282a6c875",
-                "scriptName": "[acheron]隐藏思维链",
-                "findRegex": "/<Psyche_think>[\\s\\S]*?<\\/Psyche_think>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
