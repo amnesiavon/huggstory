@@ -2002,7 +2002,7 @@
             {
                 "id": "fcbd9df9-3d50-46a7-86a9-933eb146255d",
                 "scriptName": "【专防】省略号增殖2",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…|······)(?!\\s)/g",
                 "replaceString": "$1",
@@ -2019,7 +2019,7 @@
             {
                 "id": "120c6ea6-19b4-4092-8575-f02e9f646003",
                 "scriptName": "【专防】省略号增殖",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/(最终|然后|地|的|以及|有些|和|似乎|已经|是|去|或许|更加|那个|一[\\u4e00-\\u9fa5])(……|…)/g",
                 "replaceString": "$1",
@@ -2036,7 +2036,7 @@
             {
                 "id": "7d061813-683b-40a0-8b4f-f37a31ce4dea",
                 "scriptName": "【专防】星号增殖正则",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/\\*\\*/g",
                 "replaceString": "",
@@ -2536,8 +2536,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 112253,
                 "LAST_SEND_CHARS": 191990,
-                "LAST_RECEIVE_TOKENS": 5405,
-                "LAST_RECEIVE_CHARS": 9650
+                "LAST_RECEIVE_TOKENS": 5407,
+                "LAST_RECEIVE_CHARS": 9654
             }
         },
         "attachments": [],
