@@ -398,8 +398,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<thinking>\n",
-            "suffix": "</thinking>\n",
+            "prefix": "<think>\n",
+            "suffix": "</think>\n",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "DeepSeek"
