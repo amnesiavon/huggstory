@@ -1996,6 +1996,57 @@
                 "promptOnly": true
             },
             {
+                "id": "87663666-3d87-4be5-804c-2e6b1babc0f8",
+                "scriptName": "【贝露】省略号改逗号",
+                "findRegex": "/(……|…(?!…))(?=\\S)/gs",
+                "replaceString": "，",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "ddedc792-7006-4d94-81b8-60b988517e1e",
+                "scriptName": "【贝露】星号",
+                "findRegex": "/\\*\\*/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "51953b52-8815-4539-a77a-4eb81c2353d9",
+                "scriptName": "【贝露】微积分去除",
+                "findRegex": "<math class>([\\s\\S]*?)</math class>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "79dc247a-05fd-4515-a0d0-164a176eed1f",
                 "scriptName": "隐藏纠错",
                 "disabled": true,
@@ -2220,40 +2271,6 @@
                 "promptOnly": true
             },
             {
-                "id": "87663666-3d87-4be5-804c-2e6b1babc0f8",
-                "scriptName": "【贝露】省略号改逗号",
-                "findRegex": "/(……|…(?!…))(?=\\S)/gs",
-                "replaceString": "，",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "ddedc792-7006-4d94-81b8-60b988517e1e",
-                "scriptName": "【贝露】星号",
-                "findRegex": "/\\*\\*/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "cc132fca-2726-4141-acff-5bf264b08dd6",
                 "scriptName": "【贝露】黑森森用",
                 "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
@@ -2286,23 +2303,6 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 1
-            },
-            {
-                "id": "51953b52-8815-4539-a77a-4eb81c2353d9",
-                "scriptName": "【贝露】微积分去除",
-                "findRegex": "<math class>([\\s\\S]*?)</math class>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             },
             {
                 "id": "29c2babc-4d7a-41ca-8b93-f13c07ddbc41",
