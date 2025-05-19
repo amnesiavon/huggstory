@@ -4187,7 +4187,7 @@
                 "marker": false,
                 "name": "💭🟢🟡CoT结束（输出思维链版）",
                 "role": "system",
-                "content": "[Last Step: 输出阶段]：\n- 已经按以上Step思考完成。\n**思考结果:**   **直接**输出以下回复内容：\n- 将`<Psyche_think>`块包裹的本思考过程输出\n- 将Step 11中审阅完毕的所有最终内容输出\n</Psyche_think>{{trim}}",
+                "content": "[Last Step: 输出阶段]：\n- 已经按以上Step思考完成。\n**思考结果:**   **直接**输出以下回复内容：\n- 将`<Psyche_think>`块包裹的本思考过程输出\n- 将Step 11中审阅完毕的所有最终内容输出\n</Psychethink>{{trim}}",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
