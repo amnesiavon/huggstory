@@ -2221,7 +2221,7 @@
             },
             {
                 "id": "87663666-3d87-4be5-804c-2e6b1babc0f8",
-                "scriptName": "省略号改逗号",
+                "scriptName": "【贝露】省略号改逗号",
                 "findRegex": "/(……|…(?!…))(?=\\S)/gs",
                 "replaceString": "，",
                 "trimStrings": [],
@@ -2255,7 +2255,7 @@
             },
             {
                 "id": "cc132fca-2726-4141-acff-5bf264b08dd6",
-                "scriptName": "黑森森用",
+                "scriptName": "【贝露】黑森森用",
                 "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
                 "replaceString": "",
                 "trimStrings": [],
