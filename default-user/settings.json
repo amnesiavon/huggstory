@@ -1916,7 +1916,7 @@
             {
                 "id": "d1065fff-3006-4c1d-905f-9fdddba44260",
                 "scriptName": "【DepressIon】剧情推进2 v2.5",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
                 "replaceString": "",
@@ -1926,6 +1926,23 @@
                 ],
                 "substituteRegex": 0,
                 "minDepth": 12,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
+                "scriptName": "【K】去除<Main_Quest>1",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 2,
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
@@ -1946,23 +1963,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": false
-            },
-            {
-                "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
-                "scriptName": "【K】去除<Main_Quest>1",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
             },
             {
                 "id": "afcf5bde-e980-40b4-bd7c-1c69c4245251",
