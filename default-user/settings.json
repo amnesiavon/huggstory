@@ -3316,6 +3316,11 @@
                     "hideLastN": 0,
                     "lastProcessedLength": 17,
                     "userConfigured": true
+                },
+                "character-infinite2.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 37,
+                    "userConfigured": true
                 }
             },
             "migration_v1_complete": true,
