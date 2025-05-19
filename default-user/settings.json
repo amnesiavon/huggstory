@@ -1913,6 +1913,23 @@
                 "promptOnly": true
             },
             {
+                "id": "d43f648c-a3a9-4069-9285-10e282a6c875",
+                "scriptName": "[acheron]隐藏思维链",
+                "findRegex": "/<Psyche_think>[\\s\\S]*?<\\/Psyche_think>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "e3f76bd8-dacd-468f-8af6-0373c6fb0bc0",
                 "scriptName": "[acheron]可折叠情绪栏",
                 "findRegex": "/<Char_emotion[^>]*>([\\s\\S]*?)<\\/Char_emotion>/g",
@@ -2032,23 +2049,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "d43f648c-a3a9-4069-9285-10e282a6c875",
-                "scriptName": "[acheron]隐藏思维链",
-                "findRegex": "/<Psyche_think>[\\s\\S]*?<\\/Psyche_think>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             },
             {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
