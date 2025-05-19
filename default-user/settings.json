@@ -1962,6 +1962,40 @@
                 "promptOnly": true
             },
             {
+                "id": "29c2babc-4d7a-41ca-8b93-f13c07ddbc41",
+                "scriptName": "【DepressIon】剧情推进1 v2.5",
+                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
+                "replaceString": "<details>\n<summary>剧情</summary>\n$1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "d1065fff-3006-4c1d-905f-9fdddba44260",
+                "scriptName": "【DepressIon】剧情推进2 v2.5",
+                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 12,
+                "maxDepth": null
+            },
+            {
                 "id": "be362ec2-d17d-45e2-987d-8bd65e9889f9",
                 "scriptName": "【可视地图】隐藏",
                 "disabled": true,
@@ -2030,6 +2064,23 @@
                 "maxDepth": null
             },
             {
+                "id": "cc132fca-2726-4141-acff-5bf264b08dd6",
+                "scriptName": "【贝露】黑森森用",
+                "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "51953b52-8815-4539-a77a-4eb81c2353d9",
                 "scriptName": "【贝露】微积分去除",
                 "findRegex": "<math class>([\\s\\S]*?)</math class>",
@@ -2079,6 +2130,23 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
+            },
+            {
+                "id": "56374d0d-8f96-428b-b177-09dcb8f30545",
+                "scriptName": "【贝露】用户内容包裹",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
             },
             {
                 "id": "03fde1c4-37e4-4e2d-b306-3ce3624958eb",
@@ -2269,74 +2337,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "cc132fca-2726-4141-acff-5bf264b08dd6",
-                "scriptName": "【贝露】黑森森用",
-                "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "56374d0d-8f96-428b-b177-09dcb8f30545",
-                "scriptName": "【贝露】用户内容包裹",
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "29c2babc-4d7a-41ca-8b93-f13c07ddbc41",
-                "scriptName": "【DepressIon】剧情推进1 v2.5",
-                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
-                "replaceString": "<details>\n<summary>剧情</summary>\n$1\n</details>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "d1065fff-3006-4c1d-905f-9fdddba44260",
-                "scriptName": "【DepressIon】剧情推进2 v2.5",
-                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 12,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
