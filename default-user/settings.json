@@ -1592,7 +1592,7 @@
             {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
                 "scriptName": "【文字特效】美化省token",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<[^>]*>/g",
                 "replaceString": "",
@@ -2536,8 +2536,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 112252,
                 "LAST_SEND_CHARS": 191990,
-                "LAST_RECEIVE_TOKENS": 6799,
-                "LAST_RECEIVE_CHARS": 12818
+                "LAST_RECEIVE_TOKENS": 7209,
+                "LAST_RECEIVE_CHARS": 13531
             }
         },
         "attachments": [],
