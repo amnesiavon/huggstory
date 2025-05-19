@@ -395,8 +395,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<Psychethink>\n",
-            "suffix": "</Psychethink>\n",
+            "prefix": "<thinking>\n",
+            "suffix": "</thinking>\n",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "DeepSeek"
@@ -2566,8 +2566,8 @@
             "global": {
                 "LAST_SEND_TOKENS": 87384,
                 "LAST_SEND_CHARS": 143695,
-                "LAST_RECEIVE_TOKENS": 176,
-                "LAST_RECEIVE_CHARS": 265
+                "LAST_RECEIVE_TOKENS": 521,
+                "LAST_RECEIVE_CHARS": 784
             }
         },
         "attachments": [],
