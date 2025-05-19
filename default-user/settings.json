@@ -2238,7 +2238,7 @@
             },
             {
                 "id": "ddedc792-7006-4d94-81b8-60b988517e1e",
-                "scriptName": "星号",
+                "scriptName": "【贝露】星号",
                 "findRegex": "/\\*\\*/g",
                 "replaceString": "",
                 "trimStrings": [],
