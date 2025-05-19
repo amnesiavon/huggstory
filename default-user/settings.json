@@ -2533,10 +2533,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 109081,
+                "LAST_SEND_TOKENS": 109079,
                 "LAST_SEND_CHARS": 179010,
-                "LAST_RECEIVE_TOKENS": 3208,
-                "LAST_RECEIVE_CHARS": 5014
+                "LAST_RECEIVE_TOKENS": 7596,
+                "LAST_RECEIVE_CHARS": 13945
             }
         },
         "attachments": [],
@@ -3911,7 +3911,7 @@
                 "marker": false,
                 "name": "💭🟢🟡CoT开始（输出思维链版）",
                 "role": "system",
-                "content": "<Psychethink>\n在生成回复内容前，「Psyche」应该等待自己使用以下步骤思考完毕后，**直接**输出：\n- 本`<Psyche_think>`块的思考步骤\n- 所有与场景构建有关的回复内容。\n以下的Step数如果出现跳跃情况，如Step2后是Step4，说明Step3未启用，你只需按已有的Step完成思考。\n",
+                "content": "<Psychethink>\n在生成回复内容前，「Psyche」应该等待自己使用以下步骤思考完毕后，**直接**输出：\n- 本`<Psychethink>`块的思考步骤\n- 所有与场景构建有关的回复内容。\n以下的Step数如果出现跳跃情况，如Step2后是Step4，说明Step3未启用，你只需按已有的Step完成思考。\n",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -4187,7 +4187,7 @@
                 "marker": false,
                 "name": "💭🟢🟡CoT结束（输出思维链版）",
                 "role": "system",
-                "content": "[Last Step: 输出阶段]：\n- 已经按以上Step思考完成。\n**思考结果:**   **直接**输出以下回复内容：\n- 将`<Psyche_think>`块包裹的本思考过程输出\n- 将Step 11中审阅完毕的所有最终内容输出\n</Psychethink>{{trim}}",
+                "content": "[Last Step: 输出阶段]：\n- 已经按以上Step思考完成。\n**思考结果:**   **直接**输出以下回复内容：\n- 将`<Psychethink>`块包裹的本思考过程输出\n- 将Step 11中审阅完毕的所有最终内容输出\n</Psychethink>{{trim}}",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
