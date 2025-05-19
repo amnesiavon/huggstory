@@ -96,8 +96,7 @@
         "world_info": {
             "globalSelect": [
                 "人类本能世界书",
-                "针对2.5pro的瑟瑟场景 (2)",
-                "文本效果增强"
+                "针对2.5pro的瑟瑟场景 (2)"
             ],
             "charLore": []
         },
@@ -2534,8 +2533,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 112253,
-                "LAST_SEND_CHARS": 191990,
+                "LAST_SEND_TOKENS": 112264,
+                "LAST_SEND_CHARS": 192005,
                 "LAST_RECEIVE_TOKENS": 531,
                 "LAST_RECEIVE_CHARS": 799
             }
@@ -3537,7 +3536,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": false,
+        "stream_openai": true,
         "openai_max_context": 2000000,
         "openai_max_tokens": 65535,
         "wrap_in_quotes": false,
