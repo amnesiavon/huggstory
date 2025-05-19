@@ -399,8 +399,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": true,
-            "prefix": "<Psyche_think>\n",
-            "suffix": "\n</Psyche_think>",
+            "prefix": "<thinking>\n",
+            "suffix": "\n",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "DeepSeek"
