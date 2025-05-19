@@ -399,7 +399,7 @@
             "auto_expand": false,
             "show_hidden": true,
             "prefix": "<thinking>\n",
-            "suffix": "</think>\n",
+            "suffix": "</thinking>\n",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "DeepSeek"
