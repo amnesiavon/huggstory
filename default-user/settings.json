@@ -1916,126 +1916,126 @@
             {
                 "id": "54d1a2fb-8639-4468-8b54-9e3a126fe466",
                 "scriptName": "【K】去除<Main_Quest>2",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
                 "scriptName": "【K】去除<Main_Quest>1",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 2,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "afcf5bde-e980-40b4-bd7c-1c69c4245251",
                 "scriptName": "【K】K添加tag",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 1
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "0b23053e-a2a3-4d27-adb6-d41929de9743",
                 "scriptName": "【K】Kemini通用去除多余内容",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<guifan>.*?</guifan>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!--\\s*consider\\s*:\\s*(.*?)\\s*-->)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "e51433ed-3bc6-4dc2-91d2-3a7f238f4afe",
                 "scriptName": "【K】K去除所有用户消息",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 1,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "db3e2b56-b154-424a-813b-4ff028a12be1",
                 "scriptName": "【K】去除摘要_防AI抄袭",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 10
+                "maxDepth": 10,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "bfdb2cfb-5e56-43d3-9a59-90ec31b0a0d8",
                 "scriptName": "【K】去除摘要_不发送正文",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 10,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "87663666-3d87-4be5-804c-2e6b1babc0f8",
                 "scriptName": "【贝露】省略号改逗号",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/(……|…(?!…))(?=\\S)/gs",
                 "replaceString": "，",
@@ -2052,7 +2052,7 @@
             {
                 "id": "cc132fca-2726-4141-acff-5bf264b08dd6",
                 "scriptName": "【贝露】黑森森用",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
                 "replaceString": "",
@@ -2069,7 +2069,7 @@
             {
                 "id": "51953b52-8815-4539-a77a-4eb81c2353d9",
                 "scriptName": "【贝露】微积分去除",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "<math class>([\\s\\S]*?)</math class>",
                 "replaceString": "",
@@ -2086,7 +2086,7 @@
             {
                 "id": "ddedc792-7006-4d94-81b8-60b988517e1e",
                 "scriptName": "【贝露】星号",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/\\*\\*/g",
                 "replaceString": "",
@@ -2587,7 +2587,7 @@
                 "LAST_SEND_TOKENS": 86100,
                 "LAST_SEND_CHARS": 141895,
                 "LAST_RECEIVE_TOKENS": 1672,
-                "LAST_RECEIVE_CHARS": 2427
+                "LAST_RECEIVE_CHARS": 2435
             }
         },
         "attachments": [],
