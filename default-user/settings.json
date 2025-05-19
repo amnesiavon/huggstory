@@ -2258,20 +2258,20 @@
             },
             {
                 "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
-                "scriptName": "去除<Main_Quest>1",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "【K】去除<Main_Quest>1",
                 "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 2,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
+                "maxDepth": null
             },
             {
                 "id": "e51433ed-3bc6-4dc2-91d2-3a7f238f4afe",
