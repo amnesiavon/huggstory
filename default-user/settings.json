@@ -1586,91 +1586,6 @@
         "dice": {},
         "regex": [
             {
-                "id": "11d13ac2-f287-4b9a-ada4-dd54d43f3320",
-                "scriptName": "【贝露】省略号改逗号",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/(……|…(?!…))(?=\\S)/gs",
-                "replaceString": "，",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "041e4eb5-790c-4fc4-93f1-d817a411cc56",
-                "scriptName": "【贝露】省略号改逗号星号",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "/\\*\\*/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "13c0b769-2a92-4457-b6a7-771457b013fb",
-                "scriptName": "【贝露】省略号改逗号黑森森用",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "<Main_Quest>([\\s\\S]*?)</Main_Quest>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "55012675-6f28-4cc7-9509-4ec1638219bb",
-                "scriptName": "【贝露】省略号改逗号用户内容包裹",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
-                "id": "6f9782d5-19be-4705-9439-656e9132b189",
-                "scriptName": "【贝露】省略号改逗号微积分去除",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "<math class>([\\s\\S]*?)</math class>",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
                 "id": "b5f992f9-1541-4eb5-80db-b7a8bca77aaf",
                 "scriptName": "【demini】D1添加用户输入TAG",
                 "disabled": true,
@@ -1894,40 +1809,42 @@
             {
                 "id": "d43f648c-a3a9-4069-9285-10e282a6c875",
                 "scriptName": "[acheron]隐藏思维链",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<Psychethink>[\\s\\S]*?<\\/Psychethink>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "e3f76bd8-dacd-468f-8af6-0373c6fb0bc0",
                 "scriptName": "[acheron]可折叠情绪栏",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<Char_emotion[^>]*>([\\s\\S]*?)<\\/Char_emotion>/g",
                 "replaceString": "<details><summary>情绪栏</summary>\n```xml\n<Char_emotion>$1</Char_emotion>\n```\n</details>",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "9ec2bcb0-531e-49af-9c17-c41a61ee4166",
                 "scriptName": "[acheron]不发送5楼以下摘要文本",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>摘要<\\/summary>([\\s\\S]*?)<\\/details>/gm",
                 "replaceString": "",
                 "trimStrings": [],
@@ -1935,17 +1852,17 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 5
+                "maxDepth": 5,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "f15fd023-f8ae-47ad-87b2-2c6bc9190fa1",
                 "scriptName": "[acheron]不发送5楼以上除摘要外文本",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>摘要<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
                 "trimStrings": [],
@@ -1953,13 +1870,11 @@
                     1,
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 5,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
