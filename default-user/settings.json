@@ -2241,20 +2241,20 @@
             },
             {
                 "id": "54d1a2fb-8639-4468-8b54-9e3a126fe466",
-                "scriptName": "去除<Main_Quest>2",
-                "disabled": false,
-                "runOnEdit": true,
+                "scriptName": "【K】去除<Main_Quest>2",
                 "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null,
-                "markdownOnly": true,
-                "promptOnly": false
+                "maxDepth": null
             },
             {
                 "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
@@ -2343,7 +2343,7 @@
             },
             {
                 "id": "afcf5bde-e980-40b4-bd7c-1c69c4245251",
-                "scriptName": "K添加tag",
+                "scriptName": "【K】K添加tag",
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
@@ -2587,7 +2587,7 @@
                 "LAST_SEND_TOKENS": 86100,
                 "LAST_SEND_CHARS": 141895,
                 "LAST_RECEIVE_TOKENS": 1672,
-                "LAST_RECEIVE_CHARS": 2428
+                "LAST_RECEIVE_CHARS": 2427
             }
         },
         "attachments": [],
