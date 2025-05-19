@@ -2584,8 +2584,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_SEND_TOKENS": 99510,
-                "LAST_SEND_CHARS": 165039,
+                "LAST_SEND_TOKENS": 102128,
+                "LAST_SEND_CHARS": 168968,
                 "LAST_RECEIVE_TOKENS": 20,
                 "LAST_RECEIVE_CHARS": 25
             }
@@ -3319,7 +3319,7 @@
                 },
                 "character-infinite2.png": {
                     "hideLastN": 10,
-                    "lastProcessedLength": 38,
+                    "lastProcessedLength": 39,
                     "userConfigured": true
                 }
             },
@@ -3592,7 +3592,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
+        "stream_openai": false,
         "openai_max_context": 2000000,
         "openai_max_tokens": 8192,
         "wrap_in_quotes": false,
