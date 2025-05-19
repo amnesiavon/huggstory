@@ -1914,6 +1914,23 @@
                 "promptOnly": true
             },
             {
+                "id": "54d1a2fb-8639-4468-8b54-9e3a126fe466",
+                "scriptName": "【K】去除<Main_Quest>2",
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "87663666-3d87-4be5-804c-2e6b1babc0f8",
                 "scriptName": "【贝露】省略号改逗号",
                 "disabled": false,
@@ -2238,23 +2255,6 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
-            },
-            {
-                "id": "54d1a2fb-8639-4468-8b54-9e3a126fe466",
-                "scriptName": "【K】去除<Main_Quest>2",
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             },
             {
                 "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
