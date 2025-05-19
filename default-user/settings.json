@@ -2326,7 +2326,7 @@
             },
             {
                 "id": "0b23053e-a2a3-4d27-adb6-d41929de9743",
-                "scriptName": "Kemini通用去除多余内容",
+                "scriptName": "【K】Kemini通用去除多余内容",
                 "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<guifan>.*?</guifan>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!--\\s*consider\\s*:\\s*(.*?)\\s*-->)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
                 "replaceString": "",
                 "trimStrings": [],
