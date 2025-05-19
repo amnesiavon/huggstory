@@ -1592,7 +1592,7 @@
             {
                 "id": "2650279b-99ab-4a81-b80c-72539ac1befc",
                 "scriptName": "【文字特效】美化省token",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "/<[^>]*>/g",
                 "replaceString": "",
