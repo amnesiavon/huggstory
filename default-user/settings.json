@@ -5017,7 +5017,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "gemini-2.5-flash-preview-04-17",
+        "custom_model": "gemini-2.5-flash-preview-05-20",
         "custom_url": "https://apisk.kfcvivo50.ggff.net/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
