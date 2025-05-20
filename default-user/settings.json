@@ -1931,6 +1931,23 @@
                 "promptOnly": true
             },
             {
+                "id": "73e0322a-640e-468c-90a6-2d08e70ac7da",
+                "scriptName": "【DepressIon】小总结2 v2.5",
+                "findRegex": "/(?<!<details>\\s*)<summary>(((?!<summary>)[\\s\\S])*?)<\\/summary>/g",
+                "replaceString": "<details>\n<summary>摘要</summary>\n$1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "3dc1e72a-a8f5-4639-8359-c8db5555ad12",
                 "scriptName": "【DepressIon】剧情推进1 v2.5",
                 "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
@@ -1945,6 +1962,23 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "dacb7dc6-cc45-4c36-b148-872ed471614e",
+                "scriptName": "【DepressIon】小总结1 v2.5",
+                "findRegex": "/[\\s\\S]*?(?<!<details>\\s*)<summary>([\\s\\S]*)<\\/summary>[\\s\\S]*/g",
+                "replaceString": "<summary>\n$1\n</summary>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 12,
                 "maxDepth": null
             },
             {
@@ -2133,40 +2167,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": true
-            },
-            {
-                "id": "73e0322a-640e-468c-90a6-2d08e70ac7da",
-                "scriptName": "【DepressIon】小总结2 v2.5",
-                "findRegex": "/(?<!<details>\\s*)<summary>(((?!<summary>)[\\s\\S])*?)<\\/summary>/g",
-                "replaceString": "<details>\n<summary>摘要</summary>\n$1\n</details>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "dacb7dc6-cc45-4c36-b148-872ed471614e",
-                "scriptName": "【DepressIon】小总结1 v2.5",
-                "findRegex": "/[\\s\\S]*?(?<!<details>\\s*)<summary>([\\s\\S]*)<\\/summary>[\\s\\S]*/g",
-                "replaceString": "<summary>\n$1\n</summary>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 12,
-                "maxDepth": null
             },
             {
                 "id": "81f71792-d818-40f0-9185-c653fb8dc28a",
