@@ -1931,6 +1931,23 @@
                 "promptOnly": true
             },
             {
+                "id": "55454616-447b-4aae-96fc-278ddd79c5f7",
+                "scriptName": "【DepressIon】剧情推进2 v2.5",
+                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 12,
+                "maxDepth": null
+            },
+            {
                 "id": "73e0322a-640e-468c-90a6-2d08e70ac7da",
                 "scriptName": "【DepressIon】小总结2 v2.5",
                 "findRegex": "/(?<!<details>\\s*)<summary>(((?!<summary>)[\\s\\S])*?)<\\/summary>/g",
@@ -2082,23 +2099,6 @@
                 "maxDepth": 1,
                 "markdownOnly": true,
                 "promptOnly": true
-            },
-            {
-                "id": "55454616-447b-4aae-96fc-278ddd79c5f7",
-                "scriptName": "【DepressIon】剧情推进2 v2.5",
-                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 12,
-                "maxDepth": null
             },
             {
                 "id": "0b23053e-a2a3-4d27-adb6-d41929de9743",
