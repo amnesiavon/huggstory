@@ -1999,23 +1999,6 @@
                 "maxDepth": null
             },
             {
-                "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
-                "scriptName": "【K】去除<Main_Quest>1",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "substituteRegex": 0,
-                "minDepth": 2,
-                "maxDepth": null,
-                "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
                 "id": "714786d2-3e63-4e7a-9809-1332f2349c97",
                 "scriptName": "【DepressIon】修改用户输入 1.2",
                 "findRegex": "/([\\s\\S]*)/",
@@ -2048,6 +2031,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 1
+            },
+            {
+                "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
+                "scriptName": "【K】去除<Main_Quest>1",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": 2,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "54d1a2fb-8639-4468-8b54-9e3a126fe466",
