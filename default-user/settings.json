@@ -1897,6 +1897,23 @@
                 "promptOnly": true
             },
             {
+                "id": "3dc1e72a-a8f5-4639-8359-c8db5555ad12",
+                "scriptName": "【DepressIon】剧情推进1 v2.5",
+                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
+                "replaceString": "<details>\n<summary>剧情</summary>\n$1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "55454616-447b-4aae-96fc-278ddd79c5f7",
                 "scriptName": "【DepressIon】剧情推进2 v2.5",
                 "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
@@ -1918,23 +1935,6 @@
                 "scriptName": "【DepressIon】小总结2 v2.5",
                 "findRegex": "/(?<!<details>\\s*)<summary>(((?!<summary>)[\\s\\S])*?)<\\/summary>/g",
                 "replaceString": "<details>\n<summary>摘要</summary>\n$1\n</details>",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "3dc1e72a-a8f5-4639-8359-c8db5555ad12",
-                "scriptName": "【DepressIon】剧情推进1 v2.5",
-                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
-                "replaceString": "<details>\n<summary>剧情</summary>\n$1\n</details>",
                 "trimStrings": [],
                 "placement": [
                     2
