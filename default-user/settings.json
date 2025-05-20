@@ -2357,6 +2357,125 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
+            },
+            {
+                "id": "3dc1e72a-a8f5-4639-8359-c8db5555ad12",
+                "scriptName": "【DepressIon】剧情推进1 v2.5",
+                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
+                "replaceString": "<details>\n<summary>剧情</summary>\n$1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "dacb7dc6-cc45-4c36-b148-872ed471614e",
+                "scriptName": "【DepressIon】小总结1 v2.5",
+                "findRegex": "/[\\s\\S]*?(?<!<details>\\s*)<summary>([\\s\\S]*)<\\/summary>[\\s\\S]*/g",
+                "replaceString": "<summary>\n$1\n</summary>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 12,
+                "maxDepth": null
+            },
+            {
+                "id": "55454616-447b-4aae-96fc-278ddd79c5f7",
+                "scriptName": "【DepressIon】剧情推进2 v2.5",
+                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 12,
+                "maxDepth": null
+            },
+            {
+                "id": "73e0322a-640e-468c-90a6-2d08e70ac7da",
+                "scriptName": "【DepressIon】小总结2 v2.5",
+                "findRegex": "/(?<!<details>\\s*)<summary>(((?!<summary>)[\\s\\S])*?)<\\/summary>/g",
+                "replaceString": "<details>\n<summary>摘要</summary>\n$1\n</details>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "714786d2-3e63-4e7a-9809-1332f2349c97",
+                "scriptName": "【DepressIon】修改用户输入 1.2",
+                "findRegex": "/([\\s\\S]*)/",
+                "replaceString": "// $1\n\ngame.loadAll(`",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
+                "id": "99592534-a992-4ef7-99eb-5d760b54f418",
+                "scriptName": "【DepressIon】修改AI回复 1.2",
+                "findRegex": "/([\\s\\S]*)/",
+                "replaceString": "$1\n<system>\n存档加载完毕。\n</system>",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
+                "id": "81f71792-d818-40f0-9185-c653fb8dc28a",
+                "scriptName": "【DepressIon】通用必备正则 v1.3",
+                "findRegex": "/((<(guifan|safety_check)>(?:(?!<(guifan|safety_check)>)[\\s\\S])*?<\\/(guifan|safety_check)>)|(<reminder>(?:[\\s\\S])*?<\\/reminder>)|([\\s\\S]*<\\/(analysis|thinking|think)>)|([\\s\\S]*(?=<game>)))/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
