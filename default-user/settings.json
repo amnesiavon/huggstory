@@ -2016,6 +2016,23 @@
                 "promptOnly": true
             },
             {
+                "id": "714786d2-3e63-4e7a-9809-1332f2349c97",
+                "scriptName": "【DepressIon】修改用户输入 1.2",
+                "findRegex": "/([\\s\\S]*)/",
+                "replaceString": "// $1\n\ngame.loadAll(`",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
+            },
+            {
                 "id": "99592534-a992-4ef7-99eb-5d760b54f418",
                 "scriptName": "【DepressIon】修改AI回复 1.2",
                 "findRegex": "/([\\s\\S]*)/",
@@ -2065,6 +2082,23 @@
                 "maxDepth": 1,
                 "markdownOnly": true,
                 "promptOnly": true
+            },
+            {
+                "id": "55454616-447b-4aae-96fc-278ddd79c5f7",
+                "scriptName": "【DepressIon】剧情推进2 v2.5",
+                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 12,
+                "maxDepth": null
             },
             {
                 "id": "0b23053e-a2a3-4d27-adb6-d41929de9743",
@@ -2201,40 +2235,6 @@
                 "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": true
-            },
-            {
-                "id": "714786d2-3e63-4e7a-9809-1332f2349c97",
-                "scriptName": "【DepressIon】修改用户输入 1.2",
-                "findRegex": "/([\\s\\S]*)/",
-                "replaceString": "// $1\n\ngame.loadAll(`",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1
-            },
-            {
-                "id": "55454616-447b-4aae-96fc-278ddd79c5f7",
-                "scriptName": "【DepressIon】剧情推进2 v2.5",
-                "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 12,
-                "maxDepth": null
             },
             {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
