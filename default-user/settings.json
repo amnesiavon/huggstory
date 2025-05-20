@@ -1899,126 +1899,126 @@
             {
                 "id": "3dc1e72a-a8f5-4639-8359-c8db5555ad12",
                 "scriptName": "【DepressIon】剧情推进1 v2.5",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
                 "replaceString": "<details>\n<summary>剧情</summary>\n$1\n</details>",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "55454616-447b-4aae-96fc-278ddd79c5f7",
                 "scriptName": "【DepressIon】剧情推进2 v2.5",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/<plot>([\\s\\S]*?)</plot>/g",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 12,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "73e0322a-640e-468c-90a6-2d08e70ac7da",
                 "scriptName": "【DepressIon】小总结2 v2.5",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/(?<!<details>\\s*)<summary>(((?!<summary>)[\\s\\S])*?)<\\/summary>/g",
                 "replaceString": "<details>\n<summary>摘要</summary>\n$1\n</details>",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": false,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": false
             },
             {
                 "id": "dacb7dc6-cc45-4c36-b148-872ed471614e",
                 "scriptName": "【DepressIon】小总结1 v2.5",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/[\\s\\S]*?(?<!<details>\\s*)<summary>([\\s\\S]*)<\\/summary>[\\s\\S]*/g",
                 "replaceString": "<summary>\n$1\n</summary>",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 12,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "81f71792-d818-40f0-9185-c653fb8dc28a",
                 "scriptName": "【DepressIon】通用必备正则 v1.3",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/((<(guifan|safety_check)>(?:(?!<(guifan|safety_check)>)[\\s\\S])*?<\\/(guifan|safety_check)>)|(<reminder>(?:[\\s\\S])*?<\\/reminder>)|([\\s\\S]*<\\/(analysis|thinking|think)>)|([\\s\\S]*(?=<game>)))/g",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": null
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "714786d2-3e63-4e7a-9809-1332f2349c97",
                 "scriptName": "【DepressIon】修改用户输入 1.2",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*)/",
                 "replaceString": "// $1\n\ngame.loadAll(`",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 1
+                "maxDepth": 1,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "99592534-a992-4ef7-99eb-5d760b54f418",
                 "scriptName": "【DepressIon】修改AI回复 1.2",
+                "disabled": false,
+                "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*)/",
                 "replaceString": "$1\n<system>\n存档加载完毕。\n</system>",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 1
+                "maxDepth": 1,
+                "markdownOnly": false,
+                "promptOnly": true
             },
             {
                 "id": "1d967525-179d-4cf1-8a44-4839a7f56069",
                 "scriptName": "【K】去除<Main_Quest>1",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
                 "replaceString": "",
@@ -2035,7 +2035,7 @@
             {
                 "id": "54d1a2fb-8639-4468-8b54-9e3a126fe466",
                 "scriptName": "【K】去除<Main_Quest>2",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
                 "replaceString": "",
@@ -2052,7 +2052,7 @@
             {
                 "id": "afcf5bde-e980-40b4-bd7c-1c69c4245251",
                 "scriptName": "【K】K添加tag",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
@@ -2069,7 +2069,7 @@
             {
                 "id": "0b23053e-a2a3-4d27-adb6-d41929de9743",
                 "scriptName": "【K】Kemini通用去除多余内容",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<guifan>.*?</guifan>)|```start|<content>|</content>|```end|<done>|`<done>`|(<!--\\s*consider\\s*:\\s*(.*?)\\s*-->)|(.*?</think(ing)?>(\\n)?)|(<think(ing)?>[\\s\\S]*<\\/think(ing)?>(\\n)?)/gs",
                 "replaceString": "",
@@ -2086,7 +2086,7 @@
             {
                 "id": "e51433ed-3bc6-4dc2-91d2-3a7f238f4afe",
                 "scriptName": "【K】K去除所有用户消息",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "",
@@ -2103,7 +2103,7 @@
             {
                 "id": "db3e2b56-b154-424a-813b-4ff028a12be1",
                 "scriptName": "【K】去除摘要_防AI抄袭",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
                 "replaceString": "",
@@ -2120,7 +2120,7 @@
             {
                 "id": "bfdb2cfb-5e56-43d3-9a59-90ec31b0a0d8",
                 "scriptName": "【K】去除摘要_不发送正文",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
                 "replaceString": "",
