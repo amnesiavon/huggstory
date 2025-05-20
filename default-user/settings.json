@@ -2237,6 +2237,23 @@
                 "promptOnly": true
             },
             {
+                "id": "56374d0d-8f96-428b-b177-09dcb8f30545",
+                "scriptName": "【贝露】用户内容包裹",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<user_input>\n$1\n</user_input>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
                 "id": "d0980ffe-6602-4ddb-9c82-83e432cdc6de",
                 "scriptName": "【可更新手机】会自动更新的手机",
                 "disabled": false,
@@ -2387,23 +2404,6 @@
                 "minDepth": 2,
                 "maxDepth": null,
                 "markdownOnly": false,
-                "promptOnly": true
-            },
-            {
-                "id": "56374d0d-8f96-428b-b177-09dcb8f30545",
-                "scriptName": "【贝露】用户内容包裹",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<user_input>\n$1\n</user_input>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
                 "promptOnly": true
             },
             {
