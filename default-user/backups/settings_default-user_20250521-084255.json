@@ -31,7 +31,7 @@
         "world_info_depth": 2,
         "world_info_min_activations": 0,
         "world_info_min_activations_depth_max": 0,
-        "world_info_budget": 100,
+        "world_info_budget": 25,
         "world_info_include_names": true,
         "world_info_recursive": true,
         "world_info_overflow_alert": false,
@@ -1159,7 +1159,7 @@
             {
                 "id": "d4827411-edbe-4ca2-95fc-1db77d62700f",
                 "scriptName": "【文字特效】美化省token",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<[^>]*>/g",
                 "replaceString": "",
@@ -1176,7 +1176,7 @@
             {
                 "id": "7b24b9bd-cc6d-44c4-8e6c-4f84b76cd144",
                 "scriptName": "【可更新手机】会自动更新的手机",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
                 "replaceString": "```\n\n<body>\n    <script type=\"module\">\n        const urls = [`https://sharkpan.xyz/f/1BEot2/index.html`]\n        function Http_Get(url) {\n            return new Promise((resolve, reject) => {\n                $.ajax({\n                    url: url,\n                    method: 'GET',\n                    timeout: 5000,\n                    success: function (data, status) {\n                        resolve(data); // 成功时返回数据\n                    },\n                    error: function (xhr, status, error) {\n                        if (status === 'timeout') {\n                            console.error('请求超时，请检查网络或重试');\n                        } else {\n                            console.error('请求失败，错误信息：', error);\n                        }\n                        resolve(null);\n                    }\n                });\n            });\n        }\n\n        async function Load() {\n            for (const url of urls) {\n                for (let i = 0; i < 3; i++) {\n                    try {\n                        const html = await Http_Get(url);\n                        if (html && html.indexOf(\"MiPhone\") > 0) {\n                            $(\"body\").html(html);\n                            return;\n                        }\n                    } catch (e) {\n\n                    }\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n        }\n        Load();\n    </script>\n</body>\n```",
@@ -1805,7 +1805,7 @@
                         "content": "import 'https://fastly.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/自动开启角色卡局部正则/index.js'",
                         "info": "# 自动开启角色卡局部正则\n\n**作者:** 青空莉想做舞台少女的狗\n**版本:** 2025/04/21\n**源文件:** [点此跳转](https://gitgud.io/StageDog/tavern_resource/-/tree/main/src)\n",
                         "buttons": [],
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "id": "自动关闭前端卡不兼容选项",
@@ -1845,7 +1845,7 @@
                         "content": "import 'https://fastly.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/标签化/index.js'",
                         "info": "# 标签化: 根据预设自动开关正则、根据模型自动切换破限\n\n**作者:** 青空莉想做舞台少女的狗\n**版本:** 2025/05/15\n**原帖:** [点此跳转](https://discord.com/channels/1291925535324110879/1344362686900605043)\n**源文件:** [点此跳转](https://gitgud.io/StageDog/tavern_resource/-/tree/main/src)\n**说明:** 将酒馆标签化, 允许你根据预设自动开关正则、根据模型自动切换破限等\n\n## 演示视频\n\n- [标签化正则演示](https://gitgud.io/StageDog/tavern_resource/-/raw/main/src/酒馆助手/标签化/正则.mp4)\n- [标签化预设提示词演示](https://gitgud.io/StageDog/tavern_resource/-/raw/main/src/酒馆助手/标签化/预设提示词.mp4)\n\n## 使用说明\n\n- 在\"正则\"/\"预设提示词\"/\"酒馆助手脚本\"名称中添加它所属于的一个或多个`【标签】`\n- 在\"预设\"/\"世界书\"/\"API连接配置\"名称中添加对于它你想要启用的一个或多个`【标签】`\n\n这样一来，在使用\"预设\"/\"世界书\"/\"API连接配置\"时，脚本将会\n\n- 自动开启其对应的`【标签】`\"正则\"/\"预设提示词\"/\"酒馆助手脚本\"\n- 自动关闭没有被对应上的`【标签】`\"正则\"/\"预设提示词\"/\"酒馆助手脚本\"\n- 其他没有`【标签】`的\"正则\"/\"预设提示词\"/\"酒馆助手脚本\"不受任何影响\n\n### 当正则、预设提示词、酒馆助手脚本有多个标签\n\n- `【标签1】【标签2】` 表示\"或者\"，只要\"预设\"/\"世界书\"/\"API连接配置\"名称中有`【标签1】`或`【标签2】`就会启用\n- `【标签1&标签2】`表示\"并且\"，只有\"预设\"/\"世界书\"/\"API连接配置\"名称中同时有`【标签1】`和`【标签2】`才会启用\n",
                         "buttons": [],
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "id": "3242b4fd-e9e1-4d5b-adca-dd156a42567b",
