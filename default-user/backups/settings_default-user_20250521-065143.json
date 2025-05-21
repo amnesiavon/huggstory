@@ -1,0 +1,1862 @@
+{
+    "firstRun": false,
+    "accountStorage": {
+        "__migrated": "1",
+        "NavOpened": "false",
+        "LNavOpened": "true",
+        "WelcomePage_RecentChatsHidden": "true",
+        "WINavOpened": "true"
+    },
+    "currentVersion": "1.12.14",
+    "username": "[Unnamed Persona]",
+    "api_server": "http://127.0.0.1:5000/api",
+    "preset_settings": "Ace of Spades",
+    "user_avatar": "1743610426923-.png",
+    "amount_gen": 350,
+    "max_context": 8192,
+    "main_api": "openai",
+    "world_info_settings": {
+        "world_info": {
+            "globalSelect": []
+        },
+        "world_info_depth": 2,
+        "world_info_min_activations": 0,
+        "world_info_min_activations_depth_max": 0,
+        "world_info_budget": 25,
+        "world_info_include_names": true,
+        "world_info_recursive": true,
+        "world_info_overflow_alert": false,
+        "world_info_case_sensitive": false,
+        "world_info_match_whole_words": true,
+        "world_info_character_strategy": 1,
+        "world_info_budget_cap": 0,
+        "world_info_use_group_scoring": false,
+        "world_info_max_recursion_steps": 0
+    },
+    "textgenerationwebui_settings": {
+        "temp": 0.5,
+        "temperature_last": true,
+        "top_p": 0.9,
+        "top_k": 0,
+        "top_a": 0,
+        "tfs": 1,
+        "epsilon_cutoff": 0,
+        "eta_cutoff": 0,
+        "typical_p": 1,
+        "min_p": 0,
+        "rep_pen": 1.1,
+        "rep_pen_range": 0,
+        "rep_pen_decay": 0,
+        "rep_pen_slope": 1,
+        "no_repeat_ngram_size": 0,
+        "penalty_alpha": 0,
+        "num_beams": 1,
+        "length_penalty": 1,
+        "min_length": 0,
+        "encoder_rep_pen": 1,
+        "freq_pen": 0,
+        "presence_pen": 0,
+        "skew": 0,
+        "do_sample": true,
+        "early_stopping": false,
+        "dynatemp": false,
+        "min_temp": 0,
+        "max_temp": 2,
+        "dynatemp_exponent": 1,
+        "smoothing_factor": 0,
+        "smoothing_curve": 1,
+        "dry_allowed_length": 2,
+        "dry_multiplier": 0,
+        "dry_base": 1.75,
+        "dry_sequence_breakers": "[\"\\n\", \":\", \"\\\"\", \"*\"]",
+        "dry_penalty_last_n": 0,
+        "max_tokens_second": 0,
+        "seed": -1,
+        "preset": "Default",
+        "add_bos_token": true,
+        "stopping_strings": [],
+        "ban_eos_token": false,
+        "skip_special_tokens": true,
+        "include_reasoning": true,
+        "streaming": false,
+        "mirostat_mode": 0,
+        "mirostat_tau": 5,
+        "mirostat_eta": 0.1,
+        "guidance_scale": 1,
+        "negative_prompt": "",
+        "grammar_string": "",
+        "json_schema": {},
+        "banned_tokens": "",
+        "global_banned_tokens": "",
+        "send_banned_tokens": true,
+        "sampler_priority": [
+            "repetition_penalty",
+            "presence_penalty",
+            "frequency_penalty",
+            "dry",
+            "temperature",
+            "dynamic_temperature",
+            "quadratic_sampling",
+            "top_k",
+            "top_p",
+            "typical_p",
+            "epsilon_cutoff",
+            "eta_cutoff",
+            "tfs",
+            "top_a",
+            "min_p",
+            "mirostat",
+            "xtc",
+            "encoder_repetition_penalty",
+            "no_repeat_ngram"
+        ],
+        "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "tfs_z",
+            "typical_p",
+            "xtc",
+            "top_p",
+            "min_p",
+            "temperature"
+        ],
+        "samplers_priorities": [
+            "dry",
+            "penalties",
+            "no_repeat_ngram",
+            "temperature",
+            "top_nsigma",
+            "top_p_top_k",
+            "top_a",
+            "min_p",
+            "tfs",
+            "eta_cutoff",
+            "epsilon_cutoff",
+            "typical_p",
+            "quadratic",
+            "xtc"
+        ],
+        "ignore_eos_token": false,
+        "spaces_between_special_tokens": true,
+        "speculative_ngram": false,
+        "type": "ooba",
+        "mancer_model": "mytholite",
+        "togetherai_model": "Gryphe/MythoMax-L2-13b",
+        "infermaticai_model": "",
+        "ollama_model": "",
+        "openrouter_model": "openrouter/auto",
+        "openrouter_providers": [],
+        "vllm_model": "",
+        "aphrodite_model": "",
+        "dreamgen_model": "opus-v1-xl/text",
+        "tabby_model": "",
+        "sampler_order": [
+            6,
+            0,
+            1,
+            3,
+            4,
+            2,
+            5
+        ],
+        "logit_bias": [],
+        "n": 1,
+        "server_urls": {},
+        "custom_model": "",
+        "bypass_status_check": false,
+        "openrouter_allow_fallbacks": true,
+        "xtc_threshold": 0.1,
+        "xtc_probability": 0,
+        "nsigma": 0,
+        "min_keep": 0,
+        "featherless_model": "",
+        "generic_model": "",
+        "rep_pen_size": 0
+    },
+    "swipes": true,
+    "horde_settings": {
+        "models": [],
+        "auto_adjust_response_length": true,
+        "auto_adjust_context_length": false,
+        "trusted_workers_only": false
+    },
+    "power_user": {
+        "charListGrid": false,
+        "tokenizer": 99,
+        "token_padding": 64,
+        "collapse_newlines": false,
+        "pin_examples": false,
+        "strip_examples": false,
+        "trim_sentences": false,
+        "always_force_name2": true,
+        "user_prompt_bias": "",
+        "show_user_prompt_bias": true,
+        "auto_continue": {
+            "enabled": false,
+            "allow_chat_completions": false,
+            "target_length": 400
+        },
+        "markdown_escape_strings": "",
+        "chat_truncation": 100,
+        "streaming_fps": 30,
+        "smooth_streaming": false,
+        "smooth_streaming_speed": 50,
+        "fast_ui_mode": false,
+        "avatar_style": 2,
+        "chat_display": 1,
+        "toastr_position": "toast-top-center",
+        "chat_width": 50,
+        "never_resize_avatars": false,
+        "show_card_avatar_urls": false,
+        "play_message_sound": false,
+        "play_sound_unfocused": true,
+        "auto_save_msg_edits": false,
+        "confirm_message_delete": true,
+        "sort_field": "name",
+        "sort_order": "asc",
+        "sort_rule": null,
+        "font_scale": 0.9,
+        "blur_strength": 0,
+        "shadow_width": 0,
+        "main_text_color": "rgba(45, 45, 45, 1)",
+        "italics_text_color": "rgba(100, 100, 100, 1)",
+        "underline_text_color": "rgba(221, 127, 206, 1)",
+        "quote_text_color": "rgba(244, 144, 102, 1)",
+        "blur_tint_color": "rgba(255, 255, 255, 1)",
+        "chat_tint_color": "rgba(255, 255, 255, 0)",
+        "user_mes_blur_tint_color": "rgba(255, 250, 248, 0.8)",
+        "bot_mes_blur_tint_color": "rgba(255, 255, 255, 0.8)",
+        "shadow_color": "rgba(78, 78, 78, 1)",
+        "border_color": "rgba(235, 233, 232, 1)",
+        "custom_css": "/*\n * 作者：KAKAA | Discord: @rech0_viixi\n * 发布社区：类脑ΟΔΥΣΣΕΙΑ（https://discord.com/channels/1134557553011998840/1340273995018141757）\n * 许可协议：CC BY-NC-SA 4.0\n * 二改分享需注明原作者\n * 禁止任何形式的商用及商用目的的引流！\n */\n\n/* ！！！---全局---！！！ */\n/* 字体引入，可注释或更改 */\n@import url(\"https://static.zeoseven.com/zsft/288/main/result.css\");\n\nbody,\ncode:not([class*=\"hljs\"]) {\n  font-family: \"Source Han Sans SC VF\";\n}\n\n@supports (-webkit-touch-callout: none) {\n  /* iOS 使用默认字体 */\n  body,\n  code:not([class*=\"hljs\"]) {\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,\n      \"Helvetica Neue\", Arial, sans-serif;\n  }\n}\n\n/* 主题色配置 */\n:root {\n  --theme-color-1: var(--SmartThemeQuoteColor);\n  /* 对应引用文本 */\n  --theme-color-2: var(--SmartThemeUnderlineColor);\n  /* 对应下划线 */\n  --ui-color-main: var(--SmartThemeBlurTintColor);\n  /* 对应UI背景 */\n  --ui-color-sec: color-mix(\n    in srgb,\n    var(--ui-color-main) 88%,\n    var(--text-color-main)\n  );\n  /* 自适应UI次级颜色 */\n  --top-bar-color: var(--SmartThemeBorderColor);\n  /* 顶栏颜色 */\n  --top-bar-underline-color: var(--theme-color-1);\n  /* 顶栏下边缘颜色 */\n  --top-bar-icon-color: var(--text-color-main);\n  /* 顶栏图标颜色 */\n  --chat-background-color: var(--SmartThemeChatTintColor);\n  /* 对应聊天背景 */\n  --text-color-main: var(--SmartThemeBodyColor);\n  /* 对应主要文本 */\n  --text-color-sec: var(--SmartThemeEmColor);\n  /* 对应斜体文本 */\n  --user-color: var(--SmartThemeUserMesBlurTintColor);\n  /* 对应用户消息模糊色调 */\n  --char-color: var(--SmartThemeBotMesBlurTintColor);\n  /* 对应AI消息模糊色调 */\n  --code-color: var(--SmartThemeShadowColor);\n  /* 对应阴影颜色 */\n  --gradient-main: linear-gradient(\n    135deg,\n    var(--theme-color-1) 30%,\n    color-mix(in srgb, var(--theme-color-1) 50%, var(--theme-color-2) 50%) 50%,\n    var(--theme-color-2) 70%\n  );\n  /* 主题渐变 */\n}\n\n:root {\n  --mes-width: 100%;\n  /* 此百分比调整聊天气泡与整体聊天界面的距离 */\n  --mes-block-width: 98%;\n  /* 此百分比调整聊天记录文字与气泡左右边框的距离 */\n  --box-border-radius: 5px;\n  /* 所有盒子的圆角大小 */\n  --top-distance: 5px;\n  /* 顶栏与上边沿的距离 */\n  --bottom-distance: 5px;\n  /* 底栏与下边沿的距离 */\n  --chat-send-spacing: 5px;\n  /* 聊天界面与发送框的距离 */\n  --leftRight-chat-spacing: 10px;\n  /* 聊天界面与左右边沿的距离，电脑端专供 */\n  --scroll-width: 5px;\n  /* 滚动条宽度 */\n  --icon-size: var(--mainFontSize);\n  /* 图标大小 */\n  --border-radius-small: 5px;\n  --border-radius-medium: 10px;\n  --spacing-long: 10px;\n  --spacing-short: 5px;\n  --topBarIconSize: calc(var(--icon-size) * 2);\n}\n\n/* ---标题--- */\n\n/* 标题装饰 */\n.standoutHeader strong,\n#right-nav-panel h2,\n.drawer-content > h3,\n.drawer-content\n  .flex-container\n  h3:first-of-type:not(#Backgrounds .textAlignCenter),\n.drawer-content .flex-container .flex-container h3:first-of-type,\n.popup h3:not(dialog *) {\n  font-size: calc(var(--mainFontSize) * 1.2);\n  color: var(--text-color-main);\n  letter-spacing: 0.1em;\n  white-space: nowrap;\n  line-height: 2;\n}\n\n.standoutHeader strong::before,\n#right-nav-panel h2::before,\n.drawer-content > h3::before,\n.drawer-content\n  .flex-container\n  h3:first-of-type:not(#Backgrounds .textAlignCenter)::before,\n.drawer-content .flex-container .flex-container h3:first-of-type::before,\n.popup h3:not(dialog *)::before {\n  content: \"✦\";\n  position: relative;\n  background: var(--gradient-main);\n  -webkit-background-clip: text;\n  background-clip: text;\n  color: transparent;\n  font-size: calc(var(--mainFontSize) * 1.3);\n  text-shadow: none;\n  padding-bottom: 0.5px;\n}\n\n@supports (-webkit-touch-callout: none) {\n  .standoutHeader strong::before,\n  #right-nav-panel h2::before,\n  .drawer-content > h3::before,\n  .drawer-content\n    .flex-container\n    h3:first-of-type:not(#Backgrounds .textAlignCenter)::before,\n  .drawer-content .flex-container .flex-container h3:first-of-type::before,\n  .popup h3:not(dialog *)::before {\n    font-size: calc(var(--mainFontSize) * 1.7);\n  }\n}\n\n/* 增加标题下横线 */\n.standoutHeader:not(h4),\n#rm_PinAndTabs,\n#top-settings-holder\n  .drawer:not(:first-child):not(:last-child)\n  .drawer-content\n  .alignItemsBaseline.wide100p,\n#rm_api_block .flex-container.alignItemsBaseline,\n#title_api,\n#AdvancedFormatting .flex-container.alignItemsBaseline:not(h3),\n#WorldInfo .alignitemscenter:not(#world_popup *),\n#user-settings-block div[name=\"userSettingsRowOne\"],\n#rm_extensions_block\n  .alignitemscenter.flex-container.wide100p:not(.justifyCenter) {\n  background-image: none;\n  border-radius: 0;\n  border: none;\n  border-bottom: 1px solid var(--ui-color-sec);\n  margin-bottom: calc(var(--mainFontSize) * 0.4);\n  padding-bottom: calc(var(--mainFontSize) * 0.2);\n}\n\n/* 修正标题没对齐的问题 */\n.drawer-content .alignItemsBaseline {\n  align-items: center !important;\n}\n\n#title_api {\n  padding-bottom: 0;\n}\n\n#title_api::before,\n#Backgrounds h3.margin0.flex2::before,\n#rm_extensions_block .margin0.flex1::before,\n#rm_button_selected_ch h2::before {\n  margin-right: calc(var(--mainFontSize) * 0.4);\n}\n\n/* ---抽屉--- */\n/* 覆盖样式 */\n.inline-drawer-header,\n#extensions_settings .inline-drawer-toggle.inline-drawer-header,\n#extensions_settings2 .inline-drawer-toggle.inline-drawer-header,\n#top-settings-holder h4:not(#ai-config-button *):not(#rightNavHolder *) {\n  border-width: 0 0 0 3px !important;\n  border-color: transparent !important;\n  border-style: solid;\n  border-radius: 0;\n  background-image: none !important;\n  padding-left: 7px;\n  border-image: linear-gradient(\n      to bottom,\n      transparent 25%,\n      var(--theme-color-1) 25%,\n      var(--theme-color-1) 75%,\n      transparent 75%\n    )\n    1 100%;\n}\n\n/* 缩小箭头图标 */\n.inline-drawer-icon {\n  font-size: var(--icon-size);\n}\n\n/* ---滚动条--- */\n::-webkit-scrollbar {\n  width: var(--scroll-width);\n}\n\n::-webkit-scrollbar:horizontal {\n  height: var(--scroll-width);\n}\n\n::-webkit-scrollbar-track {\n  background: transparent;\n}\n\n::-webkit-scrollbar-thumb:vertical,\n::-webkit-scrollbar-thumb:horizontal {\n  background-color: color-mix(in srgb, var(--theme-color-1) 70%, transparent);\n  box-shadow: none;\n  border: 0;\n}\n\n/* ---输入框--- */\ninput[type=\"text\"],\ninput[type=\"number\"],\ninput[type=\"switch\"],\ninput:not([type]),\ntextarea:not([type=\"search\"]) {\n  background-color: var(--ui-color-sec) !important;\n  border: 1px solid var(--ui-color-sec) !important;\n}\n\ninput[type=\"text\"]:focus,\ninput[type=\"number\"]:focus,\ninput[type=\"switch\"]:focus,\ninput:not([type]):focus,\ntextarea:not([type=\"search\"]):focus {\n  border: 1px solid var(--theme-color-1) !important;\n}\n\ntextarea[type=\"search\"] {\n  background-color: transparent !important;\n  border: none !important;\n}\n\n.range-block {\n  margin: calc(var(--mainFontSize) * 0.6) 0;\n}\n\n.range-block-counter {\n  margin-left: 20px;\n}\n\n.text_pole:not(.objective-task) {\n  background-color: var(--ui-color-sec);\n  border: none;\n}\n\n/* ---按键--- */\n.menu_button:not(.mes_edit_buttons *) {\n  background-color: var(--ui-color-sec);\n  border-color: var(--ui-color-sec);\n  color: var(--text-color-main);\n}\n\n.menu_button_icon i {\n  font-size: calc(var(--icon-size) * 0.8);\n}\n\n#delete_button,\n#dialogue_del_mes_ok,\n#dialogue_popup_ok,\n#bulk_tag_popup_reset,\n#bulk_tag_popup_remove_mutual,\n.mes_edit_cancel.menu_button,\n.menu_button.popup-button-ok,\n.redWarningBG {\n  background-color: var(--crimson70a) !important;\n  color: var(--white100) !important;\n}\n\n/* 去除阴影 */\n.mes_button,\n.mes_edit_buttons,\n#completion_prompt_manager\n  #completion_prompt_manager_list\n  li.completion_prompt_manager_prompt\n  span\n  span\n  span {\n  filter: none !important;\n}\n\n.fa-solid:not(#load-spinner) {\n  font-size: var(--icon-size);\n  text-shadow: none !important;\n}\n\n/* ---下拉框--- */\nselect {\n  background-color: var(--ui-color-sec) !important;\n  color: var(--text-color-main);\n  border: none !important;\n  margin: calc(var(--mainFontSize) * 0.3) 0 !important;\n}\n\nselect option:not(:checked) {\n  color: var(--text-color-sec);\n}\n\nselect option:checked {\n  color: var(--ui-color-sec);\n  background-color: var(--text-color-main) !important;\n}\n\nselect option {\n  background-color: var(--ui-color-sec) !important;\n}\n\n.ui-widget-content .ui-state-active {\n  color: var(--theme-color-1) !important;\n}\n\n/* ---勾选框--- */\ninput[type=\"checkbox\"] {\n  width: calc(var(--mainFontSize) * 0.9);\n  height: calc(var(--mainFontSize) * 0.9);\n  border: none;\n  outline: none;\n  background-color: var(--ui-color-main);\n  filter: none;\n  box-shadow: 0 0 0 1px var(--text-color-sec);\n  transform: translateY(0);\n  margin-left: 1px;\n}\n\ninput[type=\"checkbox\"]::before {\n  box-shadow: inset 1em 1em var(--theme-color-1);\n}\n\ninput[type=\"checkbox\"].del_checkbox {\n  margin-right: 0;\n}\n\n/* ---滑动条--- */\ninput[type=\"range\"] {\n  box-shadow: none;\n  background-color: var(--ui-color-sec) !important;\n}\n\ninput[type=\"range\"]:hover {\n  background-color: color-mix(\n    in srgb,\n    var(--ui-color-sec) 70%,\n    black 30%\n  ) !important;\n}\n\ninput[type=\"range\"]::-webkit-slider-thumb {\n  box-shadow: 0 0 0 3px\n    color-mix(in srgb, var(--theme-color-1) 50%, transparent);\n  background-color: var(--theme-color-1);\n  width: 10px;\n  height: 10px;\n}\n\n.neo-range-slider {\n  box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.2) !important;\n}\n\n/* ---盒子--- */\n/* 统一样式 */\n#left-nav-panel,\n#right-nav-panel,\n#character_popup,\n#dialogue_popup,\n#chat,\n.draggable,\n#select_chat_popup,\n.popup:not(.transparent_dialogue_popup),\n.drawer-content {\n  padding: var(--spacing-long);\n  background-color: var(--ui-color-main);\n  border-radius: var(--box-border-radius);\n  border: none;\n}\n\n#dialogue_popup_text {\n  padding: 0 var(--spacing-long) 0 0;\n}\n\n#left-nav-panel,\n#right-nav-panel {\n  top: var(--top-distance);\n  height: 100dvh !important;\n  max-height: calc(100dvh - var(--top-distance) - var(--bottom-distance) - 1px);\n}\n\n@media screen and (max-width: 1000px) {\n  #left-nav-panel,\n  #right-nav-panel,\n  .drawer-content {\n    margin-top: var(--top-distance);\n  }\n\n  #left-nav-panel,\n  #right-nav-panel {\n    height: calc(100dvh - 45px) !important;\n    max-height: calc(100dvh - var(--topBarBlockSize)) !important;\n    border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);\n  }\n}\n\n/* ---列表--- */\n.list-group,\n.options-content {\n  border: none;\n  border-radius: var(--border-radius-small);\n  background-color: var(--ui-color-sec) !important;\n}\n\n#options {\n  background-color: transparent !important;\n  padding: 0;\n}\n\n/* ---图标--- */\n.fa-fw:not(#qr--modal-icon) {\n  width: auto;\n}\n\n/* 缩小锁定图标 */\n#rm_button_characters,\n#rm_button_panel_pin_div,\n#lm_button_panel_pin_div,\n#WI_button_panel_pin_div {\n  font-size: var(--icon-size);\n}\n\n/* ---头像--- */\n.avatar img,\nbody.big-avatars .avatar img {\n  box-shadow: none;\n  border: none;\n}\n\n/* ---代码块--- */\ncode {\n  margin: 0;\n  border: none;\n  background-color: var(--code-color);\n}\n\nbody[data-stscript-style] .hljs.language-stscript,\n.hljs {\n  background: var(--code-color);\n}\n\n.custom-mermaid {\n  background-color: var(--code-color);\n}\n\n/*\n * 作者：KAKAA | Discord: @rech0_viixi\n * 发布社区：类脑ΟΔΥΣΣΕΙΑ（https://discord.com/channels/1134557553011998840/1340273995018141757）\n * 许可协议：CC BY-NC-SA 4.0\n * 二改分享需注明原作者\n * 禁止任何形式的商用及商用目的的引流！\n */\n\n/* ！！！---局部---！！！ */\n\n/* ---顶栏与通用扩展界面--- */\nbody.no-blur #top-bar,\n#top-bar {\n  border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;\n  box-shadow: none;\n  background-color: transparent !important;\n}\n\nbody.waifuMode #top-bar {\n  border: none;\n}\n\n#top-settings-holder {\n  top: var(--top-distance);\n  box-shadow: 0 2px 0 0 var(--top-bar-underline-color);\n}\n\n#top-settings-holder > :first-child {\n  border-radius: var(--box-border-radius) 0 0 0;\n}\n\n#top-settings-holder > :last-child {\n  border-radius: 0 var(--box-border-radius) 0 0;\n}\n\n.drawer {\n  color: var(--top-bar-icon-color);\n  background-color: var(--top-bar-color);\n}\n\n.drawer:focus-within {\n  background-color: var(--ui-color-main);\n}\n\n.drawer-content:not(#left-nav-panel):not(#right-nav-panel) {\n  border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);\n}\n\n/* IOS 适配 */\n@supports (-webkit-touch-callout: none) {\n  .drawer-content:not(#left-nav-panel):not(#right-nav-panel) {\n    max-width: 100dvw;\n    top: var(--topBarBlockSize);\n  }\n}\n/* IPAD 适配 */\n@supports (-webkit-touch-callout: none) {\n  @media screen and (min-width: 1000px) {\n    #character_popup,\n    #world_popup,\n    .drawer-content {\n      margin-top: 0px;\n    }\n    #top-settings-holder .drawer .drawer-content {\n      right: 0;\n      left: 0;\n      width: var(--sheldWidth);\n    }\n    #left-nav-panel,\n    #right-nav-panel {\n      margin: 0 auto;\n      top: calc(var(--topBarBlockSize) + var(--top-distance));\n      max-height: calc(\n        100dvh - var(--topBarBlockSize) - var(--bottomFormBlockSize)\n      );\n      border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);\n      border-bottom: 1px solid var(--top-bar-underline-color);\n    }\n  }\n}\n\n.drawer-icon {\n  opacity: 0.3;\n  font-size: calc(var(--icon-size) * 1.1);\n  text-shadow: none !important;\n}\n\n.drawer-icon:focus {\n  opacity: 1;\n  background: var(--gradient-main);\n  -webkit-background-clip: text;\n  background-clip: text;\n  color: transparent;\n}\n\n.drawer-content {\n  box-shadow: 0 4px 10px -5px rgba(0, 0, 0, 0.4);\n  border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);\n  border-bottom: 1px solid var(--top-bar-underline-color);\n}\n\n#AdvancedFormatting h3.flex-container {\n  flex-wrap: nowrap;\n}\n\n/* 调整竖排间距 */\n#user-settings-block-content,\n#AdvancedFormatting .flex-container.spaceEvenly {\n  gap: 10px;\n}\n\n/* 反代警告 */\n.reverse_proxy_warning {\n  border: 1px solid var(--ui-color-sec) !important;\n  background-color: transparent !important;\n}\n\n/* ---聊天界面--- */\n#sheld {\n  top: calc(var(--topBarBlockSize) + var(--top-distance));\n  height: calc(100dvh - var(--topBarBlockSize) - var(--top-distance) - 1px);\n}\n\n#chat {\n  overflow-y: scroll;\n  align-items: center;\n  max-height: calc(100dvh - var(--topBarBlockSize) - 20px) !important;\n  padding: calc(var(--scroll-width) + 4px) 0 var(--scroll-width)\n    var(--scroll-width);\n  border-radius: 0 0 var(--box-border-radius) var(--box-border-radius);\n  background-color: var(--chat-background-color);\n}\n\n@supports (-webkit-touch-callout: none) {\n  #chat {\n    padding-right: var(--scroll-width);\n  }\n}\n\n.mesAvatarWrapper {\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n\n.mesAvatarWrapper .avatar {\n  margin: calc(var(--mainFontSize)) 0 calc(var(--mainFontSize) * 0.4) 0;\n}\n\n.mesIDDisplay,\n.mes_timer,\n.tokenCounterDisplay {\n  display: contents;\n  color: var(--text-color-sec);\n}\n\n#chat .ch_name {\n  position: relative;\n  align-items: flex-end;\n  padding: calc(var(--mainFontSize) * 0.8) 0;\n}\n\n#chat .ch_name::after {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 1px;\n  background-color: var(--text-color-sec);\n}\n\n.mes {\n  width: var(--mes-width);\n  flex-direction: column;\n  align-items: center;\n  border: none !important;\n  background-color: var(--ui-color-main) !important;\n  margin: 0;\n}\n\n.mes_text {\n  padding: calc(var(--mainFontSize) * 0.8) 0 0 0;\n}\n\n.mes_block {\n  width: var(--mes-block-width);\n  padding-left: 0;\n}\n\n.last_mes .mes_text {\n  padding-right: 0;\n}\n\n.last_mes .mesAvatarWrapper {\n  padding-bottom: 0;\n}\n\n/* 只对AI消息生效，因为用户消息不需要滑动箭头 */\ndiv[is_user=\"false\"].last_mes .mes_block {\n  padding-bottom: 50px;\n}\n\n.last_mes .swipeRightBlock {\n  margin: 0 var(--spacing-long) 0 0;\n}\n\ndiv[is_user=\"true\"] {\n  background-color: var(--user-color) !important;\n}\n\ndiv[is_user=\"true\"] .avatar img {\n  box-shadow: 0 0 0 2px\n      color-mix(in srgb, var(--theme-color-2) 60%, transparent),\n    0 0 10px 2px color-mix(in srgb, var(--theme-color-1) 60%, transparent);\n}\n\ndiv[is_user=\"false\"] {\n  background-color: var(--char-color) !important;\n}\n\ndiv[is_user=\"false\"] .avatar img {\n  box-shadow: 0 0 0 2px\n      color-mix(in srgb, var(--theme-color-1) 60%, transparent),\n    0 0 10px 2px color-mix(in srgb, var(--theme-color-2) 60%, transparent);\n}\n\n.swipe_left {\n  left: calc(var(--scroll-width) + var(--spacing-short));\n}\n\n.swipeRightBlock {\n  flex-direction: row-reverse;\n  bottom: calc(var(--swipeCounterHeight) + var(--swipeCounterMargin));\n}\n\n.swipes-counter {\n  margin-bottom: 4px;\n}\n\n#chat .mes.selected {\n  background-color: var(--crimson70a) !important;\n}\n\n/* 文档模式 */\n\nbody.documentstyle #chat .ch_name::after {\n  width: 0;\n}\n\nbody.documentstyle #chat .mes .mes_block {\n  margin-right: 0;\n  padding-bottom: 15px;\n}\n\nbody.documentstyle #chat .last_mes .mes_block {\n  padding-bottom: 50px;\n}\n\nbody.documentstyle #chat .last_mes {\n  padding-top: var(--border-radius-medium);\n}\n\nbody.documentstyle #chat .mes_text {\n  margin-left: 0 !important;\n}\n\nbody.documentstyle #chat .last_mes .swipe_left {\n  left: var(--scroll-width);\n}\n\n/* 视觉小说模式 */\nbody.waifuMode #chat {\n  border: none;\n  box-shadow: none;\n  border-radius: var(--border-radius-small);\n}\n\nbody.waifuMode .zoomed_avatar {\n  top: 70px;\n}\n\n/* 推理块 */\n.mes_reasoning_header {\n  margin: 1em 0;\n  padding: 7px calc(var(--mainFontSize) + 14px) 7px\n    calc(var(--mainFontSize) * 0.8);\n  background: color-mix(in srgb, var(--theme-color-1) 30%, transparent);\n  border: 1px solid var(--theme-color-1);\n  color: var(--text-color-main);\n}\n\n.mes_reasoning_header span::before {\n  content: \"✦\";\n  position: relative;\n  text-shadow: none;\n  font-size: var(--mainFontSize);\n  line-height: 1;\n  margin-right: 3px;\n}\n.mes_reasoning_details .mes_reasoning_arrow {\n  right: 10px;\n  font-size: calc(var(--mainFontSize) * 0.7) !important;\n}\n\n.mes_reasoning {\n  border-left: 2px solid var(--theme-color-1);\n}\n\n/* ---提示词管理器--- */\n#left-nav-panel {\n  width: calc((100vw - var(--sheldWidth)) / 2 - var(--leftRight-chat-spacing));\n  padding-right: 0;\n}\n\n@supports (-webkit-touch-callout: none) {\n  @media screen and (min-width: 1000px) {\n    #left-nav-panel {\n      padding-right: var(--spacing-long);\n    }\n    .fillLeft .scrollableInner {\n      padding-right: 0.5em;\n    }\n  }\n}\n\n#range_block_openai > .range-block .toggle-description {\n  margin-right: 0;\n}\n\n.range-block-title {\n  text-align: left;\n}\n\nlabel[for=\"openai_image_inlining\"] + div,\n#openai_settings .inline-drawer-header .flex-container {\n  gap: 0;\n  text-align: left;\n}\n\n#openai_settings .inline-drawer-header .flex-container b {\n  margin-right: 5px;\n}\n\n#completion_prompt_manager {\n  width: 100%;\n}\n\n#completion_prompt_manager_list .completion_prompt_manager_list_separator {\n  display: none !important;\n}\n\n#completion_prompt_manager .completion_prompt_manager_header {\n  color: var(--text-color-main);\n  padding: 0;\n}\n\n.completion_prompt_manager_footer {\n  padding: 0 !important;\n}\n\n#completion_prompt_manager .completion_prompt_manager_header_advanced span {\n  margin-left: 0;\n}\n\n#completion_prompt_manager\n  #completion_prompt_manager_list\n  li.completion_prompt_manager_prompt {\n  border-radius: var(--border-radius-medium);\n  border-color: var(--white20a);\n  background-color: var(--ui-color-main);\n}\n\n#completion_prompt_manager\n  #completion_prompt_manager_list\n  li.completion_prompt_manager_prompt:hover,\n#completion_prompt_manager\n  #completion_prompt_manager_list\n  li.completion_prompt_manager_prompt:focus {\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n  border-color: var(--theme-color-1);\n  background-color: color-mix(in srgb, var(--theme-color-1) 15%, transparent);\n  outline: none;\n}\n\n#completion_prompt_manager\n  #completion_prompt_manager_list\n  .completion_prompt_manager_prompt:not(\n    .completion_prompt_manager_prompt_disabled\n  )\n  .prompt-manager-toggle-action {\n  color: var(--theme-color-1);\n}\n\n#completion_prompt_manager\n  #completion_prompt_manager_list\n  .completion_prompt_manager_prompt_disabled\n  .completion_prompt_manager_prompt_name\n  .prompt-manager-inspect-action,\n#completion_prompt_manager\n  #completion_prompt_manager_list\n  .completion_prompt_manager_prompt\n  .completion_prompt_manager_prompt_name\n  .fa-solid {\n  color: color-mix(in srgb, var(--text-color-main) 30%, transparent);\n}\n\n#completion_prompt_manager > .range-block > .text_pole {\n  padding: 0 15px 10px 15px;\n}\n\n#completion_prompt_manager .completion_prompt_manager_header_advanced span {\n  filter: none;\n}\n\n/* ---世界书--- */\n#WorldInfo {\n  margin-top: var(--top-distance);\n}\n\n@supports (-webkit-touch-callout: none) {\n  #world_popup {\n    margin-top: 0;\n    width: 100%;\n  }\n}\n\n.world_entry {\n  margin-top: var(--spacing-short);\n}\n\n.wi-card-entry {\n  border: none;\n}\n\n.select2-container .select2-selection--multiple {\n  background-color: var(--ui-color-sec);\n  border: none;\n}\n\n.select2-container .select2-selection--multiple .select2-selection__choice,\n.select2-container .select2-selection--single .select2-selection__choice {\n  background-color: color-mix(in srgb, var(--theme-color-2) 30%, transparent);\n}\n\nspan.select2.select2-container .select2-selection__choice__remove,\n.select2_choice_clickable_buttonstyle\n  + span.select2-container\n  .select2-selection__choice__display {\n  color: var(--text-color-main);\n  line-height: 1.5;\n  background-color: transparent;\n  margin: 0px;\n}\n\n.select2-container\n  .select2-selection--multiple\n  .select2-selection__choice__remove {\n  padding: 0 5px;\n}\n\n@media screen and (max-width: 1000px) {\n  .world_entry_form .inline-drawer-header {\n    border-width: 0 0 0 3px !important;\n    border-color: var(--theme-color-1) !important;\n    border-style: solid;\n    border-image: none;\n  }\n}\n\n/* ---用户管理器--- */\n.avatar-container.selected {\n  border-color: var(--theme-color-2);\n}\n\n/* ---图库--- */\n#form_bg_download .bg_example.add_bg_but.interactable {\n  background-color: var(--text-color-sec);\n}\n\n.bg_example {\n  box-shadow: none;\n  border-color: var(--ui-color-sec);\n}\n\n.bg_example.selected {\n  border-color: var(--theme-color-2);\n}\n\n.bg_button {\n  color: var(--theme-color-1);\n  filter: drop-shadow(0px 0px 2px white);\n}\n\n.bg_button:hover {\n  background-color: var(--crimson70a);\n}\n\n/* ---用户设置--- */\n#movingUIPresets {\n  margin-bottom: 0 !important;\n}\n\n/* ---角色管理器--- */\n#right-nav-panel {\n  width: calc((100vw - var(--sheldWidth)) / 2 - var(--leftRight-chat-spacing));\n}\n\n#right-nav-panel hr:first-of-type {\n  display: none;\n}\n\n#CharListButtonAndHotSwaps {\n  margin-bottom: calc(var(--mainFontSize) * 0.8);\n}\n\nlabel[for=\"char-management-dropdown\"] {\n  width: 100%;\n}\n\n#avatar_div {\n  flex-direction: column;\n}\n\n#avatar_controls {\n  align-items: center;\n}\n\n.character_select {\n  margin-top: calc(var(--mainFontSize) * 0.8);\n}\n\n.character_select.is_fav .avatar {\n  outline: 2px solid var(--theme-color-1);\n}\n\n.character_select.is_fav .ch_name {\n  color: var(--theme-color-1);\n}\n\n.tag.excluded::after {\n  font-size: calc(var(--icon-size) * 2);\n}\n\n.tag.actionable {\n  font-size: calc(var(--icon-size) * 1);\n  min-height: calc(var(--icon-size) * 2);\n  min-width: calc(var(--icon-size) * 2);\n}\n\n/* 收藏区左右拖动 */\n#HotSwapWrapper {\n  overflow: hidden;\n}\n\n#HotSwapWrapper > div {\n  overflow: auto hidden;\n  flex-wrap: nowrap;\n  height: calc(var(--avatar-base-height) + var(--scroll-width) + 10px);\n  max-height: calc(var(--avatar-base-height) * 2);\n}\nbody.big-avatars #HotSwapWrapper > div {\n  height: calc(\n    var(--avatar-base-height) * var(--big-avatar-height-factor) +\n      var(--scroll-width) + 10px\n  );\n  max-height: calc(\n    var(--avatar-base-height) * var(--big-avatar-height-factor) * 2\n  );\n}\n\n#HotSwapWrapper > div::-webkit-scrollbar-thumb {\n  background-color: var(--ui-color-sec);\n}\n\n/* ---底栏--- */\n#form_sheld {\n  margin: var(--chat-send-spacing) auto var(--bottom-distance) auto;\n}\n\nbody.no-blur #send_form,\n#send_form {\n  background-color: color-mix(\n    in srgb,\n    var(--theme-color-1) 20%,\n    var(--ui-color-main) 60%\n  ) !important;\n  border: none;\n  border-radius: var(--box-border-radius);\n  backdrop-filter: none;\n  padding: 0 5px;\n}\n\n#send_form textarea {\n  background-color: transparent !important;\n  border: none !important;\n}\n\n#send_form textarea::placeholder {\n  color: color(var(--text-color-sec)) !important;\n}\n\n#send_form .fa-solid {\n  font-size: calc(var(--icon-size) * 1.2);\n}\n\n#leftSendForm > div:nth-child(2) {\n  width: auto;\n}\n\n/* QR */\n#qr--bar > .qr--buttons .qr--button,\n#qr--popout > .qr--body > .qr--buttons .qr--button {\n  background-color: color-mix(in srgb, var(--theme-color-1) 30%, transparent);\n  border-color: var(--theme-color-1) !important;\n  border-radius: var(--border-radius-small) !important;\n  border-width: 0 0 0px 0 !important;\n  font-size: calc(var(--mainFontSize) * 0.9);\n}\n\n#qr--bar > .qr--buttons .qr--button:hover,\n#qr--popout > .qr--body > .qr--buttons .qr--button:hover {\n  background-color: color-mix(\n    in srgb,\n    var(--theme-color-1) 50%,\n    transparent\n  ) !important;\n}\n\n#qr--popoutTrigger {\n  background-color: transparent;\n  border: none;\n}\n\n/* ---QR编辑器--- */\n.popup:has(#qr--modalEditor)\n  .popup-content\n  > #qr--modalEditor\n  > #qr--main\n  > .qr--modal-messageContainer\n  > #qr--modal-messageHolder\n  > #qr--modal-message {\n  color: var(--text-color-main) !important;\n}\n\n.popup:has(#qr--modalEditor) .popup-content #qr--modal-message::selection {\n  color: var(--text-color-main) !important;\n}\n\n@supports (color: rgb(from white r g b / 0.25)) {\n  .popup:has(#qr--modalEditor) .popup-content #qr--modal-message::selection {\n    background-color: rgb(from var(--theme-color-1) r g b / 0.25) !important;\n  }\n}\n\n/*\n * 作者：KAKAA | Discord: @rech0_viixi\n * 发布社区：类脑ΟΔΥΣΣΕΙΑ（https://discord.com/channels/1134557553011998840/1340273995018141757）\n * 许可协议：CC BY-NC-SA 4.0\n * 二改分享需注明原作者\n * 禁止任何形式的商用及商用目的的引流！\n */\n",
+        "waifuMode": false,
+        "movingUI": false,
+        "movingUIState": {},
+        "movingUIPreset": "Default",
+        "noShadows": false,
+        "theme": "双色盒子-浅色",
+        "gestures": true,
+        "auto_swipe": false,
+        "auto_swipe_minimum_length": 0,
+        "auto_swipe_blacklist": [],
+        "auto_swipe_blacklist_threshold": 2,
+        "auto_scroll_chat_to_bottom": true,
+        "auto_fix_generated_markdown": false,
+        "send_on_enter": 0,
+        "console_log_prompts": false,
+        "request_token_probabilities": false,
+        "show_group_chat_queue": false,
+        "allow_name1_display": false,
+        "allow_name2_display": false,
+        "hotswap_enabled": true,
+        "timer_enabled": true,
+        "timestamps_enabled": true,
+        "timestamp_model_icon": true,
+        "mesIDDisplay_enabled": true,
+        "hideChatAvatars_enabled": false,
+        "max_context_unlocked": false,
+        "message_token_count_enabled": true,
+        "expand_message_actions": false,
+        "enableZenSliders": false,
+        "enableLabMode": false,
+        "prefer_character_prompt": true,
+        "prefer_character_jailbreak": true,
+        "quick_continue": false,
+        "quick_impersonate": false,
+        "continue_on_send": false,
+        "trim_spaces": true,
+        "relaxed_api_urls": false,
+        "world_import_dialog": true,
+        "enable_auto_select_input": false,
+        "enable_md_hotkeys": false,
+        "tag_import_setting": 1,
+        "disable_group_trimming": false,
+        "single_line": false,
+        "instruct": {
+            "enabled": false,
+            "preset": "Alpaca",
+            "input_sequence": "### Instruction:",
+            "output_sequence": "### Response:",
+            "last_output_sequence": "",
+            "system_sequence": "### Input:",
+            "stop_sequence": "",
+            "wrap": true,
+            "macro": true,
+            "names_behavior": "force",
+            "activation_regex": "",
+            "system_sequence_prefix": "",
+            "system_sequence_suffix": "",
+            "first_output_sequence": "",
+            "skip_examples": false,
+            "output_suffix": "\n\n",
+            "input_suffix": "\n\n",
+            "system_suffix": "\n\n",
+            "user_alignment_message": "",
+            "system_same_as_user": false,
+            "last_system_sequence": "",
+            "first_input_sequence": "",
+            "last_input_sequence": "",
+            "names_force_groups": true
+        },
+        "context": {
+            "preset": "Story",
+            "story_string": "{{#if system}}{{system}}\n{{/if}}{{#if wiBefore}}{{wiBefore}}\n{{/if}}{{#if description}}{{description}}\n{{/if}}{{#if personality}}{{personality}}\n{{/if}}{{#if scenario}}{{scenario}}\n{{/if}}{{#if wiAfter}}{{wiAfter}}\n{{/if}}{{#if persona}}{{persona}}\n{{/if}}",
+            "chat_start": "",
+            "example_separator": "",
+            "use_stop_strings": false,
+            "names_as_stop_strings": true
+        },
+        "context_derived": false,
+        "context_size_derived": false,
+        "sysprompt": {
+            "enabled": true,
+            "name": "Neutral - Chat",
+            "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}."
+        },
+        "reasoning": {
+            "name": "DeepSeek",
+            "auto_parse": false,
+            "add_to_prompts": false,
+            "auto_expand": false,
+            "show_hidden": false,
+            "prefix": "<think>\n",
+            "suffix": "\n</think>",
+            "separator": "\n\n",
+            "max_additions": 1
+        },
+        "personas": {
+            "user-default.png": "User",
+            "1743610426923-.png": "[Unnamed Persona]",
+            "1745143402868-mira.png": "[Unnamed Persona]",
+            "1745594401579-MIRA.png": "[Unnamed Persona]",
+            "1745729512058-test.png": "[Unnamed Persona]"
+        },
+        "default_persona": null,
+        "persona_descriptions": {
+            "user-default.png": {
+                "description": "",
+                "position": 0
+            },
+            "1743610426923-.png": {
+                "description": "",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
+            },
+            "1745143402868-mira.png": {
+                "description": "",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
+            },
+            "1745594401579-MIRA.png": {
+                "description": "",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
+            },
+            "1745729512058-test.png": {
+                "description": "",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
+            }
+        },
+        "persona_description": "",
+        "persona_description_position": 0,
+        "persona_description_role": 0,
+        "persona_description_depth": 2,
+        "persona_description_lorebook": "",
+        "persona_show_notifications": true,
+        "persona_sort_order": "asc",
+        "custom_stopping_strings": "",
+        "custom_stopping_strings_macro": true,
+        "fuzzy_search": true,
+        "encode_tags": false,
+        "servers": [],
+        "bogus_folders": true,
+        "zoomed_avatar_magnification": "",
+        "show_tag_filters": false,
+        "aux_field": "character_version",
+        "stscript": {
+            "parser": {
+                "flags": {
+                    "1": true,
+                    "2": true
+                }
+            },
+            "autocomplete": {
+                "autoHide": false,
+                "style": "theme",
+                "font": {
+                    "scale": 0.8
+                },
+                "width": {
+                    "left": 1,
+                    "right": 1
+                },
+                "select": 3
+            }
+        },
+        "restore_user_input": true,
+        "reduced_motion": false,
+        "compact_input_area": true,
+        "show_swipe_num_all_messages": false,
+        "auto_connect": true,
+        "auto_load_chat": false,
+        "forbid_external_media": true,
+        "external_media_allowed_overrides": [],
+        "external_media_forbidden_overrides": [],
+        "pin_styles": true,
+        "click_to_edit": false,
+        "ui_mode": 1,
+        "auto_sort_tags": false,
+        "selectSamplers": {
+            "forceHidden": [],
+            "forceShown": []
+        },
+        "table_selected_sheets": [
+            "template_7qUy8MZy",
+            "template_UcVuO2Vw",
+            "template_nonwmDUc",
+            "template_ylZwMIzb",
+            "template_wptPEo9w",
+            "template_VpZd3yDY"
+        ],
+        "table_database_templates": [
+            {
+                "uid": "template_7qUy8MZy",
+                "name": "时空表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_tlUICorcfRZb7qFa",
+                        "cell_undefined_T9azXgWe9FHBe9pa",
+                        "cell_undefined_luwjKcPeyVz9vHqr",
+                        "cell_undefined_UY6rMFzJqS0riNEK",
+                        "cell_undefined_uvWNNz0vMZfnX5a9"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_tlUICorcfRZb7qFa",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_X1f8H1ppM3VIiww",
+                        "data": {
+                            "note": "记录时空信息的表格，应保持在一行",
+                            "initNode": "本轮需要记录当前时间、地点、人物信息，使用insertRow函数",
+                            "deleteNode": "此表大于一行时应删除多余行",
+                            "updateNode": "当描写的场景，时间，人物变更时"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_T9azXgWe9FHBe9pa",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_nqniP9O7IpdvSiZ",
+                        "data": {
+                            "value": "日期"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_luwjKcPeyVz9vHqr",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_tYC3j5ovahTMbZj",
+                        "data": {
+                            "value": "时间"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_UY6rMFzJqS0riNEK",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_r9lhzV0amynlei3",
+                        "data": {
+                            "value": "地点（当前描写）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_uvWNNz0vMZfnX5a9",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_oT4dYCGLIj385hm",
+                        "data": {
+                            "value": "此地角色"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_UcVuO2Vw",
+                "name": "角色特征表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_qOG84AFsWEnL9CnH",
+                        "cell_undefined_aG5Lt6MeUQ1t8kUW",
+                        "cell_undefined_FAoj40VoQPHFCC1l",
+                        "cell_undefined_kSqHxUYekM6f8OXF",
+                        "cell_undefined_0V9kV2uLdlqmd2bB",
+                        "cell_undefined_ynxxk7pm63G3q5kX",
+                        "cell_undefined_q22dgXdE2XCG5iZt",
+                        "cell_undefined_gHNiYu8FeoakcSTl",
+                        "cell_undefined_6uhx53V25tK5H3zL"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_qOG84AFsWEnL9CnH",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_q0gVTxlrwNS02Xv",
+                        "data": {
+                            "note": "角色天生或不易改变的特征csv表格，思考本轮有否有其中的角色，他应作出什么反应",
+                            "initNode": "本轮必须从上文寻找已知的所有角色使用insertRow插入，角色名不能为空",
+                            "deleteNode": "",
+                            "updateNode": "当角色的身体出现持久性变化时，例如伤痕/当角色有新的爱好，职业，喜欢的事物时/当角色更换住所时/当角色提到重要信息时",
+                            "insertNode": "当本轮出现表中没有的新角色时，应插入"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_aG5Lt6MeUQ1t8kUW",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_tzyXj2jVNq3MQUI",
+                        "data": {
+                            "value": "角色名"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_FAoj40VoQPHFCC1l",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_G297OU9b5lEF2eY",
+                        "data": {
+                            "value": "身体特征"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_kSqHxUYekM6f8OXF",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_HwgbBLVRPGFHC4J",
+                        "data": {
+                            "value": "性格"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_0V9kV2uLdlqmd2bB",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_Y4TmS5f5mVjzBVn",
+                        "data": {
+                            "value": "职业"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_ynxxk7pm63G3q5kX",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_DBPTd4FqIe5vJvr",
+                        "data": {
+                            "value": "爱好"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_q22dgXdE2XCG5iZt",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_SwO25g0gibBqePy",
+                        "data": {
+                            "value": "喜欢的事物（作品、虚拟人物、物品等）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_gHNiYu8FeoakcSTl",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_WWr2IPxqHv5vis6",
+                        "data": {
+                            "value": "住所"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_6uhx53V25tK5H3zL",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_NbnDbjYv96JaLXp",
+                        "data": {
+                            "value": "其他重要信息"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_nonwmDUc",
+                "name": "角色与<user>社交表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_uA8nePkOBekFvdGY",
+                        "cell_undefined_olcS5z0aXeIaFU3M",
+                        "cell_undefined_pWDPdgehaN2pUOE9",
+                        "cell_undefined_3dxE9qM9gRBAqAIT",
+                        "cell_undefined_4pRK4Hf4CSTN1oyC"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_uA8nePkOBekFvdGY",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_k5067AlOGZwSnx0",
+                        "data": {
+                            "note": "思考如果有角色和<user>互动，应什么态度",
+                            "initNode": "本轮必须从上文寻找已知的所有角色使用insertRow插入，角色名不能为空",
+                            "deleteNode": "",
+                            "updateNode": "当角色和<user>的交互不再符合原有的记录时/当角色和<user>的关系改变时",
+                            "insertNode": "当本轮出现表中没有的新角色时，应插入"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_olcS5z0aXeIaFU3M",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_4ODWk8dGHBvtXpN",
+                        "data": {
+                            "value": "角色名"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_pWDPdgehaN2pUOE9",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_Tc42MZ7qaSvIYXH",
+                        "data": {
+                            "value": "对<user>关系"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_3dxE9qM9gRBAqAIT",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_axh5tDVDLWN1lBd",
+                        "data": {
+                            "value": "对<user>态度"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_4pRK4Hf4CSTN1oyC",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_8Xg6RzTL4mF38ob",
+                        "data": {
+                            "value": "对<user>好感"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_ylZwMIzb",
+                "name": "任务、命令或者约定表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": false,
+                "hashSheet": [
+                    [
+                        "cell_undefined_OWLR6j8GgAeD2Cg1",
+                        "cell_undefined_dpmc1b2rEJugjd7p",
+                        "cell_undefined_rqliAPDDrhsJ1eQS",
+                        "cell_undefined_sExZhc0g0ywvnIgs",
+                        "cell_undefined_8DZtTnCOpxqv0UHu"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_OWLR6j8GgAeD2Cg1",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_ealWpr2TXC7ZWrv",
+                        "data": {
+                            "note": "思考本轮是否应该执行任务/赴约",
+                            "deleteNode": "当大家赴约时/任务或命令完成时/任务，命令或约定被取消时",
+                            "updateNode": "",
+                            "insertNode": "当特定时间约定一起去做某事时/某角色收到做某事的命令或任务时"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_dpmc1b2rEJugjd7p",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_CZsXkx50DmCAEwt",
+                        "data": {
+                            "value": "角色"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_rqliAPDDrhsJ1eQS",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_zWjDxHiXNRxWRpe",
+                        "data": {
+                            "value": "任务"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_sExZhc0g0ywvnIgs",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_T0bGfoIH1FdkkAT",
+                        "data": {
+                            "value": "地点"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_8DZtTnCOpxqv0UHu",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_14NkEGU1QYhWrYX",
+                        "data": {
+                            "value": "持续时间"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_wptPEo9w",
+                "name": "重要事件历史表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_Ezi7pk6WNCw3kl0M",
+                        "cell_undefined_EvVI6X7qEf5Lcucc",
+                        "cell_undefined_79pEkeSWqXTmS99P",
+                        "cell_undefined_hUB9r3PiTpmnHgKr",
+                        "cell_undefined_hyRNeViWfTvn6WRK",
+                        "cell_undefined_2RrilxcTLK9kkEin"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_Ezi7pk6WNCw3kl0M",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_UVZ5WPapZDFSNkR",
+                        "data": {
+                            "note": "记录<user>或角色经历的重要事件",
+                            "initNode": "本轮必须从上文寻找可以插入的事件并使用insertRow插入",
+                            "deleteNode": "",
+                            "updateNode": "",
+                            "insertNode": "当某个角色经历让自己印象深刻的事件时，比如表白、分手等"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_EvVI6X7qEf5Lcucc",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_gSA3HrfCh4MKC0z",
+                        "data": {
+                            "value": "角色"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_79pEkeSWqXTmS99P",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_pwUW94gHmVKsAAV",
+                        "data": {
+                            "value": "事件简述"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_hUB9r3PiTpmnHgKr",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_YBXTchrzAFWok2J",
+                        "data": {
+                            "value": "日期"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_hyRNeViWfTvn6WRK",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_IOHgYevE5eP4cgR",
+                        "data": {
+                            "value": "地点"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_2RrilxcTLK9kkEin",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_iFYIZwUb22r6gQ5",
+                        "data": {
+                            "value": "情绪"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_VpZd3yDY",
+                "name": "重要物品表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": false,
+                "hashSheet": [
+                    [
+                        "cell_undefined_xlpxlyDBHeTA12uG",
+                        "cell_undefined_JzFOBAfkQaJp3cpv",
+                        "cell_undefined_b23O9hAiE491oJh3",
+                        "cell_undefined_crCt2VaSuj1wpwPU",
+                        "cell_undefined_yY6DWB9Zzl8g4eiz"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_xlpxlyDBHeTA12uG",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_I4fX9eu0IIYF1oj",
+                        "data": {
+                            "note": "对某人很贵重或有特殊纪念意义的物品",
+                            "deleteNode": "",
+                            "updateNode": "",
+                            "insertNode": "当某人获得了贵重或有特殊意义的物品时/当某个已有物品有了特殊意义时"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_JzFOBAfkQaJp3cpv",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_p7xl5sIAoUX2Dj1",
+                        "data": {
+                            "value": "拥有人"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_b23O9hAiE491oJh3",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_RmMweeMWxO1nbdT",
+                        "data": {
+                            "value": "物品描述"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_crCt2VaSuj1wpwPU",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_kzJKClRq8dKhHzX",
+                        "data": {
+                            "value": "物品名"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_yY6DWB9Zzl8g4eiz",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_pA4VIS4wTpbwHQv",
+                        "data": {
+                            "value": "重要原因"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            }
+        ],
+        "muyoo_dataTable": {
+            "updateIndex": 4
+        }
+    },
+    "extension_settings": {
+        "apiUrl": "http://localhost:5100",
+        "apiKey": "",
+        "autoConnect": false,
+        "notifyUpdates": false,
+        "disabledExtensions": [],
+        "expressionOverrides": [],
+        "memory": {
+            "minLongMemory": 16,
+            "maxLongMemory": 1024,
+            "longMemoryLength": 128,
+            "shortMemoryLength": 512,
+            "minShortMemory": 128,
+            "maxShortMemory": 1024,
+            "shortMemoryStep": 16,
+            "longMemoryStep": 8,
+            "repetitionPenaltyStep": 0.05,
+            "repetitionPenalty": 1.2,
+            "maxRepetitionPenalty": 2,
+            "minRepetitionPenalty": 1,
+            "temperature": 1,
+            "minTemperature": 0.1,
+            "maxTemperature": 2,
+            "temperatureStep": 0.05,
+            "lengthPenalty": 1,
+            "minLengthPenalty": -4,
+            "maxLengthPenalty": 4,
+            "lengthPenaltyStep": 0.1,
+            "memoryFrozen": false,
+            "source": "extras",
+            "prompt": "Ignore previous instructions. Summarize the most important facts and events in the story so far. If a summary already exists in your memory, use that as a base and expand with new facts. Limit the summary to {{words}} words or less. Your response should include nothing but the summary.",
+            "promptWords": 200,
+            "promptMinWords": 25,
+            "promptMaxWords": 1000,
+            "promptWordsStep": 25,
+            "promptInterval": 10,
+            "promptMinInterval": 1,
+            "promptMaxInterval": 100,
+            "promptIntervalStep": 1,
+            "template": "[Summary: {{summary}}]",
+            "position": 0,
+            "depth": 2,
+            "promptForceWords": 0,
+            "promptForceWordsStep": 100,
+            "promptMinForceWords": 0,
+            "promptMaxForceWords": 10000,
+            "SkipWIAN": false,
+            "role": 0,
+            "scan": false,
+            "overrideResponseLength": 0,
+            "overrideResponseLengthMin": 0,
+            "overrideResponseLengthMax": 4096,
+            "overrideResponseLengthStep": 16,
+            "maxMessagesPerRequest": 0,
+            "maxMessagesPerRequestMin": 0,
+            "maxMessagesPerRequestMax": 250,
+            "maxMessagesPerRequestStep": 1,
+            "prompt_builder": 0
+        },
+        "note": {
+            "default": "",
+            "chara": [],
+            "wiAddition": []
+        },
+        "caption": {
+            "refine_mode": false,
+            "source": "extras",
+            "multimodal_api": "openai",
+            "multimodal_model": "gpt-4-turbo",
+            "prompt": "What's in this image?",
+            "template": "[{{user}} sends {{char}} a picture that contains: {{caption}}]"
+        },
+        "expressions": {
+            "showDefault": false,
+            "api": 99,
+            "llmPrompt": "Ignore previous instructions. Classify the emotion of the last message. Output just one word, e.g. \"joy\" or \"anger\". Choose only one of the following labels: {{labels}}",
+            "allowMultiple": true,
+            "custom": []
+        },
+        "connectionManager": {
+            "selectedProfile": "",
+            "profiles": []
+        },
+        "dice": {},
+        "regex": [
+            {
+                "id": "7b24b9bd-cc6d-44c4-8e6c-4f84b76cd144",
+                "scriptName": "【可更新手机】会自动更新的手机",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "MiPhone_start([\\s\\S]+?)MiPhone_end",
+                "replaceString": "```\n\n<body>\n    <script type=\"module\">\n        const urls = [`https://sharkpan.xyz/f/1BEot2/index.html`]\n        function Http_Get(url) {\n            return new Promise((resolve, reject) => {\n                $.ajax({\n                    url: url,\n                    method: 'GET',\n                    timeout: 5000,\n                    success: function (data, status) {\n                        resolve(data); // 成功时返回数据\n                    },\n                    error: function (xhr, status, error) {\n                        if (status === 'timeout') {\n                            console.error('请求超时，请检查网络或重试');\n                        } else {\n                            console.error('请求失败，错误信息：', error);\n                        }\n                        resolve(null);\n                    }\n                });\n            });\n        }\n\n        async function Load() {\n            for (const url of urls) {\n                for (let i = 0; i < 3; i++) {\n                    try {\n                        const html = await Http_Get(url);\n                        if (html && html.indexOf(\"MiPhone\") > 0) {\n                            $(\"body\").html(html);\n                            return;\n                        }\n                    } catch (e) {\n\n                    }\n                }\n            }\n            triggerSlash(`/echo severity=error 界面加载失败,请检查网络问题`);\n        }\n        Load();\n    </script>\n</body>\n```",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 0,
+                "markdownOnly": true,
+                "promptOnly": false
+            },
+            {
+                "id": "d4827411-edbe-4ca2-95fc-1db77d62700f",
+                "scriptName": "【文字特效】美化省token",
+                "disabled": false,
+                "runOnEdit": true,
+                "findRegex": "/<[^>]*>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            }
+        ],
+        "character_allowed_regex": [],
+        "tts": {
+            "voiceMap": "",
+            "ttsEnabled": false,
+            "currentProvider": "System",
+            "auto_generation": true,
+            "ElevenLabs": {},
+            "System": {},
+            "narrate_user": false,
+            "playback_rate": 1
+        },
+        "sd": {
+            "scale_min": 1,
+            "scale_max": 30,
+            "scale_step": 0.5,
+            "scale": 7,
+            "steps_min": 1,
+            "steps_max": 150,
+            "steps_step": 1,
+            "steps": 20,
+            "dimension_min": 64,
+            "dimension_max": 2048,
+            "dimension_step": 64,
+            "width": 512,
+            "height": 512,
+            "prompt_prefix": "best quality, absurdres, masterpiece,",
+            "negative_prompt": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+            "sampler": "DDIM",
+            "model": "",
+            "restore_faces": false,
+            "enable_hr": false,
+            "horde": true,
+            "horde_nsfw": false,
+            "horde_karras": true,
+            "refine_mode": false,
+            "prompts": {
+                "0": "In the next response I want you to provide only a detailed comma-delimited list of keywords and phrases which describe {{char}}. The list must include all of the following items in this order: name, species and race, gender, age, clothing, occupation, physical features and appearances. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'full body portrait,'",
+                "1": "Ignore previous instructions and provide a detailed description of {{user}}'s physical appearance from the perspective of {{char}} in the form of a comma-delimited list of keywords and phrases. The list must include all of the following items in this order: name, species and race, gender, age, clothing, occupation, physical features and appearances. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'full body portrait,'. Ignore the rest of the story when crafting this description. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "2": "Ignore previous instructions and provide a detailed description for all of the following: a brief recap of recent events in the story, {{char}}'s appearance, and {{char}}'s surroundings. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "3": "Ignore previous instructions and provide ONLY the last chat message string back to me verbatim. Do not write anything after the string. Do not reply as {{char}} when writing this description, and do not attempt to continue the story.",
+                "4": "Ignore previous instructions. Your next response must be formatted as a single comma-delimited list of concise keywords.  The list will describe of the visual details included in the last chat message.\n\n    Only mention characters by using pronouns ('he','his','she','her','it','its') or neutral nouns ('male', 'the man', 'female', 'the woman').\n\n    Ignore non-visible things such as feelings, personality traits, thoughts, and spoken dialog.\n\n    Add keywords in this precise order:\n    a keyword to describe the location of the scene,\n    a keyword to mention how many characters of each gender or type are present in the scene (minimum of two characters:\n    {{user}} and {{char}}, example: '2 men ' or '1 man 1 woman ', '1 man 3 robots'),\n\n    keywords to describe the relative physical positioning of the characters to each other (if a commonly known term for the positioning is known use it instead of describing the positioning in detail) + 'POV',\n\n    a single keyword or phrase to describe the primary act taking place in the last chat message,\n\n    keywords to describe {{char}}'s physical appearance and facial expression,\n    keywords to describe {{char}}'s actions,\n    keywords to describe {{user}}'s physical appearance and actions.\n\n    If character actions involve direct physical interaction with another character, mention specifically which body parts interacting and how.\n\n    A correctly formatted example response would be:\n    '(location),(character list by gender),(primary action), (relative character position) POV, (character 1's description and actions), (character 2's description and actions)'",
+                "5": "In the next response I want you to provide only a detailed comma-delimited list of keywords and phrases which describe {{char}}. The list must include all of the following items in this order: name, species and race, gender, age, facial features and expressions, occupation, hair and hair accessories (if any), what they are wearing on their upper body (if anything). Do not describe anything below their neck. Do not include descriptions of non-visual qualities such as personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'close up facial portrait,'",
+                "7": "Ignore previous instructions and provide a detailed description of {{char}}'s surroundings in the form of a comma-delimited list of keywords and phrases. The list must include all of the following items in this order: location, time of day, weather, lighting, and any other relevant details. Do not include descriptions of characters and non-visual qualities such as names, personality, movements, scents, mental traits, or anything which could not be seen in a still photograph. Do not write in full sentences. Prefix your description with the phrase 'background,'. Ignore the rest of the story when crafting this description. Do not reply as {{user}} when writing this description, and do not attempt to continue the story.",
+                "8": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"full body portrait\".",
+                "9": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"full body portrait\".",
+                "10": "Provide an exhaustive comma-separated list of tags describing the appearance of the character on this image in great detail. Start with \"close-up portrait\".",
+                "11": "Ignore previous instructions and provide an exhaustive comma-separated list of tags describing the appearance of \"{0}\" in great detail. Start with {{charPrefix}} (sic) if the subject is associated with {{char}}.",
+                "-1": "[{{char}} sends a picture that contains: {{prompt}}].",
+                "-2": "The text prompt used to generate the image. Must represent an exhaustive description of the desired image that will allow an artist or a photographer to perfectly recreate it."
+            },
+            "character_prompts": {},
+            "source": "extras",
+            "scheduler": "normal",
+            "vae": "",
+            "seed": -1,
+            "adetailer_face": false,
+            "horde_sanitize": true,
+            "interactive_mode": false,
+            "multimodal_captioning": false,
+            "snap": false,
+            "free_extend": false,
+            "function_tool": false,
+            "auto_url": "http://localhost:7860",
+            "auto_auth": "",
+            "vlad_url": "http://localhost:7860",
+            "vlad_auth": "",
+            "drawthings_url": "http://localhost:7860",
+            "drawthings_auth": "",
+            "hr_upscaler": "Latent",
+            "hr_scale": 1,
+            "hr_scale_min": 1,
+            "hr_scale_max": 4,
+            "hr_scale_step": 0.1,
+            "denoising_strength": 0.7,
+            "denoising_strength_min": 0,
+            "denoising_strength_max": 1,
+            "denoising_strength_step": 0.01,
+            "hr_second_pass_steps": 0,
+            "hr_second_pass_steps_min": 0,
+            "hr_second_pass_steps_max": 150,
+            "hr_second_pass_steps_step": 1,
+            "clip_skip_min": 1,
+            "clip_skip_max": 12,
+            "clip_skip_step": 1,
+            "clip_skip": 1,
+            "novel_anlas_guard": false,
+            "novel_sm": false,
+            "novel_sm_dyn": false,
+            "novel_decrisper": false,
+            "openai_style": "vivid",
+            "openai_quality": "standard",
+            "style": "Default",
+            "styles": [
+                {
+                    "name": "Default",
+                    "negative": "lowres, bad anatomy, bad hands, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+                    "prefix": "best quality, absurdres, aesthetic,"
+                }
+            ],
+            "comfy_url": "http://127.0.0.1:8188",
+            "comfy_workflow": "Default_Comfy_Workflow.json",
+            "pollinations_enhance": false,
+            "wand_visible": false,
+            "command_visible": false,
+            "interactive_visible": false,
+            "tool_visible": false,
+            "stability_style_preset": "anime",
+            "bfl_upsampling": false,
+            "character_negative_prompts": {}
+        },
+        "chromadb": {},
+        "translate": {
+            "target_language": "en",
+            "internal_language": "en",
+            "provider": "google",
+            "auto_mode": "none",
+            "deepl_endpoint": "free"
+        },
+        "objective": {
+            "customPrompts": {
+                "default": {
+                    "createTask": "Ignore previous instructions and generate a list of tasks to complete an objective. Your next response must be formatted as a numbered list of plain text entries. Do not include anything but the numbered list. The list must be prioritized in the order that tasks must be completed.\n\nThe objective that you must make a numbered task list for is: [{{objective}}].\nThe tasks created should take into account the character traits of {{char}}. These tasks may or may not involve {{user}} directly. Be sure to include the objective as the final task.\n\nGiven an example objective of 'Make me a four course dinner', here is an example output:\n1. Determine what the courses will be\n2. Find recipes for each course\n3. Go shopping for supplies with {{user}}\n4. Cook the food\n5. Get {{user}} to set the table\n6. Serve the food\n7. Enjoy eating the meal with {{user}}\n    ",
+                    "checkTaskCompleted": "Ignore previous instructions. Determine if this task is completed: [{{task}}].\nTo do this, examine the most recent messages. Your response must only contain either true or false, nothing other words.\nExample output:\ntrue\n    ",
+                    "currentTask": "Your current task is [{{task}}]. Balance existing story with completing this task."
+                }
+            }
+        },
+        "quickReply": {
+            "quickReplyEnabled": false,
+            "numberOfSlots": 5,
+            "quickReplySlots": [
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                },
+                {
+                    "mes": "",
+                    "label": "",
+                    "enabled": true
+                }
+            ]
+        },
+        "randomizer": {
+            "controls": [],
+            "fluctuation": 0.1,
+            "enabled": false
+        },
+        "speech_recognition": {
+            "currentProvider": "None",
+            "messageMode": "append",
+            "messageMappingText": "",
+            "messageMapping": [],
+            "messageMappingEnabled": false,
+            "None": {}
+        },
+        "rvc": {
+            "enabled": false,
+            "model": "",
+            "pitchOffset": 0,
+            "pitchExtraction": "dio",
+            "indexRate": 0.88,
+            "filterRadius": 3,
+            "rmsMixRate": 1,
+            "protect": 0.33,
+            "voicMapText": "",
+            "voiceMap": {}
+        },
+        "hypebot": {},
+        "vectors": {},
+        "variables": {
+            "global": {}
+        },
+        "attachments": [],
+        "character_attachments": {},
+        "disabled_attachments": [],
+        "gallery": {
+            "folders": {},
+            "sort": "dateAsc"
+        },
+        "cfg": {
+            "global": {
+                "guidance_scale": 1,
+                "negative_prompt": ""
+            },
+            "chara": []
+        },
+        "quickReplyV2": {
+            "isEnabled": false,
+            "isCombined": false,
+            "isPopout": false,
+            "config": {
+                "setList": [
+                    {
+                        "set": "Default",
+                        "isVisible": true
+                    }
+                ]
+            }
+        },
+        "hide": {
+            "enabled": true,
+            "settings_by_entity": {
+                "character-机动战士高达-SEED V1.2.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 3,
+                    "userConfigured": true
+                },
+                "character-机动战士高达-SEED V1.2_1.png": {
+                    "hideLastN": 10,
+                    "lastProcessedLength": 15,
+                    "userConfigured": true
+                }
+            },
+            "migration_v1_complete": true,
+            "useGlobalSettings": false,
+            "globalHideSettings": {
+                "hideLastN": 0,
+                "lastProcessedLength": 0,
+                "userConfigured": false
+            }
+        },
+        "TavernHelper": {
+            "enabled_extension": true,
+            "render": {
+                "render_enabled": true,
+                "tampermonkey_compatibility": false,
+                "render_depth": 0,
+                "render_optimize": false
+            },
+            "script": {
+                "global_script_enabled": true,
+                "scriptsRepository": [],
+                "characters_with_scripts": []
+            },
+            "audio": {
+                "audio_enabled": true,
+                "bgm_enabled": true,
+                "ambient_enabled": true,
+                "bgm_mode": "repeat",
+                "bgm_muted": false,
+                "bgm_volume": 50,
+                "bgm_selected": null,
+                "bgm_current_time": 0,
+                "ambient_mode": "stop",
+                "ambient_muted": false,
+                "ambient_volume": 50,
+                "ambient_selected": null,
+                "ambient_current_time": 0,
+                "audio_cooldown": 0
+            },
+            "listener": {
+                "enabled": false,
+                "enable_echo": true,
+                "url": "http://localhost:6621",
+                "duration": 1000
+            }
+        }
+    },
+    "tags": [
+        {
+            "id": "1345561466591",
+            "name": "ST Default",
+            "color": "rgba(108, 32, 32, 1)"
+        }
+    ],
+    "tag_map": {
+        "default_Seraphina.png": [
+            "1345561466591"
+        ],
+        "null": [],
+        "[前端]调教状态栏+选项.png": [],
+        "「系统Z-09」.png": [],
+        "【高度美化】游戏界面.png": [],
+        "露出世界.png": [],
+        "24H1.png": [],
+        "白化蓝染的日记本.png": [],
+        "被GM之神选中的我们的无尽冒险谭.png": [],
+        "卜卜.png": [],
+        "岑芷.png": [],
+        "穿越修真界被四个天命之子当炉鼎.png": [],
+        "地图导航模块3.0.png": [],
+        "堕落吧，魔法少女.png": [],
+        "凡人修仙传之又起天南·我的内门弟子母亲.png": [],
+        "高达00模拟器.png": [],
+        "哥谭模拟器.png": [],
+        "顾云汐.png": [],
+        "霍格兰德大陆.png": [],
+        "机动战士高达-SEED V1.2.png": [],
+        "机动战士高达-SEED V1.2_1.png": [],
+        "机动战士高达-UC纪元.png": [],
+        "绝望黎明：未知命运.png": [],
+        "看看他或她怎么想吧~.png": [],
+        "可视化地图导航.png": [],
+        "流式传输.png": [],
+        "罗落大陆.png": [],
+        "妙妙小剧场2.3.png": [],
+        "上野花.png": [],
+        "实时修改css.png": [],
+        "霜影剑歌行.png": [],
+        "万界聊天群“真语阁”.png": [],
+        "小魅穿书系统.png": [],
+        "修仙玄幻世界.png": [],
+        "异世界冒险模拟器.png": [],
+        "异世界冒险模拟器1.png": [],
+        "欲望天际.png": [],
+        "正则加世界书，按向上箭头将局部正则全部移到全局，并将世界书改为全局.png": [],
+        "总结.png": [],
+        "Character Builder v1.3.png": [],
+        "fuhufox的亚种圣杯战争.png": [],
+        "infinite.png": [],
+        "infinite2.png": [],
+        "infinite3-贝露.png": [],
+        "Mori.png": [],
+        "test.png": [],
+        "test1.png": [],
+        "vrmmo.png": [],
+        "World Builder V1.4.png": [],
+        "WorldofHorror.png": []
+    },
+    "nai_settings": {
+        "temperature": 1.5,
+        "repetition_penalty": 2.25,
+        "repetition_penalty_range": 2048,
+        "repetition_penalty_slope": 0.09,
+        "repetition_penalty_frequency": 0,
+        "repetition_penalty_presence": 0.005,
+        "tail_free_sampling": 0.975,
+        "top_k": 10,
+        "top_p": 0.75,
+        "top_a": 0.08,
+        "typical_p": 0.975,
+        "min_p": 0,
+        "math1_temp": 1,
+        "math1_quad": 0,
+        "math1_quad_entropy_scale": 0,
+        "min_length": 1,
+        "model_novel": "clio-v1",
+        "preset_settings_novel": "Talker-Chat-Clio",
+        "streaming_novel": true,
+        "preamble": "[ Style: chat, complex, sensory, visceral ]",
+        "banned_tokens": "",
+        "order": [
+            1,
+            5,
+            0,
+            2,
+            3,
+            4
+        ],
+        "logit_bias": []
+    },
+    "kai_settings": {
+        "temp": 1.15,
+        "rep_pen": 1.05,
+        "rep_pen_range": 2048,
+        "top_p": 0.95,
+        "min_p": 0,
+        "top_a": 0,
+        "top_k": 0,
+        "typical": 1,
+        "tfs": 0.8,
+        "rep_pen_slope": 7,
+        "streaming_kobold": false,
+        "sampler_order": [
+            6,
+            3,
+            2,
+            0,
+            5,
+            1,
+            4
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5,
+        "mirostat_eta": 0.1,
+        "use_default_badwordsids": false,
+        "grammar": "",
+        "seed": -1
+    },
+    "oai_settings": {
+        "preset_settings_openai": "Default",
+        "temp_openai": 1,
+        "freq_pen_openai": 0,
+        "pres_pen_openai": 0,
+        "top_p_openai": 1,
+        "top_k_openai": 0,
+        "min_p_openai": 0,
+        "top_a_openai": 0,
+        "repetition_penalty_openai": 1,
+        "stream_openai": true,
+        "openai_max_context": 4095,
+        "openai_max_tokens": 300,
+        "wrap_in_quotes": false,
+        "prompts": [
+            {
+                "name": "Main Prompt",
+                "system_prompt": true,
+                "role": "system",
+                "content": "Write {{char}}'s next reply in a fictional chat between {{char}} and {{user}}.",
+                "identifier": "main"
+            },
+            {
+                "name": "Auxiliary Prompt",
+                "system_prompt": true,
+                "role": "system",
+                "content": "",
+                "identifier": "nsfw"
+            },
+            {
+                "identifier": "dialogueExamples",
+                "name": "Chat Examples",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "name": "Post-History Instructions",
+                "system_prompt": true,
+                "role": "system",
+                "content": "",
+                "identifier": "jailbreak"
+            },
+            {
+                "identifier": "chatHistory",
+                "name": "Chat History",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "worldInfoAfter",
+                "name": "World Info (after)",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "worldInfoBefore",
+                "name": "World Info (before)",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "enhanceDefinitions",
+                "role": "system",
+                "name": "Enhance Definitions",
+                "content": "If you have more knowledge of {{char}}, add to the character's lore and personality to enhance them but keep the Character Sheet's definitions absolute.",
+                "system_prompt": true,
+                "marker": false
+            },
+            {
+                "identifier": "charDescription",
+                "name": "Char Description",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "charPersonality",
+                "name": "Char Personality",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "scenario",
+                "name": "Scenario",
+                "system_prompt": true,
+                "marker": true
+            },
+            {
+                "identifier": "personaDescription",
+                "name": "Persona Description",
+                "system_prompt": true,
+                "marker": true
+            }
+        ],
+        "prompt_order": [
+            {
+                "character_id": 100000,
+                "order": [
+                    {
+                        "identifier": "main",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoBefore",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charPersonality",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "scenario",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "enhanceDefinitions",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "nsfw",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoAfter",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "dialogueExamples",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "chatHistory",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "jailbreak",
+                        "enabled": true
+                    }
+                ]
+            },
+            {
+                "character_id": 100001,
+                "order": [
+                    {
+                        "identifier": "main",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoBefore",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "personaDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charDescription",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "charPersonality",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "scenario",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "enhanceDefinitions",
+                        "enabled": false
+                    },
+                    {
+                        "identifier": "nsfw",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "worldInfoAfter",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "dialogueExamples",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "chatHistory",
+                        "enabled": true
+                    },
+                    {
+                        "identifier": "jailbreak",
+                        "enabled": true
+                    }
+                ]
+            }
+        ],
+        "send_if_empty": "",
+        "impersonation_prompt": "[Write your next reply from the point of view of {{user}}, using the chat history so far as a guideline for the writing style of {{user}}. Write 1 reply only in internet RP style. Don't write as {{char}} or system. Don't describe actions of {{char}}.]",
+        "new_chat_prompt": "[Start a new Chat]",
+        "new_group_chat_prompt": "[Start a new group chat. Group members: {{group}}]",
+        "new_example_chat_prompt": "[Example Chat]",
+        "continue_nudge_prompt": "[Continue your last message without repeating its original content.]",
+        "bias_preset_selected": "Default (none)",
+        "bias_presets": {
+            "Default (none)": [],
+            "Anti-bond": [
+                {
+                    "id": "22154f79-dd98-41bc-8e34-87015d6a0eaf",
+                    "text": " bond",
+                    "value": -50
+                },
+                {
+                    "id": "8ad2d5c4-d8ef-49e4-bc5e-13e7f4690e0f",
+                    "text": " future",
+                    "value": -50
+                },
+                {
+                    "id": "52a4b280-0956-4940-ac52-4111f83e4046",
+                    "text": " bonding",
+                    "value": -50
+                },
+                {
+                    "id": "e63037c7-c9d1-4724-ab2d-7756008b433b",
+                    "text": " connection",
+                    "value": -25
+                }
+            ]
+        },
+        "wi_format": "{0}",
+        "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
+        "scenario_format": "{{scenario}}",
+        "personality_format": "{{personality}}",
+        "openai_model": "gpt-4-turbo",
+        "claude_model": "claude-3-5-sonnet-20240620",
+        "google_model": "gemini-1.5-pro",
+        "ai21_model": "jamba-1.5-large",
+        "mistralai_model": "mistral-large-latest",
+        "cohere_model": "command-r-plus",
+        "perplexity_model": "sonar-pro",
+        "groq_model": "llama-3.3-70b-versatile",
+        "nanogpt_model": "gpt-4o-mini",
+        "zerooneai_model": "yi-large",
+        "deepseek_model": "deepseek-chat",
+        "xai_model": "grok-3-beta",
+        "pollinations_model": "openai",
+        "custom_model": "gemini-2.5-flash-preview-05-20",
+        "custom_url": "https://apisk.kfcvivo50.ggff.net/v1",
+        "custom_include_body": "",
+        "custom_exclude_body": "",
+        "custom_include_headers": "",
+        "windowai_model": "",
+        "openrouter_model": "OR_Website",
+        "openrouter_use_fallback": false,
+        "openrouter_group_models": false,
+        "openrouter_sort_models": "alphabetically",
+        "openrouter_providers": [],
+        "openrouter_allow_fallbacks": true,
+        "openrouter_middleout": "on",
+        "reverse_proxy": "",
+        "chat_completion_source": "custom",
+        "max_context_unlocked": false,
+        "api_url_scale": "",
+        "show_external_models": false,
+        "proxy_password": "",
+        "assistant_prefill": "",
+        "assistant_impersonation": "",
+        "claude_use_sysprompt": false,
+        "use_makersuite_sysprompt": true,
+        "use_alt_scale": false,
+        "squash_system_messages": false,
+        "image_inlining": false,
+        "inline_image_quality": "low",
+        "bypass_status_check": false,
+        "continue_prefill": false,
+        "function_calling": false,
+        "names_behavior": 0,
+        "continue_postfix": " ",
+        "custom_prompt_post_processing": "merge",
+        "show_thoughts": true,
+        "reasoning_effort": "auto",
+        "enable_web_search": false,
+        "request_images": false,
+        "seed": -1,
+        "n": 1,
+        "bind_preset_to_connection": true
+    },
+    "background": {
+        "name": "cityscape medieval night.jpg",
+        "url": "url(\"backgrounds/cityscape%20medieval%20night.jpg\")",
+        "fitting": "classic"
+    },
+    "proxies": [
+        {
+            "name": "None",
+            "url": "",
+            "password": ""
+        }
+    ],
+    "selected_proxy": {
+        "name": "None",
+        "url": "",
+        "password": ""
+    }
+}

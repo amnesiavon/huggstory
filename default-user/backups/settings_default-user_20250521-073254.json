@@ -19,8 +19,7 @@
         "world_info": {
             "globalSelect": [
                 "针对2.5pro的瑟瑟场景 (2)",
-                "文本效果增强",
-                "角色推进世界书色情DLC"
+                "文本效果增强"
             ]
         },
         "world_info_depth": 2,
@@ -3217,7 +3216,7 @@
                     },
                     {
                         "identifier": "81e3b816-db7d-40f3-ba36-c624369c4393",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "6a3d9478-af66-4f4f-9205-6929b4a6334d",
@@ -3277,11 +3276,11 @@
                     },
                     {
                         "identifier": "496ae724-3342-4e88-a340-7ca0a53d24ac",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "ab53ce47-16da-4e2e-ad7e-8069dd44292e",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "4d3cee55-99cb-4b18-bc48-4cec0776b17d",
@@ -3309,11 +3308,11 @@
                     },
                     {
                         "identifier": "d94598e3-8f43-4eed-abb6-8f80f5061236",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "86fb7259-ab57-4ba2-8703-eca079e28494",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "310567a1-e50b-466e-88ac-5481e2ce207a",
@@ -3361,11 +3360,11 @@
                     },
                     {
                         "identifier": "d9e6eb68-cd1f-405f-89f1-e0f56071ec2c",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "5cc5bd45-8ba9-47c2-bdc3-7c930f18b029",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "51e5fe9a-2c44-4d91-acca-f18f63fe77eb",
@@ -3413,7 +3412,7 @@
                     },
                     {
                         "identifier": "59fad03f-cb63-485e-a46b-9db1d547a14d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "4442fe8b-931d-44b2-bbfb-68cf206f1423",
@@ -3429,7 +3428,7 @@
                     },
                     {
                         "identifier": "2bfc56d5-afc4-4386-8c21-4fdd036f727a",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "bfaa1314-6314-4f3a-af29-b54707f0c384",
